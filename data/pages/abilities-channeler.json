@@ -1,0 +1,103 @@
+{
+  "id": "abilities-channeler",
+  "title": "Channeler Abilities",
+  "subtitle": "Channeler kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Channeler"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Rift caster. Manipulate dimensional energy, reshape the battlefield. Abilities focus on enhancing casting, zone control, and turning toxicity into tactical advantage.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Sense (Passive):</strong> Detect dimensional anomalies, hidden rift creatures, and toxicity concentrations within Medium range without a check."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Focused Cast (Active, 1 AP):</strong> Your next rift pattern this turn gets +2 accuracy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Redirect (Passive):</strong> When you gain Toxicity from casting, redirect 1 point to an enemy within Close range. They gain +1 Toxicity instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Read (Active, 1 AP):</strong> Learn one ability or stat of a target enemy within Medium range. GM reveals one piece of information."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Shield (Active, 1 AP):</strong> Grant an ally within Close range +2 Evasion against the next attack targeting them. You bend local space around them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resonance (Passive):</strong> When you cast a rift pattern that hits, all allies within Close range heal 1 HP. Tiny but persistent — adds up over a long fight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contaminate Ground (Active, 1 AP):</strong> Designate a Close-range zone. Until end of your next turn, enemies that enter or start their turn in the zone gain +1 Toxicity. Area denial."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Anchor (Active, 2 AP):</strong> Place an anchor at your location. Enemies within Close range of it take +2 Toxicity per turn. Lasts until end of your next turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overcharge (Passive):</strong> When casting, voluntarily take +2 Toxicity to add Pen 1 (stacks with existing Pen)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Null Field (Active, 2 AP):</strong> An enemy within Medium range cannot use special abilities until end of your next turn. Attacks still function. You shut down their toolkit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Tether (Active, 1 AP):</strong> Tether an enemy within Medium range. If they move more than 1 range band, they take 1d6 armor-bypassing damage. Lasts until end of your next turn. Pins mobile enemies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Swap (Active, 2 AP):</strong> Swap positions with a willing ally within Medium range. Both of you teleport instantly. Repositioning without movement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feedback Loop (Passive):</strong> When an enemy within Close range casts a rift pattern or uses a magic ability, you regain 1 HP and reduce your Toxicity by 1. You feed on their dimensional output."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Sight (Passive):</strong> You can see invisible, hidden, and dimensionally-phased enemies within Medium range. Stealth doesn’t work against you."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Shatter (Active, 3 AP):</strong> All enemies within Close range make a Grit check (DC 8) or are Stunned. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Mastery (Passive):</strong> All rift patterns cost 1 less Toxicity (minimum 1). Rift Meditation works at any Toxicity level."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Singularity (Active, 3 AP):</strong> Create a gravity well at a point within Medium range. All enemies within Close range of that point are pulled toward it (1 range band) and have their speed reduced to 0 until end of your next turn. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Echo (Passive):</strong> When you cast a rift pattern, you may cast the same pattern again next turn for 0 Toxicity cost (still costs AP). The echo is a free repeat. Once per encounter."
+    }
+  ]
+}

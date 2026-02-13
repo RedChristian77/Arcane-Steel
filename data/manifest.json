@@ -1,0 +1,458 @@
+{
+  "sections": [
+    {
+      "title": "The World",
+      "icon": "🌍",
+      "pages": [
+        {
+          "id": "world-orientation",
+          "title": "Orientation",
+          "file": "pages/world-orientation.json"
+        },
+        {
+          "id": "world-corporations",
+          "title": "How Corporations Work",
+          "file": "pages/world-corporations.json"
+        },
+        {
+          "id": "world-congo",
+          "title": "Congo Industries",
+          "file": "pages/world-congo.json"
+        },
+        {
+          "id": "world-table",
+          "title": "The Crowned Table",
+          "file": "pages/world-table.json"
+        },
+        {
+          "id": "world-pear",
+          "title": "Pear Technologies",
+          "file": "pages/world-pear.json"
+        },
+        {
+          "id": "world-wellspring",
+          "title": "Wellspring Pharma",
+          "file": "pages/world-wellspring.json"
+        },
+        {
+          "id": "world-sentinel",
+          "title": "Sentinel Systems",
+          "file": "pages/world-sentinel.json"
+        },
+        {
+          "id": "world-green-cradle",
+          "title": "Green Cradle",
+          "file": "pages/world-green-cradle.json"
+        },
+        {
+          "id": "world-house-of-mouse",
+          "title": "The House of Mouse",
+          "file": "pages/world-house-of-mouse.json"
+        },
+        {
+          "id": "world-brokers",
+          "title": "Brokers & Factions",
+          "file": "pages/world-brokers.json"
+        },
+        {
+          "id": "world-geography",
+          "title": "Geography & Territories",
+          "file": "pages/world-geography.json"
+        },
+        {
+          "id": "world-daily-life",
+          "title": "Daily Life",
+          "file": "pages/world-daily-life.json"
+        },
+        {
+          "id": "world-species",
+          "title": "Non-Human Species",
+          "file": "pages/world-species.json"
+        },
+        {
+          "id": "world-undercity",
+          "title": "The Undercity",
+          "file": "pages/world-undercity.json"
+        }
+      ]
+    },
+    {
+      "title": "Character Creation",
+      "icon": "👤",
+      "pages": [
+        {
+          "id": "creation-overview",
+          "title": "Overview & Stats",
+          "file": "pages/creation-overview.json"
+        },
+        {
+          "id": "creation-resumes",
+          "title": "Résumés",
+          "file": "pages/creation-resumes.json"
+        },
+        {
+          "id": "creation-kits",
+          "title": "Kits",
+          "file": "pages/creation-kits.json"
+        },
+        {
+          "id": "creation-traits",
+          "title": "Traits",
+          "file": "pages/creation-traits.json"
+        },
+        {
+          "id": "creation-finishing",
+          "title": "Finishing Touches",
+          "file": "pages/creation-finishing.json"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "icon": "📊",
+      "pages": [
+        {
+          "id": "skills-overview",
+          "title": "Skill System",
+          "file": "pages/skills-overview.json"
+        },
+        {
+          "id": "skills-list",
+          "title": "Skill List",
+          "file": "pages/skills-list.json"
+        },
+        {
+          "id": "skills-crafting",
+          "title": "Crafting",
+          "file": "pages/skills-crafting.json"
+        }
+      ]
+    },
+    {
+      "title": "Combat",
+      "icon": "⚔️",
+      "pages": [
+        {
+          "id": "combat-basics",
+          "title": "Basics & Actions",
+          "file": "pages/combat-basics.json"
+        },
+        {
+          "id": "combat-attacks",
+          "title": "Attacks & Damage",
+          "file": "pages/combat-attacks.json"
+        },
+        {
+          "id": "combat-positioning",
+          "title": "Positioning & Movement",
+          "file": "pages/combat-positioning.json"
+        },
+        {
+          "id": "combat-special",
+          "title": "Special Actions",
+          "file": "pages/combat-special.json"
+        },
+        {
+          "id": "combat-advanced",
+          "title": "Advanced Rules",
+          "file": "pages/combat-advanced.json"
+        }
+      ]
+    },
+    {
+      "title": "Equipment",
+      "icon": "🔧",
+      "pages": [
+        {
+          "id": "equipment-weapons",
+          "title": "Weapons",
+          "file": "pages/equipment-weapons.json"
+        },
+        {
+          "id": "equipment-armor",
+          "title": "Armor & Shields",
+          "file": "pages/equipment-armor.json"
+        },
+        {
+          "id": "equipment-consumables",
+          "title": "Consumables & Kits",
+          "file": "pages/equipment-consumables.json"
+        },
+        {
+          "id": "equipment-economy",
+          "title": "Economy & Services",
+          "file": "pages/equipment-economy.json"
+        },
+        {
+          "id": "equipment-vehicles",
+          "title": "Vehicles",
+          "file": "pages/equipment-vehicles.json"
+        }
+      ]
+    },
+    {
+      "title": "Augment Trees",
+      "icon": "🧬",
+      "pages": [
+        {
+          "id": "trees-overview",
+          "title": "How Trees Work",
+          "file": "pages/trees-overview.json"
+        },
+        {
+          "id": "trees-fury",
+          "title": "🔥 Fury",
+          "file": "pages/trees-fury.json"
+        },
+        {
+          "id": "trees-precision",
+          "title": "🎯 Precision",
+          "file": "pages/trees-precision.json"
+        },
+        {
+          "id": "trees-rift",
+          "title": "🌀 Rift",
+          "file": "pages/trees-rift.json"
+        },
+        {
+          "id": "trees-systems",
+          "title": "⚙️ Systems",
+          "file": "pages/trees-systems.json"
+        },
+        {
+          "id": "trees-fortress",
+          "title": "🛡️ Fortress",
+          "file": "pages/trees-fortress.json"
+        },
+        {
+          "id": "trees-shadow",
+          "title": "👤 Shadow",
+          "file": "pages/trees-shadow.json"
+        },
+        {
+          "id": "trees-dancer",
+          "title": "💃 Dancer",
+          "file": "pages/trees-dancer.json"
+        },
+        {
+          "id": "trees-influence",
+          "title": "🗣️ Influence",
+          "file": "pages/trees-influence.json"
+        },
+        {
+          "id": "trees-leech",
+          "title": "☣️ Leech",
+          "file": "pages/trees-leech.json"
+        },
+        {
+          "id": "trees-sin-eater",
+          "title": "😈 Sin Eater",
+          "file": "pages/trees-sin-eater.json"
+        },
+        {
+          "id": "trees-loop",
+          "title": "⚡ The Loop",
+          "file": "pages/trees-loop.json"
+        }
+      ]
+    },
+    {
+      "title": "Kit Abilities",
+      "icon": "⚡",
+      "pages": [
+        {
+          "id": "abilities-overview",
+          "title": "Overview",
+          "file": "pages/abilities-overview.json"
+        },
+        {
+          "id": "abilities-berserker",
+          "title": "Berserker",
+          "file": "pages/abilities-berserker.json"
+        },
+        {
+          "id": "abilities-channeler",
+          "title": "Channeler",
+          "file": "pages/abilities-channeler.json"
+        },
+        {
+          "id": "abilities-technician",
+          "title": "Technician",
+          "file": "pages/abilities-technician.json"
+        },
+        {
+          "id": "abilities-phantom",
+          "title": "Phantom",
+          "file": "pages/abilities-phantom.json"
+        },
+        {
+          "id": "abilities-negotiator",
+          "title": "Negotiator",
+          "file": "pages/abilities-negotiator.json"
+        },
+        {
+          "id": "abilities-dancer",
+          "title": "Dancer",
+          "file": "pages/abilities-dancer.json"
+        },
+        {
+          "id": "abilities-leech",
+          "title": "Leech",
+          "file": "pages/abilities-leech.json"
+        },
+        {
+          "id": "abilities-sin-eater",
+          "title": "Sin Eater",
+          "file": "pages/abilities-sin-eater.json"
+        }
+      ]
+    },
+    {
+      "title": "Rift Casting",
+      "icon": "✨",
+      "pages": [
+        {
+          "id": "rift-overview",
+          "title": "Casting Rules",
+          "file": "pages/rift-overview.json"
+        },
+        {
+          "id": "rift-patterns",
+          "title": "Patterns (T1–T4)",
+          "file": "pages/rift-patterns.json"
+        },
+        {
+          "id": "rift-advanced",
+          "title": "Advanced Casting",
+          "file": "pages/rift-advanced.json"
+        },
+        {
+          "id": "rift-economy",
+          "title": "Casting Economy",
+          "file": "pages/rift-economy.json"
+        }
+      ]
+    },
+    {
+      "title": "Scars & Toxicity",
+      "icon": "💀",
+      "pages": [
+        {
+          "id": "scars-scars",
+          "title": "Scars & Death",
+          "file": "pages/scars-scars.json"
+        },
+        {
+          "id": "scars-toxicity",
+          "title": "Toxicity & Mutations",
+          "file": "pages/scars-toxicity.json"
+        }
+      ]
+    },
+    {
+      "title": "Social & Reputation",
+      "icon": "🤝",
+      "pages": [
+        {
+          "id": "social-overview",
+          "title": "Social Rules",
+          "file": "pages/social-overview.json"
+        },
+        {
+          "id": "social-face",
+          "title": "The Face's Game",
+          "file": "pages/social-face.json"
+        },
+        {
+          "id": "social-templates",
+          "title": "Encounter Templates",
+          "file": "pages/social-templates.json"
+        }
+      ]
+    },
+    {
+      "title": "Rift Expeditions",
+      "icon": "🌀",
+      "pages": [
+        {
+          "id": "expeditions-overview",
+          "title": "How Dimensions Work",
+          "file": "pages/expeditions-overview.json"
+        },
+        {
+          "id": "expeditions-cataloged",
+          "title": "Cataloged Dimensions",
+          "file": "pages/expeditions-cataloged.json"
+        },
+        {
+          "id": "expeditions-uncharted",
+          "title": "Uncharted Dimensions",
+          "file": "pages/expeditions-uncharted.json"
+        }
+      ]
+    },
+    {
+      "title": "Downtime & Economy",
+      "icon": "🏠",
+      "pages": [
+        {
+          "id": "downtime-activities",
+          "title": "Downtime Activities",
+          "file": "pages/downtime-activities.json"
+        },
+        {
+          "id": "downtime-cost",
+          "title": "Cost of Living",
+          "file": "pages/downtime-cost.json"
+        },
+        {
+          "id": "downtime-base",
+          "title": "Base of Operations",
+          "file": "pages/downtime-base.json"
+        }
+      ]
+    },
+    {
+      "title": "Enemies & Threats",
+      "icon": "👹",
+      "pages": [
+        {
+          "id": "enemies-building",
+          "title": "Building Encounters",
+          "file": "pages/enemies-building.json"
+        },
+        {
+          "id": "enemies-generator",
+          "title": "Enemy Generator",
+          "file": "pages/enemies-generator.json"
+        }
+      ]
+    },
+    {
+      "title": "GM Tools",
+      "icon": "🎲",
+      "pages": [
+        {
+          "id": "gm-campaigns",
+          "title": "Campaign Structure",
+          "file": "pages/gm-campaigns.json"
+        },
+        {
+          "id": "gm-contracts",
+          "title": "Contract Generation",
+          "file": "pages/gm-contracts.json"
+        },
+        {
+          "id": "gm-sessions",
+          "title": "Session Templates",
+          "file": "pages/gm-sessions.json"
+        },
+        {
+          "id": "gm-quickstart",
+          "title": "Quickstart Guide",
+          "file": "pages/gm-quickstart.json"
+        }
+      ]
+    }
+  ]
+}

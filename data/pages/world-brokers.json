@@ -1,0 +1,115 @@
+{
+  "id": "world-brokers",
+  "title": "Brokers & Minor Factions",
+  "subtitle": "The networks between the corps",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Brokers are the nervous system of the contractor economy. They sit between corps and contractors, matching jobs to crews and taking a cut of everything."
+    },
+    {
+      "type": "heading",
+      "text": "How Brokers Operate"
+    },
+    {
+      "type": "paragraph",
+      "text": "A broker network is a platform — digital, physical, or both — where contracts are posted and contractors register. Think of it as a job board for people who fight monsters for a living."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Registration</strong> is free. Your profile includes: skillset, augment loadout (as much as you’re willing to disclose), toxicity reading (mandatory), survival record (mission count, scar count, crew history), and specializations. Brokers use this data to match you with appropriate contracts and compatible crews."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contracts</strong> are posted by corps (directly or through intermediaries), private clients, settlement councils, or occasionally other contractors. Each contract listing includes: objective, location, expected threat level, pay structure, and special requirements. What it doesn’t include: accurate threat assessments (sometimes), the real reason the job exists (often), and what happened to the last crew (usually)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The cut</strong> is typically 10-15% of the contract payout, deducted automatically. Higher-tier brokers charge more but offer better contracts, better intel, and better crew-matching. Budget brokers charge less but their intel is unreliable and they’ll match you with anyone who has a pulse."
+    },
+    {
+      "type": "heading",
+      "text": "Broker Tiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- ------------------- -------------- ----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>       <strong>Cut</strong>        <strong>Contract          </strong>Intel        <strong>Crew Quality</strong>           Quality<strong>      Matching</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street</strong>     5-8%           Low-tier. Mostly    Minimal.       Random. T1-T2 threats. Poor “There’s a   Whoever’s pay.                rift. Things   available. are in it.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard</strong>   10-12%         Mixed. T1-T3        Decent. Threat Algorithmic. threats. Fair pay.  level is       Skillset-based usually        matching. accurate."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Premium</strong>    15-20%         High-tier. T2-T4    Thorough.      Curated. threats. Good to    Detailed       Hand-picked excellent pay.      briefings,     teams with maps, threat   proven track profiles.      records."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black</strong>      Varies         Illegal. Sabotage,  Variable.      Trusted networks espionage,          Sometimes      only. Invitation acquisition of      excellent,     required. sentient specimens, sometimes “off-the-books“   deliberately work.               misleading. -------------- -------------- ------------------- -------------- ----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Broker NPCs</strong> are valuable contacts. A good relationship with a broker means better contracts, advance notice of high-paying jobs, and the occasional favor. A bad relationship means garbage contracts, unreliable intel, and crew-matching that puts you with people who got their last team killed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not everything is corporate. The spaces between corps are filled with smaller factions that contractors encounter regularly."
+    },
+    {
+      "type": "heading",
+      "text": "Free Settlements"
+    },
+    {
+      "type": "paragraph",
+      "text": "Communities in unclaimed territory — the gaps between corporate borders where no corp’s law applies. Governed by councils, strongmen, or collective agreement. They survive through trade, agriculture, and the fact that corporate expansion is expensive. Free settlements hire contractors for defense, rift management, and trade escort. Pay is low. Gratitude is high. They remember who helped them."
+    },
+    {
+      "type": "heading",
+      "text": "The Undercity"
+    },
+    {
+      "type": "paragraph",
+      "text": "The informal economy that exists underneath corporate infrastructure. Black markets, underground clinics, identity forgers, smugglers, and information brokers. Not a single organization — a network of thousands of independent operators connected by mutual need and mutual distrust. Contractors interact with the Undercity constantly for black market detox, unregistered augment installation, toxicity spoofing, and the sale of materials that fell off a transport."
+    },
+    {
+      "type": "heading",
+      "text": "Rift Cults"
+    },
+    {
+      "type": "paragraph",
+      "text": "Groups that worship dimensional energy, rift entities, or the concept of transcendence through magical saturation. Range from harmless spiritual communities to dangerous extremist cells that deliberately seek maximum toxicity. Some believe that what the corps call “harvesting“ is actually “ascension.“ Some want to open more rifts. Some want to talk to what’s on the other side. Contractors occasionally encounter rift cults on missions — they’re unpredictable, often augmented in non-standard ways, and their relationship with toxicity is… different."
+    },
+    {
+      "type": "heading",
+      "text": "Salvage Guilds"
+    },
+    {
+      "type": "paragraph",
+      "text": "Organized scavenger networks that specialize in recovering materials from abandoned rift zones, destroyed settlements, and corporate wreckage. They’re not contractors — they don’t take contracts. They work independently, selling what they find on the open market. Some are legitimate businesses. Some are pirates who’ll strip a crashed transport while the crew is still warm. Contractors and salvagers have a complicated relationship — sometimes allies, sometimes competitors, occasionally enemies."
+    },
+    {
+      "type": "heading",
+      "text": "Non-Human Communities"
+    },
+    {
+      "type": "paragraph",
+      "text": "A thousand years of rift immigration has created established non-human communities — some integrated into corporate society, some independent. Non-human species with higher magic tolerance are simultaneously valued as workers and exploited as resources. Independent non-human communities exist primarily in rift-adjacent zones where ambient magic levels are too high for comfortable human habitation. They trade with contractors, offer services (especially magic-related), and maintain their own political structures. Some corps classify them as citizens. Some classify them as inventory."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“This overview is current as of the most recent Intercompany Census. Corporate boundaries, doctrines, and personnel policies are subject to change without notice. If you find yourself in a corporate territory whose policies differ from those described here, adapt accordingly. Adaptability is the contractor’s most valuable trait. The second most valuable trait is running speed.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The following territorial overview is provided for navigational purposes. Borders depicted are approximate and subject to change following corporate negotiations, territorial acquisitions, or ’boundary adjustments’ (see: small wars). If you find yourself in disputed territory, keep moving. If you find yourself in dead zone territory, keep moving faster.“</em>"
+    }
+  ]
+}

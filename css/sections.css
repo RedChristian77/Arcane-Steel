@@ -1,0 +1,62 @@
+/* ============================================================
+   SECTIONS — Collapsible content sections within chapters
+   Each section is a "department" in the corporate manual.
+   ============================================================ */
+
+.section {
+  margin-bottom: var(--sp-xs);
+}
+
+/* Add visual separator between sections */
+.section + .section {
+  padding-top: var(--sp-sm);
+}
+
+.sec-hdr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 0;
+  cursor: pointer;
+  border-bottom: 2px solid var(--border);
+  user-select: none;
+  transition: border-color var(--tr);
+}
+
+.sec-hdr:hover {
+  border-bottom-color: var(--accent);
+}
+
+.sec-hdr:hover .sec-title {
+  color: var(--accent);
+}
+
+.sec-toggle {
+  font-size: 0.6rem;
+  color: var(--muted);
+  transition: transform 0.2s ease;
+  width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.sec-title {
+  font-family: var(--heading);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--teal);
+  transition: color var(--tr);
+  letter-spacing: 0.02em;
+  line-height: var(--lh-tight);
+}
+
+/* --- Section body --- */
+.sec-body {
+  padding: var(--sp-lg) 0 var(--sp-xl);
+  overflow: hidden;
+  transition: max-height 0.35s ease, opacity 0.25s ease;
+}
+
+/* --- Collapsed state --- */
+.section.collapsed .sec-toggle { transform: rotate(-90deg); }
+.section.collapsed .sec-body { max-height: 0 !important; opacity: 0; padding: 0; }

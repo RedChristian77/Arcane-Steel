@@ -1,0 +1,47 @@
+{
+  "id": "creation-traits",
+  "title": "Traits",
+  "subtitle": "Optional advantages and complications",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Traits are optional character modifiers taken at creation. They provide a significant benefit with a significant ongoing cost. Most characters have <strong>zero or one</strong> trait."
+    },
+    {
+      "type": "heading",
+      "text": "Available Traits"
+    },
+    {
+      "type": "paragraph",
+      "text": "------------------ ----------------- ------------------ -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trait</strong>          <strong>Benefit</strong>       <strong>Cost</strong>           <strong>Trade-off</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Genius</strong>         +2 to all         Lose 1 starting T1 Stress system Downtime Learning skill pick (start  hits harder: gain rolls             with 2 + résumé    stress from instead of 3 +     learning, ally résumé)            injuries, critical failures, unsolvable problems. Breakdowns happen. See Downtime Learning doc."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scarred          +200 starting     Start with </strong>2     You start closer Veteran<strong>          credits and +1    Scars</strong> already    to death. Death free augment (any (and their         DC is already at T1 from any tree  debuffs:           2 (95% survival — you’ve been  Battle-Worn +      on next scar). in the field)     Lingering Ache)    But you’re experienced and equipped."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift-Touched</strong>   One free          Start with **5     You’ve been"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard-tier   Toxicity</strong> and the exposed. You’re mutation<strong> with   mutation is        already changed. no installation   </strong>involuntary**    The mutation is cost              (GM rolls or       yours — bonus assigns)           AND built-in complication. Can’t be removed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate        Start with +300   Corp tracks your   You’re Asset</strong>            credits and       location, monitors comfortable. But corporate housing your augments, and you’re owned. (0 cr/day living  can issue          The corp can ping costs)            mandatory          you with jobs you assignments        can’t refuse without consequences. Your data is in their system. Privacy doesn’t exist."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ghost</strong>          No records exist. -200 starting      Corp contracts No contractor ID. credits. Cannot    pay better, corp Corps don’t know take corporate     clinics won’t you exist. Total  contracts          treat you, and freedom from      (freelance/black   corp stores surveillance.     market only until  won’t sell to you establish ID). you without ID. The street is your home. ------------------ ----------------- ------------------ -----------------"
+    }
+  ]
+}

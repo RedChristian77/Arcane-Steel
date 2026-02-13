@@ -1,0 +1,14 @@
+.layout { display: flex; min-height: 100vh; }
+.main { margin-left: var(--sidebar-w); flex: 1; min-height: 100vh; }
+.container { max-width: var(--container-w); margin: 0 auto; padding: var(--sp-xl) var(--sp-xl) 80px; }
+@media (max-width: 768px) {
+  .main { margin-left: 0; padding-top: var(--header-h); }
+  .container { padding: var(--sp-lg) var(--sp-md) var(--sp-xl); }
+}
+@media (min-width: 1400px) {
+  .container { max-width: 1000px; }
+}
+@media print {
+  .sidebar, .mobile-hdr, .search-overlay, .progress-bar { display: none !important; }
+  .main { margin-left: 0 !important; }
+}

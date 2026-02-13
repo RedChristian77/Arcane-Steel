@@ -1,0 +1,239 @@
+{
+  "id": "creation-overview",
+  "title": "Character Creation",
+  "subtitle": "Build your contractor in 8 steps",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Who You Are, What You Can Do, and How Much It Costs</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Welcome to the Contractor Onboarding Portal. Please complete all fields accurately. Falsification of contractor records is punishable under Corporate Penal Code 19-A (’Fraudulent Self-Representation’). Penalties include contract termination, asset seizure, and/or involuntary rift deployment. Thank you for your honesty.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Creation Steps Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step</strong>                <strong>What You Do</strong>         <strong>Time</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Read the <strong>Five Stats</strong> 2 min"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       Choose a <strong>Résumé</strong> (or 2 min create custom)"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                       Assign <strong>Flex Points</strong>  2 min to stats"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                       Choose a <strong>Kit</strong>        2 min"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                       Pick <strong>Skills</strong> (3 at   5 min T1, 1 at T2)"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                       Choose optional         1 min"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Traits</strong> (Genius, etc.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                       Record <strong>Derived        2 min Values</strong> (HP, Evasion, Armor, etc.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "8                       Spend <strong>Starting        5 min Credits</strong> on gear"
+    },
+    {
+      "type": "paragraph",
+      "text": "9                       Write your <strong>Dossier</strong>  5 min (name, personality, why you’re here) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total: \\~25 minutes from blank sheet to ready to play."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every contractor is defined by five stats. These determine what you’re good at, how you fight, and how you survive. Stats range from 2 (below average) to 10 (peak human), with augmentation pushing as high as 15 at severe cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every stat does three things: it generates a <strong>Stat Bonus</strong> (used for skill checks and combat), it influences a <strong>combat role</strong>, and it has a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>passive effect</strong> that’s always active."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Bonuses</strong> are derived from the stat value:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Value</strong>                      <strong>Bonus</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "2-3                                 +0"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-5                                 +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-7                                 +2"
+    },
+    {
+      "type": "paragraph",
+      "text": "8-9                                 +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  +4 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Higher stat = higher bonus. The bonus is added to weapon accuracy rolls in combat and to skill checks that use that stat."
+    },
+    {
+      "type": "heading",
+      "text": "Chrome"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Physical strength, toughness, and raw power.</em>  • <strong>Combat Role:</strong> Melee damage and physical dominance. Chrome bonus boosts melee accuracy. High Chrome characters hit harder, carry more, and break things.  • <strong>Passive Effect:</strong> Determines <strong>Carry Weight</strong> (how much gear, armor, and harvested materials you can haul). Also determines <strong>melee weapon access</strong> — heavy weapons require minimum Chrome.  • <strong>Key Skills:</strong> Athletics, Harvesting, Intimidation (when physical presence matters)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>High Chrome:</em> You’re the one kicking in doors, swinging heavy weapons, and carrying the squad’s harvest. You take hits and keep standing. You’re the reason things die in melee."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Low Chrome:</em> You avoid melee. You carry less. Heavy armor and heavy weapons aren’t options. Stay behind the person with high Chrome."
+    },
+    {
+      "type": "heading",
+      "text": "Reflex"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Speed, coordination, and reaction time.</em>  • <strong>Combat Role:</strong> Ranged accuracy and initiative. Reflex bonus boosts ranged weapon accuracy. High Reflex characters shoot first and shoot straight.  • <strong>Passive Effect:</strong> Determines <strong>Initiative</strong> (who acts first in combat) and <strong>movement speed</strong> in chase/pursuit situations.  • <strong>Key Skills:</strong> Firearms, Acrobatics, Piloting."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>High Reflex:</em> You’re the gunfighter. First to act, hardest to pin down. Ranged combat is your domain. You set the tempo for every fight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Low Reflex:</em> You’re slower on the draw. Ranged accuracy suffers. You act later in the round, which means reacting to what others do rather than setting the pace."
+    },
+    {
+      "type": "heading",
+      "text": "Grit"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Endurance, resilience, and willpower.</em>  • <strong>Combat Role:</strong> Survival. Grit determines <strong>Hit Points</strong> and resistance to conditions, toxicity, and environmental hazards.  • <strong>Passive Effect:</strong> Determines <strong>HP</strong> (HP = 12 + (Grit × 2), modified by kit and augments). Also determines toxicity resistance — high Grit contractors can operate in contaminated environments longer.  • <strong>Key Skills:</strong> Medicine, Survival, resisting fear and mental effects."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>High Grit:</em> You’re the last one standing. More HP, better toxicity tolerance, harder to put down. The rift hasn’t killed you yet and it’s starting to feel personal."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Low Grit:</em> You’re fragile. Fewer hit points. Toxicity accumulates faster. You need to avoid damage rather than absorb it, because you can’t afford to take hits."
+    },
+    {
+      "type": "heading",
+      "text": "Interface"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Mental acuity, technical skill, and magical attunement.</em>  • <strong>Combat Role:</strong> Rift casting (magic). Interface bonus determines rift pattern accuracy and power. High Interface characters are the crew’s spellcasters and technical specialists.  • <strong>Passive Effect:</strong> Determines <strong>rift casting ability</strong> and <strong>hacking/technical proficiency</strong>. Also influences how well you interact with dimensional technology, augment systems, and data networks.  • <strong>Key Skills:</strong> Hacking, Rift Lore, Crafting, operating complex equipment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>High Interface:</em> You cast rift patterns that reshape the battlefield. You hack systems. You understand dimensional technology intuitively. You’re the brain."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Low Interface:</em> Magic is unreliable in your hands. Technical work is slow and frustrating. You rely on gear and skill rather than patterns and tech."
+    },
+    {
+      "type": "heading",
+      "text": "Edge"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Awareness, charisma, and luck.</em>  • <strong>Combat Role:</strong> <strong>Evasion</strong> — Edge determines how hard you are to hit. High Edge characters dodge attacks that would flatten others.  • <strong>Passive Effect:</strong> Determines <strong>Evasion</strong> (base Evasion = 3 + Edge bonus, modified by armor). Also governs social interactions, perception, negotiation, and the ability to read people.  • <strong>Key Skills:</strong> Streetwise, Persuasion, reading situations, spotting danger before it arrives."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>High Edge:</em> You’re untouchable in combat and invaluable between missions. You negotiate better prices, gather better intel, read NPCs, and keep the crew out of bad deals. In a world where money is survival, the person who saves the crew 200 credits on a vehicle is worth as much as the person who kills the rift beast."
+    },
+    {
+      "type": "paragraph",
+      "text": "<em>Low Edge:</em> You’re easier to hit. You miss social cues. The world’s informal economy — the deals, the rumors, the connections — moves around you without stopping. You need someone with high Edge on your crew, or you’re paying retail for everything and walking into ambushes."
+    },
+    {
+      "type": "heading",
+      "text": "Stat Balance"
+    },
+    {
+      "type": "paragraph",
+      "text": "No stat is expendable. Every stat does something essential:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat</strong>                            <strong>If You Ignore It…</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chrome                              Can’t carry gear, can’t use heavy weapons, useless in melee"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflex                              Act last, miss at range, can’t escape"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grit                                Die fast, toxicity kills you, can’t take a hit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Interface                           No rift casting, no hacking, no tech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Edge                                Easy to hit, bad social outcomes, miss opportunities, pay more for everything ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "The base stats are <strong>4 / 4 / 4 / 4 / 4</strong> — average across the board. Your Résumé adjusts these, and Flex Points let you customize further. Most starting characters have one stat at 7-8 (their specialty), two at 4-5 (competent), and one or two at 3-4 (their weakness). Weaknesses matter — they’re what drive you to rely on your crew."
+    }
+  ]
+}

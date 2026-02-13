@@ -1,0 +1,103 @@
+{
+  "id": "abilities-dancer",
+  "title": "Dancer Abilities",
+  "subtitle": "Dancer kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Dancer"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Dual-wielding skirmisher. Constant movement, multi-target pressure, never where the enemy expects. Abilities focus on mobility, combo attacks, and evasion through motion.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fluid Movement (Passive):</strong> After making a melee attack, move 1 range band for free (0 AP)."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Riposte (Passive):</strong> When an enemy misses you in melee, free counterattack with off-hand at -1 accuracy. Once per round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Blade Dance (Passive):</strong> When dual wielding, if both attacks hit the same target, the second deals +2 damage (flat, after armor)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Disengage (Active, 1 AP):</strong> Move 1 range band. No opportunity attacks. Clean exit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feint (Active, 1 AP):</strong> Your next attack this turn ignores the target’s Evasion bonus from shields or cover. You fake them out of position."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Draw (Passive):</strong> Switching weapons costs 0 AP instead of 1. You’re always armed with the right tool."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acrobatic Dodge (Passive):</strong> Once per round, when hit by a ranged attack, reduce damage by your Reflex bonus. You twist out of the shot’s path."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Whirlwind (Active, 3 AP):</strong> One melee attack against every enemy within Close range. Same accuracy roll, each target hit/miss independently."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evasive Stance (Passive):</strong> Dual wielding no longer applies -1 Evasion penalty. Your footwork makes you harder to hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Momentum (Passive):</strong> Each consecutive hit (without a miss) gives +1 accuracy to the next attack. Resets on miss."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skirmish (Passive):</strong> If you moved this turn, your melee attacks get +1 accuracy. Rewards constant movement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Redirect (Active, 1 AP):</strong> When an enemy attacks you in melee and misses, redirect their attack to an adjacent enemy. Use the original attack roll against the new target’s Evasion. Once per round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Blinding Speed (Active, 2 AP):</strong> Your next 2 attacks this turn cost 0 AP. You move so fast the AP system can’t keep up. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Twin Fangs (Passive):</strong> When dual wielding, if your first attack applies a condition (Bleed, Poison, etc.), your second attack applies it again automatically on hit. Double condition stacking."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tempest (Passive):</strong> You can attack three different targets per turn. Each resolved independently."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Untouchable (Passive):</strong> While dual wielding and you moved this turn, enemies have -2 accuracy against you until your next turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>One Thousand Cuts (Passive):</strong> Every melee hit in a turn after the second applies Bleed 1 to the target. Third hit: Bleed 1. Fourth hit: Bleed 2. Fifth hit: Bleed 3. The accumulation is devastating."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dance of Death (Active, 4 AP):</strong> Move through every enemy within Close range, making one attack against each. You cannot be attacked during the movement. Resolve all attacks, then end in a position of your choice within Close range. Once per encounter. The signature Dancer move."
+    }
+  ]
+}

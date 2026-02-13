@@ -1,0 +1,535 @@
+/* ============================================================
+   CONTENT — Text elements rendered from chapter JSON
+   ============================================================ */
+
+/* --- Subheadings within sections --- */
+.c-heading {
+  font-family: var(--sans);
+  font-size: var(--fs-md);
+  font-weight: 600;
+  color: var(--text);
+  margin: var(--sp-xl) 0 var(--sp-md);
+  padding: var(--sp-sm) 0 var(--sp-sm) var(--sp-md);
+  border-left: 3px solid var(--accent);
+  letter-spacing: 0.01em;
+}
+
+.c-heading:first-child { margin-top: var(--sp-sm); }
+.c-heading strong { color: var(--accent); }
+
+/* --- Regular paragraphs --- */
+.c-para {
+  font-size: var(--fs-base);
+  line-height: var(--lh-loose);
+  margin-bottom: var(--sp-md);
+  color: var(--text);
+}
+
+.c-para strong { color: var(--accent); font-weight: 600; }
+
+/* --- Key Point blocks (bold-leading paragraphs) ---
+   These are the "definition" style entries that explain core concepts.
+   Rendered as distinct visual blocks so they don't blend together. */
+.c-keypoint {
+  margin: var(--sp-sm) 0;
+  padding: var(--sp-md) var(--sp-md);
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.c-keypoint-text {
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  margin: 0;
+}
+
+.c-keypoint-text strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Consecutive keypoints stack tighter */
+.c-keypoint + .c-keypoint {
+  margin-top: calc(-1 * var(--sp-xs));
+  border-top: none;
+  border-top-right-radius: 0;
+}
+
+.c-keypoint:has(+ .c-keypoint) {
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+}
+
+/* --- Short emphasis lines ---
+   Dramatic one-liners. Slightly larger, muted, with breathing room. */
+.c-emphasis {
+  font-size: var(--fs-md);
+  font-style: italic;
+  color: var(--text2);
+  margin: var(--sp-lg) 0;
+  padding-left: var(--sp-md);
+  line-height: var(--lh-base);
+  border-left: 2px solid var(--border);
+}
+
+.c-emphasis strong { color: var(--accent); font-style: normal; }
+
+/* --- Visual break between paragraph clusters --- */
+.c-break {
+  height: 1px;
+  background: var(--border2);
+  margin: var(--sp-lg) var(--sp-xl);
+}
+
+/* --- Blockquotes (corporate flavor text / humor) ---
+   The soul of Arcane Steel. Corporate memos from hell. */
+.c-blockquote {
+  margin: var(--sp-lg) 0;
+  padding: var(--sp-md) var(--sp-lg);
+  padding-top: var(--sp-lg);
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-left: 3px solid var(--teal);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  font-style: italic;
+  color: var(--text2);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-base);
+  position: relative;
+}
+
+.c-bq-badge {
+  position: absolute;
+  top: -1px;
+  right: var(--sp-md);
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--teal);
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-top: none;
+  padding: 2px 8px 3px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  opacity: 0.7;
+}
+
+.c-blockquote strong { color: var(--accent); font-style: normal; }
+
+/* --- Flavor text (standalone italic) --- */
+.c-flavor {
+  font-style: italic;
+  color: var(--muted);
+  margin: var(--sp-md) 0;
+  font-size: var(--fs-sm);
+  padding-left: var(--sp-md);
+}
+
+/* --- Bullet lists --- */
+.c-bullets {
+  margin: var(--sp-md) 0 var(--sp-lg);
+  list-style: none;
+  padding: 0;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.c-bullet {
+  padding: var(--sp-sm) var(--sp-md) var(--sp-sm) var(--sp-xl);
+  position: relative;
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+}
+
+.c-bullet::before {
+  content: "▸";
+  position: absolute;
+  left: 14px;
+  color: var(--accent);
+  font-size: 0.7rem;
+  top: 0.55em;
+}
+
+.c-bullet strong { color: var(--accent); }
+
+.c-bullet + .c-bullet {
+  border-top: 1px solid var(--border2);
+}
+
+/* --- Numbered items --- */
+.c-numbered {
+  padding: var(--sp-xs) 0 var(--sp-xs) 30px;
+  position: relative;
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  margin-bottom: var(--sp-xs);
+}
+
+.c-num-mark {
+  position: absolute;
+  left: var(--sp-sm);
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  font-weight: 700;
+  top: 0.35em;
+}
+
+/* --- Visual spacing between content types --- */
+.c-heading + .c-blockquote { margin-top: var(--sp-md); }
+.c-blockquote + .c-heading { margin-top: var(--sp-xl); }
+.c-bullets + .c-heading { margin-top: var(--sp-xl); }
+.c-keypoint + .c-heading { margin-top: var(--sp-xl); }
+.c-para + .c-keypoint { margin-top: var(--sp-md); }
+.c-keypoint + .c-para { margin-top: var(--sp-md); }
+
+/* ============================================================
+   AUGMENT TREE VISUALS
+   Tier progression with color-coded badges and augment cards
+   ============================================================ */
+
+.tree-meta {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: var(--sp-lg);
+  margin-bottom: var(--sp-xl);
+}
+
+.tree-meta-row {
+  display: flex;
+  gap: var(--sp-md);
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border2);
+  align-items: baseline;
+}
+
+.tree-meta-row:last-child { border-bottom: none; }
+
+.tree-meta-label {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.tree-meta-val {
+  font-size: var(--fs-sm);
+  color: var(--text);
+  line-height: var(--lh-base);
+}
+
+/* --- Tier block --- */
+.tree-tier {
+  margin-bottom: var(--sp-xl);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.tree-tier-hdr {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-md);
+  padding: var(--sp-md) var(--sp-lg);
+  background: var(--bg3);
+  border-bottom: 2px solid var(--tier-color, var(--accent));
+}
+
+.tree-tier-badge {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  background: var(--tier-color, var(--accent));
+  color: #000;
+  font-family: var(--heading);
+  font-weight: 700;
+  font-size: var(--fs-lg);
+  flex-shrink: 0;
+}
+
+.tree-tier-title {
+  font-family: var(--heading);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.tree-tier-req {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+
+/* --- Augment cards within a tier --- */
+.tree-augments {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1px;
+  background: var(--border2);
+}
+
+.tree-aug {
+  padding: var(--sp-md) var(--sp-lg);
+  background: var(--surface);
+  transition: background var(--tr);
+}
+
+.tree-aug:hover { background: var(--surface2); }
+
+.tree-aug.tradeoff {
+  border-left: 3px solid var(--rust);
+}
+
+.tree-aug-hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-sm);
+  margin-bottom: 6px;
+}
+
+.tree-aug-name {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: var(--fs-base);
+  color: var(--tier-color, var(--accent));
+}
+
+.tree-aug-cost {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--gold);
+  white-space: nowrap;
+  background: var(--gold-dim);
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+.tree-aug-effect {
+  font-size: var(--fs-sm);
+  color: var(--text2);
+  line-height: var(--lh-base);
+}
+
+/* --- Tier budget note --- */
+.tree-tier-budget {
+  padding: var(--sp-sm) var(--sp-lg);
+  background: var(--bg3);
+  border-top: 1px solid var(--border2);
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ============================================================
+   CORPORATION PROFILE CARDS
+   Full-width card layout that uses the space
+   ============================================================ */
+
+.corp-profile {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: var(--sp-xl);
+  background: var(--surface);
+}
+
+.corp-header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-md);
+  padding: var(--sp-lg) var(--sp-xl);
+  background: linear-gradient(135deg, var(--bg3), var(--surface2));
+  border-bottom: 2px solid var(--accent);
+}
+
+.corp-icon { font-size: 2.4rem; }
+
+.corp-name {
+  font-family: var(--heading);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.corp-doctrine {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--teal);
+  letter-spacing: 0.04em;
+}
+
+.corp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border2);
+}
+
+.corp-stat {
+  padding: var(--sp-md) var(--sp-lg);
+  background: var(--surface);
+}
+
+.corp-stat.full { grid-column: 1 / -1; }
+
+.corp-stat-label {
+  display: block;
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.corp-stat-val {
+  font-size: var(--fs-sm);
+  color: var(--text);
+  line-height: var(--lh-base);
+}
+
+.corp-contracts {
+  border-top: 1px solid var(--border2);
+  padding: var(--sp-lg) var(--sp-xl);
+}
+
+.corp-contracts-title {
+  font-family: var(--heading);
+  font-size: var(--fs-sm);
+  color: var(--teal);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--sp-md);
+}
+
+.corp-contracts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--sp-sm);
+}
+
+.corp-contract {
+  padding: var(--sp-md);
+  background: var(--bg3);
+  border-radius: var(--radius);
+  border-left: 3px solid var(--accent);
+}
+
+.corp-contract-name {
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.corp-contract-desc {
+  font-size: var(--fs-sm);
+  color: var(--text2);
+  line-height: var(--lh-base);
+}
+
+/* ============================================================
+   KIT SELECTION GRID
+   2-column cards with structured data
+   ============================================================ */
+
+.kit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: var(--sp-md);
+  margin: var(--sp-lg) 0;
+}
+
+.kit-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: border-color var(--tr);
+}
+
+.kit-card:hover { border-color: var(--accent); }
+
+.kit-card-hdr {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: var(--sp-md) var(--sp-lg);
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border2);
+}
+
+.kit-card-icon { font-size: 1.5rem; }
+
+.kit-card-name {
+  font-family: var(--heading);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  color: var(--text);
+}
+
+.kit-card-lean {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--teal);
+}
+
+.kit-card-desc {
+  padding: var(--sp-md) var(--sp-lg);
+  font-size: var(--fs-sm);
+  color: var(--text2);
+  line-height: var(--lh-base);
+  border-bottom: 1px solid var(--border2);
+}
+
+.kit-card-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border2);
+}
+
+.kit-detail {
+  padding: 8px var(--sp-md);
+  background: var(--surface);
+}
+
+.kit-detail.full { grid-column: 1 / -1; }
+
+.kit-detail-l {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 2px;
+}
+
+.kit-detail-v {
+  font-size: var(--fs-sm);
+  color: var(--accent);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .kit-grid { grid-template-columns: 1fr; }
+  .corp-grid { grid-template-columns: 1fr; }
+  .corp-contracts-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,223 @@
+{
+  "id": "world-geography",
+  "title": "Geography & Territories",
+  "subtitle": "The physical world",
+  "content": [
+    {
+      "type": "heading",
+      "text": "What’s Left"
+    },
+    {
+      "type": "paragraph",
+      "text": "A thousand years of dimensional rifts have done what a thousand years of anything would do — reshaped the planet. Roughly half the world’s surface is still habitable. The other half is dead zone — land so saturated with ambient toxicity that unprotected human life can’t sustain itself for more than a few days. The dead zones aren’t uniform. Some are barren wasteland where nothing grows. Some are overgrown with rift-touched flora that would be beautiful if it weren’t lethal. Some are just <em>wrong</em> — places where dimensional bleed has warped physics enough that water flows uphill, light bends the wrong way, or time moves at a rate that doesn’t match the rest of the world."
+    },
+    {
+      "type": "paragraph",
+      "text": "The habitable half isn’t pristine. Background toxicity exists everywhere — it’s in the water, the soil, the food chain. Humans have adapted over a millennium (baseline toxicity tolerance is higher than it was), and corporate water treatment, air filtration, and food processing keep ambient exposure manageable in populated areas. Step outside a city’s infrastructure, though, and the numbers climb. The further from civilization, the worse it gets."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The habitable world is an archipelago of city-states in an ocean of dead zone.</strong> Each city-state is a corporate territory — a bubble of infrastructure, population, and controlled environment surrounded by land that wants to kill you. Between the bubbles: transit corridors, frontier settlements, wild rift zones, and the dead zone itself."
+    },
+    {
+      "type": "heading",
+      "text": "The City-States"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every major city-state is corporate territory. One corp dominates, though most cities have enclaves, trade districts, and embassy zones where other corps maintain presence. A Congo city looks different from a Sentinel city looks different from a Crowned Table city — architecture, culture, daily rhythm, everything is shaped by the ruling corp."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What they share:</strong> Walls. Every city-state has a perimeter — physical, energetic, or both — that marks the boundary between “inside“ and “outside.“ Inside the perimeter, infrastructure keeps toxicity manageable, power flows, water is clean, and corp law applies. Outside the perimeter is the margin — the zone where infrastructure degrades, toxicity climbs, and corporate authority fades into suggestion. Every city has one. The margin is where contractors live."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Size varies.</strong> The largest city-states hold millions of citizens across hundreds of square kilometers of managed territory. The smallest are fortified towns of a few thousand, barely sustaining themselves. Most fall somewhere in between — cities of tens or hundreds of thousands, large enough for a functioning economy, small enough that you could walk from the center to the wall in an afternoon."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Every city-state controls at least one corporate rift gate</strong> — a managed, secured, stabilized dimensional rift used for resource extraction. The rift gate is the economic engine. Without it, the city is just a town with a wall. Some cities control multiple gates. The wealthiest control gate clusters — three or four rifts in close proximity, each leading to a different dimension, producing different resources. Gate clusters are strategic assets worth fighting wars over. Wars have been fought over them."
+    },
+    {
+      "type": "heading",
+      "text": "The Transit Corridors"
+    },
+    {
+      "type": "paragraph",
+      "text": "City-states don’t survive alone. Trade is essential — no single city produces everything it needs. The network that connects them is the"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Transit Grid</strong>: a system of fortified rail lines, sealed road corridors, and (for the wealthiest corps) subterranean tunnel networks that link city-states across dead zone territory."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Spine</strong> is the primary transit line — a continental rail network that connects the major city-states in a rough loop. Heavily armored trains run the Spine on fixed schedules, carrying cargo, citizens, and (in the cheapest cars) contractors. The Spine is corporate infrastructure — maintained by whichever corp controls the territory the track passes through. Congo stretches are immaculate and on-time. Crowned Table stretches are ornate and occasionally delayed by jousting tournaments on the tracks. Sentinel stretches are militarized and run with paranoid precision."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>What most people don’t realize: parts of the Spine run through other dimensions.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all of it. Surface rail is cheaper for short distances. But when two city-states are separated by 2,000 km of dead zone, and the corresponding rift gates are only 50 km apart inside the Char — a sealed, armored train through 30 minutes of volcanic hellscape beats 12 hours of surface exposure. Congo figured this out centuries ago."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional transit</strong> is why certain rift gate clusters are strategic assets worth wars. It’s not just the resources inside — it’s the shortcut the dimension provides. Control the gates, control the route, control the trade. The Char is the most common shortcut (hot, hostile, but distances compress well). The Grave offers premium low-toxicity corridors cleared of Remnants. The Bloom is impossible — track overgrows in hours. The Static would rearrange the rails. The Mirror is classified."
+    },
+    {
+      "type": "paragraph",
+      "text": "Passengers feel the transition — a brief lurch, a change in air pressure, alien landscape through the window. Regular commuters sleep through it. First-timers press their faces to the glass and try not to think about what’s outside the armored hull."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Branch Lines</strong> connect smaller city-states to the Spine. Less maintained, less secure, less reliable. Branch line trains are slower, older, and sometimes don’t arrive. The most remote settlements are connected by road convoys or not connected at all."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Transit costs money.</strong> Citizens travel on corporate accounts. Contractors pay out of pocket."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Route Type</strong>    <strong>Cost</strong>          <strong>Travel Time</strong>   <strong>Security</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Spine (major    50-100 cr         Hours to a day    Corp military route)</strong>                                              escort. Sealed cars. Safe."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Branch Line</strong>   20-50 cr          Half a day to     Light security. several days      Unsealed cars. Usually safe."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Road Convoy</strong>   10-30 cr          Days              Armed escort varies. Sometimes it’s just a truck."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Independent     Fuel only         Varies            Whatever you (own vehicle)</strong>                                       brought with you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Walking</strong>       Free              Slow. Dangerous.  You’re alone in the dead zone. Good luck. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contractors are cargo.</strong> The transit system was built for corporate trade — moving resources between city-states. Passengers are secondary. Contractor passengers are tertiary. You ride in the freight section, you eat what you brought, and you get off when the train stops. Some routes have dedicated contractor cars — converted freight containers with bunks, basic sanitation, and a door that locks. Luxury is a relative term."
+    },
+    {
+      "type": "heading",
+      "text": "The Dead Zones"
+    },
+    {
+      "type": "paragraph",
+      "text": "Between the city-states, the world is hostile. Dead zones aren’t a single thing — they’re a spectrum of “how badly has dimensional contamination ruined this place.“"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Zone Classification:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification</strong>   <strong>Toxicity Rate</strong> <strong>Description</strong>   <strong>What Lives Here</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Yellow Zone</strong>      +1/day            Degraded but      Scavengers, navigable. Ruined salvage guilds, infrastructure,   desperate sparse            settlements, vegetation, low   low-tier rift wildlife. Former  fauna suburbs and farmland."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Orange Zone</strong>      +2/day            Actively toxic.   Rift fauna Rift-touched      (T1-T2), mutated flora dominates.  wildlife, rift Weather patterns  cults, things are wrong. Water  that used to be is unsafe.        human"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Red Zone</strong>         +4/day            Severely          Rift fauna contaminated.     (T2-T3), Physics gets      dimensional unreliable.       anomalies, Structures warp.  nothing human Navigation is difficult."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Zone</strong>       +8/day            Dimensional       Rift entities bleed. Reality is (T3-T4), things unstable. Time    that don’t dilation. Spatial belong in this distortion. The   dimension, the dead zone at its  source material worst.            for nightmares -------------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Yellow Zones</strong> are where most dead-zone contracts take place. Dangerous but survivable with precautions. A team with Breather Masks and a vehicle can operate in Yellow Zone for days."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Orange Zones</strong> require planning. Detox supplies, a vehicle with air filtration, and a clear extraction timeline. Multi-day operations in Orange Zone push toxicity toward uncomfortable thresholds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Red and Black Zones</strong> are expedition territory. You don’t wander into these — you prepare, you equip, you set a timer, and you get out before the timer expires. The contracts that send you into Red or Black are the highest-paying in the game because the corps know most teams won’t come back from Black Zone without losses."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wild Rifts</strong> cluster in dead zones. The same dimensional instability that makes the land toxic also makes it prone to spontaneous rift formation. Wild rifts are uncontrolled, unstable, and unpredictable — they open without warning, last anywhere from minutes to years, and lead to dimensions that haven’t been surveyed or cataloged. Wild rifts are where the most valuable (and most dangerous) resources come from, because nobody’s been there before."
+    },
+    {
+      "type": "heading",
+      "text": "The Margins"
+    },
+    {
+      "type": "paragraph",
+      "text": "The margin is the zone between a city-state’s wall and the dead zone proper. Every city has one. Width varies — some margins are a few hundred meters of managed decay. Others stretch for kilometers, grading slowly from “basically urban“ to “bring a weapon.“"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The margin is where contractors live.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all contractors. Some live inside the walls — tolerated in corp territory as long as they’re useful, paying rent on a Capsule or Apartment in a district that’s technically corp-owned but practically contractor-run. These are the fringe districts: neighborhoods where corp law applies but corp attention doesn’t. The landlords are contractors or ex-contractors. The shops cater to people who need weapons, armor, augments, and medical services without corporate oversight. The bars are loud. The food is cheap. Everyone has scars."
+    },
+    {
+      "type": "paragraph",
+      "text": "But many contractors — especially established crews with bases — live in the margin itself. Land is cheaper (sometimes free, if you’re willing to squat in a condemned structure). Corp oversight is minimal. The trade-off is infrastructure: margin residents manage their own water, power, and security. This is where the base-building system comes alive. A crew with a Generator, Water Filtration, and a Security System is essentially building their own micro-settlement in the margin."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The margin is also where brokers operate.</strong> Physical broker offices (called “boards“) are margin institutions — storefronts where contracts are posted, crews are matched, and deals are made. The board is a contractor’s second home. You check the board every morning the way a citizen checks their work schedule. It’s where you learn who died last night, who’s hiring, and which contracts to avoid."
+    },
+    {
+      "type": "heading",
+      "text": "Points of Interest"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every campaign needs specific locations. Here are the archetypes — the GM should name, place, and customize them for their world."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Gate District</strong> — The area surrounding a city’s corporate rift gate. Heavily secured, heavily trafficked, heavily profitable. Staging areas where contractors prep for missions. Processing facilities where materials are weighed, graded, and paid for. The Gate District is where the money is. It’s also where the corp presence is heaviest — every contractor entering or leaving is scanned, logged, and assessed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Market</strong> — Every margin has an open market. Part bazaar, part black market, part social hub. Weapons, armor, augments, consumables, salvaged tech, rift materials, and information — all for sale, most of it legal, some of it not. Prices are negotiable. Trust is not."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Clinic</strong> — Margin medical facilities. Ranges from “licensed practitioner with real equipment“ to “guy with a knife and a strong opinion about surgery.“ Scar treatment, augment installation, detox, and emergency medicine. The good clinics have waiting lists. The bad clinics have body counts."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Watering Hole</strong> — Every contractor district has a bar that functions as an informal community center. Contract rumors, crew recruitment, reputation management, and the kind of networking that happens at 2 AM with drinks in hand. The bartender knows everything. Tip accordingly."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Yard</strong> — Vehicle storage, repair, and modification. Margin garages where mechanics work on contractor vehicles. Also a social space — crews hang out while their rigs are serviced, swap stories, compare scars, and occasionally get into fights about whose vehicle is worse."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Archive</strong> — Soma-operated or independent information centers. Maps, rift surveys, creature catalogs, contract histories. Access costs money, but good intel saves lives. Some archives are physical (libraries, data halls). Others are network-accessible for a subscription fee."
+    }
+  ]
+}

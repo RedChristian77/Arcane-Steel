@@ -1,0 +1,107 @@
+{
+  "id": "abilities-overview",
+  "title": "Kit Abilities Overview",
+  "subtitle": "Design philosophy and progression",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Trained Techniques That Define How You Fight</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Training isn’t free. Nothing in this world is. But the difference between a contractor who invested in technique and one who didn’t is usually measured in how many pieces they come home in.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Design Philosophy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kit abilities are <strong>trained combat techniques</strong> — not spells, not augment activations, not special attacks. They’re the things a veteran contractor knows how to do that a rookie doesn’t. Abilities don’t deal direct damage. They amplify, modify, apply conditions, buff allies, debuff enemies, and create tactical opportunities. The weapon deals the damage. The ability changes the context."
+    },
+    {
+      "type": "heading",
+      "text": "Core Principles"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>No ability deals direct damage.</strong> Weapons handle damage. Abilities change <em>how</em> damage lands.  • <strong>Mix of passive and active.</strong> Passives are always-on instincts. Actives cost AP and produce effects, not damage.  • <strong>Pay to grow.</strong> Every ability is purchased with credits and requires training time (downtime activity). Find an instructor, pay their fee, spend downtime learning.  • <strong>Wide, not deep.</strong> Each tier offers 5-6 options. Players pick 1 for free, can buy additional picks at double cost. A contractor who dumps credits into training has a LOT to choose from.  • <strong>Kit-specific but not kit-locked.</strong> Cross-training into other kit trees costs triple credits and requires T3+ in your own tree first."
+    },
+    {
+      "type": "heading",
+      "text": "Progression Structure"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>       <strong>Unlock</strong>     <strong>Abilities    </strong>Base Cost<strong>  </strong>Training Available<strong>                   Time</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1</strong>         Kit start      1 passive      Free           Included (free with kit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2</strong>         After 2-3      Pick 1 from    300 cr +       1 downtime missions       5-6 options    instructor     activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3</strong>         After 5-6      Pick 1 from    600 cr +       2 downtime missions       5-6 options    instructor     activities"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4</strong>         After 8-10     Pick 1 from    1,000 cr +     3 downtime missions       3-4 options    specialist     activities instructor -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Additional training:</strong> Buy additional abilities from the same tier at"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>double</strong> base cost. A T2 pick costs 300 cr. A second T2 pick costs 600 cr. A third costs 900 cr. No limit except money and downtime."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cross-training:</strong> Learning from another kit’s tree costs <strong>triple</strong> credits, requires <strong>T3+ in your own tree</strong>, and the ability must be <strong>at least one tier below</strong> your current tier. A T4 Berserker can buy T3 Phantom abilities. A T3 Berserker can buy T2 Phantom abilities."
+    },
+    {
+      "type": "heading",
+      "text": "Training Sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ------------------ -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Source</strong>        <strong>Cost Modifier</strong> <strong>Availability</strong>   <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate       ×1.0              T1-T3. T4 requires Standardized, Program</strong>                           corp rep +3.       documented."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Freelance       ×1.2              T1-T4. Find via    Practical, Instructor</strong>                        Streetwise or      experienced. broker."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Undercity       ×0.8              T2-T4. Requires    Cheaper. Dirtier Trainer</strong>                           Undercity rep +1.  techniques."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Faction         ×1.5              T3-T4 only.        Elite techniques. Specialist</strong>                        Requires faction   Strings attached. rep +3."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Self-Taught</strong>   ×0.5              T2 only. 3×        Slow but cheap. downtime instead of 1×."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crew            ×0.7              Any tier your      A crewmate who Mentorship</strong>                        mentor has.        has the ability can teach you. Builds crew bonds. ----------------- ----------------- ------------------ -----------------"
+    }
+  ]
+}

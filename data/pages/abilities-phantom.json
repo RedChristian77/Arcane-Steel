@@ -1,0 +1,103 @@
+{
+  "id": "abilities-phantom",
+  "title": "Phantom Abilities",
+  "subtitle": "Phantom kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Phantom"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Stealth operator. Move unseen, strike from ambush, disappear. Abilities focus on positioning, information denial, and punishing vulnerable targets.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ambush Training (Passive):</strong> When you attack an enemy that hasn’t acted yet this encounter, your first attack gets +2 accuracy."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fade (Active, 1 AP):</strong> After attacking, become hidden (Stealth check vs highest enemy Awareness in Close range). Hidden until you attack or are found."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mark Target (Active, 1 AP):</strong> All allies get +1 accuracy against a target you designate until end of your next turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shadow Step (Passive):</strong> Moving through occupied zones doesn’t provoke opportunity attacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Patient Killer (Passive):</strong> If you don’t attack on your turn, your first attack next turn gets +3 accuracy. Waiting for the perfect moment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Concealed Blade (Passive):</strong> Your first attack from hidden deals +1 damage per die (after armor). The ambush cuts deeper."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Escape Artist (Passive):</strong> Breaking free from Grapple, Prone, or restraints costs 0 AP instead of 1. You slip out of everything."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Exploit Opening (Passive):</strong> Attacks against Prone, Stunned, or Grappled enemies deal +2 damage per die (after armor). You punish vulnerability."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vanishing Act (Active, 2 AP):</strong> You cannot be targeted until start of your next turn. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crippling Strike (Active, 1 AP):</strong> Your next melee attack applies Immobilize on hit (target cannot move for 1 turn)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nerve Strike (Active, 1 AP):</strong> Your next melee attack applies -2 to the target’s next attack (you hit a nerve cluster, disrupt their coordination). Stacks with other debuffs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Misdirection (Active, 1 AP):</strong> Create a false position. Until end of your next turn, the next attack targeting you automatically misses — they attacked where you were, not where you are. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shadow Network (Passive):</strong> While hidden, you can communicate silently with all allies (hand signals, comms discipline). Allies gain +1 to their next check if you describe the tactical situation to them from your hidden vantage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Throat Cutter (Passive):</strong> Attacks against enemies who are unaware of you (hidden, behind them, distracted) automatically apply Bleed 2 on hit."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Death Mark (Active, 1 AP):</strong> For the rest of the encounter, all attacks against a target get +1 accuracy and +1 damage per die. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ghost (Passive):</strong> While hidden, your first attack each turn automatically hits. Still roll for crit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phantom Strike (Passive):</strong> Once per turn, you can make a melee attack against any enemy within Medium range — you close the distance, strike, and return to your original position instantly. Costs normal AP for the attack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shadow Twin (Active, 3 AP):</strong> Create a shadow duplicate at your position. The duplicate lasts 2 rounds, has your Evasion, and enemies cannot distinguish it from you (50% chance any attack targets the duplicate instead). The duplicate cannot attack. Once per encounter."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "rift-patterns",
+  "title": "Rift Patterns",
+  "subtitle": "Tier 1–4 spells",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>Small manipulations. The rift equivalent of flicking a lighter. Costs toxicity and nothing else.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost:</strong> +1 Toxicity per use. No AP cost — Flickers are fast enough to use alongside other actions. <strong>Limit:</strong> Up to 2 Flickers per round (your body can only handle so much passive channeling)."
+    },
+    {
+      "type": "heading",
+      "text": "Defined Flickers"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pattern</strong>             <strong>Stat</strong>                <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Spark</strong>          Interface               Ranged attack. 1d6 damage, short range. No accuracy roll — auto-hits but can be dodged (target rolls Reflex DC 6 to halve). The simplest offensive magic. Point, burn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shimmer Ward</strong>        Grit                    +1 Evasion for 1 round. Your outline blurs with dimensional static. Subtle, brief, effective."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Sense</strong>          Edge                    Detect all rift energy sources within medium range. See through rift illusions. Identify if an object/creature is rift-touched. Lasts 1 round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxin Purge</strong>         Grit                    Immediately remove 1 stack of Poison from yourself or a touched ally. Your rift energy burns out the biological toxin. Ironic — using magic toxicity to cure mundane toxicity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Force Nudge</strong>         Interface               Telekinetic push. Move one object (up to 10kg) or shove one creature 1 square. Not enough force to deal damage. Enough to knock something off a ledge."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Whisper</strong> Edge                    Send a short mental message (10 words max) to one target within medium range. They hear your voice in their head. They cannot respond unless they also have this pattern. Unsettling for the recipient. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Real combat magic. Costs 3 AP plus toxicity.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost:</strong> +1-2 Toxicity (listed per pattern) + 3 AP. <strong>Casting Roll:</strong> 2d6 + stat bonus. 10+ = full effect, 7-9 = partial effect, 6- = misfire (see Misfires)."
+    },
+    {
+      "type": "heading",
+      "text": "Defined Surges"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- --------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pattern</strong>       <strong>Stat</strong>          <strong>Tox</strong>           <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Bolt</strong>     Interface         +1                Ranged attack. Roll 2d6 + Interface. On 10+: deal 2d8 damage to one target, medium range. On 7-9: deal 1d8 damage. Ignores 1 point of Armor (rift energy bypasses physical protection partially)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chain Arc</strong>     Interface         +2                Lightning-like energy arcs between targets. Roll 2d6 + Interface. On 10+: deal 1d6 damage to up to 3 targets within short range of each other. On 7-9: hits 2 targets, 1d6 each."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Shield</strong>   Grit              +1                Defensive barrier. Roll 2d6 + Grit. On 10+: gain 4 temporary Armor until start of your next turn. On 7-9: gain 2 temporary Armor. Stacks with worn armor. Visible as a crackling energy field."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional     Grit              +2                Lock down a zone. Roll Anchor</strong>                                              2d6 + Grit. On 10+: create a 3×3 zone where nothing can teleport, phase, or dimensionally shift for 3 rounds. On 7-9: lasts 1 round. Affects allies and enemies equally."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mind Spike</strong>    Interface         +2                Mental assault. Roll 2d6 + Interface vs target’s Grit. On 10+: target takes 1d6 damage (ignores all Armor) and is disoriented (-2 to next action). On 7-9: 1d4 damage, no disorientation. Only works on creatures with a nervous system."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Sight</strong>    Edge              +1                See through walls, floors, and cover within short range for 1 round. Roll 2d6 + Edge. On 10+: full vision, identify all creatures/objects/traps. On 7-9: outlines only — you know something’s there but not what."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gravity Well</strong>  Interface         +2                Manipulate local gravity. Roll 2d6 + Interface. On 10+: one target within medium range is pulled/pushed 3 squares in a direction of your choice and knocked prone. On 7-9: moved 1 square, not prone."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Siphon</strong>        Grit              +2                Drain vitality from a target. Roll 2d6 + Grit vs target’s Grit. On 10+: deal 1d6 damage, heal yourself for the amount dealt. On 7-9: deal 1d4, heal for half. Cannot heal above max HP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fog of          Edge              +1                Conjure a cloud of Elsewhere</strong>                                           dimensional static. Roll 2d6 + Edge. On 10+: create a 3×3 fog zone. All attacks through it take -3 accuracy. Lasts 3 rounds. On 7-9: lasts 1 round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Compel</strong>        Edge              +2                Force a weak-willed creature to take one specific action. Roll 2d6 + Edge vs target’s Grit. On 10+: target obeys for 1 round (can’t compel suicide/self-harm). On 7-9: target hesitates — loses their Act next turn but doesn’t obey. Only works on Standard or weaker enemies. ----------------- ----------------- ----------------- --------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Major effects that reshape the battlefield. Costs 4 AP, toxicity, AND hit points — you are burning your own body to fuel this.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost:</strong> +2-4 Toxicity (listed per pattern) + Act + HP sacrifice (listed per pattern). <strong>Casting Roll:</strong> 2d6 + stat bonus. Same success brackets. Misfires at T3 are more dangerous (see Misfires)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Requirement:</strong> 3+ Rift augments installed."
+    },
+    {
+      "type": "heading",
+      "text": "Defined Torrents"
+    },
+    {
+      "type": "paragraph",
+      "text": "--------------- -------------- -------------- -------------- ---------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pattern</strong>     <strong>Stat</strong>       <strong>Tox</strong>        <strong>HP</strong>         <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Storm</strong>  Interface      +3             3 HP           Area bombardment. Roll 2d6 + Interface. On 10+: deal 2d8 damage to all creatures in a 4×4 zone, medium range. On 7-9: 1d8 damage, 3×3 zone. Terrain in the zone is dimensionally scarred — counts as difficult terrain for 1 hour."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional   Interface      +4             4 HP           Rip a small Tear</strong>                                                       hole in reality. Roll 2d6 + Interface. On 10+: create a 2×2 rift tear. Anything entering takes 2d6 damage per round. Lasts 3 rounds or until dismissed. On 7-9: 1×1 tear, 1d6 damage, 2 rounds. The tear may attract rift creatures (GM discretion)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Iron Body</strong>   Grit           +3             2 HP           Your body becomes partially dimensional. Roll 2d6 + Grit. On 10+: for 3 rounds, you gain +3 Armor, are immune to Poison stacks, and your melee attacks deal +1d4 rift damage. On 7-9: lasts 1 round. When it ends, you’re exhausted: -1 to all checks for 1 round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mass Heal</strong>   Grit           +3             5 HP           Channel your own vitality outward. Roll 2d6 + Grit. On 10+: all allies within short range heal 1d6+2 HP. On 7-9: heal 1d4 HP each. You sacrifice more than they gain. The math doesn’t work in your favor. That’s the point."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Temporal      Edge           +4             3 HP           Briefly break Stutter</strong>                                                    causality. Roll 2d6 + Edge. On 10+: choose one — rewind one ally’s last action (they redo it with new information), or force one enemy to repeat their last action identically. On 7-9: you can only affect yourself."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dominate</strong>    Edge           +4             4 HP           Total mental control over one creature. Roll 2d6 + Edge vs target’s Grit (with -2 for Elites, -4 for Bosses). On 10+: you control the target for 2 rounds. They act on your turn. Full control. On 7-9: 1 round. When control ends, the target knows what happened and is hostile."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phase Walk</strong>  Interface      +2             2 HP           Step between dimensions. Roll 2d6 + Interface. On 10+: teleport up to long range, passing through all physical obstacles. Arrive with +2 Evasion for 1 round (partially phased). On 7-9: teleport to medium range, no Evasion bonus. --------------- -------------- -------------- -------------- ---------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The nuclear option. Once per mission. Reshapes reality locally. The cost isn’t just toxicity and HP — there’s always a consequence.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost:</strong> +5-8 Toxicity + Act + HP sacrifice + <strong>a Consequence</strong> (permanent or mission-lasting). <strong>Casting Roll:</strong> 2d6 + stat bonus. On 6-, the Cataclysm still fires — but the consequence doubles."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Requirement:</strong> 6+ Rift augments installed. <strong>Limit:</strong> Once per mission. Your body physically cannot do this twice."
+    },
+    {
+      "type": "heading",
+      "text": "Defined Cataclysms"
+    },
+    {
+      "type": "paragraph",
+      "text": "---------------- ----------- ----------- ----------- ----------------- ---------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pattern</strong>      <strong>Stat</strong>    <strong>Tox</strong>     <strong>HP</strong>      <strong>Consequence</strong>   <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Annihilation   Interface   +6          6 HP        +1 permanent      Roll 2d6 + Wave</strong>                                               Scar. The energy  Interface. On tears through     10+: deal 4d10 your body.        damage to everything in a massive cone (6 squares long, 4 wide at end). Ignores all Armor. On 7-9: 2d10, smaller cone (4×3). On 6-: it fires but you also take 2d10 and the cone is random direction."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reality        Interface   +8          4 HP        Area becomes a    Roll 2d6 + Collapse</strong>                                           permanent         Interface. On unstable rift     10+: create a zone. It will     6×6 zone where never fully heal. physics breaks You did this.     for 5 rounds. Inside: gravity shifts randomly each round, all non-rift damage is halved, all rift damage is doubled, teleportation is free for anyone. On 7-9: 4×4 zone, 3 rounds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resurrection   Grit        +6          8 HP + 1    Your current      Roll 2d6 + Pulse</strong>                                  Scar from   toxicity          Grit. On 10+: the caster  permanently       one ally who increases its     died THIS floor by 2 (can   COMBAT (hit 0 never go below    HP and failed current - 2 after their Scar this casting).    roll) is brought back at 1 HP with +1 Scar. They were dead. Now they aren’t. On 7-9: they return at 1 HP but with +2 Scars and disoriented for 3 rounds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mind Break</strong>   Edge        +5          5 HP        You experience    Roll 2d6 + Edge the target’s     vs target’s mind fully. Gain  Grit. On 10+: one of their      target’s mind fears as your own is shattered. (permanent -1 to  They are checks involving  stunned for 3 that fear, GM     rounds, lose determines).      access to all augments for the rest of combat, and flee when the stun ends. Works on anything with a mind, including Bosses (-4 penalty still applies). On 7-9: stunned 1 round, augments disabled 2 rounds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional    Interface   +7          6 HP        A piece of you    Roll 2d6 + Exile</strong>                                              goes with them.   Interface. On -1 Interface      10+: banish one permanently (the  creature to rift took a piece another of your mind).    dimension. They’re gone. Completely. If they can dimensionally travel, they can return in 1d6 missions. If they can’t, they’re gone forever. On 7-9: banished for 1d6 rounds, then they return — angry. On 6-: you both go. The team has to find you. ---------------- ----------- ----------- ----------- ----------------- ---------------"
+    }
+  ]
+}

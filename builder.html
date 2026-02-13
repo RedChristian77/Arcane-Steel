@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcane Steel — Character Builder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/sidebar.css">
+<link rel="stylesheet" href="css/builder.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+</head>
+<body>
+<div class="mobile-hdr">
+  <a href="index.html" class="mobile-btn" style="font-size:.8rem;text-decoration:none">←</a>
+  <span class="mobile-title">CHARACTER BUILDER</span>
+</div>
+<div id="builder-root"></div>
+<script type="text/babel">
+const {useState,useMemo}=React;
+const h=React.createElement;
+
+// ============================================================
+// GAME DATA
+// ============================================================
+const SPECIES=[
+  {name:"Human",desc:"Baseline. Versatile, adaptable.",bonus:"None",note:"+1 Flex Point (4 total)"},
+  {name:"Vael",desc:"Rift-touched elves. Graceful, long-lived.",bonus:"+1 Interface, +1 Reflex, -1 Grit",note:"Advantage on Rift Knowledge checks"},
+  {name:"Keth",desc:"Heavy reptilian. Durable, strong, slow.",bonus:"+2 Chrome, +1 Grit, -2 Reflex",note:"Natural armor: +1 base armor/die"},
+  {name:"Whisper",desc:"Shadow-adapted humanoids. Small, fast.",bonus:"+2 Reflex, -1 Chrome",note:"Advantage on Stealth in dim/dark"},
+  {name:"Grunt",desc:"Engineered labor species. Massive, loyal.",bonus:"+2 Grit, +1 Chrome, -2 Interface",note:"Carry weight x1.5"},
+  {name:"Flicker",desc:"Unstable dimensional beings.",bonus:"+1 Edge, +1 Reflex, -1 Grit",note:"1/combat: phase through 1 attack"},
+  {name:"Hollow",desc:"Symbiotic organism hosting rift entities.",bonus:"+2 Interface, -1 Edge, -1 Chrome",note:"Start Toxicity 1; disperses 1 faster"},
+];
+
+const RESUMES=[
+  {name:"Pit Fighter",stats:{Chrome:1,Reflex:1,Grit:1},credits:400,perk:"Conditioned Response: +1 Initiative",bonus:"Athletics"},
+  {name:"Field Medic",stats:{Interface:1,Grit:1,Edge:1},credits:500,perk:"Clinical Eye: +1 to Medicine diagnostics",bonus:"Medicine"},
+  {name:"Street Rat",stats:{Reflex:2,Edge:1},credits:250,perk:"Survivor's Instinct: Adv on danger Awareness",bonus:"Streetwise"},
+  {name:"Corp Dropout",stats:{Interface:2,Edge:1},credits:600,perk:"Inside Knowledge: Adv on corp Social checks",bonus:"Social"},
+  {name:"Rift Diver",stats:{Interface:1,Grit:1,Reflex:1},credits:350,perk:"Rift Sense: Feel rift proximity 30m",bonus:"Rift Knowledge"},
+  {name:"Combat Medic",stats:{Grit:1,Interface:1,Chrome:1},credits:400,perk:"Triage Training: Stabilize at 1 AP",bonus:"Medicine"},
+  {name:"Scavenger",stats:{Edge:1,Reflex:1,Interface:1},credits:550,perk:"Salvage Eye: +1 Crafting scrap rolls",bonus:"Crafting"},
+  {name:"Merchant",stats:{Edge:2,Interface:1},credits:800,perk:"Market Savvy: 10% discount all purchases",bonus:"Social"},
+  {name:"Driver",stats:{Reflex:2,Chrome:1},credits:400,perk:"Wheelman: Adv on vehicle checks",bonus:"Tech"},
+  {name:"Drifter",stats:{Grit:1,Reflex:1,Edge:1},credits:200,perk:"Road Worn: +1 Survival checks",bonus:"Awareness"},
+];
+
+const KITS=[
+  {name:"Berserker",tree:"Fury",aug:"Adrenal Injector",abi:"Aggressive Stance",lean:"Chrome/Grit",gear:"Heavy Axe, Combat Knife, Contractor Standard"},
+  {name:"Operative",tree:"Precision",aug:"Targeting Suite",abi:"(see Kit Abilities)",lean:"Reflex/Edge",gear:"Corp Rifle, Burst Pistol, Light Weave"},
+  {name:"Channeler",tree:"Rift",aug:"Rift Attunement",abi:"Rift Sense",lean:"Interface/Grit",gear:"Rift Staff, Combat Knife, Rift-Walker Suit"},
+  {name:"Technician",tree:"Systems",aug:"Neural Jack",abi:"System Scan",lean:"Interface/Edge",gear:"Burst Pistol, Neural Probe, Corp Tactical"},
+  {name:"Negotiator",tree:"Influence",aug:"Social Implant",abi:"Read the Room",lean:"Edge/Interface",gear:"Burst Pistol, Light Weave",xCr:100},
+  {name:"Bulwark",tree:"Fortress",aug:"Subdermal Plating",abi:"(see Kit Abilities)",lean:"Chrome/Grit",gear:"Precision Blade, Heavy Plate"},
+  {name:"Phantom",tree:"Shadow",aug:"Optical Camo Weave",abi:"Ambush Training",lean:"Reflex/Edge",gear:"Precision Blade x2, Light Weave"},
+  {name:"Dancer",tree:"Dancer",aug:"Ambidextrous Wiring",abi:"Fluid Movement",lean:"Reflex/Chrome",gear:"Precision Blade x2, Light Weave"},
+  {name:"Leech",tree:"Leech",aug:"Empathic Reactor",abi:"Toxic Touch",lean:"Grit/Chrome",gear:"Gauntlets, Combat Knife, Contractor Standard"},
+  {name:"Sin Eater",tree:"Sin Eater",aug:"Empathic Link",abi:"Burden Sense",lean:"Interface/Edge",gear:"Siphon Rod, Combat Knife, Light Weave"},
+];
+
+const SKILLS=[
+  {name:"Tech",stat:"Interface",desc:"Machines, vehicles, fabrication"},
+  {name:"Hacking",stat:"Interface",desc:"Network intrusion, data extraction",gated:1},
+  {name:"Medicine",stat:"Interface",desc:"First aid, surgery, toxicology",gated:1},
+  {name:"Social",stat:"Edge",desc:"Persuasion, deception, bargaining"},
+  {name:"Awareness",stat:"Edge",desc:"Perception, intuition, threat assessment"},
+  {name:"Athletics",stat:"Chrome",desc:"Climbing, swimming, feats of strength"},
+  {name:"Rift Knowledge",stat:"Interface",desc:"Rift behavior, creature ID",gated:1},
+  {name:"Stealth",stat:"Reflex",desc:"Sneaking, hiding, tailing"},
+  {name:"Streetwise",stat:"Edge",desc:"Contacts, black market, rumors"},
+  {name:"Crafting",stat:"Interface",desc:"Fabrication, modification, salvage",gated:1},
+];
+
+const TRAITS=[
+  {name:"Genius",desc:"Push rolls for +2 but risk Stress/Breakdown.",mech:"+2 any roll (1 Stress). Breakdown at max."},
+  {name:"Chrome Junkie",desc:"Body craves augments. First per tier: half price.",mech:"-1 max HP. First aug per tier 50% off."},
+  {name:"Debt Slave",desc:"You owe someone dangerous.",mech:"+200 cr. GM introduces debt complications.",crMod:200},
+  {name:"Feral",desc:"Grew up outside the walls.",mech:"+1 Survival/Athletics wild. -1 Social corp."},
+  {name:"Rift Organs",desc:"Rift energy replaced parts of your biology.",mech:"Free T1 Rift pattern. Grit capped at 6."},
+  {name:"Wired Reflexes",desc:"Illegal neural accelerators.",mech:"+1 Init, +1 Ref round 1. 5% nerve damage."},
+  {name:"Lucky Bastard",desc:"Inexplicable fortune.",mech:"1/session: reroll any one die."},
+  {name:"Haunted",desc:"Something from a rift followed you home.",mech:"Adv Rift Knowledge. Disadv rest/sleep."},
+];
+
+// Custom path weapon/armor data
+const MELEE=[
+  {name:"Combat Knife",acc:"d12",dmg:"1d6",ap:1,wt:1,cost:50,tags:"Light"},
+  {name:"Gauntlets",acc:"d12",dmg:"1d4",ap:1,wt:1,cost:100,tags:"Light, Unarmed"},
+  {name:"Precision Blade",acc:"d10",dmg:"1d8",ap:2,wt:1,cost:200,tags:"Light"},
+  {name:"Longsword",acc:"d8",dmg:"2d8",ap:3,wt:2,cost:300,tags:"Medium"},
+  {name:"Chain Flail",acc:"d8",dmg:"1d10",ap:3,wt:2,cost:275,tags:"Medium, Pen 1"},
+  {name:"Rift Blade",acc:"d8",dmg:"2d8",ap:3,wt:2,cost:600,tags:"Medium, Magic, Pen 2"},
+  {name:"Heavy Axe",acc:"d6",dmg:"3d10",ap:4,wt:3,cost:350,tags:"Heavy"},
+  {name:"War Hammer",acc:"d6",dmg:"2d12",ap:4,wt:3,cost:350,tags:"Heavy"},
+  {name:"Great Maul",acc:"d4",dmg:"4d12",ap:5,wt:4,cost:500,tags:"Heavy"},
+];
+const RANGED=[
+  {name:"Hand Crossbow",acc:"d12",dmg:"1d8",ap:1,wt:1,cost:150,tags:"Light"},
+  {name:"Burst Pistol",acc:"d10",dmg:"1d8",ap:2,wt:1,cost:400,tags:"Light"},
+  {name:"Throwing Axes x3",acc:"d10",dmg:"1d8",ap:2,wt:1,cost:75,tags:"Light, Thrown"},
+  {name:"Composite Bow",acc:"d8",dmg:"1d10",ap:2,wt:2,cost:200,tags:"Medium"},
+  {name:"Corp Rifle",acc:"d8",dmg:"2d8",ap:3,wt:3,cost:700,tags:"Medium"},
+  {name:"Crossbow",acc:"d8",dmg:"2d8",ap:3,wt:2,cost:250,tags:"Medium"},
+  {name:"Scatter Gun",acc:"d12",dmg:"2d8",ap:3,wt:3,cost:500,tags:"Heavy"},
+  {name:"Heavy Crossbow",acc:"d6",dmg:"3d10",ap:4,wt:3,cost:400,tags:"Heavy"},
+  {name:"Shotgun",acc:"d8",dmg:"2d10",ap:3,wt:3,cost:500,tags:"Heavy"},
+  {name:"Sniper Rifle",acc:"d6",dmg:"3d10",ap:5,wt:4,cost:1200,tags:"Heavy"},
+];
+const TECHW=[
+  {name:"Toxic Needle",acc:"d12",dmg:"1d2",ap:1,wt:0,cost:150,tags:"Light, Effect"},
+  {name:"Neural Probe",acc:"d10",dmg:"1d4",ap:1,wt:1,cost:300,tags:"Light, Tech"},
+  {name:"Siphon Rod",acc:"d10",dmg:"1d8",ap:2,wt:1,cost:450,tags:"Light, Magic"},
+  {name:"Hex Totem",acc:"d10",dmg:"1d6",ap:2,wt:1,cost:350,tags:"Light, Magic"},
+  {name:"Arc Caster",acc:"d10",dmg:"1d8",ap:2,wt:2,cost:500,tags:"Medium, Tech"},
+  {name:"Pulse Gauntlet",acc:"d10",dmg:"1d8",ap:2,wt:1,cost:400,tags:"Light, Tech"},
+  {name:"Rift Staff",acc:"d8",dmg:"2d10",ap:3,wt:2,cost:400,tags:"Medium, Magic"},
+];
+const ARMOR=[
+  {name:"Clothes",val:0,cap:null,wt:0,cost:0},
+  {name:"Padded Jacket",val:1,cap:null,wt:1,cost:50},
+  {name:"Light Weave",val:2,cap:null,wt:1,cost:200},
+  {name:"Contractor Standard",val:3,cap:6,wt:2,cost:400},
+  {name:"Corp Tactical",val:4,cap:5,wt:3,cost:750},
+  {name:"Rift-Walker Suit",val:3,cap:6,wt:2,cost:600},
+  {name:"Heavy Plate",val:6,cap:3,wt:4,cost:1200},
+];
+const SHIELDS=[
+  {name:"Buckler",ev:1,wt:1,cost:100,note:"Can use Light weapon in shield hand"},
+  {name:"Standard Shield",ev:2,wt:2,cost:250,note:"Occupies one hand"},
+  {name:"Tower Shield",ev:3,wt:4,cost:500,note:"-1 accuracy. Cover for allies behind."},
+  {name:"Rift-Ward Shield",ev:2,wt:2,cost:600,note:"+2 Evasion vs Magic attacks"},
+];
+const AUGS_T1=[
+  {name:"Adrenal Injector",tree:"Fury",cost:200},
+  {name:"Targeting Suite",tree:"Precision",cost:200},
+  {name:"Rift Attunement",tree:"Rift",cost:200},
+  {name:"Neural Jack",tree:"Systems",cost:200},
+  {name:"Social Implant",tree:"Influence",cost:200},
+  {name:"Subdermal Plating",tree:"Fortress",cost:200},
+  {name:"Optical Camo Weave",tree:"Shadow",cost:200},
+  {name:"Ambidextrous Wiring",tree:"Dancer",cost:200},
+  {name:"Empathic Reactor",tree:"Leech",cost:200},
+  {name:"Empathic Link",tree:"Sin Eater",cost:200},
+];
+
+const CUSTOM_BUDGET = 1200;
+
+// ============================================================
+// HELPERS
+// ============================================================
+function gB(v){if(v<=3)return-2;if(v<=5)return-1;if(v<=7)return 0;if(v<=9)return 1;if(v<=11)return 2;if(v<=14)return 3;return 4}
+function fB(v){const b=gB(v);return b>=0?'+'+b:''+b}
+
+// ============================================================
+// APP
+// ============================================================
+function App(){
+  const[step,sStep]=useState(0);
+  const[nm,sNm]=useState('');
+  const[sp,sSp]=useState(null);
+  const[res,sRes]=useState(null);
+  const[tr,sTr]=useState([]);
+  const[kitMode,sKitMode]=useState('kit'); // 'kit' or 'custom'
+  const[kit,sKit]=useState(null);
+  const[fl,sFl]=useState({Chrome:0,Reflex:0,Grit:0,Interface:0,Edge:0});
+  const[sk,sSk]=useState({});
+  const[exp,sExp]=useState(null);
+  // Custom gear
+  const[cWeapons,sCW]=useState([]);
+  const[cArmor,sCA]=useState(null);
+  const[cShield,sCS]=useState(null);
+  const[cAug,sCAug]=useState(null);
+  const[wTab,sWTab]=useState('melee');
+
+  const mxFl=sp&&sp.name==='Human'?4:3;
+  const flU=Object.values(fl).reduce((a,b)=>a+b,0);
+
+  const st=useMemo(()=>{
+    const b={Chrome:5,Reflex:5,Grit:5,Interface:5,Edge:5};
+    if(res)Object.entries(res.stats).forEach(([k,v])=>b[k]+=v);
+    if(sp){const m=sp.bonus.match(/([+-]\d+)\s+(Chrome|Reflex|Grit|Interface|Edge)/g);if(m)m.forEach(s=>{const p=s.match(/([+-]\d+)\s+(\w+)/);if(p)b[p[2]]+=parseInt(p[1])})}
+    Object.entries(fl).forEach(([k,v])=>b[k]+=v);
+    if(tr.find(t=>t.name==='Rift Organs')&&b.Grit>6)b.Grit=6;
+    return b;
+  },[res,sp,fl,tr]);
+
+  const hp=6+gB(st.Grit)+(tr.find(t=>t.name==='Chrome Junkie')?-1:0);
+  const ev=8+gB(st.Reflex);
+  const init=gB(st.Reflex)+gB(st.Edge)+(res&&res.name==='Pit Fighter'?1:0)+(tr.find(t=>t.name==='Wired Reflexes')?1:0);
+  const cw=sp&&sp.name==='Grunt'?Math.floor(st.Chrome*3):st.Chrome*2;
+  const cr=(res?res.credits:0)+(kit&&kit.xCr?kit.xCr:0)+tr.reduce((s,t)=>s+(t.crMod||0),0);
+
+  // Custom gear budget
+  const allW=[...MELEE,...RANGED,...TECHW];
+  const cSpent=cWeapons.reduce((s,i)=>s+allW[i].cost,0)+(cArmor!=null?ARMOR[cArmor].cost:0)+(cShield!=null?SHIELDS[cShield].cost:0)+(cAug!=null?AUGS_T1[cAug].cost:0);
+  const cLeft=CUSTOM_BUDGET-cSpent;
+
+  function togTr(t){sTr(p=>p.find(x=>x.name===t.name)?p.filter(x=>x.name!==t.name):p.length<2?[...p,t]:p)}
+
+  function cycSk(s){
+    const bn=res?res.bonus:null;
+    sSk(p=>{
+      const cur=p[s.name]||0;
+      const isBn=s.name===bn;
+      // Bonus skill: starts at T1, can promote to T2, can demote back to T1 (not remove)
+      let next;
+      if(isBn){
+        next=cur<=1?2:1; // toggle between T1 and T2
+      } else {
+        next=cur===0?1:cur===1?2:0;
+      }
+      const nS={...p};
+      if(next===0)delete nS[s.name]; else nS[s.name]=next;
+      // Count non-bonus picks
+      const nonBonus=Object.entries(nS).filter(([k])=>k!==bn);
+      const t1=nonBonus.filter(([,v])=>v===1).length;
+      const t2=nonBonus.filter(([,v])=>v===2).length;
+      // Bonus at T2 counts toward T2 limit
+      const bnT2=(bn&&nS[bn]===2)?1:0;
+      if(t1>3||t2+bnT2>1)return p;
+      return nS;
+    });
+  }
+
+  // Initialize bonus skill when resume changes
+  useMemo(()=>{
+    if(res&&!sk[res.bonus]){
+      sSk(p=>({...p,[res.bonus]:1}));
+    }
+  },[res]);
+
+  function canNext(){
+    if(step===0)return sp!==null;
+    if(step===1)return res!==null;
+    if(step===3){
+      if(kitMode==='kit')return kit!==null;
+      return cWeapons.length>0; // at least one weapon for custom
+    }
+    if(step===4)return flU===mxFl;
+    if(step===5){
+      const bn=res?res.bonus:null;
+      const nonBonus=Object.entries(sk).filter(([k])=>k!==bn);
+      const t1=nonBonus.filter(([,v])=>v===1).length;
+      const t2=nonBonus.filter(([,v])=>v===2).length;
+      const bnT2=(bn&&sk[bn]===2)?1:0;
+      return t1===3&&(t2+bnT2)===1;
+    }
+    return true;
+  }
+
+  function expJSON(){
+    const gear=kitMode==='kit'?{mode:'kit',kit:kit?.name,gear:kit?.gear,augment:kit?.aug,ability:kit?.abi,tree:kit?.tree}
+      :{mode:'custom',weapons:cWeapons.map(i=>allW[i].name),armor:cArmor!=null?ARMOR[cArmor].name:null,shield:cShield!=null?SHIELDS[cShield].name:null,augment:cAug!=null?AUGS_T1[cAug].name:null};
+    return JSON.stringify({name:nm||'Unnamed',species:sp?.name,resume:res?.name,traits:tr.map(t=>t.name),gearSetup:gear,stats:st,hp,evasion:ev,initiative:init,carry:cw,credits:cr,skills:Object.fromEntries(Object.entries(sk).map(([k,v])=>[k,'T'+v]))},null,2);
+  }
+  function expTxt(){
+    let t=`${'═'.repeat(35)}\n  ${(nm||'UNNAMED').toUpperCase()} — ${sp?.name||'?'}\n  ${res?.name||'?'} / ${kitMode==='kit'?kit?.name:'Custom Build'}\n${'═'.repeat(35)}\n\nSTATS\n`;
+    Object.entries(st).forEach(([k,v])=>t+=`  ${k.padEnd(12)} ${v} (${fB(v)})\n`);
+    t+=`\nDERIVED\n  HP: ${hp}  Evasion: ${ev}  Init: ${init>=0?'+':''}${init}  Carry: ${cw}  Credits: ${cr}cr\n\nSKILLS\n`;
+    Object.entries(sk).forEach(([k,v])=>t+=`  ${k} T${v}${k===res?.bonus?' (bonus)':''}\n`);
+    if(tr.length){t+=`\nTRAITS\n`;tr.forEach(x=>t+=`  ${x.name}: ${x.mech}\n`)}
+    if(kitMode==='kit'){t+=`\nKIT: ${kit?.name||'-'}\n  Tree: ${kit?.tree||'-'}  Aug: ${kit?.aug||'-'}  Ability: ${kit?.abi||'-'}\n  Gear: ${kit?.gear||'-'}\n`}
+    else{t+=`\nCUSTOM BUILD (${CUSTOM_BUDGET}cr gear budget)\n  Weapons: ${cWeapons.map(i=>allW[i].name).join(', ')||'None'}\n  Armor: ${cArmor!=null?ARMOR[cArmor].name:'None'}\n  Shield: ${cShield!=null?SHIELDS[cShield].name:'None'}\n  Augment: ${cAug!=null?AUGS_T1[cAug].name:'None'}\n`}
+    return t;
+  }
+
+  const stps=[
+    {t:"Name & Species",d:"Who are you, and what are you?"},
+    {t:"Résumé",d:"What did you do before the rift grind?"},
+    {t:"Traits",d:"Optional. Pick up to 2 traits."},
+    {t:"Kit or Custom",d:kitMode==='kit'?"Pick a kit for preset gear + tree.":"Build your own loadout ("+CUSTOM_BUDGET+"cr gear budget)."},
+    {t:"Stats",d:`Allocate ${mxFl} Flex Points. Max +2 per stat.`},
+    {t:"Skills",d:"Pick 3 at T1 and promote 1 to T2. Bonus skill can be promoted."},
+    {t:"Summary",d:"Review and export your contractor."},
+  ];
+
+  function StatPanel({style}){
+    return h('div',{style},
+      h('div',{className:'st-sec'},h('div',{className:'st-sec-t'},'Stats'),
+        Object.entries(st).map(([k,v])=>h('div',{key:k,className:'st-row'},h('span',{className:'st-lbl'},k),h('span',{className:'st-val'},v+' ('+fB(v)+')')))),
+      h('div',{className:'st-sec'},h('div',{className:'st-sec-t'},'Derived'),
+        [['HP',hp],['Evasion',ev],['Init',(init>=0?'+':'')+init],['Carry',cw],['Credits',cr+'cr']].map(([l,v])=>h('div',{key:l,className:'st-row'},h('span',{className:'st-lbl'},l),h('span',{className:'st-val'},v)))),
+      (sp||res||kit)&&h('div',{className:'st-sec'},h('div',{className:'st-sec-t'},'Info'),
+        sp&&h('div',{className:'st-row'},h('span',{className:'st-lbl'},'Species'),h('span',{className:'st-val',style:{color:'var(--teal)'}},sp.name)),
+        res&&h('div',{className:'st-row'},h('span',{className:'st-lbl'},'Résumé'),h('span',{className:'st-val',style:{color:'var(--teal)'}},res.name)),
+        kitMode==='kit'&&kit&&h('div',{className:'st-row'},h('span',{className:'st-lbl'},'Kit'),h('span',{className:'st-val',style:{color:'var(--teal)'}},kit.name)),
+        kitMode==='custom'&&h('div',{className:'st-row'},h('span',{className:'st-lbl'},'Build'),h('span',{className:'st-val',style:{color:'var(--teal)'}},'Custom')))
+    );
+  }
+
+  function renderWeaponList(weapons,offset){
+    return weapons.map((w,i)=>{
+      const gi=offset+i;
+      const sel=cWeapons.includes(gi);
+      const afford=w.cost<=cLeft+(sel?w.cost:0);
+      return h('div',{key:gi,className:'cd'+(sel?' sel':''),style:{opacity:!afford&&!sel?.35:1,cursor:afford||sel?'pointer':'not-allowed'},
+        onClick:()=>{if(sel)sCW(p=>p.filter(x=>x!==gi));else if(afford)sCW(p=>[...p,gi])}},
+        h('div',{className:'cd-t'},w.name),
+        h('div',{className:'cd-d'},w.acc+' → '+w.dmg+' | '+w.ap+'AP | wt'+w.wt),
+        h('div',{className:'cd-d'},w.tags),
+        h('div',{className:'tag'},w.cost+'cr'));
+    });
+  }
+
+  function renderStep(){
+    const bn=res?res.bonus:null;
+    switch(step){
+    case 0: return h('div',null,
+      h('div',{style:{marginBottom:16}},
+        h('label',{style:{fontFamily:'var(--mono)',fontSize:'.72rem',color:'var(--muted)',display:'block',marginBottom:4}},'Contractor Name'),
+        h('input',{value:nm,onChange:e=>sNm(e.target.value),placeholder:'Enter name...',style:{width:'100%',maxWidth:300,padding:'8px 12px',background:'var(--surface)',border:'1px solid var(--border)',borderRadius:'var(--radius)',color:'var(--text)',fontFamily:'var(--sans)',fontSize:'.9rem',outline:'none'}})),
+      h('div',{className:'cg'},SPECIES.map(s=>h('div',{key:s.name,className:'cd'+(sp===s?' sel':''),onClick:()=>sSp(s)},
+        h('div',{className:'cd-t'},s.name),h('div',{className:'cd-d'},s.desc),
+        s.bonus!=='None'&&h('div',{className:'tag',style:{marginTop:6}},s.bonus),
+        h('div',{className:'cd-d',style:{marginTop:4,color:'var(--accent)',fontSize:'.72rem'}},s.note)))));
+
+    case 1: return h('div',{className:'cg'},RESUMES.map(r=>h('div',{key:r.name,className:'cd'+(res===r?' sel':''),onClick:()=>sRes(r)},
+      h('div',{className:'cd-t'},r.name),
+      h('div',{style:{display:'flex',gap:4,flexWrap:'wrap',marginBottom:4}},Object.entries(r.stats).map(([k,v])=>h('span',{key:k,className:'tag'},'+'+v+' '+k))),
+      h('div',{className:'cd-d'},'Credits: '+r.credits+'cr'),
+      h('div',{className:'cd-d',style:{marginTop:4}},r.perk),
+      h('div',{className:'tag tl',style:{marginTop:6}},'Bonus: '+r.bonus+' T1'))));
+
+    case 2: return h('div',null,
+      h('div',{style:{fontSize:'.82rem',color:'var(--text2)',marginBottom:14}},'Pick up to 2 traits (optional). Click to toggle.'),
+      TRAITS.map(t=>h('div',{key:t.name,className:'tt'+(tr.find(x=>x.name===t.name)?' on':''),onClick:()=>togTr(t)},
+        h('div',{className:'ck'},tr.find(x=>x.name===t.name)?'✓':''),
+        h('div',null,h('div',{style:{fontWeight:600,fontSize:'.88rem'}},t.name),
+          h('div',{style:{fontSize:'.78rem',color:'var(--text2)'}},t.desc),
+          h('div',{style:{fontSize:'.72rem',color:'var(--accent)',marginTop:2}},t.mech)))));
+
+    case 3: return h('div',null,
+      // Kit / Custom toggle
+      h('div',{style:{display:'flex',gap:6,marginBottom:16}},
+        ['kit','custom'].map(m=>h('button',{key:m,className:'btn'+(kitMode===m?'':' sec'),
+          onClick:()=>sKitMode(m)},m==='kit'?'Pick a Kit':'Custom Build ('+CUSTOM_BUDGET+'cr)'))),
+      kitMode==='kit'?
+        h('div',{className:'cg'},KITS.map(k=>h('div',{key:k.name,className:'cd'+(kit===k?' sel':''),onClick:()=>sKit(k)},
+          h('div',{className:'cd-t'},k.name),h('div',{className:'tag tl'},'Tree: '+k.tree),
+          h('div',{className:'cd-d',style:{marginTop:4}},'Aug: '+k.aug),
+          h('div',{className:'cd-d'},'Ability: '+k.abi),
+          h('div',{className:'cd-d',style:{marginTop:4,fontSize:'.72rem',color:'var(--muted)'}},'Lean: '+k.lean),
+          h('div',{className:'cd-d',style:{marginTop:4,fontSize:'.72rem'}},'Gear: '+k.gear),
+          k.xCr&&h('div',{className:'tag',style:{marginTop:4}},'+'+k.xCr+'cr'))))
+      : // Custom build
+        h('div',null,
+          h('div',{style:{fontFamily:'var(--mono)',fontSize:'.82rem',color:cLeft>=0?'var(--accent)':'var(--rust)',padding:'8px 12px',background:'var(--accent-glow)',borderRadius:'var(--radius)',marginBottom:16,textAlign:'center'}},
+            'Gear Budget: '+CUSTOM_BUDGET+'cr · Spent: '+cSpent+'cr · Remaining: '+cLeft+'cr',
+            h('div',{style:{fontSize:'.68rem',color:'var(--muted)',marginTop:2}},'Resume credits ('+cr+'cr) are your starting cash — separate from gear budget.')),
+          // Weapon tabs
+          h('div',{style:{fontFamily:'var(--heading)',fontSize:'.78rem',color:'var(--teal)',marginBottom:6}},'WEAPONS'),
+          h('div',{style:{display:'flex',gap:4,marginBottom:10}},
+            ['melee','ranged','tech'].map(t=>h('button',{key:t,className:'btn'+(wTab===t?'':' sec'),
+              style:{fontSize:'.7rem',padding:'4px 12px'},onClick:()=>sWTab(t)},t.toUpperCase()))),
+          h('div',{className:'cg'},
+            wTab==='melee'?renderWeaponList(MELEE,0):wTab==='ranged'?renderWeaponList(RANGED,MELEE.length):renderWeaponList(TECHW,MELEE.length+RANGED.length)),
+          // Armor
+          h('div',{style:{fontFamily:'var(--heading)',fontSize:'.78rem',color:'var(--teal)',margin:'16px 0 6px'}},'ARMOR'),
+          h('div',{className:'cg'},ARMOR.map((a,i)=>{
+            const sel=cArmor===i;const afford=a.cost<=cLeft+(sel?a.cost:0);
+            return h('div',{key:i,className:'cd'+(sel?' sel':''),style:{opacity:!afford&&!sel?.35:1},
+              onClick:()=>{if(sel)sCA(null);else if(afford)sCA(i)}},
+              h('div',{className:'cd-t'},a.name),
+              h('div',{className:'cd-d'},'Armor '+a.val+(a.cap?' · Cap '+a.cap:' · No cap')+' · wt'+a.wt),
+              h('div',{className:'tag'},a.cost?a.cost+'cr':'Free'))})),
+          // Shields
+          h('div',{style:{fontFamily:'var(--heading)',fontSize:'.78rem',color:'var(--teal)',margin:'16px 0 6px'}},'SHIELD (optional)'),
+          h('div',{className:'cg'},SHIELDS.map((s,i)=>{
+            const sel=cShield===i;const afford=s.cost<=cLeft+(sel?s.cost:0);
+            return h('div',{key:i,className:'cd'+(sel?' sel':''),style:{opacity:!afford&&!sel?.35:1},
+              onClick:()=>{if(sel)sCS(null);else if(afford)sCS(i)}},
+              h('div',{className:'cd-t'},s.name),
+              h('div',{className:'cd-d'},'+'+s.ev+' Evasion · wt'+s.wt),
+              s.note&&h('div',{className:'cd-d',style:{fontSize:'.72rem',color:'var(--teal)'}},s.note),
+              h('div',{className:'tag'},s.cost+'cr'))})),
+          // T1 Augment
+          h('div',{style:{fontFamily:'var(--heading)',fontSize:'.78rem',color:'var(--teal)',margin:'16px 0 6px'}},'T1 AUGMENT (optional)'),
+          h('div',{className:'cg'},AUGS_T1.map((a,i)=>{
+            const sel=cAug===i;const afford=a.cost<=cLeft+(sel?a.cost:0);
+            return h('div',{key:i,className:'cd'+(sel?' sel':''),style:{opacity:!afford&&!sel?.35:1},
+              onClick:()=>{if(sel)sCAug(null);else if(afford)sCAug(i)}},
+              h('div',{className:'cd-t'},a.name),
+              h('div',{className:'cd-d'},'Tree: '+a.tree),
+              h('div',{className:'tag'},a.cost+'cr'))}))));
+
+    case 4: return h('div',null,
+      h('div',{style:{fontSize:'.82rem',color:'var(--text2)',marginBottom:14}},'Flex: '+flU+'/'+mxFl+' (max +2/stat, no stat below 2 or above 10)'),
+      h('div',{className:'sa'},Object.entries(st).map(([k,v])=>h('div',{key:k,className:'sa-i'},
+        h('div',{className:'sa-n'},k),h('div',{className:'sa-v'},v),
+        h('div',{style:{fontSize:'.68rem',color:'var(--muted)',marginBottom:4}},fB(v)),
+        h('div',{className:'sa-bs'},
+          h('button',{className:'sa-b',disabled:fl[k]<=0,onClick:()=>sFl(p=>({...p,[k]:p[k]-1}))},'-'),
+          h('span',{style:{fontFamily:'var(--mono)',fontSize:'.72rem',color:'var(--accent)',minWidth:20,textAlign:'center'}},fl[k]>=0?'+'+fl[k]:fl[k]),
+          h('button',{className:'sa-b',disabled:fl[k]>=2||flU>=mxFl||v>=10,onClick:()=>sFl(p=>({...p,[k]:p[k]+1}))},'+'))
+      ))));
+
+    case 5:{
+      const nonBonus=Object.entries(sk).filter(([k])=>k!==bn);
+      const t1c=nonBonus.filter(([,v])=>v===1).length;
+      const t2c=nonBonus.filter(([,v])=>v===2).length;
+      const bnT2=(bn&&sk[bn]===2)?1:0;
+      return h('div',null,
+        h('div',{style:{fontSize:'.82rem',color:'var(--text2)',marginBottom:14}},
+          'Click to cycle: T1→T2→remove. Need 3×T1 + 1×T2. Now: '+t1c+'/3 T1, '+(t2c+bnT2)+'/1 T2'),
+        bn&&h('div',{style:{fontSize:'.78rem',color:'var(--accent)',marginBottom:10}},'Bonus: '+bn+' T1 (click to promote to T2)'),
+        h('div',{className:'sk-g'},SKILLS.map(s=>{
+          const tier=sk[s.name]||0;const isB=s.name===bn;
+          return h('div',{key:s.name,className:'sk-i'+(tier===1?' t1':'')+(tier===2?' t2':''),
+            onClick:()=>cycSk(s),style:{cursor:'pointer'}},
+            h('div',{className:'sk-n'},s.name,s.gated&&h('span',{style:{marginLeft:4,fontSize:'.65rem'}},'🔒'),
+              tier>0&&h('span',{className:'sk-t'},'T'+tier)),
+            h('div',{className:'sk-s'},s.stat+' · '+s.desc),
+            isB&&h('div',{style:{fontSize:'.65rem',color:'var(--accent)',marginTop:2}},tier===1?'(bonus — click for T2)':'(bonus — promoted to T2)'));
+        })));
+    }
+
+    case 6: return h('div',null,
+      h('div',{className:'sum-g'},
+        h('div',{className:'sum-c'},h('h3',null,'Identity'),
+          [['Name',nm||'Unnamed'],['Species',sp?.name],['Résumé',res?.name],
+           ['Build',kitMode==='kit'?kit?.name:'Custom'],
+           tr.length>0&&['Traits',tr.map(t=>t.name).join(', ')]].filter(Boolean).map(([l,v])=>
+            h('div',{key:l,className:'st-row'},h('span',{className:'st-lbl'},l),h('span',{className:'st-val'},v)))),
+        h('div',{className:'sum-c'},h('h3',null,'Stats'),
+          Object.entries(st).map(([k,v])=>h('div',{key:k,className:'st-row'},h('span',{className:'st-lbl'},k),h('span',{className:'st-val'},v+' ('+fB(v)+')')))),
+        h('div',{className:'sum-c'},h('h3',null,'Skills'),
+          Object.entries(sk).map(([k,v])=>h('div',{key:k,className:'st-row'},h('span',{className:'st-lbl'},k+(k===bn?' ★':''),h('span',{className:'st-val'},'T'+v))))),
+        h('div',{className:'sum-c'},h('h3',null,'Gear'),
+          kitMode==='kit'?[
+            ['Tree',kit?.tree],['Augment',kit?.aug],['Ability',kit?.abi],['Gear',kit?.gear]
+          ].map(([l,v])=>h('div',{key:l,className:'st-row'},h('span',{className:'st-lbl'},l),h('span',{className:'st-val'},v)))
+          :[
+            ['Weapons',cWeapons.map(i=>allW[i].name).join(', ')||'None'],
+            ['Armor',cArmor!=null?ARMOR[cArmor].name:'None'],
+            ['Shield',cShield!=null?SHIELDS[cShield].name:'None'],
+            ['Augment',cAug!=null?AUGS_T1[cAug].name:'None'],
+            ['Budget Left',cLeft+'cr']
+          ].map(([l,v])=>h('div',{key:l,className:'st-row'},h('span',{className:'st-lbl'},l),h('span',{className:'st-val'},v))))),
+      h('div',{className:'btn-row',style:{marginTop:20}},
+        h('button',{className:'btn',onClick:()=>{sExp('json')}},'Export JSON (Foundry)'),
+        h('button',{className:'btn sec',onClick:()=>{sExp('txt')}},'Export Text Sheet'),
+        exp&&h('button',{className:'btn sec',onClick:()=>{navigator.clipboard.writeText(exp==='json'?expJSON():expTxt())}},'Copy to Clipboard')),
+      exp&&h('div',{className:'ex-box'},exp==='json'?expJSON():expTxt()));
+    }
+  }
+
+  return h('div',{className:'builder-layout'},
+    h('div',{className:'builder-side'},
+      h('a',{href:'index.html',className:'b-back'},'← Handbook'),
+      h('div',{className:'b-logo'},'ARCANE STEEL'),
+      h('div',{className:'b-sub'},'Character Builder'),
+      h(StatPanel,{style:{}})),
+    h('div',{className:'builder-main'},
+      h('div',{className:'step-bar'},stps.map((_,i)=>h('div',{key:i,className:'step-pip'+(i<step?' done':'')+(i===step?' active':'')}))),
+      h('div',{className:'step-t'},stps[step].t),
+      h('div',{className:'step-d'},stps[step].d),
+      renderStep(),
+      h('div',{className:'btn-row'},
+        step>0&&h('button',{className:'btn sec',onClick:()=>sStep(step-1)},'← Back'),
+        step<6&&h('button',{className:'btn',disabled:!canNext(),onClick:()=>sStep(step+1)},'Next →'))));
+}
+
+ReactDOM.createRoot(document.getElementById('builder-root')).render(h(App));
+</script>
+</body>
+</html>

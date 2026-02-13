@@ -1,0 +1,128 @@
+{
+  "id": "trees-systems",
+  "title": "⚙️ Systems",
+  "subtitle": "The Technician's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Interface / Edge",
+      "theme": "Every system has a weakness. You find it, exploit it, or build something better.",
+      "design": "Systems augments provide hacking, support, and battlefield control through technology."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Neural Jack",
+          "effect": "+2 to hacking and device interaction checks",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Remote Interface",
+          "effect": "Interact with devices at short range wirelessly",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Diagnostic Ping",
+          "effect": "1/combat: identify all augments on one target",
+          "cost": "150 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Feedback Loop",
+          "effect": "When ally within short range crits, recover 1 HP",
+          "cost": "350 cr"
+        },
+        {
+          "name": "ECM Burst",
+          "effect": "1/combat: enemies in short range lose -1 accuracy for 1 round",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Overclock",
+          "effect": "1/combat: grant ally +2 accuracy on their next attack",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Drone Uplink",
+          "effect": "Deploy scout drone. +2 Edge checks for perception/recon",
+          "cost": "450 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "System Crash",
+          "effect": "1/combat: disable one enemy augment for 2 rounds",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Auto-Repair Nanites",
+          "effect": "End of turn: heal 1 HP if below 50%",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Weapon Hijack",
+          "effect": "1/combat: force one enemy to reroll their attack",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Network Tap",
+          "effect": "In hacking encounters: +3 to all Interface checks",
+          "cost": "500 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Killswitch",
+          "effect": "1/mission: disable ALL augments on one target for entire combat",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Hard Reboot",
+          "effect": "Clear all effects on self. Lose all augment benefits for 1 round (trade-off)",
+          "cost": "900 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Battlefield Architect",
+          "effect": "1/combat: hack the environment. Create cover, disable traps, lock doors, activate/deactivate systems",
+          "cost": "2,000 cr"
+        }
+      ]
+    }
+  ]
+}

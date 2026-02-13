@@ -1,0 +1,707 @@
+{
+  "id": "social-overview",
+  "title": "Social Encounter Rules",
+  "subtitle": "Persuasion, deception, and influence",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The Other Battlefield</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Every conversation is a contract negotiation. The only question is whether both sides know what’s on the table.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Social Encounters Work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social encounters in Arcane Steel follow the same core resolution as everything else: <strong>2d6 + Stat Bonus + Skill Modifier</strong>, with the three-tier outcome system (10+ full success, 7-9 partial, 6- failure). What makes social encounters different is <strong>leverage</strong> — the hidden currency of every conversation."
+    },
+    {
+      "type": "paragraph",
+      "text": "You don’t talk someone into something by rolling well. You roll well because you have something they want, something they fear, or something they can’t ignore. The dice determine how cleanly you execute. Leverage determines whether execution is even possible."
+    },
+    {
+      "type": "heading",
+      "text": "The Social Check"
+    },
+    {
+      "type": "heading",
+      "text": "Which Stat? Which Skill?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social checks aren’t locked to a single stat. The approach determines the roll."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Approach</strong>      <strong>Stat</strong>          <strong>Skill</strong>         <strong>When to Use</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Persuade</strong>      Edge              Negotiate         Convincing someone that your proposal benefits them. Appealing to self-interest, reason, mutual gain."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deceive</strong>       Edge              Negotiate         Making someone believe something that isn’t true. Lying, misdirection, false promises."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Intimidate</strong>    Chrome or Edge    Intimidation      Threatening consequences. Physical menace (Chrome) or social/economic threat (Edge)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Charm</strong>         Edge              Streetwise        Building rapport, making someone like you, creating a personal connection. Schmoozing, flirting, making friends."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bargain</strong>       Edge              Negotiate         Haggling over terms — price, scope, timeline, conditions. Pure transactional negotiation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Command</strong>       Chrome            Intimidation      Giving orders and expecting compliance. Works best when you have authority (rank, reputation, a gun)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Read</strong>          Edge              Awareness         Not persuading — observing. Detecting lies, reading body language, figuring out what someone actually wants versus what they’re saying. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reputation modifiers apply.</strong> Your crew’s reputation with the NPC’s faction modifies the roll directly (see Reputation document). A crew at +3 with Ashford-Klein gets +2 to social checks with AK employees. A crew at -3 gets -2. Infamy converts negative rep to a positive Intimidation modifier."
+    },
+    {
+      "type": "heading",
+      "text": "The Three Outcomes"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          <strong>Outcome</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>10+</strong>                             <strong>Full Success.</strong> They agree, believe you, comply, or reveal what you need. You get what you want on your terms."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>7-9</strong>                             <strong>Partial Success.</strong> They’re willing — but there’s a cost, a condition, a compromise, or a complication. You get what you want, but not cleanly."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>6-</strong>                              <strong>Failure.</strong> They don’t buy it. They see through you. They double down. The situation gets worse — they’re now suspicious, hostile, offended, or actively working against you. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Failure doesn’t always mean “no.“</strong> Sometimes failure means they say yes to the wrong thing. They agree to your deal but they’re planning to betray you. They believe your lie but tell someone else what you said. They’re intimidated but they call Drakon Security the moment you leave."
+    },
+    {
+      "type": "heading",
+      "text": "Leverage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leverage is the foundation of every social encounter. Without it, you’re just talking. With it, you’re negotiating from a position of power."
+    },
+    {
+      "type": "heading",
+      "text": "Types of Leverage"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Type</strong>                <strong>Description</strong>         <strong>Mechanical Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Need</strong>                They want something you +2 to the social check. have or can provide.    The stronger their Money, protection, a    need, the easier the service, information.   persuasion."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fear</strong>                They’re afraid of what +2 to Intimidation happens if they refuse. checks. But fear Physical violence,      creates enemies — economic ruin,          they’ll retaliate when exposure, loss of       the threat passes. status."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Debt</strong>                They owe you. A past    +2 to the social check. favor, a saved life, an Calling in a debt unpaid obligation.      spends it — the obligation is settled."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Information</strong>         You know something they +2 to the social check. don’t want known. Or   Blackmail is powerful you have information    but destroys they desperately need.  relationships permanently."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Authority</strong>           You have legitimate     +2 to Command checks. power over them. Rank,  Only works within the contract terms, legal   authority’s scope — standing, faction       a corporate contractor backing.                can’t command Undercity contacts."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rapport</strong>             They like you. You’ve  +1 to all social checks built a personal        with this NPC. relationship through    Persistent across previous interactions.  encounters. Harder to build, harder to lose. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Multiple leverage types stack.</strong> A contractor who has information (blackmail) AND the target owes them a debt rolls with +4. But stacking leverage aggressively burns bridges — people don’t forget being cornered."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>No leverage = no modifier.</strong> You’re rolling flat 2d6 + stat + skill + reputation. That might be enough for simple requests. It won’t be enough for anything significant."
+    },
+    {
+      "type": "heading",
+      "text": "Finding Leverage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before a critical negotiation, smart crews do legwork. This is where downtime, skills, and social networks pay off."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Method</strong>              <strong>Skill</strong>               <strong>What You Find</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Research the target     Awareness or Tech       Public records, faction (Hacking)               affiliations, financial situation, known associates, past scandals."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ask around              Streetwise              Rumors, personal habits, who they owe, who owes them, what they want, what they fear."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observe in person       Awareness               Body language tells, nervous habits, who they defer to, what topics make them uncomfortable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Read the room           Awareness (during       Real-time assessment. encounter)              What’s their actual position? Are they bluffing? What do they actually want?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Offer something first   —                     Providing value before asking for anything establishes goodwill. No check needed — just costs resources or time. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Negotiation Structure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every social encounter needs structure. Buying a stim from a street vendor is a transaction, not a negotiation. But when the stakes matter — contract terms, faction dealings, tense confrontations — the following framework keeps things moving."
+    },
+    {
+      "type": "heading",
+      "text": "Step 1: Establish the Situation"
+    },
+    {
+      "type": "paragraph",
+      "text": "What does each side want? What’s at stake? The GM describes the NPC’s visible position. The players state their goal."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> The crew wants a better rate on a Char expedition contract. The broker is offering 500 cr/person. The crew wants 800. The broker wants reliable contractors who don’t cause problems. The crew wants money. Both sides have something the other needs."
+    },
+    {
+      "type": "heading",
+      "text": "Step 2: Choose Approach"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew decides how they’re going to push for what they want. Persuade? Bargain? Intimidate? Each approach has different risks."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Approach</strong>            <strong>Best Case</strong>           <strong>Worst Case</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Persuade                They agree because it   They disagree and makes sense to them.    you’ve shown your hand Clean, no resentment.   — they know what you want."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bargain                 You find a middle       Deadlock. Neither side ground. Both sides      budges. Relationship compromised.            strained."
+    },
+    {
+      "type": "paragraph",
+      "text": "Intimidate              They comply immediately They comply now, then out of fear.            call security / hire a rival crew / set a trap later."
+    },
+    {
+      "type": "paragraph",
+      "text": "Deceive                 They agree based on     They see through it. false information. You  Trust destroyed. get everything.         Reputation damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "Charm                   They agree because they They see the charm as want to help you        manipulation. Offended personally.             and defensive. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Step 3: Apply Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stack up the modifiers before rolling:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Source</strong>                          <strong>Modifier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stat bonus (Edge, Chrome)           +1 to +5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skill modifier (Negotiate,          +1 to +3 (based on tier) Intimidation, Streetwise, Awareness)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation with faction             -2 to +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leverage (per type)                 +1 to +2 each"
+    },
+    {
+      "type": "paragraph",
+      "text": "Infamy (Intimidation only)          Negative rep as positive modifier"
+    },
+    {
+      "type": "paragraph",
+      "text": "Situational (outnumbered, on their  -2 to +2 (GM call) turf, they’re desperate, etc.) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Step 4: Roll and Resolve"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roll 2d6 + modifiers. Apply the three-tier outcome."
+    },
+    {
+      "type": "paragraph",
+      "text": "On <strong>partial success</strong>, the GM offers a complication. The crew can accept the complication or walk away. Walking away isn’t failure — it’s declining the deal. The NPC’s offer stands (or doesn’t) based on the situation."
+    },
+    {
+      "type": "heading",
+      "text": "Social Tactics"
+    },
+    {
+      "type": "heading",
+      "text": "The Opener"
+    },
+    {
+      "type": "paragraph",
+      "text": "How you open a conversation sets the tone. In a negotiation, the first person to state a number is usually at a disadvantage — but the first person to establish frame controls the conversation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Let them talk first (Read approach):</strong> Make an Awareness check before committing to a position. On 10+, you learn their actual priorities (not just their stated position) before you reveal yours. On 7-9, you get a general sense. On 6-, you misread them and your assumptions will cost you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Open strong (Command/Intimidate):</strong> State your terms as non-negotiable. This works when you have clear authority or overwhelming leverage. Backfires badly when you don’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Open generous (Charm/Persuade):</strong> Offer something first. Establish goodwill. This builds rapport but can be seen as weakness if the target is predatory."
+    },
+    {
+      "type": "heading",
+      "text": "The Counter-Offer"
+    },
+    {
+      "type": "paragraph",
+      "text": "When negotiation hits a wall, either side can make a counter-offer — changing the terms rather than the price. This doesn’t require a new roll. It reframes the conversation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> The broker won’t budge on 500 cr/person. The crew counters: “500 is fine, but you cover our gate tolls and provide a Trauma Kit.“ The broker considers — the total value is closer to 650 cr/person, but it’s not cash out of pocket. New terms, same negotiation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Counter-offers keep the conversation alive when flat price negotiation stalls. Encourage players to think creatively about what they can ask for besides money."
+    },
+    {
+      "type": "heading",
+      "text": "The Walk-Away"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most powerful negotiation tool is being willing to leave. If the crew can credibly walk away from a deal, the NPC has to decide whether losing the deal is worse than improving the terms."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Walking away is free.</strong> No roll required. The crew states they’re declining. The GM decides whether the NPC lets them go, sweetens the deal, or escalates."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bluffing a walk-away</strong> requires a Deceive check. If the NPC calls the bluff and the crew wasn’t actually willing to leave, the NPC gains leverage (they know the crew needs this deal)."
+    },
+    {
+      "type": "heading",
+      "text": "Group Pressure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiple crew members can participate in a social encounter. Each additional participant who contributes meaningfully (not just standing there) grants <strong>+1 to the primary speaker’s roll</strong> (maximum +2 from group support)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>But:</strong> Each additional person also increases the risk of contradictions, accidental reveals, and intimidation misfires. If a supporting crew member has <em>negative</em> rep with the NPC’s faction, their presence imposes <strong>-1</strong> instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Face:</strong> Most crews have one person who handles negotiations — usually the highest Edge character with Negotiate or Streetwise training. Let them lead. Support silently unless you have specific leverage to add."
+    },
+    {
+      "type": "heading",
+      "text": "Recurring NPCs and Relationship Building"
+    },
+    {
+      "type": "heading",
+      "text": "Rapport"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rapport is a persistent relationship modifier that builds over multiple interactions with the same NPC. Unlike faction reputation (which is broad), rapport is personal — it’s how a specific individual feels about your crew specifically."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rapport Level</strong>       <strong>Modifier</strong>            <strong>How It’s Built</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stranger</strong>            +0                      Default. No history."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acquaintance</strong>        +0                      You’ve met. They remember your name. No mechanical benefit yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Friendly</strong>            +1                      Multiple positive interactions. You’ve helped them, been fair, or shared a drink."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trusted</strong>             +2                      Significant history. You’ve delivered for them repeatedly, saved their skin, or shared genuine vulnerability."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bonded</strong>              +3                      This person would risk something for you. Not because of faction loyalty — because of personal connection. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rapport is per-NPC, not per-faction.</strong> You can be Bonded with a specific Ashford-Klein exec while your faction rep with Ashford-Klein is only +1. That exec might stick their neck out for you even when the company wouldn’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Building Rapport:</strong> Rapport increases by 1 when you do something meaningful for or with an NPC <em>that isn’t transactional.</em> Completing a contract they offered doesn’t build rapport — that’s business. Giving them a heads-up about a threat to their operation when you didn’t have to? That builds rapport. Sharing information freely? Rapport. Visiting them when you don’t need anything? Rapport."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Losing Rapport:</strong> Rapport drops by 1 for broken promises, by 2 for direct betrayal. At Trusted or Bonded, betrayal doesn’t just reduce rapport — it inverts it. A Bonded NPC who feels betrayed becomes a personal enemy with detailed knowledge of your crew’s operations, habits, and vulnerabilities."
+    },
+    {
+      "type": "heading",
+      "text": "Favors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Favors are the informal economy of social relationships. They exist outside the credit system and operate on trust."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Asking for a Favor:</strong> Roll a social check modified by rapport. The bigger the favor, the higher the DC."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Favor Size</strong>          <strong>DC</strong>                  <strong>Examples</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Small                   6                       Share a rumor, make an introduction, lend a tool"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medium                  8                       Provide off-the-books information, delay a shipment, look the other way"
+    },
+    {
+      "type": "paragraph",
+      "text": "Large                   10                      Forge documents, hide you from authorities, lie to their superiors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enormous                12                      Risk their career, betray their faction, put their life on the line ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Favors create debts.</strong> An NPC who does you a favor will eventually ask for one in return. The GM tracks this. A crew that asks for favors without reciprocating will find their contacts drying up — rapport degrades by 1 after two unreturned favors."
+    },
+    {
+      "type": "heading",
+      "text": "Confrontations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every social encounter is a negotiation. Sometimes someone is in your face and you have to deal with it. Confrontations are high-tension social encounters where the stakes are immediate."
+    },
+    {
+      "type": "heading",
+      "text": "Standoff"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two sides facing each other with weapons drawn (or equivalent social pressure). Nobody wants to be the first to blink."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resolution:</strong> Both sides roll. Highest result wins initiative on the confrontation — they set the terms of what happens next (demand surrender, make a threat, offer an out). Ties escalate — someone’s about to do something stupid."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result Comparison</strong>               <strong>Outcome</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "You win by 4+                       They fold. Comply, retreat, or surrender."
+    },
+    {
+      "type": "paragraph",
+      "text": "You win by 1-3                      They back down but with conditions. A face-saving concession."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tie                                 Escalation. Someone draws. Someone swings. The talking is over unless a third party intervenes."
+    },
+    {
+      "type": "paragraph",
+      "text": "They win by 1-3                     You’re on the back foot. They dictate terms. Accept or escalate to violence."
+    },
+    {
+      "type": "paragraph",
+      "text": "They win by 4+                      You fold — or eat the consequences. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Interrogation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Extracting information from someone who doesn’t want to give it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Persuade (Negotiate):</strong> Appeal to self-interest. “Tell us and we’ll let you go. Don’t tell us and we leave you here for whatever’s coming.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Intimidate (Chrome or Edge):</strong> Direct threat. Works fast but information obtained under duress is unreliable — the GM may include false information mixed with truth on a partial success."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Read (Awareness):</strong> Don’t ask questions. Watch. Let them talk and analyze what they reveal accidentally. Slower but more reliable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deceive (Negotiate):</strong> Trick them into revealing information. Pretend to be someone they trust, feed them false information and see how they correct it, or convince them you already know and just need confirmation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each approach produces different quality information. Intimidation is fast but dirty. Reading is slow but clean. Deception is creative but collapses if they catch on."
+    },
+    {
+      "type": "heading",
+      "text": "De-Escalation"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a situation is heading toward violence and the crew wants to prevent it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>De-escalation requires sacrificing something.</strong> You can’t talk down a hostile NPC for free. You need to offer: an apology (costs pride), a concession (costs terms), a retreat (costs position), or information (costs leverage). The offer has to be genuine."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll:</strong> 2d6 + Edge + Negotiate (or appropriate skill). The DC is based on how angry the other side is and how much they have to gain from violence."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hostility Level</strong>     <strong>DC</strong>                  <strong>Situation</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Annoyed                 6                       They’re frustrated but not committed to fighting."
+    },
+    {
+      "type": "paragraph",
+      "text": "Angry                   8                       They want to hurt you but might be talked down."
+    },
+    {
+      "type": "paragraph",
+      "text": "Furious                 10                      Violence is imminent. You need to offer something real."
+    },
+    {
+      "type": "paragraph",
+      "text": "Murderous               12                      They’ve decided you die. Only an extraordinary concession or intervention stops it. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Social Encounters in Combat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes talking happens mid-fight. A crew member trying to convince an enemy to surrender, negotiate a ceasefire, or trick a boss into making a mistake."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Social checks in combat cost 1 AP</strong> (same as any skill check)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Combat modifiers to social checks:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Situation</strong>                       <strong>Modifier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "You’re winning the fight (enemies  +2 to Intimidation and Negotiate at half strength or less)"
+    },
+    {
+      "type": "paragraph",
+      "text": "You’re losing the fight            -2 to Intimidation, +2 to Persuade (“let’s stop before we both die“)"
+    },
+    {
+      "type": "paragraph",
+      "text": "You just killed their               +3 to Intimidation leader/champion"
+    },
+    {
+      "type": "paragraph",
+      "text": "You just downed a crew member       -1 to all social checks (they smell blood)"
+    },
+    {
+      "type": "paragraph",
+      "text": "You offer to let them retreat with  +2 to Negotiate their wounded ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Horde morale:</strong> Hordes break when they take 50%+ casualties AND someone makes a successful Intimidation check (DC 7). A broken horde flees. This is often more efficient than killing every last goblin."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Boss negotiation:</strong> Boss-tier enemies don’t break from Intimidation unless they’re below 25% HP. But they might negotiate if offered something they value — their life, their territory, information about a greater threat. These are roleplaying moments, not dice moments. Let the conversation play out."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference"
+    },
+    {
+      "type": "heading",
+      "text": "Social Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "2d6 + Stat + Skill + Reputation + Leverage → 10+ Full / 7-9 Partial / 6- Failure"
+    },
+    {
+      "type": "heading",
+      "text": "Approach Guide"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Want them to…</strong>    <strong>Use</strong>                 <strong>Stat</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Agree with you          Persuade                Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Believe a lie           Deceive                 Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fear you                Intimidate              Chrome/Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Like you                Charm                   Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accept a deal           Bargain                 Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obey you                Command                 Chrome"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reveal truth            Read                    Edge ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Leverage Quick List"
+    },
+    {
+      "type": "paragraph",
+      "text": "Need (+2), Fear (+2), Debt (+2), Information (+2), Authority (+2), Rapport (+1 to +3)"
+    },
+    {
+      "type": "heading",
+      "text": "Rapport Track"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stranger → Acquaintance → Friendly (+1) → Trusted (+2) → Bonded (+3) Built by non-transactional positive interaction. Lost by broken promises and betrayal."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Interpersonal relationships between contractors and local service providers are not regulated by Intercompany Contractor Relations. However, the Bureau notes that contractors who maintain positive community connections demonstrate a 31% higher survival rate and a 22% reduction in equipment costs. Friendship, it turns out, has a return on investment.“</em>"
+    }
+  ]
+}

@@ -1,0 +1,515 @@
+{
+  "id": "combat-advanced",
+  "title": "Advanced Rules",
+  "subtitle": "Multi-target, hordes, morale",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Hordes"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Horde is any group of weak enemies acting as a single unit. One activation, one roll — but size grants bonuses."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Horde Size</strong>          <strong>Bonus to Accuracy</strong>   <strong>Bonus Damage Dice</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "3-5                     +1                      +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-10                    +2                      +2"
+    },
+    {
+      "type": "paragraph",
+      "text": "11+                     +3                      +3 ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Killing Horde members reduces the group’s size, shrinking their bonuses."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hordes are dangerous but don’t steal the clock.</strong> A swarm of 15 rift-goblins takes one activation, rolls once (with +3/+3 bonuses), and resolves. No tracking 15 individual turns."
+    },
+    {
+      "type": "heading",
+      "text": "Range Bands"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Range Band</strong>          <strong>Description</strong>         <strong>Squares (if using grid)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adjacent</strong>            Within arm’s reach.    0-1 squares Melee range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Close</strong>               A few steps away.       2-3 squares Thrown weapon range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Short</strong>               Across a room. Pistol   4-8 squares effective range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medium</strong>              Down a corridor. Rifle  9-16 squares effective range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Long</strong>                Across a warehouse.     17-30 squares Sniper effective range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extreme</strong>             Barely visible. Maximum 31+ squares engagement distance. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapons have range brackets</strong> that impose accuracy penalties outside their optimal range:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon Type</strong>         <strong>Optimal Range</strong>       <strong>Penalty Outside</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Melee                   Adjacent                Cannot attack beyond Adjacent"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thrown                  Close-Short             -2 accuracy per band outside"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pistol                  Short                   -2 per band beyond Short"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rifle                   Medium                  -2 per band beyond Medium"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sniper                  Long                    -2 per band beyond Long ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Moving between range bands:</strong> Moving 1 range band = 1 AP. Moving from Adjacent to Short = 2 AP. Plan your positioning — AP spent moving is AP not spent attacking."
+    },
+    {
+      "type": "heading",
+      "text": "Rift Casting in Combat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift patterns follow the same attack rules as weapons — roll accuracy (Interface bonus), compare to Evasion, roll damage on hit. The difference: <strong>rift patterns cost toxicity</strong> and have enhanced damage profiles to compensate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift patterns have <strong>Penetration 1</strong> — they ignore 1 point of the target’s Armor per damage die. Magic finds gaps that steel can’t. Additionally, rift patterns roll larger damage dice than their physical equivalents."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The cost is real.</strong> Each pattern cast adds 2-5 toxicity. A Channeler who casts every turn for 5 turns accumulates 10-25 toxicity — potentially hitting the 50% bracket and suffering debuffs that persist long after the fight ends. Physical fighters swing for free. Casters pay in poison."
+    },
+    {
+      "type": "paragraph",
+      "text": "See the Rift Casting section for pattern lists, toxicity costs, and casting rules."
+    },
+    {
+      "type": "heading",
+      "text": "Conditions & Status Effects"
+    },
+    {
+      "type": "heading",
+      "text": "Effect Stacks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some weapons and abilities apply <strong>stacking effects</strong> to targets. These build over multiple hits and trigger payoffs at thresholds."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Effect</strong>              <strong>Per Stack</strong>           <strong>Threshold Payoff</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Poison</strong>              1 damage at start of    At 5 stacks: damage target’s turn          doubles to 2 per stack per turn"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Glitch</strong>              -1 to accuracy roll     At 3 stacks: one random augment disabled for the encounter"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Marked</strong>              +1 accuracy bonus for   At 4 stacks: crits allies attacking this   against this target are target                  automatic (any hit becomes a crit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hex</strong>                 -1 Evasion              At 5 stacks: Evasion becomes 0 ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Effect weapons</strong> (Toxic Needle, Neural Probe, etc.) deal negligible direct damage but apply stacks on every hit. With d12 or d10 accuracy dice and 1 AP cost, they hit often and stack fast. Five needle hits per turn = 5 poison stacks = threshold reached in one turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor applying Poison 5 to a boss means the boss takes 10 damage per turn (2 per stack at threshold) for the rest of the fight. The Needle’s direct damage is a joke. The 5 stacks of Poison are not."
+    },
+    {
+      "type": "heading",
+      "text": "Combat Conditions"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Condition</strong>           <strong>Effect</strong>              <strong>Common Sources</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stunned</strong>             Lose 2 AP on your next  Heavy hits, flashbangs, turn                    system overload"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Prone</strong>               -2 Evasion, standing up Knockdowns, explosions, costs 1 AP              grapple throws"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Flanked</strong>             Attackers from opposite Positioning (tactical) sides get +2 accuracy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>In Cover</strong>            +2 Evasion against      Environmental (walls, ranged attacks from the crates, debris) covered direction"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suppressed</strong>          -2 accuracy on your     Sustained fire, attacks, advancing      overwhelming force toward source costs +1 AP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burning</strong>             Take 1d4 damage at      Fire weapons, rift start of turn. 1 AP to  instability, incendiary extinguish.             devices"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Irradiated</strong>          +1 Toxicity per round   Rift zones, leaking while in the area       reactors, Leech aura ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity in Combat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity is primarily a long-term concern, but it has combat-relevant thresholds:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity %</strong>                      <strong>Threshold Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "25%+                                <strong>Glowing</strong> — Stealth checks at -2. You’re visibly irradiated."
+    },
+    {
+      "type": "paragraph",
+      "text": "50%+                                <strong>Leaking</strong> — Allies within Adjacent range gain +1 toxicity per round."
+    },
+    {
+      "type": "paragraph",
+      "text": "70%+                                <strong>Unstable</strong> — Involuntary discharges: at end of each combat round, 20% chance of 1d4 damage to a random adjacent creature (ally or enemy)."
+    },
+    {
+      "type": "paragraph",
+      "text": "90%+                                <strong>Critical</strong> — All checks at -2. Scanners flag you immediately."
+    },
+    {
+      "type": "paragraph",
+      "text": "100%                                <strong>Harvest Threshold</strong> — Corps are coming. See Scars & Toxicity document. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Leech tree contractors</strong> have augments that modify these thresholds. See the Leech Augment Tree for details on Burn/Bleed mechanics."
+    },
+    {
+      "type": "heading",
+      "text": "Effect Weapons"
+    },
+    {
+      "type": "paragraph",
+      "text": "Effect weapons are specialist tools — not for killing, but for setting up kills."
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon</strong>     <strong>Accuracy</strong>   <strong>AP</strong>         <strong>Damage</strong>     <strong>Effect (Every Hit)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxic Needle   d12            1              1d2            +1 Poison stack"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neural Probe   d10            1              1d4            +1 Glitch stack"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tracker Dart   d10            2              1d2            +1 Marked stack"
+    },
+    {
+      "type": "paragraph",
+      "text": "Curse Brand    d10            2              1d4            +1 Hex stack -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "At 1-2 AP per attack, an effect specialist can apply 3-5 stacks per turn. Poison threshold (5 stacks) can be reached in a single turn by a dedicated needle wielder. Pair an effect specialist with a heavy hitter — one sets up debuffs, the other delivers the killing blow."
+    },
+    {
+      "type": "heading",
+      "text": "Sample Combat: Putting It Together"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Setup:</strong> 4 contractors enter a rift cave. 6 Rift-Goblins (Horde, size 6) and 1 Rift-Stalker (Elite) guard the objective."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activations:</strong> Players have 4. Enemies have 2 (Horde = 1, Elite = 1). Players have more activations — they’ll get 2 consecutive turns at the end."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Round 1:</em>  <em>Player Side: Chrome Brawler (Chrome 7, +3 bonus) charges the Horde.</em>  • Move Adjacent to Horde (1 AP). Swing Heavy Axe (4 AP). Total: 5 AP spent.  • Accuracy: d6, roll 4. +3 bonus = 7. +2 conditional (moved toward target) = 9. Horde Evasion 3. Hit!  • Damage: 3d10, roll 8, 5, 9. Horde Armor 1: 7, 4, 8 = 19 damage.  • 3 goblins go down. Horde drops from 6 to 3. Bracket drops from +2/+2 to +1/+1.  <em>Enemy Side: Horde attacks the Brawler.</em>  • Accuracy: d8 + 1 (size bonus). Roll 5 + 1 = 6. Brawler Evasion 3 (Heavy Plate cap). Hit.  • Damage: 1d6 + 1 bonus die = 2d6, roll 4, 3. Armor 6: 0, 0 = 0 damage. Heavy plate absorbs everything.  <em>Player Side: Sniper (Reflex 8, +4 bonus) sets up and fires at the Rift-Stalker.</em>  • No movement. Fire Sniper Rifle (5 AP). Total: 5 AP spent.  • Accuracy: d6, roll 6 — <strong>NATURAL MAX. CRITICAL HIT.</strong>  • Auto-hit regardless of Evasion. Double damage dice.  • Damage: 3d10 × 2 = 6d10, roll 9, 7, 4, 10, 6, 8. Stalker Armor 3: 6, 4, 1, 7, 3, 5 = 26 damage.  • The Stalker staggers.  <em>Enemy Side: Rift-Stalker charges the Sniper.</em>  • Moves 2 range bands (2 AP). Attacks with Rift Claws (3 AP). Total: 5 AP.  • Accuracy: d8, roll 6. +3 bonus = 9. Sniper Evasion 5. Hit.  • Damage: 2d8, roll 7, 5. Armor 2: 5, 3 = 8 damage. The Sniper is hurt but standing.  <em>Player Side: Needle Specialist (Reflex 6, +3 bonus) targets the Stalker.</em>  • Move Adjacent (1 AP). Stab with Toxic Needle four times (4 AP). Total: 5 AP.  • Four accuracy rolls (d12 each): 8, 3, 11, 6. All +3 = 11, 6, 14, 9. Stalker Evasion 4. All four Hit.  • Direct damage: negligible. <strong>Poison stacks: 4.</strong> One more hit reaches threshold.  <em>Player Side: Channeler (Interface 7, +3 bonus) finishes the Horde.</em>  • Rift Bolt at the remaining 3 goblins (3 AP). Move to cover (1 AP). Spare 1 AP.  • Accuracy: d8, roll 5. +3 = 8. Horde Evasion 3. Hit.  • Damage: 2d10, roll 7, 9. Armor 1, minus Pen 1 = Armor 0: 7, 9 = 16 damage.  • Horde wiped. +3 toxicity for the Channeler."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Round 2:</strong> The Stalker is poisoned (4 stacks), badly wounded, and facing four contractors. One more needle hit crosses the threshold. The fight is effectively over. Total combat: 2 rounds."
+    },
+    {
+      "type": "heading",
+      "text": "Skill Checks in Combat"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not everything in a fight is swinging a weapon. Sometimes you need to hide behind cover, stabilize a dying ally, kick open a jammed door, or hack an enemy’s augments mid-fight. These use the same <strong>skill check resolution</strong> as out of combat."
+    },
+    {
+      "type": "heading",
+      "text": "The Roll"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>2d6 + Stat Bonus + Skill Modifier</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          <strong>Outcome</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>10+</strong>                             Full success"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>7-9</strong>                             Partial success (complication, reduced effect, or cost)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>6-</strong>                              Failure (situation gets worse) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Using a skill in combat costs 1 AP.</strong> You can still attack and move with remaining AP."
+    },
+    {
+      "type": "heading",
+      "text": "Common Combat Skill Uses"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skill</strong>         <strong>Combat Use</strong>    <strong>Stat</strong>          <strong>Example</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medicine</strong>      Stabilize a       Grit              “I spend 1 AP to downed ally,                        stabilize Kira apply healing                       before her death stim for bonus                      roll“ effect"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stealth</strong>       Hide mid-combat,  Reflex            “I duck behind reposition                          the crate and go unseen, set up                      dark“ ambush from cover"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Athletics</strong>     Shove an enemy,   Chrome            “I kick the leap a gap, hold                    Stalker off the a door shut,                        ledge“ throw an object"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tech</strong>          Hack an enemy     Interface         “I try to glitch augment, disable                    the turret’s a trap, hot-wire                    targeting“ a door"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resilience</strong>    Endure a hazard,  Grit              “I try to shake resist a                            off the stun“ condition, push through pain"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Awareness</strong>     Spot hidden       Edge              “Anything moving enemies, notice a                   in the shadows on trap, detect                        our flank?“ ambush ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Gated Skills"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skills marked with gating (Hacking, Medicine, Crafting, Rift Lore)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>cannot be attempted at all</strong> without at least T1 training."
+    },
+    {
+      "type": "paragraph",
+      "text": "Untrained characters attempting non-gated skills roll at <strong>-2</strong> to the check."
+    },
+    {
+      "type": "heading",
+      "text": "Contested Checks"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a skill check is directly opposed by another creature, both sides roll. Higher result wins. Ties go to the acting party."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference Card"
+    },
+    {
+      "type": "heading",
+      "text": "Attack Flow"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1.</strong> Roll weapon accuracy die + stat bonus  <strong>2.</strong> Apply weapon conditional modifiers  <strong>3.</strong> Total ≥ Evasion = Hit  <strong>4.</strong> Hit → roll weapon damage dice  <strong>5.</strong> Subtract Armor from each damage die  <strong>6.</strong> Total remaining = damage dealt"
+    },
+    {
+      "type": "heading",
+      "text": "Critical Hit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Natural max on accuracy die → Auto-hit + double damage dice"
+    },
+    {
+      "type": "heading",
+      "text": "Action Points"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 AP per turn. Attack = 1-5 AP. Move = 1 AP/band. Item = 1 AP. Skill = 1 AP. Defend = 2 AP. Overwatch = 2 AP. Grapple = 2 AP. Suppress = 3 AP."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Actions (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drop item, speak, toggle passive, fall prone."
+    },
+    {
+      "type": "heading",
+      "text": "Reactions (1/round)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opportunity Attack: d8+stat acc, 1d6+stat dmg (fixed, not weapon). Triggers when enemy leaves melee range."
+    },
+    {
+      "type": "heading",
+      "text": "Overwatch"
+    },
+    {
+      "type": "paragraph",
+      "text": "Weapon AP + 1, set on your turn. Next enemy moving in range triggers full weapon attack."
+    },
+    {
+      "type": "heading",
+      "text": "Grapple"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 AP, Chrome vs Chrome. Grappled = can’t move, -1 Evasion. Escape = 1 AP + Chrome check."
+    },
+    {
+      "type": "heading",
+      "text": "Shove"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 AP, Chrome vs Chrome. Push 1 band OR knock Prone."
+    },
+    {
+      "type": "heading",
+      "text": "At 0 HP"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gain +1 Scar → Roll 1d20 vs Death DC → Survive at 50% HP or Flatline"
+    },
+    {
+      "type": "heading",
+      "text": "Dual Wield"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each weapon costs its own AP. Off-hand -1 accuracy. -1 Evasion."
+    },
+    {
+      "type": "heading",
+      "text": "Initiative"
+    },
+    {
+      "type": "paragraph",
+      "text": "Highest Reflex goes first. Alternate sides. Players pick their own order."
+    },
+    {
+      "type": "heading",
+      "text": "Skill Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "2d6 + Stat Bonus + Skill Modifier → 10+ Full / 7-9 Partial / 6- Failure. Costs 1 AP in combat."
+    }
+  ]
+}

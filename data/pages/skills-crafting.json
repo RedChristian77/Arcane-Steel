@@ -1,0 +1,787 @@
+{
+  "id": "skills-crafting",
+  "title": "Crafting",
+  "subtitle": "Fabrication, modification, salvage",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface (design/precision) or Chrome (physical fabrication) <strong>Scope:</strong> Fabrication of weapons, armor, ammunition, consumables, traps, field equipment, vehicles, and drones."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Gated: Cannot attempt without T1. Smashing two things together is not crafting.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Full details in HARVESTING-CRAFTING.md. Summary:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Craft T1 items — basic ammo, simple consumables, field repairs. Know standard T1 recipes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Weaponsmith:</strong> Craft T1-T2 weapons at 40% market cost, customize during creation. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armorsmith:</strong> Craft T1-T2 armor at 40% market cost, tune Armor/Evasion balance. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Munitions Expert:</strong> Craft specialty ammo (AP rounds, tracers, toxin rounds). <strong>OR</strong> <strong>Field Chemist:</strong> Craft consumables at 40% cost, invent new compounds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Master Weaponsmith:</strong> Craft T1-T3 weapons with exotic material properties. <strong>OR</strong> <strong>Master Armorsmith:</strong> Craft T1-T3 armor with integrated material properties. <strong>OR</strong> <strong>Trap Engineer:</strong> Build traps, mines, turrets, automated defenses. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutagenic Refiner:</strong> Process genetic samples into Refined Mutagens (reduces Wild Splice DC by 2)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Forge Master:</strong> Craft T1-T4, unique one-of-a-kind items from Exotic materials. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle/Drone Engineer:</strong> Design and build vehicles and combat drones from scratch. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Omni-Fabricator:</strong> Craft anything at T3 quality. Total flexibility. Reverse-engineering auto-succeeds. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Character Creation Skill Summary"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1.</strong> Pick <strong>3 skills at T1</strong> (Familiar) — you can attempt these with no penalty  <strong>2.</strong> Pick <strong>1 skill at T2</strong> (Trained) — choose a feature from the T2 list  <strong>3.</strong> All other skills are at T0 (Untrained: -2 to checks, or locked if 🔒 gated)  <strong>4. Gated skills (🔒):</strong> Hacking, Medicine, Crafting, Rift Lore — cannot attempt without T1"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Kits may suggest skills</strong> but don’t restrict them:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Kit</strong>                             <strong>Suggested Skills</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Berserker                           Athletics, Grit Check, Streetwise"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operative                           Awareness, Stealth, Athletics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Channeler                           Rift Lore, Medicine, Grit Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "Technician                          Tech, Hacking, Awareness"
+    },
+    {
+      "type": "paragraph",
+      "text": "Negotiator                          Negotiate, Streetwise, Awareness"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bulwark                             Grit Check, Athletics, Medicine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Phantom                             Stealth, Hacking, Streetwise"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dancer                              Athletics, Awareness, Stealth"
+    },
+    {
+      "type": "paragraph",
+      "text": "Harvester∗                         Harvesting, Rift Lore, Crafting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Artificer∗                         Crafting, Tech, Medicine ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\\\\∗Harvester and Artificer are suggested kit additions if your table wants dedicated resource/crafting characters. They’re not in the base kit list but the skill spread supports them.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Advancement Cost Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>From → To</strong>     <strong>Downtime</strong>      <strong>Credits</strong>       <strong>Other</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T0 → T1           1 period          Free              —"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1 → T2           1 period          Free              —"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2 → T3           1 period          300 cr            —"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3 → T4           1 period          800 cr            Narrative milestone ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Note on T0 → T1 post-creation:</strong> Contractors can learn new skills at T1 during downtime for free. It takes 1 downtime period of dedicated practice. You don’t need to choose everything at character creation."
+    },
+    {
+      "type": "heading",
+      "text": "Crafting & Installer Paths"
+    },
+    {
+      "type": "paragraph",
+      "text": "For players who want to be the team’s workshop, here’s how the paths combine:"
+    },
+    {
+      "type": "heading",
+      "text": "The Chrome Tech (Tech Craftsman Path)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You install augments and modify weapons. The team’s hardware guy.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Level</strong>               <strong>Feature</strong>             <strong>What You Can Do</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech T2                 Chrome Assistant        Assist installs, maintain augments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech T3                 Chrome Installer        Install T1-T2 augments yourself (gene-doc tier)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech T4                 Master Installer        Install ANY tier augment, off-grid, no corp logging ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost to build:</strong> \\~1,700-3,100 cr in training + 400 cr Chrome Kit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Value to team:</strong> Free augment installs (save the installer fee). Off-grid at T4 means corps can’t track what chrome the team is running."
+    },
+    {
+      "type": "heading",
+      "text": "The Field Doc (Medicine Body Architect Path)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You splice mutations, treat scars, brew drugs. The team’s meat mechanic.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Level</strong>               <strong>Feature</strong>             <strong>What You Can Do</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Med T2                  Splice Assistant /      Assist splices, brew Pharmacist              stims & compounds"
+    },
+    {
+      "type": "paragraph",
+      "text": "Med T3                  Gene Splicer            Install Standard/Low Risk mutations (gene-doc tier)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Med T4                  Biological Architect    Install ANY risk tier mutation, suppress complications, off-grid ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost to build:</strong> \\~1,700-3,100 cr in training + 500 cr Splice Kit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Value to team:</strong> Free mutation installs. Scar treatment at discount. Off-grid genome work at T4 — invaluable when corps are scanning for unauthorized bio-mods."
+    },
+    {
+      "type": "heading",
+      "text": "The Full Body Shop (Tech + Medicine combined)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You do it all. Chrome, meat, weapons, drugs. The team doesn’t need clinics.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Level</strong>               <strong>Features</strong>            <strong>What You Can Do</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech T3 + Med T2        Chrome Installer +      Install T1-T2 augments, Pharmacist              brew compounds"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech T3 + Med T3        Chrome Installer + Gene Install augments AND Splicer                 mutations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech T4 + Med T4        Master Installer +      Full service. Any Biological Architect    augment, any mutation, any tier. All off-grid. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost to build (full):</strong> Massive. Two skills to T4 = \\~6,000+ credits in training alone, plus 900 cr in kits, plus 8-12 downtime periods minimum. This is a long-term character investment. <strong>Value to team:</strong> The team never visits a corp clinic again. You ARE the clinic. Every augment install, every mutation splice, every scar treatment, every custom compound — all done in-house, off the books, on your schedule. In a world where corps track everything, this character is the most valuable person in the crew."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The trade-off:</strong> While you spent 12 downtime periods learning, the Berserker bought 6 augments and the Operative mastered Stealth T4. You’re behind on personal combat power. You’re the team’s infrastructure — essential, irreplaceable, but you need them to keep you alive while you keep them upgraded. That’s good party dynamics."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Partial successes are the heart of the system.</strong> A 7-9 result should always succeed <em>with a cost</em>. The cost should be interesting: time spent, noise made, attention drawn, resources consumed, a debt owed. “You pick the lock but the alarm triggers in 30 seconds“ is better than “you fail to pick the lock.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Let the stat flex.</strong> Tech is Interface-primary, but if a contractor is trying to muscle a jammed engine component free, that’s Chrome + Tech. Stealth is Edge-primary, but chasing someone across rooftops is Reflex + Stealth. The primary stat is a default, not a prison."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gated skills matter.</strong> If nobody has Hacking or Medicine, that shapes what the team can do. They’ll need to hire NPCs, buy items, or find workarounds. That’s content, not punishment. The contractor team without a medic has a <em>very</em> different relationship with Scars."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Master-tier narrative milestones should be memorable.</strong> Don’t hand these out for free. “You can hit T4 Medicine after you save someone who was unsaveable“ or “T4 Hacking requires breaking into a system that’s never been breached“ — these are moments the player will remember. Make them earn the story."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skills feed the economy subtly.</strong> Negotiate saves money on purchases. Medicine saves money on scar treatment. Tech saves money on gear repair. Streetwise finds cheaper black market options. Every skill investment is an indirect economic advantage — which means every skill investment is one step closer to surviving the grind a little longer."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Skill development is the responsibility of each individual contractor. Corporate training programs are available at subsidized rates for employees in good standing (minimum 5-year contract, subject to performance review). Freelancers may seek third-party instruction at their own expense and risk.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Contractor self-improvement is encouraged within the bounds of your employment agreement. Unauthorized skill acquisition may constitute breach of non-compete clause 14-B. Please consult your corporate liaison before learning anything useful.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Learning skills takes time, method, and sometimes money. Each skill tier requires accumulating <strong>Learning Points (LP)</strong> toward a threshold. Each downtime period, you choose a <strong>learning method</strong>, roll, and earn LP based on the result."
+    },
+    {
+      "type": "paragraph",
+      "text": "Higher tiers take more LP, cost more credits, and restrict which learning methods are available. Specializing in one skill is more time-efficient per tier than spreading across many — mastery rewards commitment."
+    },
+    {
+      "type": "heading",
+      "text": "LP Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Advancing To</strong>  <strong>LP Required</strong>   <strong>Credits         </strong>Methods Required<strong>        Available</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 (Familiar)</strong> 3 LP              Free              Self-Study, Peer Learning, Instructor, Academy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 (Trained)</strong>  6 LP              Free              Self-Study, Peer Learning, Instructor, Academy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 (Expert)</strong>   12 LP             300 cr (paid once Peer Learning, at start)         Instructor, Academy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 (Master)</strong>   20 LP             800 cr (paid once Instructor, at start) +       Academy narrative milestone ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Why specializing beats generalist math:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Going T1→T2→T3 in one skill = 3 + 6 + 12 = <strong>21 LP total</strong> to reach Expert. Getting three skills to T1 = 3 + 3 + 3 = <strong>9 LP total</strong> for three Familiars."
+    },
+    {
+      "type": "paragraph",
+      "text": "Looks like generalist wins early — and it does. That’s intentional. Early breadth is easy. But the <em>features</em> at T3-T4 are dramatically more powerful than T1-T2, so the specialist’s time investment pays off in capability. A T4 Medicine contractor is worth more to the team than three T1 dabblers combined."
+    },
+    {
+      "type": "heading",
+      "text": "Learning Methods"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each downtime period, choose one method for one skill. Roll <strong>2d6 + Grit bonus</strong> (your mental/physical endurance for sustained study) against the method’s result table."
+    },
+    {
+      "type": "heading",
+      "text": "Self-Study 📖"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Books, manuals, trial and error, watching videos, practicing alone.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available for:</strong> T1, T2 only. <strong>Cost:</strong> Free. <strong>Risk:</strong> Slow. No guidance means wrong habits and dead ends."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                <strong>Result</strong>              <strong>LP Earned</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-                      <strong>Learned Nothing.</strong>    0 LP Wasted time. Wrong manual. Practiced the wrong thing for a week."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-9                     <strong>Learned a Little.</strong>   1 LP Incremental progress. You get the basics but keep hitting walls."
+    },
+    {
+      "type": "paragraph",
+      "text": "10-11                   <strong>Learned a Good        2 LP Amount.</strong> Solid study session. Concepts clicking."
+    },
+    {
+      "type": "paragraph",
+      "text": "12+                     <strong>Quick Study.</strong>        3 LP Everything connects. Natural talent or sheer stubbornness pays off. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Peer Learning 🤝"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Another contractor teaches you. They need at least 1 tier higher than what you’re learning.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available for:</strong> T1, T2, T3. <strong>Cost:</strong> Free in credits, but your teacher also spends their downtime helping you (they can’t advance their own skills this period). <strong>Risk:</strong> Medium. Your teacher might not be great at teaching."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                <strong>Result</strong>              <strong>LP Earned</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-                      <strong>Learned Nothing.</strong>    0 LP Your teacher is bad at explaining things. Mostly you watched them do it and nodded."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-9                     <strong>Learned a Little.</strong>   2 LP Got some useful pointers. Their shortcuts don’t quite work for you."
+    },
+    {
+      "type": "paragraph",
+      "text": "10-11                   <strong>Learned a Good        3 LP Amount.</strong> Good teacher. Real-world tips that books don’t cover."
+    },
+    {
+      "type": "paragraph",
+      "text": "12+                     <strong>Quick Study.</strong>        4 LP Teacher and student click. Knowledge transfers fast. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Instructor 🎓"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A professional trainer. Licensed. Probably corporate-affiliated. They know what they’re doing.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available for:</strong> T1, T2, T3, T4. <strong>Cost:</strong> 100 cr per downtime period (on top of tier credit costs). <strong>Risk:</strong> Low. Professional instruction minimizes wasted time."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                <strong>Result</strong>              <strong>LP Earned</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-                      <strong>Learned a Little.</strong>   1 LP Even a good teacher can’t force a bad week. But you still picked up something."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-9                     <strong>Learned a Good        3 LP Amount.</strong> Structured curriculum. Clear progression. This is what money buys."
+    },
+    {
+      "type": "paragraph",
+      "text": "10-11                   <strong>Learned a Good Amount 4 LP (Plus).</strong> Ahead of schedule. Instructor is impressed."
+    },
+    {
+      "type": "paragraph",
+      "text": "12+                     <strong>Quick Study.</strong>        5 LP Instructor says you’re a natural. You know they say that to everyone. But still. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Academy 🏛️"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Full immersion. A corporate training facility, a specialist school, a master’s workshop. The best instruction money can buy.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available for:</strong> T1, T2, T3, T4. <strong>Cost:</strong> 250 cr per downtime period (on top of tier credit costs). <strong>Risk:</strong> Almost none. But very expensive. <strong>Special:</strong> Roll with <strong>advantage</strong> (2d6, take higher die for each, then sum)."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                <strong>Result</strong>              <strong>LP Earned</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-                      <strong>Learned a Good        2 LP Amount.</strong> Even the worst day at an academy beats the best day self-studying."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-9                     <strong>Learned a Good Amount 4 LP (Plus).</strong> Structured, intensive, effective."
+    },
+    {
+      "type": "paragraph",
+      "text": "10-11                   <strong>Excellent Progress.</strong> 5 LP Top of the class. The instructors take note."
+    },
+    {
+      "type": "paragraph",
+      "text": "12+                     <strong>Quick Study.</strong> You    6 LP absorb the curriculum like it was written for you. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Academy Special:</strong> Corps run most academies. Attending a corporate academy is efficient but they record everything. Your skill profile goes in their database. This may have narrative consequences — corps recruit based on useful skills, and “recruit“ doesn’t always mean “ask politely.“"
+    },
+    {
+      "type": "heading",
+      "text": "Method Restrictions by Tier"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Method</strong>     <strong>T1</strong>         <strong>T2</strong>         <strong>T3</strong>         <strong>T4</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Self-Study     ✅             ✅             ❌             ❌"
+    },
+    {
+      "type": "paragraph",
+      "text": "Peer Learning  ✅             ✅             ✅             ❌"
+    },
+    {
+      "type": "paragraph",
+      "text": "Instructor     ✅             ✅             ✅             ✅"
+    },
+    {
+      "type": "paragraph",
+      "text": "Academy        ✅             ✅             ✅             ✅ -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The narrowing funnel:</strong> At T1-T2, you can teach yourself for free. At T3, you need at least another person (peer or instructor). At T4, you need a professional — no amount of self-study or buddy coaching gets you to Master. You need someone who’s already there."
+    },
+    {
+      "type": "paragraph",
+      "text": "This creates natural economic pressure at higher tiers. T4 mastery costs:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• 800 cr tier cost (one-time)  • 100-250 cr per downtime period (instructor or academy)  • Multiple periods to accumulate 20 LP  • A narrative milestone"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mastery is expensive in every currency: time, money, and story."
+    },
+    {
+      "type": "heading",
+      "text": "Minimum Time to Advance (Best Case)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assuming Academy (6 LP max per period) with great rolls every time:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>LP Needed</strong>     <strong>Best Case</strong>     <strong>Realistic (avg \\~4 LP/period)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1                3 LP              1 downtime period 1 period"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2                6 LP              1 period          2 periods"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3                12 LP             2 periods         3 periods"
+    },
+    {
+      "type": "paragraph",
+      "text": "T4                20 LP             4 periods         5-6 periods ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Worst case with Self-Study</strong> (max 3 LP, often 0-1):"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                <strong>LP Needed</strong>           <strong>Realistic (avg \\~1.5 LP/period)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1                      3 LP                    2 periods"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2                      6 LP                    4 periods"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3                      N/A                     Can’t self-study to T3 ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "The gap is dramatic and intentional. A contractor who invests in academy training progresses 3-4x faster than one grinding it out alone. But the academy contractor is spending 250 cr/period while the self-study contractor spends nothing. Both are valid paths — they just serve different economic situations."
+    },
+    {
+      "type": "heading",
+      "text": "The Genius Trait"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some contractors learn fast. Dangerously fast. Their brains are wired for absorption — but that comes with a weight that never lifts."
+    },
+    {
+      "type": "heading",
+      "text": "Acquiring Genius"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genius is a <strong>character creation trait</strong> (chosen at creation, cannot be acquired later). It represents innate cognitive architecture, not something you train into."
+    },
+    {
+      "type": "paragraph",
+      "text": "A player who takes Genius gives up one of their starting T1 skill picks (start with <strong>2 skills at T1</strong> instead of 3, still get 1 at T2)."
+    },
+    {
+      "type": "heading",
+      "text": "Genius Effect"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>All learning rolls gain +2.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "This shifts every result bracket up. Self-Study with Genius averages 2-3 LP instead of 1-2 LP. Academy with Genius almost guarantees 5-6 LP per period. Genius contractors reach T4 mastery in roughly half the time."
+    },
+    {
+      "type": "heading",
+      "text": "The Curse of Knowledge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Genius comes with <strong>Cognitive Load</strong> — a persistent mental burden that never goes away."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Passive effects (always on):</em>  • <strong>Stress Threshold:</strong> You have a Stress track (max 6). Stress accumulates from specific triggers (below). At max stress, you suffer a breakdown (see below).  • <strong>Overstimulation:</strong> -1 to all Edge checks in chaotic environments (crowds, loud combat, sensory overload). Your brain processes too much.  • <strong>Sleep Deficit:</strong> You need 2 extra hours of rest per day. Without it, -1 to all checks until you catch up.  <em>Stress Triggers (gain +1 Stress):</em>  • Each downtime period spent learning (your brain doesn’t stop)  • Witnessing an ally hit 0 HP (pattern recognition makes you model the death)  • Encountering a problem you can’t solve in the moment (GM discretion — once per session max)  • Critical failure on any check (you <em>know</em> you should have gotten that right)  <em>Clearing Stress:</em>  • Full downtime period doing nothing (no learning, no working) = clear 2 Stress  • Recreational downtime (socializing, hobbies, not-working) = clear 1 Stress  • Specific augments or mutations may reduce stress gain or clear stress (future expansion)  • Certain gear (sedatives, neural dampeners) can suppress stress temporarily (50 cr/dose, clear 1 stress but -1 to Interface for 1 day)  <em>Breakdown (6/6 Stress):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "When stress hits max, the Genius contractor suffers a breakdown. Roll 1d6:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Breakdown</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Paralysis.</strong> Cannot act for 1 round in next combat. Brain locked in analysis loop."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Hyperfocus.</strong> Become obsessed with one irrelevant detail for the next scene. -2 to all checks not related to the fixation."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Dissociation.</strong> -2 to all social checks for the next session. You’re present but not <em>here</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Insomnia Spiral.</strong> No rest benefit for the next downtime period. Cannot learn. Can only clear stress."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Emotional Bleed.</strong> You snap at an ally. GM determines which relationship takes strain. -1 to checks when working with that ally for 1 session."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Clarity.</strong> The breakdown resolves into insight. Clear ALL stress. Gain +2 LP toward any skill you’re currently learning. This is the worst one because it teaches you that breaking down <em>works</em>. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "After a breakdown, stress resets to 3 (not 0). The pressure never fully goes away."
+    },
+    {
+      "type": "heading",
+      "text": "Interaction With Other Systems"
+    },
+    {
+      "type": "heading",
+      "text": "Learning + Augments"
+    },
+    {
+      "type": "blockquote",
+      "text": "• The <strong>Systems tree</strong> augments that provide tech bonuses may grant +1 LP on Tech/Hacking study (GM discretion)  • Augments don’t replace the need for skill training — chrome makes you stronger, not smarter  • Exception: Some T4 augment features overlap with T3-T4 skill features. Having both doesn’t stack unless specifically stated — you take the better of the two"
+    },
+    {
+      "type": "heading",
+      "text": "Learning + Mutations"
+    },
+    {
+      "type": "blockquote",
+      "text": "• The <strong>Neural Hive</strong> (Extreme mutation) might grant +2 to learning rolls for Interface-based skills, but the whispers and involuntary hive actions still apply  • <strong>Synaptic Accelerator</strong> could grant +1 LP per period for any learning (your brain processes faster) — GM discretion  • Mutations that reduce Interface or cause chronic pain may impose -1 to learning rolls"
+    },
+    {
+      "type": "heading",
+      "text": "Learning + Money"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Instructor: 100 cr/period  • Academy: 250 cr/period  • T3 unlock: 300 cr flat  • T4 unlock: 800 cr flat  • Full T1→T4 at academy: 300 + 800 + (250 × \\~8 periods) = <strong>3,100 cr</strong> minimum  • Full T1→T4 self-studying then instructor: 300 + 800 + (100 × \\~6 periods) = <strong>1,700 cr</strong> minimum  • This is a significant investment. Scar treatment for 3 scars is \\~600-1000 cr. A new weapon is 200-800 cr. Every credit spent on learning is a credit not spent on survival."
+    },
+    {
+      "type": "heading",
+      "text": "Learning + Downtime Actions"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Each downtime period, a contractor can do <strong>one</strong> of: learn a skill, advance an augment (find installer, pay, recover), get scar treatment, get mutation spliced, work a side job for credits, or rest  • You cannot learn AND work in the same period  • This is the fundamental tension: do you invest in future capability or deal with current problems?"
+    },
+    {
+      "type": "heading",
+      "text": "LP Tracking on Character Sheet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each skill should have an LP tracker on the sheet:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\`\\`\\` Medicine \\[T2 — Trained\\] ████████░░░░ 8/12 LP → T3 \\`\\`\\`"
+    },
+    {
+      "type": "paragraph",
+      "text": "When LP reaches the threshold AND credits are paid AND (for T4) narrative milestone is met, the skill advances and LP resets to 0 for the next tier."
+    },
+    {
+      "type": "paragraph",
+      "text": "LP does not carry over. If you have 14 LP toward a 12 LP threshold, the extra 2 are lost. You start fresh at the next tier. Knowledge compounds but mastery requires new foundations."
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes for GMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The learning roll is a downtime scene.</strong> Don’t just roll dice — narrate it. The contractor studying Hacking alone in their apartment, staring at screens until 4 AM, getting 0 LP? That’s a scene. The contractor at an academy, surrounded by corp trainees half their age, acing the curriculum? That’s a different scene. Both tell you something about who this character is."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Method restrictions create story hooks.</strong> When a contractor needs T3 and can’t self-study anymore, they need to find a peer or instructor. That’s an NPC. NPCs have agendas. The instructor who teaches you Hacking T3 might want a favor. The peer who teaches you Medicine might need you to cover their shift. Learning creates relationships."
+    },
+    {
+      "type": "heading",
+      "text": "The Genius trait is for players who want complicated characters."
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s mechanically powerful (learning at roughly double speed) with a real ongoing cost (stress management becomes a constant concern). Don’t let players take it without understanding the breakdown table. Genius isn’t free power — it’s a lifestyle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Breakdown result #6 is intentional cruelty.</strong> The fact that a breakdown can <em>reward</em> you with insight teaches the Genius contractor that pushing themselves to collapse sometimes works. That’s the most psychologically realistic outcome on the table and the one that will cause the most interesting roleplay spirals."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Side jobs during downtime</strong> should pay 100-200 cr for a standard period. This makes the choice real: spend 250 cr at an academy to gain LP, or earn 200 cr doing grunt work. The math is always working against you. That’s the grind."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Continued professional development is a key performance indicator for all active contractors. Failure to demonstrate measurable skill growth may result in reassignment to high-risk rift operations. This is not a punishment. It is an opportunity.“</em>"
+    }
+  ]
+}

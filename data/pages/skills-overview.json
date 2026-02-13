@@ -1,0 +1,219 @@
+{
+  "id": "skills-overview",
+  "title": "Skill System",
+  "subtitle": "How skills work",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>What You Know and How You Learned It</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“All contractor skill assessments are conducted in accordance with Corporate Training Directive 7.2. Competency is not guaranteed. Liability for skill-related incidents remains with the contractor. As always.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Skills Work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skills are broad categories of non-combat expertise. Each skill has <strong>4 tiers</strong>, and each tier unlocks a <strong>feature</strong> — a specific mechanical benefit you choose from a list. Features vary: some are flat bonuses, some grant advantage on specific checks, some unlock actions that untrained characters simply can’t attempt."
+    },
+    {
+      "type": "heading",
+      "text": "The Check"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>2d6 + Stat Bonus + Skill Modifier → Result</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          <strong>Outcome</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>10+</strong>                             Full success. You get what you wanted."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>7-9</strong>                             Partial success. You get it, but with a cost, complication, or reduced effect."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>6-</strong>                              Failure. Things get worse. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Skill Tiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>Name</strong>          <strong>Modifier</strong>      <strong>How to Advance</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>0</strong>             Untrained         -2 to checks (or  — can’t attempt, see Gated below)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1</strong>            Familiar          +0 (no penalty)   Free at character creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2</strong>            Trained           +1                Downtime between missions (practice)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3</strong>            Expert            +2                Downtime + 300 credits (specialized training)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4</strong>            Master            +3                Downtime + 800 credits + narrative milestone ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Untrained Checks:</strong> Most skills can be attempted untrained at -2."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gated</strong> skills (marked with 🔒) cannot be attempted at all without at least T1. You can’t hack if you’ve never seen a terminal. You can’t treat a wound if you don’t know what blood is supposed to look like."
+    },
+    {
+      "type": "heading",
+      "text": "Advancement Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skill advancement uses the <strong>Downtime Learning System</strong> (see DOWNTIME-LEARNING.md). In short:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Each tier requires accumulating <strong>Learning Points (LP)</strong> toward a threshold  • Each downtime period, choose a <strong>learning method</strong> (Self-Study, Peer, Instructor, Academy) and roll  • Higher tiers require more LP, more credits, and restrict your learning methods  • <strong>T1-T2:</strong> All methods available, no credit cost  • <strong>T3:</strong> 300 cr + Peer Learning or better (no self-study)  • <strong>T4:</strong> 800 cr + Instructor or Academy only + narrative milestone"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>LP Required</strong>   <strong>Credits</strong>       <strong>Methods</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1                3 LP              Free              All"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2                6 LP              Free              All"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3                12 LP             300 cr            Peer, Instructor, Academy"
+    },
+    {
+      "type": "paragraph",
+      "text": "T4                20 LP             800 cr            Instructor, Academy ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specializing is faster per-tier than spreading thin. Mastery isn’t bought — it’s ground out over multiple downtime periods, with every roll a scene at the table."
+    },
+    {
+      "type": "heading",
+      "text": "Character Creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "At character creation, each contractor picks:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>3 skills at T1 (Familiar)</strong>  • <strong>1 skill at T2 (Trained)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kits may suggest skill picks but don’t restrict them. A Berserker with Medicine T2 is a perfectly valid (and narratively interesting) choice."
+    },
+    {
+      "type": "heading",
+      "text": "The Skill List (10 Skills)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>IMPORTANT — Stats Are Not Locked to Skills.</strong> Each skill lists a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>primary stat</strong> — the stat used most often in typical situations. But the GM calls for whichever stat fits the moment. The primary stat is a default, not a requirement."
+    },
+    {
+      "type": "paragraph",
+      "text": "This matters because it means every stat has skill relevance beyond what the “primary“ label suggests:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Situation</strong>     <strong>Skill</strong>         <strong>Stat Used</strong>     <strong>Why</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rewiring a        Tech              Interface         Technical detonator under                                       knowledge fire"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ripping a jammed  Tech              Chrome            Raw physical engine apart by                                       force hand"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diagnosing a rare Medicine          Interface         Medical knowledge toxicity syndrome"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keeping a patient Medicine          Grit              Endurance under stable during a                                       pressure 12-hour surgery"
+    },
+    {
+      "type": "paragraph",
+      "text": "Performing        Medicine          Chrome            Steady physical emergency field                                       control amputation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cracking a        Hacking           Interface         Technical military-grade                                        expertise firewall"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brute-forcing a   Hacking           Reflex            Fast input, rapid terminal with                                         iteration speed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identifying a     Rift Lore         Interface         Academic rift creature’s                                      knowledge weakness"
+    },
+    {
+      "type": "paragraph",
+      "text": "Navigating a      Rift Lore         Grit              Willpower under collapsing rift                                       stress by instinct"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting a        Crafting          Interface         Design and precision                                             precision component"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hammering armor   Crafting          Chrome            Physical into shape at a                                       fabrication forge ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>No stat is useless for skills.</strong> A Chrome 8 / Interface 3 character can absolutely attempt Tech checks — they just approach problems differently (brute force instead of finesse). The GM decides which stat applies. The skill tier determines proficiency. Both matter."
+    }
+  ]
+}

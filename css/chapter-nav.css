@@ -1,0 +1,305 @@
+/* ============================================================
+   CHAPTER NAV — Home page, chapter header, prev/next links
+   ============================================================ */
+
+/* --- Home page hero ---
+   Corporate landing page. Clean, official, slightly ominous. */
+.hero {
+  text-align: center;
+  padding: var(--sp-2xl) var(--sp-lg) var(--sp-xl);
+}
+
+.hero-title {
+  font-family: var(--heading);
+  font-size: var(--fs-hero);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.hero-rule {
+  width: 60px;
+  height: 2px;
+  background: var(--accent);
+  border: none;
+  margin: var(--sp-md) auto;
+}
+
+.hero-sub {
+  font-family: var(--sans);
+  font-size: var(--fs-md);
+  color: var(--text2);
+  font-weight: 300;
+  letter-spacing: 0.04em;
+}
+
+.hero-ver {
+  display: inline-block;
+  margin-top: var(--sp-md);
+  padding: 3px 14px;
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  border: 1px solid var(--accent-dim);
+  border-radius: 20px;
+  letter-spacing: 0.03em;
+}
+
+.hero-tag {
+  margin-top: var(--sp-lg);
+  font-style: italic;
+  font-size: var(--fs-base);
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Chapter grid on home page --- */
+.ch-grid {
+  max-width: 640px;
+  margin: var(--sp-xl) auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-sm);
+  padding: 0 var(--sp-md);
+}
+
+.ch-link {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 11px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all var(--tr);
+}
+
+.ch-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+  transform: translateY(-1px);
+}
+
+.ch-link-num {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  min-width: 20px;
+  opacity: 0.7;
+}
+
+.ch-link:hover .ch-link-num { opacity: 1; }
+
+.ch-link-title {
+  font-family: var(--sans);
+  font-size: var(--fs-sm);
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* --- Chapter page header --- */
+.ch-hdr {
+  padding-bottom: var(--sp-lg);
+  margin-bottom: var(--sp-xl);
+  border-bottom: 2px solid var(--border);
+}
+
+.ch-num {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: var(--sp-xs);
+}
+
+.ch-title {
+  font-family: var(--heading);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  color: var(--text);
+  line-height: var(--lh-tight);
+  letter-spacing: 0.02em;
+}
+
+/* --- Prev / Next links --- */
+.ch-nav {
+  display: flex;
+  gap: 12px;
+  margin-top: var(--sp-2xl);
+  padding-top: var(--sp-lg);
+  border-top: 2px solid var(--border);
+}
+
+.ch-nav-link {
+  flex: 1;
+  padding: var(--sp-md);
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--tr);
+}
+
+.ch-nav-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+}
+
+.ch-nav-lbl {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  display: block;
+  margin-bottom: var(--sp-xs);
+}
+
+.ch-nav-t {
+  font-family: var(--sans);
+  font-size: var(--fs-sm);
+  color: var(--text);
+  font-weight: 500;
+}
+
+.ch-nav-link.next { text-align: right; }
+
+/* --- Mobile --- */
+@media (max-width: 768px) {
+  .hero { padding: var(--sp-xl) var(--sp-sm) var(--sp-lg); }
+  .hero-title { font-size: 2rem; letter-spacing: 0.08em; }
+  .ch-grid { grid-template-columns: 1fr; }
+  .ch-title { font-size: 1.5rem; }
+  .ch-nav { flex-direction: column; }
+}
+
+/* --- Home page section cards --- */
+.home-sections {
+  max-width: 720px;
+  margin: var(--sp-xl) auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 0 var(--sp-md);
+}
+
+.home-sec {
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-md);
+  transition: border-color var(--tr);
+}
+
+.home-sec:hover { border-color: var(--border); }
+
+.home-sec-builder { border-color: var(--teal-dim); }
+.home-sec-builder:hover { border-color: var(--teal); }
+
+.home-sec-hdr {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border2);
+}
+
+.home-sec-ico { font-size: 1.1rem; }
+
+.home-sec-title {
+  font-family: var(--heading);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+.home-sec-pages { display: flex; flex-direction: column; gap: 2px; }
+
+.home-page-link {
+  padding: 4px 8px;
+  font-size: 0.76rem;
+  color: var(--text2);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all var(--tr);
+}
+
+.home-page-link:hover {
+  color: var(--accent);
+  background: var(--accent-glow);
+}
+
+/* --- Page header --- */
+.pg-hdr {
+  padding-bottom: var(--sp-lg);
+  margin-bottom: var(--sp-xl);
+  border-bottom: 2px solid var(--border);
+}
+
+.pg-sub {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--teal);
+  letter-spacing: 0.06em;
+  margin-bottom: var(--sp-xs);
+}
+
+.pg-title {
+  font-family: var(--heading);
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  color: var(--text);
+  line-height: var(--lh-tight);
+  letter-spacing: 0.02em;
+}
+
+/* --- Page prev/next nav --- */
+.pg-nav {
+  display: flex;
+  gap: 12px;
+  margin-top: var(--sp-2xl);
+  padding-top: var(--sp-lg);
+  border-top: 2px solid var(--border);
+}
+
+.pg-nav-link {
+  flex: 1;
+  padding: var(--sp-md);
+  background: var(--surface);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all var(--tr);
+}
+
+.pg-nav-link:hover { border-color: var(--accent); background: var(--accent-glow); }
+
+.pg-nav-lbl {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  display: block;
+  margin-bottom: var(--sp-xs);
+}
+
+.pg-nav-t {
+  font-family: var(--sans);
+  font-size: var(--fs-sm);
+  color: var(--text);
+  font-weight: 500;
+}
+
+.pg-nav-link.next { text-align: right; }
+
+@media (max-width: 768px) {
+  .home-sections { grid-template-columns: 1fr; }
+  .pg-title { font-size: 1.5rem; }
+  .pg-nav { flex-direction: column; }
+}

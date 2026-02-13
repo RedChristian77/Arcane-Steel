@@ -1,0 +1,133 @@
+{
+  "id": "trees-leech",
+  "title": "☣️ Leech",
+  "subtitle": "The Reactor's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Grit / Chrome",
+      "theme": "Toxicity is fuel. Inject it for power. Vent it through violence.",
+      "design": "Leech augments reward high toxicity states that other contractors would flee from."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Furnace Core",
+          "effect": "Unlocks Burn: inject toxicity → gain self-buffs",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Toxin Push",
+          "effect": "Unlocks Bleed: on melee hit, vent 1 toxicity as +1 damage",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Rift Appetite",
+          "effect": "Gain toxicity 1 faster from ambient sources (more fuel)",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Toxic Resilience",
+          "effect": "Toxicity threshold effects delayed by 5%",
+          "cost": "250 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Overdrive",
+          "effect": "New Burn: +3 toxicity → +1 movement, +1 accuracy for 2 rounds",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Siphon Strike",
+          "effect": "Bleed upgrade: each hit now vents 1 toxicity as +2 bonus damage",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Draining Touch",
+          "effect": "Alt Bleed: on melee hit, vent toxicity as healing instead of damage",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Contaminated Blood",
+          "effect": "When hit in melee, attacker gains +1 toxicity",
+          "cost": "200 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Toxic Aura",
+          "effect": "At 50%+ toxicity: adjacent enemies take 1 damage/round",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Metabolic Surge",
+          "effect": "New Burn: +5 toxicity → heal 2d6 HP",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Corrosive Strikes",
+          "effect": "Bleed upgrade: vented toxicity also reduces target Armor by 1 for 1 round",
+          "cost": "650 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Meltdown Protocol",
+          "effect": "3 rounds: auto-transfer 3 tox/hit, +1 self per round. After: exhausted 1 round",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Necrotic Field",
+          "effect": "Toxic Aura upgrade: adjacent enemies take 1d4 damage",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Terminal Siphon",
+          "effect": "On kill: -1d6 toxicity, heal 1d4 HP",
+          "cost": "1,000 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Walking Meltdown",
+          "effect": "At 80%+ toxicity: all Burn effects doubled. All Bleed damage +3. If you hit 100%, instead of harvest: explode for 4d10 to all within 3 squares, then drop to 50%",
+          "cost": "3,000 cr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "id": "skills-list",
+  "title": "Skill List",
+  "subtitle": "All skills and their checks",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface <strong>Scope:</strong> Machines, electronics, vehicles, drones, mechanical repair, improvised devices, <strong>augment installation and weapon crafting.</strong>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>If it has circuits, gears, or an engine, this is your skill. And if it’s going inside someone’s body, you’d better hope this is your skill.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Features are organized into two paths. You can mix freely — take Field Repair at T2 and Chrome Installer at T3, or go full craftsman. The paths are a guide, not a lock."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>🔧 Field Tech Path</strong> — repair, jury-rig, vehicles, drones, combat support. <strong>⚒️ Craftsman Path</strong> — augment installation, weapon modification, gear fabrication."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt Tech checks. Perform basic repairs, operate standard equipment, drive common vehicles. Can assess augment quality and identify faulty chrome."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  🔧 <strong>Field Repair:</strong> Fix a broken weapon or piece of gear in 1 round (partial = works 1 encounter then breaks). <strong>OR</strong> 🔧 <strong>Jury-Rig:</strong> Build improvised devices from scrap (smoke bombs, tripwires, jammers). GM determines scope. <strong>OR</strong> 🔧"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle Specialist:</strong> Advantage on all checks involving driving, piloting, or vehicular combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> ⚒️ <strong>Chrome Assistant:</strong> Can assist on augment installations — the installer (NPC or PC) gains +1 to any relevant checks. During downtime, can perform maintenance on augments (removes minor malfunctions, keeps chrome running clean)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   🔧 <strong>Combat Repair:</strong> For 1 AP in combat, restore 2 Armor to an ally’s damaged armor. Once per combat. <strong>OR</strong> 🔧 <strong>Overclock Gear:</strong> Once per mission, supercharge a weapon or device — +2 accuracy or +1 damage die for 1 encounter. Device breaks after."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> 🔧 <strong>Drone Commander:</strong> Operate a combat drone (purchased separately) as a bonus action. Drone gets its own simple attack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> ⚒️ <strong>Chrome Installer:</strong> Can install T1-T2 augments in the field during downtime. You count as “Licensed Gene-Doc“ provider tier for augment installation (normal roll, no advantage/disadvantage). Requires a <strong>Chrome Kit</strong> (400 cr, reusable). Installation costs the augment’s credit price but no additional installer fee. <strong>OR</strong> ⚒️"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon Smith:</strong> During downtime, craft weapons from raw materials at 60% of normal cost (Interface check). On a full success, the weapon gains one minor bonus (a free tag or +1 to one conditional). On partial, standard quality. On fail, materials wasted."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   🔧 <strong>Walking Workshop:</strong> Advantage on ALL Tech checks. Field Repair works on augments (suppress a malfunction for 1 mission) and armor (fully restore in 1 round)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> ⚒️ <strong>Masterwork Modification:</strong> During downtime, permanently modify a weapon or armor piece. Add one pro, remove one con, or increase accuracy OR damage die size by 1. One modification per item. Can also craft custom augments with GM approval following augment tier guidelines. <strong>OR</strong> ⚒️ <strong>Master Installer:</strong> Can install augments of ANY tier. You count as “Instructor“ provider tier (your expertise reduces risk). Can diagnose and fix augment malfunctions permanently (200 cr, Standard DC check). Your installs are off-grid — no corporate logging. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface <strong>Scope:</strong> Network intrusion, data extraction, system subversion, augment disruption, security bypass."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Gated: Cannot attempt without T1. The systems in 3025 don’t have ’forgot password’ buttons.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt Hacking checks. Bypass basic security locks, access unprotected terminals, read encrypted-but-not-well data."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Intrusion Specialist:</strong> Advantage on checks to bypass security systems (locks, cameras, alarms)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Data Miner:</strong> When you access a terminal, you can ask the GM one specific question about the data it contains. On success, you get the answer. <strong>OR</strong> <strong>Spoof ID:</strong> Create fake contractor IDs, corporate credentials, or access badges. Holds up to casual inspection."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Combat Hack:</strong> Once per combat, for 1 AP: disable one enemy’s weapon for 1 round (Interface check vs target’s Interface). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ghost in the System:</strong> When you hack a network, you leave no trace on a full success. On partial, you leave a delayed trace (they’ll notice in hours, not seconds)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Augment Spike:</strong> Once per combat: deal 1d6 damage directly to a target by overloading their augments (Interface check). Only works on augmented targets."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>System Override:</strong> Once per mission, take complete control of a building’s systems (doors, lights, security, comms) for 1 scene."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Neural Hijack:</strong> Once per mission, attempt to puppeteer a heavily-augmented target for 1 round (Interface check vs their Grit, -4 if boss). They take one action of your choice. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface <strong>Scope:</strong> First aid, surgery, toxicology, drug interactions, biological analysis, <strong>gene-splicing, mutation management, and scar treatment.</strong>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Gated: Untrained characters cannot attempt medical treatment. They can apply a bandage (flavor) but not mechanically heal.</em>  <em>Your body is meat and meat breaks. Someone has to fix it. Might as well be someone who’s on your side.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Features are organized into two paths. Mix freely."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>🩺 Field Medic Path</strong> — combat healing, trauma care, toxicology, keeping people alive right now. <strong>🧬 Body Architect Path</strong> — gene-splicing, mutation installation, scar treatment, long-term biological work."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt Medicine checks. Stabilize dying characters, apply healing stims effectively (+1 HP from stims you use), identify common poisons/diseases. Can assess mutation quality and identify complications."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  🩺 <strong>Combat Medic:</strong> Once per combat, for 1 AP: heal an adjacent ally for 1d6 HP (no item required — field surgery). <strong>OR</strong> 🩺"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicologist:</strong> Advantage on checks involving poisons, toxicity, and chemical hazards. Can identify unknown substances. Poison stacks on allies you treat clear 1 faster per round. <strong>OR</strong> 🧬"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pharmacist:</strong> Craft healing stims during downtime at half cost (25 cr). Craft toxicity scrubbers at half cost. Can also brew custom compounds — stimulants (+1 to one stat for 1 encounter, 40 cr materials), painkillers (suppress 1 scar debuff for 1 session, 30 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> 🧬 <strong>Splice Assistant:</strong> Can assist on mutation installations — the splicer gains +1 to the complication roll. Can identify mutation complications and their severity without equipment. During downtime, can administer suppression treatments for existing complications (standard 300 cr/month cost)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   🩺 <strong>Trauma Surgeon:</strong> During downtime, treat a Scar for 200 cr instead of standard clinic prices (your time, your skill, your price). Standard DC complication roll applies. <strong>OR</strong> 🩺 <strong>Field Transfusion:</strong> Once per combat, for 1 AP: sacrifice up to 4 of your own HP to heal an ally for that amount +2. <strong>OR</strong> 🧬 <strong>Gene Splicer:</strong> Can perform mutation installations during downtime. You count as"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>“Licensed Gene-Doc“</strong> provider tier (normal 1d20 roll, no advantage/disadvantage). Requires a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Splice Kit</strong> (500 cr, reusable). Installation uses the mutation’s base credit cost but no additional doctor fee. Can install Standard and Low Risk mutations. <strong>OR</strong> 🧬"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Complication Manager:</strong> Advantage on all mutation complication rolls you supervise (stacks with provider tier — if you’re ALSO the gene-doc, you get advantage on your own installs). During downtime, can attempt to permanently suppress one Minor or Moderate complication (400 cr, Interface check DC 8)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   🩺 <strong>Miracle Worker:</strong> Once per mission, when an ally fails a Scar survival roll, you can re-roll it for them. They take your result. Your scar treatment cost drops to 100 cr. <strong>OR</strong> 🧬 <strong>Biological Architect:</strong> Can install mutations at ANY risk tier. You count as"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>“Licensed Gene-Doc“</strong> for all tiers. Can suppress complications permanently (Minor/Moderate: 400 cr DC 6, Severe: 600 cr DC 10, Critical: 1000 cr DC 14). On fail, the complication returns worse. Can design custom mutations with GM approval following the risk-tier framework. All your work is off-grid — no corporate genome logging. <strong>OR</strong> 🧬🩺 <strong>Walking Clinic:</strong> Combination capstone. You can treat scars (150 cr), install Standard/Low Risk mutations (gene-doc tier), and craft pharmaceuticals — all at reduced costs. Advantage on ALL Medicine checks. You are a one-person medical facility operating out of a duffel bag. Not as good as a corp clinic for high-risk work, but nobody asks questions and nobody keeps records. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Edge <strong>Scope:</strong> Persuasion, deception, bargaining, contracts, reading people, defusing tension."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The skill that keeps you alive in boardrooms. Which are more dangerous than rifts.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt social manipulation beyond basic conversation. Haggle prices, talk past guards, smooth over misunderstandings."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Haggler:</strong> All purchases cost 10% less. Fencing stolen goods earns 10% more. <strong>OR</strong> <strong>Silver Tongue:</strong> Advantage on checks to lie, deceive, or misdirect. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Read the Room:</strong> When entering a social situation, you can ask the GM: “Who here is the real threat?“ or “What does this person actually want?“ GM answers honestly."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Contract Lawyer:</strong> You can find loopholes in contracts, corporate directives, and legal documents. Advantage on all checks involving paperwork, legal situations, and bureaucracy. Once per mission, exploit a loophole for a significant advantage (GM determines scope). <strong>OR</strong> <strong>Smooth Operator:</strong> Once per scene, automatically succeed on a social check that would normally be a partial success. <strong>OR</strong> <strong>Fence:</strong> During downtime, you can sell items at full value instead of half. You also have access to a black market contact for rare/illegal goods."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Dealmaker:</strong> Once per mission, negotiate a contract bonus — the team earns 25% more credits on the job. <strong>OR</strong> <strong>Puppet Master:</strong> Advantage on ALL Negotiate checks. Once per mission, convince a non-hostile NPC to do one significant favor (betray their employer, look the other way, share classified information). They must be able to rationalize it. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Edge <strong>Scope:</strong> Perception, intuition, threat detection, investigation, tracking, reading environments."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You notice things other people don’t. Mostly because other people are already dead.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> +0 to awareness checks. Can attempt detailed investigation, tracking, and environmental reads beyond basic observation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Danger Sense:</strong> You cannot be surprised. You always act in the first round of unexpected combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Investigator:</strong> Advantage on checks to examine crime scenes, find hidden objects, or analyze clues. <strong>OR</strong> <strong>Tracker:</strong> Can follow trails, identify creature types from tracks, and estimate how recently an area was disturbed. Advantage on tracking checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Combat Awareness:</strong> At the start of each combat round, the GM tells you one tactical fact (which enemy is about to act, where reinforcements are coming from, environmental hazard). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sixth Sense:</strong> Once per session, the GM must warn you before you walk into an ambush, trap, or betrayal. You get 1 round to react before it triggers. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Profiler:</strong> When you observe someone for 1 minute, you learn their general stat spread (highest and lowest stat) and emotional state."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Omniscient:</strong> Advantage on ALL Awareness checks. In combat, you can spend 1 AP to analyze: learn all stats, augments, mutations, and weapons of one enemy. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Preternatural Instinct:</strong> Your initiative counts as Reflex +4 for determining who goes first. Once per combat, you can interrupt an enemy action to act instead (you go, then they go). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Chrome (or Reflex for acrobatics) <strong>Scope:</strong> Climbing, swimming, jumping, running, lifting, breaking, feats of physical endurance, acrobatics."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Your body does what bodies do. Yours just does it while carrying 40kg of chrome and a chip on its shoulder.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt Athletics checks. Climb, swim, jump, lift, and endure beyond average contractor capacity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Iron Grip:</strong> Advantage on climbing and grappling checks. Can’t be disarmed. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sprinter:</strong> Once per combat, move double distance on your Move."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Heavy Lifter:</strong> Can carry/wear heavy equipment with no penalties. Can wield Heavy weapons in one hand (no accuracy benefit, just frees the other hand for a shield or item)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Acrobatic Dodge:</strong> Once per combat, when hit by an attack, make an Athletics check (DC = damage dealt). On success, take half damage. <strong>OR</strong> <strong>Wrecking Ball:</strong> Advantage on checks to break objects, doors, walls, and barriers. On full success, breach takes no time (instant). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Endurance Runner:</strong> Advantage on all Grit checks for sustained physical activity. You can march, fight, or labor twice as long as normal before exhaustion."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Unstoppable:</strong> Advantage on ALL Athletics checks. Your Move cannot be reduced or prevented by terrain, effects, or enemy abilities. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Peak Physical Specimen:</strong> +1 to Chrome OR Reflex bonus permanently (choose on unlock). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface <strong>Scope:</strong> Dimensional knowledge, rift navigation, creature identification, magical theory, anomaly prediction."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Gated: The rift doesn’t care about your opinions. Without training, you’re just food that asks questions.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can identify common rift creatures, recognize anomaly types, and navigate stable rifts without getting lost. +0 to rift-related checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Creature Analyst:</strong> When you encounter a rift creature, you can ask the GM for its highest stat, primary attack type, and one vulnerability. <strong>OR</strong> <strong>Anomaly Reader:</strong> Advantage on checks to detect, avoid, or navigate rift anomalies and environmental hazards inside rifts. <strong>OR</strong> <strong>Salvage Specialist:</strong> You know what’s valuable in a rift. Advantage on checks to identify and extract valuable rift materials. Rift salvage sells for 25% more."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Rift Navigator:</strong> You can find shortcuts through rifts. Travel time in rifts reduced by half. Once per mission, find an alternate route that avoids one major hazard."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Banishment Theory:</strong> Once per combat, for 1 AP: force a rift creature to make a Grit check (DC = your Interface). On fail, the creature is stunned for 1 round (dimensional rejection). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Expert:</strong> You can predict toxicity spikes. Advantage on all toxicity-related Grit checks. Once per mission, reduce toxicity gained from one source by half."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Rift Sage:</strong> Advantage on ALL Rift Lore checks. Once per mission, ask the GM any one question about the current rift — its origin, what’s deep inside, what the anomalies mean, who was here before. GM answers truthfully."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Dimensional Anchor:</strong> Your knowledge stabilizes reality around you. Allies within short range gain +2 to resist rift-based effects (teleportation, dimensional displacement, reality distortion). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Reflex (or Edge for reading when to move) <strong>Scope:</strong> Sneaking, hiding, disguise, tailing, pickpocketing, silent movement, ambush setup."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You’re good at not being where people are looking. A useful skill when everything is looking for you.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt stealth beyond basic “hide behind a thing.“ Move silently, tail targets, conceal small objects."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Silent Takedown:</strong> If you attack an unaware target and hit, deal +1d6 bonus damage. Target doesn’t alert others on a full success."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Disguise Artist:</strong> Create convincing visual disguises. Advantage on checks to impersonate specific people or blend into groups. <strong>OR</strong> <strong>Lockpick/Bypass:</strong> Can open physical locks and simple security without hacking. Advantage on these checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Ambush Coordinator:</strong> Before combat, if your side has surprise: all allies get +2 accuracy on their first attack. <strong>OR</strong> <strong>Shadow Movement:</strong> Once per combat, reposition anywhere within medium range without being noticed. You are treated as hidden for your next attack. <strong>OR</strong> <strong>Plant Evidence:</strong> Once per mission, plant convincing false evidence at a location. On full success, it holds up to expert investigation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Ghost:</strong> Advantage on ALL Stealth checks. Once per mission, you can retroactively declare you were never at a location — alibis, camera erasure, witness memory fog. You were never here. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Assassin’s Eye:</strong> When attacking from stealth, your crit threshold is reduced by 2 (max-2 counts as crit). Stacks with Precision Mastery if you have it. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Edge <strong>Scope:</strong> Urban survival, criminal contacts, black market access, gang politics, finding people/things in the city, knowing when to run."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You know the city like it knows you — badly, but in ways that matter.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can navigate the city’s underground. Find black market vendors, read gang territory markers, locate safe houses, avoid corp patrols."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Connected:</strong> You have a network of low-level contacts. Once per mission, call in a favor: information, a safe place, or a small job done. Cost varies (GM determines). <strong>OR</strong> <strong>Street Sense:</strong> Advantage on checks to spot tails, detect ambushes in urban environments, and read criminal intent. <strong>OR</strong> <strong>Black Market Access:</strong> Can buy restricted/illegal items at normal price. Without this, restricted items cost double (if available at all)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Fixer:</strong> You can find anything for sale, given time. Rare weapons, illegal augments, creature parts, corporate secrets. Advantage on all procurement checks. Items found this way cost 15% less. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Safe House Network:</strong> You maintain 1-3 safe houses in the city. Each is stocked with basic supplies and provides a secure resting location. Cannot be traced back to you without a dedicated investigation. <strong>OR</strong> <strong>Underworld Reputation:</strong> Your name means something on the street. Advantage on social checks with criminals, gang members, and black market operators. Minor criminal NPCs won’t attack you without good reason."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Kingpin:</strong> Advantage on ALL Streetwise checks. Once per mission, mobilize street-level assets for one significant action: a distraction, a robbery, information gathering on a target, or smuggling something into/out of a secured location. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Untraceable:</strong> You cannot be found by conventional investigation. Corp databases list you as deceased, relocated, or never existed. Finding you requires magical tracking or a dedicated hunter. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Grit <strong>Scope:</strong> Resisting pain, fear, toxins, environmental hazards, intimidation, mental fortitude, pushing through exhaustion."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Not a learned skill — more like how hard your body and mind refuse to quit. But it can be trained.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt contested endurance checks. Resist toxins, endure harsh environments, power through pain and exhaustion beyond normal limits."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Iron Will:</strong> Advantage on checks to resist fear, intimidation, and mental manipulation. <strong>OR</strong> <strong>Toxin Resistance:</strong> Advantage on checks to resist poisons, drugs, and toxicity effects. Poison stacks deal 1 less damage per turn (minimum 0). <strong>OR</strong> <strong>Die Hard:</strong> When you stabilize from a Scar, heal to 60% HP instead of 50%."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Unbreakable Focus:</strong> Advantage on all Grit checks during combat. Cannot be distracted or forced to drop concentration. <strong>OR</strong> <strong>Push Through:</strong> Once per mission, ignore all Scar debuffs for one entire combat encounter. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Metabolic Control:</strong> You can survive on half rations, resist extreme temperatures, and hold your breath for 10 minutes. Advantage on all environmental survival checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Force of Will:</strong> Advantage on ALL Grit checks. Once per mission, when you fail a death save by 3 or less, turn it into a success through sheer willpower. <strong>OR</strong> <strong>Legendary Endurance:</strong> +2 max HP permanently. Your toxicity threshold increases by 3. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface (biology/materials knowledge) or Grit (physical extraction) <strong>Scope:</strong> Field extraction of rift materials, creature skinning/butchering, mineral harvesting, anomaly sampling, genetic specimen collection."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You see a dead rift creature and think “that’s worth money.“ Everyone else thinks “please stop touching it.“</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Full details in HARVESTING-CRAFTING.md. Summary:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Harvest T1 materials reliably. Identify material quality and creature value before extraction."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Efficient Extraction:</strong> Harvest T1-T2 reliably, +1 unit yield."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Creature Analyst:</strong> Identify all usable materials, +2 Rift Lore for creature ID. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Skin:</strong> Harvesting during missions costs no extra time."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Toxicity Nose:</strong> Detect contaminated materials. Harvested materials have 50% less residual toxicity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Deep Extraction:</strong> Harvest T1-T3, extract from anomalies/environment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Specimen Preservation:</strong> Preserve genetic samples 7 days (normally 24 hours). Viable for Wild Splicing. <strong>OR</strong> <strong>Dangerous Harvest:</strong> Harvest from live creatures (one tier higher quality). <strong>OR</strong> <strong>Material Appraisal:</strong> Know exact values, harvested materials sell 25% more."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Apex Harvester:</strong> Harvest T1-T4. Extract from bosses/rift hearts. Once per mission: harvest creature “essence“ (3x value, viable for extreme Wild Splice). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Harvest:</strong> Extract without killing the creature (Interface DC 12). Living samples have unique crafting applications. ----------------------------------- -----------------------------------"
+    }
+  ]
+}

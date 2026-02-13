@@ -1,0 +1,351 @@
+{
+  "id": "equipment-weapons",
+  "title": "Weapons",
+  "subtitle": "Melee, ranged, and tech armaments",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"All equipment listed herein is available through licensed distributors, approved secondhand vendors, and whichever back-alley contact you trust most. Quality and legality may vary.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Melee Weapons (Chrome)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Melee weapons use <strong>Chrome</strong> for accuracy. They're cheap to maintain, never need recharging, and most contractors carry at least a knife as backup."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Weapon",
+        "Accuracy",
+        "Damage",
+        "AP",
+        "Weight",
+        "Cost",
+        "Tags",
+        "Conditionals"
+      ],
+      "rows": [
+        [
+          "Combat Knife",
+          "d12",
+          "1d6",
+          "1",
+          "1",
+          "50 cr",
+          "Light",
+          "—"
+        ],
+        [
+          "Gauntlets",
+          "d12",
+          "1d4",
+          "1",
+          "1",
+          "100 cr",
+          "Light, Unarmed",
+          "—"
+        ],
+        [
+          "Precision Blade",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "200 cr",
+          "Light",
+          "—"
+        ],
+        [
+          "Longsword",
+          "d8",
+          "2d8",
+          "3",
+          "2",
+          "300 cr",
+          "Medium",
+          "—"
+        ],
+        [
+          "Chain Flail",
+          "d8",
+          "1d10",
+          "3",
+          "2",
+          "275 cr",
+          "Medium",
+          "Penetration 1"
+        ],
+        [
+          "Rift Blade",
+          "d8",
+          "2d8",
+          "3",
+          "2",
+          "600 cr",
+          "Medium, Magic",
+          "Pen 2. +1 Toxicity/encounter"
+        ],
+        [
+          "Heavy Axe",
+          "d6",
+          "3d10",
+          "4",
+          "3",
+          "350 cr",
+          "Heavy",
+          "+2 acc if moved toward target"
+        ],
+        [
+          "War Hammer",
+          "d6",
+          "2d12",
+          "4",
+          "3",
+          "350 cr",
+          "Heavy",
+          "+2 dmg/die vs Armor 3+"
+        ],
+        [
+          "Great Maul",
+          "d4",
+          "4d12",
+          "5",
+          "4",
+          "500 cr",
+          "Heavy",
+          "Stuns on crit (-2 AP next turn)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ranged Weapons (Reflex)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ranged weapons use <strong>Reflex</strong> for accuracy. They require <strong>Charges</strong> — an ongoing cost that makes ammo management part of the economic game."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Weapon",
+        "Accuracy",
+        "Damage",
+        "AP",
+        "Weight",
+        "Cost",
+        "Charge",
+        "Tags",
+        "Conditionals"
+      ],
+      "rows": [
+        [
+          "Hand Crossbow",
+          "d12",
+          "1d8",
+          "1",
+          "1",
+          "150 cr",
+          "2 cr",
+          "Light, Ammo",
+          "—"
+        ],
+        [
+          "Burst Pistol",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "400 cr",
+          "8 cr",
+          "Light, Ammo",
+          "—"
+        ],
+        [
+          "Throwing Axes ×3",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "75 cr",
+          "—",
+          "Light, Thrown",
+          "Must retrieve after combat"
+        ],
+        [
+          "Composite Bow",
+          "d8",
+          "1d10",
+          "2",
+          "2",
+          "200 cr",
+          "2 cr",
+          "Medium, Ammo",
+          "No range penalties"
+        ],
+        [
+          "Scatter Gun",
+          "d12",
+          "2d8",
+          "3",
+          "3",
+          "500 cr",
+          "10 cr",
+          "Heavy, Ammo",
+          "+2 acc Adjacent/Close. -2 Medium+"
+        ],
+        [
+          "Corp Rifle",
+          "d8",
+          "2d8",
+          "3",
+          "3",
+          "700 cr",
+          "12 cr",
+          "Medium, Ammo",
+          "+2 acc Medium+. -2 Adjacent"
+        ],
+        [
+          "Crossbow",
+          "d8",
+          "2d8",
+          "3",
+          "2",
+          "250 cr",
+          "3 cr",
+          "Medium, Ammo",
+          "+2 acc Medium+ range"
+        ],
+        [
+          "Heavy Crossbow",
+          "d6",
+          "3d10",
+          "4",
+          "3",
+          "400 cr",
+          "5 cr",
+          "Heavy, Ammo",
+          "+2 acc if didn't move"
+        ],
+        [
+          "Shotgun",
+          "d8",
+          "2d10",
+          "3",
+          "3",
+          "500 cr",
+          "10 cr",
+          "Heavy, Ammo",
+          "+2 acc Adjacent. -2 Medium+"
+        ],
+        [
+          "Sniper Rifle",
+          "d6",
+          "3d10",
+          "5",
+          "4",
+          "1,200 cr",
+          "25 cr",
+          "Heavy, Ammo",
+          "+2 if stationary. +2 if target stationary."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Magic / Tech Weapons (Interface)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift patterns and tech weapons use <strong>Interface</strong> for accuracy. Rift weapons have <strong>Penetration 1</strong> baseline and enhanced damage dice to compensate for their toxicity cost."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Weapon",
+        "Accuracy",
+        "Damage",
+        "AP",
+        "Weight",
+        "Cost",
+        "Tags",
+        "Conditionals"
+      ],
+      "rows": [
+        [
+          "Toxic Needle",
+          "d12",
+          "1d2",
+          "1",
+          "0",
+          "150 cr",
+          "Light, Effect",
+          "Applies Poison stack on hit"
+        ],
+        [
+          "Neural Probe",
+          "d10",
+          "1d4",
+          "1",
+          "1",
+          "300 cr",
+          "Light, Tech",
+          "Applies Glitch stack on hit"
+        ],
+        [
+          "Siphon Rod",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "450 cr",
+          "Light, Magic",
+          "Heals 50% of damage dealt. +2 Tox/enc. Pen 1"
+        ],
+        [
+          "Hex Totem",
+          "d10",
+          "1d6",
+          "2",
+          "1",
+          "350 cr",
+          "Light, Magic",
+          "Applies Hex stack. +1 Tox/enc"
+        ],
+        [
+          "Arc Caster",
+          "d10",
+          "1d8",
+          "2",
+          "2",
+          "500 cr",
+          "Medium, Tech",
+          "Chains to 1 adjacent (half dmg, no acc roll)"
+        ],
+        [
+          "Pulse Gauntlet",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "400 cr",
+          "Light, Tech",
+          "Melee. Push 1 range band on crit"
+        ],
+        [
+          "Rift Staff",
+          "d8",
+          "2d10",
+          "3",
+          "2",
+          "400 cr",
+          "Medium, Magic",
+          "Channel Rift Patterns (+1 check). +1 Tox/enc. Pen 1"
+        ]
+      ]
+    }
+  ]
+}

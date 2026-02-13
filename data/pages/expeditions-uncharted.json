@@ -1,0 +1,2239 @@
+{
+  "id": "expeditions-uncharted",
+  "title": "Uncharted Dimensions",
+  "subtitle": "Procedural rift generation",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Wild rifts lead elsewhere. When a wild rift opens and the crew steps through, the GM builds whatever they want. The cataloged dimensions are templates."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Guidelines for creating dimensions:</em>  <strong>1. One dominant feature.</strong> Describable in one sentence. “The volcanic one.“ “The wrong one.“  <strong>2. One unique hazard.</strong> Heat, gravity, time, atmosphere, psychology — pick one.  <strong>3. Resources that match a corp.</strong> At least one corp should want what’s inside.  <strong>4. Three tiers of fauna.</strong> One T1, one T2, one T3+. Use the Enemy Creation framework.  <strong>5. A mystery.</strong> Something unexplained. A structure, a species, a resource that does something unexpected. The subplot seed.  <em>“Dimensional exploration is not recreation. It is resource acquisition in a non-standard operating environment. If you find the experience ’awe-inspiring’ or ’existentially overwhelming,’ please report these responses to your post-mission psychological screening. They are normal. They are also billable.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Extended deployment authorization granted. Supply requisition Form 19-C must be filed 48 hours prior to gate entry. Intercompany Logistics assumes no liability for supply shortfalls, dimensional contamination, or crew losses exceeding 40% of deployed personnel.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Expedition Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every rift job is a quick smash-and-grab. Some contracts require days inside a dimension — deep extraction runs, survey missions, artifact recovery from hostile territory. These expeditions test more than combat skill. They test preparation, resource management, and the crew’s ability to know when to push forward and when to pull out."
+    },
+    {
+      "type": "paragraph",
+      "text": "The rift is not a dungeon. It’s a hostile environment that is actively poisoning you. Every hour you spend inside increases the contamination seeping into your body. Every night you sleep there, the dimension gets a little more familiar with you — and you get a little less human. The longer you stay, the more the rift pushes back."
+    },
+    {
+      "type": "heading",
+      "text": "The Expedition Day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each day in a rift follows a structured cycle:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dawn Phase</strong> — Wake, break camp, consume rations, plan the day’s route. <strong>Travel Phase</strong> — Move through the rift toward your objective. Encounter checks happen here. <strong>Activity Phase</strong> — Explore, fight, loot, complete objectives. The bulk of play. <strong>Camp Phase</strong> — Find shelter, set up equipment, post watch, rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "A crew can choose to skip the Camp Phase and push through the night, but fatigue penalties accumulate fast."
+    },
+    {
+      "type": "heading",
+      "text": "Supplies & Resources"
+    },
+    {
+      "type": "heading",
+      "text": "Rations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every contractor consumes <strong>1 Ration per day.</strong> A Ration represents food and water combined — compressed nutri-packs, purified water tabs, and calorie bars. Standard contractor fare."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>          <strong>Weight</strong>        <strong>Cost</strong>          <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ration (1 day)    0.5               5 cr              1 per person per day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ration Pack (5    2                 20 cr             Bulk discount days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expedition Crate  6                 70 cr             Requires vehicle (20 days)                                             or pack animal to haul ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Missing a Ration:</strong> A contractor who goes without food/water for a day takes <strong>-1 to all checks</strong> the following day. Two consecutive days without: <strong>-2 to all checks and lose 1 HP per hour of travel.</strong> Three days: <strong>Exhaustion</strong> (see Conditions)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Foraging:</strong> A contractor can attempt to find food/water in-rift with a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resilience check (DC varies by dimension).</strong> On a full success, find 1d4 Rations worth of edible material. On partial, find 1 Ration but gain +1 Toxicity (the food is… not quite right). On failure, nothing — and you wasted the time."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimension</strong>           <strong>Foraging DC</strong>         <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Bloom               6                       Abundant but toxic. Partial success always adds +2 Toxicity instead of +1."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Brine               8                       Aquatic life. Edible if you know what to avoid."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Char                10                      Almost nothing grows. What does is usually hostile."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Grave               12                      Nothing edible. What looks like food isn’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Static              14                      Foraging is nearly impossible. Reality doesn’t support biology well here."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Mirror              10                      Food exists but may have… side effects. GM discretion. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Water Purification"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift water is contaminated by default. Drinking unpurified rift water grants <strong>+1d4 Toxicity per serving.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- ------------ ----------- ------------- ------------ --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>       <strong>Weight</strong>   <strong>Cost</strong>    <strong>Charges</strong>   <strong>Per        </strong>Notes<strong> Person/Day Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Purification   0            15 cr       10            1.5 cr       1 tab per Tabs (10)                                                          person per day. Cheap but heavy in bulk — a 4-person, 5-day trip needs 20 tabs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Portable       1            200 cr      30            0.4 cr       1 charge Purifier                                              (after       purifies water buy-in)      for up to 4 people for 1 day. A 5-day trip for 4 people = 5 charges. Refill cartridges: 40 cr / 30 charges. Pays for itself after \\~4 expeditions. -------------- ------------ ----------- ------------- ------------ --------------"
+    },
+    {
+      "type": "heading",
+      "text": "Ammunition"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ranged weapons with the Ammo tag consume Charges. Track these carefully on expeditions — running dry mid-rift with no resupply is a crew-ending scenario."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Charge recovery in-rift:</strong> Not possible without a <strong>Field Workshop</strong> (see Expedition Equipment). Carry what you need or switch to melee."
+    },
+    {
+      "type": "heading",
+      "text": "Healing Resources"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>       <strong>Weight</strong>     <strong>Cost</strong>       <strong>Effect</strong>     <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Healing Stim   0              50 cr          Heal 2d4 HP. 1 Standard field AP to use.     healing. Carry several."
+    },
+    {
+      "type": "paragraph",
+      "text": "Trauma Kit     1              150 cr         3 charges.     Requires Each charge    Medicine T1 to heals 3d6 HP.  use Takes 10       effectively. minutes to     Without apply (out of  training, combat only).  heals 2d6 instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "Field Hospital 4              500 cr         10 charges.    Requires Each charge    Medicine T2. heals 4d6 HP.  Can treat Takes 30       Scars in the minutes to set field (DC 12 up, 15 minutes Medicine per treatment. check, consumes 3 charges). On failure, charges still spent. -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity Management"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>       <strong>Weight</strong>     <strong>Cost</strong>       <strong>Effect</strong>     <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity       0              75 cr          Remove 1d4     One-time use. Scrubber                                     Toxicity. 1 AP The cheap (single)                                     to use in      option. combat, 1 minute out of combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "Scrubber Kit   2              300 cr         5 charges.     Requires Each charge    Medicine T1. removes 2d4    Without Toxicity.      training, Takes 10       removes 1d4 minutes per    instead. treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "Portable Scrub 5              800 cr         15 charges.    Requires Station                                      Each charge    Medicine T2. removes 3d4    The expedition Toxicity.      caster’s Takes 20       lifeline. Can minutes to set treat 1 person up, 10 minutes per charge. per treatment. -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "heading",
+      "text": "Environmental Exposure"
+    },
+    {
+      "type": "heading",
+      "text": "Passive Toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Simply being inside a rift dimension contaminates you. Every day spent in-rift, each contractor gains <strong>passive Toxicity</strong> based on the dimension’s hostility level."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimension Rating</strong>    <strong>Passive Tox/Day</strong>     <strong>Examples</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mild</strong>                +1                      The Bloom (outer regions), stable gates"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Moderate</strong>            +2                      The Brine, The Bloom (deep), The Mirror"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Harsh</strong>               +3                      The Char, The Grave"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extreme</strong>             +5                      The Static, unstable rifts, uncharted dimensions"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Terminal</strong>            +8                      Deep Static, rift storms, collapsing dimensions ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Passive Toxicity is applied during the <strong>Dawn Phase</strong> each day. It cannot be avoided by staying still — the dimension itself is toxic."
+    },
+    {
+      "type": "heading",
+      "text": "Environmental Hazards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond passive Toxicity, each dimension has environmental effects that worsen over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Bloom:</strong> Spore saturation. After Day 3, Resilience check (DC 8) each morning or gain a random minor mutation (temporary, fades 1d4 days after extraction). After Day 5, the DC increases to 10 and mutations may become permanent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Char:</strong> Heat and ash. -1 to all physical checks after Day 2 from dehydration and heat exhaustion. Water consumption doubles (2 Rations/day or 1 Ration + extra water). After Day 4, unprotected equipment degrades — weapons lose 1 damage die until repaired."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Brine:</strong> Corrosion. Armor degrades by 1 point per 3 days unless treated with anti-corrosive (30 cr per application, 1 per 3 days). After Day 5, metal weapons are affected too."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Grave:</strong> Psychic pressure. Edge checks (DC 7) each night or suffer nightmares — no HP recovery from rest. After Day 3, failed checks also cause -1 to Edge until extraction."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The Static:∗∗ Reality erosion. The most dangerous rift to camp in. Sleeping in the Static requires an Interface check (DC 8) or your equipment malfunctions — one random item stops working until a Tech check (DC 8) is passed. After Day 2, the DC increases to 10. After Day 4: DC 12, and failed checks cause 1d4 damage as reality stutters around you. ∗∗The Static is designed to be a sprint, not a camping trip.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Mirror:</strong> Identity drift. After Day 2, Grit check (DC 7) each morning. Failure means you see/hear things that aren’t there — -2 to Awareness checks until you pass a rest check. After Day 5, failed checks cause temporary personality shifts (GM discretion — play these for dark comedy)."
+    },
+    {
+      "type": "heading",
+      "text": "Environmental Protection"
+    },
+    {
+      "type": "paragraph",
+      "text": "------------- ------------ ----------- --------------- -------------- ------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>      <strong>Weight</strong>   <strong>Cost</strong>    <strong>Effect</strong>      <strong>Duration</strong>   <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Enviro      0            40 cr       Reduces passive 3 days         Single-use. Seal</strong>                                 Toxicity by                    Replace after 3 1/day. Worn as                 days of exposure. a face mask/filter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazard      2            250 cr      Reduces passive 5 days         Reusable but Suit</strong>                                 Toxicity by                    degrades. 50 cr to 2/day. Full                    refurbish after body coverage.                 each expedition. Evasion -1 while worn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tox Shield  6            1,200 cr    Creates a 10m   Ongoing        Camp equipment. Generator</strong>                            radius bubble                  Takes 30 minutes that reduces                   to deploy. Cannot passive                        be moved while Toxicity by                    active. The 3/day for                      expedition-grade everyone                       solution. inside. Requires 1 Fuel Cell per day."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fuel Cell</strong> 1            80 cr       Powers the Tox  1 day          Consumable. Heavy (for Tox                               Shield                         in bulk — a Shield)                                Generator for 1                5-day mission day.                           needs 5 cells (5 weight)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimension   3            600 cr      Stabilizes      Ongoing        Pairs with Tox Anchor</strong>                               local reality.                 Shield. Same setup Reduces all                    time. Essential environmental                  for Static hazard DCs by 2                expeditions. within 10m radius. Requires 1 Fuel Cell per day. ------------- ------------ ----------- --------------- -------------- ------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Rest & Recovery"
+    },
+    {
+      "type": "heading",
+      "text": "Short Rest (1 hour)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A quick breather between encounters. No camp required."
+    },
+    {
+      "type": "blockquote",
+      "text": "• Recover <strong>25% of max HP</strong> (round up)  • No Toxicity recovery  • Can use Healing Stims, Scrubbers, etc.  • <strong>Costs 1 hour of travel time</strong> — the crew stops moving  • Cannot Short Rest more than twice per day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Short Rests are a trade-off between healing and progress. An hour spent resting is an hour not spent covering ground — and on a timed expedition, that gap adds up. A crew on foot loses a significant chunk of their daily travel to a single rest stop. A crew in a fast vehicle can absorb the time more easily, which is one of the key advantages of vehicular transport."
+    },
+    {
+      "type": "heading",
+      "text": "Long Rest (8 hours — 6 sleep + 2 watch)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Setting up camp and sleeping. Requires a reasonably safe location."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Base Recovery:</em>  • Recover <strong>50% of max HP</strong> (round up)  • No Toxicity recovery (without augments or equipment)  • Consume 1 Ration"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Watch Rotation:</strong> A crew of 4 should post 2-hour watches. Each contractor takes one watch shift and sleeps 6 hours. A contractor on watch does not recover HP during their shift — they recover during sleep only. A crew that doesn’t post watch risks ambush (see Encounter Escalation)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Interrupted Rest:</strong> If combat occurs during a Long Rest, the rest is ruined for anyone who participated in the fight. They recover only 25% HP (as Short Rest) and still consume the Ration."
+    },
+    {
+      "type": "heading",
+      "text": "Rest Degradation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The longer you stay in a rift, the worse rest becomes. The dimension seeps into your sleep."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Days In-Rift</strong>        <strong>HP Recovery (Long     </strong>Additional Effects<strong> Rest)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 1-2                 50% max HP              Normal rest"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 3-4                 40% max HP              Fitful sleep. -1 to first check of the day."
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 5-6                 30% max HP              Nightmares. Grit check DC 6 or gain +1 Toxicity overnight."
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 7-9                 25% max HP              Rift dreams. Grit check DC 8 or gain +2 Toxicity overnight. -1 to all checks until noon."
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 10+                 15% max HP              The rift knows you. Grit check DC 10 or gain +3 Toxicity overnight. Permanent -1 to Edge until extraction. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Meditation (Channeler T2 Augment):</strong> During Long Rest, purge Toxicity equal to your Interface bonus. Only works below 75% Toxicity. Once per rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pressure Vent (Leech T2 Augment):</strong> During Long Rest, purge Toxicity equal to your Grit bonus. Take 1d4 damage (unpreventable). Works at any Toxicity level. Once per rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scrub Station Treatment:</strong> Can be used during Long Rest without reducing rest quality. The medic applies treatment while others sleep."
+    },
+    {
+      "type": "heading",
+      "text": "Travel"
+    },
+    {
+      "type": "heading",
+      "text": "Travel Speed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Movement through rift dimensions is measured in <strong>zones per hour.</strong> A “zone“ is an abstract unit — a distinct area with its own features, hazards, and potential encounters. GMs define the zone layout for each expedition."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Base Travel Speeds:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mode</strong>          <strong>Zones/Hour</strong>    <strong>Daily Max (10hr </strong>Notes<strong> travel day)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>On Foot</strong>       0.5               5 zones           Standard walking pace. Exhausting over distance."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pack Animal</strong>   0.5               5 zones           Same speed as walking, but carries 20 extra weight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crawler (Light  1                 10 zones          Basic rift Vehicle)</strong>                                            transport. Fits 4 + cargo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hauler (Heavy   0.75              7 zones           Slower but Vehicle)</strong>                                            massive cargo capacity (50+). Carries expedition equipment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Runner (Fast    1.5               15 zones          Speed-built. Fits Vehicle)</strong>                                            2-3 + light cargo. Reaches objectives fast."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>APC (Armored    1                 10 zones          Crawler speed + Vehicle)</strong>                                            armor. Crew can Short Rest inside while moving (driver excluded). ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why speed matters:</strong> A 10-zone expedition on foot takes 2 full travel days. In a Runner, it takes 7 hours — less than a single day. That’s one fewer night of rest degradation, one fewer day of passive Toxicity, one fewer day of encounter escalation. Speed doesn’t just save time — it saves resources, health, and lives."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Short Rests and travel:</strong> A Short Rest takes 1 hour. On foot, that’s"
+    },
+    {
+      "type": "paragraph",
+      "text": "0.5 zones of lost progress. In a Runner, that’s 1.5 zones lost. The faster you travel, the more ground a rest stop costs — but you have more margin to absorb it. An APC is the exception: non-driver crew members can rest inside a moving APC without stopping."
+    },
+    {
+      "type": "heading",
+      "text": "Terrain Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Terrain reduces travel speed. Apply the modifier to base speed (minimum"
+    },
+    {
+      "type": "paragraph",
+      "text": "0.25 zones/hour)."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Terrain Type</strong>        <strong>Speed Modifier</strong>      <strong>Examples</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Open</strong>                ×1 (full speed)         Bloom plains, Brine shallows, Mirror flatlands"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rough</strong>               ×0.5                    Char wastelands, Bloom jungle, Grave ruins"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Difficult</strong>           ×0.25                   Static fractured terrain, deep Grave catacombs, Brine trenches"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Impassable</strong>          ×0 (must find alternate Collapsed passages, route)                  reality tears, dimensional walls"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle-Hostile</strong>     Vehicles cannot enter.  Narrow passages, On foot only at ×0.5.   vertical climbs, unstable floors ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> A crew in a Crawler (1 zone/hr) enters Rough terrain. Speed drops to 0.5 zones/hr. In 10 hours of travel, they cover 5 zones — same as on foot in Open terrain. The Crawler’s advantage disappears in bad terrain, but it still carries the crew’s supplies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> A Runner (1.5 zones/hr) on Open terrain covers 15 zones in a day. The same Runner in Rough terrain covers 7.5. Still faster than walking, but the advantage narrows."
+    },
+    {
+      "type": "heading",
+      "text": "Forced March"
+    },
+    {
+      "type": "paragraph",
+      "text": "A crew can push beyond normal travel distance by skipping the Camp Phase."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Forced March:</strong> Travel 1 additional zone. Each contractor makes a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grit check (DC 7).</strong> On failure: Exhaustion. On partial: -1 to all checks the next day. Cannot Force March two days in a row."
+    },
+    {
+      "type": "heading",
+      "text": "Navigation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Getting lost in a rift wastes time and supplies. The crew’s navigator makes an <strong>Awareness check</strong> at the start of each Travel Phase."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>10+</strong>                             On course. Arrive at intended destination. May spot shortcuts or avoid hazards."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>7-9</strong>                             Arrive but with complications. Minor detour (half a zone wasted), unexpected encounter, or arrive at the wrong entrance to the target area."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>6-</strong>                              Lost. Waste a full zone of travel. Additional encounter check. Supplies consumed for the wasted time. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Lore T2+ grants advantage on navigation checks.</strong> A crew without a trained navigator is playing with fire on long expeditions."
+    },
+    {
+      "type": "heading",
+      "text": "Encounter Escalation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rift pushes back harder the longer you stay. This is represented by the <strong>Intensity Track</strong> — a rising threat level that determines encounter frequency and difficulty."
+    },
+    {
+      "type": "heading",
+      "text": "Intensity Track"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Days In-Rift</strong>  <strong>Intensity</strong>     <strong>Encounter       </strong>Enemy Chance/Zone<strong>     Adjustment</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 1             <strong>Low</strong>           20% per zone      Standard enemies traveled"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 2             <strong>Low</strong>           25% per zone      Standard enemies traveled"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 3             <strong>Rising</strong>        35% per zone      +1 enemy per traveled          encounter"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 4             <strong>Rising</strong>        40% per zone      +1 enemy, Elites traveled          appear"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 5             <strong>High</strong>          50% per zone      +2 enemies, traveled          Elites common"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 6             <strong>High</strong>          55% per zone      +2 enemies, traveled          Boss-tier possible"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day 7+            <strong>Critical</strong>      65% per zone      +3 enemies, traveled          Boss-tier common, Hordes double size ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Encounter checks:</strong> Roll d100 at the start of each zone of travel. If the roll is at or below the encounter chance, a combat encounter occurs. The GM determines the specific enemies based on the dimension and Intensity level."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Night encounters:</strong> If the crew is camping, roll one encounter check per night at <strong>half the normal encounter chance.</strong> Posting watch means the crew isn’t surprised. No watch = surprise round for enemies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stealth modifier:</strong> If the crew is actively moving stealthily (half travel speed), reduce encounter chance by 10%. A Stealth-focused crew trades time for safety."
+    },
+    {
+      "type": "heading",
+      "text": "Intensity Spikes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain actions increase Intensity faster:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Action</strong>                          <strong>Intensity Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Loud combat (explosions, Rift       +5% encounter chance for next 2 Storm, etc.)                        zones"
+    },
+    {
+      "type": "paragraph",
+      "text": "Killing a Boss-tier creature        -10% encounter chance for next day (the ecosystem is disrupted)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Harvesting rift materials           +10% encounter chance for current zone (the rift notices)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Using a Tox Shield Generator        +5% encounter chance (the bubble is detectable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Camping in an unsecured location    Double night encounter chance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Finding a defensible position       Halve night encounter chance ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Expedition Equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Specialized gear for extended rift operations. This is the expensive stuff — the investment that separates a prepared crew from a dead one."
+    },
+    {
+      "type": "heading",
+      "text": "Camp Equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- ----------------------- ----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>       <strong>Weight</strong>     <strong>Cost</strong>       <strong>Effect</strong>              <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shelter      3              80 cr          Basic camp for 4.       Reusable. 15 Kit</strong>                                        Provides cover from     minutes to set weather/environmental   up. exposure. Required for Long Rest in hostile environments."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortified    6              300 cr         Hardened camp for 4. +2 Reusable. 30 Shelter</strong>                                    Evasion to everyone     minutes to set inside during night     up. encounters. Halves night encounter chance (stackable with defensible position)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tox Shield   6              1,200 cr       Reduces passive         See Generator</strong>                                  Toxicity by 3/day in    Environmental 10m radius.             Protection."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimension    3              600 cr         Reduces environmental   Essential for Anchor</strong>                                     hazard DCs by 2 in 10m  Static/extreme radius.                 dimensions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fuel Cells</strong> 1              80 cr          Powers Tox Shield or    Consumable. Plan (each)                                       Dimension Anchor for 1  your supply day.                    carefully. -------------- -------------- -------------- ----------------------- ----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Field Stations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deployable workstations that provide ongoing services during an expedition. Each requires 30 minutes to set up and cannot be moved while active."
+    },
+    {
+      "type": "paragraph",
+      "text": "------------- ------------ ----------- ------------- --------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Station</strong>   <strong>Weight</strong>   <strong>Cost</strong>    <strong>Charges</strong>   <strong>Effect</strong>      <strong>Requires</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Field       4            500 cr      10            Heal 4d6 HP per Medicine T2 Hospital</strong>                                           charge. Can attempt field Scar treatment (DC 12, 3 charges)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Portable    5            800 cr      15            Remove 3d4      Medicine T2 Scrub                                                Toxicity per Station</strong>                                            charge."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Field       4            600 cr      8             Repair degraded Tech T2 Workshop</strong>                                           equipment (1 charge per item). Reload 10 Ammo charges from raw materials (1 charge + 50 cr materials)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Signal      2            400 cr      10            Extends         Tech T1 Booster</strong>                                            communication range to reach extraction point or gate. 1 charge per use. Without this, you’re out of contact past Zone 3."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift        2            350 cr      12            Scan one zone   Rift Lore T1 Scanner</strong>                                            ahead. Reveals encounter type, hazards, and points of interest. 1 charge per scan. ------------- ------------ ----------- ------------- --------------- --------------"
+    },
+    {
+      "type": "heading",
+      "text": "Refill Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expedition equipment with charges can be refilled between missions:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Station</strong>             <strong>Refill Cost</strong>         <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Field Hospital          200 cr / 10 charges     Medical supplies"
+    },
+    {
+      "type": "paragraph",
+      "text": "Portable Scrub Station  350 cr / 15 charges     Scrubber chemicals"
+    },
+    {
+      "type": "paragraph",
+      "text": "Field Workshop          250 cr / 8 charges      Tools and materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Signal Booster          150 cr / 10 charges     Power cells"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift Scanner            200 cr / 12 charges     Calibration crystals ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Expedition Planning"
+    },
+    {
+      "type": "heading",
+      "text": "Supply Calculation Worksheet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before entering a rift, the crew should calculate their supply needs:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Per Person Per Day:</em>  • 1 Ration (5 cr, 0.5 weight)  • 1 Purification Tab or Purifier charge (1.5 cr)  • 1 Enviro Seal every 3 days (13 cr/day average) OR Hazard Suit for 5 days (50 cr/day average)  <em>Per Person, Bring Along:</em>  • 2-4 Healing Stims (100-200 cr)  • 1-2 Toxicity Scrubbers (75-150 cr)  <em>Crew Shared (optional but recommended):</em>  • Trauma Kit (150 cr, 3 charges)  • Scrubber Kit (300 cr, 5 charges)  • Shelter Kit (80 cr)  • Fuel Cells for Tox Shield (80 cr each)"
+    },
+    {
+      "type": "heading",
+      "text": "Example: 5-Day Expedition, 4-Person Crew"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Minimum Supply Budget:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Supply</strong>        <strong>Quantity</strong>      <strong>Cost</strong>          <strong>Weight</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rations           20 (4 people × 5  100 cr            10 days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Purification Tabs 20                30 cr             0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enviro Seals      8 (4 people × 2   320 cr            0 sets of 3 days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Healing Stims     12                600 cr            0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity          4                 300 cr            0 Scrubbers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shelter Kit       1                 80 cr             3"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Minimum Total</strong>                   <strong>1,430 cr</strong>      <strong>13</strong> ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Recommended Supply Budget (adds field equipment):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Additional Supply</strong>   <strong>Cost</strong>                <strong>Weight</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trauma Kit              150 cr                  1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Scrubber Kit            300 cr                  2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tox Shield Generator    1,200 cr                6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fuel Cells (5 days)     400 cr                  5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fortified Shelter       300 cr                  6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Field Workshop          600 cr                  4"
+    },
+    {
+      "type": "paragraph",
+      "text": "Signal Booster          400 cr                  2"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recommended Total</strong>   <strong>4,780 cr</strong>            <strong>39</strong> ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference between minimum and recommended is the difference between surviving and operating comfortably. Most crews start at minimum and invest in expedition gear over time as contracts pay out. The Tox Shield alone costs more than a starting contractor’s entire loadout — but it’s what lets you stay in a rift for a week instead of three days."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This is where vehicles matter.</strong> A crew on foot carrying 39 weight of expedition supplies is barely functional. A crew with a Crawler (Cargo 50) hauls everything they need and more. Vehicles aren’t luxury — they’re expedition infrastructure."
+    },
+    {
+      "type": "heading",
+      "text": "Extraction"
+    },
+    {
+      "type": "heading",
+      "text": "Planned Extraction"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew’s contract specifies an extraction point and timeline. Reaching the extraction point triggers the end of the expedition. If the crew has a Signal Booster, they can call for early extraction — but the extraction team takes 1d4 hours to arrive. Hold your position."
+    },
+    {
+      "type": "heading",
+      "text": "Emergency Extraction"
+    },
+    {
+      "type": "paragraph",
+      "text": "When things go sideways, getting out means tearing a rift at your current location. You don’t teleport back to a gate — you punch through the dimensional membrane right where you’re standing and step into realspace at approximately the same geographic position. The problem is “approximately.“ Without a stabilized gate, the exit point is imprecise. You could emerge a few blocks from where you intended, or a few miles. In the wrong neighborhood, the wrong district, or the wrong side of a corporate border."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Gate Beacon (one-time use, 500 cr, Weight 1)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A portable device that forces a dimensional crossing at your location."
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Controlled Activation (3 turns):</strong> The beacon charges over 3 combat turns (or \\~30 seconds out of combat). It emits a visible/audible pulse each turn — enemies in the area will converge on your position. On Turn 3, a rift tears open. The portal lasts 10 minutes. You exit into realspace within <strong>1d4 blocks</strong> of your approximate position. Close enough to orient yourself. Everyone goes through or gets left behind.  • <strong>Forced Activation (1 turn):</strong> Slam the overcharge. The portal opens immediately — but it’s violent. <strong>Roll d100 on the Violent Extraction Chaos Table.</strong> The crew exits into realspace within <strong>1d4 kilometers</strong> of your approximate position — sewer, rooftop, warehouse, corporate territory, or worse. What happens during transit is not predictable. The beacon is destroyed either way."
+    },
+    {
+      "type": "paragraph",
+      "text": "The beacon is consumed on use. This is the emergency eject — expensive, single-use, and everyone in the rift knows you just lit a dimensional flare."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Rift Walk (Rift Lore T3)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A trained rift navigator can feel the dimensional membrane and force a crossing by hand."
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Controlled Crossing (3 turns + Interface check DC 10):</strong> The navigator spends 3 turns reading the dimensional fabric and carefully threading a passage. On success, a stable portal opens for 5 minutes. You exit into realspace within <strong>1 block</strong> of your approximate position — a skilled navigator can feel where the membrane is thinnest. On partial (7-9), the exit drifts — <strong>1d4 blocks</strong> away, possibly in an inconvenient location. On failure, no portal — and the navigator takes 2d4 Toxicity from the strain.  • <strong>Violent Tear (1 turn + Interface check DC 12):</strong> The navigator rips reality open by force. On success, the portal opens immediately — <strong>roll d100 on the Violent Extraction Chaos Table</strong> and exit <strong>1d4 kilometers</strong> away in realspace. On partial (7-9), the tear goes sideways — you exit into a <strong>different rift dimension</strong> instead of realspace (you escaped one rift into another). On failure, no portal, the navigator takes 3d6 Toxicity, and the tear attracts a Boss-tier encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why gates exist:</strong> This is exactly why corporations build stabilized gates. A gate locks the entry and exit points, eliminates drift, and provides a safe corridor between dimensions. Tearing a rift without a gate is like jumping out of a moving vehicle instead of waiting for it to stop. You’ll probably survive. You won’t enjoy the landing. And wherever you land, you still need to get home."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Short-Distance Rift Hopping:</strong> Some crews use beacons or Rift Walk for tactical repositioning — hopping into a rift and back out a few zones away to bypass dangerous terrain or enemy positions. Each hop tears a rift at your location, moves you through the dimensional space, and tears another rift to exit. Both entry and exit points drift. Over short distances the drift is manageable (1d4 blocks). Over longer distances, you’re rolling the dice on where you come out. Useful for desperate repositioning, terrible for precision movement."
+    },
+    {
+      "type": "heading",
+      "text": "Expedition Pacing Guide (For GMs)"
+    },
+    {
+      "type": "heading",
+      "text": "First Expedition (Session 1-2 tutorial)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Duration: 1 day in-rift  • Zones: 2-3  • Encounters: 1-2 (scripted, not random)  • Purpose: Teach combat, basic rift flavor  • Supplies: Pre-packed by the contract holder (don’t make players shop yet)  • Toxicity: Minimal (Mild dimension, 1 day)  • No camping required"
+    },
+    {
+      "type": "heading",
+      "text": "Second Expedition (Session 3-5 — the real one)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Duration: 3-4 days in-rift  • Zones: 6-10  • Encounters: 4-8 (mix of random and scripted)  • Purpose: Full expedition experience — resource management, camping, escalation  • Supplies: Players must purchase and plan  • Toxicity: Meaningful (Moderate dimension, multi-day)  • At least 2 camp phases  • At least 1 night encounter  • Intensity reaches Rising by the end"
+    },
+    {
+      "type": "heading",
+      "text": "Deep Expedition (Later arcs)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Duration: 5-7+ days  • Zones: 10-20+  • Encounters: 8-15+  • Purpose: Major contract, serious stakes  • Supplies: Significant investment, vehicle recommended  • Toxicity: Dangerous (Harsh+ dimensions)  • Full escalation curve  • Environmental hazards become major factors  • Extraction planning matters"
+    },
+    {
+      "type": "heading",
+      "text": "Augments for Expeditions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following augments are specifically designed for extended rift operations. They slot into existing trees."
+    },
+    {
+      "type": "heading",
+      "text": "Channeler Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>       <strong>Tier</strong>          <strong>Effect</strong>        <strong>Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift            T2                During Long Rest, 500 cr Meditation</strong>                        purge Toxicity equal to Interface bonus. Only works below 75% Toxicity. Once per rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional     T3                Passive Toxicity  800 cr Attunement</strong>                        from environment reduced by 1/day. Stacks with Enviro Seals and Tox Shields."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Anchor</strong>   T4                Once per          1,500 cr expedition: stabilize a 10m area for 24 hours. Acts as a free Dimension Anchor without equipment. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Leech Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>       <strong>Tier</strong>          <strong>Effect</strong>        <strong>Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pressure Vent</strong> T2                During Long Rest, 400 cr purge Toxicity equal to Grit bonus. Take 1d4 unpreventable damage. Works at any Toxicity level. Once per rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic           T3                Gain nourishment  700 cr Metabolism</strong>                        from Toxicity. Once per day, spend 3 Toxicity instead of 1 Ration. You’re eating the rift’s energy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reactor         T4                All Toxicity      1,200 cr Efficiency</strong>                        gains from casting are reduced by 1 (minimum 1). Your body processes rift energy more efficiently. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Fury Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>       <strong>Tier</strong>          <strong>Effect</strong>        <strong>Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Iron            T2                Ignore rest       500 cr Constitution</strong>                      degradation for the first 5 days (always recover at Day 1-2 rates). After Day 5, normal degradation applies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Endurance       T3                Forced March Grit 750 cr March</strong>                             check is automatically passed. No Exhaustion risk from pushing. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Phantom Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>       <strong>Tier</strong>          <strong>Effect</strong>        <strong>Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pathfinder      T2                Advantage on all  450 cr Instinct</strong>                          navigation checks in rifts. Can detect ambushes before they trigger (no surprise rounds)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ghost Camp</strong>    T3                Your crew’s camp 700 cr is supernaturally hard to detect. Night encounter chance reduced by 20% (stacks with other reductions). ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Sentinel Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>       <strong>Tier</strong>          <strong>Effect</strong>        <strong>Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vigilant        T2                While on watch,   400 cr Watch</strong>                             you do not lose HP recovery from rest. Your body rests even while alert."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress        T3                While in a        800 cr Protocol</strong>                          Fortified Shelter, grant +1 Armor to all allies inside. Your defensive augments extend to your camp. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Conditions: Expedition-Specific"
+    },
+    {
+      "type": "paragraph",
+      "text": "------------------ ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Condition</strong>      <strong>Effect</strong>        <strong>Caused By</strong>     <strong>Recovery</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Exhaustion</strong>     -2 to all checks. Forced March      Full Long Rest in Cannot Force      failure, 3+ days  a Safe location, March. Speed      without food, 10+ OR extraction reduced by 1      days in-rift      from rift. zone/day.         without rest degradation augment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Sickness</strong>  -1 to all checks. Exceeding Day 7   Extraction from +1 passive        in Harsh+         rift + 2 days of Toxicity per day  dimensions        city rest + (stacks with      without Tox       Toxicity normal passive).  Shield. Failing   treatment. 3+ environmental hazard checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contaminated</strong>   All healing       Drinking          Scrub Station received is       unpurified rift   treatment (3 halved. Toxicity  water. Eating     charges) or cannot be reduced corrupted food    extraction + below 25%.        (failed           hospital foraging).        treatment (200 Sleeping without  cr). shelter in Extreme+ dimensions. ------------------ ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference: Expedition Costs"
+    },
+    {
+      "type": "heading",
+      "text": "Daily Per-Person Minimum (using tabs)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resource</strong>            <strong>Cost</strong>                <strong>Weight</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ration                  5 cr                    0.5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Purification Tab        1.5 cr                  0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enviro Seal (amortized) 13 cr                   0"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Daily minimum</strong>       <strong>\\~20 cr/person/day</strong>  <strong>0.5</strong> ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Daily Per-Person (using Portable Purifier — amortized)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resource</strong>            <strong>Cost</strong>                <strong>Weight</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ration                  5 cr                    0.5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Purifier charge         0.4 cr                  0 (amortized)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enviro Seal (amortized) 13 cr                   0"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Daily w/ purifier</strong>   <strong>\\~18 cr/person/day</strong>  <strong>0.5</strong> ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Daily Crew Overhead (with Tox Shield)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Resource</strong>            <strong>Cost</strong>                <strong>Weight</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 Rations               20 cr                   2"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 Purification charges  6 cr                    0"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 Enviro Seals          52 cr                   0 (amortized)"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 Fuel Cell (Tox        80 cr                   1 Shield)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Daily crew overhead</strong> <strong>\\~158 cr/day</strong>        <strong>3</strong> ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "A 5-day expedition costs a crew roughly <strong>800 cr in consumables alone</strong> — before healing supplies, ammo, and equipment. The contract better pay well."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the money trap. Longer contracts pay more but cost more to supply. A crew that doesn’t invest in expedition infrastructure (Tox Shield, Scrub Station, Fortified Shelter) can only sustain 3-4 day operations. A crew that invests heavily can push to 7+ days — unlocking the deep contracts that pay 5,000+ cr. But the upfront cost of that infrastructure is 3,000-5,000 cr. You have to earn it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Welcome to the rift economy."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Don’t use violent extraction unless you’re already dead. Because what comes out the other side might be worse.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Violent Extraction Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a contractor triggers a <strong>Violent Extraction</strong> — whether through a Gate Beacon’s emergency mode or a Rift Walk forced cast — the portal tears open instantly with no stabilization. The crew tumbles through a raw dimensional rift."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>There is no damage roll.</strong> Instead, roll d100 on the Chaos Table. What happens is what happens."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The GM rolls once for the whole crew.</strong> Everyone experiences the same event. Individual saves or checks may apply within the result."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Exit location is random.</strong> The crew appears within 1d4 kilometers of their approximate real-world position. Where exactly within that radius is the GM’s call."
+    },
+    {
+      "type": "heading",
+      "text": "The Chaos Table (d100)"
+    },
+    {
+      "type": "heading",
+      "text": "01-05 — Miraculous"
+    },
+    {
+      "type": "paragraph",
+      "text": "Against all odds, you got lucky."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "01                                  <strong>Perfect Exit.</strong> You emerge exactly where you intended, no drift, no side effects. The rift was clean. Don’t get used to it."
+    },
+    {
+      "type": "paragraph",
+      "text": "02                                  <strong>Dimensional Gift.</strong> You come through carrying something extra — a chunk of crystallized rift energy worth 500 cr, lodged in someone’s pack. Wasn’t there before."
+    },
+    {
+      "type": "paragraph",
+      "text": "03                                  <strong>Temporal Skip.</strong> You exit 1d4 hours <em>before</em> you entered. Brief window of paradox — you could warn yourselves, set up an ambush at the extraction point, or prepare for what’s coming. GM decides how reality handles it."
+    },
+    {
+      "type": "paragraph",
+      "text": "04                                  <strong>Cleansed.</strong> The rift transit burned the toxicity out of your systems. Every crew member drops to 0 Toxicity. You feel better than you have in weeks."
+    },
+    {
+      "type": "paragraph",
+      "text": "05                                  <strong>Rift Echo.</strong> A ghostly duplicate of the most dangerous enemy you fought this mission appears, fights the nearest hostile NPC for 1d4 rounds, then dissolves. Thanks, dimensional chaos. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "06-20 — Lucky (Minor Inconvenience)"
+    },
+    {
+      "type": "paragraph",
+      "text": "You got through. Some weirdness, nothing lethal."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "06-07                               <strong>Nausea Wave.</strong> Everyone vomits. -1 to all checks for 1 hour. Unpleasant but functional."
+    },
+    {
+      "type": "paragraph",
+      "text": "08-09                               <strong>Rift Static.</strong> All electronic equipment is scrambled. Comms, targeting systems, neural jacks — all offline for 1d4 hours. Reboot required."
+    },
+    {
+      "type": "paragraph",
+      "text": "10-11                               <strong>Time Stutter.</strong> You lose 1d6 hours. You exited later than you should have. Clients might be angry. Night might have fallen."
+    },
+    {
+      "type": "paragraph",
+      "text": "12-13                               <strong>Cosmetic Mutation.</strong> One random crew member’s appearance changes — eye color, hair texture, skin pigmentation, minor facial features. Permanent but harmless."
+    },
+    {
+      "type": "paragraph",
+      "text": "14-15                               <strong>Phantom Sounds.</strong> For the next 24 hours, the crew hears sounds from the dimension they just left. Bloom spores rustling. Char flames crackling. Static buzzing. Distracting but not dangerous. -1 to Awareness checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "16-17                               <strong>Magnetic Anomaly.</strong> All metal objects the crew is carrying are weakly magnetized for 1d4 days. Weapons stick to each other, ammo clusters, doors are annoying."
+    },
+    {
+      "type": "paragraph",
+      "text": "18-19                               <strong>Memory Flash.</strong> Each crew member experiences a vivid memory that isn’t theirs — someone else’s life, from a dimension they’ve never visited. Could be useful lore. Could be disturbing. GM provides a brief scene."
+    },
+    {
+      "type": "paragraph",
+      "text": "20                                  <strong>Gear Swap.</strong> Two random crew members’ inventories are swapped. They’re holding each other’s weapons, wearing each other’s armor. Everything still functions — it’s just in the wrong hands. Sort it out. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "21-45 — Rough (Moderate Consequences)"
+    },
+    {
+      "type": "paragraph",
+      "text": "You made it. You’re not happy about it."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "21-23                               <strong>Toxicity Spike.</strong> Every crew member gains +1d6 Toxicity. The rift transit was contaminated."
+    },
+    {
+      "type": "paragraph",
+      "text": "24-26                               <strong>Drift — Way Off.</strong> Exit point is 1d4+2 kilometers from intended position. You’re in an unfamiliar part of the city. Might be hostile territory."
+    },
+    {
+      "type": "paragraph",
+      "text": "27-29                               <strong>Temporary Blindness.</strong> One random crew member is blinded for 1d4 hours. Rift flash burned their retinas. They need to be guided."
+    },
+    {
+      "type": "paragraph",
+      "text": "30-32                               <strong>Equipment Damage.</strong> One random piece of equipment per crew member is damaged. Armor loses 1 point. Weapons jam (need repair before use). Electronics short out."
+    },
+    {
+      "type": "paragraph",
+      "text": "33-34                               <strong>Rift Residue.</strong> The crew is coated in rift material. They glow faintly for 1d4 days. Stealth is impossible. Everyone can see you. Undercity contacts might avoid you (visible contamination)."
+    },
+    {
+      "type": "paragraph",
+      "text": "35-37                               <strong>Dimensional Jet Lag.</strong> The crew’s sleep cycles are inverted. For the next 3 days, they can only rest during the day and are alert at night. Social encounters during business hours are at -1."
+    },
+    {
+      "type": "paragraph",
+      "text": "38-39                               <strong>Partial Transit.</strong> One random crew member’s gear didn’t make it through. Their inventory is empty — weapons, armor, pack, everything. The equipment is gone, scattered somewhere between dimensions."
+    },
+    {
+      "type": "paragraph",
+      "text": "40-42                               <strong>Toxicity Scar.</strong> Each crew member gains a Toxicity Scar — a permanent mark of rift exposure that’s visible on their skin. Functions like a regular Scar for economic purposes (cost to treat). First one is free (cosmetic only). Subsequent ones stack normally."
+    },
+    {
+      "type": "paragraph",
+      "text": "43-45                               <strong>Sensory Bleed.</strong> For 1d4 days, the crew’s senses randomly swap — seeing sounds, hearing colors, tasting textures. -2 to Awareness checks. Slowly fades. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "46-70 — Bad (Serious Consequences)"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why they tell you not to do this."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "46-48                               <strong>Enemies Followed You.</strong> 1d4 enemies from the rift dimension exit the portal with you. They’re confused, aggressive, and now loose in the real world. Combat encounter, immediately, in whatever condition the crew is in."
+    },
+    {
+      "type": "paragraph",
+      "text": "49-51                               <strong>Dimensional Sickness.</strong> Everyone gains +2d6 Toxicity AND one random crew member contracts a Dimensional Illness — persistent condition requiring medical treatment (500 cr) or it worsens daily."
+    },
+    {
+      "type": "paragraph",
+      "text": "52-54                               <strong>Spatial Scatter.</strong> The crew is separated. Each member exits at a different point within a 2 km radius. They’re alone, in an unfamiliar area, and comms might not work (50% chance). Regroup takes 1d6 hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "55-57                               <strong>Time Skip — Forward.</strong> You exit 1d4 <em>days</em> later than you should have. The contract window has closed. Your clients think you’re dead. Someone may have already looted your safehouse."
+    },
+    {
+      "type": "paragraph",
+      "text": "58-59                               <strong>Rift Anchor Left Behind.</strong> The portal didn’t close cleanly. A small, unstable rift remains at the exit point for 1d4 days. It attracts rift creatures and dimensional anomalies. You’ve created a problem in someone’s neighborhood. Gate Authority will investigate."
+    },
+    {
+      "type": "paragraph",
+      "text": "60-62                               <strong>Augment Scramble.</strong> All augments on the crew malfunction for 1d4 days. Random effects — augment bonuses reversed, Leech burns trigger involuntarily, optical camo flickers constantly, neural jacks feed static."
+    },
+    {
+      "type": "paragraph",
+      "text": "63-65                               <strong>Mutation.</strong> One random crew member gains a minor mutation. Roll on the Mutation table. This is permanent unless treated."
+    },
+    {
+      "type": "paragraph",
+      "text": "66-67                               <strong>Gravity Inversion.</strong> The crew exits upside down, 3d6 meters in the air. They fall. Grit check (DC 8) or take 1d6 damage (armor doesn’t help — it’s a fall)."
+    },
+    {
+      "type": "paragraph",
+      "text": "68-70                               <strong>Rift Debt.</strong> The dimension noticed you leaving without permission. Something is now <em>aware</em> of the crew. For the next 1d4 expeditions, encounter rates are +10% and one encounter per expedition will be specifically targeting them. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "71-85 — Terrible (Major Consequences)"
+    },
+    {
+      "type": "paragraph",
+      "text": "You survived. Barely. Things are very wrong."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "71-73                               <strong>Wrong Destination.</strong> You don’t exit in the real world. You exit in a <em>different rift dimension.</em> Roll on the Dimension table. You’re in a new dimension with whatever supplies you have left. You need to find another way out."
+    },
+    {
+      "type": "paragraph",
+      "text": "74-76                               <strong>Crew Fractured.</strong> Half the crew exits normally. The other half exits in the wrong dimension (roll on Dimension table). Rescue mission required."
+    },
+    {
+      "type": "paragraph",
+      "text": "77-78                               <strong>Temporal Echo.</strong> A copy of one random crew member from 1d4 hours in the past exits with the crew. The copy has all the gear and HP they had at that time. The copy is real, confused, and temporary — they dissolve in 1d4 hours. What they reveal about the recent past could be useful or deeply unsettling."
+    },
+    {
+      "type": "paragraph",
+      "text": "79-80                               <strong>Massive Toxicity Spike.</strong> Everyone gains +3d6 Toxicity. Multiple crew members may cross thresholds. Someone might hit Harvest range. This is an emergency."
+    },
+    {
+      "type": "paragraph",
+      "text": "81-82                               <strong>Possessed Equipment.</strong> One random piece of equipment gains sentience — or at least, something from the rift is living in it. The weapon whispers. The armor moves on its own. The neural jack plays memories that aren’t yours. Might be useful (the weapon warns of danger). Might be hostile (the armor tightens during sleep). Requires Rift Lore T2 to diagnose, 500 cr to exorcise."
+    },
+    {
+      "type": "paragraph",
+      "text": "83-84                               <strong>Identity Bleed.</strong> Two crew members swap one memory each — a skill, a personal memory, a piece of knowledge. Mechanically: swap one skill rank between the two characters for 1d4 days. The memories come back, but slowly."
+    },
+    {
+      "type": "paragraph",
+      "text": "85                                  <strong>You Brought the Boss.</strong> Whatever the biggest threat was in the rift — the boss, the apex predator, the thing that was hunting you — it came through the portal with you. Full stat block. In the real world. In whatever neighborhood you landed in. People are going to die if you don’t deal with this now. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "86-95 — Catastrophic (Campaign-Altering)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The GM should prepare for these. They change the game."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "86-88                               <strong>Dimensional Merge.</strong> A chunk of the rift dimension merges with the real world around the exit point. A city block is now partially Bloom, Char, Brine, or whatever dimension you left. Permanent. Creatures, hazards, and materials from that dimension now exist in the real world. Gate Authority declares a quarantine zone. This is your fault."
+    },
+    {
+      "type": "paragraph",
+      "text": "89-91                               <strong>Time Fracture.</strong> The crew exits at different points in time. Some arrive now. Some arrive 1d4 weeks in the past. Some arrive 1d4 weeks in the future. The crew is scattered across time. Reuniting them is a multi-session arc. The ones who arrived in the past have been living in the world, making decisions, for weeks. What did they do?"
+    },
+    {
+      "type": "paragraph",
+      "text": "92-93                               <strong>Rift Bloom.</strong> The exit portal doesn’t close. It grows. Over the next 1d4 days, it expands to consume a city block, then a neighborhood. A full-scale dimensional incursion begins. The crew is at ground zero. Corps scramble response teams. This is a major event."
+    },
+    {
+      "type": "paragraph",
+      "text": "94-95                               <strong>The Other Side Noticed.</strong> Something intelligent, powerful, and not from any known dimension noticed the crew’s violent exit. It’s now watching them. It may begin communicating — through dreams, through their augments, through dimensional anomalies that appear specifically for the crew. Its motives are unknown. It is patient. This is a long-term campaign hook. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "96-100 — Reality Break"
+    },
+    {
+      "type": "paragraph",
+      "text": "These should be extremely rare. The GM can choose to cap the table at 95 if they want."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "96-97                               <strong>Doppelganger.</strong> An exact duplicate of one crew member exits with the group. Same memories, same gear, same personality. Both believe they’re the original. One of them is a rift echo that will begin degrading in 1d4 weeks — but nobody knows which one. Not even the GM decides until it matters."
+    },
+    {
+      "type": "paragraph",
+      "text": "98                                  <strong>Dimensional Passenger.</strong> Something came through <em>inside</em> a crew member. They don’t know it yet. Over the next few sessions, they begin exhibiting unusual abilities, strange knowledge, and personality shifts. The passenger is intelligent. It has goals. It might be benign. It probably isn’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "99                                  <strong>Everything Changed.</strong> The crew exits into a world that’s subtly <em>wrong.</em> A corporation that existed doesn’t anymore. A crew member’s contact has never heard of them. Street names are different. The city layout has shifted. The crew has exited into a parallel reality. Getting home — if home still exists — requires finding another rift."
+    },
+    {
+      "type": "paragraph",
+      "text": "100                                 <strong>The Big One.</strong> GM’s choice. The single most consequential event possible for the current campaign. A dimensional entity manifests. A corporation’s headquarters is swallowed by the rift. The crew gains permanent rift mutations. A dead NPC walks through the portal alive. The GM has been waiting for this. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why chaos instead of damage?</strong> Damage is boring and predictable. Players can calculate whether 2d6 is worth the risk. They can’t calculate “you might exit in the wrong dimension“ or “the boss followed you home.“ The d100 table makes violent extraction a genuine unknown — the kind of desperate choice that generates stories, not math."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weighted toward bad.</strong> The table is intentionally skewed negative. 01-20 is favorable (20%). 21-45 is moderate (25%). 46-70 is serious (25%). 71-100 is catastrophic-to-reality-breaking (30%). Violent extraction should be a last resort, and the table enforces that through uncertainty, not guaranteed damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reroll protection.</strong> If the GM has already used a result this campaign (especially 86+), they can either use the result again with different specifics or shift 1d10 up or down on the table."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Controlled extraction remains safe.</strong> The chaos table ONLY applies to violent extraction. Controlled extraction (3-turn charge) produces no table roll — it works as intended. The table is the price of panic."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“All materials recovered from rift zones remain the property of the contracting corporation unless otherwise specified in your agreement (see Clause 31: ’Resource Extraction Rights’). Unauthorized harvesting may constitute theft of corporate assets. Unauthorized gene-splicing with harvested materials constitutes a war crime in most jurisdictions. Most.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two new skills that create a full off-grid supply chain:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HARVESTING</strong> — Field extraction of materials from rift zones. Creature parts, exotic metals, dimensional crystals, anomalous substances, and — for the brave or stupid — genetic samples viable for bio-modification."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>CRAFTING</strong> — Workshop fabrication. Turn raw materials into weapons, armor, ammo, consumables, traps, field equipment, and eventually vehicles and drones."
+    },
+    {
+      "type": "paragraph",
+      "text": "Together with Tech (installation) and Medicine (splicing), these skills complete the <strong>Contractor Workshop</strong> — a team that never needs to buy corporate products or visit corporate clinics. Everything sourced, built, and installed in-house. Off the grid. Off the books."
+    },
+    {
+      "type": "heading",
+      "text": "Material Tiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "All harvested materials fall into quality tiers that determine what can be crafted from them."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>Name</strong>          <strong>Source</strong>        <strong>Examples</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Common</strong> Basic rift        Surface-level     Rift-iron ore, materials         rift zones, weak  creature hide, creatures         bone fragments, ambient crystal, minor toxin glands"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 —          Quality materials Mid-depth rifts,  Refined Uncommon</strong>        requiring skill   standard          rift-steel, to extract        creatures         creature muscle fiber, reactive crystals, venom sacs, neural tissue"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Rare</strong>   Exotic materials  Deep rifts, elite Dimensional from dangerous    creatures,        alloys, creature sources           anomalies         organ systems, phase crystals, psionic membrane, living metal"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Exotic</strong> Extremely rare,   Rift hearts, boss Reality-warped often dangerous   creatures,        materials, to handle         catastrophic      creature core anomalies         organs (hearts, brains), dimensional tears (bottled), apex predator genetics ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Material tier determines what you can craft.</strong> T1 materials make T1 gear. Mixing tiers is possible at higher Crafting skill levels."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Materials have weight and shelf life.</strong> Most materials need to be processed within 3-7 days or they degrade. Creature genetic samples degrade within 24 hours without preservation (Harvesting T3+ can preserve them). This creates urgency — you can’t stockpile forever."
+    },
+    {
+      "type": "heading",
+      "text": "🦴 HARVESTING (New Skill)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface (knowledge of biology/materials) or Grit (physical extraction work — GM’s call based on context) <strong>Scope:</strong> Field extraction of rift materials, creature skinning/butchering, mineral harvesting, anomaly sampling, and genetic specimen collection."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You see a dead rift creature and think “that’s worth money.“ Everyone else sees a dead rift creature and thinks “please stop touching it.“</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Not Gated</strong> — anyone can attempt to hack a piece off a dead creature. But without training, you’ll ruin the good stuff. Untrained harvesting: -2 to checks, and material tier is reduced by 1 (you get Common even from Uncommon sources)."
+    },
+    {
+      "type": "heading",
+      "text": "Feature Track"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can attempt harvesting checks. Identify material quality and creature value before extraction. Harvest T1 (Common) materials reliably. Extraction from T2+ sources is possible but quality is inconsistent (roll determines tier actually recovered)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Efficient Extraction:</strong> Harvest T1-T2 materials reliably. Yield increased — gain 1 extra unit of material per successful harvest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Creature Analyst:</strong> Before harvesting, identify all usable materials on a creature and their value. +2 to Rift Lore checks for creature identification. Know which parts are worth the most. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Skin:</strong> Harvesting during missions costs no additional time (normally takes 10-15 minutes per creature). You can field-dress while the team loots. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Nose:</strong> Can detect and avoid toxicity-contaminated materials. Materials you harvest have 50% less residual toxicity (matters for crafting and especially for genetic samples)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Deep Extraction:</strong> Harvest T1-T3 materials reliably. Can extract materials from anomalies and environmental sources (not just creatures). <strong>OR</strong> <strong>Specimen Preservation:</strong> Can preserve genetic samples for up to 7 days instead of 24 hours. Requires a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Preservation Kit</strong> (300 cr, reusable). Preserved specimens are viable for Wild Splicing (see below). <strong>OR</strong> <strong>Dangerous Harvest:</strong> Can harvest from live creatures (restrained or incapacitated). Living materials are one tier higher quality than dead equivalents. Requires a Grit check DC 8 — the creature might wake up. <strong>OR</strong> <strong>Material Appraisal:</strong> Know exact market value of all materials. Can identify illegal/restricted materials and know who will buy them. Harvested materials sell for 25% more."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Apex Harvester:</strong> Harvest T1-T4 materials reliably. Can extract from boss creatures, rift hearts, and catastrophic anomalies without destroying the sample. Once per mission: harvest a creature’s “essence“ — a concentrated genetic/material sample worth 3x normal value and viable for the most extreme crafting and Wild Splicing. <strong>OR</strong> <strong>Living Harvest:</strong> Can extract materials, genetic samples, and even organ systems without killing the creature (Interface check DC 12). The creature survives (usually). Ethical? Debatable. Profitable? Absolutely. Preserved living samples have unique crafting applications that dead ones don’t. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "🔨 CRAFTING (New Skill)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Stat:</strong> Interface (design and precision) or Chrome (physical fabrication — GM’s call) <strong>Scope:</strong> Fabrication of weapons, armor, ammunition, consumables, traps, field equipment, and (at high tiers) vehicles and drones."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Gated (🔒): Cannot attempt without T1. Smashing two things together is not crafting. You need to understand materials, tools, and why the last person who tried this is missing fingers.</em>  <em>You build things. Sometimes they work. The things that work are worth a fortune. The things that don’t work are worth a story.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "The Crafting Roll"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting uses: <strong>2d6 + Interface bonus + Crafting modifier</strong> (same as other skill checks)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          <strong>Outcome</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>10+</strong>                             <strong>Masterwork.</strong> Item crafted at full quality. If weapon/armor, gain one minor bonus (GM and player agree — a free tag, a situational +1, a unique property that reflects the materials used)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>7-9</strong>                             <strong>Standard.</strong> Item crafted at intended quality. No bonus, no defect. Functional."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>6-</strong>                              <strong>Flawed.</strong> Item is crafted but has a defect. GM assigns one: fragile (breaks after 3 uses), unreliable (-1 to one stat in specific conditions), heavy (counts as one weight category higher), or ugly (no mechanical penalty but it looks terrible and everyone knows it’s homemade). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Crafting Requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every crafted item requires:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Materials</strong> of appropriate tier  <strong>2. A Workshop</strong> (or field equivalent)  <strong>3. Time</strong> (AP cost during downtime)  <strong>4. A Recipe</strong> (known or improvised — see below)"
+    },
+    {
+      "type": "heading",
+      "text": "Workshop Tiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Workshop</strong>      <strong>Cost</strong>          <strong>What You Can    </strong>Portability<strong> Craft</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Field Kit</strong>     200 cr            T1 items only.    Carried. Fits in a Consumables,      backpack. ammo, basic repairs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Portable        600 cr            T1-T2 items.      Vehicle-portable. Workshop</strong>                          Weapons, light    Needs a table and armor, traps.     power."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Full Workshop</strong> 1,500 cr          T1-T3 items. All  Stationary. Needs a weapons, armor,   room. Rent or own. advanced consumables."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Master Forge</strong>  4,000 cr          T1-T4 items.      Stationary. Needs a Everything        large space. including         Power-hungry. vehicles and      Neighbors complain. exotic gear. ----------------- ----------------- ----------------- -------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Recipes"
+    },
+    {
+      "type": "paragraph",
+      "text": "You need to know how to make something before you can make it."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recipe Source</strong>                   <strong>How to Get It</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard Recipes</strong>                Come with Crafting skill at each tier. T1 = common items. T2 = standard weapons/armor. T3 = advanced items. T4 = exotic/vehicle blueprints."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Discovered Recipes</strong>              Found in rifts, salvaged from wreckage, looted from enemy crafters. One-time find — once you have it, you have it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reverse-Engineered</strong>              Disassemble an existing item (destroys it) to learn how to make it. Crafting check DC 8. Takes 2 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Improvised</strong>                      You don’t have a recipe — you’re winging it. Crafting check at -2. On a 6-, the item fails entirely (materials wasted). High risk, but sometimes you need something nobody’s made before."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Custom Design</strong>                   Spend 2 AP designing a new item from scratch. Interface check DC 10 (DC 12 for T3, DC 14 for T4). Success = you now have the recipe. This is how new items enter the world. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Feature Track"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Features (choose 1)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Familiar</strong>                 <strong>Baseline:</strong> Can craft T1 items — basic ammo, simple consumables (smoke bombs, caltrops, torches), and field repairs. Know standard T1 recipes. Can assess material quality for crafting purposes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Trained</strong>                  <strong>Weaponsmith:</strong> Craft T1-T2 weapons from raw materials at 40% of market cost. Weapons you craft can be customized during creation (choose one pro from a list, or remove a default con). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armorsmith:</strong> Craft T1-T2 armor from raw materials at 40% of market cost. Armor you craft can be tuned — choose: +1 Armor / -1 Evasion cap, or -1 Armor / +1 Evasion cap versus the baseline. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Munitions Expert:</strong> Craft specialized ammunition in batches. Standard ammo (free with materials), AP rounds (ignore 1 armor, T2 materials), tracer rounds (+1 accuracy vs same target next turn, T1 materials), toxin rounds (+1 Poison stack on hit, T2 materials + toxin gland). <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Field Chemist:</strong> Craft consumables at 40% market cost — healing stims, toxicity scrubbers, smoke grenades, adrenaline boosters. Can invent new consumables with GM approval (Improvised recipe rules)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Expert</strong>                   <strong>Master Weaponsmith:</strong> Craft T1-T3 weapons. Masterwork results give two bonuses instead of one. Can craft weapons from exotic materials that have unique properties (rift-crystal blade that deals +1 damage to rift creatures, bone-steel axe that gains accuracy vs the creature type it was made from, etc.). <strong>OR</strong> <strong>Master Armorsmith:</strong> Craft T1-T3 armor. Can integrate special material properties — rift-walker properties from phase crystals, natural armor bonuses from creature hide, toxicity resistance from filtered materials. <strong>OR</strong> <strong>Trap Engineer:</strong> Design and build traps, mines, turrets, and automated defenses. Deploy during missions (1 AP) or set up during downtime for location defense. Damage and effects scale with materials used."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>OR</strong> <strong>Mutagenic Refiner:</strong> Can process raw creature genetic samples into <strong>Refined Mutagens</strong> — stabilized biological materials ready for gene-splicing. Refining reduces the mutation’s complication DC by 2 (the sample is cleaner, safer). Requires Preservation Kit + Full Workshop. This is the bridge between Harvesting and Medicine."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master</strong>                   <strong>Forge Master:</strong> Craft T1-T4 items. Masterwork results give two bonuses and the item counts as one tier higher for special properties. Can craft unique, one-of-a-kind items from Exotic materials — weapons and armor that don’t exist in any catalog. These items should have names. <strong>OR</strong> <strong>Vehicle/Drone Engineer:</strong> Design and build vehicles and combat drones from scratch. Requires Master Forge. Vehicles have stat blocks (HP, Speed, Armor, Weapons). Drones can be deployed in combat. This is late-game, expensive, and game-changing. <strong>OR</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Omni-Fabricator:</strong> Can craft anything from any category at T3 quality (weapons, armor, ammo, consumables, traps). Jack of all trades. No single specialization bonus, but total flexibility. Reverse-engineering never fails (auto-success). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Crafting Costs & Time"
+    },
+    {
+      "type": "heading",
+      "text": "AP Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item Category</strong>       <strong>AP Cost</strong>             <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ammo batch</strong> (20      1 AP                    Quick. Standard ammo is rounds)                                         practically free with materials. Specialty ammo requires T2+ materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Consumable</strong> (single  1 AP                    Stims, grenades, item)                                           scrubbers. Fast production."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Consumable batch</strong> (3 2 AP                    Efficient if you have items)                                          the materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trap / field          2 AP                    Mines, turrets, equipment</strong>                                     sensors. Setup time matters."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon</strong>              2 AP                    Standard crafting. Exotic materials may require 3 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong>               2 AP                    Standard crafting. Integrated special properties add +1 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutagen Refining</strong>    2 AP                    Processing a genetic sample into a Refined Mutagen."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle / Drone</strong>     4 AP per day, multiple  Major project. Small days                    drone = 3 days (12 AP). Vehicle = 5-10 days (20-40 AP). This is a long-term investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reverse Engineering</strong> 2 AP                    Destroys the original. Learn the recipe."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Custom Design</strong>       2 AP                    Design a new recipe. Doesn’t produce the item — just the blueprint. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Material Costs vs Market Price"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting is cheaper than buying — that’s the point. But you need materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crafted Item          </strong>Material Cost         <strong>Market Price Quality</strong>               (approximate)<strong>         Equivalent</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1 item                 \\~30-50 cr in materials 100-200 cr market price"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2 item                 \\~80-150 cr in          200-500 cr market price materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3 item                 \\~200-400 cr in         500-1,000 cr market materials               price"
+    },
+    {
+      "type": "paragraph",
+      "text": "T4 item                 \\~500-1,000 cr in       1,500-3,000+ cr market materials               price ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Materials can be harvested for free</strong> (if you have Harvesting skill and access to rifts). This is where the real savings are. A team with a Harvester and a Crafter can equip themselves at a fraction of corporate prices — if they’re willing to spend the time and take the risks."
+    },
+    {
+      "type": "heading",
+      "text": "The Wild Splice"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>This is the dangerous part. This is where someone looks at a rift creature’s venom glands and says “put that in me.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "What Is a Wild Splice?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Wild Splice is an improvised mutation created from creature-harvested genetic material. No corporate testing. No safety data. No clinical trials. Just raw biological material from another dimension being shoved into a human body by someone with steady hands and questionable judgment."
+    },
+    {
+      "type": "heading",
+      "text": "Requirements"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. A Genetic Sample</strong> — harvested from a creature (Harvesting T2+). Must be preserved (Harvesting T3 Specimen Preservation, or used within 24 hours).  <strong>2. Processing</strong> (Optional but HIGHLY recommended) — a Crafter with Mutagenic Refiner (Crafting T3) processes the sample into a Refined Mutagen. This reduces complication DC by 2.  <strong>3. A Splicer</strong> — someone with Medicine T3 (Gene Splicer) or T4 (Biological Architect) to perform the procedure.  <strong>4. The Recipient</strong> — a contractor willing to have alien biology grafted into their body. Brave. Stupid. Both."
+    },
+    {
+      "type": "heading",
+      "text": "Wild Splice Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wild Splices are ALWAYS Extreme Risk (DC 16)</strong> at minimum. The material is untested. Period."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>DC Modifiers:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Factor</strong>                          <strong>DC Modifier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Base Wild Splice                    DC 16"
+    },
+    {
+      "type": "paragraph",
+      "text": "Refined Mutagen (Crafting T3+)      -2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gene Splicer performing (Medicine   Normal roll (gene-doc tier) T3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Biological Architect performing     Gene-doc tier + advantage on (Medicine T4)                       complication roll"
+    },
+    {
+      "type": "paragraph",
+      "text": "Raw sample (unrefined)              +2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sample older than 12 hours          +2 (unpreserved)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sample from a creature you’ve      +3 never encountered"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sample from a Boss creature         +2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Back-alley conditions (no proper    +2 workspace)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recipient at Toxicity 50%+          +2 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Best case scenario:</strong> Refined Mutagen + Biological Architect + proper workspace = DC 14, rolled with gene-doc tier. That’s still a 35% complication chance on a clean d20 — but manageable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Worst case scenario:</strong> Raw sample from an unknown boss creature, spliced by a Gene Splicer in a back alley on a toxic recipient = DC 16 + 2 + 3 + 2 + 2 + 2 = <strong>DC 27.</strong> Impossible without divine intervention. Don’t do this. (Someone will do this.)"
+    },
+    {
+      "type": "heading",
+      "text": "What Do You Get?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The GM determines the mutation based on the creature the sample came from. Wild Splices should:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Reflect the creature’s biology.</strong> Venom glands = poison ability. Armored hide = natural armor. Speed muscles = reflex boost. Wing membrane = gliding/jumping. Sensory organs = enhanced perception.  <strong>2. Always have a built-in cost</strong> (like all mutations). The cost should reflect the alien nature: your body is incorporating something that didn’t evolve for humans.  <strong>3. Be roughly equivalent to a High Risk or Extreme Risk mutation</strong> in power level. You’re getting creature biology — it should be potent.  <strong>4. Have unpredictable flavor.</strong> The mutation should feel <em>alien</em>. Not just “+1 Armor“ but “+1 Armor and your skin develops iridescent scales that shift color based on your mood and you smell like the creature for a week after installation.“"
+    },
+    {
+      "type": "heading",
+      "text": "Wild Splice Examples"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- ------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Creature        </strong>Sample<strong>        </strong>Mutation        <strong>Built-in Cost</strong> Source<strong>                            Bonus</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Stalker</strong>  Adrenal glands    +2 accuracy on    Startle response (ambush predator)                   first attack from is extreme. Loud stealth. Reflexes noises trigger trigger on        fight-or-flight. adrenaline —    -2 to checks when instant combat    surprised by readiness.        non-combat stimuli. You sleep light. You sleep <em>angry</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phase Crawler</strong> Phase membrane    Once per combat:  You flicker. (dimensional      tissue            phase through one Constantly. -1 insect)                             solid obstacle    Evasion (you’re (wall, floor,     harder to see but barrier). Your    also harder to be molecules briefly <em>solid</em>). Rift stop agreeing on  creatures can which dimension   sense you from they’re in.      double distance. Your reflection doesn’t always match your movements."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Brood Mother</strong>  Regenerative      Heal 1 HP at      +2 Toxicity (hive creature)   organ cluster     start of each of  passively per your turns in     mission (the combat. Your body regeneration is knits itself back magic-fueled). together visibly  Your healing — muscle and    factor sometimes skin crawling     heals things you closed.           don’t want healed — scars treated might reopen (10% chance per treated scar per mission, GM rolls secretly)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Iron Wyrm</strong>     Dermal plating    +2 natural Armor. -1 Reflex (armored rift     cells             Your skin grows   (heavier, beast)                              interlocking      stiffer). You set metallic scales   off metal over the course   detectors. Scales of a week         shed periodically post-splice.      — you leave a trail of metallic flakes. Corp scanners flag you as “biologically anomalous.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Void Screamer</strong> Neural tissue     Can sense all     The neural tissue (psionic entity)                    living creatures  thinks. Not much, within medium     not well, but it range, even       has opinions. -1 through walls. +2 Interface to Awareness      (interference). checks. Once per  Once per session, mission: emit a   the tissue <em>wants</em> psychic scream    something — GM (all enemies in   determines what. short range make  Resisting its Grit check DC 8   desire costs 1 or are stunned 1  Stress. Giving in round).           has consequences. You hear whispers when you sleep. They’re not yours."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corrosive       Acid gland        Can spit acid as  Your saliva is now Lurker</strong>                            a ranged attack   mildly corrosive. (acid-spitting                      (1d4 accuracy,    Eating requires ambush creature)                    2d6 damage, short specialized range). Acid      utensils (25 cr) ignores 2 points  or you dissolve of Armor.         normal ones. Kissing is assault. -1 to all social checks with anyone who’s seen you eat. The gland occasionally leaks. Your pillowcase is ruined. ----------------- ----------------- ----------------- ------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Wild Splice Failure"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the complication roll fails on a Wild Splice, use the standard Complication Tables from the Mutations system — but with one addition:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wild Splice Critical Failure (fail by 12+):</strong> In addition to rolling on the Critical Complication table, the mutation is <strong>Unstable</strong>. Once per session, the GM can declare the mutation does something unexpected — the bonus activates when you don’t want it to, the creature’s instincts override yours for a moment, or the biological material expresses a secondary trait nobody anticipated. Unstable mutations can potentially be stabilized by a Biological Architect (Medicine T4) over multiple downtime periods (3 sessions of 2 AP treatment, 500 cr total). Until then, it’s a wild card."
+    },
+    {
+      "type": "heading",
+      "text": "The Harvester-Crafter Pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here’s how the full supply chain works when a team has both skills covered:"
+    },
+    {
+      "type": "heading",
+      "text": "Scenario: Crafting a Rift-Crystal Blade"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. In the Rift:</strong> Harvester (T3) extracts reactive crystals (T2 material) from a dimensional anomaly. Rolls Interface check — full success, gets 3 units of quality crystal.  <strong>2. Back at Base:</strong> Crafter (T2 Weaponsmith) uses 2 units of crystal + standard metal components (50 cr) to forge a blade. Rolls Crafting check — 10+, Masterwork. Chooses bonus: “+1 accuracy vs rift creatures“ (the crystal resonates with dimensional energy).  <strong>3. Result:</strong> A custom weapon that would cost 400+ cr on the market, built for \\~50 cr in purchased materials + free harvested materials + 4 AP total (2 harvesting, 2 crafting)."
+    },
+    {
+      "type": "heading",
+      "text": "Scenario: Wild Splice from a Rift Stalker"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. In the Rift:</strong> Harvester (T3, Specimen Preservation) extracts adrenal glands from a killed Rift Stalker. Preserves the sample (good for 7 days).  <strong>2. Back at Base:</strong> Crafter (T3, Mutagenic Refiner) processes the raw sample into a Refined Mutagen. 2 AP, rolls check — success. DC reduced by 2.  <strong>3. The Splice:</strong> Field Doc (Medicine T3, Gene Splicer) performs the Wild Splice on a willing teammate. DC 16 - 2 (refined) = DC 14. Rolls 1d20 + Grit bonus…  <strong>4. Result:</strong> Either a contractor with alien adrenal glands and ambush instincts, or a contractor with alien adrenal glands, ambush instincts, AND a complication that makes their life interesting."
+    },
+    {
+      "type": "heading",
+      "text": "Scenario: Crafting Specialty Ammo Before a Mission"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Downtime Day 1:</strong> Crafter (T2, Munitions Expert) has T2 materials from last mission’s harvest. Spends 1 AP crafting a batch of AP rounds (ignore 1 armor) and 1 AP crafting toxin rounds (+1 Poison on hit).  <strong>2. Cost:</strong> Materials only (\\~40 cr for both batches). Market price for the same would be 150+ cr.  <strong>3. Result:</strong> Team goes into the next mission with specialized ammo at a fraction of the price. The Crafter still has 1 AP for study and 1 AP for sleep."
+    },
+    {
+      "type": "heading",
+      "text": "Harvesting During Missions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Harvesting isn’t just a downtime activity — it happens in the rift, during missions. This creates tension:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Harvesting takes time.</strong> A standard creature harvest takes 10-15 minutes (no AP cost in downtime terms, but real time during missions). Quick Skin (Harvesting T2) eliminates this delay."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Harvesting is sometimes illegal.</strong> Contracts may specify that all rift materials are corporate property. Harvesting for yourself is theft. Getting caught = contract violation, fines, blacklisting, or worse."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Type</strong>                   <strong>Harvesting Status</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard Extraction Contract</strong>    All materials belong to the corp. Harvesting for yourself is theft."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Freelance/Bounty Contract</strong>       You own what you find. Corp only pays for the objective."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Salvage Contract</strong>                You’re specifically there to harvest. Corp takes a cut (usually 40-60%)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Unauthorized Entry</strong>              No contract. Everything you find is yours. Everything that finds you is also yours to deal with. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Smuggling harvested materials</strong> past corporate checkpoints requires a Stealth or Negotiate check (DC varies by material value and checkpoint security). Getting caught: fines (material value × 2), confiscation, and a black mark on your contractor record."
+    },
+    {
+      "type": "paragraph",
+      "text": "This creates another economic decision: follow the rules and buy materials at market price, or break the rules and source them for free with risk of getting caught. On-brand."
+    },
+    {
+      "type": "heading",
+      "text": "Interaction With Other Systems"
+    },
+    {
+      "type": "heading",
+      "text": "Crafting + Tech (Chrome Tech path)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Crafter who also has Tech T3 (Chrome Installer) can build AND install augments — fabricating the chrome components from harvested materials and putting them in. Total vertical integration."
+    },
+    {
+      "type": "heading",
+      "text": "Crafting + Medicine (Field Doc path)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Crafter with Mutagenic Refiner who also has Medicine T3 (Gene Splicer) can process AND splice mutations. Harvest → Refine → Splice, all in one team."
+    },
+    {
+      "type": "heading",
+      "text": "Crafting + Economy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafted items sell at 60% of market price (not full — people know it’s homemade). But the profit margin is huge if materials were harvested for free:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Harvest T2 materials (free)  • Craft T2 weapon (materials only, \\~80 cr purchased components)  • Sell at 60% of 400 cr market price = 240 cr  • Profit: 160 cr per weapon"
+    },
+    {
+      "type": "paragraph",
+      "text": "A dedicated Harvester-Crafter can fund the entire team’s downtime through crafting and selling."
+    },
+    {
+      "type": "heading",
+      "text": "Crafting + Downtime AP"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting is AP-efficient. Most items cost 1-2 AP to make. A crafter can produce 1-2 items per day while still sleeping and doing one other activity. Over a 7-day downtime, that’s 7-14 crafted items — enough to restock the team, sell surplus, and still train a skill."
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes for GMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Harvesting is a mission pacing tool.</strong> When the Harvester wants to stop and skin a creature, that takes time. Time the team might not have. “Do we let them harvest the Rift Stalker’s glands or do we push on before the breach closes?“ That’s a decision that matters."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Illegal harvesting creates heist energy.</strong> The team on a corporate extraction contract, sneaking creature parts past the checkpoint, is a whole sub-plot. Let it play out. The Negotiate contractor talks to the guards while the Harvester hides materials in the vehicle. The Stealth contractor plants decoys. This is content."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wild Splices should be memorable.</strong> Don’t let them become routine. Each one should be a scene — the whole team watching while the Field Doc operates, the dice hitting the table, the moment of “did it work?“ And the mutation itself should feel unique, alien, personal. No two Wild Splices from the same creature type should be identical."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crafting shouldn’t replace shopping entirely.</strong> Crafted items are cheaper and customizable, but they take time and materials. Corporate gear is expensive but instant and reliable. The choice between “I’ll build it over 3 days“ and “I’ll buy it right now for triple the price“ is the crafter’s constant dilemma."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle crafting is the endgame carrot.</strong> A team that builds their own rift-runner vehicle is a team that has invested <em>heavily</em> in downtime infrastructure. It should feel like an achievement — weeks of materials, thousands of credits in workshop upgrades, multiple crafting sessions. And then they have a vehicle with custom stats and a name they chose. That’s memorable."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Unauthorized fabrication of weapons, armor, or biological modification compounds may violate your contractor agreement, local ordinances, and several interplanetary treaties. Please consult your corporate liaison before building anything that could be classified as a ’device,’ ’apparatus,’ or ’abomination.’ Thank you for your cooperation.“</em>"
+    }
+  ]
+}

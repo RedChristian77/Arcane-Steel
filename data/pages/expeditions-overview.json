@@ -1,0 +1,39 @@
+{
+  "id": "expeditions-overview",
+  "title": "How Dimensions Work",
+  "subtitle": "Rift physics and rules",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Going Through the Hole in Reality</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The Intercompany Dimensional Registry currently catalogs 247 confirmed dimensions accessible via managed or wild rift connections. Of these, 84 are classified as ’depleted’ (resource extraction complete or economically unviable), 112 as ’active’ (ongoing operations), 38 as ’restricted’ (corporate or military access only), and 13 as ’sealed’ (access prohibited by intercompany treaty). The reasons for sealing are available on request. The requests are never approved.“</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every rift is a door. Every door leads somewhere. Where it leads depends on factors that Soma Collective has spent centuries trying to understand and still can’t fully predict."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Managed Rifts (Corporate Gates)</strong> lead to known, surveyed dimensions. The connection is stabilized through containment hardware, and the destination is consistent — Gate 7 always opens to the same place. Managed rifts are the workhorses of the rift economy. Safe (relatively), predictable (mostly), and profitable (always)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wild Rifts</strong> are uncontrolled tears in dimensional fabric. They open spontaneously, lead to unpredictable destinations, and close without warning. A wild rift might connect to a known dimension (lucky) or somewhere nobody’s ever been (lucrative and terrifying). Wild rifts are where fortunes are made and crews are lost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Characteristics:</strong> Every dimension has consistent internal rules — its own physics, ecology, and environmental conditions. These don’t change between visits (a frozen dimension stays frozen), but they may differ dramatically from Earth’s baseline. Gravity, light, time, atmospheric composition, and the fundamental behavior of matter can all vary. Magic saturation varies too — some dimensions are magic-dense (high toxicity accumulation), others are magic-thin (low toxicity but rift casting is weakened)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Time Dilation:</strong> Most dimensions run at roughly Earth-standard time. Some don’t. A dimension with 2:1 time dilation means you spend a day inside and come back to find two days have passed. Pear has cataloged dimensions with ratios as extreme as 10:1 in both directions. Contracts in time-dilated dimensions pay premium rates — either because the crew loses time (fast external) or because the corp gets extra labor for the same pay (slow external). Guess which one the corps prefer."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Transit:</strong> Some dimensions are smaller than Earth, or their spatial topology compresses distances. Two rift gates that are 2,000 km apart on Earth might open to points only 50 km apart inside the Char. The corps exploit this ruthlessly — armored trains run through dimensional shortcuts on the Spine, turning 12-hour surface routes into 30-minute transits through alien territory. Controlling rift gates isn’t just about the resources inside. It’s about the logistics shortcut the dimension provides. This is why gate clusters are worth wars."
+    }
+  ]
+}

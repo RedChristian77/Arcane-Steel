@@ -1,0 +1,415 @@
+{
+  "id": "downtime-base",
+  "title": "Base of Operations",
+  "subtitle": "Build and upgrade your crew HQ",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Breaking the Cycle"
+    },
+    {
+      "type": "paragraph",
+      "text": "The lifestyle system is a trap. Rent is a hole you pour money into with nothing to show for it. Every day of downtime, credits evaporate."
+    },
+    {
+      "type": "paragraph",
+      "text": "A <strong>Base of Operations</strong> is how you escape the trap. Instead of renting, you’re <em>building</em>. An owned base has no daily cost (beyond utilities and maintenance), provides permanent mechanical benefits, and can be upgraded over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "The catch: it requires significant upfront capital, which means taking bigger contracts, saving aggressively, or going into debt. The base is the long-term investment that turns “surviving“ into “living“ — but you have to survive long enough to afford it."
+    },
+    {
+      "type": "heading",
+      "text": "Acquiring a Base"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 1: Find a Location</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bases come in different categories based on where they are:"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- ----------------------- -------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Location     </strong>Base Cost<strong>  </strong>Maintenance/Month<strong>   </strong>Security     <strong>Description</strong> Type<strong>                                                Risk</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Condemned    2,000 cr       100 cr                  High           An abandoned Structure</strong>                                                          building in a bad neighborhood. Cheap because nobody wants it. Structurally questionable. Might be rift-adjacent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Industrial   5,000 cr       200 cr                  Medium         A repurposed Squat</strong>                                                              warehouse or factory floor. Spacious, ugly, and nobody asks questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Licensed     15,000 cr      500 cr                  Low            A legally Property</strong>                                                           registered living/working space. On the books. Corps know you own it. Protected by whatever passes for property law."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Off-Grid     25,000 cr      300 cr                  Medium         Outside corporate Compound</strong>                                                           territory. No services, no surveillance, no protection. You handle your own security, power, and water."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate    0 cr           0 cr                    None           A corp provides Lease</strong>        (sponsored)                            (monitored)    the space. You provide… loyalty. Flexibility. Whatever they ask. The space is theirs. You’re borrowing it. -------------- -------------- ----------------------- -------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Base Cost</strong> is the upfront purchase/claim price. <strong>Maintenance</strong> is the monthly cost to keep it functional (power, water, basic repairs). If maintenance isn’t paid, the base degrades — one upgrade stops functioning per missed month until only the shell remains."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Security Risk</strong> determines how likely it is that your base gets raided, robbed, or claimed by someone else while you’re in a rift. High risk means rolling on the Base Threat table every time you leave for a mission."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Base Threat Table (High Security Risk):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d6</strong>                              <strong>Event</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Robbed.</strong> Lose 1d6 x 100 cr worth of stored supplies/materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Squatters.</strong> Someone moved in. Resolve socially or violently."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Structural Damage.</strong> One room upgrade disabled until repaired (cost: 50% of original room build cost)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4-5                                 <strong>Nothing.</strong> Your stuff is fine this time."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Opportunity.</strong> Someone left something useful near your place. Gain 1d4 x 50 cr in salvage. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medium risk: Roll only if gone 7+ days. Low risk: Roll only if gone 14+ days. Off-grid: Roll at medium frequency, but threats are different (wildlife, rift instability, scavengers instead of thieves)."
+    },
+    {
+      "type": "heading",
+      "text": "Base Rooms"
+    },
+    {
+      "type": "paragraph",
+      "text": "A base starts as a <strong>shell</strong> — walls, a roof (probably), and not much else. You build it out by adding <strong>rooms</strong>, each of which provides a specific mechanical benefit."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each room has a <strong>Build Cost</strong> (one-time payment for materials and installation) and a <strong>Space</strong> requirement (how much of your base it takes up)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Your base has a <strong>Space Capacity</strong> determined by its location type:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Location Type</strong>                   <strong>Space Capacity</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Condemned Structure                 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industrial Squat                    6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Licensed Property                   5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Off-Grid Compound                   8"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate Lease                     4 (fixed, cannot expand) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Room List"
+    },
+    {
+      "type": "paragraph",
+      "text": "--------------------- ----------------- ----------------- ------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Room</strong>              <strong>Space</strong>         <strong>Build Cost</strong>    <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bunk Room</strong>         1                 500 cr            Equivalent to Apartment lifestyle (no daily housing cost for residents). Sleeps 2."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Upgraded Quarters</strong> 2                 2,000 cr          Equivalent to Upscale lifestyle (+1 stress recovery/day, -2 toxicity dispersal). Sleeps"
+    },
+    {
+      "type": "paragraph",
+      "text": "2."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Workshop</strong>          2                 2,500 cr          Crafting workspace. +1 to Tech checks for crafting/repair. Required for crafting activities during downtime."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Training Room</strong>     1                 1,500 cr          +1 LP from Self-Study skill training. Provides basic equipment for physical and combat training."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medical Bay</strong>       2                 4,000 cr          Scar treatment at base (costs materials, not clinic fees). +1 to Medicine checks performed here. Requires Medicine T2+ to use."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Detox Chamber</strong>     1                 3,000 cr          -3 toxicity dispersal/day (stacks with lifestyle bonuses). Passive while sleeping."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armory</strong>            1                 1,000 cr          Secure gear storage. Weapons and armor stored here cannot be stolen (even on base threat rolls). Holds up to 10 weapons + 5 armor sets."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stash</strong>             1                 750 cr            Hidden compartment. Stores credits and small items off-grid. Not found on casual searches. Holds up to 5,000 cr and 3 small items."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Comm Station</strong>      1                 1,500 cr          Better contract access. +1 to the contract quality roll when seeking new missions. You hear about jobs before they go public."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Library/Archive</strong>   1                 1,000 cr          +1 LP from Self-Study for knowledge skills (Rift Lore, Streetwise). +1 to research checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Social Space</strong>      1                 800 cr            A common area for hosting. +1 to social checks made at your base. Useful for negotiations, recruitment, or impressing contacts."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Garage/Vehicle      2                 4,000 cr          Vehicle storage Bay</strong>                                                     and maintenance. Reduces vehicle repair costs by 50%. Required for owning a vehicle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Monitor</strong>      1                 2,500 cr          Early warning system for rift activity in your area. +1 to Perception checks to detect rift incursions. If near a wild rift, provides 1d4 hours advance warning of surges."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Security System</strong>   1                 2,000 cr          Reduces security risk by one tier (High → Medium → Low). Alarms, locks, basic countermeasures. Doesn’t require space if built into the shell (but still costs build price)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Generator</strong>         1                 1,500 cr          Independent power supply. Maintenance costs reduced by 50 cr/month. Required for Off-Grid compounds. --------------------- ----------------- ----------------- ------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Building a Room"
+    },
+    {
+      "type": "paragraph",
+      "text": "Building a room requires:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Credits</strong> (build cost)  <strong>2. Time</strong> (1 day per Space of the room, minimum 1 day)  <strong>3. A builder</strong> — either a contractor with Tech T2+ or a hired NPC installer (costs 100 cr per Space on top of build cost)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiple rooms can be built simultaneously if you have multiple builders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some rooms require other rooms to function:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Medical Bay</strong> requires a <strong>Generator</strong> if off-grid  • <strong>Detox Chamber</strong> requires a <strong>Generator</strong> if off-grid  • <strong>Rift Monitor</strong> requires a <strong>Comm Station</strong>  • <strong>Vehicle Bay</strong> requires a <strong>Generator</strong>"
+    },
+    {
+      "type": "heading",
+      "text": "Base Upgrades"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond rooms, a base can be upgraded holistically:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Upgrade</strong>             <strong>Cost</strong>                <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Structural            3,000 cr                Base threat table: Reinforcement</strong>                                 treat rolls of 3 (Structural Damage) as 4-5 (Nothing)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Water Filtration</strong>    1,500 cr                All residents get -1 additional toxicity dispersal/day."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Warded Perimeter</strong>    5,000 cr                Rift creatures avoid the area. No ambient rift wildlife encounters near the base. Costs +2 toxicity to the installer."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Off-Grid Relay</strong>      2,000 cr                Comm Station works without corporate network access. Contracts are anonymous. No one can trace your base through your contract activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expanded Foundation</strong> 8,000 cr                +2 Space Capacity. Can only be purchased once. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Sharing a Base"
+    },
+    {
+      "type": "paragraph",
+      "text": "A base can house an entire contractor team. This is the intended use — pooling resources to break the rental cycle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost splitting:</strong> 4 contractors each putting in 500 cr can buy and outfit a Licensed Property with several rooms. Suddenly nobody’s paying 30 cr/day for apartments, and the team has a workshop, armory, and medical bay."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who owns it?</strong> Legally, nobody — contractors don’t have property rights in most corporate territories. Practically, whoever paid for it controls it. This is a narrative tension, not a mechanical rule. Teams that share a base need trust."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>NPC hirelings:</strong> A base can house NPCs — a hired medic, a fence, a mechanic. These NPCs cost a monthly salary but provide services without using contractor AP during downtime."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>NPC Type</strong>            <strong>Monthly Salary</strong>      <strong>Service Provided</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medic</strong>               200 cr/month            Can treat 1 scar per downtime period without contractor needing Medicine skill."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mechanic</strong>            150 cr/month            Free augment maintenance. +1 to crafting checks at base."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fence</strong>               100 cr/month            Sells harvested materials at +10% value. Handles transactions discreetly."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lookout</strong>             75 cr/month             Security risk reduced by one tier. Stacks with Security System."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Broker</strong>              250 cr/month            +2 to contract quality rolls. Access to exclusive contracts. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Base Progression Example"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Starting out (Session 1-5):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Team of 4 earns 500 cr per person per mission. Everyone lives in Capsules (15 cr/day). After downtime expenses, scar treatment, and gear upkeep, each contractor is saving maybe 100-200 cr per mission. The base is a distant goal — something you talk about between jobs."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The grind (Session 6-10):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Missions get harder. Pay increases to 800-1,200 cr per person. The team starts a base fund. After 4-5 missions of disciplined saving, they pool"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>5,000 cr</strong> and buy an Industrial Squat. The shell is ugly but spacious (6 Space). First room: Bunk Room (500 cr, 1 Space). Total investment so far: 5,500 cr."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Now nobody pays rent.</strong> The Bunk Room replaces Apartment lifestyle for free. That’s 300 cr/person saved every downtime period — the base is already paying for itself."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Building out (Session 10-15):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each downtime, the team funnels savings into the base. Armory (1,000 cr), Workshop (2,500 cr), Generator (1,500 cr). Over 5 sessions, they’ve invested another 5,000 cr on top of the initial purchase. The base has 4/6 Space filled. They can craft, store gear securely, and nobody’s paying rent."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Mid-campaign (Session 15-20):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Earnings have increased — 1,500-2,500 cr per person per mission. The team tackles the big upgrades: Medical Bay (4,000 cr, 2 Space — fills the base to 6/6). Now scar treatment happens at home instead of expensive clinics. They start saving for the Expanded Foundation (8,000 cr) to add more rooms."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Late-campaign (Session 20+):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expanded Foundation unlocked (8 Space now). Detox Chamber (3,000 cr), Security System (2,000 cr), Warded Perimeter (5,000 cr). Total base investment over the campaign: roughly 40,000-50,000 cr. That’s dozens of missions worth of saving, spread across the whole party."
+    },
+    {
+      "type": "paragraph",
+      "text": "The base went from “we can’t afford rent“ to “we have a fortress with a medical bay and a fence who sells our rift salvage.“ It took the entire campaign to get there."
+    },
+    {
+      "type": "heading",
+      "text": "Losing a Base"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bases can be lost through:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Failure to pay maintenance</strong> — degradation, then eventual loss  • <strong>Corporate seizure</strong> — if you’re on the wrong side of a corp conflict, they can claim your property (especially Licensed Property)  • <strong>Rift incursion</strong> — wild rifts can open inside or near your base, rendering it uninhabitable  • <strong>Enemy action</strong> — other contractors, rival factions, or creatures can assault and destroy a base"
+    },
+    {
+      "type": "paragraph",
+      "text": "A destroyed base loses all room improvements. The shell may be recoverable at 50% of original location cost. Stored items in an Armory survive if the Armory specifically wasn’t destroyed. Items in a Stash survive unless the base was specifically searched."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a late-campaign threat — something the GM uses when the base has become comfortable enough to hurt losing. The safehouse that was supposed to be your escape from the grind becomes one more thing to protect."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Contractor housing subsidies are not available at this time. For current rental listings in your deployment zone, consult your local broker network. For information on property acquisition in corporate territories, please contact the Department of Non-Citizen Asset Management. Expected wait time: 6-8 business quarters.“</em>"
+    }
+  ]
+}

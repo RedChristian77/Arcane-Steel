@@ -1,0 +1,195 @@
+{
+  "id": "gm-contracts",
+  "title": "Contract Generation",
+  "subtitle": "Random contract tables",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "When you need a contract and don’t have one prepped, roll or pick from the tables below."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Contract Generator"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 1: Employer</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d8</strong>                              <strong>Employer</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   Congo Industries"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   The Crowned Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   Pear Technologies"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   Wellspring Pharma"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   Sentinel Systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   Green Cradle"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   House of Mouse"
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   Independent (free settlement, private client, or another contractor) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 2: Objective</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d10</strong>                             <strong>Objective</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Extraction</strong> — Harvest materials from a rift zone. Payout scales with tonnage."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Clearance</strong> — Kill hostile creatures in or near a rift."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Capture</strong> — Bring something back alive."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Survey</strong> — Map a rift zone, plant sensors, collect data."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Escort</strong> — Protect a person or cargo during transit."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Retrieval</strong> — Recover lost equipment, data, or personnel from a rift."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   <strong>Garrison</strong> — Hold a rift gate or position for a set duration."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   <strong>Sabotage</strong> — Disrupt a rival corp’s operation. Deniable."
+    },
+    {
+      "type": "paragraph",
+      "text": "9                                   <strong>Investigation</strong> — Something went wrong. Find out what."
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  <strong>Special</strong> — Unusual objective (GM’s invention, subplot hook, or roll twice and combine). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 3: Complication</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d8</strong>                              <strong>Complication</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>None</strong> — Straightforward job. Rare, but it happens."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Bad Intel</strong> — The threat level is higher than briefed. T+1 enemies."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Rival Crew</strong> — Another contractor team is after the same objective."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Environmental Hazard</strong> — Toxic spill, rift instability, terrain collapse, weather."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Employer Deception</strong> — The real objective isn’t what they told you."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Civilian Presence</strong> — Non-combatants in the zone. Collateral damage has consequences."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   <strong>Timer</strong> — The rift is closing, the target is moving, or reinforcements are coming. You have X rounds/hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   <strong>Subplot Seed</strong> — Something doesn’t fit. A detail that connects to nothing… yet. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 4: Pay</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Tier</strong>       <strong>Base Pay/Person</strong>     <strong>Threat Level</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 1 (Routine)</strong>    300-500 cr              T1-T2 enemies"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 2 (Standard)</strong>   500-800 cr              T2 enemies, possible T3"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 3 (Hazardous)</strong>  800-1,500 cr            T2-T3 enemies"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 4 (Extreme)</strong>    1,500-3,000 cr          T3-T4 enemies"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 5 (Suicide)</strong>    3,000+ cr               T4 enemies, boss encounters ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiply by modifiers:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Live capture requirement: ×1.5  • Dead zone expedition (Orange+): ×1.5  • Corp-on-corp operation: ×2  • Timer/urgency: ×1.25  • “Off the books“ (no paper trail): ×1.5-2"
+    }
+  ]
+}

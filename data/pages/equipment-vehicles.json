@@ -1,0 +1,651 @@
+{
+  "id": "equipment-vehicles",
+  "title": "Vehicles",
+  "subtitle": "Transport, combat, and maintenance",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Most contractors start on foot. You walk to the rift, walk through it, carry what you can on your back, and walk home. Your hauling capacity is limited to what fits in a pack and what your Chrome lets you lift."
+    },
+    {
+      "type": "paragraph",
+      "text": "A vehicle changes the math."
+    },
+    {
+      "type": "paragraph",
+      "text": "More cargo space means bigger hauls. Bigger hauls mean better payouts. A contractor team with a truck can take harvest contracts that foot-bound crews can’t touch — bulk extraction, specimen transport, heavy salvage. The vehicle pays for itself in two or three good runs."
+    },
+    {
+      "type": "paragraph",
+      "text": "But vehicles cost money to buy, fuel to run, credits to maintain, and space to store. A vehicle without a Garage (see Base of Operations) is a vehicle parked on the street, and street-parked vehicles don’t stay yours for long."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every vehicle has the following stats:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Speed</strong> — How fast it moves. Determines travel time and pursuit/escape checks. Rated 1 (slow) to 10 (absurd)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong> — How much punishment it absorbs before taking system damage. Works like personal armor — subtracts from each damage die rolled against it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hull</strong> — Hit points for the vehicle. When Hull reaches 0, the vehicle is disabled. At negative Hull equal to max Hull, it’s destroyed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cargo</strong> — Cargo capacity in units. Determines how much extra material you can haul from a mission. Each cargo unit translates to bonus harvest value (see Cargo & Hauling below)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fuel</strong> — How many days/missions of operation before refueling. Fuel costs vary by vehicle type."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crew</strong> — How many people it can carry (driver + passengers)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tags</strong> — Special properties (Rift-Rated, Off-Road, Amphibious, Armed, Armored, Stealth, etc.)"
+    },
+    {
+      "type": "heading",
+      "text": "Tier 1: Ground Transportation (Surface Only)"
+    },
+    {
+      "type": "paragraph",
+      "text": "These vehicles cannot enter rifts. They’re for getting to the rift gate, hauling cargo on the surface side, and general transportation between jobs."
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- ---------- ----------- ----------- ---------- ----------- ---------- ---------- ------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle</strong>    <strong>Cost</strong>   <strong>Speed</strong>   <strong>Armor</strong>   <strong>Hull</strong>   <strong>Cargo</strong>   <strong>Fuel</strong>   <strong>Crew</strong>   <strong>Tags</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Junker</strong>     800 cr     4           1           15         4           10 days    4          Off-Road (barely)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contractor   2,000 cr   5           2           20         8           8 days     6          — Van</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hauler       3,500 cr   3           3           30         16          6 days     3          Off-Road Truck</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Runner       500 cr     7           0           8          1           12 days    1          — Bike</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp Sedan</strong> 4,000 cr   6           2           18         3           10 days    5          Stealth (tinted, corp-registered, doesn’t attract attention) -------------- ---------- ----------- ----------- ---------- ----------- ---------- ---------- ------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Junker</strong> — The starter vehicle. Held together with wire, prayers, and whatever adhesive was cheapest. Unreliable but functional. A team can pool for one after 2-3 missions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contractor Van</strong> — The workhorse. Enough cargo for serious hauls, enough seats for a full team, enough armor to not immediately die in an ambush. This is what most working contractor crews drive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hauler Truck</strong> — Pure cargo capacity. Slow, tough, and enormous. For bulk extraction contracts where the payout scales with tonnage. You don’t take this on a stealth job."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Runner Bike</strong> — Fast, cheap, zero cargo. For scouts, couriers, and contractors who value speed over hauling. You’re not bringing back harvest on this — you’re getting somewhere fast or getting away faster."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp Sedan</strong> — Expensive, clean, and forgettable. The Stealth tag means it blends into corporate traffic. Useful for infiltration jobs, social contracts, or any mission where looking like a contractor gets you killed."
+    },
+    {
+      "type": "heading",
+      "text": "Tier 2: Rift-Rated Vehicles"
+    },
+    {
+      "type": "paragraph",
+      "text": "These vehicles are hardened against dimensional transit. Shielded electronics, sealed compartments, reinforced frames that don’t warp in transit. They can enter corporate-gated rifts and (with a brave enough driver) wild rifts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift-rating is what separates “vehicle“ from “rift vehicle.“ An unrated vehicle taken through a rift has a 50% chance of catastrophic failure per transit (roll 1d6: 1-3 = systems fail, vehicle disabled on the other side)."
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- ---------- ----------- ----------- ---------- ----------- ---------- ---------- -------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle</strong>    <strong>Cost</strong>   <strong>Speed</strong>   <strong>Armor</strong>   <strong>Hull</strong>   <strong>Cargo</strong>   <strong>Fuel</strong>   <strong>Crew</strong>   <strong>Tags</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Buggy</strong> 4,000 cr   5           2           18         4           6 days     3          Rift-Rated, Off-Road"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift         8,000 cr   3           4           35         20          4 days     4          Rift-Rated, Hauler</strong>                                                                                       Off-Road"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expedition   12,000 cr  2           5           45         12          8 days     8          Rift-Rated, Crawler</strong>                                                                                      Off-Road, Armored"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Racer</strong> 6,000 cr   8           1           12         2           5 days     2          Rift-Rated"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Specimen     10,000 cr  4           3           25         10 (sealed) 6 days     4          Rift-Rated, Transport</strong>                                                                                    Sealed Cargo (live specimens) -------------- ---------- ----------- ----------- ---------- ----------- ---------- ---------- -------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Buggy</strong> — The entry-level rift vehicle. Light, nimble, enough cargo to make it worthwhile. Most contractor teams save for one of these as their first major purchase."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Hauler</strong> — The money-maker. 20 cargo units means you’re hauling serious tonnage back from the other side. Slow and fuel-hungry, but one good bulk extraction contract covers the fuel cost ten times over."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expedition Crawler</strong> — For deep-rift expeditions lasting days or weeks. Heavy armor, room for a full team plus supplies, and enough Hull to survive hostile terrain. This is what serious outfits drive into unknown dimensions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Racer</strong> — Fast extraction vehicle. When the job goes sideways and you need to get to the gate <em>now</em>. Minimal cargo, maximum speed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Specimen Transport</strong> — Sealed cargo bay with containment fields for live specimens. Capture contracts require this or equivalent containment — you can’t stuff a live rift creature in the back of a van. Well, you can. Once."
+    },
+    {
+      "type": "heading",
+      "text": "Tier 3: Specialty & Heavy Vehicles"
+    },
+    {
+      "type": "paragraph",
+      "text": "These are endgame investments or corporate-tier assets that contractors might acquire, steal, or be loaned for specific contracts."
+    },
+    {
+      "type": "paragraph",
+      "text": "--------------- ---------- ----------- ----------- ---------- ----------- ---------- ---------- -------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle</strong>     <strong>Cost</strong>   <strong>Speed</strong>   <strong>Armor</strong>   <strong>Hull</strong>   <strong>Cargo</strong>   <strong>Fuel</strong>   <strong>Crew</strong>   <strong>Tags</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Technical</strong>   6,000 cr   4           3           25         6           6 days     4          Armed (mounted weapon), Off-Road"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift          10,000 cr  4           3           25         6           5 days     4          Rift-Rated, Technical</strong>                                                                                     Armed, Off-Road"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>APC</strong>         20,000 cr  3           6           50         8           4 days     10         Rift-Rated, Armored, Armed"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aerial        15,000 cr  9           1           15         4           3 days     4          Rift-Rated, Skiff</strong>                                                                                         Flight"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mobile Base</strong> 35,000 cr  2           5           60         6           3 days     8          Rift-Rated, Armored, Off-Road, counts as 2-Space base shell --------------- ---------- ----------- ----------- ---------- ----------- ---------- ---------- -------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Technical</strong> — A truck with a gun bolted to the bed. The weapon mount can hold one Heavy weapon that any passenger can operate. A favorite of contractors who expect trouble on the road."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Technical</strong> — Same concept, dimensional-transit rated. For when you need firepower on the other side."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>APC</strong> — Armored personnel carrier. Corporate military hardware that occasionally falls off trucks or gets “liberated“ from conflict zones. A crew of 10 in a rift-rated APC can take on contracts that no foot-based team would survive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aerial Skiff</strong> — Magitech flight platform. Fast, fragile, and expensive to fuel (runs on refined rift energy, which means toxicity exposure during refueling). For aerial recon, rooftop extraction, or getting over terrain that ground vehicles can’t handle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mobile Base</strong> — A rolling fortress. Counts as a 2-Space base shell with Off-Grid location type properties. Can install two base rooms inside it. For nomadic contractor crews who don’t want a fixed location. The ultimate “we live in the truck“ setup."
+    },
+    {
+      "type": "heading",
+      "text": "The Cargo Loop"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cargo capacity directly translates to mission profit. When completing a harvest or salvage contract:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>On foot (no vehicle):</strong> Base contract payout only. You carry what fits in your pack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>With vehicle cargo:</strong> For every <strong>4 cargo units</strong> available, gain a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>+1 Bonus Harvest Roll</strong> at the end of the mission. Each Bonus Harvest Roll uses your normal harvesting mechanics but represents additional material you had room to bring back."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available Cargo</strong>                 <strong>Bonus Harvest Rolls</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-3                                 0 (too small to matter for bulk)"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-7                                 +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "8-11                                +2"
+    },
+    {
+      "type": "paragraph",
+      "text": "12-15                               +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "16-19                               +4"
+    },
+    {
+      "type": "paragraph",
+      "text": "20+                                 +5 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sealed Cargo (Specimen Transport)</strong> adds +500 cr to capture contract payouts — live specimens delivered in proper containment are worth more than ones crammed in a crate."
+    },
+    {
+      "type": "heading",
+      "text": "Cargo Economics Example"
+    },
+    {
+      "type": "paragraph",
+      "text": "A team with a <strong>Contractor Van (8 cargo)</strong> on a harvest run:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Base contract payout: 600 cr per person  • Bonus Harvest Rolls: +2 (from 8 cargo units)  • Each bonus roll averages \\~150 cr in materials  • Extra income: \\~300 cr  • Van fuel cost for the trip: \\~50 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "Net benefit: +250 cr per mission from having the van. Over 8 missions, that’s 2,000 cr — the van paid for itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "A team with a <strong>Rift Hauler (20 cargo)</strong> on the same run:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Bonus Harvest Rolls: +5  • Extra income: \\~750 cr  • Fuel cost: \\~80 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "Net benefit: +670 cr per mission. The Hauler (8,000 cr) pays for itself in \\~12 missions. After that, it’s pure profit."
+    },
+    {
+      "type": "heading",
+      "text": "Fuel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicles consume fuel. Fuel costs depend on type:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fuel Type</strong>           <strong>Cost per Refuel</strong>     <strong>Used By</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard</strong>            50 cr                   Tier 1 ground vehicles"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift-Grade</strong>          150 cr                  Rift-rated vehicles"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Magitech Cell</strong>       300 cr                  Aerial Skiff, specialty vehicles ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "A refuel restores the vehicle to maximum fuel days. Partial refuels are possible at proportional cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift fuel note:</strong> Rift-grade fuel contains refined dimensional energy. Refueling a rift-rated vehicle exposes the mechanic to +1 toxicity per refuel. Another hidden cost of the rift economy."
+    },
+    {
+      "type": "heading",
+      "text": "Maintenance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicles degrade without maintenance. After every <strong>3 missions</strong> (or 30 days, whichever comes first), a vehicle requires maintenance or suffers degradation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Maintenance cost:</strong> 10% of vehicle purchase price per service."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle</strong>                         <strong>Maintenance Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Junker                              80 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor Van                      200 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift Buggy                          400 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift Hauler                         800 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expedition Crawler                  1,200 cr ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skipping maintenance:</strong> Each missed maintenance interval applies one of the following (GM’s choice or roll 1d4):"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d4</strong>                              <strong>Degradation</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Fuel Leak.</strong> Fuel duration halved until repaired."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Hull Rot.</strong> -5 max Hull until repaired."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>System Glitch.</strong> Speed -1 until repaired. Random stalling on a roll of 1 on any vehicle check."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Cargo Compromise.</strong> Cargo capacity halved (unsecured bay, broken seals). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Repairs cost 50% of the maintenance cost and require a Tech check (DC 7) or a mechanic NPC."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Base Garage bonus:</strong> Vehicles stored in a Garage/Vehicle Bay (base room) have maintenance costs reduced by 50%. A team Mechanic NPC further reduces this — effectively making routine maintenance free if you have both."
+    },
+    {
+      "type": "paragraph",
+      "text": "Without a <strong>Garage/Vehicle Bay</strong> (base room, 4,000 cr, 2 Space), your vehicle is parked on the street, in an alley, or wherever you can hide it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street-parked vehicles</strong> are at risk while you’re on mission:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Storage Situation</strong>               <strong>Risk</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Garage/Vehicle Bay</strong>              Safe. No risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Paid parking (corp lot)</strong>         10 cr/day. Low risk. Roll 1d6 per mission: theft on a 1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street-parked (good area)</strong>       Free. Roll 1d6 per mission: theft/damage on 1-2."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street-parked (bad area)</strong>        Free. Roll 1d6 per mission: theft/damage on 1-3. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Theft means the vehicle is gone. Damage means 1d4 degradation rolls (see maintenance table). Insurance doesn’t exist for contractors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicles aren’t mechs — this isn’t a vehicle combat game. But sometimes you’re driving through a rift zone and something attacks the truck."
+    },
+    {
+      "type": "heading",
+      "text": "Attacking a Vehicle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attacks against vehicles work like attacks against characters:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Roll accuracy vs the vehicle’s <strong>Evasion</strong> (base 3, modified by Speed: +1 Evasion per 2 Speed above 4)  • Hits roll damage dice, subtract vehicle <strong>Armor</strong> per die  • Total damage reduces <strong>Hull</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vehicle Speed</strong>                   <strong>Vehicle Evasion</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-4                                 3"
+    },
+    {
+      "type": "paragraph",
+      "text": "5-6                                 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "7-8                                 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "9-10                                6 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stationary vehicles</strong> have Evasion 2. Easy targets."
+    },
+    {
+      "type": "heading",
+      "text": "Hull Damage Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hull %</strong>                          <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "75%                                 No effect. Cosmetic damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "50%                                 <strong>Shaken.</strong> Speed -1. Passengers take -1 to checks made inside the vehicle."
+    },
+    {
+      "type": "paragraph",
+      "text": "25%                                 <strong>Critical.</strong> Speed halved. One random system disabled (cargo bay, weapon mount, sealed compartment)."
+    },
+    {
+      "type": "paragraph",
+      "text": "0%                                  <strong>Disabled.</strong> Vehicle stops. Cannot move under its own power. Repairable in the field with Tech check (DC 10) and 1 hour."
+    },
+    {
+      "type": "paragraph",
+      "text": "Negative max Hull                   <strong>Destroyed.</strong> Vehicle is scrap. Passengers take 2d6 damage (Armor applies). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Ramming"
+    },
+    {
+      "type": "paragraph",
+      "text": "A driver can ram a target as an attack. Roll d8 + Speed bonus for accuracy. Damage = 1d10 per 2 Speed (round down). The vehicle also takes damage equal to half the damage dealt."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ramming a creature smaller than the vehicle: automatic hit, damage = Speed x 2, vehicle takes 1d6 damage."
+    },
+    {
+      "type": "heading",
+      "text": "Mounted Weapons"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicles with the <strong>Armed</strong> tag have a weapon mount. One passenger (not the driver) can fire the mounted weapon on their turn. Mounted weapons use the passenger’s normal attack stats."
+    },
+    {
+      "type": "paragraph",
+      "text": "The weapon mount holds one weapon. Swapping a mounted weapon takes a full downtime day and a Tech check."
+    },
+    {
+      "type": "heading",
+      "text": "Chase Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "When pursuit matters, use opposed <strong>Speed checks:</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Driver rolls <strong>2d6 + (Vehicle Speed / 2, rounded down) + Reflex bonus.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Higher result gains or maintains distance. Three consecutive wins = escape or catch."
+    },
+    {
+      "type": "paragraph",
+      "text": "Terrain modifiers:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Open road:</strong> No modifier  • <strong>Off-road (with Off-Road tag):</strong> No modifier  • <strong>Off-road (without tag):</strong> -2  • <strong>Rift terrain:</strong> -1 (unpredictable ground)  • <strong>Urban/tight spaces:</strong> Larger vehicles -2, bikes/buggies +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vehicles can be modified with aftermarket upgrades. Each vehicle can hold a number of upgrades equal to its <strong>Tier</strong> (Tier 1 = 1 upgrade, Tier 2 = 2, Tier 3 = 3)."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Upgrade</strong>             <strong>Cost</strong>                <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reinforced Hull</strong>     1,500 cr                +10 max Hull."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extra Plating</strong>       1,000 cr                +1 Armor. Speed -1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Turbo Kit</strong>           1,200 cr                +2 Speed. Fuel duration -2 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expanded Cargo Bay</strong>  800 cr                  +4 Cargo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Shielding</strong>      3,000 cr                Converts a Tier 1 vehicle to Rift-Rated."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon Mount</strong>        2,000 cr                Adds Armed tag. One weapon hardpoint."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sealed Cargo Module</strong> 1,500 cr                Adds Sealed Cargo (live specimens). Replaces 4 Cargo with 4 Sealed Cargo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stealth Kit</strong>         2,500 cr                Adds Stealth tag. Dampened engine, signal scrambler, nondescript exterior."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medical Rack</strong>        1,000 cr                Can stabilize one downed contractor during transit. +1 to field Medicine checks in vehicle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Smuggler              600 cr                  Hidden storage (2 Compartment</strong>                                   Cargo, undetectable on casual search)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Air Filtration        2,000 cr                Sealed cabin with System</strong>                                        filtered air. Toxicity tick rate halved for all occupants while inside the vehicle. Requires filter replacement every 5 missions (200 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Advanced Air          5,000 cr                Military-grade sealed Filtration</strong>                                    environment. Toxicity tick rate reduced to 1/4 for all occupants. Filter replacement every 3 missions (500 cr). ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Shielding</strong> is the big one — it lets a team take their existing surface vehicle through rifts without the 50% catastrophic failure chance. At 3,000 cr it’s cheaper than buying a new Rift Buggy (4,000 cr), but you’re putting rift shielding on a vehicle that wasn’t designed for it. GM may rule that jury-rigged shielding has a small failure chance (roll 1d20 per transit: failure on a 1)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Vehicle registration is mandatory in all corporate zones. Unregistered vehicles may be seized, impounded, or repurposed. ’Repurposed’ in this context means ’the vehicle is now corporate property and so is anything inside it, including you if you’re sitting in it at the time of seizure.’ Register your vehicle. It’s easier than the alternative.“</em>"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "rift-economy",
+  "title": "Casting Economy",
+  "subtitle": "Costs and resource management",
+  "content": [
+    {
+      "type": "heading",
+      "text": "How Fast Do You Accumulate Toxicity?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Channeler in a typical combat (4-6 rounds):"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Style</strong>               <strong>Toxicity Gained</strong>     <strong>Description</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Conservative</strong>        +3-4                    2 Flickers + 1 Surge. Support role. Minimal risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard</strong>            +5-8                    1-2 Flickers/round + 2 Surges. Active caster. Meaningful contribution."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aggressive</strong>          +8-12                   Flickers every round + Surges every round + 1 Torrent. You’re going hard."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nuclear</strong>             +12-20                  Everything above + a Cataclysm. You’re ending the fight or ending yourself. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Default toxicity max: 20.</strong> A Channeler with Grit 8 (+4 max) and Toxicity Filter (+2 max) has 26 max. Going aggressive for one fight costs \\~10 toxicity = \\~40% of their max. Two aggressive combats in one mission = 80%. One more and they’re at harvest threshold."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The math creates natural pacing.</strong> A Channeler CAN go nuclear every fight. They just can’t do it twice. The toxicity track self-regulates — you have to decide which fights deserve your full power and which you coast through with Flickers and your sidearm."
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity vs Combat Effectiveness Curve"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tox %</strong>               <strong>Casting Status</strong>      <strong>The Decision</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "0-25%                   Full power. No          Easy. No tension. restrictions. Cast freely."
+    },
+    {
+      "type": "paragraph",
+      "text": "25-50%                  Still effective.        Do you keep casting or Scanner flags. Skin     switch to weapons? glows."
+    },
+    {
+      "type": "paragraph",
+      "text": "50-70%                  Involuntary discharges. Every spell risks Interface penalty.      collateral. Team asks “are you sure?“"
+    },
+    {
+      "type": "paragraph",
+      "text": "70-85%                  Allies gain toxicity    The team is paying for from proximity. -1 all  your power. Is it worth checks.                 it?"
+    },
+    {
+      "type": "paragraph",
+      "text": "85-100%                 Maximum power but       You’re a weapon. Are extraction teams are    you still a person? hunting you. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Channeler who stays below 50% is a reliable team member. The Channeler who pushes past 70% is a liability who also happens to be the most dangerous thing in the room. That tension is the entire class fantasy."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference Card"
+    },
+    {
+      "type": "heading",
+      "text": "Costs at a Glance"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- ---------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>       <strong>Toxicity</strong>   <strong>AP/Act</strong>     <strong>HP</strong>         <strong>Other</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flicker        +1             None (free     —            2/round max action)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Surge          +1-2           Act            —            —"
+    },
+    {
+      "type": "paragraph",
+      "text": "Torrent        +2-4           Act            2-5 HP         —"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cataclysm      +5-8           Act            4-8 HP         Permanent Consequence + 1/mission"
+    },
+    {
+      "type": "paragraph",
+      "text": "Improvised     Tier cost +    Same as tier   Same as tier   Worse misfires surcharge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unfocused      Tier cost + 1  Same as tier   Tier HP +2     Misfire on 6- (T3/T4)        AND 7 -------------- -------------- -------------- -------------- ---------------"
+    },
+    {
+      "type": "heading",
+      "text": "Casting Roll"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>2d6 + Stat Bonus (Interface/Grit/Edge based on pattern)</em>  • <strong>10+</strong> = Full effect  • <strong>7-9</strong> = Partial effect (reduced damage/duration/area)  • <strong>6-</strong> = Misfire (roll on misfire table, still pay costs)  <em>“Applied Dimensional Resonance training is available through select corporate programs (enrollment fee: 2,000 cr, plus mandatory toxicity insurance waiver). Unauthorized channeling carries a minimum penalty of forced detoxification and a maximum penalty of involuntary harvesting. Please channel responsibly.“</em>"
+    }
+  ]
+}

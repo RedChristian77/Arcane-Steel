@@ -1,0 +1,655 @@
+{
+  "id": "creation-finishing",
+  "title": "Finishing Touches",
+  "subtitle": "Stats, skills, derived values, dossier",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "After applying your Résumé modifiers, you have <strong>3 Flex Points</strong> (or 2/4 if Custom Résumé with wealth trade-offs)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Rules:</em>  • Each Flex Point = +1 to any stat  • Maximum +2 to any single stat from Flex Points  • No stat can exceed <strong>10</strong> after all modifiers  • No stat can go below <strong>2</strong> after all modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Corp Security with 3 Flex Points:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------- ----------- ------------ ----------- ----------- -----------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat</strong>    <strong>Base</strong>    <strong>Résumé</strong>   <strong>Flex</strong>    <strong>Final</strong>   <strong>Bonus</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chrome      4           +2           +1          <strong>7</strong>       +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflex      4           +1           +1          <strong>6</strong>       +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grit        4           +1           +1          <strong>6</strong>       +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Interface   4           -1           —         <strong>3</strong>       +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Edge        4           —          —         <strong>4</strong>       +2 ----------- ----------- ------------ ----------- ----------- -----------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Bonus Reminder:</strong> Every 2 points = +1 bonus. (2-3 = +1, 4-5 = +2, 6-7 = +3, 8-9 = +4, 10 = +5)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Choose:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>3 skills at T1 (Familiar)</strong> — you can attempt these checks without penalty  • <strong>1 skill at T2 (Trained)</strong> — choose one <strong>feature</strong> from that skill’s T2 list  • Your <strong>Résumé bonus skill</strong> is free and doesn’t count against these picks"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>That’s 4 skills at T1 + 1 at T2 total</strong> (counting the Résumé freebie)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What’s a Feature?</strong> Each skill tier (T2 and above) lets you pick a special ability called a feature — a specific mechanical benefit unique to that skill. For example, Tech T2 features include Field Repair (fix broken gear in combat) and Vehicle Specialist (advantage on driving checks). Features are detailed in the Skills section. When choosing your T2 skill, flip ahead to see what features are available — the feature you pick shapes how that skill works for your character."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Remember:</strong> Gated skills (🔒 Hacking, Medicine, Crafting, Rift Lore) cannot be attempted without at least T1. If nobody on the team has Medicine, nobody can provide medical treatment. Plan accordingly."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The 12 Skills:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skill</strong>               <strong>Primary Stat</strong>        <strong>Gated?</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech                    Interface               No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hacking                 Interface               🔒 Yes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medicine                Interface               🔒 Yes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Negotiate               Edge                    No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Awareness               Edge                    No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Athletics               Chrome/Reflex           No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift Lore               Interface               🔒 Yes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stealth                 Reflex/Edge             No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Streetwise              Edge                    No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Resilience              Grit                    No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Harvesting              Interface/Grit          No"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting                Interface/Chrome        🔒 Yes ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Calculate these from your final stats:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Value</strong>                           <strong>Formula</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HP</strong>                              12 + (Grit × 2)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evasion</strong>                         3 + Edge bonus (capped by armor’s Evasion Cap)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong>                           From equipped armor (+ augments/mutations)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Max</strong>                    20 (+ modifiers from Grit 6+, augments, gear)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity</strong>                        0 (or 5 if Rift-Touched)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars</strong>                           0 (or 2 if Scarred Veteran)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stress</strong>                          0"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Credits</strong>                         Résumé starting credits + Kit credits + trait modifiers - gear purchases ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Corp Security with Chrome 7, Reflex 6, Grit 6, Interface 3, Edge 4:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• HP: 12 + (6 × 2) = <strong>24</strong>  • Evasion: 3 + 2 (Edge bonus) = <strong>5</strong> (capped by Contractor Standard armor at 6, so 5 is fine)  • Armor: <strong>4</strong> (Contractor Standard)  • Toxicity Max: <strong>20</strong> (Grit 6 = +2, so <strong>22</strong>)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your Kit provides starting weapons and armor. Your remaining credits can be spent on:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Category</strong>            <strong>Examples</strong>            <strong>Price Range</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Additional Weapons</strong>  See weapon compendium   50-800 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor Upgrade</strong>       Swap Kit armor for      150-600 cr something else"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gear</strong>                Healing stims,          5-200 cr scrubbers, smoke grenades, rations"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augments</strong>            Buy additional T1       150-350 cr augments to install later"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Workshop Kits</strong>       Chrome Kit (400 cr),    200-500 cr Splice Kit (500 cr), Field Kit (200 cr)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Savings</strong>             Keep credits for        — downtime living costs, training, treatment ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recommended:</strong> Keep at least <strong>100 cr</strong> in reserve. You’ll need it for living costs during your first downtime. A contractor who spends every credit on gear and then can’t afford rent is a contractor sleeping on the street."
+    },
+    {
+      "type": "paragraph",
+      "text": "The character sheet has a Dossier tab. Fill in:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Name:</strong> What you go by. Might not be your real name.  • <strong>Contractor Handle:</strong> Your call sign. Optional but most teams use them.  • <strong>Résumé:</strong> Your pre-contractor career.  • <strong>Kit:</strong> Your specialization entry point.  • <strong>Why You’re Here:</strong> Why did you become a contractor? Debt? Curiosity? Running from something? Got fired from a corner office and this is all that’s left?  • <strong>What You’re Afraid Of:</strong> Everyone’s afraid of something. In this line of work, it’s usually something specific.  • <strong>What You Want:</strong> What’s the endgame? Enough money to retire? Answers about the rifts? Revenge? To feel something?  • <strong>Notes:</strong> Anything else. Relationships, debts, enemies, habits, the name of your favorite noodle shop."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Build Examples"
+    },
+    {
+      "type": "heading",
+      "text": "“Bones“ — The Field Doc"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step</strong>                            <strong>Choice</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Résumé                              Combat Medic (Military) — Grit +2, Interface +1, Chrome +1, Edge -1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flex                                +2 Interface, +1 Grit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final Stats                         Chrome 5, Reflex 4, Grit 7, Interface 7, Edge 3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kit                                 Technician (Systems tree, Neural Jack augment, Burst Pistol + Neural Probe + Corp Tactical)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skills                              Medicine T2 (Combat Medic feature), Tech T1, Rift Lore T1, Awareness T1. Free: Medicine T1 (résumé — already T2, so take Harvesting T1 instead)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trait                               None"
+    },
+    {
+      "type": "paragraph",
+      "text": "Derived                             HP: 24, Evasion: 4 (capped at 4 by Corp Tactical), Armor: 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credits                             400 cr start. Buys: Splice Kit (500 cr) — nope, too expensive. Buys: 3× Healing Stim (150 cr), Rift Scanner (200 cr). Remaining: 50 cr. Tight. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "“Razor“ — The Dual-Wield Berserker"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step</strong>                            <strong>Choice</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Résumé                              Street Rat — Edge +2, Reflex +1, Grit +1, Interface -1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flex                                +2 Chrome, +1 Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final Stats                         Chrome 6, Reflex 5, Grit 5, Interface 3, Edge 7"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kit                                 Dancer (Dancer tree, Ambidextrous Wiring, 2× Precision Blade, Light Weave)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skills                              Athletics T2 (Sprinter feature), Stealth T1, Awareness T1, Grit Check T1. Free: Streetwise T1 (résumé)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trait                               None"
+    },
+    {
+      "type": "paragraph",
+      "text": "Derived                             HP: 10, Evasion: 6 (uncapped by Light Weave), Armor: 2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credits                             250 cr start. Buys: 3× Healing Stim (150 cr), Smoke Grenade ×2 (60 cr). Remaining: 40 cr. Street Rat broke as usual. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "“Archive“ — The Genius Skill Monkey"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step</strong>                            <strong>Choice</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Résumé                              Lab Technician — Interface +2, Edge +1, Grit +1, Chrome -1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flex                                +1 Interface, +1 Edge, +1 Grit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final Stats                         Chrome 3, Reflex 4, Grit 6, Interface 7, Edge 6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kit                                 Technician (Systems tree, Neural Jack, Burst Pistol + Neural Probe + Corp Tactical)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skills                              Tech T2 (Chrome Assistant feature), Crafting T1, Hacking T1. Free: Medicine T1 (résumé). (Only 2 T1 picks because Genius costs one)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trait                               <strong>Genius</strong> (+2 to learning rolls, stress management required)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Derived                             HP: 11, Evasion: 5 (capped at 4 by Corp Tactical), Armor: 5"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credits                             500 cr start. Buys: Field Kit (200 cr), 3× Healing Stim (150 cr). Remaining: 150 cr. Saving for Instructor sessions. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Archive’s plan:</strong> Rush Tech T3 (Chrome Installer) + Medicine T2 (Splice Assistant) via Genius-accelerated learning. Within 5-6 downtime periods, they’ll be installing augments for the team. Within 10-12, they’ll be the full body shop. The team invests in Archive early, and Archive becomes the team’s infrastructure. Long game. Big payoff. Lots of stress."
+    },
+    {
+      "type": "heading",
+      "text": "“Six“ — The Rift-Touched Channeler"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step</strong>                            <strong>Choice</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Résumé                              Rift Surveyor — Interface +2, Grit +1, Reflex +1, Edge -1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flex                                +2 Interface, +1 Grit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Final Stats                         Chrome 4, Reflex 5, Grit 6, Interface 8, Edge 3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Kit                                 Channeler (Rift tree, Rift Attunement, Rift Staff + Combat Knife + Rift-Walker Suit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skills                              Rift Lore T2 (Creature Analyst feature), Harvesting T1, Grit Check T1, Medicine T1. Free: Rift Lore T1 (résumé — already T2, so take Awareness T1 instead)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trait                               <strong>Rift-Touched</strong> (5 starting Toxicity + free involuntary Standard mutation)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Derived                             HP: 24, Evasion: 4, Armor: 3, Toxicity: 5/23 (base 20 + Grit 6 bonus + Rift-Walker +1)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credits                             350 cr start. Buys: Toxicity Scrubber (150 cr), 2× Healing Stim (100 cr). Remaining: 100 cr. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Six starts at 5/23 toxicity</strong> with one involuntary mutation already warping their body. They’re already on the corp’s radar. Every rift mission pushes them closer to the thresholds. But Interface 8 (+4 bonus) means their magic hits like a freight train. The team’s nuclear option — and everyone knows it."
+    },
+    {
+      "type": "heading",
+      "text": "How You Get Stronger"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are no levels. There is no XP track. There is no number that ticks up after each session telling you it’s time to pick a new ability."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Your credits are your experience points.</strong> Every credit you earn is a choice:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Spend it on an augment → you get stronger  • Spend it on scar treatment → you stay alive  • Spend it on rent → you have somewhere to sleep  • Spend it on ammo → you can fight next mission  • Spend it on the base → the whole team benefits long-term  • Save it → you’re closer to the next big purchase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Progression in Arcane Steel is <em>economic</em>. You advance by surviving missions, earning pay, and choosing where to invest. A contractor who spends every credit on augments is powerful but lives on the street with untreated scars. A contractor who plays it safe has a nice apartment and zero upgrades. Neither extreme works. The game lives in the tension between them."
+    },
+    {
+      "type": "heading",
+      "text": "Stat Growth"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your starting stats aren’t your final stats. Contractors grow through training, experience, and (for those who push past human limits) augmentation. Stats advance through three bands, each with its own method:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Band 1: Training (Stats 1-6)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any stat can be trained up to 6 through downtime investment. This is the slow, reliable method — grinding reps at the range, studying at a terminal, working with Ratch at the Yard, sparring at the Grindhouse."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Current Stat</strong>        <strong>Training Cost</strong>       <strong>AP Required</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 → 2                   100 cr                  6 AP (2 days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "2 → 3                   150 cr                  9 AP (3 days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "3 → 4                   200 cr                  12 AP (4 days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 → 5                   300 cr                  18 AP (6 days)"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 → 6                   500 cr                  30 AP (10 days) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Soft cap: 6.</strong> Training alone cannot push a stat past 6. Six is <em>competent</em>. Six is “good at this.“ Beyond 6 requires experience that can’t be taught in a gym."
+    },
+    {
+      "type": "paragraph",
+      "text": "Training is cumulative — you don’t need to do all the AP in one stretch. Track training progress between sessions. A player who dedicates 3 AP per downtime period to training Chrome from 4 to 5 finishes in 6 downtime periods (18 AP total)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This is how a negotiator shores up weaknesses.</strong> The Edge 7 / Chrome 3 character trains Chrome to 5 over a few weeks of downtime. They’re still not a bruiser, but they can carry their own gear and wear real armor. The cost: 450 cr and 27 AP across the campaign. That’s a meaningful investment that competes with augments, skills, and base contributions."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Band 2: Mission Credits (Stats 7-10)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond 6, improvement comes from doing the work. Certain missions push you past what training can achieve — the contract that forces you to dig deeper, fight harder, think faster, or talk your way out of something impossible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Credits</strong> are awarded by the GM at the end of qualifying missions. Not every mission qualifies — routine extraction doesn’t test your limits. The contracts that earn Stat Credits are the ones that push the crew:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Completing a contract above the crew’s usual threat tier  • Surviving a situation where the odds were genuinely against them  • Achieving a mission objective through exceptional skill or creativity  • Story-significant missions that change the crew’s situation"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rate guidance for GMs:</strong> Roughly 1 Stat Credit per 3-5 sessions. Enough to matter, rare enough to feel earned. Over a 20-session campaign, that’s 4-7 Stat Credits total."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>A Stat Credit is a coupon.</strong> When the GM awards one, the player receives it and holds it. They can cash it in at any time for <strong>+1 to any stat (max 10).</strong> The credit doesn’t expire. A player can:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Spend it immediately to patch a weakness from 3 to 4  • Hold it until they’ve trained a stat to 6, then push to 7  • Stockpile 2-3 credits and dump them all at once for a dramatic jump  • Save it for the perfect moment when one stat point changes everything"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Installation:</strong> Stat Credits are cashed in at a clinic during downtime. No installation fee — this isn’t surgery, it’s acknowledging growth that already happened in the field. Vasik updates your file. The number changes. You’re better than you were."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Secondary Market:</strong> Stat Credits are transferable. A contractor who earned a credit but doesn’t need it can sell it, trade it, or gift it. The price is whatever the market bears — expect 500-1,000 cr depending on demand, scarcity, and how good the buyer’s Face is at negotiating. Finding a seller requires asking around (Streetwise check at the Grindhouse, the Market, or through broker contacts). Finding a seller with a <em>fair</em> price requires Edge."
+    },
+    {
+      "type": "paragraph",
+      "text": "This means Stat Credits feed back into the economic loop. Need a point but can’t wait to earn one? Find a seller. Can’t afford the seller’s price? Take a contract. One more job. Always one more job."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Natural cap: 10.</strong> Stats cannot exceed 10 through training or mission credits. Ten is peak human — the absolute ceiling of what the unaugmented body and mind can achieve. Beyond 10 requires chrome."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Band 3: Augmented Stats (Stats 11-15)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Augments can push stats past human limits. This is the domain of specialized augment modifications — not standard tree augments, but dedicated <strong>Stat Enhancement Augments</strong> that rewrite your biology."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost:</strong> Stat Enhancement Augments cost 1,500 cr per point above 10, plus installation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Disruption:</strong> Every point above 10 causes <strong>-2 to another stat</strong> of the player’s choice (minimum). The body can only handle so much enhancement before something else gives. The augments that push your Chrome to 12 displace something — maybe your reflexes slow as your muscles bulk beyond natural proportions, or your social intuition dulls as your neural pathways rewire for pure physical processing."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Enhanced Stat</strong>       <strong>Disruption            </strong>Net Effect<strong> (minimum)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "11                      -2 to one other stat    +1 net stat point, but lopsided"
+    },
+    {
+      "type": "paragraph",
+      "text": "12                      -4 total (spread across Specialist territory 1-2 stats)"
+    },
+    {
+      "type": "paragraph",
+      "text": "13                      -6 total (spread across Extreme specialist 1-3 stats)"
+    },
+    {
+      "type": "paragraph",
+      "text": "14                      -8 total (spread across Savant. Crippled 2-4 stats)              elsewhere."
+    },
+    {
+      "type": "paragraph",
+      "text": "15                      -10 total (spread       Inhuman. The stat costs across 2-4 stats)       are brutal. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> A Chrome 10 contractor wants Chrome 12. Cost: 3,000 cr (1,500 × 2). They assign the -4 disruption: -2 Edge, -2 Interface. Their social skills and rift attunement suffer as their body becomes increasingly machine. They swing harder than anyone alive. They can’t read a room or cast a pattern anymore."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> An Interface 10 channeler pushes to Interface 13. Cost: 4,500 cr. Disruption: -6 total. They assign -2 Chrome, -2 Reflex, -2 Grit. They’re the most powerful rift caster on the continent. A stiff breeze could kill them. They need the team more than ever."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Disruption cannot reduce a stat below 1.</strong> If you’re already at stat 2 and assign -2, it drops to 1 (minimum). You cannot zero out a stat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The trade-off is the point.</strong> Pushing past 10 is a statement about who your character is becoming. The Chrome 14 brute isn’t a well-rounded contractor anymore — they’re a weapon with legs, dependent on their crew for everything their atrophied stats can’t handle. The team doesn’t just benefit from specialization; they become essential to the specialist’s survival."
+    },
+    {
+      "type": "heading",
+      "text": "Stat Growth Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Band</strong>          <strong>Range</strong>         <strong>Method</strong>        <strong>Cap</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Training</strong>      1-6               Downtime AP +     Soft cap 6 credits"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mission         7-10              GM-awarded,       Natural cap 10 Credits</strong>                           player-timed"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augmented</strong>     11-15             Stat Enhancement  Hard cap 15 Augments, -2 disruption per point ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Starting stats (average 5) → trained to 6 → earned to 10 → augmented to 15.∗∗ Each band requires more investment, more sacrifice, and more commitment. The journey from 5 to 6 costs time and money. The journey from 6 to 10 costs missions and courage. The journey from 10 to 15 costs ∗yourself.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "What “Leveling Up“ Looks Like"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Stat Growth</strong> — train weaknesses, earn mission credits, push limits with augments.  • <strong>Augment Trees</strong> — buy augments, climb tiers, unlock mastery passives. This is your primary power progression.  • <strong>Skill Training</strong> — spend downtime AP on learning. Skills advance through the LP system (see Downtime: Learning & Advancement).  • <strong>Gear</strong> — better weapons, better armor, a vehicle that hauls more. Bought with credits.  • <strong>The Base</strong> — long-term team investment that compounds returns over the campaign."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The result:</strong> Two contractors who started identical can look completely different by session 10. One went deep into Fury with six augments and lives in a Capsule. The other spread across three trees, invested in the team’s base, and has a Workshop. One trained their Edge to 6 and cashed two mission credits to push to 8, becoming the crew’s face. The other dumped three credits into Chrome and is eyeing the 11+ augments. Both are “level 10“ in a sense. Neither looks anything like the other."
+    },
+    {
+      "type": "paragraph",
+      "text": "There’s no level cap. There’s just how much you can afford before the world kills you."
+    },
+    {
+      "type": "heading",
+      "text": "Session Zero Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before the first session, the table should establish:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• \\[ \\] <strong>Team composition:</strong> Does someone have Medicine? Hacking? Does the team have a plan for scar treatment and augment installation, or are they relying on NPCs?  • \\[ \\] <strong>Economic baseline:</strong> What lifestyle can the team afford? Are they pooling credits for shared resources?  • \\[ \\] <strong>Contract source:</strong> Who’s their main employer? Freelance? Corp-attached? Underground?  • \\[ \\] <strong>Tone alignment:</strong> How dark? How funny? How much body horror vs corporate comedy?  • \\[ \\] <strong>Mission frequency:</strong> How often do contracts come? Every few days? Weekly? This sets the economy’s pace.  • \\[ \\] <strong>NPC contacts:</strong> Each player should name at least one NPC they know (former colleague, family member, street contact, rival).  • \\[ \\] <strong>The question:</strong> Why does this team work together? What keeps them from going solo?  <em>“Your contractor profile has been submitted. Processing time is 3-5 business days. In the interim, please report to Staging Area 7 for your first assignment. Equipment will be provided. Survival is not. Good luck, and thank you for choosing a career in interdimensional resource acquisition.“</em>"
+    }
+  ]
+}

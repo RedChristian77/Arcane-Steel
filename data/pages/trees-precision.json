@@ -1,0 +1,123 @@
+{
+  "id": "trees-precision",
+  "title": "🎯 Precision",
+  "subtitle": "The Marksman's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Reflex / Edge",
+      "theme": "Patience. Distance. One shot, one kill. The Precision contractor doesn't need to be close.",
+      "design": "Precision augments reward careful aim, target analysis, and controlling engagements from range."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Targeting Suite",
+          "effect": "+1 ranged accuracy",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Spotter Optics",
+          "effect": "Identify enemy Evasion and Armor values",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Recoil Dampener",
+          "effect": "Ignore first -1 penalty from weapon conditions per attack",
+          "cost": "200 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Steady Hands Mod",
+          "effect": "Ignore first -2 accuracy penalty from conditions",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Vital Scanner",
+          "effect": "+1 damage die against enemies below 50% HP",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Quick Draw Wiring",
+          "effect": "First round of combat: +2 accuracy",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Zeroing Algorithm",
+          "effect": "Attacks against same target on consecutive turns: +1 acc (stacks to +3)",
+          "cost": "450 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Predictive Targeting",
+          "effect": "+2 accuracy against targets that didn't move last turn",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Penetrating Rounds",
+          "effect": "Ranged attacks gain Penetration 1",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Overwatch Protocol",
+          "effect": "Overwatch attacks gain +2 accuracy",
+          "cost": "500 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Ghost Round",
+          "effect": "1/combat: attack auto-hits. Weapon jams after (trade-off)",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Kill Confirmed",
+          "effect": "Crits deal double damage instead of bonus die",
+          "cost": "900 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Perfect Shot",
+          "effect": "1/mission: declare before rolling. Attack auto-crits with maximum damage",
+          "cost": "2,000 cr"
+        }
+      ]
+    }
+  ]
+}

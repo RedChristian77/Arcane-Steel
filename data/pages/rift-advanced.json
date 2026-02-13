@@ -1,0 +1,255 @@
+{
+  "id": "rift-advanced",
+  "title": "Advanced Casting",
+  "subtitle": "Improvised, misfires, interactions",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Patterns are defined. The rift is not. Sometimes you need to do something that isn’t in the book."
+    },
+    {
+      "type": "heading",
+      "text": "How It Works"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Describe the effect</strong> you want to achieve. Be specific. “I want to freeze the water in that corridor“ or “I want to make the walls close in on them“ or “I want to read the dimensional echoes of what happened in this room.“  <strong>2. The GM assigns parameters:</strong>  • <strong>Tier equivalent</strong> (Flicker/Surge/Torrent/Cataclysm) based on power level  • <strong>Stat</strong> (Interface for precision, Grit for endurance, Edge for weird stuff)  • <strong>Cost</strong> (standard for that tier + <strong>additional surcharge</strong>)  <strong>1. You pay the costs and roll.</strong>"
+    },
+    {
+      "type": "heading",
+      "text": "Improvisation Surcharge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Improvised channeling always costs more than a defined Pattern of the same tier:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier Equivalent</strong>                 <strong>Surcharge</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flicker                             +1 additional Toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Surge                               +1 additional Toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Torrent                             +2 additional Toxicity + 1 HP"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cataclysm                           +3 additional Toxicity + 2 HP ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Improvised Misfire"
+    },
+    {
+      "type": "paragraph",
+      "text": "On a 6- with improvised channeling, the misfire is worse than standard (see Misfires below). The rift interpreted your intent… creatively."
+    },
+    {
+      "type": "heading",
+      "text": "When to Improvise"
+    },
+    {
+      "type": "blockquote",
+      "text": "• The situation demands something no Pattern covers  • You’re combining elements from multiple Patterns in a new way  • You’re doing something you’ve never tried before  • You’re pushing a Pattern beyond its designed scope"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>GMs:</strong> Be generous with improvisation. If a player describes something cool and pays the cost, make it work (on a good roll). The surcharge already balances the flexibility. Improvisation is where magic feels magical."
+    },
+    {
+      "type": "paragraph",
+      "text": "When you roll 6- on a casting check, the rift energy doesn’t just fail — it goes somewhere."
+    },
+    {
+      "type": "heading",
+      "text": "Misfire Table by Tier"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Flicker Misfire (6-):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nothing dramatic. The energy dissipates harmlessly. You still pay the toxicity cost. Embarrassing but not dangerous. The rift equivalent of a misfire on a cheap pistol — click, nothing."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Surge Misfire (d6):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Misfire</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Fizzle.</strong> Nothing happens. Toxicity still paid."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Backfire.</strong> You take 1d4 damage. The energy went inward instead of outward."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Wild Aim.</strong> The effect fires but at a random target (ally, enemy, or terrain — GM rolls)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Dimensional Echo.</strong> The effect happens but also a weird sensory echo — everyone in short range hears/sees something from another dimension for a flash. Disorienting. -1 to everyone’s next action (including yours)."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Overcharge.</strong> The effect works at FULL POWER (treat as 10+) but costs double toxicity. The rift decided to be generous. Suspiciously generous."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Toxicity Spike.</strong> Effect fails. Gain +1d4 additional toxicity. Your body absorbed it all. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Torrent Misfire (d6):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Misfire</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Collapse.</strong> Effect fails. You take 1d6 damage and are prone. The energy knocked you flat."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Rift Scar.</strong> Effect fires at half power, but the area is permanently marked. Faint dimensional distortion visible forever. Rift creatures are drawn to it."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Backlash Wave.</strong> You take 2d6 damage and everyone within short range (allies included) takes 1d4. The energy exploded outward."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Temporary Mutation.</strong> The effect works but the energy warps you. Gain a random cosmetic/minor mutation for 24 hours (GM determines — extra eye, skin color change, temporary extra fingers, etc.)."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Dimensional Bleed.</strong> Effect works at full power. But something else comes through too. Something small. Probably harmless. Probably. (GM introduces a minor rift creature or anomaly.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Toxicity Flood.</strong> Effect fails. Gain +2d4 additional toxicity. Your body screams. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Cataclysm Misfire:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Cataclysm still fires (they always do — you can’t contain that much energy). But the consequence doubles AND roll on the Torrent Misfire table for an additional problem. A Cataclysm misfire is a bad day for everyone."
+    },
+    {
+      "type": "paragraph",
+      "text": "Casting without a focus (rift staff, channeling rod, attuned crystal) is possible but costly. Your body becomes the focus, absorbing all the channeling stress directly."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Unfocused Penalty:</em>  • All casting costs +1 additional Toxicity  • Misfire range expands: 6- AND 7 both count as misfires  • Torrent and Cataclysm patterns deal +2 HP to the caster (the energy has nowhere to go except through you)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why would you cast unfocused?</strong> Because someone broke your staff. Because you’re in a prison cell. Because the creature ate your focus and you’re angry. Desperation casting. It works. It hurts."
+    },
+    {
+      "type": "heading",
+      "text": "RITUAL CASTING (Out of Combat)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some effects are too complex for combat’s pace. Ritual casting allows Torrents and Cataclysms to be cast outside of combat with reduced risk and enhanced effect."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Requirements:</em>  • 10 minutes of uninterrupted concentration per tier (Torrent = 30 min, Cataclysm = 40 min)  • Appropriate materials (rift crystals, chalk, ambient rift energy — GM determines)  • A casting check with <strong>advantage</strong> (the time compensates for the strain)  <em>Benefits:</em>  • HP cost is halved (rounded up)  • Misfire table is one tier lower (Torrent misfires use Surge table, etc.)  • Effects can be enhanced (GM negotiates — wider area, longer duration, additional targets)  <em>Costs:</em>  • Still pay full toxicity  • Still pay full Consequences for Cataclysms  • Interruption during ritual = automatic Misfire at the pattern’s tier + toxicity is paid"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ritual uses:</strong> Ward a safe house. Seal a rift tear. Purify a contaminated area. Scry a distant location. Create a dimensional anchor. Enchant an item temporarily. The rift can do almost anything if you give it enough time and enough of yourself."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Rift augment tree directly enhances casting:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>                         <strong>Casting Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Attunement</strong> (T1)            Required to cast at all. Unlocks Flicker patterns."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channeling Focus</strong> (T1)           +1 Interface accuracy with magic. Applies to all casting rolls using Interface."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Filter</strong> (T2)            +2 toxicity max. Indirectly gives you more casting headroom."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Pulse</strong> (T2)                 Is itself a Surge-equivalent pattern (1d6 AoE). Doesn’t count against your Surge slots."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channel Amplifier</strong> (T3)          +1 damage die on all damage-dealing patterns. Flickers, Surges, and Torrents all hit harder."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Weaponization</strong> (T3)     +1 damage per 5 toxicity on ALL attacks — including patterns. A high-toxicity caster deals bonus damage on everything."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Shield</strong> (T3)                Functions as a pre-cast Surge-level defense. Doesn’t cost Act — it’s reactive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Unstable Overcharge</strong> (T3         Magic crits (natural 12 on 2d6) trade-off)                          deal triple damage but gain +2 toxicity. Risk/reward at the roll level."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Walker</strong> (T4)                Teleportation as an augment ability. Doesn’t require Phase Walk pattern. +1 toxicity per use."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Tear</strong> (T4)           The augment version creates a small rift zone — similar to the Torrent pattern but costs 3 AP + toxicity only (no HP sacrifice). Weaker version of the pattern, but sustainable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Battery</strong> (T4 trade-off)   +2 accuracy and +1 damage die on ALL magic. But +1 toxicity every round in combat. You are a reactor running hot."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Mastery</strong> (T5)               Double toxicity dispersal outside rifts. No passive toxicity in rifts. This is what lets a T5 Channeler keep casting long-term without spiraling. The capstone that makes the whole approach sustainable. ----------------------------------- -----------------------------------"
+    }
+  ]
+}

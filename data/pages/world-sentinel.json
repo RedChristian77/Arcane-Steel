@@ -1,0 +1,47 @@
+{
+  "id": "world-sentinel",
+  "title": "Sentinel Systems",
+  "subtitle": "Denial (primary), Survey (secondary)",
+  "content": [
+    {
+      "type": "corp-profile",
+      "name": "Sentinel Systems",
+      "icon": "🏛️",
+      "doctrine": "Denial (primary), Survey (secondary)",
+      "culture": "Military-industrial complex with messianic overtones",
+      "want": "Security. Every rift monitored, every threat cataloged.",
+      "pay": "Standard military rates. Bonuses for zero-casualty operations.",
+      "vibe": "Disciplined. Paranoid. They treat contractors like disposable soldiers.",
+      "contracts": [
+        {
+          "name": "Containment",
+          "desc": "Secure a wild rift. Eliminate threats. Hold until closure team arrives."
+        },
+        {
+          "name": "Garrison Duty",
+          "desc": "Hold a rift gate for a specified duration. Prevent unauthorized entry."
+        },
+        {
+          "name": "Sweep & Clear",
+          "desc": "Enter a compromised facility. Eliminate everything that isn't human."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Doctrine:</strong> Denial (primary), Extraction (secondary) <strong>Culture Origin:</strong> Ancient defense/aerospace contractor. They built weapons for governments. Then the governments collapsed and the weapons manufacturer was the only institution left with an army, a budget, and a chain of command. Sentinel didn’t conquer territory — it inherited it, by being the only organization capable of defending it. A thousand years later, they’re still defending it. Everything is defense. Everything is threat assessment. The entire society is organized around the assumption that something terrible is coming, and Sentinel is the only thing standing between civilization and extinction. <strong>Aesthetic:</strong> Gray and red. Angular. Fortified. Every building is a bunker. Every bunker is a command center. Maps cover every wall — threat maps, deployment maps, supply maps. Citizens wear rank insignia even in civilian contexts. Children are assigned unit numbers at birth. The Sentinel anthem is a march. Citizens stand when it plays. <strong>Citizen Identity:</strong> Soldiers. All of them. Even the accountants. Sentinel runs on discipline, hierarchy, and the absolute certainty that readiness is the only virtue that matters. Every citizen completes basic military training. Every citizen has an emergency posting. Every citizen knows their evacuation route. Paranoia isn’t a flaw — it’s doctrine. The question isn’t “will something happen?“ It’s “when, and are we ready?“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What They Want From Rifts:</strong> Control. Sentinel’s Denial doctrine is about ensuring no rift operates without their knowledge and oversight. They seal wild rifts, garrison controlled ones, and maintain the largest rift-monitoring network in the world. Their secondary Extraction doctrine exists to fuel the military machine — minerals for weapons, materials for fortifications, resources for the war effort. What war? The one that’s coming. It’s always coming."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pay:</strong> Structured. Fixed rates by contract tier with performance bonuses for exceeding objectives. No negotiation — the rate is the rate. Sentinel pays like a military: on time, by the book, exactly what was promised. No more, no less."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Working For Sentinel:</strong> Disciplined. You’ll be briefed. You’ll follow the plan. You’ll report in the specified format at the specified time. Deviation from the plan is frowned upon even when it saves lives. The upside: Sentinel’s intel is excellent. Their threat assessments are accurate. When they say “expect T2 resistance,“ that’s what you’ll find. The downside: you’re a disposable asset. Casualties are acceptable if objectives are met. Your value is measured in mission completion percentage, not survival rate."
+    }
+  ]
+}

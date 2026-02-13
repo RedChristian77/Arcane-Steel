@@ -1,0 +1,243 @@
+{
+  "id": "expeditions-cataloged",
+  "title": "Cataloged Dimensions",
+  "subtitle": "Known rift destinations",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "The following are well-known, heavily trafficked dimensions that contractors encounter regularly. Each has been exploited for decades or centuries. They’re not mysteries — they’re workplaces."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>GM Note: These are templates. Rename them, remix them, combine elements. The important thing is that each dimension creates a different gameplay experience — different hazards, different fauna, different resources, different tactical challenges.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "The Char"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification:</strong> Mineral-rich volcanic <strong>Primary Resource:</strong> Rare metals, crystallized rift-minerals, thermal energy <strong>Primary Exploiter:</strong> Congo Industries, Sentinel Systems <strong>Toxicity Rate:</strong> +1 per 4 hours (moderate — mineral dust is mildly toxic) <strong>Gravity:</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1.2× Earth standard (heavier, fatiguing over time)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Environment:</strong> A world of black basalt, rivers of slow-moving magma, and skies choked with ash that glows faintly orange. The temperature is extreme — 40-60°C in the “cool“ zones near rift gates, rising sharply as you move deeper. The air is breathable but thick with mineral particulate. Breather Masks aren’t required but recommended. The landscape is jagged, broken, and beautiful in a way that would be photogenic if the heat weren’t trying to kill you."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crystal formations grow near thermal vents — rift-minerals that formed over centuries of dimensional energy interacting with volcanic geology. These are the primary extraction target. The deeper crystals are purer, larger, and more valuable. They’re also closer to the magma and guarded by fauna that evolved to live in conditions that melt steel."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Fauna:</em>  • <strong>Slag Beetles</strong> (T1 Horde) — Swarming insects with carapaces that radiate heat. Individually harmless. In groups, the ambient temperature near a swarm can cause burns. Their shells are harvestable (T1 thermal-resistant material).  • <strong>Basalt Crawlers</strong> (T2 Brute) — Six-legged reptilian creatures armored in volcanic rock. Slow, tough, territorial. They nest near crystal deposits and don’t appreciate visitors. Armor 4, HP 16. Their blood is a natural coolant compound (T2 material, valuable to engineers).  • <strong>Magma Drakes</strong> (T3 Brute/Artillery) — The apex predator. Large, winged, and capable of spitting superheated rock at range. They lair in deep thermal vents and are fiercely territorial. Engaging one is a boss-tier encounter. Their fire glands are T3 materials worth a fortune — if you can extract them without the gland detonating.  • <strong>Cinder Wraiths</strong> (T2 Skirmisher) — Incorporeal heat distortions that drift through ash clouds. They don’t attack physically — they drain heat from living things on contact, causing rapid hypothermia despite the surrounding temperature. Surreal and deeply unsettling. Vulnerable to magic, resistant to physical attacks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazards:</strong> Heat exhaustion (Grit checks every 4 hours or -1 to all checks), magma flows (terrain hazard, extreme damage on contact), ash storms (visibility drops to Adjacent range, +1 toxicity per hour), unstable ground (Chrome DC 6 to avoid cave-ins near mining sites)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Types:</strong> Bulk extraction (crystal harvesting), deep vein expeditions (high-value deposits near magma), creature clearance (drake removal for mining operations), thermal energy tapping (install equipment near vents)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel:</strong> Industrial. Hostile. The Char is where you go to haul ore in hellish conditions for good pay. It’s not mysterious — it’s a job site that happens to be a volcano dimension."
+    },
+    {
+      "type": "heading",
+      "text": "The Bloom"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification:</strong> Hyper-biological jungle <strong>Primary Resource:</strong> Biological specimens, genetic material, pharmaceutical compounds, exotic flora <strong>Primary Exploiter:</strong> Wellspring Pharma, Green Cradle <strong>Toxicity Rate:</strong> +1 per 2 hours (high — the biology is saturated with magical energy) <strong>Gravity:</strong> 0.9× Earth standard (slightly lighter, movement is easier but aim drifts at range — -1 accuracy at Long range)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Environment:</strong> Life. Everywhere. In quantities and densities that make Earth’s most productive ecosystems look barren. The Bloom is a jungle dimension where evolution had a billion-year head start and access to magical energy as a growth catalyst. Trees reach hundreds of meters. Undergrowth is dense enough to require cutting. The air is thick, humid, and sweet — almost sickeningly so. Every surface is alive. The ground is roots. The canopy is a second world."
+    },
+    {
+      "type": "paragraph",
+      "text": "Colors are wrong. Greens that are too green. Reds that pulse. Blues that luminesce. The Bloom would be beautiful if it weren’t so aggressive — plants grow fast enough to watch, root systems shift over hours, and the entire ecosystem is engaged in a constant, visible war for resources that makes corporate competition look polite."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Fauna:</em>  • <strong>Spore Drifters</strong> (T1 Controller) — Floating fungal organisms that release clouds of psychoactive spores. Not directly dangerous, but inhaling spores causes hallucinations (Interface DC 6 to resist, failure = -2 to all checks for 1 hour). Their spore sacs are T1 pharmaceutical material.  • <strong>Vine Stalkers</strong> (T2 Skirmisher) — Plant-animal hybrids that move through the canopy. They look like vines until they don’t. Ambush predators that drop onto prey, constrict, and dissolve. Fast, quiet, hard to see (Evasion 6, first attack auto-hits if target fails Streetwise DC 7 perception check).  • <strong>Brood Trees</strong> (T2 Tank) — They look like trees. They are not trees. Massive stationary organisms that lure prey with bioluminescent fruit and then trap them with root systems. High HP, immobile, but the root network extends across an entire clearing.  • <strong>The Gardeners</strong> (T3 Controller) — Sentient. Bipedal, plant-based entities that tend the Bloom’s ecosystem. Not inherently hostile but aggressively territorial. They control local flora — roots grapple, branches strike, the forest itself fights. Wellspring wants them alive. Green Cradle wants to talk to them. Contractors mostly want to avoid them.  • <strong>The Maw</strong> (T4 Brute) — A carnivorous organism the size of a building, disguised as terrain. The clearing IS the creature. When prey walks in, the ground collapses into a biological pit lined with digestive enzymes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazards:</strong> Toxic flora (some plants deal 1d4 on contact), spore clouds (save or hallucinate), rapid growth (paths close behind you), parasites (Grit DC 6 per day or gain infection draining 1 HP/day until treated)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Types:</strong> Live capture (Wellspring/Green Cradle), genetic harvest (time-sensitive), ecosystem survey (Pear/Soma), clearance (remove Gardener territory for extraction — ethically questionable, well-paid)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel:</strong> Beautiful. Dangerous. Alien. Everything is alive and competing. You’re not at the top of the food chain. Wellspring contracts here pay premium because keeping things alive in a place this aggressive is genuinely hard."
+    },
+    {
+      "type": "heading",
+      "text": "The Static"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification:</strong> Anomalous physics / information-dense <strong>Primary Resource:</strong> Dimensional data, anomalous materials, temporal research"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Exploiter:</strong> Pear Technologies, Soma Collective <strong>Toxicity Rate:</strong> +1 per hour (very high — saturated with raw dimensional energy) <strong>Gravity:</strong> Variable (shifts between 0.5× and 2× unpredictably)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Environment:</strong> Wrong. Everything about the Static is wrong."
+    },
+    {
+      "type": "paragraph",
+      "text": "The landscape exists but doesn’t commit to a form. Structures that resemble buildings dissolve into geometry that resembles nothing. The sky cycles through colors that don’t have names. Sound arrives before its source. Light bends in curves. Shadows point toward things that aren’t there."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Static isn’t hostile the way the Char is hostile or the Bloom is hostile. The Static is hostile because reality itself doesn’t work correctly. Equipment malfunctions. Augments glitch. Your sense of direction inverts. Time stutters — you experience the same three seconds twice, or skip forward and lose a minute."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pear believes the Static is “closer to the source code of reality“ than other dimensions. Soma believes it’s a dimension in the process of forming — or unforming. Both are probably right."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Fauna:</em>  • <strong>Echoes</strong> (T1 Swarm) — Reflections of things that were here before. They look like ghostly afterimages and behave like recordings. Mostly harmless. Occasionally loop into a combat sequence and attack with the stats of whatever they’re echoing.  • <strong>Geometry</strong> (T2 Controller) — Floating polyhedra that warp space. Adjacent creatures are randomly repositioned within Close range at the start of each turn. Drawn to technology, cluster around augmented contractors.  • <strong>Null Zones</strong> (T3 Hazard) — Areas of dense dimensional energy. Ranged attacks through them curve randomly. Augments cease functioning inside. Time may dilate or compress. Go around.  • <strong>The Architect</strong> (T4 Boss) — An entity of pure dimensional energy that builds reality around itself. It doesn’t fight conventionally — it rewrites the battlefield. Walls appear, gravity shifts, the floor becomes the ceiling. Defeating it requires disrupting its pattern, not depleting HP. Interface builds thrive here. Chrome brutes are lost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazards:</strong> Spatial displacement, temporal stutter (lose 1 action randomly, Grit DC 7 to resist), augment interference (1-in-6 glitch chance per encounter), gravity shifts, sensory corruption (-2 perception permanently while inside)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Types:</strong> Deep survey (Pear pays enormous sums), data recovery (retrieve dead sensor arrays), anomalous material collection (physics-defying substances), temporal research (Soma wants time dilation measurements)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel:</strong> Cerebral. Unsettling. The Static is where Interface builds shine and Chrome builds suffer. Fights are puzzles. The dimension itself is the antagonist. Players who like weird love it. Players who like hitting things hate it."
+    },
+    {
+      "type": "heading",
+      "text": "The Grave"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification:</strong> Ruins / post-civilizational <strong>Primary Resource:</strong> Artifacts, technology, historical data, intact structures <strong>Primary Exploiter:</strong> House of Mouse, Pear Technologies <strong>Toxicity Rate:</strong> +1 per 6 hours (low — the magic has largely dissipated) <strong>Gravity:</strong> 1.0× Earth standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Environment:</strong> Someone was here before. A long time ago."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Grave contains the ruins of a civilization that may or may not have been human. The architecture is familiar enough to be unsettling — buildings with doors, streets with intersections. But the proportions are wrong (ceilings too high, doorways too wide), the materials are unknown (a metal lighter than aluminum, harder than steel), and the writing hasn’t been decoded despite centuries of study."
+    },
+    {
+      "type": "paragraph",
+      "text": "The civilization is dead. No bodies, no remains, just empty structures stretching to every horizon. The silence is oppressive. The House of Mouse has claimed first-discovery rights on 70% of the Grave’s cataloged content. Every artifact is proprietary until proven otherwise. The Advocates have a permanent field office at the gate."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Fauna:</em>  • <strong>Remnants</strong> (T1-T2 Varies) — Automated systems still running. Security drones, maintenance robots, defense turrets following centuries-old code. Not intelligent. Just persistent.  • <strong>Archivists</strong> (T2 Controller) — Sophisticated machines that catalog and preserve records. Non-hostile unless you try to remove artifacts. Then extremely hostile.  • <strong>The Warden</strong> (T3 Boss) — Each major structure’s security apex. Powerful, adaptive (learns your attack patterns), triggers facility lockdowns. Fighting a Warden means fighting the building.  • <strong>Something Else</strong> (T4 ???) — Crews who go deep into the subterranean levels report sounds that aren’t mechanical. Movement that isn’t automated. The corps have theories. They don’t share them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazards:</strong> Automated defenses, structural instability, data corruption from interfacing with alien tech, the deep (underground levels are unsurveyed and dark)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Types:</strong> Artifact retrieval (House of Mouse, Pear), survey (map new sections), archive access (hack Archivist systems), deep expedition (underground — high pay, minimal intel)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel:</strong> Exploration. Mystery. Tension without constant combat. The Grave rewards careful, methodical teams. The atmosphere — the silence, the emptiness, the certainty that whoever built this was more advanced than anyone alive — is the real challenge."
+    },
+    {
+      "type": "heading",
+      "text": "The Brine"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification:</strong> Aquatic / coastal <strong>Primary Resource:</strong> Biological compounds, seafloor minerals, aquatic specimens <strong>Primary Exploiter:</strong> Green Cradle, Wellspring Pharma <strong>Toxicity Rate:</strong> +1 per 3 hours (moderate — dissolved magical compounds) <strong>Gravity:</strong> 1.0× Earth standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Environment:</strong> An ocean world. The rift gate opens onto a chain of rocky islands in an endless sea. The water is deep, unnatural blue — almost purple — and bioluminescent at night. The air is salt-heavy. The islands are bare rock with tide pools containing life forms that glow, pulse, and occasionally sing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Resources are in the water. Mineral deposits on the seafloor. Specimens in the deep trenches. Pharmaceutical compounds dissolved in the water itself. Surface contracts (island survey, tide pools) are lower-risk. Deepwater is where the money is and where the things live."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Fauna:</em>  • <strong>Tide Crawlers</strong> (T1 Horde) — Crustaceans that swarm during high tide. Their meat is edible — one of the few rift-fauna products safe for human consumption.  • <strong>Reef Singers</strong> (T2 Controller) — Aquatic creatures producing hypnotic bioluminescent patterns and subsonic calls. Song causes disorientation (Interface DC 7 or -2 to all checks for 1d4 rounds). Defensive, not predatory. Vocal organs are T2 materials.  • <strong>Abyssal Hunters</strong> (T3 Skirmisher) — Deep-water predators. Fast, dark-adapted, hunt by sound. Operating equipment or firing weapons attracts them. They strike from below and drown prey.  • <strong>The Leviathan</strong> (T4 Boss) — Something in the deepest trench. Visible on sonar. Too large to be a single organism. Doesn’t surface. Deepwater expeditions below a certain depth don’t come back. The corps know the depth. They don’t always tell contractors."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazards:</strong> Drowning, pressure (deep water requires equipment checks), hypothermia, bioluminescent toxins, tidal forces (islands flood periodically)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Types:</strong> Tide pool survey (surface, low risk), specimen collection (diving required), mineral extraction (seafloor, equipment-heavy), deep survey (submersible expedition, T3+)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel:</strong> Atmospheric. Isolating. Quiet on the surface, terrifying below. Rewards preparation, punishes improvisation. The danger isn’t creatures you can fight — it’s an environment that kills you for making noise."
+    },
+    {
+      "type": "heading",
+      "text": "The Mirror"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Classification:</strong> Parallel / echo dimension <strong>Primary Resource:</strong> Predictive data, parallel-evolution specimens, strategic intelligence"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Primary Exploiter:</strong> Soma Collective, Pear Technologies <strong>Toxicity Rate:</strong> +1 per 4 hours (moderate) <strong>Gravity:</strong> 1.0× Earth standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Environment:</strong> Earth. Almost."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Mirror is a parallel dimension that resembles the crew’s home world — same geography, same city layouts. But shifted. A building in the wrong place. A street that runs the wrong direction. A sign in a language that’s almost readable. Deeper in, the differences compound. The city is there, but the ruling corp is different. The margin exists, but the people aren’t familiar."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Mirror isn’t a copy. It’s a divergence — a reality that split from the crew’s at some point in the past. How long ago determines how different. Recent splits are nearly identical. Ancient splits are alien."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corps value the Mirror for intelligence. A parallel dimension where a corp made different decisions is a natural experiment. Predictive modeling based on parallel outcomes is Soma’s highest-value product."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fauna:</strong> The Mirror has parallel versions of Earth fauna, including parallel humans. They’re people living their lives in a slightly different world. Conflict arises from misunderstanding, territorial defense, or the fact that your arrival is, from their perspective, a dimensional incursion. Some versions are more advanced. Some are mid-collapse."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hazards:</strong> Identity crisis (encountering parallel people you know), political complication (local power structures don’t recognize you), divergence sickness (Grit DC 6 per day or -1 cumulative to all checks), and information — learning what could have been is psychologically destabilizing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract Types:</strong> Parallel survey (map divergence points), intelligence gathering (observe parallel corp operations), specimen collection (parallel-evolution samples), contact missions (establish communication — Soma wants diplomacy, House of Mouse wants to know if their parallel self has better IP)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel:</strong> Uncanny. Philosophical. Less combat, more emotional and narrative weight. Finding a parallel Threshold Row where Mags is dead, or where the crew never formed — those moments are the Mirror’s real payload."
+    },
+    {
+      "type": "paragraph",
+      "text": "\\> <strong>GM EYES ONLY — CLASSIFIED MIRROR INTELLIGENCE</strong> \\> \\> Rifts are bidirectional. If our contractors enter the Mirror, the Mirror’s contractors enter our dimension. From their perspective, our Earth is a toxic, half-dead world full of hostile corporations — exactly the kind of place they’d send extraction teams into. \\> \\> The corps know. This is why the Mirror is classified. It’s not philosophically uncomfortable — it’s a security threat. Parallel corps are running intelligence operations on our side, targeting high-value areas: R&D facilities, data centers, command structures. The incursions happen at the top. The cover-ups happen at the top. Regular contractors never hear about it. \\> \\> This explains Sentinel’s paranoia. Their gate garrisons aren’t just defending against fauna — they’re defending against organized, equipped, intelligent teams running the same playbook in reverse. It may also explain some of the thirteen sealed dimensions: sealed because the other side sealed them first, or because one side was losing. \\> \\> This can stay background lore that never surfaces. Or it can be the biggest campaign reveal imaginable — the moment the crew discovers the thing coming through the rift isn’t a monster. It’s a contractor. With a crew. With augments. With a broker who sent them. And they think <em>you’re</em> the rift fauna. \\> \\> Use this if your table can handle it. Not every campaign needs this layer. The ones that use it will never forget it."
+    }
+  ]
+}

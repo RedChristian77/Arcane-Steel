@@ -1,0 +1,219 @@
+{
+  "id": "downtime-cost",
+  "title": "Cost of Living",
+  "subtitle": "Rent, food, and expenses",
+  "content": [
+    {
+      "type": "heading",
+      "text": "The Daily Drain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every day of downtime costs credits. Breathing is free. Everything else isn’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "Your <strong>lifestyle</strong> determines where you sleep, what you eat, and how the world treats you. It’s not just comfort — it has mechanical consequences that compound over a downtime period."
+    },
+    {
+      "type": "heading",
+      "text": "Lifestyle Tiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "--------------- -------------- ------------ ------------- ------------- ----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lifestyle</strong>   <strong>Cost/Day</strong>   <strong>Stress     </strong>Toxicity    <strong>Social      </strong>Other Recovery<strong>   Dispersal</strong>   Modifier<strong>    Effects</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street</strong>      5 cr           -1 per day   -1/day (base) -1 to social  -1 to first checks        check each day. No address. Can’t store gear safely. Roll 1d6 each night: on a 1, lose 1d20 cr to theft."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Capsule</strong>     15 cr          +0 (base)    -1/day (base) No modifier   Functional. Depressing. Lockable storage for one bag of gear. No visitors. No workspace."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Apartment</strong>   30 cr          +0 (base)    -1/day (base) No modifier   Baseline comfort. Gear storage. Can host visitors. Small workspace for self-study."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Upscale</strong>     75 cr          +1 per day   -2/day        +1 to social  Nice place. (enhanced)    checks with   Climate corp contacts controlled. Clean water filtration (toxicity dispersal bonus). Neighbors notice your comings and goings."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Luxury</strong>      200 cr/day     +2 per day   -3/day        +2 to social  Penthouse (premium)     checks with   living. Private corp contacts detox shower (-3 toxicity/day). Full workshop space. Concierge services. You are visible. Corps know where you live. You’re on the grid."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate     0 cr           +1 per day   -2/day        -1 to social  Free — if a Housing</strong>                                                 checks with   corp sponsors other         you. Clean, contractors   monitored, surveilled. They know your schedule, your visitors, your toxicity readings. Everything is logged. You live in a fishbowl with good water pressure. --------------- -------------- ------------ ------------- ------------- ----------------"
+    },
+    {
+      "type": "heading",
+      "text": "How It Adds Up"
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor earning <strong>500 cr per mission</strong> who takes <strong>10 days of downtime:</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lifestyle</strong>     <strong>10-Day Cost</strong>   <strong>Remaining</strong>     <strong>% of Pay Spent on Existing</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Street            50 cr             450 cr            10%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Capsule           150 cr            350 cr            30%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apartment         300 cr            200 cr            60%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Upscale           750 cr            -250 cr           150% (debt)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Luxury            2,000 cr          -1,500 cr         400% (deep debt) ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "The math is the point. Apartment lifestyle eats most of your pay. Anything better puts you in debt. Street saves money but costs you in other ways. This is the contractor economy — there’s no winning, only choosing which loss you can stomach."
+    },
+    {
+      "type": "heading",
+      "text": "Lifestyle Effects in Detail"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Street (-1 first check, theft risk, no storage)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Living rough means alleys, abandoned structures, rift-adjacent squats, or wherever nobody’s looking. You’re exposed to weather, crime, and the ambient weirdness of the world."
+    },
+    {
+      "type": "paragraph",
+      "text": "The -1 to your first check each day represents starting every morning from a bad position — stiff, cold, paranoid, under-rested. It’s not debilitating, but it’s cumulative misery."
+    },
+    {
+      "type": "paragraph",
+      "text": "The theft roll (1 on 1d6, lose 1d20 cr) means your savings aren’t safe. Anything you can’t carry on your body is at risk. You can’t receive deliveries. You have no address for broker networks, which means some contracts won’t even ping you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why choose it:</strong> You’re broke. Or you’re hiding. Street living means no records, no surveillance, no scanner at the door. If your toxicity reading would get you flagged, the street is the only place nobody checks."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Capsule (baseline, no frills)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A rented sleep pod. Four walls, a lock, a mattress, recycled air. You can store one bag of gear securely. No cooking. No visitors. No workspace."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanically neutral — no penalties, no bonuses. This is the default contractor lifestyle. Functional, joyless, sustainable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why choose it:</strong> It’s the floor of dignity. You have a lock on the door and nobody’s stealing your gear. That’s worth 15 cr/day."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Apartment (the standard)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A small living space with a door, running water, and enough room for a workbench. This is where contractors who are “doing okay“ live, which is a relative term in this economy."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can store gear, host visitors, and do self-study without penalties. It’s the assumed baseline for downtime activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why choose it:</strong> You want to live like a person. It costs like it."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Upscale (+1 stress recovery, +1 social, -2 toxicity)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Climate control, water filtration, noise dampening. The kind of place that has a door attendant and clean hallways. You actually rest when you rest here."
+    },
+    {
+      "type": "paragraph",
+      "text": "The +1 stress recovery per day means every Rest activity clears 1 additional stress. Over a 10-day downtime, that’s 10 extra stress cleared — significant if you’re coming off a rough mission."
+    },
+    {
+      "type": "paragraph",
+      "text": "The -2 toxicity dispersal (instead of base -1) means your body detoxes faster in the filtered environment. Clean air, clean water, reduced ambient exposure."
+    },
+    {
+      "type": "paragraph",
+      "text": "The +1 social with corp contacts means you look like you belong in rooms where decisions get made. Your address says something about you, and corps respond to that."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The catch:</strong> Neighbors notice you. They see you come home bloody. They see the gear. They see the scars. In an upscale neighborhood, someone who looks like a contractor is a conversation topic. If you’re trying to stay low-profile, this isn’t it."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Luxury (+2 stress, +2 social, -3 toxicity, full workshop)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The top of what credit can buy without corporate citizenship. Penthouse apartments with private detox showers, full workshop space, and concierge services that ask no questions (for an additional fee)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The mechanical bonuses are substantial — +2 stress recovery, -3 toxicity/day, +2 social with corp contacts, full workspace for any downtime activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The catch:</strong> You are <em>visible</em>. Luxury living in a corporate world means the corps know exactly where you are, what you’re spending, and (by implication) what you’re earning. If a contractor is living at 200 cr/day, somebody is doing math on where that money comes from. Attention from corps is never good."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Corporate Housing (free, surveilled)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some corporations offer sponsored housing to useful contractors. Zero cost. Decent amenities. The price is privacy — everything is monitored. Your schedule, your visitors, your toxicity readings, your mail, your augment maintenance records."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanically, it’s almost as good as Upscale — +1 stress recovery, -2 toxicity dispersal. The -1 social with other contractors reflects that nobody trusts a corp-housed freelancer. You’re seen as a leash-wearer. Other contractors assume you report back."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why choose it:</strong> You’re broke and willing to trade privacy for survival. Or you genuinely work with a corp and the arrangement is part of the deal. Either way, you’re not free."
+    },
+    {
+      "type": "heading",
+      "text": "Changing Lifestyle Mid-Downtime"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can change your lifestyle day-to-day. Live in a Capsule for 8 days, then splurge on Upscale for 2 days of accelerated recovery before the next mission. The costs and effects apply per day."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is intentional — it creates moment-to-moment economic decisions. “I’ve been living cheap for a week. My toxicity is still at 40%. Do I burn 150 cr on two Upscale days to get the detox bonus before deployment?“"
+    }
+  ]
+}

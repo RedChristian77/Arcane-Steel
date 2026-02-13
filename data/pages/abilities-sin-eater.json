@@ -1,0 +1,95 @@
+{
+  "id": "abilities-sin-eater",
+  "title": "Sin Eater Abilities",
+  "subtitle": "Sin Eater kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Sin Eater"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Condition absorber, debuff manager, crew sustain. You take what hurts your allies and decide where it goes — into you, into Toxicity, or into the enemy. Abilities focus on expanding your absorption capacity, improving transfer efficiency, and surviving the load.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burden Sense (Passive):</strong> You can see active conditions on any creature within Medium range as visible rift distortions — colored auras, dark threads, pulsing marks. You always know who’s suffering and what from. Additionally, your Afflict and Curse Touch effects (from augment tree) gain +1 to their Interface check when targeting an enemy you’ve already scanned with Burden Sense this encounter. Knowing what ails them helps you know what to inflict."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Steady Hands (Passive):</strong> Your Absorb actions don’t provoke opportunity attacks. Walk in, pull Bleed off the Berserker, walk out."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Empathic Shield (Active, 1 AP):</strong> An ally within Close range gets +2 to resist the next condition applied to them. Preemptive defense."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pain Split (Passive):</strong> When you Absorb, you can split — half stacks to you, half destroyed. Round in the condition’s favor."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Calming Presence (Passive):</strong> Allies within Close range are immune to fear and panic effects. Your presence stabilizes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contamination Read (Active, 1 AP):</strong> Touch an enemy. Learn all active conditions, current Toxicity, and any buffs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Transfer Efficiency (Passive):</strong> The +1 Toxicity cost per Absorb is reduced to +0 for the first Absorb each turn. One clean transfer."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Infectious Compassion (Passive):</strong> When you Absorb from an ally, they gain +1 to their next check. Your touch encourages."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Backlash (Active, 1 AP):</strong> When you Purge a condition, apply it to the nearest enemy within Close range at half strength. Offensive purging."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overload Tolerance (Passive):</strong> Carry up to 5 conditions before overload penalties begin (normally 3 with Pain Threshold)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sympathetic Bond (Active, 2 AP):</strong> Link to an ally for 3 rounds. Conditions applied to them auto-copy to you at half strength. Passive absorption."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Condition Immunity (Passive):</strong> Choose one condition type. You are permanently immune. Can only be taken once."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tox Channel (Active, 1 AP):</strong> Convert 3 of your Toxicity into healing — touch an ally and heal 1d6+Interface bonus HP. Contamination becomes medicine."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Antidote (Passive):</strong> Allies within Close range automatically reduce Poison, Bleed, and Toxicity accumulation by 1 per turn. Passive cleanse field."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater’s Gambit (Active, 4 AP):</strong> Absorb all conditions from all allies within Medium range. Convert all to Toxicity. Redirect all onto a single enemy. One action. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sacrifice (Passive):</strong> When an ally within Medium range would be downed, take the killing blow instead. Ally stays at 1 HP. You take the damage (bypasses armor). Once per encounter."
+    }
+  ]
+}

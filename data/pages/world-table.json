@@ -1,0 +1,51 @@
+{
+  "id": "world-table",
+  "title": "The Crowned Table",
+  "subtitle": "Denial (primary), Extraction (secondary)",
+  "content": [
+    {
+      "type": "corp-profile",
+      "name": "The Crowned Table",
+      "icon": "👑",
+      "doctrine": "Denial (primary), Extraction (secondary)",
+      "culture": "Feudal monarchy evolved from fast-food franchise",
+      "want": "Control. Every wild rift sealed or claimed.",
+      "pay": "Fixed rate. Reliable but never generous.",
+      "vibe": "Medieval ceremony meets corporate efficiency. Knights with augments.",
+      "contracts": [
+        {
+          "name": "Border Defense",
+          "desc": "Secure a rift perimeter. Hold until the Royal Guard arrives."
+        },
+        {
+          "name": "Creature Clearance",
+          "desc": "Something got through. Kill it before citizens notice."
+        },
+        {
+          "name": "Rift Sealing",
+          "desc": "Assist a Table closure team in permanently sealing a wild rift."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Doctrine:</strong> Denial (primary), Extraction (secondary) <strong>Culture Origin:</strong> A thousand years ago, the great fast-food chains went to war. Not market competition — actual war, with armies and territorial claims and franchise agreements enforced at swordpoint. When the dust settled, the survivors merged. Burger kingdoms married dairy queens. Pizza houses formed alliances with coffee principalities. The result: a feudal monarchy built on the bones of drive-throughs, where combo meals are state banquets and the Franchise Accords are constitutional law."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aesthetic:</strong> Red and gold. Crowns. Heraldry that incorporates ancient menu iconography — a burger rampant on a field of fries. Throne rooms that were once kitchens. Castles built on the foundations of restaurants. Everything is regal and everything is, if you look closely enough, deeply absurd. <strong>Citizen Identity:</strong> Subjects. The Crowned Table is a true monarchy — kings and queens who trace their lineage back to the original franchise owners. Noble houses correspond to the ancient chains that merged. The House of the Arch (golden arches, a sacred symbol), the House of the Crown (a paper crown, now forged in platinum), the House of the Bell (a simple bell, tolled at state occasions). Citizens swear fealty. The menu is law. The original recipes are holy texts, preserved in vault-temples and prepared exactly once per year at the Feast of the Founder’s Meal."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What They Want From Rifts:</strong> Security and resources for the realm. The Crowned Table’s primary doctrine is Denial — they protect their territory from rift incursions with feudal zeal. Every wild rift in Table territory is a siege to be repelled, a border to be defended. Secondarily, they extract materials for their agricultural and industrial base. The kingdom must be fed. The forges must burn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pay:</strong> Structured by royal decree. Fair but non-negotiable. Bonuses come in the form of “royal favor“ — access to better contracts, noble patronage, invitations to the Table (literally, the court dining table, which is a massive political honor). The economy runs partly on credits and partly on feudal obligation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Working For The Table:</strong> Strange. Earnest. The Table takes itself completely seriously, and that sincerity is either endearing or unnerving depending on your tolerance for being addressed as “Ser Contractor“ by someone wearing a platinum burger crown. The briefings are formal. The quest scrolls are beautiful. The Royal Guard are genuinely elite fighters who happen to wear tabards emblazoned with ancient fast-food logos. The food is incredible — a thousand years of culinary evolution starting from burger recipes has produced cuisine that other corps would kill for. Literally. There have been wars over Table chefs."
+    }
+  ]
+}

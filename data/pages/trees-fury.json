@@ -1,0 +1,133 @@
+{
+  "id": "trees-fury",
+  "title": "🔥 Fury",
+  "subtitle": "The Berserker's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Chrome / Grit",
+      "theme": "Pain is fuel. Scars are power. The closer to death, the more dangerous you become.",
+      "design": "Fury augments reward taking damage and surviving — not avoiding it."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments required",
+      "budget": "Minor bonuses. Conditional combat edges. Small survivability bumps.",
+      "augments": [
+        {
+          "name": "Adrenal Injector",
+          "effect": "First scar per mission: 0% death chance",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Pain Dullers",
+          "effect": "+1 max HP",
+          "cost": "150 cr"
+        },
+        {
+          "name": "Aggression Chip",
+          "effect": "+1 melee accuracy when below 50% HP",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Iron Stomach",
+          "effect": "+2 to Grit checks for toxicity resistance",
+          "cost": "150 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment required",
+      "budget": "Conditional combat bonuses. HP bumps. Scar interaction begins.",
+      "augments": [
+        {
+          "name": "Reinforced Vasculature",
+          "effect": "+2 max HP",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Rage Shunt",
+          "effect": "+1 damage die when at 1+ Scars",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Scar Tissue Adaptation",
+          "effect": "Scar debuffs reduced by 1 tier",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Overclocked Adrenals",
+          "effect": "+2 accuracy all melee. +1 auto-Scar per mission (trade-off)",
+          "cost": "500 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments required",
+      "budget": "Multiplicative Scar bonuses. Kill triggers. Death-defying mechanics.",
+      "augments": [
+        {
+          "name": "Pain Converter",
+          "effect": "+1 accuracy per Scar you have",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Blood Frenzy",
+          "effect": "On kill, next attack gains +2 accuracy",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Death Grip",
+          "effect": "At 0 HP, make one melee attack before Scar roll",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Berserker's Howl",
+          "effect": "1/combat: enemies targeting you take -1 accuracy for 2 rounds",
+          "cost": "500 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments required",
+      "budget": "Campaign-defining abilities. Major trade-offs.",
+      "augments": [
+        {
+          "name": "Blood Engine",
+          "effect": "Heal 1d4 HP on kill",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Unkillable",
+          "effect": "Failed death roll → survive at 1 HP. Permanent -1 stat (trade-off)",
+          "cost": "1,200 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments required",
+      "budget": "Signature capstone. Defines the character.",
+      "augments": [
+        {
+          "name": "Avatar of Pain",
+          "effect": "While at 1+ Scars: +2 all melee damage dice, immune to fear/morale effects, cannot be knocked prone",
+          "cost": "2,000 cr"
+        }
+      ]
+    }
+  ]
+}

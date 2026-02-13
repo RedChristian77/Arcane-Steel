@@ -1,0 +1,99 @@
+{
+  "id": "trees-overview",
+  "title": "How Augment Trees Work",
+  "subtitle": "Tiers, requirements, and universal rules",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Hardware Upgrades for the Human Body</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“All augmentations are performed at your own risk. Side effects may include enhanced combat performance, existential dread, and occasional involuntary corporate servitude.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How This Document Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is a <strong>framework with a starter catalog</strong>. Each tier has clear power-budget rules that define what an augment at that level <em>should</em> do. We ship 4-5 example augments per tier per tree. GMs and players can homebrew more — as long as they follow the tier guidelines."
+    },
+    {
+      "type": "paragraph",
+      "text": "The compendium is a starting point. Not a cage."
+    },
+    {
+      "type": "heading",
+      "text": "Universal Rules"
+    },
+    {
+      "type": "heading",
+      "text": "Tier Unlock Requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>Augments in     </strong>Power Level<strong>   </strong>Lore<strong> Tree</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1</strong>            0 (entry)         Minor             Entry-level mods. Corp-standard. Minimal body stress."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2</strong>            1                 Moderate          Body adapted to baseline. Pushing past standard issue."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3</strong>            3                 Significant       Serious integration. Your body is purpose-built now."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4</strong>            6                 Major             Experimental territory. Corps watch you closely at this level."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T5 (Mastery)</strong>  10                Capstone          Full tree integration. Passive, always-on. You <em>are</em> the augment. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Tier Power Budgets"
+    },
+    {
+      "type": "paragraph",
+      "text": "These define what’s appropriate at each level. Homebrew augments should stay within these bounds."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>T1 — Minor Adjustments</em>  • +1 to a specific stat check or combat value (conditional)  • +1 HP  • Small utility effect (skill bonus, minor sensing)  • <em>Cannot</em>: Grant flat accuracy/damage to all attacks, modify death mechanics  <em>T2 — Meaningful Upgrades</em>  • +2 HP or +1 Evasion/Armor (conditional or capped)  • +1 to accuracy/damage under a specific trigger (wounded, after kill, vs marked, etc.)  • Reduce a penalty by 1-2 (off-hand, scar debuffs)  • Conditional extra die (once per combat or situational)  • <em>Cannot</em>: Stack unconditionally, grant extra actions  <em>T3 — Defining Abilities</em>  • +1-2 accuracy or +1 damage die under a broad trigger  • New combat option (bonus attack on specific trigger, special movement)  • Significant utility (disable enemy augments, short teleport conditions)  • Scale with another mechanic (per-scar bonus, per-stack bonus)  • <em>Cannot</em>: Guarantee crits, bypass death mechanics entirely  <em>T4 — Powerful Specializations</em>  • Healing on trigger (1d4 on kill, 1d6 once per combat)  • Bonus attacks on crit or kill  • Major defensive option (survive lethal once per mission)  • Powerful conditional (double effect stacks, ignore armor once)  • Trade-off augments live here — big bonus, real cost  • <em>Cannot</em>: Guarantee survival, provide unlimited actions  <em>T5 — Mastery (Capstone)</em>  • Always-on passive. No activation, no cost.  • Modifies a core mechanic permanently (death rolls, crit thresholds, evasion floors)  • Should feel like the culmination of the entire tree  • One per tree. You only get this through deep commitment.  • <em>Must</em>: Be powerful but not game-breaking. Reward investment, not replace other systems."
+    },
+    {
+      "type": "heading",
+      "text": "Trade-Off Augments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any tier can contain trade-off augments (bonus + cost). Guidelines:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• T1-T2: Small bonus, minor cost (e.g., +1 accuracy, -1 evasion)  • T3-T4: Significant bonus, significant cost (e.g., +2 accuracy all, +1 auto-scar per mission)  • The cost should be from a <em>different system</em> than the bonus (accuracy bonus → HP cost, not accuracy bonus → accuracy cost)"
+    },
+    {
+      "type": "heading",
+      "text": "Homebrew Template"
+    },
+    {
+      "type": "paragraph",
+      "text": "When creating new augments, follow this format:"
+    },
+    {
+      "type": "paragraph",
+      "text": "\\`\\`\\` Name: \\[Augment Name\\] Tree: \\[Tree\\] \\| Tier: \\[1-5\\] \\| Install Cost: \\[credits\\] Effect: \\[Mechanical effect\\] Trade-off (if any): Bonus: \\[X\\] / Cost: \\[Y\\] Lore: \\[One-line flavor text\\] Guideline Check: \\[Which T# budget rule does this follow?\\] \\`\\`\\`"
+    }
+  ]
+}

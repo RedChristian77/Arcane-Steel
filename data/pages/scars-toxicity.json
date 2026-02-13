@@ -1,0 +1,1055 @@
+{
+  "id": "scars-toxicity",
+  "title": "Toxicity & Mutations",
+  "subtitle": "The price of magic",
+  "content": [
+    {
+      "type": "heading",
+      "text": "How Toxicity Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity measures ambient magic saturation in your body. Magic is everywhere in 3025 — it powers infrastructure, it leaks from rifts, it’s in the air. Channeling it directly or being exposed to concentrated sources builds it up. Your body can handle some. Too much and you become a resource to be harvested."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Track:</strong> 0 to max (default max: 20, modified by Grit and augments/mutations)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity is <strong>not a combat mechanic</strong> in most cases. It’s a mission-level and downtime-level pressure that creates long-term decision-making."
+    },
+    {
+      "type": "heading",
+      "text": "Sources of Toxicity Gain"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Source</strong>              <strong>Toxicity Gained</strong>     <strong>Frequency</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Entering a rift       +1                      Per mission in a rift zone</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extended rift         +1d4                    Per mission exposure</strong> (2+ hours in a rift)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Using magic-category  +1 per use (varies by   Per combat weapons</strong>               weapon)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channeling raw        Varies by ability       Per use magic</strong> (Rift tree abilities)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift anomaly          +1d6                    Per incident exposure</strong> (touching weird stuff)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Catastrophic rift     +2d6                    Per event event</strong> (breach, collapse, surge)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Certain mutations</strong>   +1/day or per mission   Passive (Rift-Beast Heart, etc.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Certain mutation      +2 in rift zones        Per mission complications</strong> (Toxicity Magnet, etc.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp toxicity         Variable                Punitive / coerced injection</strong> (yes, this is a thing) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Natural Dispersal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity disperses slowly on its own when you’re not being exposed."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activity</strong>                        <strong>Toxicity Cleared</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Normal downtime</strong> (city living)   -1 per downtime period"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rest downtime</strong> (doing nothing    -2 per downtime period productive)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rural/clean environment</strong>         -3 per downtime period"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Scrubber</strong> (consumable,  -2 (immediate) 150 cr)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Clinical Detox</strong> (medical         -1d6 (takes full downtime period, facility)                           200 cr)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Market Purge</strong> (dangerous)  -2d6 (takes full downtime, 100 cr, roll 1d20 vs DC 7 — fail = gain a Minor complication)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Mastery augment</strong>            Double natural dispersal rate outside rifts"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Filter augment</strong>         +2 to max threshold ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Key tension:</strong> Taking a “rest downtime“ to clear toxicity means you’re not learning skills, not treating scars, not working for credits, and not installing augments. Every downtime period is a single-choice resource. Toxicity recovery competes with everything else."
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "As toxicity climbs, effects escalate. These thresholds apply at the listed levels relative to your max. Default max is 20."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity</strong>            <strong>Threshold</strong>           <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>25%</strong> (5/20)          <strong>Trace Levels —      Your skin has a faint Glowing</strong>               luminescence in darkness. Barely visible, but rift creatures can sense you more easily. -1 to Stealth checks in rift zones. Corp scanners at gates register “elevated“ — no action taken, but logged."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>40%</strong> (8/20)          <strong>Moderate —          Ambient magic visibly Leaking</strong>               arcs off your body when stressed. Electronics near you occasionally glitch. -1 to all Interface checks involving delicate equipment. Corp scanners flag you for “recommended detox“ — optional but noted in your file."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>50%</strong> (10/20)         <strong>High — Unstable</strong>   Your body is a magic capacitor. Once per session, the GM can trigger an involuntary magic discharge — 1d4 damage to everything within melee range (including allies). You can’t control it. Happens during stress, combat, or strong emotions. Corp scanners flag “mandatory detox“ — refusal noted."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>70%</strong> (14/20)         <strong>Severe —            Persistent effects: Saturated</strong>             your touch temporarily disrupts electronics, rift creatures are attracted to you from further away, and you gain +1 toxicity from ALL sources (accelerating spiral). -1 to all stat checks. Corp scanners flag “asset risk“ — security may detain you for “evaluation.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>85%</strong> (17/20)         <strong>Critical —          Your body is a rift Overloading</strong>           battery. Constant visible magic aura. -2 to all stat checks. All allies within short range gain +1 toxicity per mission just from proximity to you. You are now a hazard to your team. Corp scanners flag “extraction priority“ — they will try to take you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>100%</strong> (20/20)        <strong>Terminal — Harvest  You have reached Threshold</strong>             corporate harvest threshold. Your body contains enough ambient magic to be worth more as raw material than as a contractor. Corps issue an extraction order. Rift creatures actively seek you. If you are not detoxed within one mission, you are seized, sedated, and processed. Character is effectively lost — they become a battery in a corporate power facility. This is not death. It is worse. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Threshold Math With Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "The default max is 20. Augments and mutations can modify this:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Modifier</strong>                        <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grit 6+                             +2 max toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grit 8+                             +4 max toxicity (replaces, doesn’t stack with above)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grit 10+                            +6 max toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity Filter (Rift T2 augment)   +2 max toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift-Walker Suit (armor)            +1 max toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Certain mutations                   May increase or decrease max ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Channeler with Grit 8, Toxicity Filter, and Rift-Walker Suit has a max toxicity of 20 + 4 + 2 + 1 = <strong>27</strong>. Their thresholds shift accordingly (25% of 27 = \\~7, 100% = 27). They can absorb more magic before the walls close in. But the walls still close in."
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity as Narrative Pressure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity isn’t meant to kill contractors directly (that’s what scars are for). It’s meant to create <strong>escalating social and logistical pressure:</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At low toxicity (0-25%):</strong> No problems. You’re clean. Take contracts, go through gates, live your life."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At moderate toxicity (25-50%):</strong> Minor inconveniences. You glow a little. Scanners log you. It’s manageable but it’s in your file. Corps don’t act yet, but they’re watching."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At high toxicity (50-70%):</strong> Real problems. Involuntary discharges that hurt allies. Equipment malfunctions. Corps are “recommending“ detox. The team starts noticing. Your character’s presence has a cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At severe toxicity (70-85%):</strong> You are a liability. Your teammates gain toxicity from being near you. Corps are actively trying to detain you. The team has to decide: do we keep this person, knowing they’re making all of us hotter?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At terminal toxicity (100%):</strong> The game changes. You’re not a contractor anymore. You’re a resource. Corps issue extraction orders. Rift creatures hunt you. Your teammates either help you detox immediately or lose you."
+    },
+    {
+      "type": "paragraph",
+      "text": "The beauty is that toxicity creates team-level decisions, not just individual ones. A high-toxicity Channeler is still the best damage dealer on the team — but their presence is literally poisoning everyone around them. Do you bench them? Spend a fortune on detox? Accept the risk? That’s the drama."
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity + Scars Interaction"
+    },
+    {
+      "type": "paragraph",
+      "text": "At <strong>Toxicity 50%+</strong> (High), scar treatment becomes more complicated:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Licensed Surgeon scar treatment DC increases by +2 (your body is harder to work on when saturated with magic)  • Street Doc scar treatment DC increases by +4  • Self-treatment becomes nearly impossible (DC 12 + 4 = DC 16, with disadvantage)"
+    },
+    {
+      "type": "paragraph",
+      "text": "At <strong>Toxicity 70%+</strong> (Severe), augment installation is affected:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• All augment installation checks take -2 (magic interference with chrome integration)  • Mutation complication rolls take -2 (your biology is already destabilized)"
+    },
+    {
+      "type": "paragraph",
+      "text": "This creates a cascading pressure: high toxicity makes it harder to treat scars, scars make you more fragile, fragility means more risky missions, risky missions mean more toxicity. The spiral tightens."
+    },
+    {
+      "type": "heading",
+      "text": "Corp Toxicity Scanning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corps scan for toxicity at gates, checkpoints, and facility entrances. This is how they identify harvest candidates."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scan Result</strong>                     <strong>Corp Response</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Clean (0-25%)</strong>                   Waved through. No flag."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Elevated (25-40%)</strong>               Logged. No action. Your file gets a note."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recommended Detox (40-50%)</strong>      Logged. Optional detox offered (corp clinic, 200 cr — subsidized to keep you working). Refusal noted but no consequences yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mandatory Detox (50-70%)</strong>        Flagged. You are “strongly encouraged“ to detox. Refusal may result in contract penalties, reduced pay, or assignment to low-exposure missions (which pay less)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Asset Risk (70-85%)</strong>             Security may detain you for “evaluation.“ This is a polite word for “they’re deciding if you’re more valuable working or harvested.“ Contractors at this level often go off-grid."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extraction Priority (85-100%)</strong>   Active extraction order. Corporate security teams will attempt to take you. You are worth more as a battery than as an employee. This isn’t personal. It’s quarterly earnings. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Going off-grid:</strong> Contractors can avoid scanners by staying out of corporate areas. This means no corp contracts, no corp clinics, no corp stores. Black market only. Street docs only. The pay is worse and the work is more dangerous. But nobody is scanning you."
+    },
+    {
+      "type": "heading",
+      "text": "Voluntary Toxicity Use"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some contractors intentionally push their toxicity for power:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Rift tree</strong> provides augments that convert toxicity into combat capability. Toxicity Weaponization (T3) adds damage based on current toxicity. Living Battery (T4) gives massive bonuses at +1 toxicity per round. These augments make toxicity a <em>resource</em> instead of just a liability — but the thresholds still apply."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Some missions pay toxicity bonuses.</strong> Deep rift work, long-exposure harvesting, and experimental contracts offer premium pay specifically because they’ll raise your toxicity. The corp is buying your future health for present productivity. Sound familiar?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity stacking for the endgame:</strong> A Channeler at 60% toxicity with the Rift tree is a walking weapon. They’re also one bad mission from the 70% threshold where their teammates start getting irradiated. The power curve and the danger curve are the same line. That’s the design."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference Card"
+    },
+    {
+      "type": "heading",
+      "text": "Scar Debuff Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars</strong>                           <strong>Debuff</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   Cosmetic only"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   -1 first non-combat check per session"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   -1 to one chosen stat bonus"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   Stims heal 1 less"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   -1/+1 social split (corp vs street)"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   -1 max HP"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   -1 ALL stat bonuses"
+    },
+    {
+      "type": "paragraph",
+      "text": "8+                                  Random augment/mutation malfunction per mission ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity Threshold Summary"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>% of Max</strong>            <strong>Name</strong>                <strong>Key Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "25%                     Glowing                 -1 Stealth in rifts, scanner logged"
+    },
+    {
+      "type": "paragraph",
+      "text": "40%                     Leaking                 -1 Interface (delicate), scanner flagged"
+    },
+    {
+      "type": "paragraph",
+      "text": "50%                     Unstable                Involuntary discharge 1d4 AoE, mandatory detox"
+    },
+    {
+      "type": "paragraph",
+      "text": "70%                     Saturated               -1 all checks, allies gain tox from proximity"
+    },
+    {
+      "type": "paragraph",
+      "text": "85%                     Overloading             -2 all checks, allies +1 tox/mission, extraction risk"
+    },
+    {
+      "type": "paragraph",
+      "text": "100%                    Terminal                Harvested. Character lost. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Your toxicity reading is within acceptable corporate parameters. Please continue your assignment. If you experience involuntary magical discharge, luminescent skin, or the sensation of being consumed from within, please file Form T-7 with your supervisor at your earliest convenience.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“All biological modifications are performed under the terms of your Contractor Liability Waiver (Section 47-C: ’Voluntary Genomic Restructuring’). Side effects are not defects. They are features your body has chosen to express.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Mutations Differ From Augments"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augments</strong>            <strong>Mutations</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Source</strong>              Chrome. Hardware.       Biology. Gene-splicing. Circuits.               Creature grafts."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acquisition</strong>         Buy → Install.          Buy → Splice → Roll for Predictable.            complications."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cost structure</strong>      Credits only            Credits + complication risk"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reversibility</strong>       Uninstall possible      Permanent. You are this now."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Balance</strong>             Pure bonuses (some      EVERY mutation has a trade-offs by choice)   bonus AND a cost"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Progression</strong>         Tier-locked by augment  Risk-tier locked by how count                   much you’re willing to gamble"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Feel</strong>                Corporate. Clean.       Biological horror. Transactional.          Unpredictable. Personal. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Augments make you a better machine. Mutations make you a different creature. Both cost money. Only one costs you a piece of what you used to be."
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanic: The Complication Roll"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every mutation requires a <strong>Complication Roll</strong> when it’s installed. This determines if the splice takes cleanly or if something goes wrong."
+    },
+    {
+      "type": "heading",
+      "text": "The Roll"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Roll 1d20 vs Complication DC</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Risk Tier</strong>           <strong>Complication DC</strong>     <strong>Clean Splice Chance</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard                DC 3                    90%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Low Risk                DC 7                    70%"
+    },
+    {
+      "type": "paragraph",
+      "text": "High Risk               DC 12                   45%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Extreme Risk            DC 16                   25% ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Meet or exceed the DC = clean splice.</strong> The mutation installs with its intended bonus and its built-in cost. No additional problems."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fail the DC = complication.</strong> The mutation still installs — you still get the bonus and the built-in cost — but you ALSO roll on the Complication Table for an additional side effect."
+    },
+    {
+      "type": "heading",
+      "text": "Provider Modifier: Gene-Doc vs Back-Alley"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where you get the work done matters."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Provider</strong>            <strong>Effect</strong>              <strong>Typical Price Modifier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp Gene Clinic</strong>    Roll with <strong>advantage</strong> 3x base cost. They log (roll 2d20, take        everything. Corp owns higher)                 your genome data."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Licensed Gene-Doc</strong>   Normal roll (1d20)      Base cost. Professional but no guarantees."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street Splicer</strong>      Normal roll (1d20), but 0.5x base cost. Cash DC increases by +2      only. No questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Back-Alley Hack</strong>     Roll with               0.25x base cost. Might"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>disadvantage</strong> (roll  be a vet. Might be a 2d20, take lower)       butcher."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Self-Splice Kit</strong>     Roll with               0.3x base cost. Just"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>disadvantage</strong>, DC    you, a mirror, and a increases by +3         syringe."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Exposure</strong>       No roll — GM assigns  Free. You didn’t ask <em>(involuntary)</em>         mutation + complication for this. directly ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The money trap:</strong> A corp clinic makes Extreme Risk almost safe (DC 16 with advantage ≈ 64% clean), but costs 3x. A back-alley hack on a Standard mutation (DC 3 with disadvantage) can still go wrong. And that back-alley hack on an Extreme Risk mutation? DC 16 with disadvantage. Good luck."
+    },
+    {
+      "type": "heading",
+      "text": "Grit Modifier"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your body’s resilience matters. Add your <strong>Grit bonus</strong> to the Complication Roll."
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor with Grit 8 (+4 bonus) splicing High Risk at a gene-doc rolls 1d20+4 vs DC 12. That’s 65% clean instead of 45%. Grit matters here — it’s your body’s ability to absorb what’s being done to it."
+    },
+    {
+      "type": "heading",
+      "text": "Complication Tables"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you fail the Complication Roll, roll on the appropriate table based on how badly you failed."
+    },
+    {
+      "type": "heading",
+      "text": "Failure Severity"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Margin of Failure</strong>   <strong>Severity</strong>            <strong>Complication Table</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Failed by 1-3           <strong>Minor</strong>               Minor Complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Failed by 4-7           <strong>Moderate</strong>            Moderate Complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Failed by 8-11          <strong>Severe</strong>              Severe Complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Failed by 12+           <strong>Critical</strong>            Critical Complications ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Minor Complications (d8)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Complication</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Phantom Pain</strong> — Random episodes of pain. -1 to one random stat check per session (GM chooses when)."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Cosmetic Drift</strong> — The mutation looks wrong. Unsettling skin texture, wrong color, asymmetric. -1 social checks with strangers."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Appetite Shift</strong> — You crave something unusual (raw meat, minerals, insects). Rations cost double."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Sleep Disruption</strong> — You don’t sleep well anymore. -1 to first stat check each session."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Rejection Tremors</strong> — Occasional muscle spasms. -1 to one accuracy roll per combat (first attack only)."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Scent Change</strong> — You smell different. Animals react unpredictably. -1 to stealth vs creatures."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   <strong>Temperature Sensitivity</strong> — Extreme heat or cold causes -1 to all checks. Normal conditions fine."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   <strong>Immune Flare</strong> — You get sick easier. +1 to toxicity gained from any source. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Moderate Complications (d8)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Complication</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Metabolic Drain</strong> — Your body burns fuel fast. Food/sustenance costs triple. Without extra rations, -1 to all stats per day."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Neural Feedback</strong> — The mutation interferes with one augment (random or GM choice). That augment functions at half effect."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Unstable Expression</strong> — The mutation fluctuates. Once per session, GM can declare the bonus doesn’t work for one scene."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Chronic Pain</strong> — Permanent. -1 to all Grit checks. Painkillers exist but cost 50 cr/session and are addictive."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Toxicity Magnet</strong> — Your altered biology absorbs ambient magic faster. +2 toxicity gained in rift zones."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Visible Mutation</strong> — Impossible to hide. Corp scanners flag you. Social checks with corp personnel at -2."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   <strong>Dependency</strong> — The mutation requires monthly stabilizer injections (100 cr/month). Miss a dose: mutation bonus disabled + -1 to all stats for a week."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   <strong>Rejection Cascade</strong> — Your body fights it. -2 max HP permanently. Can be treated (500 cr, additional complication roll at Standard DC). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Severe Complications (d6)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Complication</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Organ Stress</strong> — One organ is failing slowly. -3 max HP. Replacement surgery available (800 cr, Low Risk complication roll)."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Neural Rewiring</strong> — One stat permanently drops by 1 (GM rolls randomly). Your brain compensated for the mutation by sacrificing something else."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Augment Conflict</strong> — The mutation is biologically incompatible with one installed augment. Must choose: remove the augment or accept -2 to all checks while both are active."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Uncontrolled Expression</strong> — The mutation activates involuntarily in stress. Once per combat, GM triggers the bonus at a bad time (healing when you need damage, aggression during negotiation, etc.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Accelerated Aging</strong> — Cellular degradation. You age visibly. Scar DCs increase by +1 across the board (stacks with scar count)."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Toxicity Spike</strong> — Immediate +3 toxicity on installation. If this pushes you past threshold, that’s your problem. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Critical Complications (d4)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Complication</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Total Rejection</strong> — Your body rejects the mutation violently. Gain 1 Scar immediately. Mutation bonus works but at half effect. Built-in cost doubled."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Cascading Failure</strong> — The splice destabilizes another mutation you have (random). That mutation gains a Moderate complication on top of its existing cost. If you have no other mutations, this hits your highest augment instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Rift Echo</strong> — The biological material remembers where it came from. You occasionally hear/see things from another dimension. -2 Interface permanently. Once per session, GM gives you unwanted (but sometimes useful) information from “the other side.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Harvest Flag</strong> — The procedure attracted corporate attention. You are flagged in the system. A corp extraction team is now aware of you. This doesn’t go away. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Mutation Catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every mutation has: <strong>Bonus</strong> (what you get) + <strong>Built-in Cost</strong> (what you pay biologically, always). Complications from failed rolls are <em>on top of</em> the built-in cost."
+    },
+    {
+      "type": "heading",
+      "text": "Standard Risk (DC 3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Minor biological modifications. Cosmetic-adjacent. Low body stress. The stuff that passes at security checkpoints."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ------------------ -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutation</strong>      <strong>Bonus</strong>         <strong>Built-in Cost</strong>  <strong>Base Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Troll Skin</strong>    +1 Armor          Skin is visibly    300 cr (natural, stacks  textured/scaled. with worn)        -1 social with corp types."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cat Eyes</strong>      Darkvision. +1    Eyes are visibly   200 cr Edge checks for   non-human. Light perception in low sensitivity: -1 light.            accuracy in bright/flash conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Enhanced        Can hold breath   Breathing sounds   250 cr Lungs</strong>           10x longer. +1    different. Grit checks for   Occasionally endurance.        involuntary deep breaths that are loud."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bone Density    +1 HP. Harder to  +20% body weight.  200 cr Treatment</strong>       break.            Swimming harder. Some furniture breaks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pheromone       +1 to social      You can’t turn it 250 cr Glands</strong>          checks with       off. Animals are biological        <em>very</em> interested creatures.        in you. ----------------- ----------------- ------------------ -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Low Risk (DC 7)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Functional biological upgrades. Noticeable changes. Your body is being pushed past factory spec."
+    },
+    {
+      "type": "paragraph",
+      "text": "------------------ ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutation</strong>       <strong>Bonus</strong>         <strong>Built-in Cost</strong> <strong>Base Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Muscle Fiber     +1 Chrome bonus   Muscles visibly   500 cr Replacement</strong>      (for melee        different. Cramps accuracy)         during rapid temperature changes. -1 Reflex in cold environments."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adrenal Gland    Once per combat:  Comedown after    450 cr Splice</strong>           +3 to one         combat: -1 to all accuracy roll     checks for 10 (adrenaline       minutes surge)            post-combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dermal           +1 Evasion (skin  Can’t fully      500 cr Chromatophores</strong>   shifts to blend   control it. with              Emotions cause surroundings)     color shifts. Poker face impossible. -1 Edge for deception."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Enhanced         +1 Initiative     Startle response  400 cr Reflexes</strong>         (Reflex for turn  amplified. Loud order)            noises trigger involuntary dodge. Occasionally embarrassing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rapid            Bleeding stops    Blood is thick    350 cr Coagulation</strong>      instantly. Heal   and dark. Medical +1 HP per short   procedures on you rest.             are harder. Healing stims heal 1 less."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxin Glands</strong>   Unarmed           Your saliva is    400 cr attacks/bites     mildly toxic. deal 1 Poison     Kissing is a stack             liability. Food tastes wrong. ------------------ ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "High Risk (DC 12)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Significant biological rewrites. You are being rebuilt at a cellular level. This is where “human“ starts getting quotation marks."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutation</strong>      <strong>Bonus</strong>         <strong>Built-in Cost</strong> <strong>Base Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extra Arm</strong>     Can hold/use a    Balance is off.   800 cr third weapon or   -1 Evasion. item. No action   Clothing is cost to swap.     custom (double cost). People stare."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Subdermal       +2 Armor          -1 Reflex. Joints 900 cr Exoskeleton</strong>     (natural, stacks) are stiffer. Can’t fit in standard seats."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Synaptic        +2 Reflex bonus.  Burns out fast.   1000 cr Accelerator</strong>     First turn each   After the first combat: take two  turn boost, -1 to Acts instead of   all accuracy for one.              the rest of combat. Migraines."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Organ           +3 max HP. First  Eating            900 cr Redundancy</strong>      Scar each         requirements mission: death    doubled. Organ roll gains +3.    placement is weird — medics unfamiliar with your anatomy have -2 to treat you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Predator        +2 Edge for       Sensory overload  700 cr Senses</strong>          perception. Can   in crowds/cities. track by scent.   -2 to all checks Sense living      in dense urban creatures through environments thin walls.       unless you have filtering gear (200 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Venomous        When hit by       Can’t wear       800 cr Spines</strong>          melee: attacker   standard armor takes 1d4 damage  (needs custom and 1 Poison      fitting, +50% stack             armor cost). Accidental spine deployment in social situations. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Extreme Risk (DC 16)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Creature-derived transplants. Experimental rift-biology grafts. You are volunteering to not be entirely human anymore. Most gene-docs won’t do these. The ones who will don’t have licenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "------------------ ------------------ ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutation</strong>       <strong>Bonus</strong>          <strong>Built-in Cost</strong> <strong>Base Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift-Beast       +4 max HP. Heal 1  +1 Toxicity per   1500 cr Heart</strong>            HP per round in    day passively combat.            (your heart radiates rift energy). Chest glows faintly in the dark. Corp scanners always flag you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chimeric Limb</strong>  One arm replaced   The limb has its  1800 cr with               own reflexes. creature-derived   Once per session, limb. +2 Chrome    GM triggers an bonus. Melee       involuntary damage +1 die.     grab/strike. -2 Interface (fine motor control compromised)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Neural Hive</strong>    +3 Interface       Hear whispers     2000 cr bonus. Can process constantly (the data at inhuman    hive speed.             communicates). -2 Edge (distracted). Once per session, the hive acts on its own — GM determines what it does."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Apex Predator    +2 to Chrome AND   -2 to Edge AND    1500 cr Graft</strong>            Reflex bonuses.    Interface. Your brain is being overwritten with predator instincts. Social capability degrades. Complex thought requires effort."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional      Once per combat:   You flicker.      2000 cr Membrane</strong>         phase through      Randomly. solid matter (one  Sometimes your wall/obstacle). +1 hand goes through Evasion from being what you’re slightly           holding. -1 to out-of-phase.      all Chrome checks (grip/strength unreliable). Rift creatures can sense you from further away."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total Biological Choose any TWO     Your body is      2500 cr Reconstruction</strong>   Standard/Low Risk  unrecognizable. mutations. Install Social identity both with no       effectively additional         reset. -3 to all complication roll. social checks with anyone who knew you before. Medical treatment costs double (nobody knows what you are anymore). ------------------ ------------------ ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Involuntary Mutations (Rift Exposure)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes the rift decides for you. When a contractor is exposed to high-concentration rift energy, the GM can assign a mutation directly — no purchase, no choice, no complication roll. The mutation just… happens."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Involuntary mutations always come with a complication.</strong> The GM chooses or rolls:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Minor rift exposure → Standard/Low Risk mutation + Minor complication  • Major rift exposure → Any risk tier mutation + Moderate complication  • Catastrophic rift exposure → High/Extreme mutation + Severe complication"
+    },
+    {
+      "type": "paragraph",
+      "text": "These are free in credits but never free in body. They’re the universe’s way of reminding you that the rift doesn’t care about your plans."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Involuntary mutations cannot be removed.</strong> They’re woven into your DNA now. A gene-doc might be able to suppress the complication (not the built-in cost) for 500 cr + a Standard complication roll. But the mutation itself? That’s you now."
+    },
+    {
+      "type": "heading",
+      "text": "Removing Mutations"
+    },
+    {
+      "type": "paragraph",
+      "text": "You can try. It’s not easy."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Method</strong>        <strong>What It Does</strong>  <strong>Cost</strong>          <strong>Risk</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suppression     Disables the      300 cr/month      Stops working if Treatment</strong>       bonus AND the                       you miss a dose. built-in cost.                      Withdrawal: bonus Mutation is                         and cost return dormant but still                   at +1 severity. in your DNA."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Surgical        Removes a         2x original       Complication roll Removal</strong>         Standard or Low   install cost      at the Risk mutation                       mutation’s permanently.                        original risk tier. Yes, removing it can cause complications too."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gene Purge</strong>    Removes any       5x original       High Risk mutation          install cost      complication roll permanently, any                    regardless of risk tier.                          original tier. Your body doesn’t like losing what it’s built."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp            Corp removes it   Free (in credits) They own the Reclamation</strong>     for free.                           genetic data. They own what they removed. They may own you now. Read the fine print. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Interaction With Other Systems"
+    },
+    {
+      "type": "heading",
+      "text": "Mutations + Augments"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Both can be active simultaneously  • Some augments may conflict with specific mutations (GM discretion — if a mutation replaces an arm, chrome augments on that arm need re-evaluation)  • Augments are hardware. Mutations are software-on-wetware. They use different “slots“"
+    },
+    {
+      "type": "heading",
+      "text": "Mutations + Scars"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Scar treatment doesn’t affect mutations  • Mutation complications don’t count as Scars  • BUT: the <em>Accelerated Aging</em> severe complication does affect Scar DCs"
+    },
+    {
+      "type": "heading",
+      "text": "Mutations + Toxicity"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Several mutations interact with toxicity (Rift-Beast Heart, Toxicity Magnet complication)  • Mutations with rift-creature components may cause passive toxicity gain  • Toxicity threshold is still set by Grit + Rift tree augments — mutations don’t change it unless specifically stated"
+    },
+    {
+      "type": "heading",
+      "text": "Mutations + Money"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Installation costs  • Provider tier costs (0.25x to 3x)  • Monthly maintenance for some complications  • Removal costs  • This is another drain in the economic loop. Another reason to take the next contract."
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes for GMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The risk-reward curve is the point.</strong> Standard mutations are almost free lunch — small bonus, small cost, high success rate. Extreme mutations are a <em>different game</em> — massive bonuses, real permanent costs, and a 75% complication rate at a back-alley hack (DC 16, disadvantage). Let players see the full curve before they decide."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Back-alley vs corp clinic is a money decision with consequences.</strong> The corp clinic is safe but expensive and they own your data. The back-alley hack is cheap but dangerous. This is the setting’s entire thesis in one mechanic: the safe option costs money you don’t have, and the dangerous option might cost you more."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Involuntary mutations are story tools.</strong> Don’t spam them. Use them when a rift encounter goes sideways, when a player touches something they shouldn’t, or when the narrative calls for a permanent change. One involuntary mutation per major story arc is plenty."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Complications are permanent (usually).</strong> Don’t let players hand-wave them. The Phantom Pain, the Dependency, the Neural Feedback — these are the scars of choosing to be something other than human. They should matter at the table. That said, some complications can be treated (at cost, with risk). The grind continues."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Homebrew mutations should follow the pattern:</em>  <strong>1.</strong> Pick a risk tier based on how powerful the bonus is  <strong>2.</strong> Design a built-in cost from a <em>different system</em> than the bonus (combat bonus → social/utility cost, survival bonus → economic cost, etc.)  <strong>3.</strong> The cost should be meaningful but not crippling — it’s the <em>price of entry</em>, not the punishment  <strong>4.</strong> Complications from failed rolls are the punishment"
+    },
+    {
+      "type": "heading",
+      "text": "The provider system is the GM’s best friend for economic pressure."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a player can’t afford the gene-doc, they’ll go to the street splicer. When they can’t afford the street splicer, they’ll find the back-alley hack. When they’re truly desperate, they’ll try the self-splice kit. Each step down the ladder is a choice that says something about where this character is in their life. That’s drama. That’s Arcane Steel."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Gene-splicing is not covered under your standard contractor health plan. For upgraded coverage including biological modification support, please speak with your corporate liaison about our Premium Flesh Package™ (additional payroll deductions apply).“</em>"
+    }
+  ]
+}

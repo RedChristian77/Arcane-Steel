@@ -1,0 +1,711 @@
+{
+  "id": "gm-campaigns",
+  "title": "Campaign Structure",
+  "subtitle": "Arcs, acts, and subplots",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Running the Grind</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>For generating quick contracts, filler missions, or side jobs between campaign beats.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How to Use"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Contract:</strong> Roll once on each table (Client → Job Type → Dimension → Complication → Pay). You’ll have a coherent mission in 60 seconds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Curated Contract:</strong> Pick from each table to fit the campaign’s current state. Use the pay formula to balance reward against crew level."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Job Board:</strong> Roll 3-5 contracts and present them to the crew as a selection. Let them pick based on risk tolerance, resource availability, and crew composition. The contracts they don’t take might get picked up by rival crews — or expire with consequences."
+    },
+    {
+      "type": "heading",
+      "text": "Table 1: Client"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Who’s hiring? This determines tone, trustworthiness, and what happens if the crew fails.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- ---------------- -------------- --------------- ---------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d20</strong>        <strong>Client</strong>       <strong>Trust        </strong>Payment       <strong>Failure Level</strong>        Reliability<strong>   Consequence</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-3            <strong>Corporate      High           Guaranteed      Contract breach Direct</strong> — One                                penalties. of the seven                                    Blacklisted major corps                                     from future posts the                                       corp work for contract through                                1d4 months. official channels."
+    },
+    {
+      "type": "paragraph",
+      "text": "4-5            <strong>Corporate      Medium         Guaranteed      Penalties Shell</strong> — A                                   applied but the subsidiary or                                   shell might front company.                                  dissolve before The real client                                 collecting. is obscured.                                    Something else is going on."
+    },
+    {
+      "type": "paragraph",
+      "text": "6-8            <strong>Broker         Medium-High    Reliable        Reputation hit (Licensed)</strong> —                                with the broker A registered                                    network. Fewer middleman                                       jobs offered connecting crews                                next cycle. to clients. Takes 10-15% cut."
+    },
+    {
+      "type": "paragraph",
+      "text": "9-10           <strong>Broker         Low-Medium     Usually         Broker might (Unlicensed)</strong>                                  blame you for — Off-book                                    the failure to middleman.                                      protect their Better pay,                                     own rep. Could worse                                           become hostile. protections."
+    },
+    {
+      "type": "paragraph",
+      "text": "11-12          <strong>Independent    Medium         Reliable but    They can’t pay Researcher</strong> —                slow            if you don’t A scientist,                                    deliver. No academic, or                                    penalties, but obsessive who                                   no pay either. needs rift                                      Might offer materials or                                    information data.                                           instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "13-14          <strong>Undercity      Low            Cash on         Undercity Contact</strong> —                   delivery        contacts have Someone from                                    long memories. below. The job                                  Failure means a is off the books                                debt, not a entirely.                                       fine."
+    },
+    {
+      "type": "paragraph",
+      "text": "15-16          <strong>Rival Crew</strong>   Variable       Depends on them They badmouth — Another                                     you to every contractor team                                 broker in the subcontracting                                  district. -1 to work they can’t                                crew handle.                                         reputation."
+    },
+    {
+      "type": "paragraph",
+      "text": "17-18          <strong>Desperate      High (honest)  Whatever they   Nothing Civilian</strong> —                  have            mechanical. But Someone with a                                  you left personal stake.                                 someone Missing family                                  hanging. member, stolen property, medical need."
+    },
+    {
+      "type": "paragraph",
+      "text": "19             <strong>Unknown (Dead  None           Promised        Could be a Drop)</strong> —                                     trap. Could be Instructions                                    the best paying left at a                                       job you’ve designated                                      ever seen. location. No                                    Could be both. face, no name, no questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "20             <strong>Corporate      Low            Excellent       The exec burns Deniable</strong> — A                                you to protect corp exec acting                                themselves. You outside their                                   know something authority. If                                   someone this gets traced                                powerful back, they’re                                  doesn’t want done.                                           known. -------------- ---------------- -------------- --------------- ---------------"
+    },
+    {
+      "type": "heading",
+      "text": "Table 2: Job Type"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>What does the crew actually need to do?</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ------------------ ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d20</strong>           <strong>Job Type</strong>       <strong>Typical         </strong>Core Duration<strong>        Challenge</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-2               <strong>Extraction —   1-2 days          Locate and Personnel</strong>                          retrieve a person from inside a rift. They may be alive, dead, or… changed."
+    },
+    {
+      "type": "paragraph",
+      "text": "3-4               <strong>Extraction —   1-3 days          Retrieve a Material</strong>                           specific resource, sample, or artifact from a rift dimension."
+    },
+    {
+      "type": "paragraph",
+      "text": "5-6               <strong>Escort</strong>         2-4 days          Protect a client (researcher, surveyor, executive) while they do their work inside a rift."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-8               <strong>Survey</strong>         2-5 days          Map and document a rift zone. Record environmental data, creature sightings, hazard locations."
+    },
+    {
+      "type": "paragraph",
+      "text": "9-10              <strong>Clearance</strong>      1-2 days          Kill everything in a designated area. A rift zone has been claimed and needs to be swept before corporate teams move in."
+    },
+    {
+      "type": "paragraph",
+      "text": "11-12             <strong>Sabotage</strong>       1-3 days          Destroy, disable, or corrupt a target inside a rift. Could be a rival corp’s equipment, a creature nest, or a dimensional anchor."
+    },
+    {
+      "type": "paragraph",
+      "text": "13-14             <strong>Installation</strong>   2-4 days          Set up equipment deep in a rift — monitoring stations, relay beacons, extraction rigs. The gear is heavy and the rift doesn’t want it there."
+    },
+    {
+      "type": "paragraph",
+      "text": "15                <strong>Retrieval —    1-3 days          Another crew went Crew</strong>                               in and didn’t come out. Find out what happened. Bring back survivors, gear, or at minimum data on what killed them."
+    },
+    {
+      "type": "paragraph",
+      "text": "16                <strong>Bounty</strong>         1-3 days          A specific creature has been identified as a threat or a valuable specimen. Hunt it. Kill or capture per contract terms."
+    },
+    {
+      "type": "paragraph",
+      "text": "17                <strong>Courier</strong>        1-2 days          Transport a sealed container through a rift to a specific drop point. You don’t know what’s inside. The contract says don’t open it."
+    },
+    {
+      "type": "paragraph",
+      "text": "18                <strong>Heist</strong>          1-3 days          Steal something from inside a rift — from a rival crew’s cache, a creature’s hoard, or a corp facility on the other side."
+    },
+    {
+      "type": "paragraph",
+      "text": "19                <strong>Defense</strong>        1-3 days          Hold a position inside a rift against incoming threats while something happens (gate calibration, extraction rig operation, ritual completion)."
+    },
+    {
+      "type": "paragraph",
+      "text": "20                <strong>Anomaly          2-5 days          Something weird Investigation</strong>                      is happening in a rift zone. Readings don’t match, creatures are behaving abnormally, or the dimension itself seems to be changing. Find out why. ----------------- ------------------ ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Table 3: Dimension"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Where does the job take place?</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- --------------- ----------------- ---------------------- ----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d12</strong>        <strong>Dimension</strong>   <strong>Passive         </strong>Terrain<strong>            </strong>Flavor<strong> Tox/Day</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-2            <strong>The Bloom</strong>   +1 (mild)         Rough (jungle)         Overgrown, mutagenic, oppressively alive. Spore clouds and vine walls."
+    },
+    {
+      "type": "paragraph",
+      "text": "3-4            <strong>The Brine</strong>   +2 (moderate)     Open/Rough             Salt flats, (coastal/underwater)   tidal caves, submerged ruins. Corrosion eats your gear."
+    },
+    {
+      "type": "paragraph",
+      "text": "5-6            <strong>The Char</strong>    +3 (harsh)        Rough (wasteland)      Ash deserts, heat shimmer, volcanic glass. Everything is dead or burning."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-8            <strong>The Grave</strong>   +3 (harsh)        Rough/Difficult        Endless (ruins)                catacombs, bone architecture, psychic weight. The dead don’t stay down."
+    },
+    {
+      "type": "paragraph",
+      "text": "9              <strong>The Static</strong>  +5 (extreme)      Difficult (fractured)  Reality doesn’t work right. Geometry shifts. Equipment malfunctions. Short expeditions only."
+    },
+    {
+      "type": "paragraph",
+      "text": "10             <strong>The Mirror</strong>  +2 (moderate)     Open (eerily normal)   Looks like realspace but wrong. Reflections move independently. Identity drift."
+    },
+    {
+      "type": "paragraph",
+      "text": "11             <strong>Unstable      +4                Variable               A new or Rift</strong>          (harsh-extreme)                          collapsing rift. Terrain changes hourly. No reliable maps. High value targets."
+    },
+    {
+      "type": "paragraph",
+      "text": "12             <strong>Uncharted</strong>   +3-5 (variable)   Unknown                Never been surveyed. Could be anything. The contract exists because someone detected something valuable on a scanner sweep. -------------- --------------- ----------------- ---------------------- ----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Table 4: Complication"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Nothing ever goes clean. Roll 1-2 complications per contract.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d20</strong>                 <strong>Complication</strong>        <strong>Impact</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       <strong>Bad intel.</strong> The      Time + supplies target isn’t where the client said it would be. Add 1-2 zones to the expedition."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       <strong>Rival crew.</strong> Another Competition team is running the same job. First to deliver gets paid."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                       <strong>Environmental         Travel + survival shift.</strong> The dimension’s weather/terrain changes mid-mission. Terrain difficulty increases by one step."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                       <strong>The target is         Moral dilemma alive.</strong> The “material extraction“ is actually a person. Or something that used to be a person."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                       <strong>Ambush at             Combat at worst moment extraction.</strong> Something is waiting at the planned exit point."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                       <strong>Equipment failure.</strong>  Resource pressure One piece of expedition equipment (randomly determined) breaks on Day 2."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                       <strong>Client lied about the Toxicity pressure dimension.</strong> It’s one step more hostile than advertised. Passive Tox is higher."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                       <strong>Creatures are         Escalation spike migrating.</strong> Encounter frequency is doubled for 1d4 zones as a horde moves through the area."
+    },
+    {
+      "type": "paragraph",
+      "text": "9                       <strong>The objective         Time + risk moved.</strong> Creature nests shift, artifacts get carried off, people wander. Roll navigation to reacquire."
+    },
+    {
+      "type": "paragraph",
+      "text": "10                      <strong>Corp patrol.</strong> A      Social/combat variable corporate security team is operating in the same area. They may be hostile, neutral, or willing to trade information — depending on the crew’s reputation."
+    },
+    {
+      "type": "paragraph",
+      "text": "11                      <strong>Toxicity spike.</strong> A   Toxicity burst localized contamination event. +3 Toxicity to everyone in the zone. No warning."
+    },
+    {
+      "type": "paragraph",
+      "text": "12                      <strong>The client wants      Scope creep more.</strong> Mid-mission, the client adds a secondary objective. More pay if completed, but extends the expedition by 1-2 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "13                      <strong>Rift instability.</strong>   Risk + opportunity The dimension is degrading. After Day 3, random reality tears open — dangerous to be near, but might offer emergency extraction shortcuts."
+    },
+    {
+      "type": "paragraph",
+      "text": "14                      <strong>Creature follows you  Post-mission problem out.</strong> When the crew extracts, something comes with them. It’s loose in realspace now."
+    },
+    {
+      "type": "paragraph",
+      "text": "15                      <strong>Supplies              Resource loss contaminated.</strong> 1d4 Rations are spoiled (discovered on use)."
+    },
+    {
+      "type": "paragraph",
+      "text": "16                      <strong>Traitor contact.</strong>    Ambush + betrayal Someone in the supply chain tipped off a rival. They know your route."
+    },
+    {
+      "type": "paragraph",
+      "text": "17                      <strong>The target is         Major combat guarded.</strong> The objective has a Boss-tier creature protecting it. Not mentioned in the contract briefing."
+    },
+    {
+      "type": "paragraph",
+      "text": "18                      <strong>Communication         Isolation blackout.</strong> Signal Booster doesn’t work in this zone. No extraction calls until you move to a clear zone."
+    },
+    {
+      "type": "paragraph",
+      "text": "19                      <strong>Secondary crew in     Moral dilemma + distress.</strong> You find    resources another team that’s been stranded. They need help. Helping them costs time and supplies. Leaving them is… a choice."
+    },
+    {
+      "type": "paragraph",
+      "text": "20                      <strong>The dimension reacts  Personal threat to you.</strong> Your crew specifically has attracted attention. A creature or environmental effect targets the highest-Toxicity member of the party. It wants what’s inside them. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Table 5: Twist (Optional)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>For when you want the contract to have a narrative hook beyond “go there, do thing, come back.“ Roll only if you want the mission to connect to larger campaign threads.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d12</strong>                             <strong>Twist</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   The target contains evidence of corporate crimes. Delivering it as-is is the contract. But the evidence could be worth more to the right buyer."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   The “dead“ crew you’re retrieving isn’t dead. They went native. They don’t want to come back."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   The artifact the client wants is sentient. Or at least it reacts to being moved. It has opinions about who carries it."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   The rift zone contains technology that shouldn’t exist — human-made, but from no known corporation. Someone was here before."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   The client is testing the crew. The real job offer comes after this one, and it pays ten times as much."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   The dimension is healing. The rift is closing naturally. If the crew doesn’t finish the job in time, the exit seals permanently."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   There are already people living in this rift. Not explorers — residents. They’ve adapted. They have a settlement. The contract didn’t mention them."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   The target is bait. Someone planted it to lure crews into this zone. There are traps, ambushes, or a creature that feeds on contractors."
+    },
+    {
+      "type": "paragraph",
+      "text": "9                                   The crew finds something worth far more than the contract pays. Delivering it to the client as agreed means walking away from a fortune."
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  A crew member’s past is connected to this location. An old contact, a family member, or evidence of something they thought was buried."
+    },
+    {
+      "type": "paragraph",
+      "text": "11                                  The extraction target is a child. They’ve been in-rift for weeks. They should be dead. They’re not. Something about them is wrong."
+    },
+    {
+      "type": "paragraph",
+      "text": "12                                  The job is legitimate but the client is dying. If the crew takes too long, there’s nobody to pay them. But the dying client’s organization might honor the contract — or might not. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Pay Formula"
+    },
+    {
+      "type": "paragraph",
+      "text": "Base pay is determined by job difficulty. Modify by client type and dimension."
+    },
+    {
+      "type": "heading",
+      "text": "Base Pay by Duration"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expedition Length</strong>   <strong>Base Pay (per         </strong>Total (4-person person)<strong>               crew)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 day (quick job)       200-400 cr              800-1,600 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "2-3 days (standard)     500-800 cr              2,000-3,200 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-5 days (extended)     900-1,500 cr            3,600-6,000 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-7 days (deep run)     1,500-2,500 cr          6,000-10,000 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "8+ days (extreme)       2,500-4,000 cr          10,000-16,000 cr ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Pay Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Factor</strong>              <strong>Modifier</strong>            <strong>Reason</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate Direct client ×1.0                    Standard rates, reliable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Broker (Licensed)       ×0.85-0.90              Broker takes their cut."
+    },
+    {
+      "type": "paragraph",
+      "text": "Broker (Unlicensed)     ×1.1-1.2                No middleman cut, but no protections."
+    },
+    {
+      "type": "paragraph",
+      "text": "Undercity Contact       ×1.2-1.5                Danger premium. Off-book work pays more."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unknown / Dead Drop     ×1.5-2.0                High risk, high reward. If it’s real."
+    },
+    {
+      "type": "paragraph",
+      "text": "Desperate Civilian      ×0.5-0.8                They’re paying what they have, not what it’s worth."
+    },
+    {
+      "type": "paragraph",
+      "text": "Harsh+ Dimension        ×1.2                    Hazard pay."
+    },
+    {
+      "type": "paragraph",
+      "text": "Extreme Dimension       ×1.5                    Serious hazard pay."
+    },
+    {
+      "type": "paragraph",
+      "text": "Static / Uncharted      ×2.0                    Combat pay. Few crews will take these."
+    },
+    {
+      "type": "paragraph",
+      "text": "Job involves combat     +200 cr/person          Engagement bonus. certainty"
+    },
+    {
+      "type": "paragraph",
+      "text": "Job involves Boss-tier  +500 cr/person          Kill premium. target"
+    },
+    {
+      "type": "paragraph",
+      "text": "Time-sensitive (must    +20%                    Rush fee. complete in X days) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Profit Margin Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "After calculating pay, compare against estimated expedition costs:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expedition Length</strong>   <strong>Minimum Supply Cost   </strong>Recommended Supply (4 crew)<strong>              Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 day                   \\~200 cr                \\~400 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "3 days                  \\~600 cr                \\~1,800 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "5 days                  \\~1,400 cr              \\~4,800 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "7 days                  \\~2,000 cr              \\~7,000 cr ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Target profit margin: 40-60% of pay should be actual profit.</strong> If the crew is barely breaking even, the contract is a bad deal (which is sometimes intentional — desperate crews take bad deals). If profit is above 70%, the job is suspiciously generous (which is also sometimes intentional)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The crew should always be able to calculate this themselves.</strong> They know supply costs, they know the pay offer. The tension of “this job pays well but it’s 5 days in the Char“ is a player-driven decision."
+    },
+    {
+      "type": "heading",
+      "text": "Quick-Roll Contract Generator"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>For generating a contract in under a minute:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roll d20 for Client, d20 for Job Type, d12 for Dimension, d20 for Complication, then calculate pay."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example Roll:</strong> Client 7 (Licensed Broker), Job 3 (Extraction — Material), Dimension 5 (The Char), Complication 12 (Client wants more mid-mission)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result:</strong> A licensed broker is offering a 2-3 day material extraction in the Char. Base pay: 600 cr/person (2,400 cr crew total). Broker cut brings it to \\~540 cr/person. Char hazard pay ×1.2 = \\~650 cr/person. Mid-mission, the broker relays an additional request from the client — a secondary sample from a deeper zone, offering +300 cr/person if completed. The crew has to decide if an extra day in the Char (at +3 Toxicity/day) is worth the bonus."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example Roll:</strong> Client 19 (Unknown/Dead Drop), Job 17 (Courier), Dimension 10 (The Mirror), Complication 4 (The target is alive)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result:</strong> Dead drop instructions: transport a sealed container through the Mirror to a specific coordinate. Pay is extraordinary (×1.5-2.0 modifier). The container is supposed to hold a material sample. It doesn’t. Something inside is moving. The crew signed a contract that says don’t open it. The Mirror is making everyone paranoid already. What do they do?"
+    },
+    {
+      "type": "heading",
+      "text": "Contract Board Template"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Present 3-5 of these to the crew between missions. Let them choose.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Contract: \\[NAME\\]"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Client:</strong> \\[Type and brief description\\] <strong>Job:</strong> \\[What they need done\\] <strong>Location:</strong> \\[Dimension and zone description\\] <strong>Duration:</strong> \\[Estimated days\\] <strong>Pay:</strong> \\[Amount per person\\] <strong>Known Hazards:</strong> \\[What the briefing mentions — not necessarily complete\\] <strong>Special Terms:</strong> \\[Penalties, bonuses, restrictions\\]"
+    },
+    {
+      "type": "heading",
+      "text": "Example Board (3 contracts)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Contract: Spore Sample Retrieval</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Client:</strong> Dr. Yael Voss, Independent Researcher (repeat client)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Job:</strong> Collect 3 distinct spore samples from deep Bloom fungal colonies <strong>Location:</strong> The Bloom, Sector 7 (deep jungle, known mutagenic zone) <strong>Duration:</strong> 3 days estimated <strong>Pay:</strong> 500 cr/person <strong>Known Hazards:</strong> Mutagenic spore clouds, aggressive flora, moderate creature activity <strong>Special Terms:</strong> Samples must be stored in provided cryo-containers. Damaged samples = reduced pay (100 cr/person per damaged sample)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Contract: Relay Installation</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Client:</strong> Ashford-Klein subsidiary (corporate shell) <strong>Job:</strong> Install 3 communication relays at designated coordinates in the Brine"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Location:</strong> The Brine, deep coastal shelf <strong>Duration:</strong> 4 days estimated <strong>Pay:</strong> 900 cr/person <strong>Known Hazards:</strong> Corrosive environment, subaquatic traversal, tidal flooding <strong>Special Terms:</strong> Equipment provided. Crew supplies their own expedition gear. Bonus +200 cr/person if all 3 relays are operational within 72 hours."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Contract: URGENT — Crew Recovery</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Client:</strong> Broker Mara Kessler (Licensed, solid reputation) <strong>Job:</strong> Locate Fireteam Osprey, last contact 6 days ago in the Grave"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Location:</strong> The Grave, Sector 12-North (deep catacombs) <strong>Duration:</strong> Unknown (2-5 days estimated) <strong>Pay:</strong> 1,200 cr/person <strong>Known Hazards:</strong> Psychic pressure, undead activity, unknown cause of lost contact"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Special Terms:</strong> Priority retrieval: surviving crew members. Secondary: equipment and data recovery. Bonus: +500 cr/person if any Osprey members are recovered alive. Mara is Osprey’s regular broker — this is personal for her."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Campaign planning is not a service offered by Intercompany Contractor Relations. However, the Bureau has observed that contractor crews who establish long-term operational patterns demonstrate a 23% higher survival rate than those who operate reactively. Whether this is because planning helps or because the kind of people who plan are harder to kill is a matter of ongoing statistical debate.“</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "An Arcane Steel campaign is a series of contracts connected by the crew’s shared economic survival, personal progression, and (eventually) something larger than either. The contracts are the episodes. The downtime between them is the connective tissue. The money spiral is the engine that keeps everything moving."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>You don’t need a plot to start.</strong> The first five sessions can be nothing but “broker pings you, you take the job, you come back, you spend your money.“ The plot emerges from the consequences of those jobs — who you worked for, what you found, what you brought back, and who noticed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>You do need pressure.</strong> Without economic pressure, the crew has no reason to take risks. Without escalating stakes, the crew has no reason to care about anything beyond their next paycheck. The campaign framework exists to ensure both pressure and escalation happen naturally without the GM forcing a story."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every Arcane Steel campaign follows a natural arc driven by the crew’s economic situation. The GM doesn’t need to plan this — the system generates it. But understanding the arc helps the GM pace threats, introduce complications, and know when to push."
+    },
+    {
+      "type": "heading",
+      "text": "Act 1: Survival (Sessions 1-5)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The crew forms. The grind begins.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew is new — either to each other or to contracting. Resources are thin. Every contract matters. The goals are immediate:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Can we afford rent?  • Can we afford scar treatment?  • Can we survive the next job?  <em>Session Structure:</em>  • Contract → Mission → Payout → Downtime  • One contract per session (sometimes two short ones)  • Downtime is short — 3-7 days between jobs  • Introduce the margin, the board, the NPCs, the daily rhythm  <em>GM Goals for Act 1:</em>  • Establish the economic pressure immediately. Show the players what things cost. Make them feel every credit.  • Introduce 2-3 recurring NPCs: a broker, a medic/installer, and a merchant or bartender. These become the crew’s support network.  • Use T1-T2 enemies. Fights should be quick. The danger is economic (taking damage costs money to fix) more than lethal.  • Introduce one corp through contracts. The crew should work for someone specific and develop an opinion about them.  • Plant one seed. A detail that doesn’t matter yet — an unusual rift reading, a creature that behaved strangely, a contract that had a weird clause. Don’t explain it. Don’t follow up. Just plant it.  <em>Contract Types for Act 1:</em>  • Creature clearance (simple combat)  • Bulk extraction (haul and earn)  • Escort/delivery (transit between locations)  • Survey (enter a rift, plant sensors, get out)  <em>Expected Crew State by End of Act 1:</em>  • 1-2 scars each  • 1-2 augments each (T1, maybe one T2)  • Basic equipment, possibly pooling for first vehicle  • Starting to talk about a base  • \\~2,000-4,000 cr in cumulative earnings, most of it already spent"
+    },
+    {
+      "type": "heading",
+      "text": "Act 2: Investment (Sessions 6-15)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The crew starts building. Ambition costs money.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew has survived long enough to think beyond next week. They’re saving for a base, buying augments, investing in skills. The contracts get harder because the crew needs more money, and more money means more risk. The spiral tightens."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Session Structure:</em>  • Contracts are more complex — multi-objective, multi-session, higher stakes  • Downtime is longer (7-14 days) and more meaningful — skill training, crafting, base construction  • Inter-session events: NPC interactions, margin politics, corp maneuvering  • The seed from Act 1 starts growing — the weird thing gets weirder  <em>GM Goals for Act 2:</em>  • Increase contract complexity. Missions have multiple objectives, competing priorities, or unexpected complications. “Clear the rift“ becomes “clear the rift, but there’s a rival crew already in there, and the creature you’re supposed to kill has something valuable inside it.“  • Introduce a second corp with different doctrine. The crew should have experience working for at least two corps and understand how they differ.  • Escalate the economic pressure through opportunity, not punishment. Don’t bankrupt the crew — offer them expensive things they want. A base location they can almost afford. An augment that would change their build. A vehicle that would double their harvest income. Make them choose.  • Develop NPC relationships. The broker who got them started might offer better contracts — or betray them. The medic has a favor to ask. The bartender heard something.  • The seed becomes a subplot. The strange rift reading happens again. The creature behavior is a pattern. The contract clause leads somewhere. The crew can investigate or ignore it. If they ignore it, it comes to them.  <em>Contract Types for Act 2:</em>  • Deep extraction (multi-day rift expeditions)  • Live capture (Wellspring/Green Cradle contracts, harder than killing)  • Competitive contracts (multiple crews, same objective)  • Garrison/defense (holding a position)  • Investigation (something went wrong on a previous contract, find out what)  • The first corp-on-corp job (sabotage, espionage, or proxy conflict)  <em>Expected Crew State by End of Act 2:</em>  • 3-5 scars each  • 4-6 augments each, progressing down a tree  • A base (early-to-mid development — bunk room, workshop, maybe medical bay)  • A vehicle (probably a Contractor Van or Rift Buggy)  • Established reputation with at least two corps  • The subplot is now a real thread they can’t ignore"
+    },
+    {
+      "type": "heading",
+      "text": "Act 3: Stakes (Sessions 15-25+)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Something bigger than money.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew has built something worth protecting. A base. A reputation. Relationships. Income streams. For the first time, they have something to lose beyond their own survival. And something threatens it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Act 3 is where the campaign becomes about something specific — a threat, a mystery, a conflict that the crew is uniquely positioned to face because of the choices they made in Acts 1 and 2. The GM’s job is not to script this — it’s to let the consequences of earlier sessions converge into something that demands action."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Session Structure:</em>  • Contracts are chosen, not assigned. The crew has enough reputation to pick their jobs. The question shifts from “can we afford to take this?“ to “should we take this?“  • Downtime includes strategic planning — the crew is managing a base, relationships, and a growing crisis simultaneously  • Multi-session arcs: a single objective might take 3-5 sessions to resolve  • The subplot from Act 2 becomes the main plot  <em>GM Goals for Act 3:</em>  • Threaten what they built. The base is targeted. A key NPC is in danger. Their corp patron demands something unconscionable. A rift opens near their margin. Make the stakes personal and concrete.  • Force meaningful choices. Not “do you fight or run“ but “do you protect the base or pursue the lead? Do you honor the corp contract or help the settlement? Do you stay together or split the crew for two simultaneous objectives?“  • Raise the threat tier. T3-T4 enemies. Boss encounters. Rift zones that push into Orange or Red classification. The combat gets dangerous enough that preparation matters.  • The money spiral doesn’t stop. Even during the climactic arc, rent is still due. Scars still need treatment. The economic engine keeps running underneath the drama. The crew can’t just heroically charge into danger — they have to budget for it.  • Give them a reason to care beyond survival. Not every campaign needs to save the world. Most shouldn’t. But the crew should care about something — their base, their margin, their NPCs, their piece of the world. Protecting that is enough.  <em>Contract Types for Act 3:</em>  • Self-directed missions (the crew defines the objective)  • Corp-conflict operations (the crew is caught between corps)  • Deep rift expeditions (Red/Black Zone, multi-session, expedition-scale)  • Defense of home territory (the margin, the base, the settlement)  • The climactic contract — the one that resolves the main thread  <em>Expected Crew State by End of Act 3:</em>  • 5-7 scars each (veterans)  • Near or at tree mastery (8-10 augments)  • Fully developed base with multiple rooms and upgrades  • A vehicle (probably upgraded or replaced with rift-rated)  • Known by name in their margin and beyond  • Something resolved — or at least survived"
+    },
+    {
+      "type": "paragraph",
+      "text": "The best Arcane Steel campaigns don’t have pre-written plots. They have subplots that grow from contract consequences. The GM plants seeds and lets the crew’s choices determine which ones sprout."
+    },
+    {
+      "type": "heading",
+      "text": "How to Plant Seeds"
+    },
+    {
+      "type": "paragraph",
+      "text": "A seed is a detail that doesn’t have an explanation yet. The GM introduces it during a contract and doesn’t follow up immediately. The crew might notice it, might not. Either way, it exists."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Seed Examples:</em>  • A rift creature that was already dead when you found it — killed by something else, something bigger, something that isn’t in the survey data  • A contract employer who specifically requests that you don’t enter a certain area of the rift, and the pay is too good for the work described  • A piece of equipment in the rift that shouldn’t be there — corp tech, but from a corp that doesn’t operate in this region  • A pattern in the rift readings that matches a pattern from a different rift, hundreds of miles away  • An NPC contractor who takes the same contracts as you and always seems to know what’s coming  • A broker who posts a contract, then cancels it before anyone accepts, then posts it again a week later with higher pay"
+    },
+    {
+      "type": "heading",
+      "text": "How Seeds Grow"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the crew encounters a second data point that connects to the seed, the subplot activates. The GM doesn’t need to force this — just keep the seed in mind and look for opportunities to echo it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Seed:</strong> The creature that was already dead. <strong>Echo:</strong> On a later contract, the crew finds another dead creature, same kill pattern. And drag marks. Something is hunting in the rift and collecting bodies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Seed:</strong> The area the employer said to avoid. <strong>Echo:</strong> A different employer’s contract takes the crew near the same area from a different approach. They hear sounds. They find tracks. The area is occupied by something the first employer knew about and didn’t disclose."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Seed:</strong> The corp tech that shouldn’t be there. <strong>Echo:</strong> The crew’s broker mentions that a corp has been posting and canceling contracts in the same rift zone for months. The tech is connected. Someone is running an off-books operation."
+    },
+    {
+      "type": "heading",
+      "text": "Subplot to Main Plot"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the crew actively investigates a subplot — spending resources, taking risks, making it their priority — the subplot becomes the main plot. The GM’s job is to reward this investment with escalation:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• The answers lead to bigger questions  • The stakes become personal (it threatens the crew, their base, their contacts)  • Resolution requires action that goes beyond a normal contract  • The crew must choose between the safe path (ignore it, keep grinding) and the meaningful path (engage, risk what they’ve built)"
+    }
+  ]
+}

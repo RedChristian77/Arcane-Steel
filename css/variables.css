@@ -1,0 +1,99 @@
+/* ============================================================
+   VARIABLES — Cyberpunk Corporate Theme
+   Think: Weyland-Yutani intranet meets Blade Runner UI
+   ============================================================ */
+
+:root {
+  --bg:         #08080a;
+  --bg2:        #0e0e12;
+  --bg3:        #161620;
+  --surface:    #12121a;
+  --surface2:   #1a1a26;
+  --text:       #d8d4cc;
+  --text2:      #8a8880;
+  --muted:      #555550;
+  
+  /* Primary accent: toxic green (corporate brand) */
+  --accent:     #5aad3a;
+  --accent-dim: rgba(90, 173, 58, 0.15);
+  --accent-glow:rgba(90, 173, 58, 0.06);
+  --accent-solid:#1a3010;
+  
+  /* Secondary: corporate teal */
+  --teal:       #40b8cc;
+  --teal-dim:   rgba(64, 184, 204, 0.12);
+  
+  /* Warm accents */
+  --rust:       #cc5533;
+  --rust-dim:   rgba(204, 85, 51, 0.12);
+  --gold:       #d4aa30;
+  --gold-dim:   rgba(212, 170, 48, 0.10);
+  --purple:     #9966cc;
+  --purple-dim: rgba(153, 102, 204, 0.10);
+  
+  /* Borders */
+  --border:     #2a2a35;
+  --border2:    #1e1e28;
+  --border-accent: rgba(90, 173, 58, 0.25);
+  
+  /* Augment tier colors */
+  --tier1:      #5aad3a;
+  --tier2:      #40b8cc;
+  --tier3:      #d4aa30;
+  --tier4:      #cc5533;
+  --tier5:      #9966cc;
+
+  /* Spacing */
+  --sp-xs:  4px;
+  --sp-sm:  8px;
+  --sp-md:  16px;
+  --sp-lg:  24px;
+  --sp-xl:  40px;
+  --sp-2xl: 64px;
+
+  /* Layout — WIDER content area */
+  --sidebar-w:  250px;
+  --header-h:   52px;
+  --container-w: 920px;
+  --radius:     4px;
+  --radius-lg:  8px;
+  --tr:         0.15s ease;
+
+  /* Fonts */
+  --sans:    'IBM Plex Sans', -apple-system, sans-serif;
+  --mono:    'IBM Plex Mono', 'Menlo', monospace;
+  --heading: 'Space Mono', monospace;
+
+  /* Type scale */
+  --fs-xs:   0.65rem;
+  --fs-sm:   0.78rem;
+  --fs-base: 0.92rem;
+  --fs-md:   1.05rem;
+  --fs-lg:   1.25rem;
+  --fs-xl:   1.6rem;
+  --fs-2xl:  2.2rem;
+  --fs-hero: 3.2rem;
+  --lh-tight: 1.35;
+  --lh-base:  1.7;
+  --lh-loose: 1.85;
+}
+
+[data-theme="light"] {
+  --bg:         #f5f4f0;
+  --bg2:        #eceae5;
+  --bg3:        #e0ded8;
+  --surface:    #ffffff;
+  --surface2:   #f8f7f4;
+  --text:       #1a1a18;
+  --text2:      #5a5855;
+  --muted:      #908e88;
+  --accent:     #3a8a20;
+  --accent-dim: rgba(58, 138, 32, 0.1);
+  --accent-glow:rgba(58, 138, 32, 0.04);
+  --accent-solid:#e6f0e0;
+  --teal:       #1a8090;
+  --teal-dim:   rgba(26, 128, 144, 0.08);
+  --border:     #d6d4ce;
+  --border2:    #e4e2dc;
+  --border-accent: rgba(58, 138, 32, 0.2);
+}

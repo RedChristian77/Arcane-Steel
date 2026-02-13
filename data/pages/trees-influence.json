@@ -1,0 +1,103 @@
+{
+  "id": "trees-influence",
+  "title": "🗣️ Influence",
+  "subtitle": "The Negotiator's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Edge / Interface",
+      "theme": "Words are weapons. Contacts are armor. The best contractors never need to fight.",
+      "design": "Influence augments enhance social encounters, provide team support, and offer non-combat solutions."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Social Implant",
+          "effect": "+2 to social and persuasion checks",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Calm Under Fire",
+          "effect": "+1 to Edge checks during combat (not attacks)",
+          "cost": "250 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Inspiring Presence",
+          "effect": "1/combat: one ally rerolls a failed stat check",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Threat Assessment",
+          "effect": "1/encounter: learn one enemy's biggest weakness",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Negotiator's Edge",
+          "effect": "Reduce prices in shops/services by 10%",
+          "cost": "300 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Rally Cry",
+          "effect": "1/combat: all allies +1 accuracy for 2 rounds",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Corporate Leverage",
+          "effect": "1/mission: call in a corporate favor",
+          "cost": "550 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Puppet Strings",
+          "effect": "1/combat: force one enemy to attack an ally of yours choosing",
+          "cost": "1,000 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Kingmaker",
+          "effect": "1/mission: auto-succeed one social encounter OR grant all allies +2 to all checks for one combat",
+          "cost": "2,000 cr"
+        }
+      ]
+    }
+  ]
+}

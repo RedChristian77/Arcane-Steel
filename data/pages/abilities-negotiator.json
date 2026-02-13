@@ -1,0 +1,99 @@
+{
+  "id": "abilities-negotiator",
+  "title": "Negotiator Abilities",
+  "subtitle": "Negotiator kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Negotiator"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Social operator. In combat: disruption, misdirection, morale warfare, and turning enemies against each other. Between combat: the crew’s face for every interaction.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Read the Room (Passive):</strong> At the start of combat, identify which enemy is the leader and which has the lowest morale."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Demoralize (Active, 1 AP):</strong> Edge check vs enemy Grit within Medium range. On success, -2 to all their checks until end of your next turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rally (Active, 1 AP):</strong> Remove Stunned, stand an ally from Prone for free, or remove 1 Hex stack from an ally within Medium range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Misdirect (Active, 1 AP):</strong> Edge check (DC 8). An enemy’s next attack targets a different enemy of your choice (if within range)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Inspiring Words (Active, 1 AP):</strong> An ally within Medium range gets +1 to all checks until end of your next turn. Your encouragement is tangible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stalling Tactics (Active, 1 AP):</strong> Delay an enemy’s next turn by 1 position in initiative order. You distract them just long enough. Edge check (DC 7)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Size Up (Passive):</strong> When you successfully Read an enemy (Awareness check), you also learn their current HP range (full/above half/below half/critical) and whether they’re considering fleeing."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Surrender Demand (Active, 2 AP):</strong> Hordes break at 25% casualties instead of 50% on a successful Intimidation check (DC 7)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Battlefield Commander (Passive):</strong> Once per round, when an ally within Medium range is attacked, they get +1 Evasion against that attack. You call out warnings."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>False Retreat (Active, 2 AP):</strong> Enemies make Edge check (DC 8) or break formation to pursue. You position them where you want."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Divide and Conquer (Active, 2 AP):</strong> Choose two enemies within Medium range. Edge check (DC 8). On success, those enemies cannot support each other (no flanking bonuses, no horde bonuses, no coordinated abilities) until end of your next turn. You break their coordination."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cutting Words (Active, 1 AP):</strong> When an enemy within Medium range hits an ally, use your reaction to reduce the damage by 1d6. Your insult throws off their strike at the last second. Once per round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Negotiate Ceasefire (Active, 3 AP):</strong> Both sides stop fighting for 1 round. Neither side can attack. Used to buy time for healing, repositioning, or actual negotiation. Requires enemy leader to be alive and below 50% force strength. Edge check (DC 10)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Exploit Ego (Passive):</strong> When you successfully Demoralize a Boss-tier enemy, the effect lasts 2 rounds instead of 1. Bosses have the biggest egos."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Turn Coat (Active, 3 AP):</strong> Edge check vs Grit on a Standard-or-lower enemy. On success, they fight for you for 1d4 turns with full stat block. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aura of Authority (Passive):</strong> Allies within Close range get +1 to all checks. Enemies within Close range get -1 to all checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mastermind (Passive):</strong> At the start of each round, you can issue one Command for free (0 AP): reposition one ally 1 range band, give one ally +2 to their next check, or impose -2 on one enemy’s next check. Your tactical mind works constantly."
+    }
+  ]
+}

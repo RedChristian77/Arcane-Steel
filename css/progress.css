@@ -1,0 +1,22 @@
+/* ============================================================
+   PROGRESS — Reading progress bar
+   ============================================================ */
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-w);
+  right: 0;
+  height: 2px;
+  z-index: 80;
+  background: transparent;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--accent), var(--teal));
+  transition: width 0.15s;
+}
+
+@media (max-width: 768px) { .progress-bar { left: 0; } }

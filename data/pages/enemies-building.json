@@ -1,0 +1,643 @@
+{
+  "id": "enemies-building",
+  "title": "Building Encounters",
+  "subtitle": "Design philosophy, tiers, roles",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>What Wants to Kill You</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Threat classification is provided as a courtesy to contracting personnel. Actual threat levels may vary. Intercompany Contractor Relations assumes no responsibility for encounters exceeding projected difficulty. If you are reading this after dying, please disregard.“</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Building enemies should be fast. If it takes longer to stat a creature than it does to fight it, something’s wrong."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Most fights should resolve in 2-4 rounds.</strong> Arcane Steel combat is fast and dangerous — both ways. Enemies that take 10 rounds to grind down aren’t scary, they’re boring. Even bosses should feel urgent, not padded."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The framework:</strong> Pick a Threat Tier (how dangerous), pick a Role (how it fights), adjust numbers, add 1-2 special abilities if needed. That’s it. You should be able to build an encounter-ready enemy in under 2 minutes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every enemy has a <strong>Threat Tier</strong> that sets its baseline stats. This is the rough power level — not a level system, just a shorthand for “how much can this thing hurt the players.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Threat Tier</strong>         <strong>Description</strong>         <strong>Typical Source</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Fodder</strong>       Weak individually.      Common rift fauna, Dangerous in groups.    street thugs, Die fast.               malfunctioning drones, wildlife"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Competent</strong>    A real fight            Trained guards, one-on-one. Skilled or  mid-tier rift tough enough to matter. creatures, rival contractors, predators"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Dangerous</strong>    Serious threat. Players Elite corp security, should respect them.    apex rift predators, experienced rival teams, rift anomalies"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Nightmare</strong>    Campaign-level threats. Rift lords, corporate Plan before engaging.   kill teams, dimensional horrors, things that shouldn’t exist ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Baseline Stats by Tier"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat</strong>       <strong>T1 Fodder</strong>  <strong>T2           </strong>T3           <strong>T4 Competent</strong>    Dangerous<strong>    Nightmare</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HP</strong>         4-8            10-18          20-35          40-80"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evasion</strong>    3-4            4-5            5-7            6-8"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong>      0-1            1-3            2-5            4-7"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Accuracy     2d4 or 1d6     2d6 or 2d8     2d8 or 3d8     3d10 or 2d12 Dice</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Damage</strong>     1d4            1d6 or 1d8     2d6 or 2d8     2d10 or 3d8"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Bonus</strong> +0 to +1       +1 to +2       +2 to +4       +4 to +6 -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use the ranges.</strong> A tough T2 might have 18 HP and Armor 3 (a tank). A fast T2 might have 10 HP, Evasion 5, and Armor 1 (a skirmisher). The tier sets the power budget — you distribute it based on the creature’s role."
+    },
+    {
+      "type": "paragraph",
+      "text": "Roles define <em>how</em> an enemy fights. Each role adjusts the baseline stats in a specific direction and suggests tactical behavior."
+    },
+    {
+      "type": "heading",
+      "text": "Brute"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>High HP, high damage, low Evasion.</strong> Walks toward you and hits hard. Simple AI: move to nearest target, attack. Doesn’t dodge, doesn’t retreat. The thing you need to drop before it reaches the backline."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Adjustments:</strong> +50% HP. +1 damage die. -1 Evasion. Armor +1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Behavior:</strong> Moves toward nearest target every round. Prioritizes the closest enemy. Doesn’t disengage willingly."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use for:</strong> Rift beasts, augmented enforcers, gene-spliced monstrosities, anything big and angry."
+    },
+    {
+      "type": "heading",
+      "text": "Skirmisher"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>High Evasion, moderate damage, low HP.</strong> Fast, annoying, hits and moves. Forces players to chase or ignore (and get flanked). Dies quickly when caught."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Adjustments:</strong> -30% HP. +2 Evasion. Speed: moves 2 range bands per turn instead of 1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Behavior:</strong> Attacks then repositions. Targets isolated or vulnerable characters. Retreats when below 50% HP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use for:</strong> Rift stalkers, assassin drones, flanking predators, fast melee creatures, scouts."
+    },
+    {
+      "type": "heading",
+      "text": "Artillery"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>High damage at range, fragile up close.</strong> Sits in the back and shoots. If players close the gap, it folds. The incentive to push forward instead of trading shots."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Adjustments:</strong> -30% HP. -1 Evasion. Ranged attacks only (Close to Long range). +2 accuracy at Medium+ range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Behavior:</strong> Maintains maximum range. Targets lowest-Armor players. Retreats if enemies reach Adjacent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use for:</strong> Rift spitters, corp snipers, turrets, magic-slinging anomalies, ranged predators."
+    },
+    {
+      "type": "heading",
+      "text": "Tank"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Very high HP and Armor, low damage.</strong> Exists to block, absorb, and protect other enemies. Not a threat alone — dangerous because it wastes your time while its allies kill you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Adjustments:</strong> +100% HP. +2 Armor. -2 accuracy. Damage dice -1 size (d8 → d6, d6 → d4)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Behavior:</strong> Positions between players and high-value enemies. Uses body to block movement. Doesn’t chase — holds ground."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use for:</strong> Rift beasts with shells, shield-bearing guards, armored drones, living walls."
+    },
+    {
+      "type": "heading",
+      "text": "Swarm / Horde"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Many weak units acting as one.</strong> Uses the Horde rules from Combat. Single activation, single roll, bonuses from group size. Shrinks as members die."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Adjustments:</strong> Use T1 baseline for individual members. Add Horde size bonuses per Combat rules. Individual members have 1-4 HP each."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Behavior:</strong> Rushes the nearest target as a mass. Splits to surround if possible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use for:</strong> Rift vermin, insect swarms, drone clouds, zombie hordes, swarming parasites."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Quick Horde Reference:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Horde Size</strong> <strong>Bonus        </strong>Bonus        <strong>Individual   </strong>Total Group Accuracy<strong>     Damage</strong>       HP<strong>           HP</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "3-5            +1 die         +1 die         2-4            6-20"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-10           +2 dice        +2 dice        2-4            12-40"
+    },
+    {
+      "type": "paragraph",
+      "text": "11+            +3 dice        +3 dice        1-3            11-33+ -------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "heading",
+      "text": "Controller"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Applies conditions and manipulates the battlefield.</strong> Not about raw damage — about making the fight harder for players through debuffs, forced movement, terrain effects, or disabling abilities."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Adjustments:</strong> Standard HP. Moderate damage. Has 1-2 control abilities instead of raw damage output."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Behavior:</strong> Stays at medium range. Targets the most effective player (highest damage dealer, the healer, whoever is carrying the mission). Uses control abilities first, attacks second."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Use for:</strong> Rift psionics, techno-mages, support drones, creatures with grapple/web/toxin abilities, enemy channelers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most T1 enemies don’t need special abilities — their stats are their identity. T2+ enemies benefit from 1-2 abilities that make them memorable and tactically distinct."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pick from the menu or invent your own.</strong> These are examples, not an exhaustive list."
+    },
+    {
+      "type": "heading",
+      "text": "Offensive Abilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ability</strong>             <strong>Effect</strong>              <strong>Good For</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Multiattack</strong>         Makes 2 attacks per     Brutes, Skirmishers activation (split between targets)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cleave</strong>              If attack kills a       Brutes target, excess damage carries to an Adjacent ally."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pounce</strong>              If moved 2+ range bands Skirmishers this turn, +2 accuracy on first attack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Venomous</strong>            Attacks apply 1 Poison  Rift fauna, Skirmishers stack on hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Explosive Death</strong>     When killed, deals 1d6  Swarms, suicide units damage to all Adjacent creatures."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Charging Strike</strong>     Moves full speed and    Brutes attacks in one action. +1 damage die if moved 2+ bands."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Magic Lash</strong>          Ranged attack (Close    Controllers, Rift range) that adds +1     creatures Toxicity to the target."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grab</strong>                On hit, target is       Brutes, Tanks Grappled (must spend 1 AP to escape, Chrome DC 6)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pack Tactics</strong>        +1 accuracy if an ally  Any group enemies is Adjacent to the target. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Defensive Abilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ability</strong>             <strong>Effect</strong>              <strong>Good For</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Regeneration</strong>        Heals 1d4 HP at the     Tanks, Brutes, Rift start of its turn.      creatures State what stops it (fire, magic, acid)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor Plating</strong>       First hit each round    Tanks deals 0 damage (bounces off). Subsequent hits resolve normally."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phase Shift</strong>         Once per encounter,     Controllers, becomes untargetable    Skirmishers for 1 round (dimensional flicker)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Aura</strong>       All creatures within    Rift creatures, Adjacent range gain +1  Controllers Toxicity per round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reflect</strong>             When hit by a           Rift anomalies magic/tech attack, 50% chance to reflect it back (attacker rolls vs own Evasion)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Split</strong>               When killed, splits     Rift creatures into 2 smaller versions (half HP, -1 Armor, -2 accuracy)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shield Wall</strong>         Adjacent allies gain +2 Tanks Armor while this creature is alive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burrowing</strong>           Can move underground.   Rift fauna Immune to melee while burrowed. Surfaces to attack. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Control Abilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ability</strong>             <strong>Effect</strong>              <strong>Good For</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Terrifying Presence</strong> On first appearance,    Bosses, T3+ creatures all players must check Grit DC 6 or lose their first action (hesitation)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Web / Entangle</strong>      Ranged attack: target   Controllers is Immobilized until they spend 1 AP to break free (Chrome DC 7)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roar / Shriek</strong>       All Adjacent enemies    Brutes, Bosses take -1 accuracy for 1 round. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional Anchor</strong>  Target cannot move for  Controllers, Rift 1 round. Rift energy    anomalies pins them in place. +1 Toxicity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fear Aura</strong>           Enemies within Close    Bosses range must spend 1 extra action to move toward this creature."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Disarm</strong>              On a critical hit,      Skirmishers target drops their weapon. Must spend 1 AP to pick it up."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Summon</strong>              Once per encounter,     Controllers, Bosses calls 1d4 T1 allies to the fight. They arrive next round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nullify</strong>             Target’s augments are  Controllers, Tech suppressed for 1 round. enemies Tech disruption field. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bosses break the rules. They’re the centerpiece of an encounter — the thing the whole fight is about."
+    },
+    {
+      "type": "heading",
+      "text": "Boss Template"
+    },
+    {
+      "type": "paragraph",
+      "text": "Take a T3 or T4 baseline and add:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Multiple Activations:</strong> Bosses get 2-3 activations per round, maintaining turn parity with the players. A boss with 3 activations in a 4-player fight means you only need 1 additional enemy to match."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Condition Resistance:</strong> Bosses reduce all condition stacks by 1 at the end of each of their activations (not each round — each activation). This prevents a single effect-weapon user from locking them down entirely. Stacking still works, it just requires sustained effort."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Threshold Abilities:</strong> Bosses gain new abilities or change behavior at HP thresholds. This prevents the fight from feeling static."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HP Threshold</strong>                    <strong>Trigger</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>75%</strong>                             Minor escalation. New attack pattern, summon adds, reveal a weakness."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>50%</strong>                             Major escalation. New ability, environmental change, phase shift."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>25%</strong>                             Desperation. Damage increases, defense drops, or a dangerous “final form“ ability triggers. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Example Boss: Rift Stalker Alpha (T3 Boss)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat</strong>                            <strong>Value</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "HP                                  60"
+    },
+    {
+      "type": "paragraph",
+      "text": "Evasion                             6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armor                               3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accuracy                            3d8 (melee), 2d8 (ranged spit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Damage                              2d8 melee, 1d10 + Poison ranged"
+    },
+    {
+      "type": "paragraph",
+      "text": "Activations                         3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Abilities                           Pounce, Venomous, Terrifying Presence ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Thresholds:</em>  • <strong>75% (45 HP):</strong> Lets out a Shriek. All Adjacent players -1 accuracy for 2 rounds. Calls 1d4 T1 rift stalkers.  • <strong>50% (30 HP):</strong> Phase Shift — disappears for 1 round. Repositions anywhere on the battlefield. Next attack from stealth: +4 accuracy.  • <strong>25% (15 HP):</strong> Frenzy — gains Multiattack. Now making 2 attacks per activation (6 attacks per round total). Evasion drops to 4 (reckless)."
+    },
+    {
+      "type": "heading",
+      "text": "Activation Budget"
+    },
+    {
+      "type": "paragraph",
+      "text": "The core rule: <strong>enemy activations should roughly equal player count.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Players</strong>             <strong>Target Activations</strong>  <strong>Example Compositions</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                       3                       3 Standards / 1 Boss(2) + 1 Standard / 1 Elite + 1 Horde + 1 Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                       4                       4 Standards / 1 Boss(3) + 1 Horde / 2 Elites + 2 Standards"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                       5                       1 Boss(3) + 1 Elite + 1 Horde / 5 Standards / 2 Elites + 1 Horde + 2 Standards ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Going 1 over or under is fine. Going 2+ over makes the fight feel unfair. Going 2+ under makes it trivial."
+    },
+    {
+      "type": "heading",
+      "text": "Threat Budget"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond activations, the total enemy HP and damage output should match the encounter’s intended difficulty."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Quick Math — Total Enemy HP by Difficulty:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Difficulty</strong>    <strong>Total Enemy     </strong>Rounds to       <strong>Feel</strong> HP<strong>              Resolve</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Easy</strong>          2-3× total party  1-2 rounds        Quick. Warm-up. damage per round                    Costs resources but no real danger."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard</strong>      3-5× total party  2-4 rounds        A real fight. damage per round                    Someone probably takes a hit. Scars possible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hard</strong>          5-8× total party  3-5 rounds        Dangerous. Scars damage per round                    likely. Resource drain. Players should feel the cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deadly</strong>        8-12× total party 4-6 rounds        Someone might damage per round                    die. Multiple scars. Major resource expenditure. Save these for climactic moments. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Estimating party damage per round:</strong> Each player deals roughly 8-15 damage per round at early levels, 15-25 mid-campaign, 25-40 late-campaign. Multiply by player count for total party damage per round."
+    },
+    {
+      "type": "heading",
+      "text": "Encounter Types"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The Quick Fight (1-2 rounds)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most fights should be this. Contractors encounter 3-4 T1-T2 enemies, crush them quickly, and move on. The fight costs resources (HP, Charges, maybe a consumable) but doesn’t threaten death. These are the tax of doing business — the rift fauna between you and the objective."
+    },
+    {
+      "type": "paragraph",
+      "text": "Design: Low total HP. Moderate damage. No special abilities needed. Resolve fast, move on."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The Real Fight (3-4 rounds)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The set-piece encounter. Players face a tactical challenge — mixed enemy types, environmental hazards, or a single tough enemy that requires coordination. Someone’s probably taking a Scar if they’re careless."
+    },
+    {
+      "type": "paragraph",
+      "text": "Design: Mixed roles. At least one enemy with a special ability. Terrain matters. Players should need to make tactical decisions (focus fire vs spread, push forward vs hold, use consumables or save them)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The Boss Fight (4-6 rounds)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The climactic encounter. One major threat (possibly with adds) that requires the full team working together. Boss threshold abilities shift the fight’s dynamics. Resource management is critical — this is where stockpiled consumables and crafted ammo pay off."
+    },
+    {
+      "type": "paragraph",
+      "text": "Design: Boss with 2-3 activations + 1-2 support enemies. Threshold abilities at 75/50/25%. Environmental element (the rift is closing, the room is flooding, reinforcements are coming in X rounds). Victory should feel earned."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The Survival Gauntlet</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not one fight — a series of encounters with limited rest between them. 3-4 quick fights back to back, each individually easy but cumulatively draining. This is where the resource economy shines — players who conserved Charges and Med Patches survive. Players who went nova on fight 1 suffer by fight 4."
+    },
+    {
+      "type": "paragraph",
+      "text": "Design: Multiple Easy encounters with short breathers between. No chance to rest/heal fully. Final encounter should be Standard or Hard difficulty while the party is already depleted."
+    },
+    {
+      "type": "paragraph",
+      "text": "Use this template for prep. Keep it to index-card size — if it doesn’t fit on a card, it’s too complex."
+    },
+    {
+      "type": "paragraph",
+      "text": "\\`\\`\\` NAME — \\[Role\\] \\[Threat Tier\\] HP: X \\| Evasion: X \\| Armor: X Attack: \\[Dice\\] accuracy → \\[Dice\\] damage/hit Stat Bonus: +X Activations: X Special: \\[1-2 abilities\\] Behavior: \\[1 sentence tactical description\\] Loot: \\[What they drop, if anything\\] \\`\\`\\`"
+    },
+    {
+      "type": "heading",
+      "text": "Example Stat Blocks"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Rift Hound — Skirmisher T1</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "HP: 6 \\| Evasion: 5 \\| Armor: 0 Attack: 2d6 accuracy → 1d6 damage/hit Stat Bonus: +1 Activations: 1 (or Horde) Special: Pounce (+2 accuracy if moved 2+ bands) Behavior: Rushes weakest target. Retreats at 2 HP. Loot: Rift-hound hide (T1 material)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Corp Security Guard — Standard T2</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "HP: 12 \\| Evasion: 4 \\| Armor: 3 Attack: 2d6 accuracy → 1d8 damage/hit (rifle, ranged) Stat Bonus: +1 Activations: 1 Special: Pack Tactics (+1 accuracy if ally adjacent to target) Behavior: Takes cover. Fires from range. Calls for backup if outnumbered. Loot: Corp Rifle (damaged, 50% market value), Standard Rounds ×2"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Rift Broodmother — Brute T3</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "HP: 45 \\| Evasion: 4 \\| Armor: 4 Attack: 2d10 accuracy → 2d10 damage/hit (claws) Stat Bonus: +3 Activations: 2 Special: Cleave (excess kill damage carries to adjacent). Summon (once per encounter, calls 1d6 T1 rift hounds). Behavior: Charges highest-Chrome target. Summons pups when first bloodied (50% HP). Loot: Broodmother carapace (T3 material), venom sacs ×2 (T2 material), brood gland (T3 material — worth 3× if preserved)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Dimensional Rift Horror — Controller T4</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "HP: 70 \\| Evasion: 7 \\| Armor: 3 Attack: 3d8 accuracy → 2d8 damage/hit (reality tendrils, Close range) Stat Bonus: +5 Activations: 3 Special: Toxicity Aura (Adjacent +1 Toxicity/round). Dimensional Anchor (target can’t move 1 round, +1 Toxicity). Phase Shift (once per encounter, untargetable 1 round). Terrifying Presence. Behavior: Stays at Close range. Anchors the highest-damage player. Uses tendrils on everyone else. Phase Shifts when below 50%. Loot: Dimensional essence (T4 material — extremely valuable, extremely dangerous to carry) Threshold 75%: Tendrils extend — can now attack at Medium range. Threshold 50%: Phase Shift + reposition. Toxicity Aura radius increases to Close. Threshold 25%: Reality Tear — all players in Close range take 2d6 unresistable damage and +2 Toxicity. One-time blast."
+    }
+  ]
+}

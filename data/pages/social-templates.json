@@ -1,0 +1,1187 @@
+{
+  "id": "social-templates",
+  "title": "Encounter Templates",
+  "subtitle": "Ready-made social scenarios",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Roll or pick one per downtime period to add texture to the margin. Not every event requires action — some are atmosphere. Some are opportunities."
+    },
+    {
+      "type": "heading",
+      "text": "Event Table (d20)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d20</strong>                             <strong>Event</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Bar Fight at the Grindhouse.</strong> Two crews have a disagreement about contract priority. Mags wants it shut down before someone draws a weapon. The crew can intervene (social check or combat) or stay out of it. Intervening earns reputation."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Street Doc Arrival.</strong> A new unlicensed medic sets up in the margin, undercutting Vasik’s prices (100 cr scar treatment, 50 cr augment install). Quality is questionable. Vasik doesn’t say anything but his waiting list gets shorter."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Transit Delay.</strong> The branch line to the nearest city-state is down (track damage, wild rift incursion, “mechanical issues“). Supplies are limited. Market prices increase 25% for 1d6 days."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Corp Visit.</strong> A corporate representative (roll d8 for which corp) visits the margin. They’re recruiting contractors for a specific operation — better pay, direct employment for the duration. Social check (Edge DC 7) reveals whether the offer is legitimate or a trap."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>New Crew in Town.</strong> A freshly matched contractor crew arrives in Threshold Row. They’re green, underfunded, and looking for advice. Helping them earns nothing now but creates an NPC crew that might become allies, rivals, or cautionary tales later."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Black Market Shipment.</strong> An Undercity contact is selling restricted goods in the margin tonight: military-grade augments, Pear tech, House of Mouse proprietary specimens. Quality stuff, illegal as hell. Prices are high but the goods are genuine. Getting caught with them has consequences."
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   <strong>Wild Rift Scare.</strong> A wild rift opens briefly in the margin. Nothing comes through — it lasts thirty seconds and seals. But the margin is rattled. Some contractors pack up for the day. Mags serves stiffer drinks. Vasik checks his emergency kit."
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   <strong>Vehicle Theft.</strong> A vehicle goes missing from the Yard. Ratch is furious (for Ratch, this means they frown slightly harder). If the crew investigates, it’s a Streetwise check to track it. The thief is either desperate (stole it to reach a free settlement) or organized (salvage guild stripping it for parts)."
+    },
+    {
+      "type": "paragraph",
+      "text": "9                                   <strong>Payday Robbery.</strong> A contractor returning from a contract is robbed in the margin. Credits and harvest materials taken. The margin buzzes. If it happened once, it’ll happen again. The crew can investigate (Streetwise DC 8) or let it go."
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  <strong>Calloway’s Offer.</strong> The broker approaches the crew privately. There’s a contract that’s not on the board — off-the-books, better pay, sketchy employer. Calloway doesn’t recommend it, but they don’t turn down posting fees. This is how black market contracts find crews."
+    },
+    {
+      "type": "paragraph",
+      "text": "11                                  <strong>Rift Cult Activity.</strong> Someone’s been leaving symbols in the margin — carved into walls, drawn in rift-dust, appearing overnight. A rift cult has a presence in Threshold Row. They haven’t done anything aggressive, but their interest in rift activity near the margin is… focused."
+    },
+    {
+      "type": "paragraph",
+      "text": "12                                  <strong>Free Settlement Traders.</strong> A small caravan from a free settlement arrives in the margin. They trade food, handcrafted goods, and information about dead zone conditions in exchange for manufactured supplies. One of them is looking for a contractor crew for a low-pay, high-importance job: escort them home."
+    },
+    {
+      "type": "paragraph",
+      "text": "13                                  <strong>Augment Malfunction.</strong> A contractor’s augment malfunctions publicly — sparks, involuntary movements, pain. Vasik handles it, but the crowd notices. Augment maintenance becomes the margin’s topic of conversation. Anyone who’s been skipping maintenance checks gets nervous."
+    },
+    {
+      "type": "paragraph",
+      "text": "14                                  <strong>Good Contract Week.</strong> The board is flush — 6-8 contracts posted, good variety, fair pay. Competition between crews is friendly. Everyone’s working. The margin is hopeful. This is what a good week looks like. Enjoy it."
+    },
+    {
+      "type": "paragraph",
+      "text": "15                                  <strong>Margin Election.</strong> The informal margin council holds its annual meeting. Topics: security, sanitation, wall maintenance, and whether to petition the city-corp for infrastructure upgrades. Nobody expects results, but attendance is mandatory for reputation. The crew can participate, influence outcomes (social checks), or ignore it entirely."
+    },
+    {
+      "type": "paragraph",
+      "text": "16                                  <strong>Toxicity Sweep.</strong> Corp scanners sweep the margin. Routine — they do it quarterly. Any contractor above 50% toxicity threshold gets flagged. Flagged contractors are “recommended“ for mandatory detox at corp facilities (expensive, logged). Characters with high toxicity need to avoid the sweep, pay for detox beforehand, or hope for a toxicity spoof."
+    },
+    {
+      "type": "paragraph",
+      "text": "17                                  <strong>The Mentor.</strong> A veteran contractor (Legend-tier) passes through Threshold Row. They’re between jobs, killing time. If the crew is respectful (or interesting), the veteran offers one piece of advice — a genuine tactical insight, a skill tip, or a warning about a specific corp. This translates to a one-time +2 bonus on a relevant check in the next mission."
+    },
+    {
+      "type": "paragraph",
+      "text": "18                                  <strong>Ratch’s Project.</strong> Ratch is building something in the Yard — not a vehicle, something else. They won’t explain. If the crew helps (1 AP per character, Tech DC 6), Ratch reveals it’s a gift for someone. What it is and who it’s for is GM’s discretion, but it deepens Ratch’s character and the crew’s relationship with them."
+    },
+    {
+      "type": "paragraph",
+      "text": "19                                  <strong>Personal NPC Event.</strong> One of the crew’s personal NPCs (created in Session 0) has a problem, opportunity, or request. GM develops based on the NPC’s relationship to the character. This is a player-specific subplot hook."
+    },
+    {
+      "type": "paragraph",
+      "text": "20                                  <strong>The Quiet Week.</strong> Nothing happens. No events. No crises. No opportunities. Just the routine: board, errands, bar, sleep. The crew has time to breathe, plan, and appreciate (or dread) the normalcy. Quiet weeks are rare. Notice them. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Negotiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>When:</strong> Haggling prices, negotiating contract terms, convincing an NPC to do something they’re reluctant to do."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Structure:</em>  <strong>1. State your ask.</strong> What does the crew want?  <strong>2. The NPC’s position.</strong> What do they want? What are they willing to give?  <strong>3. The check.</strong> 2d6 + Edge bonus + relevant skill tier vs DC set by the NPC’s resistance.  <strong>4. Resolution.</strong> Full success = they agree. Partial = they counter-offer (you get something, but less, or with conditions). Fail = they refuse, and pushing harder might damage the relationship.  <em>DC Guidelines:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>NPC Disposition</strong>                 <strong>DC</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Friendly (Mags, established ally)   6"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neutral (new contact, merchant)     8"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reluctant (suspicious, has reasons  10 to say no)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hostile (rival, opposed interests)  12 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Edge Thresholds matter here.</strong> An Edge 6+ Face negotiating with a Friendly NPC (DC 6) needs a 2d6 + 3 (Edge bonus) + skill tier = almost guaranteed success. The Face turns “maybe“ into “yes“ reliably. That’s the point."
+    },
+    {
+      "type": "heading",
+      "text": "Information Gathering"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>When:</strong> The crew wants to know something — contract intel, NPC backgrounds, margin politics, corp activity."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Structure:</em>  <strong>1. What do they want to know?</strong>  <strong>2. Where are they asking?</strong> The Grindhouse (rumors), the Board (contract data), the Market (merchant gossip), the Yard (transit intel), the streets (Streetwise territory).  <strong>3. The check.</strong> 2d6 + Edge bonus + Streetwise (or Persuasion, depending on method).  <strong>4. Resolution.</strong> Full success = clear, accurate information. Partial = the information is incomplete or comes with a cost (someone notices you asking). Fail = dead end, or bad information that sounds good."
+    },
+    {
+      "type": "heading",
+      "text": "Reputation Moments"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>When:</strong> The crew does something publicly notable — good or bad."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation isn’t a formalized system (shelved for now), but the GM should track it informally. Notable actions shift how the margin treats the crew:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Positive reputation actions:</strong> Helping another crew, defending the margin, solving a community problem, being reliable on contracts, tipping well at the Grindhouse."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Negative reputation actions:</strong> Screwing over another crew, bringing trouble to the margin, breaking deals, working for corps against contractor interests, being an asshole at the Grindhouse."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Mechanical effects (informal):</em>  • Good reputation: +1 to social checks in Threshold Row. NPCs volunteer information. Better crew matching from Calloway.  • Bad reputation: -1 to social checks. NPCs are guarded. Calloway matches you with worse contracts."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Face is the primary driver of the crew’s reputation. Their actions at the bar, the board, and the market shape how the margin sees the whole team."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Social capital is not a recognized asset class under intercompany financial regulations. Intercompany Contractor Relations notes, however, that contractors who maintain it tend to maintain their lives. Correlation is not causation. But the correlation is very strong.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Your name precedes you. Whether that’s a good thing depends on who’s saying it.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Reputation Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation in Arcane Steel is not a single number. It’s a web of relationships between your crew and the factions that run the world. The corps that hire you, the brokers that find you work, the Undercity contacts that sell you things nobody should have — each one tracks how they feel about you independently."
+    },
+    {
+      "type": "paragraph",
+      "text": "A crew can be corporate darlings and Undercity pariahs. Or feared by every broker in the district but beloved by a single corp exec who keeps feeding them off-book work. Reputation is specific, factional, and has consequences in both directions. Being known is powerful. Being known by the wrong people is dangerous."
+    },
+    {
+      "type": "heading",
+      "text": "Reputation Tracks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each crew maintains a <strong>Reputation Score</strong> with each faction they interact with. Scores range from <strong>-5 to +5.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Score</strong>               <strong>Standing</strong>            <strong>What It Means</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-5                      <strong>Hunted</strong>              The faction actively wants you dead or captured. Kill teams, bounties, corporate blacklists."
+    },
+    {
+      "type": "paragraph",
+      "text": "-4                      <strong>Hostile</strong>             Open antagonism. They won’t deal with you. They’ll sabotage you if convenient."
+    },
+    {
+      "type": "paragraph",
+      "text": "-3                      <strong>Blacklisted</strong>         No contracts, no services, no entry to their territory. You’re persona non grata."
+    },
+    {
+      "type": "paragraph",
+      "text": "-2                      <strong>Distrusted</strong>          They’ll deal with you reluctantly. Worse terms, constant suspicion, watched closely."
+    },
+    {
+      "type": "paragraph",
+      "text": "-1                      <strong>Cold</strong>                Minimal interaction. They take your money but don’t offer anything extra."
+    },
+    {
+      "type": "paragraph",
+      "text": "0                       <strong>Unknown</strong>             They don’t know you. Default starting position with most factions."
+    },
+    {
+      "type": "paragraph",
+      "text": "+1                      <strong>Recognized</strong>          They know your name. Standard rates, basic access, maybe a nod of acknowledgment."
+    },
+    {
+      "type": "paragraph",
+      "text": "+2                      <strong>Respected</strong>           Good terms. Better contract offers, fair prices, access to restricted services."
+    },
+    {
+      "type": "paragraph",
+      "text": "+3                      <strong>Valued</strong>              You’re a preferred crew. Priority contracts, discounted services, introductions to higher-ups."
+    },
+    {
+      "type": "paragraph",
+      "text": "+4                      <strong>Trusted</strong>             Inner circle access. Classified contracts, faction secrets shared, they’ll vouch for you."
+    },
+    {
+      "type": "paragraph",
+      "text": "+5                      <strong>Legendary</strong>           Your name is a faction asset. They protect you, promote you, and rely on you for critical operations. Your enemies are their enemies. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Starting Reputation:</strong> All factions start at 0 (Unknown) unless the crew’s backstory or Résumés establish a prior relationship. A crew whose members all came from Ashford-Klein corporate employment might start at +1 with Ashford-Klein and -1 with their rivals."
+    },
+    {
+      "type": "heading",
+      "text": "Factions"
+    },
+    {
+      "type": "heading",
+      "text": "The Seven Corporations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each of the seven major corporations is a separate reputation track. Working for one can raise or lower your standing with others depending on their relationships."
+    },
+    {
+      "type": "paragraph",
+      "text": "------------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporation</strong>     <strong>Rival</strong>         <strong>Allied</strong>        <strong>Specialty</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ashford-Klein</strong>   Helix Dynamics    Orin-Sato         Gate infrastructure, logistics"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Helix Dynamics</strong>  Ashford-Klein     Vance Industrial  Biotech, mutations, medical"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Orin-Sato</strong>       Vance Industrial  Ashford-Klein     Rift technology, dimensional research"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vance             Orin-Sato         Helix Dynamics    Heavy industry, Industrial</strong>                                            weapons, vehicles"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lumen             Drakon Security   —               Energy, rift Collective</strong>                                            power, environmental"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Drakon Security</strong> Lumen Collective  —               Military contracts, enforcement, bounties"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Meridian      —               —               Finance, Group</strong>                                                 insurance, contracts, information ------------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate Rivalry:</strong> Completing a contract for a corporation grants reputation with that corp but may cost reputation with their rival. See Reputation Shifts below."
+    },
+    {
+      "type": "heading",
+      "text": "Independent Factions"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Faction</strong>             <strong>Description</strong>         <strong>What They Offer at High Rep</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Broker Network</strong>  Licensed middlemen who  Better contracts, connect crews to        priority postings, clients.                exclusive high-pay jobs, contract insurance."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Undercity</strong>       The informal economy    Black market gear, beneath the             illegal augments, city-states.            smuggling routes, safe houses, contacts who don’t ask questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Free Crews</strong>      The collective          Peer respect, reputation of           crew-to-crew alliances, independent             shared intelligence, contractors.            backup on dangerous jobs. Word spreads fast among crews."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gate Authority</strong>      The regulatory body     Faster gate access, that manages stabilized priority scheduling, gates.                  reduced gate tolls, access to restricted dimensions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Scholars</strong>       Academics and           Rift intelligence, researchers studying    dimension maps, dimensional phenomena.  toxicity research, experimental treatments, identification of unknown materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Law & Order</strong>         Whatever passes for law Reduced scrutiny, enforcement in your     overlooked infractions, city-state.             warnings before raids, access to restricted zones. Or at negative rep: warrants, surveillance, raids. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Gaining and Losing Reputation"
+    },
+    {
+      "type": "heading",
+      "text": "Contract Completion"
+    },
+    {
+      "type": "paragraph",
+      "text": "The primary source of reputation change. Every completed contract shifts reputation with the client’s faction."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Outcome</strong>                         <strong>Rep Change</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract completed — all          +1 with client faction objectives met"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract completed — exceeded     +1 with client faction, +1 with expectations (bonus objectives,     Broker Network (if broker-sourced) faster than deadline, zero casualties)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract completed — partial      +0 (no change — you finished but (some objectives failed)            it wasn’t clean)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract failed — crew extracted  -1 with client faction without completing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract failed — crew extracted  -2 with client faction and lost client property/personnel"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contract abandoned — crew never   -2 with client faction, -1 with entered the rift                    Broker Network ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Rivalry Shifts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Working for one corp can affect your standing with others."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Action</strong>                          <strong>Rep Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete a contract for Corporation +1 with X. -1 with X’s rival (if X                                   you’re at +2 or higher with X)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete a sabotage/espionage       -2 with X. +1 with whoever hired contract against Corporation X      you."
+    },
+    {
+      "type": "paragraph",
+      "text": "Refuse a contract from Corporation  -1 with X. X to take a competing contract from their rival ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The rivalry penalty only kicks in at +2 or higher.</strong> Doing occasional work for Ashford-Klein doesn’t make Helix Dynamics hate you. But once you’re clearly in Ashford-Klein’s pocket (Respected or above), their rivals start paying attention."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Meridian Group is neutral.</strong> They don’t have rivals and nobody loses rep for working with them. They’re the bankers — they work with everyone."
+    },
+    {
+      "type": "heading",
+      "text": "Actions and Choices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond contracts, the crew’s behavior during missions and downtime affects reputation."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Action</strong>                          <strong>Rep Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Save civilian lives during a        +1 with Free Crews mission (not required by contract)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cause collateral damage to civilian -1 with Law & Order, -1 with Gate infrastructure                      Authority"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sell rift materials on the black    +1 with Undercity, -1 with Gate market                              Authority (if caught)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Turn in illegal materials to        +1 with Law & Order, -1 with authorities                         Undercity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Share rift intelligence with Rift   +1 with Rift Scholars Scholars (for free or reduced cost)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Betray a client (sell their         -3 with client faction, -2 with secrets, sabotage their operation)  Broker Network, +1 with whoever benefits"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rescue a stranded crew              +1 with Free Crews, +1 with the rescued crew’s broker (if applicable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Leave a stranded crew to die        -2 with Free Crews"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pay debts on time                   +1 with Meridian Group (once per arc)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Default on debts                    -2 with Meridian Group, -1 with Broker Network"
+    },
+    {
+      "type": "paragraph",
+      "text": "Successfully complete a             +2 toward that faction (hard to Hunted/Hostile faction’s demand    earn, meaningful when it happens) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Mechanical Effects"
+    },
+    {
+      "type": "heading",
+      "text": "Contract Availability"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your Broker Network reputation directly affects what jobs you see."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Broker Network Rep</strong>              <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-3 or lower                         No broker will work with you. Undercity contacts or direct cold-calling only."
+    },
+    {
+      "type": "paragraph",
+      "text": "-2 to -1                            Bottom-tier contracts only. Poor pay, high risk, the jobs nobody else wants."
+    },
+    {
+      "type": "paragraph",
+      "text": "0                                   Standard job board. Average mix of contracts."
+    },
+    {
+      "type": "paragraph",
+      "text": "+1                                  Better selection. 1 additional contract option when browsing the board."
+    },
+    {
+      "type": "paragraph",
+      "text": "+2                                  Priority postings. Access to contracts before other crews see them. +10% pay on broker-sourced jobs."
+    },
+    {
+      "type": "paragraph",
+      "text": "+3                                  Exclusive contracts. Jobs that only get offered to trusted crews. +15% pay. Contract insurance available (see below)."
+    },
+    {
+      "type": "paragraph",
+      "text": "+4 to +5                            First-pick status. You see every contract before anyone else. +20% pay. Brokers actively recruit clients for you. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Pricing and Services"
+    },
+    {
+      "type": "paragraph",
+      "text": "Faction reputation affects what you pay and what you can access."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate Rep</strong>                   <strong>Service Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-2 or lower                         Refused service at faction-owned businesses."
+    },
+    {
+      "type": "paragraph",
+      "text": "-1                                  +20% markup on faction goods and services."
+    },
+    {
+      "type": "paragraph",
+      "text": "0                                   Standard pricing."
+    },
+    {
+      "type": "paragraph",
+      "text": "+1                                  Standard pricing, access to faction-branded gear."
+    },
+    {
+      "type": "paragraph",
+      "text": "+2                                  -10% discount on faction goods and services. Access to restricted catalog items."
+    },
+    {
+      "type": "paragraph",
+      "text": "+3                                  -15% discount. Free basic medical treatment at faction clinics."
+    },
+    {
+      "type": "paragraph",
+      "text": "+4                                  -20% discount. Access to experimental gear and prototype augments. Faction housing available."
+    },
+    {
+      "type": "paragraph",
+      "text": "+5                                  -25% discount. Corporate sponsorship offers. Faction will fund major equipment purchases (with strings attached). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Undercity Rep</strong>                   <strong>Service Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-2 or lower                         Undercity contacts won’t deal with you. Known as a snitch or corporate tool."
+    },
+    {
+      "type": "paragraph",
+      "text": "-1                                  Black market prices +30% (distrust tax). Limited selection."
+    },
+    {
+      "type": "paragraph",
+      "text": "0                                   Standard black market access. Normal (already inflated) prices."
+    },
+    {
+      "type": "paragraph",
+      "text": "+1                                  Better selection. Illegal augments available. Safe house locations shared."
+    },
+    {
+      "type": "paragraph",
+      "text": "+2                                  -10% on black market goods. Smuggling routes available. Fences buy your stolen goods at better rates."
+    },
+    {
+      "type": "paragraph",
+      "text": "+3                                  -15% discount. Access to Undercity-exclusive services (unregistered medical, identity scrubbing, debt laundering)."
+    },
+    {
+      "type": "paragraph",
+      "text": "+4 to +5                            -20% discount. Undercity will actively protect you. Safe passage guaranteed in Undercity territory. Favors owed. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Social Encounter Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation provides direct mechanical bonuses to social checks when dealing with faction members."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rep with Faction</strong>                <strong>Social Check Modifier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-3 or lower                         -2 to all social checks with faction members. They want nothing to do with you."
+    },
+    {
+      "type": "paragraph",
+      "text": "-2 to -1                            -1 to social checks. Suspicion and hostility."
+    },
+    {
+      "type": "paragraph",
+      "text": "0                                   No modifier. They don’t know you."
+    },
+    {
+      "type": "paragraph",
+      "text": "+1 to +2                            +1 to social checks. They’ve heard good things."
+    },
+    {
+      "type": "paragraph",
+      "text": "+3 to +4                            +2 to social checks. Your name carries weight."
+    },
+    {
+      "type": "paragraph",
+      "text": "+5                                  +3 to social checks. They trust you implicitly. Almost too much. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This is where reputation feeds into social mechanics.</strong> When the crew negotiates a contract, haggles with a vendor, or talks their way past corporate security, their faction reputation provides a concrete modifier. A crew at +3 with Drakon Security walks through their checkpoints. A crew at -2 gets detained for “routine inspection.“"
+    },
+    {
+      "type": "heading",
+      "text": "Reputation Events"
+    },
+    {
+      "type": "paragraph",
+      "text": "At certain thresholds, reputation triggers narrative events. These are not optional — they happen because factions respond to how the crew interacts with the world."
+    },
+    {
+      "type": "heading",
+      "text": "Positive Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rep</strong>                             <strong>Event</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "+2 (first time)                     <strong>Introduction.</strong> A faction representative reaches out. They want to meet the crew. This is an opportunity for a relationship, not just transactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "+3 (first time)                     <strong>Offer.</strong> The faction makes the crew a standing offer — a retainer, a sponsorship deal, or access to something valuable. It comes with expectations."
+    },
+    {
+      "type": "paragraph",
+      "text": "+4 (first time)                     <strong>Inner Circle.</strong> The crew learns something about the faction that isn’t public. A secret, a vulnerability, a plan. This knowledge is valuable and dangerous."
+    },
+    {
+      "type": "paragraph",
+      "text": "+5 (first time)                     <strong>Alliance.</strong> The faction treats the crew as strategic partners. The crew’s enemies become the faction’s enemies. The faction’s wars become the crew’s wars. This is power — and a leash. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Negative Thresholds"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rep</strong>                             <strong>Event</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-2 (first time)                     <strong>Warning.</strong> A faction representative contacts the crew (or sends a message). Shape up or there will be consequences."
+    },
+    {
+      "type": "paragraph",
+      "text": "-3 (first time)                     <strong>Blacklist.</strong> Services cut off. The faction tells their associates not to work with you. Other factions notice."
+    },
+    {
+      "type": "paragraph",
+      "text": "-4 (first time)                     <strong>Active Opposition.</strong> The faction takes action against you. Sabotaged contracts, leaked information, hired rivals. They want you to suffer before they want you dead."
+    },
+    {
+      "type": "paragraph",
+      "text": "-5 (first time)                     <strong>Kill Order.</strong> The faction wants the crew eliminated. Bounties posted. Kill teams deployed. Other factions are pressured to cooperate. Survival requires going underground, finding powerful allies, or resolving the conflict directly. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Tracking Reputation"
+    },
+    {
+      "type": "heading",
+      "text": "The Crew Sheet"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation is tracked on the crew sheet, not individual character sheets. The crew operates as a unit — when one member burns a bridge, the whole crew feels it."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Faction</strong>       <strong>Score</strong>         <strong>Standing</strong>      <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ashford-Klein     +2                Respected         Primary employer. Good terms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Helix Dynamics    -1                Cold              Rival of primary employer. Watching us."
+    },
+    {
+      "type": "paragraph",
+      "text": "Broker Network    +1                Recognized        Standard access, clean record."
+    },
+    {
+      "type": "paragraph",
+      "text": "Undercity         0                 Unknown           Haven’t engaged yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free Crews        +1                Recognized        Rescued that crew in the Grave. Word spread."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gate Authority    0                 Unknown           —"
+    },
+    {
+      "type": "flavor",
+      "text": "<em>etc.</em> ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Rate of Change"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation moves slowly and deliberately. A single contract shifts rep by 1 point. Exceptional performance or catastrophic failure shifts by 2. Betrayal shifts by 3. It takes multiple missions to build a relationship and one bad decision to destroy it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rep cannot change by more than 2 points with any single faction per mission</strong> (except betrayal). This prevents wild swings and ensures reputation feels earned."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recovery from negative rep is slow.</strong> Going from -3 to 0 requires dedicated effort — completing contracts for the faction at reduced pay (they’re testing you), making amends, or leveraging allies to vouch for you. Each step takes a full mission arc. Burning bridges is easy. Rebuilding them is a campaign arc."
+    },
+    {
+      "type": "heading",
+      "text": "Contract Insurance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Available at Broker Network +3 or higher. A new service tier that protects crews against bad contracts."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Insurance Tier</strong>      <strong>Cost</strong>                <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Basic</strong>               50 cr/contract          If the contract is based on false information (bad intel, fake client), the broker refunds 50% of supply costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard</strong>            100 cr/contract         Refunds 75% of supply costs on false-info contracts. If the crew is injured due to undisclosed hazards, medical costs covered up to 500 cr."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Premium</strong>             200 cr/contract         Full refund on false-info contracts. Medical coverage up to 1,000 cr. If the crew fails due to circumstances beyond their control (rift collapse, ambush by unknown third party), no reputation penalty. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance is another money sink that rewards long-term investment in the Broker Network. A new crew can’t afford it. An established crew can’t afford not to have it."
+    },
+    {
+      "type": "heading",
+      "text": "Competing Reputations"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most interesting reputation decisions involve competing faction interests."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Corporate Loyalty Trap:</strong> Working exclusively for one corporation pushes you to +4, +5 — discounts, prototype gear, inner circle access. But their rival is now at -2 or -3. You’ve cut off half the job market. If your patron corp restructures, loses a war, or decides you’re expendable, you’ve got enemies and no backup plan."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Neutral Path:</strong> Spreading contracts across multiple corps keeps everyone at +1 to +2. No discounts, no inner circle, but no enemies either. Maximum flexibility, minimum power."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Undercity/Corporate Split:</strong> High Undercity rep gives access to black market gear and off-book services. But Law & Order is watching. One bad roll, one informant, and your -2 with Law & Order becomes a raid on your base. High corporate rep might protect you — if they think you’re still useful."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Free Crew Loyalty:</strong> High Free Crew rep means every other contractor team in the city knows and respects you. That’s backup on dangerous jobs, shared intelligence, and warnings when someone puts a bounty on your head. But it doesn’t pay the bills — Free Crew rep doesn’t come with discounts or contracts. It comes with community."
+    },
+    {
+      "type": "paragraph",
+      "text": "There is no optimal reputation strategy. Every path trades something for something else. The crew’s reputation profile is a reflection of their values, their choices, and the compromises they’ve made to survive."
+    },
+    {
+      "type": "heading",
+      "text": "Turning It Around"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reputation recovery is hard — but it’s never impossible. People in this world understand pragmatism. Corps will work with their worst enemy if the numbers make sense. Undercity contacts have short memories when money is on the table. Even a -5 kill order can be walked back if you bring something valuable enough to the table."
+    },
+    {
+      "type": "heading",
+      "text": "Atonement Contracts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Any faction at -2 or worse will eventually offer (or accept a request for) an <strong>Atonement Contract</strong> — a job designed to test whether you’re worth forgiving. These are the jobs nobody else wants: suicidal difficulty, terrible pay, maximum risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Starting Rep</strong>        <strong>Atonement Contract</strong>  <strong>Rep Gain on Completion</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-2                      Dangerous but           +1 straightforward. Below-market pay."
+    },
+    {
+      "type": "paragraph",
+      "text": "-3                      High-risk, multi-day.   +1 Pay barely covers supplies."
+    },
+    {
+      "type": "paragraph",
+      "text": "-4                      Near-suicidal. No pay   +2 — you’re working off the debt."
+    },
+    {
+      "type": "paragraph",
+      "text": "-5                      The faction names their Reset to -3 terms. It’s going to cost you something beyond money — a favor, an asset, a betrayal of someone else. Completion resets you to -3, not 0. You’re off the kill list but nowhere near forgiven. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Atonement Contracts ignore the normal “max +2 per mission“ cap."
+    },
+    {
+      "type": "paragraph",
+      "text": "The faction is watching closely. Deliver, and the recovery is real. Fail, and the door closes permanently."
+    },
+    {
+      "type": "heading",
+      "text": "Buying Back Reputation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Money talks. A crew can invest credits directly to repair a damaged relationship — not through bribes (that’s Undercity territory) but through legitimate channels: donations, reparations, investments in faction interests, settling debts with interest."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Current Rep</strong>         <strong>Cost to Gain +1</strong>     <strong>Method</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-1 to 0                 500 cr                  Settle outstanding debts, make a goodwill gesture."
+    },
+    {
+      "type": "paragraph",
+      "text": "-2 to -1                1,000 cr                Formal reparations. Pay for damages caused."
+    },
+    {
+      "type": "paragraph",
+      "text": "-3 to -2                2,500 cr                Significant investment in faction interests. Requires a face-to-face meeting (social check, modified by current rep)."
+    },
+    {
+      "type": "paragraph",
+      "text": "-4 to -3                5,000 cr                Major reparations. The faction assigns a liaison to monitor your behavior for one full mission arc."
+    },
+    {
+      "type": "paragraph",
+      "text": "-5 to -4                10,000 cr + a           The concession is concession              non-negotiable and faction-specific. Could be: surrendering a piece of equipment, burning a contact, sharing classified intelligence, or giving up a territory claim. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Buying rep only works once per faction per arc.</strong> You can’t throw money at a problem indefinitely. After the first buyback, the faction wants to see <em>behavior change</em> — completed contracts, consistent alignment with their interests — before they’ll accept more credits."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Buying positive rep is not possible.</strong> You can buy your way back to 0 (Unknown). Past that, reputation is earned through action only. You can’t purchase respect."
+    },
+    {
+      "type": "heading",
+      "text": "Switching Sides"
+    },
+    {
+      "type": "paragraph",
+      "text": "A crew that wants to leave one corporate patron for another has a specific path: the <strong>Defection Arc.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rival corporation will approach a crew that’s publicly fallen out with their current patron (dropped to +1 or below with their old corp). The offer: work for us instead. The catch: the first contract is always against your old employer — sabotage, intelligence theft, or undermining an operation. This is the test. Complete it, and you start at +1 with the new corp. Your old patron drops to -3 minimum (they know what you did)."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the crew wants to defect <em>without</em> burning their old patron — quietly pivoting rather than dramatically switching — that’s slower. Stop taking contracts from the old corp. Start taking contracts from the new one. Over 3-4 mission arcs, the old relationship fades (drops by 1 per arc of inactivity, minimum 0) while the new one builds naturally. No dramatic break, but no fast-track either."
+    },
+    {
+      "type": "heading",
+      "text": "Infamy: Negative Rep as Power"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all negative reputation is a liability. Being feared has value. A crew with -3 in the Undercity isn’t just disliked — they might be <em>terrifying.</em> And terrifying people get what they want too, just through different means."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Infamy</strong> is the dark mirror of positive reputation. It applies when a crew’s negative rep comes from being dangerous, unpredictable, or violent — not from being incompetent or untrustworthy. A crew that failed every contract is Blacklisted because they’re useless. A crew that burned down a rival’s warehouse, killed a broker who crossed them, and walked out of a corporate ambush covered in someone else’s blood is Blacklisted because nobody wants to be next."
+    },
+    {
+      "type": "heading",
+      "text": "When Infamy Applies"
+    },
+    {
+      "type": "paragraph",
+      "text": "The GM determines whether negative rep is <strong>Infamy</strong> (feared) or"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contempt</strong> (dismissed) based on how the crew earned it."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Earned By</strong>           <strong>Type</strong>                <strong>Social Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Failed contracts,       Contempt                Negative social incompetence,                                   modifiers as normal. unreliability                                   People dismiss you."
+    },
+    {
+      "type": "paragraph",
+      "text": "Violence, intimidation, Infamy                  <strong>Intimidation checks betrayal from a                                 use negative rep as a position of power                               positive modifier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Defiance, surviving     Infamy (Grudging        <strong>Some factions against odds, refusing  Respect)                secretly respect you to break                                        even at negative rep</strong> ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Infamy Mechanics"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a crew has Infamy (not Contempt) with a faction:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Intimidation bonus:</strong> Your negative rep score becomes a <em>positive</em> modifier on Intimidation checks against members of that faction. A crew at -3 Infamy with the Undercity gets +3 to Intimidation when dealing with Undercity contacts. People who are terrified of you are easy to push around."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fear tax:</strong> NPCs who fear you may comply with demands without a check — but they charge more for services (if they deal with you at all). A black market dealer who’s terrified of you will sell you what you want, but at +30% markup because they want you gone as fast as possible. Or they might just hand it over and eat the loss. Fear is unpredictable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Involuntary respect:</strong> At -4 or -5 Infamy, some factions develop a grudging respect. The Undercity in particular values strength and ruthlessness. A crew that’s Hunted by Law & Order but feared in the Undercity might find that Undercity contacts treat their Law & Order infamy as a <em>positive</em> — you’re enemies of the same people they hate."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Your Infamy With</strong>    <strong>Faction That Respects </strong>Why<strong> It</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Law & Order             Undercity               You’re an outlaw. They like outlaws."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Corporation           That corp’s rival      The enemy of my enemy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gate Authority          Undercity, smugglers    You don’t play by the rules."
+    },
+    {
+      "type": "paragraph",
+      "text": "Free Crews              Nobody                  Other contractors don’t respect bullies. Infamy here is always Contempt. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Infamy is volatile.</strong> People who fear you also want you gone. High Infamy means frequent ambushes from people trying to take you down, assassination attempts from people who’d rather you were dead than scary, and constant tension with every interaction. Positive rep builds stable relationships. Infamy builds a powder keg."
+    },
+    {
+      "type": "heading",
+      "text": "Multiple Identities"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a world of corporate bureaucracy and digital records, some crews operate under more than one name. A clean identity for corporate work. A dirty identity for Undercity jobs. A third for the really bad stuff."
+    },
+    {
+      "type": "heading",
+      "text": "How Identities Work"
+    },
+    {
+      "type": "paragraph",
+      "text": "An identity is a registered profile — biometrics, contractor license, financial records, reputation history. Your default identity is your real one. Additional identities are fabricated."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Identity        </strong>Cost<strong>          </strong>Provider<strong>      </strong>Quality<strong> Service</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Basic Alias</strong>   500 cr            Undercity, Tech   A new name and T2                license number. Surface-level checks pass. Deep scans fail. Lasts until someone looks too closely."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Forged          2,000 cr          Undercity +2      Full biometric Identity</strong>                          required          package — retinal overlay, fingerprint mask, DNA scrambler (temporary). Passes standard corporate scans. Deep investigation (dedicated scan, corporate security audit) has a 30% chance of cracking it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deep Cover      5,000 cr          Undercity +3      Full identity Identity</strong>                          required          with backstory, financial history, planted records. Passes deep scans. Only fails against targeted investigation by someone who already suspects you (10% crack chance). Requires monthly maintenance (200 cr) to keep records current."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Identity        3,000 cr          Undercity +3      Destroy an Scrub</strong>                             required          existing identity entirely. All records associated with that identity are purged. Reputation, debts, warrants — gone. The identity ceases to exist. One-time service. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Reputation Per Identity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each identity tracks its own reputation independently. Your real identity might be at +3 with Ashford-Klein and -2 with the Undercity. Your alias might be at +2 with the Undercity and 0 with everyone else."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Switching identities mid-job is risky.</strong> If anyone notices (Awareness check by suspicious NPCs, corporate security scanner, biometric checkpoint), both identities are blown. The consequences cascade — every faction that had positive rep with either identity feels betrayed. Every faction with negative rep now has two names to hunt."
+    },
+    {
+      "type": "heading",
+      "text": "Identity Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>One active identity at a time.</strong> You can’t use two identities simultaneously. Switching requires downtime (at minimum a few hours to change gear, adjust biometrics, adopt the new persona)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Faction-specific identities make sense.</strong> A crew might maintain a clean corporate identity for Ashford-Klein contracts and a separate identity for Undercity work. As long as the two worlds never overlap, it works. The moment they do — a corporate contact shows up in an Undercity bar, a black market dealer gets hired by a corp — things get complicated fast."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reputation earned under an alias stays with that alias.</strong> If your alias completes a contract for Helix Dynamics, your real identity doesn’t benefit. The rep belongs to the fake name."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Getting caught:</strong> If an identity is cracked, the crew’s real identity inherits the <em>worst</em> reputation from both profiles for each faction. If your real identity was at +2 with Ashford-Klein and your alias was at -3, you’re now at -3. They know you were playing both sides."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The long game:</strong> A crew that maintains multiple identities successfully over a long campaign can have extraordinary flexibility — corporate access through one name, Undercity access through another, clean reputation here, useful Infamy there. But it’s a house of cards. One failure, one crack, and everything collapses at once. The higher you build it, the harder it falls."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference"
+    },
+    {
+      "type": "heading",
+      "text": "Reputation at a Glance"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Score</strong>               <strong>Standing</strong>            <strong>Summary</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "-5                      Hunted                  Kill teams after you"
+    },
+    {
+      "type": "paragraph",
+      "text": "-3                      Blacklisted             No services, active opposition"
+    },
+    {
+      "type": "paragraph",
+      "text": "-1                      Cold                    Grudging interaction"
+    },
+    {
+      "type": "paragraph",
+      "text": "0                       Unknown                 Default"
+    },
+    {
+      "type": "paragraph",
+      "text": "+1                      Recognized              They know your name"
+    },
+    {
+      "type": "paragraph",
+      "text": "+3                      Valued                  Priority access, discounts"
+    },
+    {
+      "type": "paragraph",
+      "text": "+5                      Legendary               Strategic alliance ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Key Modifiers"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Contract completion: +1 with client faction  • Contract failure: -1 to -2 with client faction  • Betrayal: -3 with betrayed faction  • Social checks: Rep score as direct modifier (capped at +3/-2)  • Corporate rivalry penalty starts at +2 with the favored corp  • Max rep change per faction per mission: 2 (except betrayal)"
+    }
+  ]
+}

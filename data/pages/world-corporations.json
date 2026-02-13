@@ -1,0 +1,83 @@
+{
+  "id": "world-corporations",
+  "title": "How Corporations Work",
+  "subtitle": "The Corporate Template",
+  "content": [
+    {
+      "type": "heading",
+      "text": "The Template"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every major corporation in the world follows the same basic structure, because a thousand years of competition selected for the structure that works. The names are different. The logos are different. The hymns are different. The org chart is the same."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Territory.</strong> Every corp controls physical land — cities, industrial zones, rift gates, agricultural regions, and the infrastructure connecting them. Territory is sovereignty. Inside corporate borders, the corp is the law, the government, the landlord, and the tax authority. Border disputes between corps are resolved through negotiation, economic pressure, proxy conflict, or (rarely, expensively) open war."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Citizens.</strong> People born into corporate territory are citizens. Citizenship isn’t a legal status you apply for — it’s an identity you inherit. You’re born into the corp, educated by the corp, employed by the corp, and when you die, the corp handles the funeral (tax-deductible). Leaving is technically possible. Practically, it ranges from “expensive bureaucratic nightmare“ to “they send a team.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tiers.</strong> Every corp has internal hierarchy, though they call it different things:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Executive Caste</strong> — the decision-makers. Board members, directors, high priests, whatever the local title is. 0.1% of the population. Controls everything.  • <strong>Managerial Layer</strong> — middle management. Administrators, department heads, regional governors. They keep the machine running. 5-10% of the population.  • <strong>Skilled Workers</strong> — engineers, doctors, technicians, soldiers, specialists. The valuable labor. 20-30% of the population.  • <strong>General Citizens</strong> — everyone else. Factory workers, service industry, agriculture, maintenance. The bulk of the population. They live, work, consume, and believe.  • <strong>Contractors</strong> — not citizens. Not on the chart. Exist in the margins between corps. Useful, disposable, unprotected."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Operations.</strong> Every corp has a Rift Division — the department responsible for managing, exploiting, and defending dimensional rifts within their territory. Rift Divisions vary wildly in doctrine, priority, and method, and this is where the real differences between corps show up (see individual profiles below)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Military.</strong> Every corp maintains armed forces. Size and doctrine vary. Some corps maintain massive standing armies. Others rely on small, elite units supplemented by contracted specialists (that’s you). All of them have more firepower than any contractor team. Don’t start fights with corp military unless the contract specifically says to."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Economy.</strong> Internal corporate economies are mostly closed systems — citizens earn corp scrip, spend it at corp stores, live in corp housing. Cross-corp trade exists but is regulated, taxed, and monitored. The free market, such as it is, lives in the spaces between corporate territories — the border zones, the free settlements, the black markets. This is where contractors operate, and where real credits (the universal currency accepted across corporate lines) have value."
+    },
+    {
+      "type": "heading",
+      "text": "Rift Doctrine"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the big differentiator. What a corporation <em>does</em> with rifts defines its identity, its economy, its military doctrine, and the contracts it offers. There are four broad rift doctrines:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extraction</strong> — Strip it. Raw materials, minerals, energy resources, exotic substances. The rift is a mine. Get in, take everything that isn’t nailed down, process it, sell it. Volume matters. Efficiency matters. What’s on the other side doesn’t matter except as an obstacle to profitability."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acquisition</strong> — Capture it. Live specimens, biological samples, genetic material, sentient species, functional technology, intact artifacts. The rift is a zoo, a laboratory, and a museum. Bringing things back alive and undamaged is the priority. More dangerous, more expensive, exponentially more valuable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Survey</strong> — Map it. Long-term rift monitoring, dimensional cartography, environmental analysis, predictive modeling. The rift is a research site. Survey corps play the long game — they want to understand dimensional mechanics well enough to control rift formation, predict natural openings, and eventually (theoretically) create stable permanent gateways. Short-term profit is secondary to long-term strategic advantage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Denial</strong> — Seal it. Wild rifts are threats. Things come through. People die. Infrastructure is damaged. The rift must be contained, controlled, and if possible, closed. Denial corps profit from security — selling protection services, deploying rapid response teams, and charging other corps for rift containment in their territory. The product isn’t what comes out of the rift. The product is making sure nothing does."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most corps have a primary doctrine and a secondary. A primarily Extraction corp might do some Acquisition on the side. A Survey corp might handle Denial in its own territory. But the primary doctrine shapes everything — culture, contracts, equipment, and what they need from you."
+    },
+    {
+      "type": "paragraph",
+      "text": "Seven corporations dominate the world. Dozens of smaller corps exist in their shadows, but these seven control the majority of territory, population, rift access, and economic output."
+    },
+    {
+      "type": "paragraph",
+      "text": "None of them remember what they used to be. A thousand years is long enough to turn a logo into a flag, a slogan into scripture, and a franchise agreement into a feudal pact. The names survive. The context doesn’t."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Note for GMs: These profiles are starting points. Change details, add corps, remove corps, combine them — whatever fits your campaign. The important thing is diversity of doctrine and contract types so players have variety.</em>"
+    }
+  ]
+}

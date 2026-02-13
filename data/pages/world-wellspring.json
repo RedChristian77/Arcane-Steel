@@ -1,0 +1,47 @@
+{
+  "id": "world-wellspring",
+  "title": "Wellspring Pharma",
+  "subtitle": "Acquisition (primary), Survey (secondary)",
+  "content": [
+    {
+      "type": "corp-profile",
+      "name": "Wellspring Pharma",
+      "icon": "💊",
+      "doctrine": "Acquisition (primary), Survey (secondary)",
+      "culture": "Pharmaceutical empire turned bioethics horror show",
+      "want": "Living specimens. Genetic material. Biological data.",
+      "pay": "High for live specimens. Reduced to zero for dead ones.",
+      "vibe": "Clinically polite. Ethically bankrupt. Their contracts have more clauses than words.",
+      "contracts": [
+        {
+          "name": "Live Capture",
+          "desc": "Bring it back alive. Specific species, specific conditions. Dead = no pay."
+        },
+        {
+          "name": "Genetic Harvest",
+          "desc": "Extract viable samples from rift organisms. On-site processing."
+        },
+        {
+          "name": "Field Trial",
+          "desc": "Test new Wellspring products in rift conditions. You are the test subject."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Doctrine:</strong> Acquisition (primary), Survey (secondary) <strong>Culture Origin:</strong> Ancient pharmaceutical/healthcare megacorporation. Healing was the original product. Over a thousand years, healing became salvation. Wellspring doesn’t just treat illness — they define what health means, and they redefine it whenever it’s profitable. Their hospitals are cathedrals. Their doctors are high priests. Their prescriptions are commandments. And their research division — the part that takes live specimens from rifts and does things to them in laboratories the public never sees — is the engine that drives everything. <strong>Aesthetic:</strong> Green and white. Clinical. Pristine. Every surface is sterile. Every citizen has a health score displayed somewhere on their person (usually a subtle augment readout, visible to medical staff at a glance). The Wellspring logo — a stylized droplet — appears on everything including the food, which is nutritionally optimized, flavor-optional, and mandatory. <strong>Citizen Identity:</strong> Patients. Every citizen is a patient. Not because they’re sick — because health is a spectrum that Wellspring manages from birth to death. Your genome is sequenced at conception. Your augmentation schedule is planned before you’re born. Your health score determines your social standing, your employment options, and your access to services. A perfect health score is sainthood. An imperfect one is a diagnosis."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What They Want From Rifts:</strong> Alive. Intact. Breathing. Wellspring wants live specimens, viable genetic material, biological samples with cell cultures still active. Dead creatures are worth pennies. Living ones are worth fortunes. Their Rift Division is half military, half field biology team. Every squad has a preservation specialist. What happens to the specimens after delivery is not discussed in contractor briefings."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pay:</strong> High for live captures (premium for intact specimens). Average for everything else. Heavy penalties for damaged goods. Wellspring pays for quality and penalizes heavily for anything less."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Working For Wellspring:</strong> Precise. Unsettling. They hand you a dossier with more biological detail about the target than you thought possible. Their field teams are brilliant and have no survival instincts. Protecting Wellspring researchers is like escorting geniuses through a warzone while they try to pet the things trying to kill you. The mandatory post-mission health screening is thorough, free, and logs everything about your body in a database you cannot access. You will notice that Wellspring’s live capture contracts, their gene-splicing program, and their “volunteer recruitment“ form a pipeline. Don’t follow it to the end."
+    }
+  ]
+}

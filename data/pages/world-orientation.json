@@ -1,0 +1,307 @@
+{
+  "id": "world-orientation",
+  "title": "Orientation",
+  "subtitle": "Welcome to the World, Contractor",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Welcome to the World, Contractor"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The following material is mandated reading under Intercompany Freelancer Statute 14(c). Completion of this section must be logged before your first deployment. Failure to complete orientation does not exempt you from liability. Nothing exempts you from liability.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "A Brief History of Everything Going Wrong"
+    },
+    {
+      "type": "paragraph",
+      "text": "About a thousand years ago — give or take a century, nobody kept great records during the Transition Period — resource scarcity hit hard enough that someone in a boardroom decided punching holes into other dimensions was cheaper than building spaceships. They were right. It was cheaper. It was also catastrophically irresponsible, but quarterly earnings looked great, and that was really the point."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first dimensional rifts were corporate projects. Controlled. Gated. Armed security on both sides. Companies sent teams through, stripped whatever looked valuable, and brought it back. New minerals. New biologicals. New energy sources. The economy boomed. Stock prices soared. Everyone patted themselves on the back."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then the rifts started opening on their own."
+    },
+    {
+      "type": "paragraph",
+      "text": "Turns out punching thousands of holes in the fabric of reality has consequences. The membrane between dimensions got thin. Rifts began tearing open without corporate oversight — in fields, basements, city centers, occasionally inside someone’s kitchen. Things came through. Some of them were resources. Some of them were alive. Some of them were angry."
+    },
+    {
+      "type": "paragraph",
+      "text": "And magic seeped in."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all at once. Slowly, like a gas leak nobody noticed until the walls started glowing. Ambient magical energy saturated the atmosphere, the water table, the food supply. First-generation kids started manifesting abilities. Then second. Then everyone just sort of accepted that reality had terms and conditions now, and nobody had read them."
+    },
+    {
+      "type": "paragraph",
+      "text": "That was a thousand years ago. Here’s where we are now."
+    },
+    {
+      "type": "heading",
+      "text": "The World Today"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporations are governments.</strong> This isn’t a metaphor. After the old nation-states collapsed during the Resource Wars (roughly 700 years ago), the companies that controlled rift access, magical infrastructure, and food distribution became the de facto ruling powers. They write the laws. They enforce the laws. They are the laws. Each major corporation operates as a sovereign entity with territory, citizens, military, and a tax structure that would make an ancient accountant weep."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nobody remembers the originals.</strong> A thousand years of cultural drift does strange things. The corporations that exist today bear the names and (loosely) the branding of their ancient predecessors, but they’ve become something else entirely. What started as corporate loyalty became cultural identity became genuine belief. People born into a corporate territory don’t think of themselves as employees — they think of themselves as <em>members</em>. The company isn’t where you work. It’s who you are. It’s your faith, your family, your flag."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a fast-food chain has been the dominant cultural institution for forty generations, “brand loyalty“ doesn’t quite cover it anymore. It’s closer to religion. The iconography is sacred. The founders are saints. The corporate mission statement is scripture."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Magic is everywhere.</strong> Ambient magical energy permeates the world. It powers infrastructure, fuels devices, runs transportation. Magical engineering is a perfectly normal career path — pipe fitters for arcane conduits, HVAC techs for rift-adjacent buildings, quality assurance for enchanted consumer goods. Magic isn’t mysterious. It’s utility."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>But using it will kill you.</strong> For humans, channeling magic is like breathing poison. The body can process it — slowly, painfully, with cumulative damage. Every spell, every enchanted device you activate directly, every minute spent in a saturated rift zone adds to your toxicity. It disperses naturally over time, but “naturally“ means “weeks,“ and weeks are a luxury most people don’t have."
+    },
+    {
+      "type": "paragraph",
+      "text": "Think of magic like radiation. The infrastructure runs on it. The lights work because of it. But get too close to the source for too long, and you become a problem. Or more accurately, you become a <em>commodity</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augmentation is normal.</strong> Laws restricting human experimentation were dropped centuries ago. Gene-splicing, cybernetic augments, biological grafts from rift fauna — most people walking down the street are some combination of modifications. A man with a reinforced titanium ribcage and orc-spliced musculature raises fewer eyebrows than someone who’s completely unmodified. Being “stock“ is the oddity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Non-human species exist.</strong> A thousand years of open rifts means a thousand years of immigration, voluntary and otherwise. Intelligent species from other dimensions have integrated (or been integrated) into corporate society. They tend to tolerate magic better than humans — which makes them valuable as workers, and even more valuable as <em>batteries</em>. Corporate employment contracts for non-humans often have terms that a careful reader would recognize as slow-motion harvesting programs."
+    },
+    {
+      "type": "heading",
+      "text": "The Rift Economy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rifts are the engine of the world. Everything — energy, raw materials, exotic biologicals, magical resources — comes from or through dimensional rifts. The corporations that control the most rift access control the most territory, and vice versa."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate-owned rifts</strong> are gated, monitored, and regulated. Workers pass through scanners going in and coming out. Toxicity readings are logged. Resource extraction runs on schedules. It’s industrial. It’s efficient. It’s boring, which means it’s profitable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wild rifts</strong> are everything else. They open without warning, spill whatever’s on the other side into reality, and might close in an hour or stay open for years. They’re unpredictable, dangerous, and full of things nobody’s catalogued yet. They’re also full of unclaimed resources, which means they’re full of opportunity for people desperate enough to take it."
+    },
+    {
+      "type": "paragraph",
+      "text": "That’s where you come in."
+    },
+    {
+      "type": "heading",
+      "text": "What Is a Contractor?"
+    },
+    {
+      "type": "paragraph",
+      "text": "You are a freelance interdimensional laborer. You are not an employee. You are not protected by corporate labor laws (such as they are). You are a gig worker with a sword and a toxicity reading that’s probably higher than you’d like."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>How it works:</strong> Contracts are posted through various broker networks. You take a job. You go into a rift. You do whatever the contract says — harvest materials, capture specimens (sometimes sentient, ethics optional), map unknown territory, retrieve lost assets, exterminate threats, sabotage a competitor’s operation. You come back. You get paid. You wait for the next ping."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The cycle:</strong> Payment goes to rent, food, scar treatment, toxicity management, gear maintenance, augment upkeep. Whatever’s left — if anything’s left — goes toward augments that might keep you alive longer. Then you take another contract because the alternative is starvation or debt slavery."
+    },
+    {
+      "type": "paragraph",
+      "text": "The corps don’t need to force anyone into the grinder. The economics do it for them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why not just get a corporate job?</strong> Some people do. Corporate employment comes with stability, medical coverage, and a predictable schedule. It also comes with ownership. Corp citizens aren’t free in any meaningful sense — they belong to their company, and leaving isn’t a request you make. Contractors chose freedom. Whether that freedom is worth the danger is a question most contractors stop asking after their third scar."
+    },
+    {
+      "type": "heading",
+      "text": "Contractor Crews"
+    },
+    {
+      "type": "paragraph",
+      "text": "Solo contractors don’t last. The math kills them before the rifts do."
+    },
+    {
+      "type": "paragraph",
+      "text": "One person, alone: can’t cover their own back in a fight, can’t stabilize themselves at 0 HP, can’t carry enough to make a harvest run profitable, can’t afford a base, pays full price for every service, and sleeps in a Capsule until the money runs out. The survival rate for independent solo contractors is roughly eight months. The corps track this. They’ve done the math. It’s on a spreadsheet somewhere."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crews form because economics demand it.</strong> A team of four splits the cost of a base. A team with a Chrome Tech installs augments for free. A team with a medic treats scars in-house. A team with a crafter produces ammo instead of buying it. A team with a sharp negotiator gets better contract rates. The financial advantage of cooperation is so overwhelming that the only real question is <em>who</em> you crew up with, not <em>whether</em> you should."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>How crews actually form:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Broker-matched.</strong> The most common method. The same networks that post contracts also run crew-matching algorithms. You register your profile — skillset, augment loadout, toxicity rating, survival record — and the broker assembles a team for a specific contract. Four strangers meet at a staging area, do a job, come back. If everyone survives, the broker offers the same team another job. Then another. Eventually you stop being strangers and start being a crew. The broker takes a percentage. They always take a percentage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Survivor crews.</strong> Your last team died. Or retired. Or got harvested. Or one of them took a corp job and the others scattered. You’re at a staging area, waiting for a ping, and you notice three other people doing the same thing. Everyone’s got that look — the “I’ve done this before and I’m still here“ look. Someone suggests a drink. Someone mentions a contract. By morning you’re a crew. Survivor crews tend to be tight. People who’ve already lost a team don’t waste time with politics."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp-assembled.</strong> A corporation needs a job done but doesn’t want to use its own people. Deniability, budget reasons, or the job is too dangerous for employees with benefits packages. The corp recruits contractors directly, assembles a team, and briefs them. Pay is usually better. Oversight is constant. The corp doesn’t care if you like each other. They care if you complete the contract. Some corps maintain standing contractor rosters — semi-permanent teams on retainer. Better pay, steady work, zero freedom."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Desperation pairs that grew.</strong> Two contractors who kept running into each other on the same jobs. A contractor who saved someone’s life in a rift and now they won’t leave. Three people who owe the same broker and got packaged as a deal. A contractor who hired a specialist for one job and realized they couldn’t afford to let them walk away. Most crews didn’t plan to be crews. They just stopped finding reasons to split."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Why crews stay together:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trust. The real currency that doesn’t appear on anyone’s balance sheet. You’ve seen how this person fights. You know they’ll stabilize you when you drop. You know they won’t steal from the stash. You know their Chrome Tech work is clean. That knowledge takes missions to build and seconds to destroy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Shared investments. A base, a vehicle, stockpiled materials, a network of contacts — these belong to the crew, not the individual. Walking away from a crew means walking away from everything you built together. The economics of separation are brutal enough to keep most crews intact through personality conflicts that would otherwise end them."
+    },
+    {
+      "type": "paragraph",
+      "text": "And honestly? The world is lonely. Corporate citizens have community built into their lives — the corp provides identity, belonging, purpose. Contractors have none of that. A crew is the closest thing most contractors get to a family. Nobody talks about it. Everyone knows it."
+    },
+    {
+      "type": "heading",
+      "text": "Magic & Toxicity"
+    },
+    {
+      "type": "heading",
+      "text": "How Magic Works (The Short Version)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Magic is ambient energy that seeped into our dimension through a thousand years of rift activity. It’s in the air, the water, the soil. Everything is at least a little magical now."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Using magic</strong> means channeling that ambient energy through your body. Some people were born with the capacity — descendants of early manifesting generations, gene-modded lineages, or rift-touched bloodlines. Others acquire it through augmentation — cranial implants, biological grafts, rift-fauna symbiotes. Most people just interact with magic through devices that someone else built."
+    },
+    {
+      "type": "paragraph",
+      "text": "Think of it like water. Magic is everywhere, but humans can’t breathe it. Some people were born with gills. Some people had gills installed. Most people use submarines."
+    },
+    {
+      "type": "heading",
+      "text": "How Toxicity Works (The Important Version)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Every exposure accumulates.</strong> Time spent in rifts. Spells channeled. Enchanted devices activated directly. Wounds healed with magic. It all adds up."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity disperses naturally</strong> — but slowly. Days to weeks, depending on the exposure level. Rest helps. Being outside rift zones helps. Time helps. Time is also money you don’t have."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Fast removal options exist:</em>  • <strong>Corporate detox programs</strong> — effective, covered by some employment contracts. They also log everything and your readings go on file.  • <strong>Black market scrubbing</strong> — expensive, illegal, variable quality. Some back-alley practitioners know what they’re doing. Some don’t.  • <strong>Rift parasites</strong> — creatures that feed on magical toxicity. Extremely effective. Also extremely illegal, occasionally fatal, and always expensive. If the creature takes too much, it takes more than toxicity with it.  • <strong>Natural rest</strong> — free, slow, and requires not working. See: the cycle.  <em>What happens when you hit the limit:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "At maximum toxicity, you’re not dying. You’re <em>overflowing</em>. Your body is saturated with ambient magical energy to the point that you’re radiating it. You become, in corporate terminology, a <em>high-yield energy resource</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "The corps have infrastructure for this. Collection facilities. “Retirement programs.“ Jingles."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most citizens don’t know the details. They know that people who “overclock“ disappear. Depending on which corp they belong to, there’s a euphemism for it — ascension, graduation, the Long Shift, Contribution Day. Nobody asks too many questions, because the answers aren’t good for anyone’s morale."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity scanners are everywhere.</strong> Bus stations, corporate checkpoints, rift gates, medical facilities. Almost all of them report to someone. Going off-grid has real value if you’re running hot. Fake IDs and spoofed readings are a whole black market economy. Some corps actively recruit — or “recruit“ — individuals who are close to threshold before those individuals know they’re in danger."
+    },
+    {
+      "type": "heading",
+      "text": "Guns, Swords, and the Economics of Violence"
+    },
+    {
+      "type": "paragraph",
+      "text": "You’ve probably noticed that most contractors carry blades, axes, and clubs rather than firearms. This isn’t a cultural affectation — it’s economics."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Guns exist.</strong> They work. They’re effective. They’re also expensive to manufacture, expensive to maintain, and — critically — expensive to feed. Every bullet is a non-recoverable investment. When your job involves fighting your way through a rift full of creatures, doing it with bullets means your profit margin evaporates with every trigger pull."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Melee weapons are renewable.</strong> A good sword lasts years. A well-maintained axe costs nothing to swing. Augmented contractors with enhanced strength and durability can close distance and fight effectively in melee range that would be suicidal for an unmodified human."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ranged weapons exist on a spectrum.</strong> Throwing weapons, crossbows, and simple projectile launchers are common. Magitech ranged weapons that use ambient energy instead of ammunition are increasingly available but come with — you guessed it — toxicity costs. True firearms are a luxury of the wealthy and corporate military, where cost-per-kill isn’t a line item that matters."
+    },
+    {
+      "type": "paragraph",
+      "text": "The result: contractors fight with steel and chrome, augmented bodies and sharpened reflexes, because the math says so. The corps save the guns for the people they actually care about keeping alive."
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Culture (or: How a Fast Food Chain Becomes a Monarchy)"
+    },
+    {
+      "type": "paragraph",
+      "text": "A thousand years is a long time. Long enough for branding to become belief."
+    },
+    {
+      "type": "paragraph",
+      "text": "The corporations of today don’t resemble their ancient predecessors in anything but name and (vaguely) aesthetic. A thousand years of cultural evolution, religious drift, and deliberate mythologizing have turned corporate identities into something between nation-states and organized religions."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Some examples of the drift:</em>  • An entertainment company becomes a theocratic order, its ancient founder elevated to divine status, its parks rebuilt as pilgrimage sites, its media archives treated as sacred texts.  • A fast-food chain becomes a feudal monarchy, its franchise structure calcified into noble houses, its original menu items preserved as ritual foods served at state occasions.  • A tech company becomes a mystery cult, its code repositories treated as holy writ, its server farms as temples, its engineers as a priestly caste interpreting the will of the Founder’s Algorithm.  • A pharmaceutical company becomes something between a medical order and a protection racket, offering healing and augmentation to those who swear loyalty, and withholding it from those who don’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Citizens aren’t employees.</strong> They’re true believers. Born into it, raised in it, educated by it, employed by it, buried by it. Leaving a corporation isn’t quitting — it’s apostasy. Some corps handle defection with bureaucratic indifference. Others handle it with kill teams."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contractors exist in the gaps.</strong> You’re not a citizen of anywhere. You work for whoever’s paying. This makes you useful — nobody else will take the jobs you take. It also makes you disposable — nobody’s obligated to care what happens to you. You’re the necessary vermin of the economy: tolerated, compensated, and replaced without sentiment."
+    },
+    {
+      "type": "heading",
+      "text": "Your Place in All This"
+    },
+    {
+      "type": "paragraph",
+      "text": "You are a contractor. You signed a waiver. Several waivers. The waivers have waivers."
+    },
+    {
+      "type": "paragraph",
+      "text": "You go into rifts — corporate-controlled or wild — and you do whatever the contract says. You fight things that came through from somewhere else. You harvest resources from dimensions that probably didn’t consent to the arrangement. You come back a little more poisoned, a little more scarred, a little more augmented than when you left."
+    },
+    {
+      "type": "paragraph",
+      "text": "The money keeps you alive. The augments keep you competitive. The scars remind you what the money cost. The toxicity reminds you that the clock is always ticking, even when you can’t hear it."
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s a living. Technically."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Orientation complete. Your contractor ID has been provisionally activated. Please proceed to Equipment Requisition (Section 3) for your starting loadout. Remember: your first scar is on us. After that, treatment is available at competitive market rates.</em>  <em>Welcome to the grind.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The following corporate profiles are provided for contractor orientation purposes only. Opinions expressed herein are those of the Intercompany Contractor Relations Bureau and do not reflect the official positions of any sovereign corporate entity. If you believe any information in this document to be inaccurate, please file a correction request with the Bureau. Processing time: 6-8 business quarters. Sincerity of request: optional.“</em>"
+    }
+  ]
+}

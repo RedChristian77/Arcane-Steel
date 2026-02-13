@@ -1,0 +1,103 @@
+{
+  "id": "abilities-berserker",
+  "title": "Berserker Abilities",
+  "subtitle": "Berserker kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Berserker"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Frontline bruiser. Close distance, hit hard, take hits. Abilities focus on aggression, resilience, threat generation, and making enemies deal with you.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aggressive Stance (Passive):</strong> When you move toward an enemy and attack in the same turn, your first attack gets +1 accuracy."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bloodlust (Passive):</strong> When you drop an enemy to 0 HP, your next attack this turn costs 1 less AP (minimum 1). Chain kills reward aggression."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Taunt (Active, 1 AP):</strong> An enemy within Close range has -2 accuracy against anyone except you until your next turn. You make yourself the target."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Brace (Passive):</strong> If you don’t move on your turn, gain +1 Armor until your next turn. Holding ground has value."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Menacing Presence (Passive):</strong> Enemies within Close range have -1 to checks to resist Intimidation effects from any source. Your proximity is unsettling."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shrug It Off (Passive):</strong> Once per encounter, when you take damage from a single attack, reduce it by your Grit bonus (after armor). You absorb the hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Momentum Charge (Passive):</strong> If you spend 2+ AP on movement before attacking, your first melee attack gets +2 damage (flat, applied after armor). Running start hits harder."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reckless Swing (Passive):</strong> Declare any melee attack Reckless before rolling. +2 accuracy, but enemies get +2 accuracy against you until your next turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>War Cry (Active, 2 AP):</strong> All allies within Close range get +1 accuracy on their next attack. All enemies within Close range must target you if able until your next turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Unbreakable (Passive):</strong> First time you drop to 0 HP in an encounter, drop to 1 HP instead. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cleave (Passive):</strong> When your melee attack drops an enemy to 0 HP, you may immediately make a free attack (0 AP) against a different enemy within Close range, at -2 accuracy. Once per turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Thick Skin (Passive):</strong> Reduce the duration of all conditions on you by 1 turn (minimum 1). Poison, Bleed, Stun, Hex all tick down faster. Your body fights off everything."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ground Slam (Active, 2 AP):</strong> All enemies within Close range make a Grit check (DC 7) or are knocked Prone. No damage. Pure crowd control. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Retribution (Passive):</strong> When an enemy hits you with a melee attack, your next melee attack against that enemy gets +1 accuracy and +1 damage per die. You remember who hurt you."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Frenzy (Passive):</strong> While below 50% HP, all your attacks cost 1 less AP (minimum 1). More dangerous wounded."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Immovable (Passive):</strong> Cannot be moved against your will. Immune to Prone from enemy attacks. Cannot be grappled."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Last Stand (Passive):</strong> While at 25% HP or below, gain +2 Armor and +2 accuracy. You become hardest to kill at the moment everyone expects you to fall."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Executioner (Passive):</strong> Your attacks against enemies below 25% HP automatically crit (double damage dice). No accuracy roll needed for the crit — if you hit, it’s a crit. Finishing blows are guaranteed devastating."
+    }
+  ]
+}

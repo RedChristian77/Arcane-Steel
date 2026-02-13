@@ -1,0 +1,148 @@
+{
+  "id": "equipment-armor",
+  "title": "Armor & Shields",
+  "subtitle": "Protection and evasion",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Armor provides flat <strong>damage reduction per die</strong> and may cap your Evasion. Heavier armor requires Chrome investment."
+    },
+    {
+      "type": "heading",
+      "text": "Armor"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Armor",
+        "Armor Value",
+        "Evasion Cap",
+        "Chrome Req",
+        "Weight",
+        "Cost"
+      ],
+      "rows": [
+        [
+          "Clothes",
+          "0",
+          "No cap",
+          "—",
+          "0",
+          "Free"
+        ],
+        [
+          "Padded Jacket",
+          "1",
+          "No cap",
+          "—",
+          "1",
+          "50 cr"
+        ],
+        [
+          "Light Weave",
+          "2",
+          "No cap",
+          "—",
+          "1",
+          "200 cr"
+        ],
+        [
+          "Contractor Standard",
+          "3",
+          "6",
+          "Chrome 2",
+          "2",
+          "400 cr"
+        ],
+        [
+          "Corp Tactical",
+          "4",
+          "5",
+          "Chrome 3",
+          "3",
+          "750 cr"
+        ],
+        [
+          "Rift-Walker Suit",
+          "3",
+          "6",
+          "Chrome 2",
+          "2",
+          "600 cr"
+        ],
+        [
+          "Heavy Plate",
+          "6",
+          "3",
+          "Chrome 4",
+          "4",
+          "1,200 cr"
+        ],
+        [
+          "Siege Rig",
+          "8",
+          "2",
+          "Chrome 6",
+          "6",
+          "2,500 cr"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift-Walker Suit</strong> — Same protection as Contractor Standard but with built-in toxicity dispersal: -1 toxicity per rift encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Siege Rig</strong> — Exoskeletal powered armor. Walking fortress. Requires Chrome 6 to operate."
+    },
+    {
+      "type": "heading",
+      "text": "Shields"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shields provide an <strong>Evasion bonus</strong> instead of Armor reduction. They occupy one hand."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Shield",
+        "Evasion Bonus",
+        "Weight",
+        "Cost",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Buckler",
+          "+1",
+          "1",
+          "100 cr",
+          "Can use Light weapon in shield hand"
+        ],
+        [
+          "Standard Shield",
+          "+2",
+          "2",
+          "250 cr",
+          "Occupies one hand"
+        ],
+        [
+          "Tower Shield",
+          "+3",
+          "4",
+          "500 cr",
+          "-1 accuracy on all attacks. Provides cover to allies behind you."
+        ],
+        [
+          "Rift-Ward Shield",
+          "+2",
+          "2",
+          "600 cr",
+          "+2 Evasion vs Magic attacks specifically"
+        ]
+      ]
+    }
+  ]
+}

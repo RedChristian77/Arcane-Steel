@@ -1,0 +1,183 @@
+{
+  "id": "enemies-generator",
+  "title": "Enemy Generator",
+  "subtitle": "Quick NPC and loot tables",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Need an enemy right now? Roll or pick:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 1: Threat Tier</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d4</strong>                              <strong>Tier</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   T1 Fodder"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   T2 Competent"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   T3 Dangerous"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   T4 Nightmare ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 2: Role</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d6</strong>                              <strong>Role</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   Brute"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   Skirmisher"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   Artillery"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   Tank"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   Horde/Swarm"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   Controller ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 3: Origin</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d6</strong>                              <strong>Origin</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   Rift fauna (beast, insectoid, predator)"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   Rift entity (magical, dimensional, anomalous)"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   Human (corp security, rival contractors, bandits)"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   Non-human (rift-origin species, spliced, augmented)"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   Machine (drones, turrets, automated security)"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   Hybrid (gene-spliced, magitech, cyborg creature) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Step 4: One Special Ability</strong> (T2+)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d8</strong>                              <strong>Ability</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   Venomous (Poison on hit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   Regeneration (1d4/turn)"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   Pounce (+2 accuracy after moving)"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   Pack Tactics (+1 accuracy near allies)"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   Grab (Grapple on hit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   Explosive Death (1d6 AoE on death)"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   Toxicity Aura (+1 Toxicity/round, Adjacent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   Phase Shift (untargetable 1 round, once) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Step 5: Pull baseline stats from the Threat Tier table. Adjust per Role. Done.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every enemy is a potential payday. What they drop depends on what they are."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift creatures</strong> drop harvestable materials (see Harvesting & Crafting). Material tier roughly matches Threat Tier. A T2 creature drops T1-T2 materials. A T4 horror drops T3-T4 materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Human/corporate enemies</strong> drop gear — weapons (often damaged, 50% value), armor, ammo (Charges), credits, intel, access cards, and occasionally augments (rare, valuable, possibly booby-trapped)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Machines/drones</strong> drop tech components (crafting materials for Tech builds), salvageable parts, and occasionally intact weapons or modules."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract payout</strong> is separate from loot. The contract pays for the job. Loot is what you harvest/scavenge on top of that. Smart contractors plan harvest routes through combat encounters — kill the creature, carve it up, haul the materials, get paid twice."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Threat assessments are generated algorithmically based on available survey data. Survey data is collected from previous contractor deployments. Previous contractor survival rates are available upon request but are not recommended reading for active personnel. Morale is a non-renewable resource.“</em>"
+    }
+  ]
+}

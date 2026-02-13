@@ -1,0 +1,215 @@
+{
+  "id": "scars-scars",
+  "title": "Scars & Death",
+  "subtitle": "Getting hurt and staying alive",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The Price of Survival</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“All injuries sustained during contractual obligations are the responsibility of the individual contractor. Corporate health plans cover a mandatory post-mission scan. Treatment is available at contractor expense. Your continued viability is appreciated but not guaranteed.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Scars Work (Recap)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a contractor hits 0 HP:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1.</strong> Gain +1 Scar  <strong>2.</strong> Roll 1d20 vs Death DC  <strong>3.</strong> Success: Stabilize at 50% HP  <strong>4.</strong> Failure: Flatline (death or harvested)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars</strong>               <strong>Death DC</strong>            <strong>Survival %</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       0                       100% (free one)"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       2                       95%"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                       5                       80%"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                       8                       65%"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                       11                      50%"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                       14                      35%"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                       17                      20%"
+    },
+    {
+      "type": "paragraph",
+      "text": "8+                      19                      10% ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Scars don’t go away on their own. They must be treated. Treatment costs money. Money comes from missions. Missions cause scars."
+    },
+    {
+      "type": "heading",
+      "text": "Scar Debuffs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each scar applies a <strong>cumulative debuff</strong>. You don’t pick — you gain the debuff for your current scar count. All previous debuffs remain active."
+    },
+    {
+      "type": "paragraph",
+      "text": "The design principle: <strong>early scars are nuisances, mid scars are problems, late scars are crises.</strong> Combat effectiveness degrades slowly; economic and social pressure degrades fast."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scar \\#</strong>             <strong>Debuff</strong>              <strong>Category</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>1</strong>                   <strong>Battle-Worn.</strong> No     Cosmetic mechanical penalty. You have a visible scar. People notice. It’s a conversation starter or a conversation ender."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>2</strong>                   <strong>Lingering Ache.</strong> -1  Minor / Utility to the first stat check of each session (not combat — the first non-combat check). Your body reminds you it’s been broken. Fades after the first roll."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>3</strong>                   <strong>Nerve Damage.</strong> -1 to Moderate / one stat bonus of your  Combat-adjacent choice (chosen when scar is gained, permanent until treated). You pick which stat takes the hit — your body, your call on what breaks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>4</strong>                   <strong>Chronic Pain.</strong>       Moderate / Economic Healing stims heal 1 less HP on you (minimum 1). Your body is less responsive to quick fixes. Long-term treatment works fine."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>5</strong>                   <strong>Reputation: Walking   Moderate / Social Dead.</strong> NPCs who know your scar count react differently. -1 to social checks with corp personnel, employers, and medical staff. +1 to social checks with other scarred contractors and street-level NPCs. They respect the survival. Corps see a liability."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>6</strong>                   <strong>Structural Failure.</strong> Significant / Combat -1 max HP permanently. Your body is running out of places to break that don’t matter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>7</strong>                   <strong>Fading.</strong> -1 to ALL   Severe / Everything stat bonuses. Your body is shutting down in slow motion. Augments and mutations strain against degrading tissue."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>8+</strong>                  <strong>Death’s Door.</strong> All  Critical / Systemic previous debuffs plus: at the start of each mission, roll 1d6. On a 1, one random augment or mutation malfunctions for the entire mission (bonus disabled, cost still active). Your body is rejecting what it’s become. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Cumulative Example"
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor at <strong>5 scars</strong> has ALL of these active simultaneously:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Battle-Worn (cosmetic)  • Lingering Ache (-1 first check per session)  • Nerve Damage (-1 to one chosen stat bonus)  • Chronic Pain (stims heal 1 less)  • Reputation: Walking Dead (-1/+1 social split)"
+    },
+    {
+      "type": "paragraph",
+      "text": "That’s a meaningful set of penalties, but none of them destroy combat effectiveness outright. The contractor can still fight. They’re just more expensive to maintain, harder to heal, and running out of social capital with the people who pay them."
+    },
+    {
+      "type": "paragraph",
+      "text": "At <strong>7+ scars</strong>, combat starts degrading directly. That’s intentional — by the time you have 7 scars, you’ve survived death 7 times. The game is communicating: <em>this body has limits.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Scar Treatment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Scars can be treated to remove them (and their debuffs). Treatment removes scars in reverse order — you always remove the highest-numbered scar first."
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------------- ----------------- ------------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Provider</strong>         <strong>Cost per Scar</strong> <strong>Quality</strong>         <strong>Notes</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp Medical       500 cr            Clean. No           They log Clinic</strong>                               complications.      everything. Your scar history goes in the database. Insurance may apply (if your corp offers it — most don’t)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Licensed Surgeon</strong> 350 cr            Standard. Roll 1d20 Professional but vs DC 3 — on      not perfect. Cash fail, scar is       accepted. treated but a Minor complication occurs (use Minor Complication table from Mutations)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street Doc</strong>       200 cr            Risky. Roll 1d20 vs No questions. No DC 7 — on fail,   records. No Moderate            guarantees. Might complication.       be operating out of a noodle shop."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Team Medic         100-200 cr        Depends on skill.   Off-grid. No (Medicine T3+)</strong>     (materials only)  Trauma Surgeon      database entry. feature: 200 cr,    The team handles Standard DC.        its own problems. Miracle Worker/Walking Clinic: 100-150 cr."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Self-Treatment</strong>   100 cr            Terrible. Roll 1d20 Desperation only. (materials)       vs DC 12,           You’re stitching"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>disadvantage</strong>.   yourself up with On fail, Severe     supplies from a complication.       vending machine. -------------------- ----------------- ------------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Treatment removes the scar AND its debuff.</strong> If you treat Scar #5, you lose Reputation: Walking Dead. If you then treat Scar #4, you lose Chronic Pain. And so on."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>You cannot treat scars during a mission.</strong> Treatment requires downtime. One scar treated per downtime period."
+    },
+    {
+      "type": "heading",
+      "text": "Scar Interaction With Other Systems"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars + Fury Tree:</strong> The Fury augment tree feeds on scars. Pain Converter (+1 accuracy per scar), Rage Shunt (+1 damage die at 1+ scars), Adrenal Injector (first scar free). A Fury contractor has a genuine reason to keep scars — the debuffs might be worth the combat bonuses. This creates an interesting tension: do you treat your scars and lose your edge, or keep them and accept the degradation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars + Genius Trait:</strong> Witnessing an ally hit 0 HP gains +1 Stress. In a team where multiple people are scarred and going down regularly, the Genius contractor’s stress spirals fast."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars + Skills:</strong> Scar #3 (Nerve Damage) lets you choose which stat takes -1. A skill monkey might sacrifice Chrome (they don’t melee) while a Berserker might sacrifice Interface (they don’t hack). The choice reveals character priorities."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars + Mutations:</strong> Scar treatment and mutation complications are separate systems. A mutation complication from a failed splice isn’t a scar. But the Accelerated Aging severe complication (from mutations) does increase all scar Death DCs by +1 — the two systems compound."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars + Economy:</strong> At 350 cr per scar (licensed surgeon), a contractor with 4 scars is looking at 1,400 cr to get clean. That’s 3-4 missions of pay. Those missions might cause more scars. The treadmill accelerates."
+    }
+  ]
+}

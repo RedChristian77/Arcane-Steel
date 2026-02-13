@@ -1,0 +1,103 @@
+{
+  "id": "abilities-technician",
+  "title": "Technician Abilities",
+  "subtitle": "Technician kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Technician"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Support and control specialist. Hack systems, disrupt enemies, buff allies, keep the crew running. Abilities focus on information, equipment manipulation, and tactical coordination.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>System Scan (Passive):</strong> At the start of combat, automatically identify one enemy’s weakest stat. GM reveals their lowest stat."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overclock Ally (Active, 1 AP):</strong> An ally within Close range gets +2 accuracy on their next attack this turn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Disrupt (Active, 1 AP):</strong> An enemy within Medium range gets -2 accuracy on their next attack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Field Patch (Passive):</strong> Healing Stims you use on allies (not yourself) heal an additional 1d4."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Analyze Weakness (Active, 1 AP):</strong> Target an enemy. All attacks against that target get +1 accuracy until end of your next turn. You broadcast targeting data."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Fix (Passive):</strong> Items you use in combat cost 1 less AP (minimum 0). Stims, scrubbers, grenades — all faster in your hands."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Remote Access (Active, 1 AP):</strong> Activate a piece of equipment within Medium range without being adjacent. Trigger a trap, activate a beacon, open a door, start a generator. Requires line of sight."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>System Crash (Active, 2 AP):</strong> Disable one piece of an enemy’s equipment within Medium range until end of your next turn. Tech check (DC 8). Weapon, armor property, shield — your choice."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tactical Relay (Active, 1 AP):</strong> An ally can immediately spend up to 2 AP as a reaction (out of turn). You coordinate a snap response."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Drone Redirect (Passive):</strong> Drone Swarm weapons attack autonomously for 0 AP at -2 accuracy. Free imprecise damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Countermeasure (Passive):</strong> When an enemy uses a tech or Interface-based ability within Medium range, you may spend 1 AP as a reaction to negate it. Once per round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Efficiency Protocol (Passive):</strong> Once per turn, reduce the AP cost of one ally’s action by 1 (minimum 1). You optimize their timing. Must be within Close range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sabotage Ammo (Active, 1 AP):</strong> Target an enemy’s ranged weapon within Medium range. Tech check (DC 7). On success, their next ranged attack misfires — no damage, turn wasted. The weapon still works after that."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Neural Spike (Active, 2 AP):</strong> Target an enemy with cybernetic augments within Medium range. Tech check (DC 8). On success, they take -2 to all checks for 1 round as their systems scramble."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>EMP Burst (Active, 3 AP):</strong> All enemies within Close range with tech/augments have equipment disabled for 1 round. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combat Coordinator (Passive):</strong> At the start of each round, swap initiative positions of two allies. Allies within Close range get +1 to social checks in combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Master Engineer (Passive):</strong> All equipment you operate gets +1 to its effect (Field Hospital heals +1 per die, Scrub Station removes +1 per die, weapons you’ve personally modified get +1 damage per die). Your hands make everything better."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Puppet Master (Active, 3 AP):</strong> Take control of an enemy’s cybernetic augments or tech weapon for 1 round. The enemy cannot use the controlled item and you can activate it remotely — firing their weapon at their allies, or shutting down their augmented armor. Tech check (DC 10). Once per encounter."
+    }
+  ]
+}

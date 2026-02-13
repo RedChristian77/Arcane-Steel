@@ -1,0 +1,175 @@
+{
+  "id": "gm-sessions",
+  "title": "Session Templates",
+  "subtitle": "Pre-built session frameworks",
+  "content": [
+    {
+      "type": "heading",
+      "text": "The Standard Contract Session"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Duration:</strong> 3-4 hours"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. The Board</strong> (15-20 min) — The crew checks contracts. Present 2-3 options with different risk/reward profiles. Let them choose. Brief them on the job.  <strong>2. Transit</strong> (10-15 min) — Travel to the job site. Roleplay in the contractor car, the vehicle, or the march. Use this for character moments, NPC interaction, or information delivery.  <strong>3. The Job</strong> (60-90 min) — The contract itself. 2-3 encounters (combat, skill challenges, or both) with a clear objective. One complication minimum.  <strong>4. Extraction</strong> (15-20 min) — Getting out. Harvest phase if applicable. Sometimes extraction is its own challenge (the rift is closing, something’s chasing you, the vehicle broke down).  <strong>5. Payout & Downtime</strong> (30-45 min) — Get paid. Spend money. Make decisions. Roleplay the bar, the clinic, the base. This is where the economic game lives. Don’t rush it."
+    },
+    {
+      "type": "heading",
+      "text": "The Downtime Session"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Duration:</strong> 2-3 hours (between major contracts or arcs)"
+    },
+    {
+      "type": "paragraph",
+      "text": "No contract this session. The crew manages their lives:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Base construction/upgrades  • Augment purchases and installation  • Skill training  • NPC relationship development  • Market visits, vehicle maintenance  • The subplot: investigation, information gathering, planning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Downtime sessions are underrated. They’re where the crew makes the decisions that define their progression. Give them time."
+    },
+    {
+      "type": "heading",
+      "text": "The Boss Session"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Duration:</strong> 3-4 hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "One major encounter dominates:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Preparation</strong> (30-45 min) — The crew knows what’s coming. Let them plan, buy supplies, position. Preparation should matter.  <strong>2. Approach</strong> (15-20 min) — Getting to the boss. One quick encounter or environmental challenge to drain some resources before the main fight.  <strong>3. The Fight</strong> (60-90 min) — Boss encounter with threshold abilities, adds, and environmental elements. This should feel different from a normal fight.  <strong>4. Aftermath</strong> (30-45 min) — Consequences. Loot. Scars to deal with. The subplot advances or resolves."
+    },
+    {
+      "type": "heading",
+      "text": "The Crisis Session"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Duration:</strong> 3-4 hours"
+    },
+    {
+      "type": "paragraph",
+      "text": "Something threatens home:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. The Alert</strong> (15 min) — The crew learns about the threat. It’s immediate. Time matters.  <strong>2. Triage</strong> (15-30 min) — The crew can’t do everything. They must prioritize: protect the base or evacuate the NPCs? Chase the threat or fortify the position? This choice defines the session.  <strong>3. Action</strong> (60-90 min) — Execute the plan. Multiple simultaneous objectives create tension even if combat is only part of the session.  <strong>4. Cost</strong> (30 min) — What was lost. What was saved. How this changes the crew’s situation going forward."
+    },
+    {
+      "type": "paragraph",
+      "text": "These are ready-to-use campaign openings. Each provides a first session, an initial contract, and seeds for the larger arc."
+    },
+    {
+      "type": "heading",
+      "text": "“The Broker’s Batch“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Setup:</strong> Four strangers matched by a Standard-tier broker for a routine extraction contract. The broker is overworked, the matching is algorithmic, and nobody’s read anyone’s profile. You show up at Staging Area 12, margin district, 0600 tomorrow."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>First Contract:</strong> Tier 1 extraction. Enter a Yellow Zone rift, harvest T1-T2 materials, return to the Congo sorting facility for processing and payout. 400 cr per person. Simple."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Complication:</strong> The rift is supposed to be surveyed and clear. It’s not. The survey data is three months old. Something has changed — new creature types, unusual environmental readings, and a section of the rift that doesn’t match the dimensional topology on file. The extraction succeeds, but the crew comes back with questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Seed:</strong> The rift’s dimensional topology has shifted. This shouldn’t happen in a surveyed, stable rift. Either the survey data was falsified, or something is destabilizing rifts that should be static. If the crew reports this, Congo thanks them and pays a 50 cr bonus. If the crew asks questions, the broker suggests they don’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Act 2 Direction:</strong> The instability is happening in other rifts too. Stable gates are fluctuating. Wild rifts are appearing in places they shouldn’t. Something is changing the dimensional landscape, and the corps are either investigating quietly or pretending it isn’t happening. The crew gets pulled in through contracts that keep brushing against the pattern — until the pattern shows up in their own margin."
+    },
+    {
+      "type": "heading",
+      "text": "“The Noble’s Quest“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Setup:</strong> A Crowned Table noble (minor house, ambitious, under-resourced) hires the crew directly for a contract that’s beneath the royal posting board. The noble needs a crew that won’t ask questions and won’t report back to the crown."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>First Contract:</strong> Tier 2 survey and retrieval. Enter a rift in Table territory and retrieve a specific artifact — a carved stone tablet covered in writing that the noble claims is “a family heirloom lost in a rift incursion.“ 600 cr per person, paid privately. No Table paperwork."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Complication:</strong> The rift is inhabited. The creatures inside aren’t hostile — they’re organized. They have structures. They have a settlement. And the tablet is in what appears to be their library. This isn’t a dungeon crawl. This is a theft from a civilization."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Seed:</strong> The tablet isn’t a family heirloom. It’s a record — dimensional cartography data written in a language that predates the corps. Someone was mapping rifts before corporations existed. The noble wants this data because it shows the location of a rift gate that no corp currently controls. An uncontrolled gate is a fortune. Or a weapon."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Act 2 Direction:</strong> The noble’s ambition escalates. More expeditions. More artifacts. The crew is building a relationship (and a dependency) with a patron who has a specific vision: use the pre-corporate rift data to establish an independent gate operation outside the seven-corp power structure. It’s revolutionary. It’s also exactly the kind of thing that gets Sentinel kill teams deployed and House of Mouse Advocates dispatching cease-and-desists on reality itself."
+    },
+    {
+      "type": "heading",
+      "text": "“The Clinic“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Setup:</strong> The crew is matched by a broker for a Wellspring Pharma contract. Standard stuff — live capture in a surveyed rift. But the broker warns them privately: the last two crews assigned to this contract dropped it after the briefing. Nobody says why."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>First Contract:</strong> Tier 2 live capture. Enter a rift, capture a specific creature (a luminescent amphibian with regenerative properties), deliver it alive to a Wellspring field lab on the rift-side of the gate. 700 cr per person, plus Wellspring provides containment equipment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Complication:</strong> The field lab is already occupied — by a Wellspring research team that’s been living in the rift for weeks. They’re studying the creatures. They’re also clearly terrified. The head researcher pulls the crew aside: “Capture the specimen. Bring it to us. And then leave. Don’t go deeper into the rift. Don’t ask what’s deeper in the rift.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Seed:</strong> Something deeper in the rift is killing the amphibians and converting their bodies into something else — a hybrid organism that looks partially human. Wellspring knows. The field lab isn’t studying the amphibians. It’s monitoring the hybrids. The last two crews dropped the contract because someone told them what was really going on. The question: who told them, and why does Wellspring want the crew to see the lab?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Act 2 Direction:</strong> Wellspring’s live capture program isn’t what it claims. The specimens aren’t going to breeding programs — they’re going to the restricted labs. The hybrids in the rift are escaped (or released) test subjects. Wellspring is field-testing gene-splicing techniques that blur the line between rift creature and human, and they’re using live rifts as laboratories. The crew’s involvement was deliberate — Wellspring wants witnesses who can be controlled through debt, contract, or leverage. Whether the crew fights this, exposes it, or profits from it defines the campaign."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arcane Steel campaigns don’t need to end with a boss fight. They can end with:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Retirement:</strong> The crew saved enough. Bought land in a free settlement. Walked away from the board, the margin, and the rifts. The dream that nobody believes in — they did it. Session ends with the crew sitting on a porch somewhere, watching a sunset that isn’t toxic. Credits roll."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Promotion:</strong> A corp offers the crew permanent positions. Real salaries. Benefits. Housing inside the walls. Medical coverage. The catch: they’re not contractors anymore. They’re employees. They belong to the corp now. Some crews take it. Some don’t. The ones who don’t keep working the margins. The ones who do disappear into the corporate machine, and their names show up on contract briefings as “corporate liaisons“ — the people who used to be on the other side of the desk."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Legacy:</strong> The crew’s base becomes a landmark. Their margin settlement grows around it. New contractors arrive, check the board, and hear stories about the crew that built this place. The campaign doesn’t end with the crew — it ends with what they left behind. The next campaign starts in the same settlement, with a new crew, and the old crew’s base is still there. Still functioning. Still named after them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Last Job:</strong> The one that was too big. The one they shouldn’t have taken. The one where everything goes wrong and the crew fights not to win but to survive. Not every campaign ends happily. Some end with scars that can’t be treated, losses that can’t be replaced, and a margin that’s a little emptier than it was. The survivors drink to the dead. Tomorrow, the board has new contracts. The loop continues."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“This document constitutes the entirety of the Bureau’s campaign planning guidance. Further campaign development is the responsibility of the GM. The Bureau wishes to remind all GMs that contractor mortality rates, while regrettable, are a natural consequence of interdimensional resource acquisition and should not be artificially suppressed through narrative convenience. Death is an economic event. Treat it accordingly.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Your orientation packet is complete. Your contractor ID is active. Your first assignment is waiting. Everything beyond this point is your responsibility. Try not to die on the first one — the paperwork is embarrassing.“</em>"
+    }
+  ]
+}

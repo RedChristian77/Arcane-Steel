@@ -1,0 +1,483 @@
+{
+  "id": "trees-loop",
+  "title": "⚡ The Loop",
+  "subtitle": "Burn & Bleed System",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "\\`\\`\\` ┌─────── Ambient gain (rift exposure, Rift Appetite, etc.) ──────┐ │ │ ▼ │ TOXICITY ──── BURN (+inject for buffs) ──── Goes UP ────────────────▶│ │ │ └──── BLEED (vent on melee hit) ──── Goes DOWN (a little) ──────┘ \\`\\`\\`"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Between turns:</strong> Toxicity rises passively (rift exposure, augment effects, ambient)  <strong>2. Start of turn:</strong> You <strong>Burn</strong> — inject +2/+3/+4 toxicity for a buff. Toxicity goes UP.  <strong>3. During turn:</strong> You attack in melee. Hits <strong>Bleed</strong> 1-2 toxicity into the enemy. Toxicity goes DOWN slightly.  <strong>4. On miss:</strong> Nothing bleeds. You injected toxicity for a buff but couldn’t vent any. Net: you went UP and stayed UP.  <strong>5. Net result each round:</strong> You’re almost always climbing. Bleeds slow the ascent. They never reverse it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Leech never gets clean during combat.</strong> The best you can do is <em>manage the rate of climb.</em> A good round (Burn +3, hit twice, Bleed -2 each = net -1) keeps you stable. A bad round (Burn +3, miss both = net +3 plus ambient gain) spikes you toward danger. Over a 5-round combat, you’ll end 5-15 toxicity higher than you started. That’s by design."
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Entry (0 augments required)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Your body learns two things: how to burn, and how to vent. Neither one is enough on its own.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>             <strong>Effect</strong>              <strong>Install Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Furnace Core</strong>        Unlocks your first      250 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burn</strong>: inject <strong>+2 toxicity</strong> → gain <strong>+1 melee damage die</strong> until next turn. The foundation. Everything else builds on this. You’re converting raw rift energy into hitting power. The damage is real. The cost is real."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxin Push</strong>          Unlocks <strong>Bleed</strong>: on   250 cr melee hit, vent <strong>1 toxicity</strong> into target. Deals <strong>1 bonus damage</strong> (bypasses armor). Your pressure valve. Without this, Burns have no outlet."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Appetite</strong>       You gain toxicity <strong>1   200 cr faster</strong> from all ambient sources. Sounds bad. Means your reactor reaches operating temperature faster. Also: toxicity gained from rift zones heals you for 1 HP (your body feeds on it)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic Resilience</strong>    Toxicity threshold      250 cr effects (Glowing, Leaking, Unstable, etc.) trigger at <strong>5% higher thresholds</strong> for you. More room to run hot before the penalties kick in. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 design:</strong> Both Furnace Core and Toxin Push are necessary. One without the other is incomplete — Burns with no Bleed means you spike with no outlet. Bleed with no Burn means you’re venting but not gaining anything from being hot. Most Leeches take both at T1."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Adapted (1 augment required)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The furnace is running. Time to feed it.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>             <strong>Effect</strong>              <strong>Install Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overdrive</strong>           New Burn: inject <strong>+3   400 cr toxicity</strong> → gain <strong>+1 movement speed</strong> (one extra square of movement) AND your melee attacks deal <strong>+2 damage</strong> (flat, on top of weapon damage). Stacks with Furnace Core — you can run both Burns in the same round for +5 toxicity total."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Siphon Strike</strong>       Upgrades Bleed: each    400 cr melee hit now vents <strong>1 toxicity</strong> and deals"
+    },
+    {
+      "type": "heading",
+      "text": "2 bonus damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "(bypasses armor). Targets accumulate a debuff: for every 3 toxicity they’ve received from you, they take <strong>-1 accuracy</strong> (cumulative). Their body is fighting the contamination instead of fighting you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Draining Touch</strong>      Alternate Bleed mode:   350 cr on melee hit, instead of dealing bonus damage, <strong>heal 1 HP per toxicity bled</strong>. Your pressure valve becomes a survival tool. Toggle between damage bleed and healing bleed freely each hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic Aura            Enemies that </strong>start    450 cr (Passive)<strong>             their turn adjacent</strong> to you gain +1 toxicity (if your toxicity is above 25%). Doesn’t cost you anything. You’re just leaking. Standing near you is a health hazard."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contaminated Blood</strong>  When you take melee     200 cr damage, the attacker gains <strong>+1 toxicity</strong>. Passive. Your blood is toxic. They shouldn’t have touched you. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 design:</strong> Overdrive is the second Burn — now you have two injection options. A Leech running both Furnace Core + Overdrive injects +5 toxicity per round for +1 damage die, +2 flat damage, and +1 speed. Powerful — but that’s +5 per round, bled back at only 1 per hit. You need to be hitting consistently or the reactor redlines fast."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Integrated (3 augments required)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Your body has rewritten itself around the reactor. It doesn’t fight the toxicity anymore. It IS the toxicity.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>             <strong>Effect</strong>              <strong>Install Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reactor State</strong>       New Burn: inject <strong>+4   700 cr toxicity</strong> → gain <strong>+1 damage die AND damage immunity to the first hit you take before your next turn</strong> (your body is so saturated with energy that the first attack partially phases through you). The most expensive Burn — and the most powerful."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corrosive Grasp</strong>     Upgrades Bleed: each    650 cr melee hit now vents <strong>2 toxicity</strong> and deals"
+    },
+    {
+      "type": "heading",
+      "text": "3 bonus damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "(bypasses armor). At 5+ total toxicity on a single target, they also lose <strong>1 Armor for the rest of combat.</strong> Double the vent rate. The pressure valve just got wider."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contamination         When you bleed toxicity 600 cr Cascade</strong>               into a target adjacent to other enemies, the bleed <strong>splashes</strong> — adjacent enemies each gain 1 toxicity. Your poison spreads on contact. Crowd control through contamination."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Furnace</strong>      Your toxicity <strong>never   600 cr <em>(trade-off)</em>           disperses naturally</strong> (only through Bleed, kills, or clinical detox). In exchange: you heal <strong>1 HP per round</strong> while above 50% toxicity AND your Burns cost <strong>1 less toxicity</strong> (minimum 1). The furnace is always on. You’re always running hot. Downtime without clinical detox means you’re stuck at whatever level you ended the mission at."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pressure Release</strong>    Once per combat: on a   700 cr melee hit, vent <strong>1d6 toxicity</strong> instead of normal Bleed. Each point deals 2 damage (bypasses armor). The pressure valve cracking open for one big vent — not a dump, not a reset, just breathing room. Then back to normal bleed rate. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 design:</strong> Three Burns now available (Furnace Core +2, Overdrive +3, Reactor State +4). Running all three = +9 toxicity per round for massive buffs. With Living Furnace reducing costs by 1 each, it’s +6 per round — but your toxicity never disperses naturally. Corrosive Grasp venting 2 per hit means two hits vent 4 per round. You’re still climbing, but slower. The math forces constant risk assessment: do I run all three Burns or dial back?"
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Experimental (6 augments required)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You aren’t a contractor with a reactor. You’re a reactor with a contractor attached.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>             <strong>Effect</strong>              <strong>Install Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Meltdown Protocol</strong>   New Burn: inject <strong>+6   1000 cr toxicity</strong> → for <strong>3 rounds</strong>, all your other Burns cost <strong>0 toxicity</strong> (they’re free — the Meltdown is fueling everything). Your Bleeds still work normally — venting toxicity you no longer need to pay. When Meltdown ends: <strong>-2 to all checks for 1 round</strong> and gain <strong>+1 Stress.</strong> The reactor needs a moment. Once per combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Necrotic Field</strong>      While above 50%         900 cr toxicity, your Toxic Aura upgrades: adjacent enemies also take <strong>1d4 damage</strong>. You don’t touch them. You just exist near them. The air around you is poison."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Terminal Siphon</strong>     When you <strong>kill an      1000 cr enemy</strong>, reduce your toxicity by <strong>1d4</strong> and heal <strong>1d4 HP</strong>. The kill itself vents the reactor. Not enough to get clean. Enough to keep going one more round. The corpse shrivels. People notice."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutually Assured      When you hit </strong>0 HP<strong>,  1100 cr Destruction</strong>           your body detonates <em>(trade-off)</em>           stored toxicity: deal damage equal to <strong>half your current toxicity</strong> to all creatures in short range (allies included). Gain your Scar as normal. If you survive, toxicity drops by the amount detonated (not to 0 — still running). You can’t control the blast. Your teammates learn to give you space. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 design:</strong> Meltdown is the ultimate Burn — pay one massive injection and then all your other Burns are free for 3 rounds. During Meltdown, you’re running Furnace Core + Overdrive + Reactor State every round for free, only climbing from ambient gain. Your Bleeds are pure profit — venting toxicity with no Burns to offset. This is the Leech’s power spike. It’s also unsustainable — 3 rounds, then exhaustion."
+    },
+    {
+      "type": "heading",
+      "text": "T5 — Mastery (10 augments required)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment</strong>             <strong>Effect</strong>              <strong>Install Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Leech Mastery:        Passive, always on.     — (auto-unlocked) Patient Zero</strong>          <strong>Toxicity you bleed into enemies does not disappear from them.</strong> They carry it permanently (disperses slowly like contractor toxicity). Enemies that survive fighting you are contaminated — weaker in future encounters, flagged by scanners, tracked by rift creatures. Additionally: <strong>your toxicity threshold effects trigger at 10% higher</strong> (stacks with Toxic Resilience for 15% total). You can run hotter than anyone alive. Because you’re barely alive anymore. You’re mostly rift energy wearing a contractor’s face. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Burn Quick Reference"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burn</strong>          <strong>Tier</strong>          <strong>Toxicity        </strong>Buff Gained<strong> Injected</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Furnace Core</strong>  T1                +2                +1 melee damage die"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overdrive</strong>     T2                +3                +1 speed, +2 flat melee damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reactor State</strong> T3                +4                +1 damage die, immune to first hit taken"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Meltdown        T4                +6 (once)         All other Burns Protocol</strong>                                            free for 3 rounds ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>With Living Furnace (T3): each Burn costs 1 less toxicity (minimum 1).</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Burn Math Examples"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Full Burns, no Living Furnace:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Furnace Core (+2) + Overdrive (+3) + Reactor State (+4) = <strong>+9 toxicity/round</strong> Buff: +2 damage dice, +2 flat damage, +1 speed, immune to first hit. Bleed back: 2 per hit (Corrosive Grasp) × 2 hits = -4"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Net per round: +5 toxicity.</strong> Over 5 rounds: +25 on top of starting level. Starting at 10/20? You hit 35/20 in 5 rounds — well past harvest. Can’t sustain full Burns for a whole fight."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Full Burns, with Living Furnace:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Furnace Core (+1) + Overdrive (+2) + Reactor State (+3) = <strong>+6 toxicity/round</strong> Bleed back: 2 × 2 hits = -4 <strong>Net per round: +2 toxicity.</strong> Much more manageable. But toxicity never disperses naturally."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>During Meltdown (T4):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Round 1: Meltdown injection +6. All other Burns free. Rounds 2-3: +0 from Burns. Bleed vents -4 per round (assuming 2 hits). <strong>Net over 3 Meltdown rounds: +6 - 8 = -2.</strong> Meltdown is the only time a Leech can <em>decrease</em> toxicity while running full Burns. The eye of the storm. Then it ends."
+    },
+    {
+      "type": "heading",
+      "text": "Bleed Quick Reference"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>Bleed/Hit</strong>     <strong>Damage per      </strong>Bonus Effects<strong> Point</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1 (Toxin Push)   1                 1 (ignores armor) —"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2 (Siphon        1                 2 (ignores armor) -1 enemy accuracy Strike)                                               per 3 tox received"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3 (Corrosive     2                 3 (ignores armor) At 5 total on Grasp)                                                target: -1 Armor"
+    },
+    {
+      "type": "paragraph",
+      "text": "T3 (Pressure      1d6 (1/combat)    2 per point       One big vent Release) ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Threshold Management: The Exit Game"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Leech is the only build that treats toxicity as a resource to be <em>calibrated</em>, not just avoided or endured. This creates a unique end-of-mission gameplay loop:"
+    },
+    {
+      "type": "heading",
+      "text": "The Scanner Math"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corp checkpoints scan at fixed thresholds. A Leech with Toxic Resilience (+5%) and Patient Zero (+10%) has thresholds shifted by 15%. On a default max of 20:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard Threshold</strong>  <strong>Leech Threshold</strong>     <strong>Scanner Result</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "25% (5)                 40% (8)                 Clean — waved through"
+    },
+    {
+      "type": "paragraph",
+      "text": "40% (8)                 55% (11)                Elevated — logged, no action"
+    },
+    {
+      "type": "paragraph",
+      "text": "50% (10)                65% (13)                Recommended Detox ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "A standard contractor at toxicity 6 is flagged as Elevated. A Leech at toxicity 6 reads as Clean. That’s the whole game."
+    },
+    {
+      "type": "heading",
+      "text": "The Exit Strategy"
+    },
+    {
+      "type": "paragraph",
+      "text": "A smart Leech manages their toxicity <em>before leaving the rift</em>:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. During the final encounter:</strong> Burn hard. Use full Burns, Meltdown if available. Go as hot as you need.  <strong>2. During the cleanup:</strong> Bleed aggressively. Focus on landing every hit. Draining Touch to heal, Corrosive Grasp to vent. Pressure Release on the last big target.  <strong>3. Kill bonuses:</strong> Terminal Siphon (T4) vents 1d4 per kill. Mop up wounded enemies personally — every kill is a pressure vent.  <strong>4. Walk out the door</strong> sitting just below your personal scanner threshold."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Leech who ends the last fight at toxicity 15, bleeds down through 3 kills (1d4 each ≈ -6), and walks out at toxicity 9? With Toxic Resilience, that reads as Clean on the scanner. The team passes the checkpoint. Nobody asks questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Leech who miscalculates and walks out at 12? Flagged. Now the whole team has a problem."
+    },
+    {
+      "type": "heading",
+      "text": "Redline Recovery: Fighting Back from 100%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every other contractor at 100% toxicity is finished. Harvest threshold. Extraction order. Character effectively lost."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Leech is the only build that can <strong>fight their way back.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bleed works regardless of Burns. You don’t have to inject to vent. At 100% toxicity, you turn off every Burn — any injection would push you further into terminal territory — and you swing with nothing but your base stats and base weapon. No extra damage dice. No speed boost. No damage immunity. Just you, a blade, and the desperate need to land hits."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At 100%, the Leech goes from the most buffed melee fighter on the team to the weakest.</strong> You’re a reactor that can’t turn on because it’ll explode. Deadweight until you punch your way back below threshold."
+    },
+    {
+      "type": "paragraph",
+      "text": "The math is brutal:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Corrosive Grasp bleeds 2 per hit  • Two hits per round = -4 toxicity  • From 100% (20/20) to 85% (17/20) = 3 toxicity to vent  • That’s 2 rounds of landing every attack with zero buffs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two rounds doesn’t sound bad — until you remember you have no Burns active. No bonus damage dice. No speed. No first-hit immunity. You’re fighting at base stats while at the toxicity threshold where you take -2 to all checks, your allies gain toxicity from proximity, and corp extraction teams are hunting you. Every miss extends the nightmare."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>And the team has to protect you while you do it.</strong> The Fortress has to taunt enemies into your range. The Dancer has to cover your flanks. The negotiator has to keep morale up. The Leech who normally carries fights now needs everyone else to carry <em>them</em> — just long enough to bleed back below the line."
+    },
+    {
+      "type": "paragraph",
+      "text": "That’s a character moment. The most dangerous person on the team, brought low by their own power, clawing back to functional one desperate swing at a time while everyone covers them. That’s a session the table remembers."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>And then they get back to 85% and the Burns come back on.</strong> And the cycle starts again."
+    },
+    {
+      "type": "paragraph",
+      "text": "This creates a unique team conversation that no other build generates:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“There’s one more cluster of creatures before the exit. Do we clear it so the Leech can bleed down, or do we skip it and risk the checkpoint?“</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Berserker wants to leave — every fight is another Scar risk. The Channeler wants to leave — toxicity is pure liability. The Leech wants one more fight — not for loot, not for XP, but to vent their reactor before hitting daylight. The team’s competing interests create natural tension around a decision that’s purely mechanical."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The rift is the Leech’s charging station AND their pressure release valve.</strong> They enter to fill up, burn for power, bleed to manage, and time their exit. Nobody else plays the rift this way. For everyone else, the rift is a hostile workplace. For the Leech, it’s a gas station with monsters."
+    },
+    {
+      "type": "heading",
+      "text": "Fury Leech — The Irradiated Berserker"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trees:</strong> Fury T2 + Leech T3 <strong>Fantasy:</strong> Scars give accuracy (Pain Converter: +1 per scar). Burns give damage. You solve your own accuracy problem through getting hurt and your damage problem through getting toxic. A contractor with 3 Scars running Furnace Core + Overdrive has +3 accuracy (from scars) with +2 damage dice and +2 flat damage (from burns). Glass cannon made of poison and scar tissue."
+    },
+    {
+      "type": "heading",
+      "text": "Fortress Leech — The Toxic Wall"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trees:</strong> Fortress T2 + Leech T2 <strong>Fantasy:</strong> Taunt forces enemies adjacent. Toxic Aura poisons them. Contaminated Blood punishes their attacks. Burns make you tougher (Reactor State’s first-hit immunity at T3). You don’t need accuracy because enemies are forced to stand next to you and melt."
+    },
+    {
+      "type": "heading",
+      "text": "Rift Leech — The Caster Who Wades In"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trees:</strong> Rift T3 + Leech T2 <strong>Fantasy:</strong> Cast Torrents to spike toxicity, then wade into melee to vent through Bleeds. Toxicity Weaponization (Rift T3) adds damage per 5 toxicity to ALL attacks. The casting heats the reactor. The melee vents it. Two phases of combat, one character."
+    },
+    {
+      "type": "heading",
+      "text": "Dancer Leech — Thousand Toxic Cuts"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trees:</strong> Dancer T2 + Leech T2 <strong>Fantasy:</strong> Dual-wield with bleed on every hit. Two weapons × 1 bleed each = 2 vented per round. With Corrosive Grasp: 4 vented per round. Dancer Leech vents faster than any other build — dual-wielding is literally twice the pressure relief. Burns are more sustainable because you have twice the outlet."
+    },
+    {
+      "type": "heading",
+      "text": "Shadow Leech — The Radioactive Assassin"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trees:</strong> Shadow T3 + Leech T3 <strong>Fantasy:</strong> Enter from stealth. Burn everything on the opening round. Massive burst from Burns + backstab bonus + bleed damage. Then use Pressure Release for the big vent. Vanish, let ambient toxicity rebuild, do it again. Burst assassination cycles."
+    },
+    {
+      "type": "heading",
+      "text": "Precision Leech — The Guided Warhead"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trees:</strong> Precision T2 + Leech T3 <strong>Fantasy:</strong> The Leech’s biggest weakness is no accuracy from Burns. Precision fixes that. Targeting Suite, crit enhancements, and setup bonuses give you the guidance system the warhead needs. Every hit is Burns paying off. Every miss is catastrophe avoided. The most mathematically efficient Leech — and the least thematic. But efficiency is its own kind of horror."
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burn + Bleed is the identity.</strong> Burns are injecting fuel — deliberately raising toxicity for self-buffs. Bleeds are venting exhaust — lowering toxicity through melee hits. The Leech is a furnace. The tension is the gap between injection rate and vent rate. You’re always climbing. Burns make you powerful. Bleeds keep you alive. The math never quite balances. That’s the point."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>No accuracy from Burns is the critical constraint.</strong> Every other melee build can self-improve accuracy through augments. The Leech cannot. Their Burns add damage dice, flat damage, speed, and damage immunity — but never accuracy. A Leech who misses is a reactor with no cooling system. This forces cross-tree investment (Fury for scar-accuracy, Precision for setup, Dancer for more hit attempts) and creates genuine party dependency."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burns inject toxicity — they don’t spend it.</strong> This is the key distinction from a paladin’s smite. A paladin spends a pool downward. The Leech pushes a pool upward. Every Burn makes you stronger AND more dangerous to yourself. The power and the risk are the same action. You don’t choose between power and safety — you choose how much safety to sacrifice for power."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Furnace is the defining trade-off.</strong> Burns cost 1 less each and you heal passively above 50%. But toxicity never disperses naturally. Between missions, you’re stuck at whatever level you ended combat. Clinical detox is your only option. The furnace is always on. You can’t turn it off."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The miss penalty is existential.</strong> Burns inject toxicity whether you hit or not. You paid the cost at the start of your turn. Bleed only works on hit. A Leech running full Burns at +9 toxicity/round who misses both attacks is at +9 with zero vent. Two bad rounds = +18 with nothing coming back out. You can go from comfortable to harvest threshold in two turns of bad luck. Accuracy isn’t optimization — it’s survival."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Meltdown is the eye of the storm.</strong> For 3 rounds, all Burns are free. The only time a Leech can run at full power while actually <em>decreasing</em> toxicity (through Bleeds with no injection cost). It’s addictive. It’s unsustainable. When it ends, reality comes back with -2 to all checks and +1 Stress. The crash after the high."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Patient Zero makes contamination permanent.</strong> Everything you bleed into carries your mark forward. You’re not a weapon — you’re a plague vector. The narrative implications for long-term campaigns are enormous."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Note to all field teams: if a contractor on your squad begins exhibiting luminescent skin, elevated ambient readings, or the voluntary injection of rift energy into their own circulatory system, do NOT engage. Do NOT attempt restraint. Do NOT attempt to ’help.’ File Form LC-9 (’Leech Containment Request’) and maintain a minimum distance of 15 meters. This contractor has made their choice. Respect it from a safe distance.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Medical report, \\[REDACTED\\] clinic, Undercity Level 4. Patient presented with acute rift contamination — toxicity at 78%, three active condition markers, tissue necrosis across the left arm. Standard treatment protocol would require 2,000 cr minimum and a week of recovery. The contractor beside her placed a hand on her arm. His veins turned black. Her readings dropped to baseline in ninety seconds. His toxicity climbed to 84%. He stood up, said ’put it on my tab,’ and walked out. The necrosis was on his arm now. I’ve filed this under ’anomalous augmentation’ because I don’t have a better category. — Dr. Vasquez, unlicensed practitioner“</em>"
+    }
+  ]
+}

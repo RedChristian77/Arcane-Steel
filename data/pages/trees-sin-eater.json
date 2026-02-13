@@ -1,0 +1,259 @@
+{
+  "id": "trees-sin-eater",
+  "title": "😈 Sin Eater",
+  "subtitle": "The Martyr's Path",
+  "content": [
+    {
+      "type": "heading",
+      "text": "The Sin Eater Fantasy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Everyone else avoids conditions. You collect them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Your augments let you reach into another person’s system — biological, cybernetic, dimensional — and pull out what’s hurting them. Poison, bleed, toxicity, stun, hex, corrode. You take it into yourself, process it through your own body, and decide what to do with it. At first, you just absorb — swallowing the pain so your crew doesn’t have to. Then you learn to convert it, burning conditions into toxicity that your body can metabolize. Eventually you learn to redirect it — taking the Bleed off your Berserker and pushing it into the enemy who caused it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sin Eater doesn’t heal through medicine. They heal through sacrifice and redistribution. Your body is the filter. Your will is the mechanism. The rift energy in your blood is the medium."
+    },
+    {
+      "type": "paragraph",
+      "text": "You are the crew’s immune system."
+    },
+    {
+      "type": "heading",
+      "text": "Tree Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Theme:</strong> Absorb conditions from allies. Convert, redirect, or weaponize suffering. <strong>Stat Lean:</strong> Interface / Edge <strong>Combat Role:</strong> Support. Condition management, debuff transfer, team sustain. <strong>Key Mechanics:</strong> <strong>Absorb</strong> (take conditions from allies into yourself),"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Convert</strong> (turn absorbed conditions into Toxicity), and <strong>Redirect</strong> (push conditions onto enemies)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Design Principle:</strong> The Sin Eater’s power curve is about <em>control over what happens to conditions.</em> Early game, you’re a martyr — eating everything and hoping your body holds. Late game, you’re a condition economy engine — nothing sticks to your crew because you intercept it, and everything you intercept becomes a weapon against the enemy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Critical Rule: Sin Eater abilities never deal direct damage.</strong> They move conditions, remove conditions, apply conditions, and heal — but the Sin Eater never rolls a damage die through their tree abilities. If they want damage, they use a weapon like everyone else."
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanic: Absorb"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Absorb</strong> is the Sin Eater’s fundamental action. You touch an ally (Close range, requires adjacency at T1-T2) and pull a condition out of them. The condition is removed from the ally and transferred to you."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Absorb Rules:</em>  • <strong>Cost:</strong> 1 AP  • <strong>Range:</strong> Close (adjacent) at T1-T2. Upgrades to Medium at T3+.  • <strong>What you can absorb:</strong> Any condition — Poison stacks, Bleed stacks, Stun, Prone, Hex, Corrode, Grapple, Immobilize, and any dimension-specific conditions (mutations, psychic pressure, identity drift).  • <strong>What happens to you:</strong> At baseline (T1), you take the full condition. Every Poison stack, every Bleed stack, every round of Stun. It’s now yours.  • <strong>Toxicity cost:</strong> Each Absorb costs +1 Toxicity to you, regardless of what you absorbed. The act of transfer contaminates you.  • <strong>Limit:</strong> You can Absorb multiple times per turn (AP permitting), but each condition absorbed adds +1 Toxicity on top of the condition itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>You cannot Absorb from yourself.</strong> The Sin Eater can eat everyone’s suffering but their own."
+    },
+    {
+      "type": "heading",
+      "text": "Augments by Tier"
+    },
+    {
+      "type": "heading",
+      "text": "Tier 1 — The Martyr"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You learn to take the pain. That’s it. No tricks, no conversions. Just your hands and your willingness to suffer.</em>  <em>Empathic Link (T1, 200 cr) — Starting Augment</em>  <em>A neural filament network threaded through your palms and forearms. When you touch someone, you feel what they feel — and you can pull it out. Or push something in.</em>  • Unlocks the <strong>Absorb</strong> mechanic.  • You can Absorb one condition per use (1 AP each).  • Range: Close (must be adjacent to the ally).  • The absorbed condition transfers to you at full strength.  • +1 Toxicity per Absorb.  • Also unlocks <strong>Afflict</strong> — a weak offensive touch. See below.  <em>Afflict (included with Empathic Link):</em>  • <strong>Active (1 AP):</strong> Touch an enemy in melee (Close range). Interface check vs target’s Grit. On success, apply one of the following (your choice):  • <strong>Weaken:</strong> -1 to target’s next attack. Your touch disrupts their coordination.  • <strong>Slow:</strong> Target’s movement costs +1 AP next turn. Your touch dulls their reactions.  • <strong>Dull:</strong> -1 to target’s Evasion until end of your next turn. Your touch clouds their awareness.  • These are minor, single-turn effects. They won’t define a fight. But they give you something to do every turn and they set up your crew — a -1 Evasion debuff makes the Berserker’s next swing more likely to land.  • Afflict costs +1 Toxicity per use (same as Absorb). Everything the Sin Eater does runs through contamination.  <em>Pain Threshold (T1, 300 cr)</em>  <em>Your neural pathways are reinforced to handle cascading input. What would overwhelm a normal nervous system, you’ve trained to endure.</em>  • You can carry up to <strong>3 conditions simultaneously</strong> before suffering overload (normally, a character with 3+ active conditions takes -1 to all checks per condition past 2). The Sin Eater’s overload threshold is raised to 4.  • While carrying 2+ conditions, you gain +1 to Grit checks to resist gaining additional conditions from environmental sources.  <em>Sympathetic Healing (T1, 300 cr)</em>  <em>The same link that lets you pull out conditions can push in vitality — crudely, at first.</em>  • When you Absorb a condition from an ally, that ally heals <strong>1d4 HP</strong> as a side effect. The act of removing suffering promotes natural recovery.  • This healing only triggers on Absorb, not on any other action. You have to take something to give something.  <em>Curse Touch (T1, 300 cr)</em>  <em>Your Empathic Link can push harder than Afflict — raw contamination forced through physical contact. Crude, painful for both parties, but effective.</em>  • <strong>Active (1 AP):</strong> Touch an enemy in melee. Interface check vs target’s Grit. On success, apply <strong>Hex 1</strong> (target gets -1 to all checks for 1 round). On a crit (natural max on your Interface die), apply <strong>Hex 2</strong> instead.  • You take +1 Toxicity per use.  • Hex stacks with itself and with other debuffs. A Sin Eater who spends 3 AP on Curse Touch across a fight can build Hex 3 on a target — that’s -3 to all their checks. Weak per application, powerful through persistence.  <em>Rift Leech (T1, 250 cr)</em>  <em>You can taste the rift energy in another person’s augments. And you can sip from it.</em>  • <strong>Active (1 AP):</strong> Touch an enemy in melee. If the target has any augments, cybernetics, or rift-based abilities, you drain a small amount of energy. The target’s next ability or augment activation costs +1 AP. You heal 1 HP.  • If the target has no augments or rift abilities, this does nothing (you sense that before committing the AP — you can choose a different action).  • Weak but targeted. Against tech-heavy enemies and casters, this is persistent disruption. Against pure biological creatures, it’s useless — use Afflict or Curse Touch instead."
+    },
+    {
+      "type": "heading",
+      "text": "Tier 2 — The Convert"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You learn that the conditions you absorb don’t have to stay in their original form. Your body can break them down — burn them as fuel, metabolize them into something your rift-contaminated physiology can handle. The output is always Toxicity. But Toxicity, at least, you can manage.</em>  <em>Metabolic Conversion (T2, 400 cr)</em>  <em>Your augmented organs can break down absorbed conditions and excrete them as ambient rift energy — Toxicity. Cleaner than carrying Bleed or Stun. Barely.</em>  • After Absorbing a condition, you may immediately <strong>Convert</strong> it: the condition is destroyed and you gain +2 Toxicity instead of carrying the condition.  • The +1 Toxicity from Absorb still applies. So Absorb + Convert = condition removed from ally, +3 Toxicity to you, no condition on you.  • You can choose per-Absorb whether to Convert or carry the condition. Sometimes carrying the condition is preferable to the Toxicity.  <em>Triage Sense (T2, 350 cr)</em>  <em>Your Empathic Link sharpens. You can feel the condition of everyone nearby — not just what’s wrong, but how bad it is and how fast it’s getting worse.</em>  • At the start of your turn, you automatically know the <strong>exact HP, Toxicity, and active conditions</strong> of every ally within Medium range. No check required.  • Additionally, you know which ally will take the most damage from active conditions (Bleed, Poison) this turn. You always know who needs you most.  <em>Shared Resilience (T2, 400 cr)</em>  <em>The empathic link runs both ways. When you suffer, your allies feel an echo of your endurance.</em>  • While you are carrying 1+ absorbed conditions, all allies within Close range gain <strong>+1 to checks to resist new conditions.</strong> Your suffering strengthens their resistance.  • This is a passive aura. It costs nothing. The cost is that you’re carrying conditions.  <em>Purge (T2, 450 cr)</em>  <em>You learn to flush a condition from your own system — violently. The condition is destroyed, but the process isn’t gentle.</em>  • <strong>Active (1 AP):</strong> Remove one condition from yourself. You take <strong>1d4 damage</strong> (bypasses armor). The condition is gone — not transferred, not converted. Destroyed.  • This is your emergency valve. When you’ve absorbed too much, Purge lets you dump it — at the cost of your own HP."
+    },
+    {
+      "type": "heading",
+      "text": "Tier 3 — The Redirector"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You’ve mastered absorbing and converting. Now you learn the third step: putting conditions where you want them. The enemy’s Stun becomes your ally’s freedom and the enemy’s problem. You’re not just a sponge anymore. You’re a mirror.</em>  <em>Redirect (T3, 600 cr)</em>  <em>The breakthrough. What you take in, you can push out — into someone else.</em>  • After Absorbing a condition (or if you’re currently carrying an absorbed condition), you can <strong>Redirect</strong> it to an enemy within Medium range.  • <strong>Cost:</strong> 1 AP + the condition is removed from you and applied to the target.  • <strong>Requires:</strong> Interface check (DC 7). On success, the condition transfers at full strength. On partial (meet DC but not full success), the condition transfers at reduced strength (half stacks, 1 round duration instead of full). On failure, the condition stays on you and you take +1 Toxicity from the failed push.  • <strong>Toxicity cost:</strong> +1 per Redirect.  • You can Absorb and Redirect in the same turn if you have the AP. Pull the Stun off your Dancer, push it onto the Boss. 2 AP, +2 Toxicity, and the battlefield has shifted.  <em>Empathic Range Extension (T3, 500 cr)</em>  <em>Your neural filaments can project through ambient rift energy. You no longer need to touch.</em>  • <strong>Absorb range increases to Medium.</strong> You can pull conditions from allies up to Medium range.  • Additionally, Sympathetic Healing (if you have it) now triggers at Medium range.  • You can now support from the backline instead of standing in melee.  <em>Condition Siphon (T3, 650 cr)</em>  <em>You learn to pull conditions directly off enemies — not to help allies, but to weaken the opposition. Reverse Absorb.</em>  • <strong>Active (2 AP):</strong> Target an enemy within Medium range. Interface check (DC 8). On success, remove one buff or positive condition from the enemy (regeneration, damage boost, shielding, haste, any self-buff). The buff is destroyed — it doesn’t transfer to you or an ally.  • On failure, the enemy is unaffected and becomes aware someone is probing their system. +1 Toxicity to you.  • This is your offensive debuff tool. Strip the Boss’s damage buff mid-fight. Remove the Elite’s regeneration. Shut down enemy support abilities.  <em>Deep Cleanse (T3, 600 cr)</em>  <em>You can pull out things other Sin Eaters can’t — deep conditions, toxicity itself, even scars.</em>  • <strong>Active (2 AP):</strong> Absorb <strong>Toxicity</strong> from an ally. Remove up to <strong>your Interface bonus</strong> in Toxicity from them. You gain the same amount as Toxicity (on top of the +1 per Absorb).  • <strong>Special:</strong> During downtime, you can perform a Deep Cleanse to treat a <strong>Scar</strong> without medical equipment. It takes 4 hours, costs you +5 Toxicity, and the scar is transferred to you instead of healed. You now carry the scar. Someone has to.  • This is the ability that makes the Sin Eater invaluable on long expeditions. When the crew is at high Toxicity and there’s no Scrub Station, you are the Scrub Station.  <em>Suffering Echo (T3, 550 cr)</em>  <em>When you absorb, you don’t just take the condition — you understand its source. You learn who or what caused it and how it was applied.</em>  • When you Absorb a condition, you learn: what caused it (specific enemy, environmental hazard, trap), how it was applied (ability name, attack type), and whether the source can apply it again.  • Additionally, you gain +2 to all checks to resist that specific condition type for the rest of the encounter. Once you’ve eaten it, you understand it."
+    },
+    {
+      "type": "heading",
+      "text": "Tier 4 — The Vessel"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>You have become a living conduit for suffering. Conditions flow through you like current through a wire — in from allies, out to enemies, converted and redirected with precision. Your body is a processing node for the worst the rift can produce. What breaks others, you have learned to channel.</em>  <em>Mass Absorb (T4, 900 cr)</em>  <em>You can pull from everyone at once.</em>  • <strong>Active (3 AP):</strong> Absorb one condition from <strong>every ally within Medium range</strong> simultaneously. Each condition is individually subject to Convert or Redirect on subsequent turns.  • +1 Toxicity per condition absorbed (can be significant with a 4-person crew all carrying conditions).  • Once per encounter.  • This is the “oh shit“ button. The Boss just hit the whole crew with a status effect. You eat all of it. One action.  <em>Transference Mastery (T4, 1,000 cr)</em>  <em>Your Redirect no longer requires a check. It just works. What you take in, you put where you want it.</em>  • Redirect no longer requires an Interface check. Automatic success at full condition strength.  • Additionally, you can Redirect conditions you’ve <strong>Converted</strong> — the Toxicity you gained from conversion can be pushed onto an enemy as Toxicity (1 AP, +1 Toxicity to target per +2 you converted). You’re exporting your contamination.  • Redirect Toxicity cost reduced to +0. The process has become frictionless.  <em>Martyrdom Protocol (T4, 1,000 cr)</em>  <em>You can absorb damage itself — not just conditions. You take the hit so they don’t.</em>  • <strong>Reaction (1 AP):</strong> When an ally within Medium range takes damage, you can absorb up to <strong>half the damage</strong> (round up). The ally takes the remaining half. You take the absorbed half (bypasses your armor — this is rift-transferred trauma, not a physical hit).  • Limit: Once per round.  • This is the ultimate support ability. Your Dancer is about to take a Brine Crusher hit for 18 damage. You absorb 9, they take 9. You’re both still standing instead of one of you being down.  • Combined with Sympathetic Healing, the ally also heals 1d4 from the Absorb trigger (if the GM rules damage absorption as a valid trigger — recommended).  <em>Karmic Return (T4, 1,000 cr)</em>  <em>Everything that has been done to you, you can do to others. All at once.</em>  • <strong>Active (3 AP):</strong> Release every condition you are currently carrying. Each condition is applied to an enemy of your choice within Medium range (you can split conditions across multiple enemies). No check required.  • +2 Toxicity per condition released.  • Once per encounter.  • The play: spend several turns Absorbing everything from your crew. Carry 4-5 conditions. Then dump them all onto the Boss and their Elites in one devastating turn. You’ve been storing ammunition."
+    },
+    {
+      "type": "heading",
+      "text": "Sin Eater Abilities (Kit Abilities, not Augments)"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>These are trained techniques purchased separately from augments. See Kit Abilities Spec.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burden Sense (Passive):</strong> You can see active conditions on any creature within Medium range as visible rift distortions — colored auras, dark threads, pulsing marks. You always know who’s suffering and what from."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Steady Hands (Passive):</strong> Your Absorb actions don’t provoke opportunity attacks. You can walk into a melee, pull Bleed off the Berserker, and walk out without getting hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Empathic Shield (Active, 1 AP):</strong> Grant an ally within Close range +2 to resist the next condition applied to them. You preemptively shore up their defenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pain Split (Passive):</strong> When you Absorb a condition, you can choose to split it — half the stacks go to you, half are destroyed. Round in the condition’s favor (3 Bleed stacks: 2 to you, 1 destroyed)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Calming Presence (Passive):</strong> Allies within Close range are immune to fear and panic effects (Morale breaks, psychic pressure from Grave dimension). Your presence is stabilizing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contamination Read (Active, 1 AP):</strong> Touch an enemy. Learn all active conditions on them, their current Toxicity, and any buffs. You know exactly what they’re carrying."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Transfer Efficiency (Passive):</strong> The +1 Toxicity cost per Absorb is reduced to +0 for the first Absorb each turn. Your system has learned to handle one clean transfer."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Infectious Compassion (Passive):</strong> When you Absorb from an ally, that ally gains +1 to their next check. Your touch is encouraging, not just medical."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Backlash (Active, 1 AP):</strong> When you Purge a condition from yourself, the purged condition is applied to the nearest enemy within Close range at half strength (half stacks, 1 round duration). Your purge is offensive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overload Tolerance (Passive):</strong> You can carry up to <strong>5 conditions</strong> before overload penalties begin (normally 3 with Pain Threshold). Your system’s capacity is extraordinary."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sympathetic Bond (Active, 2 AP):</strong> Link to an ally within Medium range. For the next 3 rounds, any condition applied to them is automatically copied to you at half strength. You don’t need to spend AP on Absorb — it happens passively. You feel what they feel."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Condition Immunity (Passive):</strong> Choose one condition type (Poison, Bleed, Stun, Hex, Corrode, Prone). You are permanently immune to that condition. You’ve absorbed so much of it that your body has adapted completely. Can only be taken once."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tox Channel (Active, 1 AP):</strong> Convert 3 of your Toxicity into healing — touch an ally and heal them for 1d6+Interface bonus HP. You’re turning your contamination into medicine."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Antidote (Passive):</strong> Allies within Close range automatically reduce Poison, Bleed, and Toxicity accumulation by 1 per turn. Your presence is a passive cleanse field."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater’s Gambit (Active, 4 AP):</strong> Absorb ALL conditions from ALL allies within Medium range. Convert all of them into Toxicity simultaneously. Then Redirect all accumulated Toxicity onto a single enemy. One action. The ultimate expression of the Sin Eater’s art — the crew is cleansed, the enemy is buried in contamination, and you’re standing in the middle holding nothing but the bill."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sacrifice (Passive):</strong> When an ally within Medium range would be downed (reduced to 0 HP), you can choose to take the killing blow instead. The ally stays at 1 HP. You take the damage that would have downed them (bypasses armor). Once per encounter. You chose this."
+    },
+    {
+      "type": "heading",
+      "text": "Progression Fantasy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Session 1 (T1):</strong> The Berserker charges in and gets Stunned by a Char Berserker’s Roar. You rush in, Absorb the Stun (1 AP, +1 Tox — now you’re Stunned but the Berserker is free to swing). On your next turn, you Afflict the enemy (1 AP — Dull, -1 Evasion), setting up the Dancer’s follow-up. Later, you Curse Touch the Elite for Hex 1 (-1 to all their checks). You’re eating conditions AND applying them from turn one. It’s not flashy, but the crew feels the difference."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Session 5 (T2):</strong> You absorb Stun off the Dancer and Convert it to +3 Toxicity. The Stun is gone. Your Toxicity is climbing but manageable. You Purge a Poison stack for 1d4 damage when it gets too heavy. You’re learning to manage the flow."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Session 10 (T3):</strong> The Bloom Spitter poisons the whole crew. You Absorb the Phantom’s 5 Poison stacks, Redirect them onto the Elite Grave Knight. The Knight is now Poisoned. The Phantom is clean. You took +2 Toxicity for the exchange. The Berserker is still Poisoned — you’ll get to him next turn. You’re an active battlefield manager now."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Session 20 (T4):</strong> The Boss curses the entire crew. You Mass Absorb all four conditions. You’re carrying 4 Hexes. You use Karmic Return to dump all 4 onto the Boss and two Elites. The crew is clean. The enemies are buried. Your Toxicity is through the roof but Living Antidote is keeping the crew’s passive accumulation down. You are the reason this crew survives."
+    },
+    {
+      "type": "heading",
+      "text": "Interaction with Other Trees"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater + Leech:</strong> Terrifying synergy. The Leech generates Toxicity on purpose. The Sin Eater can siphon Toxicity off the Leech (Deep Cleanse) and Redirect it onto enemies. The Leech gets to run hotter because the Sin Eater is acting as their overflow valve."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater + Channeler:</strong> The Channeler’s Toxicity from casting can be managed by the Sin Eater’s Deep Cleanse. Frees the Channeler to cast more aggressively."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater + Berserker:</strong> The Berserker takes conditions constantly (frontline). The Sin Eater keeps them clean. The Berserker never has to spend AP clearing Stun or standing from Prone — the Sin Eater does it for them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater + Phantom:</strong> Low HP pool, high evasion. When the Phantom does get hit, it hurts. Martyrdom Protocol lets the Sin Eater absorb half the rare-but-devastating hit."
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                <strong>Core Mechanic</strong>       <strong>What You Learn</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "T1                      Absorb (take            You eat pain. It hurts. conditions, full strength, +1 Tox)"
+    },
+    {
+      "type": "paragraph",
+      "text": "T2                      Convert (destroy        You learn to process conditions → Toxicity)  what you eat."
+    },
+    {
+      "type": "paragraph",
+      "text": "T3                      Redirect (push          You learn to weaponize conditions onto         what you eat. enemies)"
+    },
+    {
+      "type": "paragraph",
+      "text": "T4                      Mastery (mass absorb,   You are the crew’s auto-redirect, damage   immune system. absorb) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Lean:</strong> Interface / Edge <strong>Combat Range:</strong> Close (T1-T2) → Medium (T3+) <strong>Role:</strong> Support — condition management, debuff transfer, team sustain <strong>Never deals direct damage through tree abilities.</strong>"
+    }
+  ]
+}

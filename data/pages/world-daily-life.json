@@ -1,0 +1,167 @@
+{
+  "id": "world-daily-life",
+  "title": "Daily Life",
+  "subtitle": "The 80% between missions",
+  "content": [
+    {
+      "type": "heading",
+      "text": "What a Normal Week Looks Like"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here’s the thing nobody tells you about being a contractor: most of it is waiting."
+    },
+    {
+      "type": "paragraph",
+      "text": "The average contractor spends 2-4 days per week on active contract work. The rest is downtime — and downtime isn’t vacation. It’s the time when you manage everything that keeps you alive long enough to take the next contract."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A typical contractor week (no active contract):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Morning:</strong> Wake up wherever you’re sleeping. If it’s a Capsule, you roll out of a pod and check the board — either physically (walk to the broker’s office in the margin) or digitally (if you can afford a comm unit with board access). Scan the contract listings. Most are garbage — low-pay, high-risk, or posted by corps you don’t trust. You’re looking for the ones that match your crew’s capabilities and pay enough to cover next week’s expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Midday:</strong> Errands. The kind of errands that would be mundane if the stakes weren’t survival. Restock Med Patches. Buy Charges for your rifle. Check in with the clinic about your scar treatment schedule. Visit the market for rift materials if you’re crafting. Swing by the Yard if your vehicle needs service. Every errand costs money. Every errand is an investment in not dying."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Afternoon:</strong> Training, crafting, or earning side money. Contractors who aren’t on contract still need income. Options: take a day-labor job (warehouse work, security shifts, courier runs — 20-50 cr/day, dull, safe), train skills at a gym or range (costs AP), work the Workshop if your base has one (craft ammo, consumables, repairs), or hustle the market (buy low, sell high, if you have the Edge for it)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evening:</strong> Social. The Watering Hole. The crew. The informal economy of reputation, rumor, and connection that determines which contracts you hear about before they hit the board. Networking isn’t optional — it’s how you learn that the Wellspring contract everyone’s excited about has a 40% casualty rate, or that Congo is about to post a bulk extraction job that pays double because the last crew didn’t come back. Information is survival. A round of drinks is an investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Night:</strong> Sleep. Or try to. Contractor districts aren’t quiet. The margin isn’t safe. If you’re living at Street tier, you sleep with one eye open. If you’re in a Capsule, you lock the pod and hope. If you have a base with a Bunk Room, you sleep behind a door that locks, in a building you own, with a Security System that actually works. The quality of your sleep is a direct function of how much money you’ve invested in not being vulnerable."
+    },
+    {
+      "type": "heading",
+      "text": "Money In, Money Out"
+    },
+    {
+      "type": "paragraph",
+      "text": "The brutal arithmetic of contractor life:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>A starting contractor earns 400-600 cr per contract.</strong> Contracts come every 5-10 days if you’re active. Call it 500 cr every week, averaged out."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Weekly expenses for a solo contractor living in a Capsule:</em>  • Rent: 105 cr (15/day × 7)  • Food: 35 cr (5/day, margin street food)  • Charges (if ranged): 40-80 cr  • Med Patches (2-3): 50-75 cr  • Transit to contract site: 20-50 cr  • Incidentals (repairs, tips, bribes, bad luck): 30-50 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total: \\~280-395 cr/week.</strong> Leaves 100-220 cr for savings, augments, scar treatment, or anything beyond basic survival. At that rate, a T1 augment (200 cr) takes 1-2 weeks of saving. A T3 augment (600 cr) takes a month. A base takes months."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A crew of four sharing expenses:</em>  • Shared Capsules or Bunk Room: costs split  • Bulk Charges (crafter produces for the team): materials only  • Shared vehicle: fuel and maintenance split 4 ways  • One Chrome Tech, one medic: installation and treatment free"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew saves \\~30-40% on operating costs compared to solo. Over a campaign, that’s the difference between scraping by and actually progressing. This is why crews exist. The math demands it."
+    },
+    {
+      "type": "heading",
+      "text": "The Grind"
+    },
+    {
+      "type": "paragraph",
+      "text": "There’s a rhythm to contractor life that every crew discovers:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Week 1-2: Contract.</strong> Take a job. Go into the rift. Fight things. Harvest materials. Come back. Get paid. Treat your wounds. Rest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Week 3: Recovery and prep.</strong> Spend downtime AP on training, crafting, or healing. Restock supplies. Fix the vehicle. Pay rent. Check the board for next week’s contract."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Week 4: Contract.</strong> Do it again."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the loop. Contract, recover, prep, contract. The loop is the game. The tension comes from the things that disrupt the loop: a bad contract that costs more than it pays, a scar that requires expensive treatment, a toxicity spike that forces detox sessions, a vehicle breakdown, a base that needs repairs, a crew member who dies and has to be replaced. Every disruption costs money. Every cost pushes you toward the next contract. The loop tightens."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The “one more job“ spiral</strong> is real and it’s the heart of the game. You need money. You take a contract. The contract gives you scars. Scars need treatment. Treatment costs money. You need money. You take a contract. The contract pushes your toxicity up. Toxicity needs management. Management costs money. You need money…"
+    },
+    {
+      "type": "paragraph",
+      "text": "The only way to break the spiral is investment: a base that eliminates rent, a crafter who eliminates ammo costs, a medic who eliminates treatment costs, augments that make you efficient enough to take higher-paying contracts. Breaking the spiral IS the progression system. It takes the whole campaign."
+    },
+    {
+      "type": "heading",
+      "text": "What Contractors Talk About"
+    },
+    {
+      "type": "paragraph",
+      "text": "At the bar, on the transit, during downtime — contractors talk about:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contracts.</strong> Which ones pay. Which ones are traps. Which corps are fair. Which brokers are reliable. Who took the Wellspring live-capture job and whether they came back with all their limbs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars.</strong> Everyone has them. Comparing scars is ritual. The stories behind them are currency — social currency that establishes your experience, your toughness, and your willingness to do the work. A contractor with no scars is either new, lucky, or lying. A contractor with six scars is either very good or very stubborn."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Money.</strong> Always. How much the last job paid. How much rent costs. Whether it’s worth switching to a cheaper district. Whether the team should pool for a vehicle or save for a base. Money talk is constant because money pressure is constant."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The corps.</strong> Which ones are hiring. Which ones screwed someone over. Rumors about corporate conflicts that might generate lucrative contracts. Political speculation about which corp is expanding, which is contracting, and what that means for the contract economy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity.</strong> Quietly. Contractors don’t brag about high toxicity the way they brag about scars. Toxicity is the quiet killer — the thing that ends your career not with a dramatic death but with a mandatory quarantine, a corporate harvesting notice, or a mutation that makes you unemployable. Contractors watch each other for signs. The faint glow. The involuntary magic. The moments when someone’s eyes do something they shouldn’t. Nobody says anything directly. Everyone notices."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Getting out.</strong> The dream that nobody believes in but everyone talks about. Save enough money. Buy a place in a free settlement. Retire. Stop going into rifts. Stop accumulating toxicity. Stop collecting scars. Live quietly. Die old. Almost nobody does it. The ones who do are legends. The ones who try and fail are cautionary tales. But the dream persists because the alternative — doing this until the rifts or the corps or the toxicity kills you — is too bleak to accept without something to aim for."
+    },
+    {
+      "type": "heading",
+      "text": "Contractor Social Strata"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not all contractors are equal. A loose hierarchy exists, acknowledged by everyone, formalized by nobody:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fresh meat.</strong> New contractors. Zero to two scars. Still figuring out equipment. Still learning to check the board. Still shocked by the prices. Veterans can spot them instantly — the gear is too clean, the posture is too confident, and they haven’t learned to check corners yet. Fresh meat gets the worst contracts and the worst crew matches. Survival rate through the first five contracts determines everything. Most wash out. Some die. The rest become regulars."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Regulars.</strong> The bulk of the contractor population. Three to five scars. Established crew. Steady income. They know the system, they know the margins, they know which corps to trust and which brokers to avoid. Regulars have routines. They have favorite bars. They have reputations — not famous, but known. A regular contractor is a functioning professional in a profession that tries to kill them. They’re good at this. They’re also tired."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Veterans.</strong> Six or more scars and still breathing. A base. A vehicle. Augments deep enough to matter. Veterans are respected because their survival is statistical proof of competence. They get the best contracts — premium broker matching, direct corp recruitment, first-choice on high-paying jobs. Veterans also carry the most toxicity, the most scars, and the most dead friends. There’s a weight to them that regulars recognize and fresh meat doesn’t understand yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Legends.</strong> The contractors everyone knows by name or reputation. Not necessarily the strongest or most augmented — sometimes the luckiest, the most connected, or the ones who survived something that should have killed everyone. Legends get offered contracts that aren’t on the board. Corps negotiate directly. Brokers compete for their business. Legends are also the most likely to be targeted — by corps who want to recruit them, by rivals who want their contracts, and by the House of Mouse’s Advocates who noticed that the legend’s signature fighting technique is “confusingly similar“ to a proprietary combat style."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Daily life as a contractor is not the responsibility of any corporate entity. You are an independent operator. Your housing, nutrition, medical care, social connections, mental health, and continued survival are your own concern. Intercompany Contractor Relations provides this overview as a courtesy, not an obligation. If you find daily life unsustainable, we recommend increasing your contract frequency. The market provides.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The Intercompany Census recognizes fourteen distinct non-human species classifications, seven of which meet the legal threshold for ’sapient entity status’ under the Intercompany Personhood Accords of Year 614. The remaining seven classifications are under review. The review has been under review for 386 years. Intercompany Contractor Relations notes that ’sapient entity status’ and ’practical rights’ are not synonymous terms.“</em>"
+    }
+  ]
+}

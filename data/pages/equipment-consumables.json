@@ -1,0 +1,187 @@
+{
+  "id": "equipment-consumables",
+  "title": "Consumables & Kits",
+  "subtitle": "Medical, tactical, and field kits",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "One-time use items. Most cost 1 AP to use (Quick Items = free)."
+    },
+    {
+      "type": "heading",
+      "text": "Medical"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>          <strong>Weight</strong>        <strong>Cost</strong>          <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Med Patch</strong>     0                 25 cr             Heal 1d6 HP. Quick Action. 1 per encounter limit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trauma Kit</strong>    1                 100 cr            Heal 2d6 HP. Requires Act. Can be used on others."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combat Stim</strong>   0                 75 cr             +2 accuracy on all attacks for 2 rounds. Then -1 to all checks for 1 round (crash)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Detox Hypo</strong>    0                 150 cr            Immediately clear 1d4 Toxicity. +1 Stress."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Anti-Venom</strong>    0                 50 cr             Clear all Poison stacks. Quick Action."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adrenaline      0                 200 cr            If used on a Shot</strong>                                                contractor at 0 HP, they immediately stabilize at 1 HP. Does not prevent the Scar."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nerve Blocker</strong> 0                 50 cr             Suppress one Scar debuff for 24 hours. Does not remove the Scar. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Combat"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>          <strong>Weight</strong>        <strong>Cost</strong>          <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Frag Grenade</strong>  0                 75 cr             3d6 damage to all targets in Adjacent cluster. Thrown (Close range)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Flashbang</strong>     0                 50 cr             All targets in Adjacent cluster must check Grit DC 7 or be Dazed for 1 round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Smoke Grenade</strong> 0                 40 cr             Creates Obscured zone for 3 rounds. Blocks line of sight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Flare</strong>    0                 100 cr            2d8 magic damage to all targets in Adjacent cluster. +1 Toxicity to user."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>EMP Charge</strong>    0                 150 cr            Disables all Tech-tagged weapons and augments in Adjacent cluster for 2 rounds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trap Mine</strong>     1                 125 cr            Place during prep. First creature entering the space takes 4d6 damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Glue Bomb</strong>     0                 60 cr             Target must spend 1 AP to break free (Chrome DC 6). Immobilized until then. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Utility"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item</strong>          <strong>Weight</strong>        <strong>Cost</strong>          <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Compass</strong>  0                 200 cr            +1 to Navigation checks in rifts. Detects rift boundaries within Close range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity        0                 150 cr            Read your own or Scanner</strong>                                             another’s Toxicity level. Normally only corps have these."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Signal Flare</strong>  0                 20 cr             Visible for miles. Calls attention (for better or worse)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Climbing Kit</strong>  1                 75 cr             +2 to Athletics checks for climbing. Required for vertical surfaces DC 8+."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lockpick Set</strong>  0                 100 cr            Required for Subterfuge checks to pick locks. +1 to the check."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Portable        0                 30 cr             Illuminates Light</strong>                                               Adjacent area. Lasts 8 hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Anchor</strong>   1                 500 cr            Stabilizes a wild rift entrance for 1 hour. Prevents collapse during extraction."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Comm Unit</strong>     0                 75 cr             Team communication within 1 mile. Encrypted (basic)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Advanced Comm   0                 300 cr            Team communication Unit</strong>                                                within 5 miles. Encrypted (military-grade). Works across rift boundaries."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Specimen        2                 200 cr            Safely contains one Container</strong>                                           Small rift creature or biological sample. Required for capture contracts without a Specimen Transport vehicle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grapple         1                 250 cr            Fires a grapple Launcher</strong>                                            line up to Close range. Reusable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Portable        3                 400 cr            Allows basic Workshop</strong>                                            crafting and repairs in the field. -1 to checks compared to a proper Workshop."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Breather Mask</strong> 0                 100 cr            Filters airborne toxins. Reduces Toxicity gain from ambient exposure by 1 per encounter (minimum 0). Does not protect against channeled magic toxicity. ----------------- ----------------- ----------------- -------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre-packaged loadouts for specific mission types. Buying the kit is cheaper than the individual items."
+    },
+    {
+      "type": "paragraph",
+      "text": "---------------- -------------- -------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Kit</strong>          <strong>Contents</strong>   <strong>Weight</strong>     <strong>Cost</strong>       <strong>Individual Value</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Harvest Kit</strong>  2× Specimen    6              500 cr         605 cr Container, Climbing Kit, Portable Light, 50m rope"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combat Medic   3× Med Patch,  2              400 cr         525 cr Kit</strong>            2× Trauma Kit, Adrenaline Shot, Anti-Venom"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Infiltration   Lockpick Set,  2              400 cr         505 cr Kit</strong>            Smoke Grenade ×2, Comm Unit, Grapple Launcher"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Demo Kit</strong>     Frag Grenade   2              500 cr         625 cr ×3, Trap Mine ×2, EMP Charge"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift           Rift Compass,  2              900 cr         1,160 cr Expedition Kit</strong> Rift Anchor, Breather Mask, Detox Hypo ×2, Portable Light ×2 ---------------- -------------- -------------- -------------- --------------"
+    }
+  ]
+}

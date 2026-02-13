@@ -1,0 +1,103 @@
+{
+  "id": "abilities-leech",
+  "title": "Leech Abilities",
+  "subtitle": "Leech kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Leech"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Toxicity-fueled melee brawler. Abilities focus on weaponizing contamination, surviving at high toxicity, and making physical contact a threat beyond raw damage. Distinct from augment Burn/Bleed mechanics — abilities are trained techniques that complement the reactor.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic Touch (Passive):</strong> Your unarmed strikes and melee attacks apply +1 Toxicity to the target on hit. You’re leaking rift energy through your skin. This is in addition to any weapon effects."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pressure Tolerance (Passive):</strong> The first Toxicity threshold’s negative effect is reduced by half (round down). Your body adapts to what kills others."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Siphon Strike (Passive):</strong> When you hit an enemy in melee, heal 1 HP. Not per attack — per hit. Consistent melee contact keeps you alive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic Resilience (Passive):</strong> While above 50% Toxicity, gain +1 Armor. Your contaminated flesh is denser, harder. The rift is reinforcing you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contaminating Blow (Active, 1 AP):</strong> Your next melee attack applies +3 Toxicity to the target on hit (instead of +1 from Toxic Touch). Concentrated dose."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vent (Active, 1 AP):</strong> Reduce your Toxicity by 2. The excess bleeds off as visible rift energy discharge. Can be used in combat without hitting anyone. Emergency pressure release."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adrenaline Spike (Passive):</strong> When you take damage that puts you below 50% HP, immediately gain +1 AP this turn (once per encounter). Pain triggers a burst of contaminated energy."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic Aura (Passive):</strong> Enemies that start their turn within Close range of you gain +1 Toxicity. You’re radiating contamination. You are the environmental hazard."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Metabolize (Active, 1 AP):</strong> Consume a condition affecting you (Poison, Bleed, Stun, Hex) and convert it to +2 Toxicity. The condition is removed. You eat the bad stuff and turn it into fuel."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reactor Surge (Active, 2 AP):</strong> Gain +3 Toxicity. Until end of your next turn, all your melee attacks deal +2 damage per die (flat, after armor). Voluntary overdose for burst damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corrosive Blood (Passive):</strong> When an enemy hits you with a melee attack, they take 1d4 damage (armor applies). Your blood is toxic. Hitting you costs something."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Leech Grip (Active, 1 AP):</strong> Your next melee attack, if it hits, Grapples the target. While grappled by you, the target takes +2 Toxicity at the start of each of their turns. You hold on and pump them full of contamination."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deadman’s Pulse (Passive):</strong> If you are downed (0 HP), you emit a toxicity pulse. All enemies within Close range gain +3 Toxicity. Even dying, you’re dangerous."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxic Immunity (Passive):</strong> You are immune to Poison conditions from enemy attacks. External toxins don’t affect you — your body is already saturated with worse."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Meltdown (Active, 4 AP):</strong> Gain +10 Toxicity. All enemies within Close range gain +5 Toxicity. All allies within Close range (including you) take 2d6 damage (armor-bypassing). You deliberately overload your system and irradiate the area. Once per encounter. The nuclear option."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Symbiosis (Passive):</strong> While above 75% Toxicity, gain +2 to Chrome and Grit (and their associated bonuses). You’re no longer fighting the contamination — you’re merging with it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Endless Hunger (Passive):</strong> Siphon Strike now heals 2 HP per hit instead of 1. Additionally, when you down an enemy in melee, heal HP equal to their Grit stat (minimum 2). You consume what you kill."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Walking Reactor (Passive):</strong> Your Toxic Aura range extends to Medium. Additionally, you can choose to increase Toxic Aura to +2 Toxicity per turn (affecting allies too). The area around you becomes uninhabitable for anyone without protection."
+    }
+  ]
+}

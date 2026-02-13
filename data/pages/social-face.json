@@ -1,0 +1,299 @@
+{
+  "id": "social-face",
+  "title": "The Face's Game",
+  "subtitle": "Social specialist mechanics",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Combat belongs to Chrome and Reflex. The rift belongs to Interface and Grit. Downtime belongs to <strong>Edge.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Edge is the social stat — Evasion in combat, yes, but also persuasion, perception, reading people, and navigating the informal economy that runs the margin. A high-Edge contractor doesn’t just dodge attacks. They dodge bad deals, spot opportunities, read lies, and turn strangers into assets."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The social encounter framework exists to give Edge players mechanical weight during downtime.</strong> Just as the Chrome 8 brute dominates melee and the Interface 7 channeler dominates rift casting, the Edge 7 face should dominate the spaces between missions — the bar, the market, the broker’s office, the negotiating table. Their build saves the team money, earns the team intel, and opens doors that stay locked for everyone else."
+    },
+    {
+      "type": "heading",
+      "text": "Social Checks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social interactions use the standard skill check resolution:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Roll: 2d6 + Edge Bonus + Relevant Skill Tier</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          <strong>Outcome</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "2-6                                 <strong>Miss.</strong> They’re not convinced. May worsen the situation."
+    },
+    {
+      "type": "paragraph",
+      "text": "7-9                                 <strong>Partial.</strong> They’ll work with you, but want something in return, or the result is limited."
+    },
+    {
+      "type": "paragraph",
+      "text": "10+                                 <strong>Full success.</strong> They’re on board. You get what you wanted and maybe something extra. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Relevant skills:</strong> Streetwise (margin dealings, black market, reading people), Persuasion (negotiation, deception, charm), Rift Lore (impressing researchers, reading corp agendas). The GM decides which skill fits."
+    },
+    {
+      "type": "heading",
+      "text": "Edge-Gated Interactions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some NPC interactions are only available to characters with sufficient Edge. This isn’t a hard lock — any character can talk to anyone. But certain <em>opportunities</em> only reveal themselves to people perceptive or charming enough to notice or create them."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge Threshold Examples:</em>  • <strong>Edge 4+:</strong> You notice Mags is stressed about something. A lower-Edge character just sees a busy bartender.  • <strong>Edge 6+:</strong> You catch Calloway’s micro-expression when a specific corp’s name comes up. Something’s off about that contract.  • <strong>Edge 8+:</strong> You read the room at the Grindhouse well enough to identify the off-duty Sentinel operative pretending to be a contractor. Nobody else notices."
+    },
+    {
+      "type": "paragraph",
+      "text": "These aren’t automatic — noticing the opportunity requires the Edge threshold, but capitalizing on it still requires a social check. The Face spots the opening. The roll determines if they can exploit it."
+    },
+    {
+      "type": "heading",
+      "text": "THRESHOLD ROW NPCs — DEEP PROFILES"
+    },
+    {
+      "type": "heading",
+      "text": "Mags — The Grindhouse"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who she is:</strong> Magdalena Voss. 47. Ex-contractor, four scars, retired eight years ago after her crew dissolved (one died, one went corporate, one just vanished). Built the Grindhouse from a condemned warehouse with her own savings and a loan from a broker she won’t name. Prosthetic left arm — built it herself from salvaged parts after a Rift Brood took the original. It works perfectly. She maintains it at the bar between pours. Regulars barely notice anymore."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What she wants:</strong> The Grindhouse to survive. Her margin to stay stable. To not go back into a rift ever again. She built this place so she’d never need another contract. Every contractor who walks through the door is someone she used to be. She helps because she remembers what it felt like when nobody helped her."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What she knows:</strong> Everything that happens in Threshold Row passes through the Grindhouse eventually. Mags hears contract rumors before they hit the board. She knows which crews are forming, which are dissolving, who’s carrying too much toxicity, who’s been talking to corp reps, and who’s about to do something stupid. She doesn’t sell information — she trades it. A round of drinks and honest conversation buys you honesty back."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Baseline Interaction (any Edge):</strong> Mags is friendly. She’ll serve drinks, offer general advice (“Don’t take Wellspring live-capture without containment gear“), and warn the crew about obviously bad contracts. She remembers names after the second visit."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 4+ Interaction — “You Seem Worried“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Face notices Mags is distracted. Something’s bothering her. A social check (DC 7) gets her to open up: she’s been hearing about increased rift instability near the margin. More wild rift openings than usual. She’s worried about the Grindhouse — if a wild rift opens nearby, the margin isn’t equipped to handle it. She’s been thinking about investing in warding but can’t afford it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> This is a relationship thread. If the crew helps Mags ward the Grindhouse (costs materials + a Crafting check, or credits to hire someone), she becomes a dedicated ally. Future benefits: advance warning on contracts (24 hours before the board), free lodging in the Grindhouse back room (Apartment-tier lifestyle, saves 30 cr/day), and introductions to her old crew contacts (premium broker access)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 6+ Interaction — “Who Loaned You the Money?“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Face picks up on a detail Mags has never explained: who funded the Grindhouse? She doesn’t talk about it. A social check (DC 9) and a real moment of trust gets the answer: Calloway. The broker owns a stake in the Grindhouse. Not controlling — a silent partnership. But it means Calloway has a financial interest in the margin’s stability, which explains why Calloway’s board favors local contractors. This information reframes the crew’s relationship with their broker — Calloway isn’t just matching them for commission. Calloway is invested in Threshold Row."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Understanding Calloway’s motivation gives the crew leverage — not blackmail, but the knowledge that their broker genuinely cares about the margin. This translates to better negotiation positioning: +1 to social checks when negotiating with Calloway."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 8+ Interaction — “The Fourth Crew Member“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mags said her crew dissolved: one died, one went corporate, one vanished. The Face senses there’s more to “vanished.“ A social check (DC 11) and a genuine moment — not manipulation, not charm, but real human connection — gets the story: the fourth member didn’t vanish. They went into a rift and came back… different. High toxicity. Mutations. They started hearing things in the rifts. Seeing patterns. They went back in alone and never came out. Mags doesn’t know if they’re dead. She suspects they’re not."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> This is a major campaign thread if the GM wants it. Mags’ lost crew member is somewhere in the rift network, potentially connected to the larger mystery. If the crew eventually finds them (or what they became), Mags’ gratitude is absolute. She becomes more than an ally — she becomes family. Mechanical benefit: the Grindhouse becomes a permanent safe house (free Apartment lifestyle for the crew, permanently), and Mags’ network opens fully (+2 to all social checks in Threshold Row)."
+    },
+    {
+      "type": "heading",
+      "text": "Calloway — The Board"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who they are:</strong> Age indeterminate (somewhere between 40 and 60, hard to tell). Gender: nobody’s asked and Calloway hasn’t offered. They’ve been running this broker office for twelve years, which in the contractor economy makes them ancient. Before the board, they were… unclear. Calloway doesn’t discuss their past. Their accent shifts depending on who they’re talking to. Their office is meticulously organized. They have no visible augments, no scars, and no toxicity glow, which means either they’ve never been in a rift or they’re very good at hiding it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What they want:</strong> Money. Stability. The board to keep running. Calloway’s 12% cut from every contract that passes through their office adds up, but the real income is volume — more crews, more contracts, more transactions. Threshold Row’s health is Calloway’s bottom line."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What they know:</strong> Contract flow. Which corps are hiring heavily (nervous about something), which are pulling back (budget cuts or cover-ups), which are posting unusual contracts (new objectives, weird locations, suspiciously high pay). Calloway also has contacts at other broker offices and can sometimes pull contracts from premium boards — for a fee."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Baseline Interaction (any Edge):</strong> Calloway is professional. They post contracts, match crews, and take their cut. They’ll answer direct questions honestly (“Is this contract dangerous?“ “Everything’s dangerous. This one pays enough to be worth it.“) but don’t volunteer information."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 4+ Interaction — “The Thin Board“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Face notices the board has fewer contracts than usual. Or more contracts than usual. Either is a tell. Social check (DC 7): Calloway explains what the pattern means. Fewer contracts = corps are pulling back, something’s changing at the corporate level. More contracts = corps are desperate for contractor labor, something’s happening in the field. This is meta-information that helps the crew anticipate the market."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Market intelligence. The crew can plan 1-2 weeks ahead based on contract trends, timing their purchases, training, and contract selection for maximum efficiency."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 6+ Interaction — “Pull Something Better“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Calloway has access to contracts from premium boards that they don’t post on their Standard board. Social check (DC 9): for a one-time fee (50 cr), Calloway pulls a contract from a higher-tier board. The pay is 25-50% better. The threat level might be higher, but the intel is better. This becomes a repeatable interaction — the Face can check for premium contracts once per downtime period."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Access to better-paying contracts. The 50 cr investment typically nets 200-400 cr more per person. The Face just paid for themselves."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 8+ Interaction — “Who Are You, Calloway?“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Face pushes on Calloway’s background. This is risky — Calloway values privacy. Social check (DC 12, and failure makes Calloway cold for a week — no premium board access, bare-minimum interactions). Success: Calloway was a corporate analyst. Not a contractor — an insider. They worked for \\[GM’s choice of corp\\] in data analysis, tracking contractor performance metrics. They know exactly how corps evaluate, use, and discard contractors because they used to be the one writing the reports. They left. The circumstances are still not shared, but the implication is clear: Calloway knows the corporate machine from the inside and chose to leave it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Calloway becomes a strategic asset. They can analyze a corp’s behavior, predict contract traps, and identify when a contract’s objectives don’t match the employer’s real goals. Once per contract, the crew can ask Calloway for a read: “What’s the corp really after?“ Calloway’s answer is informed, specific, and usually correct."
+    },
+    {
+      "type": "heading",
+      "text": "Doc Vasik — Patch & Wire"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who he is:</strong> Emil Vasik. 52. Former Wellspring Pharma field medic, third-generation Wellspring citizen. Left (or was expelled) nine years ago. The details change depending on when you ask. His medical skills are exceptional — Wellspring training is the best in the world, even if the ethics are negotiable. He set up Patch & Wire in Threshold Row because margin contractors needed medical care that wasn’t corporate, wasn’t black market, and wasn’t lethal. He fills that niche."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What he wants:</strong> To practice medicine on his terms. To not be Wellspring anymore. To help the people who walk through his door without strings, agendas, or data collection. He charges fair rates because he has to eat, but he’ll treat emergencies on credit and he’s never turned someone away for lack of funds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What he knows:</strong> Medicine. Augment technology. Wellspring’s methods, culture, and (to some degree) their secrets. He knows what Wellspring does with live specimens. He knows what happens in the restricted labs. He doesn’t talk about it unprompted because the knowledge is dangerous — Wellspring doesn’t appreciate former employees sharing proprietary medical data."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Baseline Interaction (any Edge):</strong> Vasik is competent and clinical. He treats scars, installs augments, runs detox. He gives honest medical advice and doesn’t upsell. “You don’t need the T2 augment. Your body can’t handle it yet. Come back in a month.“"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 4+ Interaction — “Why Did You Leave?“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social check (DC 7): Vasik gives the sanitized version. “Philosophical differences.“ He didn’t agree with certain research directions. He left. It wasn’t friendly. He can’t go back to Wellspring territory without risk. This establishes Vasik as someone with principles — useful when the crew needs a moral compass."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Vasik trusts the crew slightly more. He’ll offer a 10% discount on services. Small, but over a campaign it adds up."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 6+ Interaction — “That Scar Pattern“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Vasik notices something about a crew member’s scar or toxicity reading — something clinically interesting. If the Face asks the right question (social check DC 8), Vasik opens up: he’s been tracking toxicity patterns in Threshold Row contractors. The ambient readings are creeping up. Not dangerously, not yet, but the trend is consistent. Something is increasing background toxicity in the area. He suspects a nearby wild rift, but he doesn’t have the survey data to confirm."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Medical intelligence about the local area. This connects to the Gate 7 mystery — the crystal growth might be affecting ambient toxicity. Vasik becomes a resource for interpreting toxicity data, which is valuable if the crew investigates rift anomalies."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 8+ Interaction — “What Happens in the Restricted Labs?“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the big one. Vasik knows what Wellspring does with live specimens. The Face asks. Social check (DC 11): Vasik tells them. Not everything — but enough. Wellspring’s live capture program feeds a gene-splicing research division that is testing the boundaries between human and rift-creature biology. The “volunteer recruitment programs“ are real. The hybrids are real. Vasik saw the early results before he left. That’s why he left."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Knowledge that can be leveraged, traded, or used to understand Wellspring’s involvement in the campaign’s larger mystery. If the crew encounters Wellspring-related plot threads, they have insider context. Vasik also becomes willing to analyze unusual biological samples the crew brings back — free of charge, because he wants to know what’s happening too."
+    },
+    {
+      "type": "heading",
+      "text": "Ratch — The Yard"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who they are:</strong> Ratch. No surname offered. Rift-origin genetics — four arms, dense build, skin with a faint mineral sheen. Arrived in Threshold Row six years ago from somewhere they don’t discuss. They speak rarely, work constantly, and produce mechanical results that border on artistry. Ratch understands vehicles and machines the way Vasik understands bodies — intuitively, completely, and with a quiet respect for the systems they maintain."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What they want:</strong> To be left alone to work. Ratch isn’t antisocial — they’re content. The Yard is their life. Machines are honest. People are complicated. Machines break in predictable ways. People don’t."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What they know:</strong> Vehicles, augment hardware (the mechanical side, not the medical), salvage markets, transit routes, and the mechanical state of every contractor rig in Threshold Row. Ratch can tell you if a vehicle will make the next trip by listening to the engine for thirty seconds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Baseline Interaction (any Edge):</strong> Ratch nods at you. They’ll service your vehicle, sell you parts, and give a straight answer if you ask a mechanical question. They don’t do small talk. They don’t overcharge. The Junker they mentioned is still for sale. 800 cr."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 4+ Interaction — “The Junker Deal“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Social check (DC 7): Ratch offers a deal — work a shift at the Yard (1 AP, physical labor — Chrome or Tech check DC 6) and the Junker drops to 650 cr. Ratch needs help and won’t ask for it, but they’ll accept it. This is a genuine discount earned through labor, not manipulation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> 150 cr savings on the Junker. The crew gets a vehicle earlier. This accelerates the cargo loop and changes mission economics. The Face just saved the team more money than a full contract pays."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 6+ Interaction — “Something’s Wrong With the Rigs“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Face notices Ratch frowning at a vehicle they’re servicing — unusual, because Ratch’s face doesn’t usually do anything. Social check (DC 8): Ratch shares a concern. Multiple vehicles that have been through Gate 7 recently are showing unusual corrosion — a crystalline residue in the engine components that Ratch hasn’t seen before. It’s not damaging anything yet, but it’s accumulating. Ratch doesn’t know what it is. They’ve been quietly scraping samples."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Physical evidence connecting to the Gate 7 mystery. The crystal growth isn’t just in the rift — it’s getting on equipment and coming back through. If the crew investigates, Ratch provides samples. Vasik might be able to analyze them."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Edge 8+ Interaction — “Where Did You Come From?“:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratch’s origins. The Face creates a genuine moment of trust — not a check to pass, but a relationship milestone. The GM determines when this feels right (probably Session 5+). Social check (DC 10): Ratch came from a non-human community in an Orange Zone. They left because the community was dying — ambient toxicity was rising, the land was degrading, their people were getting sick. Ratch came to the margin because they needed human infrastructure to survive. They send money back when they can. Not much. Not enough."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reward:</strong> Deep trust. Ratch offers the crew free maintenance (saving 10% of vehicle purchase price every 3 missions, indefinitely). More importantly, Ratch’s community is a potential location, ally, and plot hook — a group of non-humans in a degrading Orange Zone, connected to the larger environmental story. If the crew helps them (supplies, rift stabilization, relocation), Ratch’s loyalty becomes absolute. Four arms, all of them on your side."
+    }
+  ]
+}

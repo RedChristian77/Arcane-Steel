@@ -1,0 +1,123 @@
+{
+  "id": "trees-rift",
+  "title": "🌀 Rift",
+  "subtitle": "The Channeler's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Interface / Grit",
+      "theme": "The boundary between dimensions is thin. You make it thinner.",
+      "design": "Rift augments enhance magic use, manage toxicity, and provide unique utility through dimensional manipulation."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Rift Attunement",
+          "effect": "Can use magic-category weapons",
+          "cost": "300 cr"
+        },
+        {
+          "name": "Ambient Siphon",
+          "effect": "Recover 1 HP at end of each combat",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Toxicity Sense",
+          "effect": "Detect rift anomalies and ambient toxicity levels within 30m",
+          "cost": "150 cr"
+        },
+        {
+          "name": "Channeling Focus",
+          "effect": "+1 Interface accuracy with magic weapons",
+          "cost": "250 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Toxicity Filter",
+          "effect": "Toxicity threshold +2 before harvest risk",
+          "cost": "500 cr"
+        },
+        {
+          "name": "Rift Pulse",
+          "effect": "1/combat: 1d6 magic damage to all adjacent. +1 Toxicity",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Magic Recycler",
+          "effect": "When you deal magic damage, heal 1 HP (1/round)",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Dimensional Anchor",
+          "effect": "Cannot be forcibly moved or teleported by enemies",
+          "cost": "350 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Rift Shield",
+          "effect": "1/combat: absorb up to 6 damage into toxicity (1 tox per 2 dmg)",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Arcane Resonance",
+          "effect": "Magic weapon damage dice upgraded by 1 step",
+          "cost": "700 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Rift Walker",
+          "effect": "1/combat: short-range teleport (up to 6 squares). +2 Toxicity",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Mana Burn",
+          "effect": "When you take magic damage, attacker gains +2 Toxicity",
+          "cost": "800 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Dimensional Conduit",
+          "effect": "1/mission: open a small rift. Allies can step through to any location within 100m. +5 Toxicity to caster",
+          "cost": "2,500 cr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "trees-dancer",
+  "title": "💃 Dancer",
+  "subtitle": "The Dual-Wielder's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Reflex / Chrome",
+      "theme": "Two blades. One rhythm. Every fight is a performance.",
+      "design": "Dancer augments reward dual wielding and aggressive multi-hit combat styles."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Ambidextrous Wiring",
+          "effect": "Off-hand accuracy penalty reduced by 1",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Rhythm Tracker",
+          "effect": "+1 accuracy with dual-wielded weapons if you attacked last turn",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Blade Balance",
+          "effect": "While dual wielding light weapons: +1 Evasion",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Quick Swap",
+          "effect": "Switch main/off-hand as free action",
+          "cost": "150 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Paired Strike",
+          "effect": "Both weapons hit same target → +1 damage die on second",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Whirlwind Wiring",
+          "effect": "1/combat: attack two different adjacent targets (one each weapon)",
+          "cost": "450 cr"
+        },
+        {
+          "name": "Counter-Rhythm",
+          "effect": "After enemy misses you in melee, off-hand gains +2 accuracy",
+          "cost": "350 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Twin Fang Protocol",
+          "effect": "Off-hand crits trigger a bonus main-hand attack",
+          "cost": "700 cr"
+        },
+        {
+          "name": "Dance of Blades",
+          "effect": "While dual wielding, move 1 square after each hit (free)",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Synchronized Strike",
+          "effect": "1/combat: combine both weapons' damage dice in one attack",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Evasive Flourish",
+          "effect": "After 3+ hits in one turn, +2 Evasion until next turn",
+          "cost": "550 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Blade Storm",
+          "effect": "1/combat: full attack with both weapons against all adjacent enemies",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Glass Cannon",
+          "effect": "While dual wielding: +3 damage per die. Armor counts as 0 (trade-off)",
+          "cost": "950 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Tempest",
+          "effect": "Dual wielding attacks cost 1 less AP each. Off-hand has no accuracy penalty",
+          "cost": "2,000 cr"
+        }
+      ]
+    }
+  ]
+}

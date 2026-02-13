@@ -1,0 +1,123 @@
+{
+  "id": "world-undercity",
+  "title": "The Undercity",
+  "subtitle": "Below the corporate layer",
+  "content": [
+    {
+      "type": "heading",
+      "text": "What It Is"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Undercity isn’t a place. It’s a network — a shadow economy that exists underneath, beside, and between the legitimate corporate infrastructure. Every city-state has one. Every margin feeds into one. The Undercity is where you go for things the corp economy doesn’t provide: anonymity, contraband, services without records, and the kind of commerce that benefits from nobody watching."
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s not a criminal organization. It’s a thousand criminal organizations, independent operators, gray-market businesses, and survival-economy participants connected by mutual need and mutual distrust. The Undercity has no leader. It has no structure. It has customs, and the customs are enforced by the only authority that matters in the margins: reputation."
+    },
+    {
+      "type": "heading",
+      "text": "What It Offers"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Market Goods:</strong> Military-grade augments, restricted pharmaceuticals, stolen corp technology, pre-ban weapons, exotic rift materials that should have been reported to a sorting facility. Anything that has value and isn’t supposed to be available — the Undercity has it, for a price. Quality varies. Caveat emptor."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Unregistered Services:</strong> Augment installation that doesn’t appear on any medical record. Scar treatment that doesn’t trigger a health-score report. Detox that doesn’t log your toxicity readings. Identity alteration — new name, new contractor ID, new history. Toxicity spoofing — devices that fool corp scanners into reading lower than your actual levels. These services exist because the corps track everything, and some people need to not be tracked."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Information:</strong> The Undercity’s most valuable commodity. Who’s hiring, who’s dying, which corp is moving on which territory, which contracts are traps, where the Sentinel patrols are tonight, and where the wild rift opened last week that nobody’s reported yet. Information flows through the Undercity faster than through official channels because it’s not filtered, redacted, or classified."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sanctuary:</strong> For people who need to disappear. Ex-corporate citizens who left without permission. Contractors who broke an NDA and the Advocates are looking. Non-humans who escaped Wellspring “employment.“ People with toxicity readings that would trigger mandatory quarantine. The Undercity doesn’t judge. It doesn’t protect, either — it just doesn’t report. Anonymity is the service. What you do with it is your problem."
+    },
+    {
+      "type": "heading",
+      "text": "How It Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Access:</strong> You don’t find the Undercity. You ask the right person the right question and the Undercity finds you. In practical terms: Streetwise checks. A contractor with Streetwise T1 knows the Undercity exists and can find basic black market goods. Streetwise T2 knows specific contacts and can access unregistered services. Streetwise T3+ has established relationships and can access the deeper network — the information brokers, the identity forgers, the people who can make problems disappear."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Currency:</strong> Credits. Always credits. The Undercity doesn’t run on favors (those can’t be deposited) or corp scrip (that’s traceable). Hard currency only."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trust:</strong> Measured in transactions. First-time buyers pay premium and get bottom-tier goods. Repeat customers get better prices and better merchandise. Established relationships get access to the real inventory — the stuff that isn’t on display. Burning a contact (cheating, snitching, bringing corp attention) doesn’t just lose you one connection. The Undercity’s gossip network ensures everyone knows, and “everyone“ in this context means every black market operator in the city-state."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Flicker Connection:</strong> Flickers are disproportionately represented in Undercity operations — their speed, adaptability, and evolutionary preference for informal economies makes them natural operators. A Flicker contact in the Undercity is one of the most valuable assets a contractor can cultivate. They know everyone. They move faster than enforcement. And they don’t forget a good customer."
+    },
+    {
+      "type": "heading",
+      "text": "Undercity Price Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Item Type</strong>                       <strong>Undercity Price vs Market</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard goods (available legally)  80-90% market (slight discount, no tax)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Restricted goods (corp-controlled)  150-200% market (scarcity premium)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Military-grade (stolen/smuggled)    200-300% market"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unregistered services (off-record)  120-150% of registered equivalent"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identity services (new ID, history) 500-2,000 cr (depends on quality)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Toxicity spoofing device            300 cr (lasts \\~30 days before recalibration)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Information (specific, actionable)  50-500 cr (depends on value and danger) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Undercity Risks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Buying from the Undercity isn’t free of consequences:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quality Variance:</strong> That “military-grade“ augment might be stolen from a Sentinel armory (excellent quality) or reverse-engineered in a margin workshop (questionable quality). No warranties. No returns."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Attention:</strong> Frequent Undercity transactions create a pattern. Corp surveillance isn’t omniscient, but it’s persistent. A contractor who regularly purchases unregistered services eventually appears on someone’s report. The consequences range from “increased scanning at gate checkpoints“ to “a visit from someone who asks uncomfortable questions.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dependency:</strong> The Undercity’s services are convenient. Reliance on them creates vulnerability — your identity forger knows your real name, your toxicity spoofer knows your actual readings, your black market augment installer knows exactly what chrome you’re carrying and where. Trust in the Undercity is mutual — but mutual vulnerability isn’t the same as mutual loyalty."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The Intercompany Personhood Accords guarantee sapient entity rights regardless of species, origin, or dimensional classification. These rights include but are not limited to: freedom from arbitrary detention, access to legal representation, and protection from involuntary medical experimentation. The Accords have been ratified by all seven major corporations. Compliance monitoring is the responsibility of each signatory. No independent monitoring body exists. This is, we are assured, a coincidence.“</em>"
+    }
+  ]
+}

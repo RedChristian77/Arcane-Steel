@@ -1,0 +1,128 @@
+{
+  "id": "trees-fortress",
+  "title": "🛡️ Fortress",
+  "subtitle": "The Bulwark's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Chrome / Grit",
+      "theme": "You are the wall. Nothing gets through. Nothing gets past.",
+      "design": "Fortress augments make you harder to kill and protect your allies."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Subdermal Plating",
+          "effect": "+1 Armor (stacks with worn armor)",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Shock Absorbers",
+          "effect": "Reduce first damage taken each round by 1",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Immovable Frame",
+          "effect": "Cannot be forcibly moved. +2 to resist knockdown",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Guardian Protocol",
+          "effect": "Adjacent allies gain +1 Armor",
+          "cost": "300 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Reactive Plating",
+          "effect": "When hit by melee, attacker takes 1 damage",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Ablative Shielding",
+          "effect": "+2 Armor against the first attack each combat",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Taunt Emitter",
+          "effect": "1/round: force one enemy to target you instead of ally",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Hardened Frame",
+          "effect": "+3 max HP",
+          "cost": "450 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Iron Will",
+          "effect": "+2 to Scar survival rolls",
+          "cost": "500 cr"
+        },
+        {
+          "name": "Fortress Wall",
+          "effect": "Opportunity attacks deal +2 damage per die",
+          "cost": "550 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Last Stand",
+          "effect": "1/mission: when you would hit 0 HP, stay at 1 HP instead",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Fortress Aura",
+          "effect": "Allies within short range: +1 Armor and +1 Evasion",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Siege Mode",
+          "effect": "Spend 5 AP: +4 Armor, cannot move, cannot be flanked",
+          "cost": "850 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Unbreakable",
+          "effect": "Maximum Scar count increased by 2. While at 3+ Scars: immune to death saves. Still take Scars normally.",
+          "cost": "2,500 cr"
+        }
+      ]
+    }
+  ]
+}

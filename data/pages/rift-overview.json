@@ -1,0 +1,111 @@
+{
+  "id": "rift-overview",
+  "title": "Casting Rules",
+  "subtitle": "How rift magic works",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Magic Will Kill You, But It Works</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Rift energy channeling is not ’magic.’ It is the scientifically documented manipulation of extradimensional particle fields through biological neural interfaces. That it looks like magic, feels like magic, and occasionally turns the caster inside out is purely coincidental. Please refer to it as ’Applied Dimensional Resonance’ in all official documentation.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Rift Casting Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "Magic in 3025 is ambient. It leaks from dimensional rifts, saturates the environment, and slowly poisons everything it touches. Most people avoid it. Channelers <em>use</em> it — pulling raw rift energy through their body and shaping it into effects."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is not safe. This is not clean. Every time you channel, you absorb toxicity. The more power you pull, the more it costs. The universe charges interest."
+    },
+    {
+      "type": "heading",
+      "text": "The Three Pillars"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Patterns</strong> — Defined rift effects with known costs. The baseline toolkit. Reliable, repeatable, understood (mostly).  <strong>2. Improvised Channeling</strong> — Freeform casting. Describe what you want, pay more, risk more. The rift doesn’t have a manual.  <strong>3. Overchannel</strong> — Break the rules. Pull more power than your body can handle. Dramatic, devastating, potentially fatal."
+    },
+    {
+      "type": "heading",
+      "text": "Casting Stats"
+    },
+    {
+      "type": "paragraph",
+      "text": "Magic isn’t one skill. Different effects demand different aspects of you:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat</strong>                <strong>Casting Role</strong>        <strong>Used For</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Interface</strong>           Control & precision.    Damage patterns, Your understanding of   accuracy, complex rift energy.            shaping, rift manipulation"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grit</strong>                Endurance & resilience. Defensive patterns, Your body’s ability to sustained effects, absorb the cost.        resisting backlash"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Edge</strong>                Instinct &              Utility patterns, adaptability. Your feel improvised channeling, for the rift’s moods.  sensing, social-rift effects ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Requirements"
+    },
+    {
+      "type": "paragraph",
+      "text": "To cast at all, you need:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Rift Attunement augment</strong> (Rift Tree T1) — or a mutation/condition that grants innate channeling  • A <strong>focus</strong> (rift staff, channeling rod, attuned crystal) — or bare hands at increased cost (see Unfocused Casting)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Without Rift Attunement, you cannot deliberately channel. You might still be <em>affected</em> by rift energy, but you can’t wield it."
+    },
+    {
+      "type": "heading",
+      "text": "Pattern Tiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Patterns are organized into four tiers based on power and cost. Higher-tier patterns require more Rift tree investment to access."
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- --------------- -------------- ----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>       <strong>Name</strong>       <strong>Rift Tree     </strong>Cost Type<strong>  </strong>Power Level<strong> Requirement</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 1</strong>     Flickers       Rift Attunement Toxicity only  Minor effects. (T1)                           Cantrip-level."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 2</strong>     Surges         1+ Rift         Toxicity + Act Standard augments                       combat/utility. Real power."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 3</strong>     Torrents       3+ Rift         Toxicity +     Major effects. augments        Act + HP       Battlefield-shaping."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier 4</strong>     Cataclysms     6+ Rift         Toxicity +     Devastating. Once per augments        Act + HP +     mission. Changes consequence    everything. -------------- -------------- --------------- -------------- ----------------------"
+    }
+  ]
+}

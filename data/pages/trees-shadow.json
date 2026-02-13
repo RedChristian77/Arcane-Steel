@@ -1,0 +1,133 @@
+{
+  "id": "trees-shadow",
+  "title": "👤 Shadow",
+  "subtitle": "The Ghost's Path",
+  "content": [
+    {
+      "type": "tree-meta",
+      "stat_lean": "Reflex / Edge",
+      "theme": "Unseen. Unheard. Lethal. The best fight is the one they never saw coming.",
+      "design": "Shadow augments reward stealth, ambushes, and hit-and-run tactics."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Entry",
+      "req": "0 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Optical Camo Weave",
+          "effect": "+1 Evasion (not heavy armor)",
+          "cost": "300 cr"
+        },
+        {
+          "name": "Soft Step Dampeners",
+          "effect": "+2 to stealth Edge checks",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Threat Awareness",
+          "effect": "Cannot be surprised. Always act in round 1",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Quick Escape Wiring",
+          "effect": "1/combat: disengage from melee without opportunity attack",
+          "cost": "200 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Adapted",
+      "req": "1 augment",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Ambush Protocol",
+          "effect": "+2 accuracy on first attack if hidden/undetected",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Ghost Step",
+          "effect": "1/combat: move without triggering reactions",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Exploit Weakness",
+          "effect": "+1 damage die vs enemies who haven't acted yet",
+          "cost": "350 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Integrated",
+      "req": "3 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Vanishing Act",
+          "effect": "1/combat: become hidden even in plain sight for 1 round",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Backstab Wiring",
+          "effect": "Attacks vs unaware/flanked targets: +2 acc and +1 damage die",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Shadow Step",
+          "effect": "1/combat: teleport to any shadow/cover within medium range",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Misdirection Field",
+          "effect": "1/round: redirect one attack to adjacent enemy instead",
+          "cost": "550 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Experimental",
+      "req": "6 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Phase Cloak",
+          "effect": "1/mission: intangible for 1 round. Cannot be hit or hit others",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Death's Hand",
+          "effect": "Undetected kill → immediately hide again",
+          "cost": "850 cr"
+        },
+        {
+          "name": "Living Shadow",
+          "effect": "+3 Evasion. -2 max HP (trade-off)",
+          "cost": "900 cr"
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Mastery",
+      "req": "10 augments",
+      "budget": "",
+      "augments": [
+        {
+          "name": "Phantom",
+          "effect": "While hidden: attacks auto-crit. After attacking, may spend 2 AP to re-hide",
+          "cost": "2,000 cr"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1455 @@
+{
+  "id": "equipment-economy",
+  "title": "Economy & Services",
+  "subtitle": "Costs, credits, and commerce",
+  "content": [
+    {
+      "type": "heading",
+      "text": "The Rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your body has limits. How much you can carry is determined by <strong>Chrome</strong> — your physical augmentation and raw body power."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Carry Capacity = 5 + (Chrome × 3) weight units.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chrome</strong>                          <strong>Carry Capacity</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   11"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   14"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   17"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   20"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   23"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                                   26"
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   29"
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  35"
+    },
+    {
+      "type": "paragraph",
+      "text": "12                                  41"
+    },
+    {
+      "type": "paragraph",
+      "text": "15                                  50 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference matters. A Chrome 4 contractor carries their weapons, armor, and maybe a med kit. A Chrome 10 contractor carries all that plus a teammate’s spare ammo, a full harvest load, and the salvage nobody else could lift. A Chrome 15 augmented brute hauls equipment that would normally require a vehicle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every item has a <strong>Weight</strong> value measured in units. Negligible items (coins, keys, ammo for a crossbow) have weight 0 — they don’t count unless you’re carrying absurd quantities."
+    },
+    {
+      "type": "heading",
+      "text": "Overencumbered"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you exceed your Carry Capacity:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>1-5 units over:</strong> -1 to all physical checks. Speed reduced by 1 range band per round of movement.  • <strong>6-10 units over:</strong> -2 to all physical checks. Speed reduced by 2 range bands. Cannot dodge (Evasion halved, round down).  • <strong>11+ over:</strong> Cannot move faster than Adjacent. Cannot dodge. Cannot attack. You’re a turtle with debt."
+    },
+    {
+      "type": "heading",
+      "text": "Carry Weight and Harvesting"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is where the Chrome vs brains split matters."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chrome determines how much you carry out.</strong> High Chrome contractors can haul more raw material from a harvest site. Each point of Carry Capacity above your equipped gear’s weight contributes to your"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available Harvest Carry</strong> — the space you have left for loot."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Interface and Edge determine how well you harvest.</strong> The harvesting check (see Harvesting & Crafting) uses relevant skills to determine the <em>quality</em> and <em>value</em> of what you extract. A high-Interface contractor with a steady hand and rift knowledge carves out the valuable organs, the rare crystal cores, the intact spell glands. A high-Edge contractor spots the thing everyone else missed — the hidden cache, the rare material, the component that’s worth ten times the obvious stuff."
+    },
+    {
+      "type": "paragraph",
+      "text": "The result: the Chrome 8 brute carries out a backpack full of generic rift meat. The Interface 6 channeler carries out three perfectly extracted spell glands worth more than the entire backpack. Both are correct. Both are needed. The ideal team has both."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Available Harvest Carry</strong> = Carry Capacity - Equipped Gear Weight"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each unit of Available Harvest Carry lets you bring back 1 harvest unit from a mission. Harvest units are then valued based on your harvesting check results."
+    },
+    {
+      "type": "heading",
+      "text": "What Augments Cost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Augments are your primary progression system. Each augment has a"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>purchase cost</strong> (the augment itself) plus an <strong>installation cost</strong> (someone has to put it in you). Both come out of your pocket."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Augment prices by tier (ranges from the Augment Trees):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>          <strong>Augment Cost    </strong>Typical<strong>       </strong>What It Range<strong>                             Represents</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1</strong>            100-250 cr        \\~200 cr          Entry-level mods. Basic implants. Your body’s first real changes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2</strong>            300-500 cr        \\~400 cr          Serious augmentation. Your body is adapting to significant modification."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3</strong>            450-700 cr        \\~600 cr          Advanced systems. Multiple integrated modifications working together."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4</strong>            700-1,200 cr      \\~950 cr          High-end hardware. Your body is more machine/magic than stock at this point."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T5 (Mastery)</strong>  —               Free              Passive bonus. No purchase needed — your body has fully integrated the tree. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Total cost to reach Mastery in one tree (10 augments):</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "You need 10 augments to unlock T5 Mastery. Assuming a mix of tiers:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• 3× T1 (\\~600 cr) + 3× T2 (\\~1,200 cr) + 2× T3 (\\~1,200 cr) + 2× T4 (\\~1,900 cr) = <strong>\\~4,900 cr in augments alone</strong>  • Installation (Licensed Clinic): 10 × 250 cr = <strong>2,500 cr</strong>  • Installation (Team Chrome Tech): <strong>Free</strong>  • <strong>Total with clinic: \\~7,400 cr. Total with Chrome Tech: \\~4,900 cr.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "That’s roughly 10-15 missions worth of saving at early-game pay rates. Mastering a tree is a campaign-long investment. Having a Chrome Tech on the team saves you almost half the cost."
+    },
+    {
+      "type": "heading",
+      "text": "The Augment Decision"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every augment purchase is a trade-off against every other use of money:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• That 400 cr T2 augment is also 13 days of Apartment rent  • That 950 cr T4 augment is also 6 Scar treatments at a Street Doc  • That 250 cr installer fee is also 5 encounters of Magi Sniper ammo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors who rush augments go hungry. Contractors who never augment fall behind. The sweet spot is somewhere in between, and finding it is half the game."
+    },
+    {
+      "type": "heading",
+      "text": "Installation Complications"
+    },
+    {
+      "type": "paragraph",
+      "text": "When an installation complication occurs (see Services below), the augment still installs but malfunctions:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>d6</strong>                              <strong>Malfunction</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1-2                                 <strong>Intermittent.</strong> Augment works 50% of the time (flip a coin each encounter). Repair cost: 50 cr."
+    },
+    {
+      "type": "paragraph",
+      "text": "3-4                                 <strong>Painful.</strong> Augment works but causes -1 to all checks for 24 hours post-installation. No repair needed, just time."
+    },
+    {
+      "type": "paragraph",
+      "text": "5-6                                 <strong>Rejection Risk.</strong> Augment works but your body fights it. Take 1d4 damage (unresistable) and +2 Toxicity. If not treated within 48 hours, augment must be removed and reinstalled. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not everything is a thing you carry. Some costs are services rendered."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Service</strong>             <strong>Cost</strong>                <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment Installation  100 cr                  Cheap installer. Roll (Street Doc)</strong>                                  1d6 after installation: on a 1, complication (augment malfunctions until repaired, 50 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment Installation  250 cr                  Professional job. No (Licensed Clinic)</strong>                             complication risk for T1-T2 augments. T3+: roll 1d6, complication on a 1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment Installation  500 cr                  Top-tier installation. (Corp Surgical Suite)</strong>                         No complication risk at any tier. Logged on your medical record — the corp knows what you have installed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment Installation  Free                    A teammate with Tech (Team Chrome Tech)</strong>                            T2+ can install augments. No fee. Complication risk same as Street Doc for T3+, none for T1-T2. The value of having a Chrome Tech on the team."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scar Treatment        150 cr                  Remove 1 Scar. Roll (Street Doc)</strong>                                  1d6: on a 1, gain a different debuff."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scar Treatment (Corp  500 cr                  Remove 1 Scar. Clean. Clinic)</strong>                                       Logged on your record."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scar Treatment (Black 800 cr                  Remove 2 Scars. Market)</strong>                                       Illegal. If caught, you’re “product.“"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scar Treatment        2,000 cr                Full Scar reset. Debt (Premium)</strong>                                     contract — they own a piece of you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Clinical Detox</strong>      200 cr                  Clear 1d6 Toxicity. 2 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Market Detox</strong>  100 cr                  Clear 2d6 Toxicity. 1 AP. DC 7 complication check."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Parasite         500 cr                  Clear 4d6 Toxicity. Session</strong>                                       Extremely illegal. 1d20 vs DC 5: fail = lose 1d4 HP permanently."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Info Broker (basic)</strong> 50 cr                   Answer one question about local contracts, factions, or threats. Quality varies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Info Broker           250 cr                  Detailed intel on a (premium)</strong>                                     specific target, location, or contract. Reliable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon Modification</strong> 50% of weapon cost      Add one conditional modifier to a weapon. Requires Tech T2+ or a weaponsmith NPC."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Forged ID</strong>           500 cr                  Fake identity that passes casual scanner checks. Premium forgeries (1,500 cr) pass corporate-grade checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Spoof</strong>      300 cr                  Your scanner reads 10 lower than actual for 48 hours. Illegal. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "New contractors receive their Kit’s starting gear plus <strong>100 credits</strong> (modified by Kit — Negotiator gets +100 cr, some Kits get +0). This is your first and last handout."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suggested first purchases</strong> (after Kit gear):"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Med Patches (25 cr each) — always carry at least 2  • Ammo for your ranged weapon (50 cr) — if applicable  • Breather Mask (100 cr) — if heading into a rift immediately  • Save the rest — you’ll need it for rent"
+    },
+    {
+      "type": "paragraph",
+      "text": "After Session 1, every credit comes from contracts. Budget accordingly."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Equipment is provided at the contractor’s expense. Equipment damaged during contracted operations may be eligible for partial reimbursement pending review of the incident report, damage assessment, contractor conduct evaluation, and prevailing corporate policy. Average review period: 8-14 business weeks. Average approval rate: 6%. Carry a spare.“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“The weapon you buy is the weapon everyone has. The weapon you modify is the weapon nobody expects. And the weapon a real crafter builds? That’s the weapon that comes home when you don’t.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Modification Philosophy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stock gear keeps you alive. Modified gear keeps you alive <em>better.</em> Every mod is a tactical choice — not a flat power increase, but a trade-off that shifts how a weapon or piece of armor performs. A scope makes your rifle deadlier at range but doesn’t help in melee. A quick-release mag lets you reload for free once, but it doesn’t add damage. Living armor hurts anything that grabs you, but you can never take it off."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mods are the gear layer of the customization stack: Kit Abilities define how you fight. Augments define what your body can do. Mods define what your equipment can do. All three feed the same character identity — and all three cost credits."
+    },
+    {
+      "type": "heading",
+      "text": "Mod Slots"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every piece of gear has a <strong>mod slot count</strong> based on its complexity and size. You can only install mods up to your slot limit."
+    },
+    {
+      "type": "heading",
+      "text": "Weapon Slots"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon Category</strong>     <strong>Slots</strong>               <strong>Logic</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Light melee</strong> (Combat 1                       Small, simple. One Knife, Gauntlets,                               trick. Ripper Claws)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Light ranged</strong> (Hand  1                       Compact frame. Limited Crossbow, Burst Pistol,                         real estate. Throwing Axes)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medium melee</strong>        2                       Room for a grip mod and (Precision Blade,                               a blade treatment. Longsword, Spear, Chain Flail)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medium ranged</strong>       2                       Barrel + optics, or (Composite Bow, Corp                            stock + ammo feed. Rifle, Crossbow, Scatter Gun)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Heavy melee</strong> (Heavy  2                       Big weapon, room for Axe, War Hammer, Great                          two augmentations. Maul)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Heavy ranged</strong> (Heavy 3                       Complex platform. Full Crossbow, Shotgun,                              customization. Sniper Rifle)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Light magic/tech</strong>    1                       Delicate instruments. (Toxic Needle, Neural                           One modification. Probe, Siphon Rod, Hex Totem, Pulse Gauntlet)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medium magic/tech</strong>   2                       Channeling platform (Rift Staff, Arc                                with room for Caster, Drone Swarm)                            enhancement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Heavy magic/tech</strong>    3                       Massive platform. Full (Rift Cannon)                                   customization. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Armor Slots"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong>               <strong>Slots</strong>               <strong>Logic</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Clothes / Padded      0                       Not real armor. Can’t Jacket</strong>                                        mod what barely exists."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Light Weave</strong>         1                       Minimal structure. One enhancement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contractor Standard / 2                       Standard platform. Two Rift-Walker Suit</strong>                              modifications."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corp Tactical</strong>       3                       Military-grade. Room for serious upgrades."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Heavy Plate</strong>         3                       Thick enough to embed things in."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Siege Rig</strong>           4                       Walking fortress. Full suite. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Shield Slots"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shield</strong>                          <strong>Slots</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Buckler</strong>                         0"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard Shield</strong>                 1"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tower Shield</strong>                    2"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift-Ward Shield</strong>                1 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Mod Types"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every mod has a <strong>type</strong> that determines who can install it and whether it can be removed."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Type</strong>          <strong>Install         </strong>Removable?<strong>    </strong>Description<strong> Requirement</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mechanical</strong>    Tech T2+          Yes — 1         Bolted, screwed, downtime          mounted. Sights, activity, mod     grips, stocks, recovered intact  plates. Physical attachments."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chemical</strong>      Crafting T2+      No — permanent, Coatings, consumed on       infusions, acid application       treatments, material bonding. Changes the gear’s composition."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Biological</strong>    Crafting T3+      No — permanent, Living materials living organism   grafted onto bonded to gear    equipment. Symbiotic organisms, rift-grown tissue, reactive membranes."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift</strong>          Crafting T3+      No — permanent, Rift energy bound dimensional       into the gear’s energy infused    structure. Volatile. Adds Toxicity costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Neural</strong>        Crafting T2+,     Swap during       Electronic/neural Interface 3+      downtime, old mod interfaces that deactivated (not  connect gear to the destroyed)        user’s augments. ----------------- ----------------- ----------------- -------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mechanical mods</strong> are the bread and butter. Anyone with Tech T2 can install them. They can be removed and reused. Swapping a scope takes a downtime activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chemical, Biological, and Rift mods</strong> are permanent. Once applied, they’re part of the gear forever. If you want a different one, you need a new weapon. This is intentional — these mods change what the gear <em>is</em>, not what’s attached to it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Neural mods</strong> split the difference. They’re electronic, so they can be swapped, but they require specialized knowledge to install and the old mod goes dormant (not destroyed) when replaced."
+    },
+    {
+      "type": "heading",
+      "text": "Installation"
+    },
+    {
+      "type": "heading",
+      "text": "Who Can Install What"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- --------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Installer</strong>     <strong>Can Install</strong>   <strong>Check           </strong>Failure Required<strong>        Consequence</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tech T2</strong>       Mechanical mods   Tech check DC 7   Mod not installed, only                                no damage. Retry costs another downtime activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tech T3+</strong>      Mechanical mods,  Tech check DC 7   Same as above. Neural mods       (Mechanical) / DC 8 (Neural)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crafting T2</strong>   Mechanical,       Crafting check DC Mechanical: no Chemical, Neural  7 (Mech/Neural) / damage. Chemical: DC 8 (Chemical)   mod consumed, must buy another."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crafting T3+</strong>  All mod types     Crafting check DC Chemical/Bio/Rift: 7-9 depending on  mod consumed on type              failure. Biological: 10% chance of hostile reaction (1d6 damage to gear)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Professional    All mod types     No check —      Costs 50% of mod Shop</strong>                              auto-success      price as installation fee. Available in most cities. ----------------- ----------------- ----------------- --------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Professional Shops</strong> exist for crews without a crafter. The 50% installation fee is the price of convenience — and another reason having a crafter on the crew saves money."
+    },
+    {
+      "type": "heading",
+      "text": "Installation Time"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod Type</strong>                        <strong>Time</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanical                          1 downtime activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chemical                            1 downtime activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neural                              1 downtime activity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Biological                          2 downtime activities (bonding period)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift                                2 downtime activities (stabilization required) ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Removal"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod Type</strong>                        <strong>Removal</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanical                          1 downtime activity. Mod recovered intact. Can be reinstalled."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chemical                            Cannot be removed. Permanent."
+    },
+    {
+      "type": "paragraph",
+      "text": "Biological                          Cannot be removed without destroying the mod AND dealing 1d6 damage to the gear (reduced armor/accuracy)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift                                Cannot be removed. Attempting to remove deals 2d6 Toxicity to the remover."
+    },
+    {
+      "type": "paragraph",
+      "text": "Neural                              1 downtime activity. Old mod goes dormant. Can be reactivated later if reinstalled. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Weapon Mods"
+    },
+    {
+      "type": "heading",
+      "text": "Mechanical (Tech T2+ to install, removable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Weapon Type</strong>   <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Precision       200 cr            Ranged only       +1 accuracy at Sights</strong>                                              Medium+ range."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reflex Sights</strong> 150 cr            Ranged only       +1 accuracy at Close range. No benefit at Medium+."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reaction        300 cr            Ranged only       Overwatch costs Sights</strong>                                              weapon AP (removes the +1 AP tax)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extended        250 cr            Ranged only       +1 damage per die Barrel</strong>                                              at Medium+ range. -1 accuracy at Close."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shortened       150 cr            Ranged only       +1 accuracy at Barrel</strong>                                              Close. -1 damage per die at Medium+. Removes Heavy tag (can be dual-wielded as Medium)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Mag</strong>     200 cr            Ammo weapons only First reload per encounter is free (0 AP)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Expanded Mag</strong>  150 cr            Ammo weapons only +50% Charge capacity before reload (round up)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suppressor</strong>    300 cr            Ranged only       Attacks from Hidden don’t automatically reveal your position. Stealth check (DC 8) to remain hidden after firing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weighted Grip</strong> 100 cr            Melee only        +1 damage on Shove attempts. Shove knocks target 2 range bands instead of 1 on success."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Balanced Haft</strong> 150 cr            Medium/Heavy      -1 AP cost melee             (minimum 2). The weapon swings faster."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Serrated Edge</strong> 125 cr            Melee, bladed     Crits apply Bleed only              2 in addition to normal crit effects."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Guard Plate</strong>   100 cr            Melee only        +1 Evasion while this weapon is equipped. Defensive crossguard."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bayonet Mount</strong> 100 cr            Ranged only       Weapon can make melee attacks: d8 accuracy (Chrome), 1d6 damage, 1 AP. Not good. But better than nothing when they close the distance."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stabilizer</strong>    200 cr            Heavy ranged only Removes the -2 accuracy penalty for moving (Sniper Rifle, Heavy Crossbow)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hair Trigger</strong>  250 cr            Ranged only       First attack each encounter costs 1 less AP (minimum 1). Fast draw."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chain           50 cr             Thrown weapons    Weapon returns Attachment</strong>                                          after throw. No retrieval needed. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Chemical (Crafting T2+ to install, permanent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Weapon Type</strong>   <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Venom Coating</strong> 200 cr            Melee only        Attacks apply +1 Poison stack on hit. Lasts for full encounter, reapply between missions (50 cr materials)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corrosive       250 cr            Melee only        Attacks apply Treatment</strong>                                           Corrode 1 on hit (reduce target armor by 1, stacks). Permanent weapon treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Frost Coating</strong> 200 cr            Melee only        On hit, target’s next movement costs +1 AP. Single-target Slow."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Blinding        150 cr            Melee, bladed     On crit, target Powder</strong>                            only              is Blinded for 1 round (-4 accuracy, -2 Evasion). Powder reservoir refills between missions (25 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acid Wash</strong>     175 cr            Any weapon        +1 Penetration (ignores 1 additional Armor per die). Permanent. Reduces weapon resale value by 50%."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Sealant</strong>  200 cr            Any weapon        Weapon becomes immune to Corrode and environmental degradation from rift dimensions. Permanent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Incendiary      300 cr            Ranged, Ammo only All standard Compound</strong>                                            Charges from this weapon apply Burning on hit (1d4 damage/turn, 1 AP to extinguish). Permanent barrel treatment. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Biological (Crafting T3+ to install, permanent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- --------------- -------------- -------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>        <strong>Cost</strong>       <strong>Materials</strong>   <strong>Weapon       </strong>Effect<strong> Type</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sinew Wrap</strong> 400 cr         T2 Bio          Melee only     Weapon bonds to materials                      your hand. Cannot be disarmed. +1 accuracy when below 50% HP (the weapon senses your adrenaline)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxin        500 cr         T3 Bio          Melee only     On hit, apply +2 Gland</strong>                       materials                      Poison stacks (instead of +1 from Venom Coating). Self-replenishing — no reapplication cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Spore        450 cr         T3 Bio          Ranged only    Once per encounter, Launcher</strong>                    materials                      fire a spore cloud instead of normal attack: all enemies in Close range of impact point gain +2 Toxicity. No accuracy roll. Area effect."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living       350 cr         T2 Bio          Any weapon     Weapon adjusts to Grip</strong>                        materials                      your grip in real-time. +1 accuracy on all attacks. The organism is learning how you fight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bone Edge</strong>  500 cr         T3 Bio          Melee, bladed  Blade is replaced materials       only           with self-sharpening rift-grown bone. +2 damage per die. Weapon repairs itself between missions (self-healing — never needs maintenance)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Leech        400 cr         T2 Bio          Melee only     On hit, heal 1 HP. Filament</strong>                    materials                      Stacks with Siphon Strike if you have it. The weapon drinks. -------------- -------------- --------------- -------------- -------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Rift (Crafting T3+ to install, permanent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "--------------- -------------- --------------- -------------- --------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>         <strong>Cost</strong>       <strong>Materials</strong>   <strong>Weapon       </strong>Effect<strong> Type</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional   600 cr         T3 Rift         Melee, bladed  Penetration 2. Edge</strong>                         materials       only           The blade exists partially in another dimension. +1 Toxicity per encounter used."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phase         500 cr         T3 Rift         Ranged, Ammo   Attacks ignore Rounds</strong>                       materials       only           cover bonuses. The round phases through obstacles. +1 Toxicity per encounter used."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Echo</strong>   700 cr         T3 Rift         Any weapon     Once per materials                      encounter, your attack hits twice (roll damage twice, apply armor to each separately). The echo strikes from a dimensional fold. +2 Toxicity when used."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Entropic      550 cr         T3 Rift         Heavy weapons  On crit, Charge</strong>                       materials       only           target makes a Grit check (DC 8) or ages rapidly — all their physical stats drop by 1 for the rest of the encounter. +1 Toxicity per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gravity       500 cr         T3 Rift         Ranged only    On hit, target Well</strong>                         materials                      cannot move away from the point of impact for 1 round. Dimensional anchor pins them. +1 Toxicity per use. --------------- -------------- --------------- -------------- --------------"
+    },
+    {
+      "type": "heading",
+      "text": "Neural (Crafting T2+ to install, swappable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Weapon Type</strong>   <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Targeting       300 cr            Ranged only       When you use Mark Link</strong>                                                Target or Analyze Weakness on an enemy, you get +2 accuracy (instead of +1) against that target with this weapon. Requires neural jack augment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reflex Sync</strong>   250 cr            Any weapon        Your Opportunity Attacks with this weapon use weapon damage dice instead of the standard 1d6. Your reflexes and the weapon are one system. Requires neural jack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Predictive      350 cr            Ranged only       +1 accuracy Aim</strong>                                                 against targets that moved this round. The weapon calculates trajectory. Requires neural jack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo           300 cr            Light weapons     After hitting Protocol</strong>                          only              with this weapon, your next attack with a different weapon this turn gets +1 accuracy. Dual-wield optimization. Requires neural jack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Threat          200 cr            Any weapon        At the start of Assessment</strong>                                          combat, this weapon identifies the highest-threat enemy (most HP or highest damage output). You get +1 accuracy against that target for the entire encounter. Requires neural jack. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Armor Mods"
+    },
+    {
+      "type": "heading",
+      "text": "Mechanical (Tech T2+ to install, removable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Armor Type</strong>    <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reinforced      200 cr            Armor 3+ only     +1 Armor. Adds +1 Plating</strong>                                             Weight. Simple but effective."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lightweight     250 cr            Any armor         -1 Weight Frame</strong>                                               (minimum 0). Evasion cap increased by 1 (if applicable)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Magnetic        150 cr            Any armor         Two items can be Clamps</strong>                                              magnetically attached to armor (accessible as Quick Action). Weapons, tools, medkits."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Auto-Injector   200 cr            Any armor         Mount one Mount</strong>                                               consumable (Med Patch, Combat Stim, Scrubber). When you drop below 25% HP, it auto-activates for free. One-shot — must reload between encounters."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Impact Gel      300 cr            Armor 2+ only     Reduce falling Layer</strong>                                               damage by 1d6. Reduce Shove/knockback distance by 1 range band. Absorbs blunt force."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Integrated      100 cr            Any armor         Swap Weapon costs Holster</strong>                                             0 AP (Quick Action). One weapon stored internally."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sealed          350 cr            Armor 3+ only     Immune to Environment</strong>                                         airborne Toxicity and inhaled poisons. Doesn’t protect against contact or injected Toxicity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grapple         150 cr            Any armor         +2 to Escape Anchor</strong>                                              Grapple checks. Exterior surface is slick and contoured for escaping holds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ablative        200 cr            Any armor         First hit per Layer</strong>                                               encounter deals 0 damage (armor absorbs the full impact). Layer must be repaired between encounters (50 cr materials). ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Chemical (Crafting T2+ to install, permanent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Armor Type</strong>    <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acid Resist     200 cr            Any armor         Immune to Corrode Coating</strong>                                             condition. Rift Goblin spit, Static Hunter disruptors — none of it degrades your armor."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Thermal         175 cr            Any armor         Immune to Burning Insulation</strong>                                          condition from environmental sources. Still vulnerable to direct weapon-applied Burning."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reflective      250 cr            Light armor only  +1 Evasion vs Treatment</strong>                         (Armor 0-2)       ranged attacks. Surface deflects targeting systems."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity        300 cr            Any armor         -1 Toxicity Dispersal</strong>                                           gained per encounter (stacks with Rift-Walker Suit). Permanent treatment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hardening       250 cr            Armor 3+ only     +1 Armor vs Treatment</strong>                                           critical hits specifically. Reinforced at stress points. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Biological (Crafting T3+ to install, permanent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- --------------- -------------- ------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>        <strong>Cost</strong>       <strong>Materials</strong>   <strong>Armor Type</strong> <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living       600 cr         T3 Bio          Armor 3+ only  Anything that Armor</strong>                       materials                      Grapples you takes 1d6 damage per turn (the armor bites back). Additionally, the armor slowly repairs itself — recovers 1 Armor point per day if damaged by Corrode."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Spore        400 cr         T2 Bio          Any armor      When hit by a Membrane</strong>                    materials                      melee attack, attacker makes Grit check (DC 6) or gains +1 Toxicity. Passive contamination field."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reactive     500 cr         T3 Bio          Light armor    Once per round, Skin</strong>                        materials       only (Armor    when hit, gain +2 0-2)           Evasion until end of your next turn. The armor reacts to threats by hardening."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Symbiotic    700 cr         T3 Bio          Armor 4+ only  At the start of Shell</strong>                       materials                      each encounter, gain temporary HP equal to your Grit bonus. The organism generates a protective buffer. Temp HP doesn’t stack between encounters."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Parasite     450 cr         T2 Bio          Any armor      When you take Mesh</strong>                        materials                      damage, heal 1 HP. Doesn’t trigger on damage-over-time (Bleed, Poison) — only direct hits. The mesh feeds on kinetic energy. -------------- -------------- --------------- -------------- ------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Rift (Crafting T3+ to install, permanent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "--------------- -------------- --------------- -------------- ---------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>         <strong>Cost</strong>       <strong>Materials</strong>   <strong>Armor Type</strong> <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phase         600 cr         T3 Rift         Armor 3+ only  Once per Plates</strong>                       materials                      encounter, when hit by an attack, you can phase — the attack passes through you harmlessly. +2 Toxicity."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dimensional   500 cr         T3 Rift         Any armor      Immune to Anchor</strong>                       materials                      forced movement (knockback, push, drag, teleportation by enemies). You are fixed in local spacetime. +1 Toxicity per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Entropy       700 cr         T3 Rift         Heavy armor    Enemies within Field</strong>                        materials       only (Armor    Adjacent range 5+)            deal -1 damage per die against all targets (not just you). Localized entropy dampens kinetic energy. +1 Toxicity per round active."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift          450 cr         T3 Rift         Any armor      Store up to 3 Capacitor</strong>                    materials                      Toxicity in the armor instead of your body. Can discharge stored Toxicity as a free action (transfers back to you). Useful for Channelers managing casting costs. --------------- -------------- --------------- -------------- ---------------"
+    },
+    {
+      "type": "heading",
+      "text": "Neural (Crafting T2+ to install, swappable)"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Armor Type</strong>    <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Threat HUD</strong>    250 cr            Any armor         At the start of combat, you see enemy HP ranges (full/above half/below half/critical) and active conditions on all enemies within Medium range. Requires neural jack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Proximity       200 cr            Any armor         Cannot be Alert</strong>                                               surprised. You always act in the first round of combat, even in ambushes. Requires neural jack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Damage          150 cr            Any armor         You always know Readout</strong>                                             your exact HP, Toxicity percentage, and active conditions numerically. No guessing. Also displays the same for allies within Close range. Requires neural jack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ally Link</strong>     300 cr            Any armor         All allies with Ally Link can communicate silently (subvocal comms) and share targeting data. +1 accuracy when two or more linked allies attack the same target. Requires neural jack. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Shield Mods"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shields only accept Mechanical mods (you can’t graft a living organism onto a buckler — well, you probably shouldn’t)."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod</strong>           <strong>Cost</strong>          <strong>Shield Type</strong>   <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Spiked Boss</strong>   100 cr            Standard+         Shield Bash attack: d8 accuracy (Chrome), 1d6 damage, 1 AP. Gives shields an offensive option."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mirror Finish</strong> 200 cr            Any               +1 Evasion vs Magic attacks. Reflects some dimensional energy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ablative        150 cr            Standard+         First hit per Coating</strong>                                             encounter absorbed completely (0 damage). Must repair between encounters (25 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Anchor Mount</strong>  200 cr            Tower only        Plant the shield (1 AP). While planted, provides Heavy Cover (+2 Evasion) to you and one ally behind you. You can’t move while planted. Pull it up for 1 AP. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "heading",
+      "text": "Crafting System"
+    },
+    {
+      "type": "heading",
+      "text": "The Crafter Role"
+    },
+    {
+      "type": "paragraph",
+      "text": "A dedicated crafter is a crew force multiplier. They save the crew money on ammo, install mods without shop fees, maintain equipment, and can build things nobody sells. The crafter doesn’t need to swing a weapon well — their contribution is making everyone else’s weapons swing better."
+    },
+    {
+      "type": "heading",
+      "text": "Crafting Skill (Gated)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting is a <strong>gated skill</strong> — you cannot attempt it without at least T1 training. It uses <strong>Interface</strong> as its stat."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tier</strong>                            <strong>Capability</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Tinkerer</strong>                 Craft basic ammunition. Repair damaged equipment. Identify materials and their uses."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 — Fabricator</strong>               Install Mechanical, Chemical, and Neural mods. Craft special ammunition (AP, Incendiary, Rift-Tipped). Create basic consumables (Med Patches, Flares). Salvage mods from destroyed equipment (50% recovery chance)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Artificer</strong>                Install Biological and Rift mods. Craft advanced consumables (Combat Stims, Scrubbers). Design custom mods (work with GM). Create gear from raw rift materials (Bone Edge weapons, Living Armor). Salvage at 75% recovery chance."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Master Artificer</strong>         Create unique gear (one-of-a-kind weapons/armor with custom properties). Install any mod with auto-success (no check). Reverse-engineer enemy equipment. Create experimental mods that exceed normal parameters (GM collaboration). ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Crafting Actions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting happens during <strong>downtime</strong> (between missions). Each crafting action costs 1 downtime activity unless noted."
+    },
+    {
+      "type": "paragraph",
+      "text": "-------------- -------------- -------------- -------------- ---------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Action</strong>     <strong>Tier         </strong>Time<strong>       </strong>Check DC<strong>   </strong>Notes<strong> Required</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Repair       T1             1 activity     DC 6           Restore damaged gear Equipment</strong>                                                 to full function. Costs 25% of gear’s value in materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Craft        T1             1 activity     DC 6           Produce charges worth Ammunition</strong>                                                a credit budget (see ammo crafting table in Equipment)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Install      T2             1 activity     DC 7           On failure, mod not Mechanical                                                  installed. No damage. Mod</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Install      T2             1 activity     DC 8           On failure, mod Chemical Mod</strong>                                              consumed. Must buy another."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Install      T2             1 activity     DC 7           On failure, mod not Neural Mod</strong>                                                installed. No damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Craft        T2             1 activity     DC 7           Create one Consumable</strong>                                                consumable. Costs 50% of retail in materials."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Craft        T2             1 activity     DC 8           Produce special Special Ammo</strong>                                              charges (AP, Incendiary, Rift-Tipped) at 60% of retail materials cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Install      T3             2 activities   DC 9           On failure, mod Biological                                                  consumed. 10% chance Mod</strong>                                                       of 1d6 damage to gear."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Install Rift T3             2 activities   DC 9           On failure, mod Mod</strong>                                                       consumed. +1d6 Toxicity to crafter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Salvage      T2 / T3        1 activity     DC 8           Recover a mod from Mod</strong>                                                       destroyed/discarded gear. T2: 50% success. T3: 75%."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Build from   T3             3 activities   DC 10          Create a piece of Materials</strong>                                                 gear from raw rift materials. Requires appropriate T3 materials. Result is unique — GM and player collaborate on stats."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Custom Mod   T3+            2 activities   DC 10          Design a new mod not Design</strong>                                                    on the standard list. GM approval required."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reverse      T4             2 activities   DC 10          Study enemy Engineer</strong>                                                  equipment. Learn its properties and gain schematics to reproduce similar mods. -------------- -------------- -------------- -------------- ---------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting requires <strong>materials</strong> harvested from rift expeditions or purchased from suppliers."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Material Tier</strong> <strong>Source</strong>        <strong>Cost (if        </strong>Used For<strong> buying)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T1 — Common</strong> Basic rift        25-50 cr per unit Ammo, repairs, harvests, scrap                     basic consumables metal, standard chemicals"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T2 —          Targeted          100-200 cr per    Chemical mods, Uncommon</strong>        harvests,         unit              Neural mods, specific creature                   special ammo, parts, refined                      Biological mods chemicals                           (basic)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T3 — Rare</strong>   Elite creature    300-500 cr per    Biological mods parts,            unit              (advanced), Rift dimensional                         mods, building anomaly residue,                    from scratch rift crystals"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>T4 — Exotic</strong> Boss drops,       500+ cr per unit  Custom mods, unique                              unique gear, dimensional                         experimental materials,                          projects experimental compounds ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Material units are abstract.</strong> One unit of T2 Bio materials might be a Bloom Spitter’s toxin gland, a Stalker’s nerve cluster, or a vial of refined Char residue. The GM determines what’s available based on what the crew harvests."
+    },
+    {
+      "type": "heading",
+      "text": "The Crafter Economy"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Why have a crafter on the crew?</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Service</strong>             <strong>Without Crafter</strong>     <strong>With Crafter</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install Mechanical Mod  50% install fee at shop Free (crafter does it) (100-175 cr)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install                 50% install fee at shop Free Chemical/Bio/Rift Mod   (100-350 cr)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Craft Ammo              Buy at retail           Craft at \\~40-50% retail cost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Craft Consumables       Buy at retail           Craft at \\~50% retail cost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Craft Special Ammo      Buy at retail (2-3×     Craft at \\~60% retail base cost)              materials cost"
+    },
+    {
+      "type": "paragraph",
+      "text": "Salvage Mods            Can’t — shop charges Free with 50-75% 200 cr                  success rate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Repair Equipment        Shop charges 50% gear   25% gear value in value                   materials"
+    },
+    {
+      "type": "paragraph",
+      "text": "Custom Mods             Not available           Available at T3+ ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "A T2 crafter saves the crew roughly <strong>200-500 cr per downtime</strong> through installation fees, discounted ammo, and cheaper repairs. A T3 crafter saves more AND unlocks mods nobody else can access. Over a campaign, the crafter pays for their own training many times over."
+    },
+    {
+      "type": "heading",
+      "text": "Example Builds (Gear + Mods)"
+    },
+    {
+      "type": "heading",
+      "text": "“Whisper“ — Phantom Sniper Rifle Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Component</strong>                       <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon</strong>                          Sniper Rifle (d6, 3d10, 5 AP, Heavy)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 1</strong>                           Suppressor (300 cr, Mechanical) — remain hidden after firing"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 2</strong>                           Reaction Sights (300 cr, Mechanical) — Overwatch at weapon AP, not +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 3</strong>                           Predictive Aim (350 cr, Neural) — +1 acc vs targets that moved"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total Mod Cost</strong>                  950 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          Fires from stealth without revealing position. Overwatches at 5 AP instead of 6 (now possible within a single turn). +3 total accuracy vs stationary targets at range (+2 base conditional + 1 Predictive for movers). The definitive sniper platform. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "“Meatgrinder“ — Berserker Heavy Axe Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Component</strong>                       <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon</strong>                          Heavy Axe (d6, 3d10, 4 AP, Heavy)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 1</strong>                           Balanced Haft (150 cr, Mechanical) — AP cost reduced to 3"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 2</strong>                           Corrosive Treatment (250 cr, Chemical, permanent) — Corrode 1 on hit"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total Mod Cost</strong>                  400 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          3 AP attacks that strip armor on every hit. At 3 AP, you can swing + move, or swing + use item. The Corrode stacking means every hit makes the NEXT hit deadlier. Against an Armor 6 target, three hits = Corrode 3 = effective Armor"
+    },
+    {
+      "type": "paragraph",
+      "text": "3. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "“The Parasite“ — Leech Living Armor Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Component</strong>                       <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong>                           Heavy Plate (Armor 6, Ev cap 3)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 1</strong>                           Living Armor (600 cr, Biological, permanent) — grappled enemies take 1d6/turn, self-repairing"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 2</strong>                           Symbiotic Shell (700 cr, Biological, permanent) — temp HP = Grit bonus per encounter"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 3</strong>                           Spore Membrane (400 cr, Biological, permanent) — melee attackers gain +1 Toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total Mod Cost</strong>                  1,700 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          A walking biohazard fortress. Anything that grabs you takes 1d6/turn. Anything that hits you in melee risks +1 Toxicity. You start each fight with bonus HP. The armor repairs its own Corrode damage. Combined with Leech augments, you’re a nightmare to engage in melee. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "“Field Commander“ — Negotiator Support Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Component</strong>                       <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor</strong>                           Corp Tactical (Armor 4, Ev cap 5)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 1</strong>                           Threat HUD (250 cr, Neural) — see all enemy HP/conditions"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 2</strong>                           Ally Link (300 cr, Neural) — silent comms, +1 acc when focus-firing"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod 3</strong>                           Auto-Injector Mount (200 cr, Mechanical) — auto Med Patch at 25% HP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weapon</strong>                          Burst Pistol with Targeting Link (300 cr, Neural)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total Mod Cost</strong>                  1,050 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Result</strong>                          Sees the entire battlefield state. Coordinates the crew through subvocal comms. When two linked allies attack the same target, +1 accuracy for both. Auto-heals when low. The Negotiator doesn’t need to do damage — they make everyone else’s damage count more. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Quick Reference"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Category</strong>            <strong>Slots</strong>               <strong>Common Mods</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Light weapon            1                       Quick Mag, Reflex Sights, Venom Coating"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medium weapon           2                       Precision Sights + Serrated Edge, Balanced Haft + Corrosive Treatment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy weapon            2-3                     Stabilizer + Reaction Sights + Phase Rounds, Balanced Haft + Bone Edge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Light armor             0-1                     Reflective Treatment, Reactive Skin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medium armor            2-3                     Reinforced Plating + Sealed Environment, Acid Resist + Auto-Injector"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy armor             3-4                     Living Armor + Symbiotic Shell + Phase Plates"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shields                 0-2                     Spiked Boss, Anchor Mount ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mod Type</strong>      <strong>Installer</strong>     <strong>Removable</strong>     <strong>Failure Risk</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanical        Tech T2+          Yes               None"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chemical          Crafting T2+      No (permanent)    Mod consumed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Biological        Crafting T3+      No (permanent)    Mod consumed + possible gear damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift              Crafting T3+      No (permanent)    Mod consumed + Toxicity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Neural            Crafting T2+      Swap (dormant)    None ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Vehicle operation within corporate zones requires a valid transit license (Class C minimum). Vehicle operation within rift zones requires a Class R endorsement, hazard insurance, and a notarized acknowledgment that your insurer will not cover dimensional displacement of the vehicle or its contents. Unlicensed operation is punishable by asset seizure. Your vehicle is an asset. So are you.“</em>"
+    }
+  ]
+}

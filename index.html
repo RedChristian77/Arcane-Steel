@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arcane Steel — Contractor's Handbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/tables.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/search.css">
+  <link rel="stylesheet" href="css/chapter-nav.css">
+  <link rel="stylesheet" href="css/progress.css">
+</head>
+<body>
+  <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="mobile-hdr">
+    <button class="mobile-btn" onclick="toggleSidebar()">☰</button>
+    <span class="mobile-title">ARCANE STEEL</span>
+    <button class="mobile-btn" onclick="openSearch()">⌕</button>
+  </div>
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+  <div class="search-overlay" id="searchOverlay" onclick="if(event.target===this)closeSearch()">
+    <div class="search-modal">
+      <div class="search-bar">
+        <span class="search-ico">⌕</span>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search the handbook…" oninput="doSearch(this.value)" autocomplete="off">
+      </div>
+      <div class="search-results" id="searchResults">
+        <div class="search-empty">Type to search…</div>
+      </div>
+    </div>
+  </div>
+  <div class="layout">
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-hdr">
+        <div class="sidebar-logo">Arcane Steel</div>
+        <div class="sidebar-sub">Contractor's Handbook v0.3</div>
+      </div>
+      <button class="search-trigger" onclick="openSearch()"><span>⌕</span> Search… <kbd>⌘K</kbd></button>
+      <div class="sidebar-nav" id="sidebarNav"></div>
+      <div class="sidebar-ft">
+        <button class="sidebar-btn" onclick="toggleTheme()" id="themeBtn">☀ Light</button>
+      </div>
+    </nav>
+    <main class="main" id="mainContent"></main>
+  </div>
+  <script src="js/components/theme.js"></script>
+  <script src="js/components/progress.js"></script>
+  <script src="js/components/sections.js"></script>
+  <script src="js/components/content.js"></script>
+  <script src="js/components/home.js"></script>
+  <script src="js/components/page.js"></script>
+  <script src="js/components/sidebar.js"></script>
+  <script src="js/components/search.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

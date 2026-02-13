@@ -1,0 +1,687 @@
+{
+  "id": "combat-special",
+  "title": "Special Actions",
+  "subtitle": "Grappling, shoving, overwatch",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Grappling"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grappling is melee wrestling — grabbing someone and not letting go. It’s a tool for controlling enemy positioning, holding a target still for your crew, or dragging someone where they don’t want to be."
+    },
+    {
+      "type": "heading",
+      "text": "Starting a Grapple"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Cost:</strong> 2 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target’s Chrome. Success = Grappled. Failure = nothing happens.  • Creatures of dramatically different sizes modify the check (GM discretion — grappling something three times your size is harder)."
+    },
+    {
+      "type": "heading",
+      "text": "While Grappled"
+    },
+    {
+      "type": "paragraph",
+      "text": "The grappled target:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Cannot move (speed = 0)  • Has -1 Evasion  • Can still attack, use items, and use abilities normally (they’re held, not helpless)  • Can attempt to <strong>Escape</strong> (1 AP, Chrome check vs grappler’s Chrome)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The grappler:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Can <strong>Drag</strong> the target (1 AP = move 1 range band, target comes with you)  • Can attack the grappled target at +1 accuracy (they’re held in place)  • Can <strong>Throw</strong> the target (1 AP, Chrome check DC 7 — success = target is pushed 1 range band and knocked Prone)  • Cannot use two-handed weapons while grappling (one hand is occupied)  • Can release the grapple as a Quick Action (free)"
+    },
+    {
+      "type": "heading",
+      "text": "Grapple Chains"
+    },
+    {
+      "type": "paragraph",
+      "text": "A grappled target who fails to Escape can be grappled continuously. The grappler doesn’t need to re-roll each turn — the grapple persists until the target Escapes, the grappler releases, or the grappler is incapacitated."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Leech synergy:</strong> Leech Grip (ability) adds +2 Toxicity per turn to a grappled target. A Leech who grabs you and holds on is pumping contamination directly into your system."
+    },
+    {
+      "type": "heading",
+      "text": "Shoving"
+    },
+    {
+      "type": "paragraph",
+      "text": "A quick physical push to reposition an enemy or knock them down."
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Cost:</strong> 1 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target’s Chrome  • <strong>On success, choose one:</strong>  • <strong>Push:</strong> Target moves 1 range band in a direction you choose. Can push into hazards, off ledges, or into your crew’s kill zone.  • <strong>Knock Prone:</strong> Target gains the Prone condition (-2 Evasion, costs 1 AP to stand).  • <strong>On failure:</strong> Nothing happens. You bounce off."
+    },
+    {
+      "type": "paragraph",
+      "text": "Shoving is cheaper than Grappling (1 AP vs 2) but temporary — the target isn’t held, just displaced. Use it for positioning rather than control."
+    },
+    {
+      "type": "heading",
+      "text": "Overwatch"
+    },
+    {
+      "type": "paragraph",
+      "text": "Setting up to shoot anyone who moves through your firing lane."
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Cost:</strong> Weapon AP + 1 (spent on your turn). A Combat Knife (1 AP) costs 2 AP to Overwatch. A Sniper Rifle (5 AP) costs 6 AP — meaning you need to have saved AP from a previous round or have an AP bonus to Overwatch with heavy weapons. This is intentional.  • <strong>Range:</strong> Your weapon’s effective range  • <strong>Effect:</strong> You reserve your attack. The next enemy that moves within your line of sight this round triggers one attack from you as an interrupt (resolved before their movement completes). Uses your full weapon stats — accuracy, damage, everything.  • <strong>Limit:</strong> One Overwatch attack per setup. After it triggers, you’re done until your next turn.  • <strong>Doesn’t use your Reaction.</strong> Overwatch is pre-set, not reactive. You can Overwatch AND make an Opportunity Attack in the same round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why weapon AP + 1?</strong> Overwatch is powerful — you get to shoot at something that has to move into your sights, and you interrupt their action. The +1 AP tax ensures it’s always more expensive than just shooting. A Corp Rifle (3 AP) costs 4 AP to Overwatch. That means you can Overwatch and still have 1 AP for movement — a reasonable tactical choice. A Sniper Rifle at 6 AP means you’re dedicating your entire turn plus needing a bonus to pull it off, which makes Overwatch with heavy weapons a rare, deliberate setup rather than the default play."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Overwatch vs. Opportunity Attacks:</strong> Opportunity Attacks are free reactive snap strikes (1d6 + stat, fixed) when someone leaves your melee range. Overwatch is a deliberate ranged setup (weapon AP + 1) that uses your full weapon stats. They serve different purposes — OA punishes retreat with a small tax, Overwatch punishes advance with a real shot."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suppression vs. Overwatch:</strong> Suppression (3 AP) affects an entire zone with debuffs but deals no damage. Overwatch (weapon AP + 1) targets one enemy with an actual attack. Suppression is area denial, Overwatch is targeted threat."
+    },
+    {
+      "type": "heading",
+      "text": "Cover and Positioning"
+    },
+    {
+      "type": "heading",
+      "text": "Taking Cover"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Cost:</strong> 1 AP (move into available cover in your zone)  • <strong>Effect:</strong> Gain <strong>In Cover</strong> condition: +2 Evasion against ranged attacks from the covered direction only. Attacks from other angles or melee attacks ignore cover.  • Cover is environmental — walls, crates, vehicles, pillars, rubble. The GM describes what’s available.  • You can attack from cover normally. Leaving cover (moving out of the zone or standing up from behind it) removes the condition."
+    },
+    {
+      "type": "heading",
+      "text": "Cover Types"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cover</strong>               <strong>Evasion Bonus</strong>       <strong>Description</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Light Cover</strong>         +1                      Thin walls, furniture, foliage. Blocks line of sight partially."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Heavy Cover</strong>         +2                      Concrete walls, vehicles, fortified positions. Blocks most angles."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Total Cover</strong>         Can’t be targeted      Fully enclosed. You can’t be shot and you can’t shoot. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "High Ground"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attacking from above (elevated position, rooftop, balcony) grants +1 accuracy on ranged attacks against targets below. Defending from high ground grants +1 Evasion against melee attacks from below (they have to climb to reach you)."
+    },
+    {
+      "type": "heading",
+      "text": "Flanking"
+    },
+    {
+      "type": "paragraph",
+      "text": "When two attackers are on <strong>opposite sides</strong> of a target (180° apart, roughly), both get <strong>+2 accuracy</strong> against that target. This is the Flanked condition. It requires deliberate positioning — one ally engages the front, another circles behind."
+    },
+    {
+      "type": "paragraph",
+      "text": "Flanking is the simplest and most powerful tactical setup. Two contractors dealing 2d8 each are dangerous. Two contractors dealing 2d8 each with +2 accuracy are lethal. Positioning wins fights."
+    },
+    {
+      "type": "heading",
+      "text": "The Attack: Step by Step"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every attack follows the same flow. One attack = one AP cost = one resolution."
+    },
+    {
+      "type": "heading",
+      "text": "Step 1: Roll Accuracy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every weapon has a single <strong>accuracy die</strong> — the die you roll to see if the attack lands. Bigger die = easier to hit. Smaller die = harder to hit but the weapon hits harder when it does."
+    },
+    {
+      "type": "paragraph",
+      "text": "Roll your weapon’s accuracy die and add your <strong>stat bonus.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stat Value</strong>                      <strong>Bonus</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "2-3                                 +1"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-5                                 +2"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-7                                 +3"
+    },
+    {
+      "type": "paragraph",
+      "text": "8-9                                 +4"
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  +5 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Which stat?</em>  • <strong>Chrome</strong> → Melee weapon accuracy  • <strong>Reflex</strong> → Ranged weapon accuracy (and melee weapons with the <strong>Finesse</strong> tag)  • <strong>Interface</strong> → Rift pattern accuracy  <em>If the total (die + bonus) meets or exceeds the target’s Evasion, it’s a Hit.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Chrome 6 (+3 bonus). You swing a Heavy Axe (d6 accuracy): roll a 3. Total: 3 + 3 = 6. Target Evasion 5? That’s a Hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Reflex 8 (+4 bonus). You fire a Corp Rifle (d8 accuracy): roll a 2. Total: 2 + 4 = 6. Target Evasion 5? Hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Reflex 4 (+2 bonus). You stab with a Combat Knife (d12 accuracy): roll a 1. Total: 1 + 2 = 3. Target Evasion 5? Miss."
+    },
+    {
+      "type": "heading",
+      "text": "Step 2: Apply Weapon Modifiers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some weapons have <strong>conditional modifiers</strong> — bonuses or penalties based on the combat situation."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Examples:</em>  • Heavy Axe: +2 accuracy if you moved toward target this turn.  • Sniper Rifle: +2 accuracy if you didn’t move. +2 if target didn’t move. -2 if you moved. -2 if target moved.  • Scatter Gun: +2 accuracy at Adjacent/Close range. -2 at Medium+ range.  • Spear: +2 accuracy vs targets who moved toward you this round."
+    },
+    {
+      "type": "paragraph",
+      "text": "Modifiers apply to the total accuracy roll. The total can’t go below 1."
+    },
+    {
+      "type": "heading",
+      "text": "Step 3: Roll Damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "On a Hit, roll the weapon’s <strong>damage dice.</strong> Each weapon has a fixed damage profile."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Combat Knife hit → roll 1d6 damage. <strong>Example:</strong> Heavy Axe hit → roll 3d10 damage. <strong>Example:</strong> Rift Lance hit → roll 3d12 damage."
+    },
+    {
+      "type": "heading",
+      "text": "Step 4: Subtract Armor"
+    },
+    {
+      "type": "paragraph",
+      "text": "The target’s <strong>Armor</strong> value is subtracted from <strong>each damage die individually.</strong> A damage die reduced below 1 deals 0 damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Heavy Axe deals 3d10: roll 8, 3, 9. Target has Armor 3. Each die loses 3: 5, 0, 6 = 11 total damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Combat Knife deals 1d6: roll 4. Target has Armor 3. 4 - 3 = 1 damage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Combat Knife deals 1d6: roll 2. Target has Armor 3. 2 - 3 = 0 damage. The blade bounces off."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why weapon choice matters against armored targets. Heavy weapons roll big damage dice that punch through armor. Light weapons roll small dice that get eaten by armor. Against armored enemies, you need big hits — not fast ones."
+    },
+    {
+      "type": "heading",
+      "text": "Step 5: Apply Damage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Subtract total remaining damage from the target’s HP. <strong>If HP reaches 0:</strong> See “Going Down“ below."
+    },
+    {
+      "type": "heading",
+      "text": "Attack Flow Summary"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1.</strong> Roll accuracy die + stat bonus  <strong>2.</strong> Apply weapon conditional modifiers  <strong>3.</strong> Total ≥ Evasion = Hit  <strong>4.</strong> Hit → roll weapon damage dice  <strong>5.</strong> Subtract Armor from each damage die  <strong>6.</strong> Total remaining = damage dealt"
+    },
+    {
+      "type": "heading",
+      "text": "Weapon AP Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every weapon has an AP cost that determines how many times you can attack per turn and how much flexibility you have left over."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ------------------ ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP Cost</strong>       <strong>Attacks/Turn</strong>   <strong>Spare AP</strong>      <strong>Tactical Profile</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1 AP              5 attacks          0                 All-in flurry. No movement, no items. Pure aggression."
+    },
+    {
+      "type": "paragraph",
+      "text": "2 AP              2 attacks          1                 Two strikes, one spare for Move or Item. Balanced."
+    },
+    {
+      "type": "paragraph",
+      "text": "3 AP              1 attack           2                 One strike, full tactical flexibility (Move + Item)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4 AP              1 attack           1                 One devastating blow, one spare for Move or Item."
+    },
+    {
+      "type": "paragraph",
+      "text": "5 AP              1 attack           0                 Full commitment. Everything goes into one shot. ----------------- ------------------ ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The trade-off is always damage vs. flexibility.</strong> A contractor with a Combat Knife (1 AP) can stab five times per turn but can’t move or use items. A contractor with a Longsword (3 AP) hits once but can move and use a healing stim on the same turn."
+    },
+    {
+      "type": "heading",
+      "text": "Critical Hits"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A natural maximum on the accuracy die = Critical Hit.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Roll the accuracy die. If the die shows its highest face <em>before</em> adding bonuses, it’s a crit. A d6 showing 6. A d12 showing 12. The stat bonus doesn’t matter — only the natural roll."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage  <em>Crit chance by accuracy die:</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Accuracy Die</strong>        <strong>Crit Chance Per       </strong>Crit Chance Per Turn Attack<strong>                (at max attacks)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "d4                      25%                     25% (1 attack)"
+    },
+    {
+      "type": "paragraph",
+      "text": "d6                      16.7%                   16.7% (1 attack)"
+    },
+    {
+      "type": "paragraph",
+      "text": "d8                      12.5%                   12.5% (1 attack)"
+    },
+    {
+      "type": "paragraph",
+      "text": "d10                     10%                     19% (2 attacks)"
+    },
+    {
+      "type": "paragraph",
+      "text": "d12                     8.3%                    35% (5 attacks) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy weapons (small accuracy dice) crit more often per swing — but they only swing once. Light weapons (large accuracy dice) crit less per swing but get many more chances. Over a full turn, a knife wielder making 5 attacks has roughly the same crit probability as a heavy weapon user making one."
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference: a knife crit doubles 1d6 to 2d6 (average 7). A Great Maul crit doubles 4d12 to 8d12 (average 52). Crits on heavy weapons end fights."
+    },
+    {
+      "type": "heading",
+      "text": "Evasion"
+    },
+    {
+      "type": "paragraph",
+      "text": "Evasion is the threshold each accuracy roll must meet or exceed to count as a Hit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Base Evasion = 3 + Edge bonus.</strong> Modified by armor, augments, conditions, and cover."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evasion</strong>             <strong>Difficulty</strong>          <strong>Rough Equivalent</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "2-3                     Easy to hit             Slow, large, unaware"
+    },
+    {
+      "type": "paragraph",
+      "text": "4-5                     Standard                Average contractor"
+    },
+    {
+      "type": "paragraph",
+      "text": "6-7                     Hard to hit             Agile, augmented"
+    },
+    {
+      "type": "paragraph",
+      "text": "8+                      Very hard               Exceptional evasion, heavy cover ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor caps Evasion.</strong> Heavy armor limits how much your Edge stat contributes to Evasion."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Armor Type</strong>    <strong>Armor Value</strong>   <strong>Evasion Cap</strong>   <strong>Chrome Required</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Street Clothes    0                 No cap            —"
+    },
+    {
+      "type": "paragraph",
+      "text": "Light Weave       2                 No cap            —"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor        4                 6                 Chrome 2 Standard"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy Plate       6                 3                 Chrome 4"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corp Tactical     5                 4                 Chrome 3"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift-Walker Suit  3                 No cap            Interface 4 ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> A contractor with Edge 7 wearing Heavy Plate (Evasion Cap 3) has Evasion 3, not 7. They traded mobility for protection."
+    },
+    {
+      "type": "heading",
+      "text": "Armor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armor is a flat reduction applied to <strong>each damage die individually.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Armor comes from <strong>equipment only</strong> — no stat directly grants Armor. Chrome lets you wear heavier armor. Grit doesn’t contribute to Armor."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Why per-die reduction matters:</em>  • Against 3d10 (big hits): Armor 3 reduces by 9 total (3 per die × 3 dice). Most dice still deal damage.  • Against five 1d6 hits (many small hits): Armor 3 reduces by 15 total (3 per die × 5 dice). Most dice deal 0."
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy armor is devastating against fast, light weapons. Big, slow weapons punch through it. This is intentional — weapon choice against different enemies is a tactical decision."
+    },
+    {
+      "type": "heading",
+      "text": "Hit Points"
+    },
+    {
+      "type": "paragraph",
+      "text": "HP pools are moderate — typically 18-24 for starting contractors. Grit determines your HP."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>HP = 12 + (Grit × 2)</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grit</strong>                            <strong>HP</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   18"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   20"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   22"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   24"
+    },
+    {
+      "type": "paragraph",
+      "text": "8                                   28"
+    },
+    {
+      "type": "paragraph",
+      "text": "10                                  32 ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HP does not decrease your combat effectiveness.</strong> A contractor at 1 HP fights as well as a contractor at full HP. There is no death spiral. You fight at full capacity until you hit 0 — then the consequences happen all at once."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Healing during combat:</em>  • Healing stims (1 AP to use, restores Xd4 HP)  • Draining Touch (Leech tree — heal on melee hit)  • Sin Eater abilities (Sympathetic Healing, Tox Channel)  • Augment-specific healing abilities  • Magical healing (costs toxicity)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Healing between combat:</strong> HP recovery during downtime is tied to your sleeping arrangements. Street lodging heals 1 HP/day. Capsule heals 2. Apartment heals 3. Upscale heals 4 + Grit bonus. Luxury heals to full overnight. A crewmate with Medicine T2+ tending to you adds +2 HP/day. See Downtime for full recovery rates."
+    },
+    {
+      "type": "heading",
+      "text": "Going Down (0 HP)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a contractor reaches 0 HP:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Gain +1 Scar</strong> (permanent until treated)  <strong>2. Roll 1d20 vs Death DC</strong> (based on total Scars)  <strong>3. Success:</strong> Stabilize at 50% max HP. You’re alive. Get up next turn.  <strong>4. Failure:</strong> Flatline. Death or harvesting (GM’s call based on circumstances)."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scars</strong>               <strong>Death DC</strong>            <strong>Survival %</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       0                       100% (free one)"
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       2                       95%"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                       5                       80%"
+    },
+    {
+      "type": "paragraph",
+      "text": "4                       8                       65%"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                       11                      50%"
+    },
+    {
+      "type": "paragraph",
+      "text": "6                       14                      35%"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                       17                      20%"
+    },
+    {
+      "type": "paragraph",
+      "text": "8+                      19                      10% ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Your first time hitting 0 HP per career is free.</strong> Scar 1 has Death DC 0 — automatic survival. After that, the odds get worse."
+    },
+    {
+      "type": "paragraph",
+      "text": "Scars cause <strong>cumulative debuffs</strong> (see Scars & Toxicity). Treatment costs money. Money comes from missions. Missions cause Scars."
+    },
+    {
+      "type": "heading",
+      "text": "Dual Wielding"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the AP system, dual wielding means making separate attacks with each weapon, each costing its own AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Off-hand penalty:</strong> -1 to accuracy rolls with your off-hand weapon."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evasion penalty:</strong> -1 Evasion while dual wielding (regardless of weapon weights)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Dual Precision Blades (2 AP each). Main hand: d10 + stat bonus. Off-hand: d10 + stat bonus - 1. Total: 4 AP used, 1 spare for Move. Two attacks with slight off-hand penalty, trading mobility for damage consistency."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> Dual Combat Knives (1 AP each). Alternate main/off: 5 attacks, some at -1. All AP spent — no movement, no items. Pure aggression."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Heavy weapons cannot be dual-wielded.</strong> Medium weapons can be used off-hand at -2 accuracy instead of -1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment synergy:</strong> The Dancer tree reduces and eventually removes dual-wield penalties (Ambidextrous Wiring reduces off-hand penalty, Flow State removes evasion penalty for light weapons)."
+    },
+    {
+      "type": "heading",
+      "text": "Initiative & Turn Order"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arcane Steel uses a <strong>Handoff Initiative</strong> system. No individual initiative rolls. No tracking a dozen turn slots."
+    },
+    {
+      "type": "heading",
+      "text": "Round Start"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Highest Reflex on each side</strong> determines who acts first overall.  <strong>2.</strong> The first side takes one activation (one player or one enemy group).  <strong>3.</strong> Then the other side takes one activation.  <strong>4.</strong> Alternate back and forth until all activations are spent.  <strong>5.</strong> If one side runs out of activations, the other side finishes their remaining activations consecutively."
+    },
+    {
+      "type": "heading",
+      "text": "Player Side"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Players choose their own order.</strong> When it’s the player side’s activation, the group decides who goes. No fixed sequence — adapt to the tactical situation each round."
+    },
+    {
+      "type": "heading",
+      "text": "Enemy Side"
+    },
+    {
+      "type": "paragraph",
+      "text": "The GM controls enemy activation order. Each enemy or enemy group gets one activation per round (with exceptions for bosses)."
+    },
+    {
+      "type": "heading",
+      "text": "Activation Balance"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Design principle: activations per side should roughly match.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "4 players = approximately 4 enemy activations."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Enemy Type</strong>                      <strong>Activations</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Minion Horde (any size)             1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard Enemy                      1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Elite                               1 (2 for large elites)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Boss                                2-3 ----------------------------------- -----------------------------------"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "creation-kits",
+  "title": "Kits",
+  "subtitle": "Your combat specialization and starting gear",
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Your Kit is your entry point into the augment system. It gives you a starting augment tree, a free T1 augment, a kit ability, starting gear, and a recommended stat lean. <strong>Choose one kit or go Custom.</strong>"
+    },
+    {
+      "type": "kit-grid",
+      "kits": [
+        {
+          "name": "Berserker",
+          "tree": "Fury",
+          "aug": "Adrenal Injector",
+          "ability": "Aggressive Stance",
+          "lean": "Chrome / Grit",
+          "gear": "Heavy Axe, Combat Knife, Contractor Standard",
+          "desc": "Close distance, hit hard, take hits. Pain is fuel.",
+          "icon": "🔥"
+        },
+        {
+          "name": "Operative",
+          "tree": "Precision",
+          "aug": "Targeting Suite",
+          "ability": "Steady Aim",
+          "lean": "Reflex / Edge",
+          "gear": "Corp Rifle, Burst Pistol, Light Weave",
+          "desc": "Shoot first, shoot accurately, control sightlines.",
+          "icon": "🎯"
+        },
+        {
+          "name": "Channeler",
+          "tree": "Rift",
+          "aug": "Rift Attunement",
+          "ability": "Rift Sense",
+          "lean": "Interface / Grit",
+          "gear": "Rift Staff, Combat Knife, Rift-Walker Suit",
+          "desc": "Reshape the battlefield with dimensional energy.",
+          "icon": "🌀"
+        },
+        {
+          "name": "Technician",
+          "tree": "Systems",
+          "aug": "Neural Jack",
+          "ability": "System Scan",
+          "lean": "Interface / Edge",
+          "gear": "Burst Pistol, Neural Probe, Corp Tactical",
+          "desc": "Hack systems, disrupt augments, support the crew.",
+          "icon": "⚙️"
+        },
+        {
+          "name": "Negotiator",
+          "tree": "Influence",
+          "aug": "Social Implant",
+          "ability": "Read the Room",
+          "lean": "Edge / Interface",
+          "gear": "Burst Pistol, Light Weave, +100cr",
+          "desc": "Talk your way through. Every problem has a price.",
+          "icon": "🗣️"
+        },
+        {
+          "name": "Bulwark",
+          "tree": "Fortress",
+          "aug": "Subdermal Plating",
+          "ability": "Hold the Line",
+          "lean": "Chrome / Grit",
+          "gear": "Precision Blade, Heavy Plate",
+          "desc": "Stand in front. Absorb damage. Protect your crew.",
+          "icon": "🛡️"
+        },
+        {
+          "name": "Phantom",
+          "tree": "Shadow",
+          "aug": "Optical Camo Weave",
+          "ability": "Ambush Training",
+          "lean": "Reflex / Edge",
+          "gear": "Precision Blade ×2, Light Weave",
+          "desc": "Move unseen. Strike from ambush. Disappear.",
+          "icon": "👤"
+        },
+        {
+          "name": "Dancer",
+          "tree": "Dancer",
+          "aug": "Ambidextrous Wiring",
+          "ability": "Fluid Movement",
+          "lean": "Reflex / Chrome",
+          "gear": "Precision Blade ×2, Light Weave",
+          "desc": "Dual-wield, move constantly, strike from every angle.",
+          "icon": "💃"
+        },
+        {
+          "name": "Leech",
+          "tree": "Leech",
+          "aug": "Empathic Reactor",
+          "ability": "Toxic Touch",
+          "lean": "Grit / Chrome",
+          "gear": "Gauntlets, Combat Knife, Contractor Standard",
+          "desc": "Mainline rift contamination for power. Burn and bleed.",
+          "icon": "☣️"
+        },
+        {
+          "name": "Sin Eater",
+          "tree": "Sin Eater",
+          "aug": "Empathic Link",
+          "ability": "Burden Sense",
+          "lean": "Interface / Edge",
+          "gear": "Siphon Rod, Combat Knife, Light Weave",
+          "desc": "Pull suffering from allies. Redirect it at enemies.",
+          "icon": "😈"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Custom Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "Don't want a kit? Take <strong>1,200 cr</strong> to build your own loadout. Pick any weapons, armor, shield, and one T1 augment from any tree. Your résumé credits are kept separately as starting cash. Use the Character Builder for guided custom builds."
+    }
+  ]
+}

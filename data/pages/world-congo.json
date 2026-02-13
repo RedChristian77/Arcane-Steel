@@ -1,0 +1,47 @@
+{
+  "id": "world-congo",
+  "title": "Congo Industries",
+  "subtitle": "Extraction (primary), Denial (secondary)",
+  "content": [
+    {
+      "type": "corp-profile",
+      "name": "Congo Industries",
+      "icon": "⛏️",
+      "doctrine": "Extraction (primary), Denial (secondary)",
+      "culture": "Ancient logistics/resource conglomerate",
+      "want": "Volume. Raw materials by the ton.",
+      "pay": "Volume-based. Base pay average, tonnage bonuses generous.",
+      "vibe": "Efficient. Impersonal. You are a logistics resource.",
+      "contracts": [
+        {
+          "name": "Bulk Extraction",
+          "desc": "Enter a rift, harvest everything, haul it back. Payout scales with tonnage."
+        },
+        {
+          "name": "Route Clearance",
+          "desc": "Congo's interdimensional supply routes need maintaining."
+        },
+        {
+          "name": "Perimeter Defense",
+          "desc": "Guard a Congo extraction site against rift fauna and rival scouts."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Doctrine:</strong> Extraction (primary), Denial (secondary) <strong>Culture Origin:</strong> Ancient logistics/retail megacorporation. The name is all that remains of a delivery empire that once promised everything, everywhere, in two days. A thousand years later, the Two-Day Promise is a religious covenant. Congo doesn’t just extract from rifts — they warehouse, catalog, distribute, and deliver. The rift is a supply chain. Everything is a supply chain. <strong>Aesthetic:</strong> Brown and gold. Warehouses the size of cities. Sorting facilities that never close. The arrow logo — once a simple brand mark — has become a sacred geometry. It points forward. Always forward. Citizens wear it over their hearts. <strong>Citizen Identity:</strong> Fulfillers. Every citizen is part of the chain — picking, packing, shipping, delivering. Not metaphorically. The caste system is literally organized by fulfillment role. Pickers harvest. Packers process. Shippers transport. Deliverers are the warrior-clergy who ensure goods reach their destination. The Founder — a figure of mythic proportions, bald and laughing, ascending to the stars on a pillar of fire — is worshipped as the First Deliverer."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What They Want From Rifts:</strong> Volume. Raw materials by the ton. Exotic goods for cataloging and distribution. Congo’s rift operations are industrial-scale extraction with logistics precision. They don’t just mine the rift — they’ve built sorting facilities on the other side. Forward operating warehouses in other dimensions. The supply chain extends through reality itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pay:</strong> Volume-based. Base pay is average, but tonnage bonuses are generous. Congo’s motto for contractors: “Fill the manifest.“ The more you haul, the more you earn. Vehicle owners thrive here."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Working For Congo:</strong> Efficient. Impersonal. You are a logistics resource. Your contractor ID is a tracking number. Briefings are automated — you receive a manifest, a route, and a deadline. Meet the deadline, get paid. Miss it, get docked. Congo doesn’t hate you. Congo doesn’t think about you. You’re a line on a spreadsheet that either resolves green or red."
+    }
+  ]
+}

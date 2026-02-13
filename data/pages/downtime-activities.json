@@ -1,0 +1,833 @@
+{
+  "id": "downtime-activities",
+  "title": "Downtime Activities",
+  "subtitle": "What to do between contracts",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>What You Do Between the Dying</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Downtime between contracts is the contractor’s responsibility. Time management, self-care, and professional development are not subsidized. Your next contract ping may arrive at any time. Be ready. Or don’t. We have other contractors.“</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Downtime Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "Between missions, contractors have <strong>open-ended downtime</strong> — days pass until the next contract arrives or the team decides to take one. Each day follows a simple structure:"
+    },
+    {
+      "type": "heading",
+      "text": "The Day"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each day you have <strong>4 Action Points (AP).</strong> You spend them on activities."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sleep is mandatory.</strong> It costs 1 AP. You can skip it — but there are consequences."
+    },
+    {
+      "type": "paragraph",
+      "text": "That leaves <strong>3 AP</strong> for productive activities each day. Some activities cost 1 AP (quick tasks), some cost 2 AP (half-day commitments), some cost 3 AP (full-day dedication). A few cost 4 AP (grueling ordeals that leave no time for anything else, including proper sleep)."
+    },
+    {
+      "type": "heading",
+      "text": "The Economy of Time"
+    },
+    {
+      "type": "paragraph",
+      "text": "Downtime is free in the sense that nobody’s shooting at you. It is not free in any other sense."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Costs:</strong> Every day of downtime costs credits just to exist. See the <strong>Cost of Living & Base of Operations</strong> document for full lifestyle tiers, mechanical effects, and the base-building system. Quick reference:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Lifestyle</strong>     <strong>Cost/Day</strong>      <strong>Key Effect</strong>    <strong>HP Recovery/Day</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Street</strong>        5 cr/day          -1 first          1 HP (if you can check/day. Theft  sleep at all) risk. No address."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Capsule</strong>       15 cr/day         Neutral baseline. 2 HP Lockable storage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Apartment</strong>     30 cr/day         Standard comfort. 3 HP Gear storage. Workspace."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Upscale</strong>       75 cr/day         +1 stress         4 HP + Grit bonus recovery. -2 toxicity/day. +1 social (corps)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Luxury</strong>        200 cr/day        +2 stress         Full HP (complete recovery. -3      recovery toxicity/day. +2  overnight) social. Full workshop. Visible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Corporate       0 cr/day          Free. Monitored.  3 HP (decent Housing</strong>                           -1 social (other  facilities, no contractors).     privacy) ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HP Recovery</strong> happens automatically with sleep. No check, no AP cost beyond the mandatory Sleep activity. You heal the listed amount per day."
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor at 5 HP in a Capsule takes <strong>8 days</strong> to fully heal (16 HP recovered). At 15 cr/day, that’s <strong>120 cr</strong> just to get back to fighting shape. The same contractor in Luxury heals overnight for 200 cr. The choice: slow and cheap, or fast and expensive. The economic pressure never stops, even when you’re resting."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grit bonus on Upscale:</strong> Your body heals faster in comfort. Add your Grit stat bonus to the 4 HP base. A Grit 4 contractor recovers 8 HP/day in Upscale housing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medicine skill bonus:</strong> If a crewmate with Medicine T2+ tends to you during downtime (costs them 1 AP), add +2 HP to your daily recovery regardless of lodging. The field medic earns their keep between missions too."
+    },
+    {
+      "type": "paragraph",
+      "text": "Living costs are paid daily. A contractor earning 500 cr per mission who takes 10 days of downtime at Apartment lifestyle spends <strong>300 cr</strong> just existing. That’s 60% of their pay gone before they’ve done anything productive. The grind doesn’t stop between missions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Breaking the cycle:</strong> Contractors who invest in a <strong>Base of Operations</strong> can eliminate daily housing costs entirely. See Cost of Living & Base of Operations for the full system."
+    },
+    {
+      "type": "heading",
+      "text": "Activities"
+    },
+    {
+      "type": "heading",
+      "text": "💤 SLEEP (1 AP — Mandatory)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sleep. Your body needs it. Most of it is chrome now, but the meat parts still dream."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Normal Sleep (1 AP):</strong> No penalties. Required daily. If you have the Genius trait, sleep clears 0 Stress (your brain doesn’t stop)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extended Rest (2 AP):</strong> Deep recovery sleep. Clear +1 Stress beyond normal rest activities. Good for Genius contractors or anyone running hot. But that’s half your productive day gone."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skip Sleep (0 AP):</strong> You don’t sleep. Gain <strong>+1 Stress.</strong> Gain the following cumulative penalties:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>1 night skipped:</strong> -1 to all checks tomorrow.  • <strong>2 consecutive nights:</strong> -2 to all checks. Hallucinations begin (mild — GM describes unsettling details that may or may not be real).  • <strong>3 consecutive nights:</strong> -3 to all checks. Cannot distinguish hallucination from reality reliably. GM can insert one false detail per scene that your character believes is true.  • <strong>4+ consecutive nights:</strong> Roll 1d20 vs DC 10 each morning. Fail = you collapse. Unconscious for 12 hours. All skipped-sleep penalties clear but gain +2 Stress."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Certain augments/mutations may modify sleep requirements.</strong> Neural Hive users technically never fully sleep (the hive whispers). Genius contractors need +2 hours (built into the normal 1 AP cost, but Extended Rest is more valuable to them)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Study, practice, learn. AP cost depends on learning method."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Method</strong>              <strong>AP Cost</strong>             <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Self-Study</strong>          1 AP                    Roll for LP (see Learning System). Can do other things today."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Peer Learning</strong>       2 AP                    Roll for LP. Your teacher also spends 2 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Instructor</strong>          2 AP                    Roll for LP. Pay 100 cr for the session."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Academy</strong>             3 AP                    Roll for LP (with advantage). Pay 250 cr. This is most of your day. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stress from learning:</strong> Each day spent on Skill Training (any method) gives <strong>+1 Stress</strong> to contractors with the <strong>Genius trait.</strong> Their brain doesn’t distinguish “productive learning“ from “grinding mental overload.“ Regular contractors don’t gain stress from learning."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can only make <strong>one learning roll per day</strong> regardless of AP remaining. Your brain needs time to consolidate. Spending 1 AP on Self-Study and then 1 AP on a different Self-Study for a different skill doesn’t work — pick one skill per day."
+    },
+    {
+      "type": "paragraph",
+      "text": "Getting work done on your body. Chrome, mutations, scars."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activity</strong>            <strong>AP Cost</strong>             <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment               2 AP                    Install one augment. Installation</strong>                                  Pay augment cost + installer fee (if using NPC). If team’s Chrome Tech does it, no installer fee. Recovery takes the rest of the day."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutation Splice</strong>     3 AP                    Install one mutation. Full day procedure. Pay mutation cost + provider fee. Complication roll happens at end of procedure. Cannot do anything else productive today."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scar Treatment</strong>      2 AP                    Treat one scar. Pay treatment cost based on provider. One scar per day max — your body needs recovery time between sessions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Detox        2 AP                    Clinical detox. Clear (Clinical)</strong>                                    1d6 toxicity. Costs 200 cr at a clinic."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Detox (Black 1 AP                    Black market purge. Market)</strong>                                       Clear 2d6 toxicity. Costs 100 cr. Roll 1d20 vs DC 7 — fail = Minor complication. Fast and cheap and possibly terrible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Detox        Passive                 Just existing clears (Rest-Based)</strong>                                  toxicity slowly. -1/day in city, -2/day if doing nothing productive (rest day), -3/day in clean/rural environment. No AP cost — this happens automatically."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Augment Maintenance</strong> 1 AP                    Chrome Tech (T2+) tunes up augments. Removes minor malfunctions, prevents degradation. Free if team has a Chrome Tech. 50 cr at a shop."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mutation Suppression  2 AP                    Suppress a mutation Treatment</strong>                                     complication. Requires Medicine T3+ or a clinic. Costs vary (see Mutations doc). ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Odd jobs, side gigs, freelance contracts too small to be “missions.“ You need money and the rent doesn’t stop."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Job Type</strong>      <strong>AP Cost</strong>       <strong>Pay</strong>           <strong>Risk</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Manual Labor</strong>  1 AP              30 cr             None. Loading cargo, cleaning, construction. Honest work. Boring."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skilled Work</strong>  2 AP              80 cr             None. Uses a skill you have at T2+. Tech repair, medical assistance, tutoring, security consulting."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Risky Gig</strong>     2 AP              150 cr            Roll 1d20 vs DC"
+    },
+    {
+      "type": "numbered",
+      "num": "8",
+      "text": "Fail ="
+    },
+    {
+      "type": "paragraph",
+      "text": "something goes wrong (GM determines — injury, unwanted attention, debt, enemies). Smuggling, fight clubs, courier work for questionable clients."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dangerous       3 AP              250 cr            Roll 1d20 vs DC Contract</strong>                                            12. Fail = significant problem (1d4 damage, +1 toxicity, or heat from corps/gangs). Fail by 5+ = take 1 Scar. Solo rift salvage, wetwork, corp sabotage."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Market    2 AP              120 cr + goods    Requires Ops</strong>                                                 Streetwise T2+. Access to illegal items at cost. Roll 1d20 vs DC"
+    },
+    {
+      "type": "numbered",
+      "num": "6",
+      "text": "Fail = you’re"
+    },
+    {
+      "type": "paragraph",
+      "text": "noticed. Someone remembers your face. ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Work stress:</strong> Dangerous Contract and Black Market Ops each give <strong>+1 Stress</strong> (to everyone, not just Genius). Risky Gig gives +1 Stress on a failed roll only. Honest work gives no stress. The safe money is boring money."
+    },
+    {
+      "type": "paragraph",
+      "text": "Buying gear, selling loot, sourcing rare items."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activity</strong>            <strong>AP Cost</strong>             <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Standard Shopping</strong>   1 AP                    Buy/sell at normal vendors. Standard prices. Takes time to compare, negotiate, and transport."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Market          1 AP                    Requires Streetwise T2+ Shopping</strong>                                      or a contact. Access to restricted items. Prices may vary."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rare Item Search</strong>    2 AP                    Looking for something specific and hard to find. Streetwise or Negotiate check. Success = found it (price TBD). Partial = found it but expensive or conditions attached. Fail = not available right now."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Selling/Fencing</strong>     1 AP                    Sell items at 50% value (standard) or 100% value with Fence feature (Negotiate T3)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crafting</strong>            2 AP                    Requires relevant skill feature (Weapon Smith, Pharmacist, etc.). Craft one item per session. See skill features for details. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Doing nothing productive. Sometimes that’s exactly what you need."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activity</strong>            <strong>AP Cost</strong>             <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Relaxation</strong>          1 AP                    Clear <strong>1 Stress.</strong> Hobbies, socializing, drinking, watching bad holo-shows. You’re a person, not a machine. (Some of you are partly machine. Still counts.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Focused Recovery</strong>    2 AP                    Clear <strong>2 Stress.</strong> Dedicated mental health time. Therapy (if you can afford it — 50 cr/session), meditation, nature, meaningful connection with another person."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recreation with       1 AP (both              Clear </strong>1 Stress<strong> Ally</strong>                  participants)           each. Both contractors spend the time together. Builds relationship. GM may grant a one-time +1 bonus when helping each other in the next mission (trust)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vice</strong>                1 AP                    Clear <strong>2 Stress</strong> immediately. But roll 1d6: on a 1-2, gain a"
+    },
+    {
+      "type": "heading",
+      "text": "Vice Dependency"
+    },
+    {
+      "type": "paragraph",
+      "text": "(see below). Drinking, drugs, gambling, adrenaline-seeking. Fast relief. Risky habit. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Vice Dependency"
+    },
+    {
+      "type": "paragraph",
+      "text": "If you gain a Vice Dependency, it works like this:"
+    },
+    {
+      "type": "blockquote",
+      "text": "• Each downtime period, you must spend at least 1 AP and 20 cr on your vice or gain +2 Stress.  • The vice still clears 2 Stress when indulged (it works — that’s why it’s dangerous).  • To break a dependency: spend 3 consecutive downtime days without indulging (gaining +2 Stress each day = +6 Stress total over 3 days). After 3 days clean, the dependency breaks.  • A character can have multiple vices. They stack. This gets ugly fast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Building relationships, gathering intel, maintaining contacts."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activity</strong>            <strong>AP Cost</strong>             <strong>Details</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contact Maintenance</strong> 1 AP                    Spend time with an existing NPC contact. Keeps the relationship warm. Neglected contacts may become unreliable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Networking</strong>          2 AP                    Attempt to establish a new contact. Negotiate or Streetwise check. Full success = reliable new contact. Partial = they’ll talk to you but don’t trust you yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Intel Gathering</strong>     1 AP                    Ask around about a topic. Awareness or Streetwise check. Success = useful information. Partial = partial info or misleading info mixed with truth."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Reputation Building</strong> 1 AP                    Do something visible in the community. Help someone, show up somewhere, make a statement. Slowly builds street rep or corp rep (GM tracks). ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Long-term projects that don’t fit other categories. These are player-driven goals the GM adjudicates."
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scale</strong>               <strong>AP Cost</strong>             <strong>Examples</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Small</strong>               1 AP                    Write a letter, update your will, research a specific topic, maintain equipment"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Medium</strong>              2 AP                    Modify your living space, set up a workshop, investigate a lead, plan a heist"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Large</strong>               3 AP                    Build something significant, establish a business front, infiltrate an organization long-term ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "Personal projects may require multiple days. GM tracks progress as needed — these are narrative, not mechanical."
+    },
+    {
+      "type": "heading",
+      "text": "Stress System (Consolidated)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stress was introduced with the Genius trait, but it applies to ALL contractors. Genius contractors just accumulate it faster."
+    },
+    {
+      "type": "heading",
+      "text": "Stress Track"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Max Stress: 6</strong> for all contractors."
+    },
+    {
+      "type": "paragraph",
+      "text": "At max stress, you suffer a <strong>Breakdown</strong> (see below)."
+    },
+    {
+      "type": "heading",
+      "text": "Stress Sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Source</strong>              <strong>Stress Gained</strong>       <strong>Who</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Skipping sleep</strong>      +1 per night            Everyone"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Learning (any         +1 per day of study     Genius only method)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Witnessing ally hit 0 +1 per incident         Genius only HP</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Unsolvable problem</strong>  +1 (once/session, GM    Genius only discretion)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Critical failure on   +1                      Genius only any check</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dangerous Contract    +1                      Everyone (side work)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Market Ops</strong>    +1                      Everyone"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Risky Gig (failed     +1                      Everyone roll)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vice withdrawal</strong>     +2 per day              Dependent contractors (skipping vice when dependent)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Traumatic mission     +1 to +3 (GM            Everyone event</strong>                 discretion)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extended rift         +1                      Everyone exposure</strong> (2+ hours) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "heading",
+      "text": "Stress Recovery"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Activity</strong>            <strong>Stress Cleared</strong>      <strong>AP Cost</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Relaxation</strong>          -1                      1 AP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Focused Recovery</strong>    -2                      2 AP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Recreation with       -1                      1 AP (both) Ally</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vice</strong>                -2 (risk of dependency) 1 AP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extended Rest         -1 (bonus, on top of    2 AP (instead of 1) (sleep)</strong>               other recovery)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Natural passive</strong>     -1 per day (only if     None — just time Stress is 3+)           passing"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Upscale Lifestyle     -1 additional per rest  Passive (75 cr/day bonus</strong>                 activity                lifestyle) ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Natural recovery floor:</strong> Stress naturally decreases by 1 per day, but only if you’re at Stress 3 or higher. Below 3, it doesn’t passively decay — you have to actively recover. This means low-level stress lingers unless you spend AP on it, but high-level stress doesn’t spiral infinitely if you’re doing other things."
+    },
+    {
+      "type": "heading",
+      "text": "Breakdowns (6/6 Stress)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When stress hits 6, the contractor suffers a breakdown. Roll 1d6:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Roll</strong>                            <strong>Breakdown</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                                   <strong>Paralysis.</strong> Cannot act for 1 round in next combat. Analysis paralysis, frozen in place."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                                   <strong>Hyperfocus.</strong> Obsess over one irrelevant detail for next scene. -2 to unrelated checks."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                                   <strong>Dissociation.</strong> -2 to all social checks for 1 full day. You’re present but not here."
+    },
+    {
+      "type": "paragraph",
+      "text": "4                                   <strong>Insomnia Spiral.</strong> Sleep costs 2 AP for the next 3 days (body won’t shut down)."
+    },
+    {
+      "type": "paragraph",
+      "text": "5                                   <strong>Emotional Bleed.</strong> Snap at an ally. Relationship strain. -1 to checks working with them for 1 day."
+    },
+    {
+      "type": "paragraph",
+      "text": "6                                   <strong>Clarity.</strong> (Genius only — others reroll.) Breakdown resolves into insight. Clear ALL stress. Gain +2 LP toward current skill. The worst result because it teaches you that burning out <em>works</em>. ----------------------------------- -----------------------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>After breakdown:</strong> Stress resets to <strong>3</strong> (not 0). The pressure never fully disappears. A contractor who breaks down and doesn’t actively recover will break down again in 3+ days."
+    },
+    {
+      "type": "heading",
+      "text": "Example Downtime Days"
+    },
+    {
+      "type": "heading",
+      "text": "Day 1 — The Grinder"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A contractor just got back from a rough rift job. 3 scars, moderate toxicity, low on cash.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP</strong>                  <strong>Activity</strong>            <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Sleep                   Mandatory. No penalties."
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Manual Labor            +30 cr. Need rent money."
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Relaxation              -1 Stress. Watching holo-dramas in a capsule hotel."
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Self-Study (Tech)       Roll for LP. Building toward Chrome Installer. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Day cost:</strong> 15 cr (capsule lifestyle). <strong>Net:</strong> +15 cr. Slow grind. Sustainable."
+    },
+    {
+      "type": "heading",
+      "text": "Day 2 — The Investor"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A contractor with savings decides to level up.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP</strong>                  <strong>Activity</strong>            <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Sleep                   Mandatory."
+    },
+    {
+      "type": "paragraph",
+      "text": "3                       Academy (Medicine)      Roll for LP with advantage. -250 cr. Most of the day in class. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Day cost:</strong> 30 cr (apartment) + 250 cr (academy). <strong>Net:</strong> -280 cr. Expensive, but T3 Medicine is worth it."
+    },
+    {
+      "type": "heading",
+      "text": "Day 3 — The Body Shop"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The team’s Chrome Tech and Field Doc works on allies.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP</strong>                  <strong>Activity</strong>            <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Sleep                   Mandatory."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       Augment Installation    Install a T2 augment. (on ally)               Ally pays augment cost, no installer fee."
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Augment Maintenance (on Tune up their chrome. different ally)         Free. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Day cost:</strong> 30 cr (apartment). <strong>Net:</strong> -30 cr, but the team saved \\~200-400 cr in installer fees. The skill monkey’s value isn’t in what they earn — it’s in what they save the team."
+    },
+    {
+      "type": "heading",
+      "text": "Day 4 — The Burnout"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A Genius contractor at Stress 5, pushing too hard.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP</strong>                  <strong>Activity</strong>            <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "0                       Skip Sleep              +1 Stress → <strong>Stress 6. Breakdown.</strong> Roll: 4 (Insomnia Spiral). Sleep costs 2 AP for 3 days. Stress resets to"
+    },
+    {
+      "type": "paragraph",
+      "text": "3."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       Academy (Hacking)       Roll for LP with advantage. +1 Stress (Genius). Stress now 4."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       Risky Gig               +150 cr. Roll succeeds. No stress from work. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Day cost:</strong> 15 cr (capsule — can’t afford better). <strong>Net:</strong> +135 cr but Stress is at 4 and sleep is broken for 3 days. This character is in a spiral."
+    },
+    {
+      "type": "heading",
+      "text": "Day 5 — Recovery Day"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>A contractor at Stress 4 who needs to decompress before the next mission.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP</strong>                  <strong>Activity</strong>            <strong>Effect</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Sleep                   Mandatory."
+    },
+    {
+      "type": "paragraph",
+      "text": "2                       Focused Recovery        -2 Stress. Therapy session (50 cr)."
+    },
+    {
+      "type": "paragraph",
+      "text": "1                       Recreation with Ally    -1 Stress. Both participants clear 1. Bar night with the team. ----------------------- ----------------------- -----------------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Day cost:</strong> 30 cr (apartment) + 50 cr (therapy). <strong>Net:</strong> -80 cr. Stress dropped from 4 → 1. Worth it."
+    },
+    {
+      "type": "heading",
+      "text": "Downtime Duration & Contract Pings"
+    },
+    {
+      "type": "paragraph",
+      "text": "Downtime is <strong>open-ended.</strong> Days pass until:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. The team decides to take a contract.</strong> Available contracts can be checked at any time (1 AP, or passively via notifications).  <strong>2. A contract pings the team.</strong> The GM sends a contract notification. The team can accept or decline — but declining has soft consequences:  • First decline: No penalty. Contracts are voluntary.  • Repeated declines: Contract quality degrades. Corps stop sending the good jobs. Pay drops. Eventually the only pings are the ones nobody else will take.  <strong>1. External events force action.</strong> Rent runs out. A debt comes due. Someone kicks in your door. The world doesn’t pause just because you’re resting."
+    },
+    {
+      "type": "heading",
+      "text": "The Economic Drain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every day of downtime costs money just to exist:"
+    },
+    {
+      "type": "paragraph",
+      "text": "----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Days</strong>          <strong>Capsule         </strong>Apartment       <strong>Upscale (15/day)</strong>        (30/day)<strong>        (75/day)</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "3                 45 cr             90 cr             225 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "5                 75 cr             150 cr            375 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "7                 105 cr            210 cr            525 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "10                150 cr            300 cr            750 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "14                210 cr            420 cr            1,050 cr ----------------- ----------------- ----------------- -----------------"
+    },
+    {
+      "type": "paragraph",
+      "text": "A standard mission pays 400-600 cr. A contractor who takes 10 days of downtime at Apartment lifestyle spends 300 cr just on rent — before food, training, treatment, or any other activity. The math is always working against you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This is the pacing mechanic.</strong> Players can take as much downtime as they want, but the economy ensures they can’t rest forever. At some point, the money runs out and the next contract isn’t optional anymore. The team doesn’t need a GM to tell them downtime is over — their wallets do it for them."
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes for GMs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Downtime is gameplay, not bookkeeping.</strong> Every AP spent should be a micro-scene or a decision point. The contractor studying at the academy — who else is there? The one doing manual labor — what do they overhear on the docks? The one visiting a contact — what does the contact want in return? Downtime is where characters become people."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Let the economy breathe.</strong> Don’t rush players back to missions. The tension of watching credits tick down while you recover is the point. If they’re managing well, contracts should ping with interesting choices (safe + low pay vs. risky + high pay). If they’re desperate, the only contract available should be the one nobody wants."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stress is the hidden clock.</strong> Players will optimize AP for maximum productivity and skip sleep/rest. Let them. Stress accumulates. Breakdowns happen at the worst times. The system self-corrects — the player who grinds every AP toward learning will eventually break down and lose more time than they saved. Sustainable pacing is rewarded mechanically."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vice is a trap — a useful one.</strong> It clears 2 Stress for 1 AP, which is the best ratio in the game. But dependency is a 1-in-3 chance and once you’re hooked, you’re spending AP and credits every downtime period just to avoid withdrawal stress. It’s the fastest relief and the slowest prison. Let players discover this naturally."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Track time loosely.</strong> You don’t need to play out every day of downtime in detail. Ask players what their daily routine looks like, resolve the important days in detail (installation day, training day, the day they got robbed), and summarize the rest. “You spend 4 days at the academy, here are your rolls. You spend 2 days resting. On day 7, something happens.“ Keep it moving."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Contract pings are your pacing lever.</strong> If downtime is dragging, ping a contract. If players are enjoying the downtime RP, let it breathe. The beauty of open-ended downtime is that you control the gas pedal without an arbitrary timer. When the story needs to move, the phone rings."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Downtime productivity metrics are monitored for all active contractors. Excessive leisure may result in reassignment to motivation-enhancing rift exposure programs. Please maintain a healthy work-life balance as defined by your employment agreement (see Appendix J: ’Balance is a Privilege’).“</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>“Reminder: Contractor welfare is the contractor’s responsibility. Corporate housing subsidies are available to qualifying personnel who meet citizenship requirements. If you are reading this handbook, you do not meet citizenship requirements.“</em>"
+    }
+  ]
+}
