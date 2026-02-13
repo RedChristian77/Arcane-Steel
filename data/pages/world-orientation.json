@@ -24,15 +24,15 @@
       "text": "The first dimensional rifts were corporate projects. Controlled. Gated. Armed security on both sides. Companies sent teams through, stripped whatever looked valuable, and brought it back. New minerals. New biologicals. New energy sources. The economy boomed. Stock prices soared. Everyone patted themselves on the back."
     },
     {
-      "type": "paragraph",
+      "type": "flavor",
       "text": "Then the rifts started opening on their own."
     },
     {
       "type": "paragraph",
-      "text": "Turns out punching thousands of holes in the fabric of reality has consequences. The membrane between dimensions got thin. Rifts began tearing open without corporate oversight — in fields, basements, city centers, occasionally inside someone’s kitchen. Things came through. Some of them were resources. Some of them were alive. Some of them were angry."
+      "text": "Turns out punching thousands of holes in the fabric of reality has consequences. The membrane between dimensions got thin. Rifts began tearing open without corporate oversight — in fields, basements, city centers, occasionally inside someone's kitchen. Things came through. Some of them were resources. Some of them were alive. Some of them were angry."
     },
     {
-      "type": "paragraph",
+      "type": "flavor",
       "text": "And magic seeped in."
     },
     {
@@ -48,35 +48,53 @@
       "text": "The World Today"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Corporations are governments.</strong> This isn’t a metaphor. After the old nation-states collapsed during the Resource Wars (roughly 700 years ago), the companies that controlled rift access, magical infrastructure, and food distribution became the de facto ruling powers. They write the laws. They enforce the laws. They are the laws. Each major corporation operates as a sovereign entity with territory, citizens, military, and a tax structure that would make an ancient accountant weep."
+      "type": "callout",
+      "label": "Key Concept",
+      "style": "accent",
+      "text": "<strong>Corporations are governments.</strong> This isn't a metaphor. After the old nation-states collapsed during the Resource Wars (roughly 700 years ago), the companies that controlled rift access, magical infrastructure, and food distribution became the de facto ruling powers. They write the laws. They enforce the laws. They are the laws. Each major corporation operates as a sovereign entity with territory, citizens, military, and a tax structure that would make an ancient accountant weep."
+    },
+    {
+      "type": "callout",
+      "label": "Cultural Drift",
+      "style": "teal",
+      "text": "<strong>Nobody remembers the originals.</strong> A thousand years of cultural drift does strange things. The corporations that exist today bear the names and (loosely) the branding of their ancient predecessors, but they've become something else entirely. What started as corporate loyalty became cultural identity became genuine belief. People born into a corporate territory don't think of themselves as employees — they think of themselves as <em>members</em>. The company isn't where you work. It's who you are. It's your faith, your family, your flag."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Nobody remembers the originals.</strong> A thousand years of cultural drift does strange things. The corporations that exist today bear the names and (loosely) the branding of their ancient predecessors, but they’ve become something else entirely. What started as corporate loyalty became cultural identity became genuine belief. People born into a corporate territory don’t think of themselves as employees — they think of themselves as <em>members</em>. The company isn’t where you work. It’s who you are. It’s your faith, your family, your flag."
+      "text": "When a fast-food chain has been the dominant cultural institution for forty generations, "brand loyalty" doesn't quite cover it anymore. It's closer to religion. The iconography is sacred. The founders are saints. The corporate mission statement is scripture."
     },
     {
-      "type": "paragraph",
-      "text": "When a fast-food chain has been the dominant cultural institution for forty generations, “brand loyalty“ doesn’t quite cover it anymore. It’s closer to religion. The iconography is sacred. The founders are saints. The corporate mission statement is scripture."
+      "type": "divider"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Magic is everywhere.</strong> Ambient magical energy permeates the world. It powers infrastructure, fuels devices, runs transportation. Magical engineering is a perfectly normal career path — pipe fitters for arcane conduits, HVAC techs for rift-adjacent buildings, quality assurance for enchanted consumer goods. Magic isn’t mysterious. It’s utility."
+      "type": "callout",
+      "label": "Magic",
+      "style": "teal",
+      "text": "<strong>Magic is everywhere.</strong> Ambient magical energy permeates the world. It powers infrastructure, fuels devices, runs transportation. Magical engineering is a perfectly normal career path — pipe fitters for arcane conduits, HVAC techs for rift-adjacent buildings, quality assurance for enchanted consumer goods. Magic isn't mysterious. It's utility."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>But using it will kill you.</strong> For humans, channeling magic is like breathing poison. The body can process it — slowly, painfully, with cumulative damage. Every spell, every enchanted device you activate directly, every minute spent in a saturated rift zone adds to your toxicity. It disperses naturally over time, but “naturally“ means “weeks,“ and weeks are a luxury most people don’t have."
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "<strong>But using it will kill you.</strong> For humans, channeling magic is like breathing poison. The body can process it — slowly, painfully, with cumulative damage. Every spell, every enchanted device you activate directly, every minute spent in a saturated rift zone adds to your toxicity. It disperses naturally over time, but "naturally" means "weeks," and weeks are a luxury most people don't have."
     },
     {
       "type": "paragraph",
       "text": "Think of magic like radiation. The infrastructure runs on it. The lights work because of it. But get too close to the source for too long, and you become a problem. Or more accurately, you become a <em>commodity</em>."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Augmentation is normal.</strong> Laws restricting human experimentation were dropped centuries ago. Gene-splicing, cybernetic augments, biological grafts from rift fauna — most people walking down the street are some combination of modifications. A man with a reinforced titanium ribcage and orc-spliced musculature raises fewer eyebrows than someone who’s completely unmodified. Being “stock“ is the oddity."
+      "type": "divider"
     },
     {
-      "type": "paragraph",
+      "type": "callout",
+      "label": "Augmentation",
+      "style": "gold",
+      "text": "<strong>Augmentation is normal.</strong> Laws restricting human experimentation were dropped centuries ago. Gene-splicing, cybernetic augments, biological grafts from rift fauna — most people walking down the street are some combination of modifications. A man with a reinforced titanium ribcage and orc-spliced musculature raises fewer eyebrows than someone who's completely unmodified. Being "stock" is the oddity."
+    },
+    {
+      "type": "callout",
+      "label": "Species",
+      "style": "teal",
       "text": "<strong>Non-human species exist.</strong> A thousand years of open rifts means a thousand years of immigration, voluntary and otherwise. Intelligent species from other dimensions have integrated (or been integrated) into corporate society. They tend to tolerate magic better than humans — which makes them valuable as workers, and even more valuable as <em>batteries</em>. Corporate employment contracts for non-humans often have terms that a careful reader would recognize as slow-motion harvesting programs."
     },
     {
@@ -88,16 +106,30 @@
       "text": "Rifts are the engine of the world. Everything — energy, raw materials, exotic biologicals, magical resources — comes from or through dimensional rifts. The corporations that control the most rift access control the most territory, and vice versa."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Corporate-owned rifts</strong> are gated, monitored, and regulated. Workers pass through scanners going in and coming out. Toxicity readings are logged. Resource extraction runs on schedules. It’s industrial. It’s efficient. It’s boring, which means it’s profitable."
+      "type": "info-block",
+      "icon": "🏭",
+      "title": "Corporate-Owned Rifts",
+      "subtitle": "Gated, monitored, regulated",
+      "entries": [
+        {"label": "Access", "value": "Corporate workers with clearance"},
+        {"label": "Security", "value": "Scanners, armed guards, toxicity logging"},
+        {"label": "Character", "value": "Industrial. Efficient. Boring. Profitable.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Wild rifts</strong> are everything else. They open without warning, spill whatever’s on the other side into reality, and might close in an hour or stay open for years. They’re unpredictable, dangerous, and full of things nobody’s catalogued yet. They’re also full of unclaimed resources, which means they’re full of opportunity for people desperate enough to take it."
+      "type": "info-block",
+      "icon": "🌀",
+      "title": "Wild Rifts",
+      "subtitle": "Everything else",
+      "entries": [
+        {"label": "Predictability", "value": "None — open without warning"},
+        {"label": "Duration", "value": "Minutes to years"},
+        {"label": "Contents", "value": "Uncatalogued. Dangerous. Full of unclaimed resources.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "That’s where you come in."
+      "type": "flavor",
+      "text": "That's where you come in."
     },
     {
       "type": "heading",
@@ -140,24 +172,32 @@
       "text": "<strong>Crews form because economics demand it.</strong> A team of four splits the cost of a base. A team with a Chrome Tech installs augments for free. A team with a medic treats scars in-house. A team with a crafter produces ammo instead of buying it. A team with a sharp negotiator gets better contract rates. The financial advantage of cooperation is so overwhelming that the only real question is <em>who</em> you crew up with, not <em>whether</em> you should."
     },
     {
-      "type": "blockquote",
-      "text": "<em>How crews actually form:</em>"
+      "type": "divider",
+      "text": "CREW FORMATION"
     },
     {
-      "type": "paragraph",
+      "type": "callout",
+      "label": "Method 1",
+      "style": "accent",
       "text": "<strong>Broker-matched.</strong> The most common method. The same networks that post contracts also run crew-matching algorithms. You register your profile — skillset, augment loadout, toxicity rating, survival record — and the broker assembles a team for a specific contract. Four strangers meet at a staging area, do a job, come back. If everyone survives, the broker offers the same team another job. Then another. Eventually you stop being strangers and start being a crew. The broker takes a percentage. They always take a percentage."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Survivor crews.</strong> Your last team died. Or retired. Or got harvested. Or one of them took a corp job and the others scattered. You’re at a staging area, waiting for a ping, and you notice three other people doing the same thing. Everyone’s got that look — the “I’ve done this before and I’m still here“ look. Someone suggests a drink. Someone mentions a contract. By morning you’re a crew. Survivor crews tend to be tight. People who’ve already lost a team don’t waste time with politics."
+      "type": "callout",
+      "label": "Method 2",
+      "style": "accent",
+      "text": "<strong>Survivor crews.</strong> Your last team died. Or retired. Or got harvested. Or one of them took a corp job and the others scattered. You're at a staging area, waiting for a ping, and you notice three other people doing the same thing. Everyone's got that look — the "I've done this before and I'm still here" look. Someone suggests a drink. Someone mentions a contract. By morning you're a crew. Survivor crews tend to be tight. People who've already lost a team don't waste time with politics."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Corp-assembled.</strong> A corporation needs a job done but doesn’t want to use its own people. Deniability, budget reasons, or the job is too dangerous for employees with benefits packages. The corp recruits contractors directly, assembles a team, and briefs them. Pay is usually better. Oversight is constant. The corp doesn’t care if you like each other. They care if you complete the contract. Some corps maintain standing contractor rosters — semi-permanent teams on retainer. Better pay, steady work, zero freedom."
+      "type": "callout",
+      "label": "Method 3",
+      "style": "teal",
+      "text": "<strong>Corp-assembled.</strong> A corporation needs a job done but doesn't want to use its own people. Deniability, budget reasons, or the job is too dangerous for employees with benefits packages. The corp recruits contractors directly, assembles a team, and briefs them. Pay is usually better. Oversight is constant. The corp doesn't care if you like each other. They care if you complete the contract. Some corps maintain standing contractor rosters — semi-permanent teams on retainer. Better pay, steady work, zero freedom."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Desperation pairs that grew.</strong> Two contractors who kept running into each other on the same jobs. A contractor who saved someone’s life in a rift and now they won’t leave. Three people who owe the same broker and got packaged as a deal. A contractor who hired a specialist for one job and realized they couldn’t afford to let them walk away. Most crews didn’t plan to be crews. They just stopped finding reasons to split."
+      "type": "callout",
+      "label": "Method 4",
+      "style": "accent",
+      "text": "<strong>Desperation pairs that grew.</strong> Two contractors who kept running into each other on the same jobs. A contractor who saved someone's life in a rift and now they won't leave. Three people who owe the same broker and got packaged as a deal. A contractor who hired a specialist for one job and realized they couldn't afford to let them walk away. Most crews didn't plan to be crews. They just stopped finding reasons to split."
     },
     {
       "type": "blockquote",
@@ -208,8 +248,22 @@
       "text": "<strong>Toxicity disperses naturally</strong> — but slowly. Days to weeks, depending on the exposure level. Rest helps. Being outside rift zones helps. Time helps. Time is also money you don’t have."
     },
     {
-      "type": "blockquote",
-      "text": "<em>Fast removal options exist:</em>  • <strong>Corporate detox programs</strong> — effective, covered by some employment contracts. They also log everything and your readings go on file.  • <strong>Black market scrubbing</strong> — expensive, illegal, variable quality. Some back-alley practitioners know what they’re doing. Some don’t.  • <strong>Rift parasites</strong> — creatures that feed on magical toxicity. Extremely effective. Also extremely illegal, occasionally fatal, and always expensive. If the creature takes too much, it takes more than toxicity with it.  • <strong>Natural rest</strong> — free, slow, and requires not working. See: the cycle.  <em>What happens when you hit the limit:</em>"
+      "type": "callout",
+      "label": "Toxicity Removal",
+      "style": "gold",
+      "text": "<strong>Fast removal options exist:</strong>",
+      "items": [
+        "<strong>Corporate detox programs</strong> — effective, covered by some employment contracts. They also log everything and your readings go on file.",
+        "<strong>Black market scrubbing</strong> — expensive, illegal, variable quality. Some back-alley practitioners know what they're doing. Some don't.",
+        "<strong>Rift parasites</strong> — creatures that feed on magical toxicity. Extremely effective. Also extremely illegal, occasionally fatal, and always expensive. If the creature takes too much, it takes more than toxicity with it.",
+        "<strong>Natural rest</strong> — free, slow, and requires not working. See: the cycle."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "<em>What happens when you hit the limit:</em>"
     },
     {
       "type": "paragraph",
@@ -226,6 +280,10 @@
     {
       "type": "paragraph",
       "text": "<strong>Toxicity scanners are everywhere.</strong> Bus stations, corporate checkpoints, rift gates, medical facilities. Almost all of them report to someone. Going off-grid has real value if you’re running hot. Fake IDs and spoofed readings are a whole black market economy. Some corps actively recruit — or “recruit“ — individuals who are close to threshold before those individuals know they’re in danger."
+    },
+    {
+      "type": "divider",
+      "text": "EQUIPMENT"
     },
     {
       "type": "heading",
@@ -264,8 +322,16 @@
       "text": "The corporations of today don’t resemble their ancient predecessors in anything but name and (vaguely) aesthetic. A thousand years of cultural evolution, religious drift, and deliberate mythologizing have turned corporate identities into something between nation-states and organized religions."
     },
     {
-      "type": "blockquote",
-      "text": "<em>Some examples of the drift:</em>  • An entertainment company becomes a theocratic order, its ancient founder elevated to divine status, its parks rebuilt as pilgrimage sites, its media archives treated as sacred texts.  • A fast-food chain becomes a feudal monarchy, its franchise structure calcified into noble houses, its original menu items preserved as ritual foods served at state occasions.  • A tech company becomes a mystery cult, its code repositories treated as holy writ, its server farms as temples, its engineers as a priestly caste interpreting the will of the Founder’s Algorithm.  • A pharmaceutical company becomes something between a medical order and a protection racket, offering healing and augmentation to those who swear loyalty, and withholding it from those who don’t."
+      "type": "callout",
+      "label": "Examples",
+      "style": "teal",
+      "text": "<em>Some examples of the drift:</em>",
+      "items": [
+        "An entertainment company becomes a <strong>theocratic order</strong>, its ancient founder elevated to divine status, its parks rebuilt as pilgrimage sites, its media archives treated as sacred texts.",
+        "A fast-food chain becomes a <strong>feudal monarchy</strong>, its franchise structure calcified into noble houses, its original menu items preserved as ritual foods served at state occasions.",
+        "A tech company becomes a <strong>mystery cult</strong>, its code repositories treated as holy writ, its server farms as temples, its engineers as a priestly caste interpreting the will of the Founder's Algorithm.",
+        "A pharmaceutical company becomes something between a <strong>medical order</strong> and a protection racket, offering healing and augmentation to those who swear loyalty, and withholding it from those who don't."
+      ]
     },
     {
       "type": "paragraph",
@@ -274,6 +340,10 @@
     {
       "type": "paragraph",
       "text": "<strong>Contractors exist in the gaps.</strong> You’re not a citizen of anywhere. You work for whoever’s paying. This makes you useful — nobody else will take the jobs you take. It also makes you disposable — nobody’s obligated to care what happens to you. You’re the necessary vermin of the economy: tolerated, compensated, and replaced without sentiment."
+    },
+    {
+      "type": "divider",
+      "style": "accent"
     },
     {
       "type": "heading",

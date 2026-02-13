@@ -16,28 +16,17 @@
       "text": "The average contractor spends 2-4 days per week on active contract work. The rest is downtime — and downtime isn’t vacation. It’s the time when you manage everything that keeps you alive long enough to take the next contract."
     },
     {
-      "type": "blockquote",
-      "text": "<em>A typical contractor week (no active contract):</em>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Morning:</strong> Wake up wherever you’re sleeping. If it’s a Capsule, you roll out of a pod and check the board — either physically (walk to the broker’s office in the margin) or digitally (if you can afford a comm unit with board access). Scan the contract listings. Most are garbage — low-pay, high-risk, or posted by corps you don’t trust. You’re looking for the ones that match your crew’s capabilities and pay enough to cover next week’s expenses."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Midday:</strong> Errands. The kind of errands that would be mundane if the stakes weren’t survival. Restock Med Patches. Buy Charges for your rifle. Check in with the clinic about your scar treatment schedule. Visit the market for rift materials if you’re crafting. Swing by the Yard if your vehicle needs service. Every errand costs money. Every errand is an investment in not dying."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Afternoon:</strong> Training, crafting, or earning side money. Contractors who aren’t on contract still need income. Options: take a day-labor job (warehouse work, security shifts, courier runs — 20-50 cr/day, dull, safe), train skills at a gym or range (costs AP), work the Workshop if your base has one (craft ammo, consumables, repairs), or hustle the market (buy low, sell high, if you have the Edge for it)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Evening:</strong> Social. The Watering Hole. The crew. The informal economy of reputation, rumor, and connection that determines which contracts you hear about before they hit the board. Networking isn’t optional — it’s how you learn that the Wellspring contract everyone’s excited about has a 40% casualty rate, or that Congo is about to post a bulk extraction job that pays double because the last crew didn’t come back. Information is survival. A round of drinks is an investment."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Night:</strong> Sleep. Or try to. Contractor districts aren’t quiet. The margin isn’t safe. If you’re living at Street tier, you sleep with one eye open. If you’re in a Capsule, you lock the pod and hope. If you have a base with a Bunk Room, you sleep behind a door that locks, in a building you own, with a Security System that actually works. The quality of your sleep is a direct function of how much money you’ve invested in not being vulnerable."
+      "type": "callout",
+      "label": "Daily Routine",
+      "style": "teal",
+      "text": "<em>A typical contractor week (no active contract):</em>",
+      "items": [
+        "<strong>Morning:</strong> Wake up wherever you're sleeping. Check the board — scan the contract listings. Most are garbage — low-pay, high-risk, or posted by corps you don't trust. You're looking for the ones that match your crew's capabilities.",
+        "<strong>Midday:</strong> Errands. Restock Med Patches. Buy Charges. Check in at the clinic. Visit the market. Every errand costs money. Every errand is an investment in not dying.",
+        "<strong>Afternoon:</strong> Training, crafting, or earning side money. Day-labor (20–50 cr/day), skill training (costs AP), workshop time, or market hustling.",
+        "<strong>Evening:</strong> Social. The Watering Hole. Networking isn't optional — it's how you learn which contracts are traps and which pay double. Information is survival.",
+        "<strong>Night:</strong> Sleep. Or try to. The quality of your sleep is a direct function of how much money you've invested in not being vulnerable."
+      ]
     },
     {
       "type": "heading",
@@ -48,24 +37,43 @@
       "text": "The brutal arithmetic of contractor life:"
     },
     {
+      "type": "callout",
+      "label": "Income",
+      "style": "accent",
+      "text": "<strong>A starting contractor earns 400–600 cr per contract.</strong> Contracts come every 5–10 days if you're active. Call it 500 cr every week, averaged out."
+    },
+    {
+      "type": "table",
+      "headers": ["Expense", "Weekly Cost", "Notes"],
+      "rows": [
+        ["Rent (Capsule)", "105 cr", "15/day × 7"],
+        ["Food", "35 cr", "5/day, margin street food"],
+        ["Charges (if ranged)", "40–80 cr", "Ammo is a non-recoverable investment"],
+        ["Med Patches (2–3)", "50–75 cr", "Basic field medicine"],
+        ["Transit", "20–50 cr", "Getting to the contract site"],
+        ["Incidentals", "30–50 cr", "Repairs, tips, bribes, bad luck"],
+        ["<strong>Total</strong>", "<strong>~280–395 cr</strong>", "<strong>Leaves 100–220 cr for savings</strong>"]
+      ]
+    },
+    {
       "type": "paragraph",
-      "text": "<strong>A starting contractor earns 400-600 cr per contract.</strong> Contracts come every 5-10 days if you’re active. Call it 500 cr every week, averaged out."
+      "text": "At that rate, a T1 augment (200 cr) takes 1–2 weeks of saving. A T3 augment (600 cr) takes a month. A base takes months."
     },
     {
-      "type": "blockquote",
-      "text": "<em>Weekly expenses for a solo contractor living in a Capsule:</em>  • Rent: 105 cr (15/day × 7)  • Food: 35 cr (5/day, margin street food)  • Charges (if ranged): 40-80 cr  • Med Patches (2-3): 50-75 cr  • Transit to contract site: 20-50 cr  • Incidentals (repairs, tips, bribes, bad luck): 30-50 cr"
+      "type": "callout",
+      "label": "Crew Savings",
+      "style": "accent",
+      "text": "<strong>A crew of four sharing expenses saves ~30–40%:</strong>",
+      "items": [
+        "Shared Capsules or Bunk Room: costs split",
+        "Bulk Charges (crafter produces for the team): materials only",
+        "Shared vehicle: fuel and maintenance split 4 ways",
+        "One Chrome Tech, one medic: installation and treatment free"
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Total: \\~280-395 cr/week.</strong> Leaves 100-220 cr for savings, augments, scar treatment, or anything beyond basic survival. At that rate, a T1 augment (200 cr) takes 1-2 weeks of saving. A T3 augment (600 cr) takes a month. A base takes months."
-    },
-    {
-      "type": "blockquote",
-      "text": "<em>A crew of four sharing expenses:</em>  • Shared Capsules or Bunk Room: costs split  • Bulk Charges (crafter produces for the team): materials only  • Shared vehicle: fuel and maintenance split 4 ways  • One Chrome Tech, one medic: installation and treatment free"
-    },
-    {
-      "type": "paragraph",
-      "text": "The crew saves \\~30-40% on operating costs compared to solo. Over a campaign, that’s the difference between scraping by and actually progressing. This is why crews exist. The math demands it."
+      "text": "Over a campaign, that's the difference between scraping by and actually progressing. This is why crews exist. The math demands it."
     },
     {
       "type": "heading",
@@ -76,28 +84,31 @@
       "text": "There’s a rhythm to contractor life that every crew discovers:"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Week 1-2: Contract.</strong> Take a job. Go into the rift. Fight things. Harvest materials. Come back. Get paid. Treat your wounds. Rest."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Week 3: Recovery and prep.</strong> Spend downtime AP on training, crafting, or healing. Restock supplies. Fix the vehicle. Pay rent. Check the board for next week’s contract."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Week 4: Contract.</strong> Do it again."
+      "type": "callout",
+      "label": "The Loop",
+      "style": "teal",
+      "text": "The rhythm of contractor life:",
+      "items": [
+        "<strong>Week 1–2: Contract.</strong> Take a job. Go into the rift. Fight things. Harvest materials. Come back. Get paid. Treat your wounds. Rest.",
+        "<strong>Week 3: Recovery and prep.</strong> Spend downtime AP on training, crafting, or healing. Restock supplies. Fix the vehicle. Pay rent.",
+        "<strong>Week 4: Contract.</strong> Do it again."
+      ]
     },
     {
       "type": "paragraph",
       "text": "This is the loop. Contract, recover, prep, contract. The loop is the game. The tension comes from the things that disrupt the loop: a bad contract that costs more than it pays, a scar that requires expensive treatment, a toxicity spike that forces detox sessions, a vehicle breakdown, a base that needs repairs, a crew member who dies and has to be replaced. Every disruption costs money. Every cost pushes you toward the next contract. The loop tightens."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The “one more job“ spiral</strong> is real and it’s the heart of the game. You need money. You take a contract. The contract gives you scars. Scars need treatment. Treatment costs money. You need money. You take a contract. The contract pushes your toxicity up. Toxicity needs management. Management costs money. You need money…"
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "<strong>The "one more job" spiral</strong> is real and it's the heart of the game. You need money. You take a contract. The contract gives you scars. Scars need treatment. Treatment costs money. You need money. You take a contract. The contract pushes your toxicity up. Toxicity needs management. Management costs money. You need money…"
     },
     {
-      "type": "paragraph",
-      "text": "The only way to break the spiral is investment: a base that eliminates rent, a crafter who eliminates ammo costs, a medic who eliminates treatment costs, augments that make you efficient enough to take higher-paying contracts. Breaking the spiral IS the progression system. It takes the whole campaign."
+      "type": "callout",
+      "label": "Progression",
+      "style": "accent",
+      "text": "The only way to break the spiral is <strong>investment</strong>: a base that eliminates rent, a crafter who eliminates ammo costs, a medic who eliminates treatment costs, augments that make you efficient enough to take higher-paying contracts. Breaking the spiral IS the progression system. It takes the whole campaign."
     },
     {
       "type": "heading",
@@ -140,20 +151,52 @@
       "text": "Not all contractors are equal. A loose hierarchy exists, acknowledged by everyone, formalized by nobody:"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Fresh meat.</strong> New contractors. Zero to two scars. Still figuring out equipment. Still learning to check the board. Still shocked by the prices. Veterans can spot them instantly — the gear is too clean, the posture is too confident, and they haven’t learned to check corners yet. Fresh meat gets the worst contracts and the worst crew matches. Survival rate through the first five contracts determines everything. Most wash out. Some die. The rest become regulars."
+      "type": "info-block",
+      "icon": "🟢",
+      "title": "Fresh Meat",
+      "subtitle": "0–2 scars · New to the grind",
+      "entries": [
+        {"label": "Scars", "value": "0–2"},
+        {"label": "Contracts", "value": "Worst available"},
+        {"label": "Survival Rate", "value": "First 5 contracts determine everything", "full": true}
+      ],
+      "desc": "Still figuring out equipment. Still learning to check the board. Still shocked by the prices. Veterans can spot them instantly — the gear is too clean, the posture is too confident, and they haven't learned to check corners yet. Most wash out. Some die. The rest become regulars."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Regulars.</strong> The bulk of the contractor population. Three to five scars. Established crew. Steady income. They know the system, they know the margins, they know which corps to trust and which brokers to avoid. Regulars have routines. They have favorite bars. They have reputations — not famous, but known. A regular contractor is a functioning professional in a profession that tries to kill them. They’re good at this. They’re also tired."
+      "type": "info-block",
+      "icon": "🟡",
+      "title": "Regulars",
+      "subtitle": "3–5 scars · The bulk of contractor society",
+      "entries": [
+        {"label": "Scars", "value": "3–5"},
+        {"label": "Status", "value": "Established crew, steady income"},
+        {"label": "Reputation", "value": "Not famous, but known", "full": true}
+      ],
+      "desc": "They know the system, they know the margins, they know which corps to trust and which brokers to avoid. A regular contractor is a functioning professional in a profession that tries to kill them. They're good at this. They're also tired."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Veterans.</strong> Six or more scars and still breathing. A base. A vehicle. Augments deep enough to matter. Veterans are respected because their survival is statistical proof of competence. They get the best contracts — premium broker matching, direct corp recruitment, first-choice on high-paying jobs. Veterans also carry the most toxicity, the most scars, and the most dead friends. There’s a weight to them that regulars recognize and fresh meat doesn’t understand yet."
+      "type": "info-block",
+      "icon": "🟠",
+      "title": "Veterans",
+      "subtitle": "6+ scars · Statistical proof of competence",
+      "entries": [
+        {"label": "Scars", "value": "6+"},
+        {"label": "Assets", "value": "Base, vehicle, deep augments"},
+        {"label": "Access", "value": "Premium contracts, direct corp recruitment", "full": true}
+      ],
+      "desc": "Veterans are respected because their survival is statistical proof of competence. They also carry the most toxicity, the most scars, and the most dead friends. There's a weight to them that regulars recognize and fresh meat doesn't understand yet."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Legends.</strong> The contractors everyone knows by name or reputation. Not necessarily the strongest or most augmented — sometimes the luckiest, the most connected, or the ones who survived something that should have killed everyone. Legends get offered contracts that aren’t on the board. Corps negotiate directly. Brokers compete for their business. Legends are also the most likely to be targeted — by corps who want to recruit them, by rivals who want their contracts, and by the House of Mouse’s Advocates who noticed that the legend’s signature fighting technique is “confusingly similar“ to a proprietary combat style."
+      "type": "info-block",
+      "icon": "🔴",
+      "title": "Legends",
+      "subtitle": "Known by name · Targeted by everyone",
+      "entries": [
+        {"label": "Contracts", "value": "Off-the-board offers"},
+        {"label": "Status", "value": "Corps negotiate directly"},
+        {"label": "Risk", "value": "Most likely to be targeted by corps, rivals, and IP lawyers", "full": true}
+      ],
+      "desc": "Not necessarily the strongest or most augmented — sometimes the luckiest, the most connected, or the ones who survived something that should have killed everyone. Legends get offered contracts that aren't on the board. The dream that nobody believes in but everyone talks about."
     },
     {
       "type": "blockquote",

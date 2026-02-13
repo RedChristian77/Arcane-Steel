@@ -16,7 +16,9 @@
       "text": "The habitable half isn’t pristine. Background toxicity exists everywhere — it’s in the water, the soil, the food chain. Humans have adapted over a millennium (baseline toxicity tolerance is higher than it was), and corporate water treatment, air filtration, and food processing keep ambient exposure manageable in populated areas. Step outside a city’s infrastructure, though, and the numbers climb. The further from civilization, the worse it gets."
     },
     {
-      "type": "paragraph",
+      "type": "callout",
+      "label": "Key Concept",
+      "style": "teal",
       "text": "<strong>The habitable world is an archipelago of city-states in an ocean of dead zone.</strong> Each city-state is a corporate territory — a bubble of infrastructure, population, and controlled environment surrounded by land that wants to kill you. Between the bubbles: transit corridors, frontier settlements, wild rift zones, and the dead zone itself."
     },
     {
@@ -80,35 +82,20 @@
       "text": "<strong>Transit costs money.</strong> Citizens travel on corporate accounts. Contractors pay out of pocket."
     },
     {
-      "type": "paragraph",
-      "text": "----------------- ----------------- ----------------- -----------------"
+      "type": "table",
+      "headers": ["Route Type", "Cost", "Travel Time", "Security"],
+      "rows": [
+        ["<strong>Spine</strong> (major route)", "50–100 cr", "Hours to a day", "Corp military escort. Sealed cars. Safe."],
+        ["<strong>Branch Line</strong>", "20–50 cr", "Half a day to several days", "Light security. Unsealed cars. Usually safe."],
+        ["<strong>Road Convoy</strong>", "10–30 cr", "Days", "Armed escort varies. Sometimes it's just a truck."],
+        ["<strong>Independent</strong> (own vehicle)", "Fuel only", "Varies", "Whatever you brought with you."],
+        ["<strong>Walking</strong>", "Free", "Slow. Dangerous.", "You're alone in the dead zone. Good luck."]
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Route Type</strong>    <strong>Cost</strong>          <strong>Travel Time</strong>   <strong>Security</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Spine (major    50-100 cr         Hours to a day    Corp military route)</strong>                                              escort. Sealed cars. Safe."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Branch Line</strong>   20-50 cr          Half a day to     Light security. several days      Unsealed cars. Usually safe."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Road Convoy</strong>   10-30 cr          Days              Armed escort varies. Sometimes it’s just a truck."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Independent     Fuel only         Varies            Whatever you (own vehicle)</strong>                                       brought with you."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Walking</strong>       Free              Slow. Dangerous.  You’re alone in the dead zone. Good luck. ----------------- ----------------- ----------------- -----------------"
-    },
-    {
-      "type": "paragraph",
+      "type": "callout",
+      "label": "Contractor Reality",
+      "style": "rust",
       "text": "<strong>Contractors are cargo.</strong> The transit system was built for corporate trade — moving resources between city-states. Passengers are secondary. Contractor passengers are tertiary. You ride in the freight section, you eat what you brought, and you get off when the train stops. Some routes have dedicated contractor cars — converted freight containers with bunks, basic sanitation, and a door that locks. Luxury is a relative term."
     },
     {
@@ -120,32 +107,14 @@
       "text": "Between the city-states, the world is hostile. Dead zones aren’t a single thing — they’re a spectrum of “how badly has dimensional contamination ruined this place.“"
     },
     {
-      "type": "blockquote",
-      "text": "<em>Zone Classification:</em>"
-    },
-    {
-      "type": "paragraph",
-      "text": "-------------------- ----------------- ----------------- -----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Classification</strong>   <strong>Toxicity Rate</strong> <strong>Description</strong>   <strong>What Lives Here</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Yellow Zone</strong>      +1/day            Degraded but      Scavengers, navigable. Ruined salvage guilds, infrastructure,   desperate sparse            settlements, vegetation, low   low-tier rift wildlife. Former  fauna suburbs and farmland."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Orange Zone</strong>      +2/day            Actively toxic.   Rift fauna Rift-touched      (T1-T2), mutated flora dominates.  wildlife, rift Weather patterns  cults, things are wrong. Water  that used to be is unsafe.        human"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Red Zone</strong>         +4/day            Severely          Rift fauna contaminated.     (T2-T3), Physics gets      dimensional unreliable.       anomalies, Structures warp.  nothing human Navigation is difficult."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Black Zone</strong>       +8/day            Dimensional       Rift entities bleed. Reality is (T3-T4), things unstable. Time    that don’t dilation. Spatial belong in this distortion. The   dimension, the dead zone at its  source material worst.            for nightmares -------------------- ----------------- ----------------- -----------------"
+      "type": "table",
+      "headers": ["Classification", "Toxicity Rate", "Description", "What Lives Here"],
+      "rows": [
+        ["<strong>Yellow Zone</strong>", "+1/day", "Degraded but navigable. Ruined infrastructure, sparse vegetation, low wildlife. Former suburbs and farmland.", "Scavengers, salvage guilds, desperate settlements, low-tier rift fauna"],
+        ["<strong>Orange Zone</strong>", "+2/day", "Actively toxic. Rift-touched flora dominates. Weather patterns are wrong. Water is unsafe.", "Rift fauna (T1–T2), mutated wildlife, rift cults, things that used to be human"],
+        ["<strong>Red Zone</strong>", "+4/day", "Severely contaminated. Physics gets unreliable. Structures warp. Navigation is difficult.", "Rift fauna (T2–T3), dimensional anomalies, nothing human"],
+        ["<strong>Black Zone</strong>", "+8/day", "Dimensional bleed. Reality is unstable. Time dilation. Spatial distortion. The dead zone at its worst.", "Rift entities (T3–T4), things that don't belong in this dimension, the source material for nightmares"]
+      ]
     },
     {
       "type": "paragraph",
@@ -188,6 +157,10 @@
       "text": "<strong>The margin is also where brokers operate.</strong> Physical broker offices (called “boards“) are margin institutions — storefronts where contracts are posted, crews are matched, and deals are made. The board is a contractor’s second home. You check the board every morning the way a citizen checks their work schedule. It’s where you learn who died last night, who’s hiring, and which contracts to avoid."
     },
     {
+      "type": "divider",
+      "text": "LOCATIONS"
+    },
+    {
       "type": "heading",
       "text": "Points of Interest"
     },
@@ -196,28 +169,69 @@
       "text": "Every campaign needs specific locations. Here are the archetypes — the GM should name, place, and customize them for their world."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The Gate District</strong> — The area surrounding a city’s corporate rift gate. Heavily secured, heavily trafficked, heavily profitable. Staging areas where contractors prep for missions. Processing facilities where materials are weighed, graded, and paid for. The Gate District is where the money is. It’s also where the corp presence is heaviest — every contractor entering or leaving is scanned, logged, and assessed."
+      "type": "info-block",
+      "icon": "⛩",
+      "title": "The Gate District",
+      "subtitle": "Where the money flows",
+      "entries": [
+        {"label": "Security", "value": "Maximum — corp military presence"},
+        {"label": "Traffic", "value": "Highest in the city"},
+        {"label": "Purpose", "value": "Rift access & resource processing"},
+        {"label": "Contractor Use", "value": "Mission staging & material payouts"}
+      ],
+      "desc": "The area surrounding a city's corporate rift gate. Heavily secured, heavily trafficked, heavily profitable. Staging areas where contractors prep for missions. Processing facilities where materials are weighed, graded, and paid for. The Gate District is where the money is. It's also where the corp presence is heaviest — every contractor entering or leaving is scanned, logged, and assessed."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The Market</strong> — Every margin has an open market. Part bazaar, part black market, part social hub. Weapons, armor, augments, consumables, salvaged tech, rift materials, and information — all for sale, most of it legal, some of it not. Prices are negotiable. Trust is not."
+      "type": "info-block",
+      "icon": "🏪",
+      "title": "The Market",
+      "subtitle": "Part bazaar, part black market",
+      "entries": [
+        {"label": "Goods", "value": "Weapons, armor, augments, rift materials"},
+        {"label": "Legality", "value": "Mostly legal. Some of it not."},
+        {"label": "Key Rule", "value": "Prices are negotiable. Trust is not.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The Clinic</strong> — Margin medical facilities. Ranges from “licensed practitioner with real equipment“ to “guy with a knife and a strong opinion about surgery.“ Scar treatment, augment installation, detox, and emergency medicine. The good clinics have waiting lists. The bad clinics have body counts."
+      "type": "info-block",
+      "icon": "🏥",
+      "title": "The Clinic",
+      "subtitle": "Margin medical facilities",
+      "entries": [
+        {"label": "Services", "value": "Scar treatment, augments, detox, emergency medicine"},
+        {"label": "Quality", "value": "Ranges from 'licensed practitioner' to 'guy with a knife'", "full": true}
+      ],
+      "desc": "The good clinics have waiting lists. The bad clinics have body counts."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The Watering Hole</strong> — Every contractor district has a bar that functions as an informal community center. Contract rumors, crew recruitment, reputation management, and the kind of networking that happens at 2 AM with drinks in hand. The bartender knows everything. Tip accordingly."
+      "type": "info-block",
+      "icon": "🍺",
+      "title": "The Watering Hole",
+      "subtitle": "Informal community center",
+      "entries": [
+        {"label": "Function", "value": "Contract rumors, crew recruitment, networking"},
+        {"label": "Key Intel", "value": "The bartender knows everything. Tip accordingly.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The Yard</strong> — Vehicle storage, repair, and modification. Margin garages where mechanics work on contractor vehicles. Also a social space — crews hang out while their rigs are serviced, swap stories, compare scars, and occasionally get into fights about whose vehicle is worse."
+      "type": "info-block",
+      "icon": "🔧",
+      "title": "The Yard",
+      "subtitle": "Vehicle storage & repair",
+      "entries": [
+        {"label": "Services", "value": "Storage, repair, modification"},
+        {"label": "Social", "value": "Crews hang out, swap stories, compare scars", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>The Archive</strong> — Soma-operated or independent information centers. Maps, rift surveys, creature catalogs, contract histories. Access costs money, but good intel saves lives. Some archives are physical (libraries, data halls). Others are network-accessible for a subscription fee."
+      "type": "info-block",
+      "icon": "📚",
+      "title": "The Archive",
+      "subtitle": "Soma-operated or independent",
+      "entries": [
+        {"label": "Contents", "value": "Maps, rift surveys, creature catalogs, contract histories"},
+        {"label": "Access", "value": "Costs money, but good intel saves lives", "full": true}
+      ]
     }
   ]
 }
