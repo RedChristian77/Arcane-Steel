@@ -28,20 +28,57 @@
       ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Doctrine:</strong> Denial (primary), Extraction (secondary) <strong>Culture Origin:</strong> Ancient defense/aerospace contractor. They built weapons for governments. Then the governments collapsed and the weapons manufacturer was the only institution left with an army, a budget, and a chain of command. Sentinel didn’t conquer territory — it inherited it, by being the only organization capable of defending it. A thousand years later, they’re still defending it. Everything is defense. Everything is threat assessment. The entire society is organized around the assumption that something terrible is coming, and Sentinel is the only thing standing between civilization and extinction. <strong>Aesthetic:</strong> Gray and red. Angular. Fortified. Every building is a bunker. Every bunker is a command center. Maps cover every wall — threat maps, deployment maps, supply maps. Citizens wear rank insignia even in civilian contexts. Children are assigned unit numbers at birth. The Sentinel anthem is a march. Citizens stand when it plays. <strong>Citizen Identity:</strong> Soldiers. All of them. Even the accountants. Sentinel runs on discipline, hierarchy, and the absolute certainty that readiness is the only virtue that matters. Every citizen completes basic military training. Every citizen has an emergency posting. Every citizen knows their evacuation route. Paranoia isn’t a flaw — it’s doctrine. The question isn’t “will something happen?“ It’s “when, and are we ready?“"
+      "type": "heading",
+      "text": "Culture & Origins"
     },
     {
       "type": "paragraph",
-      "text": "<strong>What They Want From Rifts:</strong> Control. Sentinel’s Denial doctrine is about ensuring no rift operates without their knowledge and oversight. They seal wild rifts, garrison controlled ones, and maintain the largest rift-monitoring network in the world. Their secondary Extraction doctrine exists to fuel the military machine — minerals for weapons, materials for fortifications, resources for the war effort. What war? The one that’s coming. It’s always coming."
+      "text": "Ancient defense/aerospace contractor. They built weapons for governments. Then the governments collapsed and the weapons manufacturer was the only institution left with an army, a budget, and a chain of command. Sentinel didn't conquer territory — it inherited it, by being the only organization capable of defending it. A thousand years later, they're still defending it. Everything is defense. Everything is threat assessment. The entire society is organized around the assumption that something terrible is coming, and Sentinel is the only thing standing between civilization and extinction."
+    },
+    {
+      "type": "callout",
+      "label": "Aesthetic",
+      "style": "teal",
+      "text": "Gray and red. Angular. Fortified. Every building is a bunker. Every bunker is a command center. Maps cover every wall — threat maps, deployment maps, supply maps. Citizens wear rank insignia even in civilian contexts. Children are assigned unit numbers at birth. The Sentinel anthem is a march. Citizens stand when it plays."
+    },
+    {
+      "type": "callout",
+      "label": "Citizens",
+      "style": "accent",
+      "text": "Soldiers. All of them. Even the accountants. Sentinel runs on discipline, hierarchy, and the absolute certainty that readiness is the only virtue that matters. Every citizen completes basic military training. Every citizen has an emergency posting. Every citizen knows their evacuation route. Paranoia isn't a flaw — it's doctrine. The question isn't \"will something happen?\" It's \"when, and are we ready?\""
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Operations"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Pay:</strong> Structured. Fixed rates by contract tier with performance bonuses for exceeding objectives. No negotiation — the rate is the rate. Sentinel pays like a military: on time, by the book, exactly what was promised. No more, no less."
+      "text": "Control. Sentinel's Denial doctrine is about ensuring no rift operates without their knowledge and oversight. They seal wild rifts, garrison controlled ones, and maintain the largest rift-monitoring network in the world. Their secondary Extraction doctrine exists to fuel the military machine — minerals for weapons, materials for fortifications, resources for the war effort. What war? The one that's coming. It's always coming."
+    },
+    {
+      "type": "heading",
+      "text": "Working For Sentinel"
+    },
+    {
+      "type": "callout",
+      "label": "Pay",
+      "style": "gold",
+      "text": "Structured. Fixed rates by contract tier with performance bonuses for exceeding objectives. No negotiation — the rate is the rate. Sentinel pays like a military: on time, by the book, exactly what was promised. No more, no less."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Working For Sentinel:</strong> Disciplined. You’ll be briefed. You’ll follow the plan. You’ll report in the specified format at the specified time. Deviation from the plan is frowned upon even when it saves lives. The upside: Sentinel’s intel is excellent. Their threat assessments are accurate. When they say “expect T2 resistance,“ that’s what you’ll find. The downside: you’re a disposable asset. Casualties are acceptable if objectives are met. Your value is measured in mission completion percentage, not survival rate."
+      "text": "Disciplined. You'll be briefed. You'll follow the plan. You'll report in the specified format at the specified time. Deviation from the plan is frowned upon even when it saves lives. The upside: Sentinel's intel is excellent. Their threat assessments are accurate. When they say \"expect T2 resistance,\" that's what you'll find. The downside: you're a disposable asset. Casualties are acceptable if objectives are met. Your value is measured in mission completion percentage, not survival rate."
+    },
+    {
+      "type": "flavor",
+      "text": "What war? The one that's coming. It's always coming."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Mission debrief will commence at 0600. Attendance is mandatory. Deviations from mission parameters will be reviewed. Successful deviations will be noted. Unsuccessful deviations will be noted more thoroughly. Remember: discipline is the difference between a contractor who completes the mission and a contractor who is replaced. Sentinel thanks you for your service. Dismissed.\"</em>"
     }
   ]
 }

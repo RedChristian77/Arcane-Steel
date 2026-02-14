@@ -44,10 +44,12 @@ function renderContent(items) {
         }
         break;
       }
-      case 'heading':
+      case 'heading': {
         paraRun = 0;
-        html += '<h3 class="c-heading">' + item.text + '</h3>';
+        const hId = 'h-' + item.text.replace(/<[^>]*>/g, '').replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+        html += '<h3 class="c-heading" id="' + hId + '">' + item.text + '</h3>';
         break;
+      }
       case 'blockquote':
         paraRun = 0;
         html += '<div class="c-blockquote"><div class="c-bq-badge">CORP NOTICE</div>' + item.text + '</div>';

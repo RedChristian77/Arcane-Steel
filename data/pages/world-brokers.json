@@ -32,76 +32,82 @@
       "text": "Broker Tiers"
     },
     {
-      "type": "paragraph",
-      "text": "-------------- -------------- ------------------- -------------- ----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Tier</strong>       <strong>Cut</strong>        <strong>Contract          </strong>Intel        <strong>Crew Quality</strong>           Quality<strong>      Matching</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Street</strong>     5-8%           Low-tier. Mostly    Minimal.       Random. T1-T2 threats. Poor “There’s a   Whoever’s pay.                rift. Things   available. are in it.“"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Standard</strong>   10-12%         Mixed. T1-T3        Decent. Threat Algorithmic. threats. Fair pay.  level is       Skillset-based usually        matching. accurate."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Premium</strong>    15-20%         High-tier. T2-T4    Thorough.      Curated. threats. Good to    Detailed       Hand-picked excellent pay.      briefings,     teams with maps, threat   proven track profiles.      records."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Black</strong>      Varies         Illegal. Sabotage,  Variable.      Trusted networks espionage,          Sometimes      only. Invitation acquisition of      excellent,     required. sentient specimens, sometimes “off-the-books“   deliberately work.               misleading. -------------- -------------- ------------------- -------------- ----------------"
+      "type": "table",
+      "headers": ["Tier", "Cut", "Contract Quality", "Intel", "Crew Matching"],
+      "rows": [
+        ["<strong>Street</strong>", "5–8%", "Low-tier. T1–T2 threats. Poor pay.", "Minimal. \"There's a rift. Things are in it.\"", "Random. Whoever's available."],
+        ["<strong>Standard</strong>", "10–12%", "Mixed. T1–T3 threats. Fair pay.", "Decent. Threat level is usually accurate.", "Algorithmic. Skillset-based matching."],
+        ["<strong>Premium</strong>", "15–20%", "High-tier. T2–T4 threats. Excellent pay.", "Thorough. Detailed briefings, maps, threat profiles.", "Curated. Hand-picked teams with proven records."],
+        ["<strong>Black</strong>", "Varies", "Illegal. Sabotage, espionage, off-the-books work.", "Variable. Sometimes excellent, sometimes deliberately misleading.", "Trusted networks only. Invitation required."]
+      ]
     },
     {
       "type": "paragraph",
       "text": "<strong>Broker NPCs</strong> are valuable contacts. A good relationship with a broker means better contracts, advance notice of high-paying jobs, and the occasional favor. A bad relationship means garbage contracts, unreliable intel, and crew-matching that puts you with people who got their last team killed."
     },
     {
+      "type": "divider",
+      "text": "MINOR FACTIONS"
+    },
+    {
       "type": "paragraph",
       "text": "Not everything is corporate. The spaces between corps are filled with smaller factions that contractors encounter regularly."
     },
     {
-      "type": "heading",
-      "text": "Free Settlements"
+      "type": "info-block",
+      "icon": "🏘",
+      "title": "Free Settlements",
+      "subtitle": "Ungoverned communities in the gaps",
+      "entries": [
+        {"label": "Governance", "value": "Councils, strongmen, or collective agreement"},
+        {"label": "Economy", "value": "Trade, agriculture, and stubbornness"},
+        {"label": "Contractor Work", "value": "Defense, rift management, trade escort"},
+        {"label": "Pay", "value": "Low. Gratitude is high. They remember who helped them.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "Communities in unclaimed territory — the gaps between corporate borders where no corp’s law applies. Governed by councils, strongmen, or collective agreement. They survive through trade, agriculture, and the fact that corporate expansion is expensive. Free settlements hire contractors for defense, rift management, and trade escort. Pay is low. Gratitude is high. They remember who helped them."
+      "type": "info-block",
+      "icon": "🕳",
+      "title": "The Undercity",
+      "subtitle": "The shadow economy",
+      "entries": [
+        {"label": "Structure", "value": "Thousands of independent operators, not one organization"},
+        {"label": "Services", "value": "Black market goods, unregistered augments, identity forging, toxicity spoofing"},
+        {"label": "Key Use", "value": "Everything the corp economy doesn't provide: anonymity, contraband, and commerce without watchers.", "full": true}
+      ]
     },
     {
-      "type": "heading",
-      "text": "The Undercity"
+      "type": "info-block",
+      "icon": "🔥",
+      "title": "Rift Cults",
+      "subtitle": "Worship through saturation",
+      "entries": [
+        {"label": "Range", "value": "Harmless spiritual communities to dangerous extremist cells"},
+        {"label": "Beliefs", "value": "Harvesting is ascension. More rifts is progress. The other side has answers."},
+        {"label": "Threat", "value": "Unpredictable. Non-standard augments. Their relationship with toxicity is... different.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "The informal economy that exists underneath corporate infrastructure. Black markets, underground clinics, identity forgers, smugglers, and information brokers. Not a single organization — a network of thousands of independent operators connected by mutual need and mutual distrust. Contractors interact with the Undercity constantly for black market detox, unregistered augment installation, toxicity spoofing, and the sale of materials that fell off a transport."
+      "type": "info-block",
+      "icon": "⚙",
+      "title": "Salvage Guilds",
+      "subtitle": "Organized scavenger networks",
+      "entries": [
+        {"label": "Operations", "value": "Recovering materials from abandoned zones, wreckage, ruins"},
+        {"label": "Legitimacy", "value": "Some are businesses. Some are pirates."},
+        {"label": "Contractor Relationship", "value": "Sometimes allies, sometimes competitors, occasionally enemies.", "full": true}
+      ]
     },
     {
-      "type": "heading",
-      "text": "Rift Cults"
-    },
-    {
-      "type": "paragraph",
-      "text": "Groups that worship dimensional energy, rift entities, or the concept of transcendence through magical saturation. Range from harmless spiritual communities to dangerous extremist cells that deliberately seek maximum toxicity. Some believe that what the corps call “harvesting“ is actually “ascension.“ Some want to open more rifts. Some want to talk to what’s on the other side. Contractors occasionally encounter rift cults on missions — they’re unpredictable, often augmented in non-standard ways, and their relationship with toxicity is… different."
-    },
-    {
-      "type": "heading",
-      "text": "Salvage Guilds"
-    },
-    {
-      "type": "paragraph",
-      "text": "Organized scavenger networks that specialize in recovering materials from abandoned rift zones, destroyed settlements, and corporate wreckage. They’re not contractors — they don’t take contracts. They work independently, selling what they find on the open market. Some are legitimate businesses. Some are pirates who’ll strip a crashed transport while the crew is still warm. Contractors and salvagers have a complicated relationship — sometimes allies, sometimes competitors, occasionally enemies."
-    },
-    {
-      "type": "heading",
-      "text": "Non-Human Communities"
-    },
-    {
-      "type": "paragraph",
-      "text": "A thousand years of rift immigration has created established non-human communities — some integrated into corporate society, some independent. Non-human species with higher magic tolerance are simultaneously valued as workers and exploited as resources. Independent non-human communities exist primarily in rift-adjacent zones where ambient magic levels are too high for comfortable human habitation. They trade with contractors, offer services (especially magic-related), and maintain their own political structures. Some corps classify them as citizens. Some classify them as inventory."
+      "type": "info-block",
+      "icon": "🌀",
+      "title": "Non-Human Communities",
+      "subtitle": "A thousand years of rift immigration",
+      "entries": [
+        {"label": "Location", "value": "Rift-adjacent zones — ambient magic too high for human comfort"},
+        {"label": "Services", "value": "Trade, magic-related services, their own political structures"},
+        {"label": "Corp Status", "value": "Some corps classify them as citizens. Some classify them as inventory.", "full": true}
+      ]
     },
     {
       "type": "blockquote",

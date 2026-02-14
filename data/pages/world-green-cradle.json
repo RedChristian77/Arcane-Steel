@@ -28,24 +28,57 @@
       ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Doctrine:</strong> Acquisition (primary), Survey (secondary) <strong>Culture Origin:</strong> Ancient agricultural/biotech corporation. They started by controlling seeds. Then soil. Then water. Then the food supply. When the rifts opened and rift-touched biology started reshaping ecology, Green Cradle didn’t fight it — they cultivated it. A thousand years later, they grow everything. Food, building materials, medicine, augments, armor — all of it biological, all of it alive, all of it theirs. Their cities are forests. Their buildings breathe. Their farms are ecosystems. They are, depending on your perspective, either the most harmonious corporation in the world or the most terrifying. <strong>Aesthetic:</strong> Green and brown. Organic shapes. Living architecture — structures grown from engineered plants and rift-touched flora. No right angles. Walls have bark. Floors have roots. The air smells like growing things. Lighting is bioluminescent. Everything is alive, and some of it is watching you."
+      "type": "heading",
+      "text": "Culture & Origins"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Citizen Identity:</strong> Cultivators. Green Cradle citizens see themselves as gardeners of reality — stewards of the biological wealth that rifts have brought into the world. They’re the most comfortable with non-human species, the most invested in magical ecology, and the most ethically complicated corp to work for. They’ll capture a creature with genuine care, house it in a beautiful habitat, study it with real respect, and then splice its genetics into their citizens without meaningful consent. Conservation and exploitation, photosynthesizing side by side."
+      "text": "Ancient agricultural/biotech corporation. They started by controlling seeds. Then soil. Then water. Then the food supply. When the rifts opened and rift-touched biology started reshaping ecology, Green Cradle didn't fight it — they cultivated it. A thousand years later, they grow everything. Food, building materials, medicine, augments, armor — all of it biological, all of it alive, all of it theirs. Their cities are forests. Their buildings breathe. Their farms are ecosystems. They are, depending on your perspective, either the most harmonious corporation in the world or the most terrifying."
+    },
+    {
+      "type": "callout",
+      "label": "Aesthetic",
+      "style": "teal",
+      "text": "Green and brown. Organic shapes. Living architecture — structures grown from engineered plants and rift-touched flora. No right angles. Walls have bark. Floors have roots. The air smells like growing things. Lighting is bioluminescent. Everything is alive, and some of it is watching you."
+    },
+    {
+      "type": "callout",
+      "label": "Citizens",
+      "style": "accent",
+      "text": "Cultivators. Green Cradle citizens see themselves as gardeners of reality — stewards of the biological wealth that rifts have brought into the world. They're the most comfortable with non-human species, the most invested in magical ecology, and the most ethically complicated corp to work for. They'll capture a creature with genuine care, house it in a beautiful habitat, study it with real respect, and then splice its genetics into their citizens without meaningful consent. Conservation and exploitation, photosynthesizing side by side."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Operations"
     },
     {
       "type": "paragraph",
-      "text": "<strong>What They Want From Rifts:</strong> Living systems. Not just specimens — ecosystems. Flora, fauna, fungi, microbial life, symbiotic relationships, entire food chains. Green Cradle is building controlled rift-biomes within their territory: self-sustaining dimensional ecosystems that produce food, materials, and biological technology. Their Rift Division is equal parts field biologist and colonial gardener."
+      "text": "Living systems. Not just specimens — ecosystems. Flora, fauna, fungi, microbial life, symbiotic relationships, entire food chains. Green Cradle is building controlled rift-biomes within their territory: self-sustaining dimensional ecosystems that produce food, materials, and biological technology. Their Rift Division is equal parts field biologist and colonial gardener."
+    },
+    {
+      "type": "heading",
+      "text": "Working For Green Cradle"
+    },
+    {
+      "type": "callout",
+      "label": "Pay",
+      "style": "gold",
+      "text": "Moderate base with significant biodiversity bonuses. Three specimens of the same species pays less than one specimen each of three different species. Variety is profit. Alive is always worth more than dead."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Pay:</strong> Moderate base with significant biodiversity bonuses. Three specimens of the same species pays less than one specimen each of three different species. Variety is profit. Alive is always worth more than dead."
+      "text": "Respectful. Alien. They treat contractors better than most corps — fair pay, genuine concern for your wellbeing (your survival means continued data). The food is extraordinary (rift-touched agriculture produces flavors no other corp can replicate). The weirdness: the buildings rearrange. Your quarters might shift overnight — the walls are alive and respond to stimuli you can't perceive. Citizens communicate through plant-based networks that process information on a different timescale than electronics. Conversations with Green Cradle contacts have an uncanny quality — slight pauses, as if they're listening to something in the soil. You get used to it. The soil, apparently, does not get used to you."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Working For Green Cradle:</strong> Respectful. Alien. They treat contractors better than most corps — fair pay, genuine concern for your wellbeing (your survival means continued data). The food is extraordinary (rift-touched agriculture produces flavors no other corp can replicate). The weirdness: the buildings rearrange. Your quarters might shift overnight — the walls are alive and respond to stimuli you can’t perceive. Citizens communicate through plant-based networks that process information on a different timescale than electronics. Conversations with Green Cradle contacts have an uncanny quality — slight pauses, as if they’re listening to something in the soil. You get used to it. The soil, apparently, does not get used to you."
+      "type": "flavor",
+      "text": "You get used to it. The soil, apparently, does not get used to you."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Cradle reminds all contractors that biological specimens must be handled according to Protocol Verdant-7. Specimens damaged through carelessness will be deducted from payment at replacement value. Replacement value is determined by the specimen. Some specimens are irreplaceable. Some specimens are watching you read this. Please conduct yourself accordingly. The soil remembers.\"</em>"
     }
   ]
 }

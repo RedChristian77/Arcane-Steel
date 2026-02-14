@@ -24,8 +24,17 @@
       "text": "<strong>Tiers.</strong> Every corp has internal hierarchy, though they call it different things:"
     },
     {
-      "type": "blockquote",
-      "text": "• <strong>Executive Caste</strong> — the decision-makers. Board members, directors, high priests, whatever the local title is. 0.1% of the population. Controls everything.  • <strong>Managerial Layer</strong> — middle management. Administrators, department heads, regional governors. They keep the machine running. 5-10% of the population.  • <strong>Skilled Workers</strong> — engineers, doctors, technicians, soldiers, specialists. The valuable labor. 20-30% of the population.  • <strong>General Citizens</strong> — everyone else. Factory workers, service industry, agriculture, maintenance. The bulk of the population. They live, work, consume, and believe.  • <strong>Contractors</strong> — not citizens. Not on the chart. Exist in the margins between corps. Useful, disposable, unprotected."
+      "type": "callout",
+      "label": "Hierarchy",
+      "style": "teal",
+      "text": "Every corp has internal hierarchy, though they call it different things:",
+      "items": [
+        "<strong>Executive Caste</strong> — the decision-makers. Board members, directors, high priests, whatever the local title is. 0.1% of the population. Controls everything.",
+        "<strong>Managerial Layer</strong> — middle management. Administrators, department heads, regional governors. They keep the machine running. 5–10% of the population.",
+        "<strong>Skilled Workers</strong> — engineers, doctors, technicians, soldiers, specialists. The valuable labor. 20–30% of the population.",
+        "<strong>General Citizens</strong> — everyone else. Factory workers, service industry, agriculture, maintenance. The bulk of the population. They live, work, consume, and believe.",
+        "<strong>Contractors</strong> — not citizens. Not on the chart. Exist in the margins between corps. Useful, disposable, unprotected."
+      ]
     },
     {
       "type": "paragraph",
@@ -48,32 +57,57 @@
       "text": "This is the big differentiator. What a corporation <em>does</em> with rifts defines its identity, its economy, its military doctrine, and the contracts it offers. There are four broad rift doctrines:"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Extraction</strong> — Strip it. Raw materials, minerals, energy resources, exotic substances. The rift is a mine. Get in, take everything that isn’t nailed down, process it, sell it. Volume matters. Efficiency matters. What’s on the other side doesn’t matter except as an obstacle to profitability."
+      "type": "callout",
+      "label": "Extraction",
+      "style": "rust",
+      "text": "<strong>Strip it.</strong> Raw materials, minerals, energy resources, exotic substances. The rift is a mine. Get in, take everything that isn't nailed down, process it, sell it. Volume matters. Efficiency matters. What's on the other side doesn't matter except as an obstacle to profitability."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Acquisition</strong> — Capture it. Live specimens, biological samples, genetic material, sentient species, functional technology, intact artifacts. The rift is a zoo, a laboratory, and a museum. Bringing things back alive and undamaged is the priority. More dangerous, more expensive, exponentially more valuable."
+      "type": "callout",
+      "label": "Acquisition",
+      "style": "gold",
+      "text": "<strong>Capture it.</strong> Live specimens, biological samples, genetic material, sentient species, functional technology, intact artifacts. The rift is a zoo, a laboratory, and a museum. Bringing things back alive and undamaged is the priority. More dangerous, more expensive, exponentially more valuable."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Survey</strong> — Map it. Long-term rift monitoring, dimensional cartography, environmental analysis, predictive modeling. The rift is a research site. Survey corps play the long game — they want to understand dimensional mechanics well enough to control rift formation, predict natural openings, and eventually (theoretically) create stable permanent gateways. Short-term profit is secondary to long-term strategic advantage."
+      "type": "callout",
+      "label": "Survey",
+      "style": "teal",
+      "text": "<strong>Map it.</strong> Long-term rift monitoring, dimensional cartography, environmental analysis, predictive modeling. The rift is a research site. Survey corps play the long game — they want to understand dimensional mechanics well enough to control rift formation, predict natural openings, and eventually (theoretically) create stable permanent gateways. Short-term profit is secondary to long-term strategic advantage."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Denial</strong> — Seal it. Wild rifts are threats. Things come through. People die. Infrastructure is damaged. The rift must be contained, controlled, and if possible, closed. Denial corps profit from security — selling protection services, deploying rapid response teams, and charging other corps for rift containment in their territory. The product isn’t what comes out of the rift. The product is making sure nothing does."
+      "type": "callout",
+      "label": "Denial",
+      "style": "accent",
+      "text": "<strong>Seal it.</strong> Wild rifts are threats. Things come through. People die. Infrastructure is damaged. The rift must be contained, controlled, and if possible, closed. Denial corps profit from security — selling protection services, deploying rapid response teams, and charging other corps for rift containment in their territory. The product isn't what comes out of the rift. The product is making sure nothing does."
     },
     {
       "type": "paragraph",
       "text": "Most corps have a primary doctrine and a secondary. A primarily Extraction corp might do some Acquisition on the side. A Survey corp might handle Denial in its own territory. But the primary doctrine shapes everything — culture, contracts, equipment, and what they need from you."
     },
     {
+      "type": "divider",
+      "text": "THE SEVEN"
+    },
+    {
       "type": "paragraph",
       "text": "Seven corporations dominate the world. Dozens of smaller corps exist in their shadows, but these seven control the majority of territory, population, rift access, and economic output."
     },
     {
-      "type": "paragraph",
-      "text": "None of them remember what they used to be. A thousand years is long enough to turn a logo into a flag, a slogan into scripture, and a franchise agreement into a feudal pact. The names survive. The context doesn’t."
+      "type": "table",
+      "headers": ["Corp", "Primary Doctrine", "Secondary", "Identity"],
+      "rows": [
+        ["⛏️ <strong>Congo Industries</strong>", "Extraction", "Denial", "Logistics empire. Fulfillers."],
+        ["👑 <strong>The Crowned Table</strong>", "Denial", "Extraction", "Feudal fast-food monarchy. Subjects."],
+        ["🍐 <strong>Pear Technologies</strong>", "Survey", "Extraction", "Tech cult. Users."],
+        ["💊 <strong>Wellspring Pharma</strong>", "Acquisition", "Survey", "Bioethics horror show. Patients."],
+        ["🏛️ <strong>Sentinel Systems</strong>", "Denial", "Survey", "Military-industrial paranoia. Soldiers."],
+        ["🌿 <strong>Green Cradle</strong>", "Survey", "Acquisition", "Eco-authoritarian gardeners. Cultivators."],
+        ["🎭 <strong>House of Mouse</strong>", "Acquisition", "Denial", "Entertainment theocracy. Cast Members."]
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "None of them remember what they used to be. A thousand years is long enough to turn a logo into a flag, a slogan into scripture, and a franchise agreement into a feudal pact. The names survive. The context doesn't."
     },
     {
       "type": "blockquote",
