@@ -1,0 +1,390 @@
+{
+  "id": "world-history",
+  "title": "History & Timeline",
+  "subtitle": "A thousand years of corporate progress",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"The following historical summary has been compiled from surviving corporate records, partial archaeological surveys, and oral traditions of varying reliability. Large portions of the pre-rift and early-rift historical record have been lost, corrupted, or reclassified. Where gaps exist, corporate-approved approximations have been inserted. The Intercompany Historical Commission reminds all readers that the past is a shared resource and, like all shared resources, is subject to corporate interpretation.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How We Got Here"
+    },
+    {
+      "type": "paragraph",
+      "text": "The short version: somebody punched a hole in reality, liked what they found on the other side, and kept punching. A thousand years later, reality has more holes than structure, magic has poisoned the water table, governments are a quaint historical concept, and seven corporations own everything that matters. The long version follows. It isn't more encouraging."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The First Rifts (~2025–2100)"
+    },
+    {
+      "type": "callout",
+      "label": "Era Summary",
+      "style": "teal",
+      "text": "<strong>The Golden Age of Dimensional Extraction.</strong> Controlled corporate experiments in dimensional access yield unprecedented resource discoveries. Global markets boom. Regulatory frameworks lag decades behind the technology. Everyone involved gets very, very rich."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first confirmed dimensional rift was opened in 2027 by a research consortium funded by three corporations whose names have since been absorbed into larger entities. The technology was crude — brute-force energy projection that tore a temporary hole in the membrane between dimensions. The hole was small. The hole was unstable. The hole leaked energy that made seven researchers violently ill."
+    },
+    {
+      "type": "paragraph",
+      "text": "What came back through the hole, however, was a mineral sample with an energy density four hundred times greater than anything found on Earth. Quarterly projections were revised upward before the researchers finished vomiting."
+    },
+    {
+      "type": "flavor",
+      "text": "The stock market doesn't care about dimensional integrity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within a decade, every major corporation with the capital to fund research had its own rift program. The technology improved rapidly — rifts became larger, more stable, more predictable. Corporate teams went through, catalogued what they found, stripped what they could carry, and came back. Security was tight. Access was controlled. Everything was gated, monitored, and profitable."
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2060, dimensional extraction had replaced fossil fuels, rare earth mining, and most conventional energy production as the primary economic driver on Earth. Cities were built around rift gates. New industries emerged overnight. The companies that controlled rift technology controlled the future, and the future looked like an earnings report with no ceiling."
+    },
+    {
+      "type": "paragraph",
+      "text": "Governments regulated where they could. Mostly they couldn't. The technology moved faster than legislation, the lobbying budgets were larger than national GDPs, and the economic benefits were too visible for any elected official to risk opposing. A few nations attempted outright bans. Their economies collapsed within years. They reversed course. The corps welcomed them back. Generously."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Dimensional resource extraction represents the single greatest opportunity for human advancement since the discovery of fire. Concerns about long-term membrane stability are theoretical and should not impede practical progress.\" — Joint Corporate Address to the United Nations, 2058. The United Nations no longer exists.</em>"
+    },
+    {
+      "type": "flavor",
+      "text": "Everyone was optimistic. That's the part that hurts."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Unraveling (~2100–2300)"
+    },
+    {
+      "type": "callout",
+      "label": "Era Summary",
+      "style": "rust",
+      "text": "<strong>The membrane thins.</strong> Rifts begin opening without corporate involvement. Ambient magical energy seeps into the biosphere. First mutations. First non-human contact. First signs that the damage might be permanent. Corporate response: increased extraction quotas to offset projected instability costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first wild rift opened in 2103, in a soybean field in what was then called Brazil. It was small — barely two meters across — and it closed on its own after eleven minutes. A farmer reported it. Scientists investigated. The corporate explanation was \"residual dimensional resonance from nearby extraction operations.\" This was technically accurate. It was also the equivalent of calling a dam breach a \"moisture event.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2120, wild rifts were opening weekly. By 2150, daily. By 2200, the global average was forty-seven new wild rifts per day. They opened everywhere — in cities, in oceans, in mountains, in the basements of apartment buildings. Some lasted seconds. Some lasted years. Some are still open."
+    },
+    {
+      "type": "paragraph",
+      "text": "The membrane between dimensions — whatever it was, nobody fully understood it then and nobody fully understands it now — had been weakened by decades of controlled extraction to the point where it tore on its own. Every corporate rift was a puncture wound. Enough puncture wounds, and the skin stops holding."
+    },
+    {
+      "type": "flavor",
+      "text": "Magic didn't arrive. It leaked."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ambient magical energy began saturating the environment around 2130. Slowly at first — trace readings in groundwater, unusual electromagnetic behavior near rift sites, plants growing in patterns that didn't match any known biology. Then faster. By 2180, background magical saturation was detectable in every major city on Earth. By 2250, it was in the food chain."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first human mutations appeared in the 2160s — children born near rift-dense regions with abilities that had no biological explanation. They could move objects without touching them. They could ignite air. They could see through walls, or into other dimensions, or into the future (briefly, inaccurately, and at great personal cost). The corporate term was \"ambient-origin manifestation.\" The popular term was shorter and less clinical."
+    },
+    {
+      "type": "paragraph",
+      "text": "And things came through. Not just resources — <em>organisms</em>. Rift fauna colonized Earth's ecosystems with the efficiency of invasive species that had evolved in dimensions where everything was trying to kill everything else. Some were animals. Some were plants. Some defied the distinction. Ecosystems that had taken millions of years to stabilize were disrupted in decades."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then the intelligent ones arrived."
+    },
+    {
+      "type": "table",
+      "headers": ["Year (Approx.)", "Event", "Significance"],
+      "rows": [
+        ["2103", "First wild rift opens (Brazil)", "Proof that dimensional membrane is degrading autonomously"],
+        ["2130s", "Ambient magic becomes detectable in groundwater", "Environmental saturation begins"],
+        ["2147", "First Keth cross through a mining rift in the Char", "First confirmed non-human sapient contact"],
+        ["2160s", "First human mutations documented", "Ambient-origin manifestation in newborns near rift sites"],
+        ["2180", "Background magic detectable in all major cities", "Global saturation confirmed"],
+        ["2195", "First Vael communities establish near Bloom-origin rifts", "Second major species immigration begins"],
+        ["2210", "Whispers first reported — no record of arrival", "Third species confirmed; origin unknown"],
+        ["2230", "First recorded rift storm — 200+ simultaneous wild rifts", "Dimensional instability enters catastrophic phase"],
+        ["2250", "Magic confirmed in the global food chain", "Biological adaptation becomes unavoidable"],
+        ["2280", "Corporate nations begin restricting rift access to citizens", "Seeds of the Resource Wars"]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "The Keth Arrive",
+      "style": "accent",
+      "text": "In 2147, a corporate mining team operating in the Char dimension encountered a group of Keth near a thermal vent they were excavating. The Keth had been mining the same vent. For considerably longer. First contact was, by all surviving accounts, extremely awkward — two groups of miners staring at each other across a lava field, both holding pickaxes. The Keth followed the humans back through the rift. They've been here since. They brought their own tools."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate response to the Unraveling was, predictably, to extract faster. The logic was almost reasonable: if the membrane was degrading anyway, the resources on the other side would eventually become accessible to anyone. Better to harvest them now, under corporate control, than to let wild rifts distribute them chaotically. The fact that increased extraction was accelerating the degradation was acknowledged in internal reports and ignored in board meetings."
+    },
+    {
+      "type": "flavor",
+      "text": "When the world is ending, the quarterly earnings call still happens on schedule."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Resource Wars (~2300–2400)"
+    },
+    {
+      "type": "callout",
+      "label": "Era Summary",
+      "style": "rust",
+      "text": "<strong>Governments try to take back control. Governments fail.</strong> A century of armed conflict between nation-states and corporate entities over rift access, territorial sovereignty, and the right to exploit dimensional resources. The corps win. Not because they were right. Because they controlled the supply lines to everywhere."
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2300, the situation was untenable. Corporations controlled the only resources that mattered — rift access, dimensional extraction technology, magical energy infrastructure, and the supply chains connecting them. National governments controlled territory, armies, and a dwindling tax base. The imbalance was obvious. The governments moved first."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nationalization attempts began in waves. The European Cooperative tried to seize corporate rift gates within its borders in 2308. The Pan-Pacific Alliance followed in 2312. The African Union, the South American Federation, the North Atlantic States — one by one, governments invoked emergency powers, eminent domain, or outright military seizure to reclaim dimensional resources from corporate control."
+    },
+    {
+      "type": "flavor",
+      "text": "It didn't work. It was never going to work."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can't nationalize a supply chain that runs through other dimensions. When a government seized a rift gate, the corporation shut down the stabilization equipment on the other side — equipment that existed in a dimension the government couldn't reach without corporate technology. The gate became a wild rift. An uncontrolled tear in reality, in the middle of a city, venting raw magical energy and whatever happened to be standing on the other side. Governments that seized rift gates didn't gain resources. They gained disasters."
+    },
+    {
+      "type": "paragraph",
+      "text": "The wars that followed lasted a century. They weren't clean. They weren't decisive, at first. They were ugly, grinding conflicts between national armies fighting for sovereignty and corporate security forces fighting for profit margins. The corps didn't need to win battles. They needed to win logistics. And they did. Every time."
+    },
+    {
+      "type": "callout",
+      "label": "How Governments Fell",
+      "style": "accent",
+      "text": "Not all at once, and not all the same way:",
+      "items": [
+        "<strong>Democracies</strong> collapsed from within. Corporations funded opposition parties, bought media infrastructure, and ran candidates who privatized rift access back to corporate control. Where elections couldn't be purchased, economic pressure did the work — embargo a nation's dimensional resource supply for six months and the population votes for whoever promises to turn the lights back on.",
+        "<strong>Military dictatorships</strong> lasted longer but fell harder. They could resist corporate economic pressure through force, but they couldn't operate rift technology without corporate engineers. When the engineers left (or were extracted by private security teams), the dictatorships sat on top of equipment they couldn't use and gates they couldn't stabilize. Most negotiated surrender. Some didn't. The ones that didn't are now dead zones.",
+        "<strong>Federal unions</strong> fragmented. Member states cut separate deals with different corporations, breaking the unions apart from inside. A federation can't maintain coherence when three of its seven members are receiving better terms from a corp than the federation itself can offer.",
+        "<strong>Theocracies and ideological states</strong> resisted longest — belief is harder to buy than votes. But belief doesn't generate electricity. When the choice was doctrinal purity or functional infrastructure, populations chose infrastructure. The corps didn't fight the faith. They made the faith irrelevant by making the alternative unlivable."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2400, there were no functioning national governments on Earth. The last holdout — a submarine-based military government operating out of a deep-ocean base in the former Pacific — surrendered its territorial claims to Sentinel Systems in exchange for citizenship guarantees for its personnel. The guarantees were honored. The personnel were reassigned to deep-rift mining. Technically, a promotion."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The transition from national to corporate governance was a natural evolution of economic reality. The entities best positioned to provide essential services assumed the responsibilities of governance. This is not a political statement. It is an invoice.\" — Intercompany Historical Commission, Standard Textbook Edition, Chapter 1</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Consolidation (~2400–2600)"
+    },
+    {
+      "type": "callout",
+      "label": "Era Summary",
+      "style": "gold",
+      "text": "<strong>Hundreds of corporations become seven.</strong> Two centuries of mergers, acquisitions, hostile takeovers, proxy wars, and outright corporate warfare reduce the field to the seven megacorporations that control the world today. Each survived for different reasons. None survived by being gentle."
+    },
+    {
+      "type": "paragraph",
+      "text": "With national governments gone, the only competition left was each other. And there were a lot of them. At the start of the Consolidation, over three hundred corporations held territorial claims of varying legitimacy. Most were small — single-city operations, regional resource extractors, niche technology firms that had lucked into controlling a useful rift gate. A few were already massive, spanning continents and dimensions."
+    },
+    {
+      "type": "paragraph",
+      "text": "What followed was two centuries of the most efficient violence in human history. Not warfare in the old sense — armies marching across borders. This was corporate optimization applied to territorial expansion. Hostile mergers backed by private militaries. Infrastructure sabotage disguised as wild rift events. Engineered economic collapses that left smaller corps with two options: absorption or bankruptcy. Bankruptcy, in a world with no government safety net, meant your citizens became refugees. Refugees became labor pools. Labor pools became leverage."
+    },
+    {
+      "type": "flavor",
+      "text": "Every merger was a funeral with better paperwork."
+    },
+    {
+      "type": "paragraph",
+      "text": "Three hundred became one hundred. One hundred became forty. Forty became twelve. Twelve became seven. Each reduction was bloodier than the last, because the survivors were bigger, richer, and better at killing. The final consolidation — the War of Twelve, which reduced the field to its current seven — lasted sixty years and rendered approximately 15% of the remaining habitable surface permanently toxic."
+    },
+    {
+      "type": "callout",
+      "label": "Why These Seven?",
+      "style": "teal",
+      "text": "Each of the surviving corporations endured for different reasons:",
+      "items": [
+        "<strong>Congo Industries</strong> survived because it controlled logistics. When every other corp needed to move resources between dimensions, they moved them through Congo's infrastructure. Destroying Congo meant destroying your own supply chain. Nobody could afford to.",
+        "<strong>The Crowned Table</strong> survived because it controlled food. Its ancient franchise structure had evolved into a distributed agricultural network so deeply embedded in civilian life that conquering it meant starving your own population. Also, its feudal loyalty structure made its citizens genuinely willing to die for it. Hard to absorb a workforce that would rather burn the factory down.",
+        "<strong>Pear Technologies</strong> survived because it controlled dimensional survey data. Every corp's rift operations depended on Pear's predictive models. Destroying Pear meant flying blind into dimensions you didn't understand. The data was worth more than the territory.",
+        "<strong>Wellspring Pharma</strong> survived because it controlled medicine. Toxicity treatment, augmentation surgery, scar remediation, genetic modification — Wellspring held the patents and the expertise. You can win a war against the company that heals your soldiers. You just can't fight the next one.",
+        "<strong>Sentinel Systems</strong> survived because it was the most militarily powerful entity on the planet and made sure everyone knew it. Sentinel didn't need a clever survival strategy. It had the biggest guns. Sometimes that's enough.",
+        "<strong>Green Cradle</strong> survived because it controlled the biosphere. Its ecological management systems maintained habitable conditions across vast stretches of territory. Destroying Green Cradle meant your air filtration stopped working. Enlightened self-interest kept it alive.",
+        "<strong>House of Mouse</strong> survived because it controlled culture. A thousand years of media dominance meant its mythology was embedded in every other corp's population. Its citizens were true believers — fanatical in a way that made conquest expensive and occupation impossible. You can take the territory. You can't take the narrative."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "By 2600, the borders were drawn. The seven survivors controlled the world between them — not equally, not peacefully, but completely. Everything outside their territories was dead zone, wild rift territory, or contested margin. The age of expansion was over. The age of maintenance had begun."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Species Immigration Waves"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-human sapient species didn't arrive all at once. They came in waves, each driven by different circumstances, each integrating (or failing to integrate) differently. The order of arrival shaped everything — who got rights first, who got exploited first, who got a seat at the table and who got put under it."
+    },
+    {
+      "type": "callout",
+      "label": "First Wave: The Keth (~2147)",
+      "style": "teal",
+      "text": "The Keth came because they were already there. Mining the same veins, in the same volcanic dimension, when human extraction teams punched through. First contact was accidental and mutual — two species of miners meeting underground. The Keth followed humans back through the rift gates out of curiosity, then stayed because Earth had resources the Char didn't. Integration was relatively smooth. Miners understand miners. The corps understood cheap, durable labor. The Keth understood they were being underpaid. They stayed anyway. The rock here is interesting."
+    },
+    {
+      "type": "callout",
+      "label": "Second Wave: The Vael (~2195)",
+      "style": "teal",
+      "text": "The Vael arrived through Bloom-origin rifts — drawn by ecological signals that their biology interpreted as distress calls. Their home dimension was overgrown, hyper-competitive, and suffocating. Earth's damaged biosphere was, to them, a garden in need of tending. They came as caretakers. The corps employed them as agricultural workers and biome engineers. Green Cradle welcomed them as model citizens. Everyone else tolerated them as useful. The Vael noticed the exploitation. Their community-oriented psychology made individual resistance difficult — they adapted collectively, quietly, and with the patience of organisms that photosynthesize."
+    },
+    {
+      "type": "callout",
+      "label": "Third Wave: The Whispers (~2210)",
+      "style": "accent",
+      "text": "The Whispers didn't arrive. They were <em>noticed</em>. No record of their crossing exists. No rift event correlates to their appearance. One day they simply were — present in cities, working jobs, living in apartments, as though they'd always been there. Background checks returned data that was technically valid but felt wrong, like a form filled out by someone who'd read about forms but never seen one. Corporate response was cautious: they're useful (dimensional perception is irreplaceable), they're unsettling (their shadows do things), and nobody wants to be the entity that provokes whatever the Whispers actually are."
+    },
+    {
+      "type": "callout",
+      "label": "Fourth Wave: The Grunts (~2280)",
+      "style": "teal",
+      "text": "The Grunts showed up during the late Unraveling, walking through wild rifts in small family groups. No fanfare. No diplomacy. They assessed the situation, found the climate acceptable, the food edible, and the local population disorganized enough to leave room. They settled in frontier zones, built structures, and started farming. When the Resource Wars reached their settlements, they fought — not for ideology, but because someone was standing on their crops. They won often enough that the corps decided recruiting was cheaper than conquering. Grunts have been the backbone of heavy labor and frontline security ever since. They don't complain about the arrangement. They do remember it."
+    },
+    {
+      "type": "callout",
+      "label": "Fifth Wave: The Flickers (~2350, ongoing)",
+      "style": "teal",
+      "text": "Flickers came from everywhere — multiple dimensions, through multiple rift types, in a continuous trickle that's never fully stopped. They're dimensional opportunists, evolved to exploit niches in whatever ecosystem they find themselves in. On Earth, they found a niche: the margins. Too fast for manual labor quotas, too small for military recruitment, too clever for corporate conformity, Flickers dominate the informal economy — courier services, black market logistics, information brokerage, and the kind of precision technical work that requires hands faster than augmented human nerves. The corps can't quite figure out what to do with them. The Flickers prefer it that way."
+    },
+    {
+      "type": "callout",
+      "label": "Sixth Wave: The Hollows (~2500)",
+      "style": "accent",
+      "text": "The Hollows weren't immigrants. They were <em>discovered</em> — found in ruins inside the Grave, a dimension of dead civilizations and silent architecture. Exploration teams from multiple corps reported finding beings that looked almost human, standing in the ruins as if waiting for something. The Hollows didn't resist extraction. They didn't resist anything. They simply... cooperated. Answered questions in whatever language was spoken to them. Learned tasks immediately. Integrated with an efficiency that was impressive and faintly horrifying. Nobody knows what they were waiting for. The Hollows don't know either. Or they do, and the answer doesn't translate."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Modern Era (2600–3025)"
+    },
+    {
+      "type": "callout",
+      "label": "Era Summary",
+      "style": "teal",
+      "text": "<strong>Stabilization. Calcification. The world stops changing and starts repeating.</strong> Corporate sovereignty is formalized. Borders harden. Culture becomes doctrine. The present is just the past with better augments and higher toxicity readings."
+    },
+    {
+      "type": "paragraph",
+      "text": "The last four hundred years have been, by historical standards, stable. This is not a compliment. \"Stable\" means the same systems that were broken in 2600 are still broken in 3025, but they've been broken long enough that people have forgotten they were ever intact. The cracks have become load-bearing."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Intercompany Accords</strong> — ratified in 2612 — formalized the relationships between the seven megacorporations. Territorial boundaries were codified. Trade agreements were standardized. Rules of engagement for corporate conflicts were established (no dimensional weapons within city-state perimeters, no deliberate rift destabilization in populated areas, no targeting civilian infrastructure during active disputes — rules honored roughly as often as they're violated). The Accords didn't create peace. They created a framework for managed hostility."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Personhood Accords</strong> — ratified in 2638 after two decades of negotiation and three non-human labor uprisings — extended legal personhood to sapient non-human species within corporate territories. On paper, non-humans have the same rights as human citizens. In practice, the contracts are longer, the fine print is finer, and the \"voluntary\" extended-deployment clauses appear with suspicious frequency. Progress is a word the corps use in press releases. It is not a word non-human laborers use at home."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Contractor Statutes</strong> — ratified in 2655, amended fourteen times since, each amendment removing a protection — established the legal framework for freelance interdimensional labor. You exist because of these statutes. You are protected by these statutes. The protection is roughly equivalent to a Terms of Service agreement that nobody reads and nobody enforces, but it's technically there, and that's enough for the corps to claim they've done their due diligence."
+    },
+    {
+      "type": "flavor",
+      "text": "Four hundred years of stability. The kind of stability a cage provides."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate culture hardened into corporate religion somewhere around the 2700s. The transition wasn't sudden — it was generational. When your great-great-great-grandparents worked for the same company, lived in the same company town, prayed to the same company founder, and were buried in the same company cemetery, the distinction between employer and deity gets philosophical. By 2800, every major corp had a mythology, a clergy (by any other name), sacred texts (annual reports from the founding era), and rituals (quarterly reviews, loyalty ceremonies, branding days). Faith isn't optional. It's payroll."
+    },
+    {
+      "type": "paragraph",
+      "text": "The present — 3025 — is the product of all of this. A world of city-states and dead zones, connected by armored transit lines that sometimes pass through other dimensions. Seven corporations that function as nations, religions, and employers simultaneously. A population that's part human, part non-human, part augmented, and entirely owned. Wild rifts that open daily, spilling resources and dangers in equal measure. Contractors in the margins, doing the work that nobody else will do for the money that nobody else will accept."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nothing has fundamentally changed in four centuries. The augments are better. The toxicity is higher. The corporations are more entrenched. The margins are more crowded. But the structure — the basic architecture of who has power and who doesn't — is the same structure that solidified when the last government fell and the last corporate rival was absorbed. The world didn't freeze. It just stopped imagining alternatives."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "What Was Lost"
+    },
+    {
+      "type": "paragraph",
+      "text": "A thousand years erases more than it preserves. The pre-rift world — the world before 2027, before dimensional extraction, before magic, before corporate sovereignty — exists now only in fragments. Partial digital archives, corrupted beyond complete recovery. Physical artifacts in corporate museums, curated for brand narrative rather than accuracy. Oral traditions that have mutated through forty generations of retelling until the original facts are indistinguishable from the mythology that replaced them."
+    },
+    {
+      "type": "callout",
+      "label": "Lost Knowledge",
+      "style": "rust",
+      "text": "<strong>What we no longer have:</strong> Complete maps of the pre-rift world. The names and borders of most nation-states. The full history of any pre-rift civilization. Accurate population records from before the Unraveling. Scientific understanding of the pre-magic biosphere. Most literature, art, music, and philosophy from before approximately 2200. The identities of the researchers who opened the first rift (their records were classified, then lost, then classified again by a different corp that found partial copies). The original purpose of several major pieces of infrastructure that are still in use but whose blueprints no longer exist."
+    },
+    {
+      "type": "paragraph",
+      "text": "Entire continents are functionally inaccessible — rendered uninhabitable by toxic saturation, dimensional instability, or both. The geography of the old world doesn't match the geography of the current one. Coastlines shifted when rift activity destabilized tectonic patterns. Mountain ranges appeared where dimensional bleed warped geological strata. A body of water that maps from the 2100s show as an ocean is now a Bloom-touched jungle that stretches from horizon to horizon and eats anything that enters it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cities — thousands of them — are ruins in the dead zone. Some are visible from transit corridors: skylines of buildings from the old world, overgrown or crystallized or phased halfway into another dimension. Contractor crews occasionally receive salvage contracts in these ruins. The pay is good. The hazards are significant. The things they find are sometimes valuable, sometimes dangerous, and sometimes both."
+    },
+    {
+      "type": "callout",
+      "label": "Corporate History",
+      "style": "accent",
+      "text": "Each of the seven megacorporations maintains its own historical archive, and each archive tells a different story. Congo's history emphasizes logistics and efficiency. Sentinel's history emphasizes threats survived. House of Mouse's history is, quite literally, a mythology with production values. The Crowned Table's history is an epic poem. Pear's history is a dataset that requires proprietary software to access. Wellspring's history is classified. Green Cradle's history is a living garden that you walk through, and the plants rearrange themselves based on which version of events the Cradle is currently endorsing."
+    },
+    {
+      "type": "paragraph",
+      "text": "The result: there is no single agreed-upon history of the world. There are seven corporate versions, a handful of independent scholarly attempts (underfunded and periodically suppressed), and the oral traditions of non-human species whose perspective on the last thousand years is, understandably, different from the version taught in corporate schools."
+    },
+    {
+      "type": "flavor",
+      "text": "The past isn't dead. It's just under NDA."
+    },
+    {
+      "type": "paragraph",
+      "text": "What the average citizen knows about pre-rift Earth could fit on a single page and most of it would be wrong. They know there were countries instead of corporations. They know magic didn't exist. They know the sky was a different color in some places (this may or may not be true — atmospheric composition has changed, but not enough to account for the legends). They know people used to die of diseases that are now trivially curable, and they used to cure diseases by methods that are now considered barbaric. They know it was a smaller world. They assume it was a simpler one."
+    },
+    {
+      "type": "paragraph",
+      "text": "It wasn't. But the myth of simplicity is useful. It makes the present feel like progress rather than what it actually is: a different arrangement of the same problems, with more dimensions to hide them in."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "flavor",
+      "text": "A thousand years of corporate progress, and the orientation manual still doesn't have an index."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Historical Commission reminds all readers that historical accuracy is not guaranteed, not independently verified, and not the responsibility of any corporate entity, subsidiary, or affiliated contractor network. Discrepancies between this document and corporate-specific historical records should be resolved in favor of whichever version your employer endorses. If you are not currently employed, the Commission suggests adopting whichever version causes the least trouble. Filing a formal complaint regarding historical inaccuracy is your right under Intercompany Statute 7(g). Processing time: 8–12 business quarters. sincerity of complaint: noted but not required.\"</em>"
+    }
+  ]
+}

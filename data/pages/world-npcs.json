@@ -1,0 +1,416 @@
+{
+  "id": "world-npcs",
+  "title": "Notable Figures",
+  "subtitle": "Names worth knowing",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Template NPCs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following individuals are provided as ready-to-use NPCs for your campaign. They are not canonical — they are <strong>templates</strong>. Use them as written, modify them to fit your table, or strip them for parts and reassemble something new. Change names, species, genders, locations, affiliations. The margin is a big place. There's room for your version."
+    },
+    {
+      "type": "paragraph",
+      "text": "What these NPCs share is a function: each one fills a role that contractor crews encounter regularly. Brokers who assign work. Legends who cast long shadows. Corporate contacts who sign the checks. Undercity figures who provide what the legitimate economy won't. And wildcards — because the margin doesn't organize itself into neat categories, no matter how much the handbook tries."
+    },
+    {
+      "type": "flavor",
+      "text": "Every name on this list is someone who survived long enough to be worth mentioning. That's the only qualification that matters."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "Each NPC entry includes mechanical hooks — locations, specialties, affiliations — but the real value is in their <strong>personality</strong>. A broker who plays favorites creates different story pressure than one who's perfectly impartial. A legend who might be fictional generates different player behavior than one who's verifiably real. Use the personality. The stats are secondary."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Brokers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokers are the interface between contractors and paychecks. A good broker means good contracts, reliable intel, and a crew that doesn't get you killed. A bad broker means the opposite of all those things. Most contractors register with multiple boards and cultivate relationships with specific brokers — because when a high-paying contract drops, the broker decides who hears about it first. That decision is never random."
+    },
+    {
+      "type": "info-block",
+      "icon": "⚡",
+      "title": "\"Needle\"",
+      "subtitle": "Broker · Flicker",
+      "entries": [
+        {"label": "Species", "value": "Flicker"},
+        {"label": "Role", "value": "Board operator — eastern margins"},
+        {"label": "Pronouns", "value": "They/them"},
+        {"label": "Specialty", "value": "Medical and extraction contracts (Wellspring-adjacent and independent)"},
+        {"label": "Primary Clients", "value": "Wellspring Pharma, independent clinics, margin settlements"},
+        {"label": "Rate", "value": "Standard cut. Pays on time. Every time.", "full": true}
+      ],
+      "desc": "Needle runs the fastest board in the eastern margins — contracts posted, matched, and assigned before most brokers have finished their morning stimulant cycle. They specialize in medical contracts: organ transport, pharmaceutical retrieval, clinic defense, specimen acquisition. Wellspring is their biggest corporate client, but they take independent work too, and they don't ask what the independent clinics do with the supplies. What Needle <em>does</em> ask about is toxicity readings. Lie about your numbers and Needle cuts you from the board permanently. No warnings. No appeals. They've seen what happens when a contractor with falsified readings collapses mid-extraction, and they won't carry that liability. Needle also maintains a strict policy: no contracts that target Flicker communities. No exceptions. No amount of money. This has cost them corporate relationships. They don't care."
+    },
+    {
+      "type": "flavor",
+      "text": "Needle doesn't do small talk. Needle does payroll."
+    },
+    {
+      "type": "info-block",
+      "icon": "🔮",
+      "title": "\"Ledger\"",
+      "subtitle": "Broker · Hollow",
+      "entries": [
+        {"label": "Species", "value": "Hollow"},
+        {"label": "Role", "value": "Board operator — multi-region"},
+        {"label": "Specialty", "value": "All contract types. Perfect matching algorithm. (It's not an algorithm. It's Ledger.)"},
+        {"label": "Track Record", "value": "Zero mismatches on record. Zero inaccurate risk assessments. Zero."},
+        {"label": "Personality", "value": "None detectable.", "full": true}
+      ],
+      "desc": "Ledger runs the most reliable board in the contractor economy. No personality. No small talk. No favors. No grudges. You submit your profile, Ledger matches you with a contract, the match is correct. Always. Ledger's risk assessments have never been wrong — not approximately right, not mostly accurate, but <em>never wrong</em>. The threat level Ledger assigns is the threat level you encounter. The payout Ledger quotes is the payout you receive. Contractors trust Ledger because Ledger has earned that trust through flawless, inhuman consistency. Nobody knows how Ledger does it. Ledger doesn't explain. Nobody asks twice, because asking once produces a silence so complete it answers the question by refusing to."
+    },
+    {
+      "type": "flavor",
+      "text": "The most trusted broker in the margins has never once been described as \"likeable.\""
+    },
+    {
+      "type": "info-block",
+      "icon": "🍺",
+      "title": "Mags Korova",
+      "subtitle": "Broker · Human",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Role", "value": "Board operator — The Rust Nail (bar and physical contract board)"},
+        {"label": "Location", "value": "The Rust Nail, central margin district"},
+        {"label": "Specialty", "value": "General contracts. Old-school matching — she picks crews by instinct."},
+        {"label": "Former Career", "value": "Contractor. Retired. The scars are visible. The stories aren't.", "full": true}
+      ],
+      "desc": "Mags Korova runs a physical board out of a bar called The Rust Nail — actual paper contracts pinned to an actual wall behind an actual bar where she pours actual drinks. She knows everyone. She remembers everything. She plays favorites openly and without apology, because her favorites are the contractors who've earned it by being competent, honest, and alive. Her recommendations are gold — a crew that Mags vouches for gets better contracts, better intel, and the quiet respect of everyone who's worked with her. Her grudges last forever. Cross Mags and you'll find that every good contract in the central margin has already been assigned to someone else. She was a contractor once. The scars are visible — arms, neck, one across her jaw. Nobody asks about them. The look she gives when someone tries is answer enough."
+    },
+    {
+      "type": "flavor",
+      "text": "\"You want my recommendation? Don't die. That's always my recommendation.\""
+    },
+    {
+      "type": "info-block",
+      "icon": "⛏",
+      "title": "Thresh",
+      "subtitle": "Broker · Keth",
+      "entries": [
+        {"label": "Species", "value": "Keth"},
+        {"label": "Role", "value": "Board operator — heavy-labor and extraction specialist"},
+        {"label": "Primary Client", "value": "Congo Industries"},
+        {"label": "Specialty", "value": "Extraction, demolition, heavy-haul, and Red Zone industrial contracts"},
+        {"label": "Notable", "value": "Doesn't work with Wellspring. Doesn't explain why. Don't ask.", "full": true}
+      ],
+      "desc": "Thresh is four-armed, silent in the way Keth are silent — not hostile, just finished talking before he started. His board specializes in the contracts that require strength, endurance, and a willingness to enter environments that will try to kill you through sheer physical hostility: deep extraction, structural demolition in unstable rift zones, heavy-material transport through contested territory. Congo is his primary corporate client, and he fills their contracts reliably. He doesn't work with Wellspring. He has never explained why, and the silence that follows the question has a weight to it that discourages follow-up. His handshake — any of the four — seals a deal more reliably than any written contract. Thresh has never broken an agreement. He expects the same courtesy. Contractors who fail to deliver on a Thresh contract don't get a second one."
+    },
+    {
+      "type": "callout",
+      "label": "GM Guidance — Brokers in Play",
+      "style": "teal",
+      "text": "Brokers are your <strong>primary quest-givers</strong>. Each one filters the kind of contracts the party encounters. Needle steers toward medical and ethical gray areas. Ledger provides mechanically precise contracts but zero personality — useful when you want the mission to speak for itself. Mags is a social hub: she gossips, she judges, she rewards loyalty. Thresh is the gateway to Congo's industrial hellscape. Let players choose their broker relationship and the campaign's tone shifts accordingly. A party registered with Mags gets a very different experience than one registered with Ledger. <strong>Broker relationships should have mechanical weight:</strong> better contracts, advance intel, the occasional freebie — or the opposite, if the relationship sours."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Legendary Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Legend-tier contractors are the people whose names circulate in bars, in crew bunks, in the margins between contracts when someone needs a story that proves survival is possible. Some are still working. Some retired. Some are dead. Some might be fictional. The margin doesn't always distinguish between these categories — a good story lasts longer than the person it's about, and a name that inspires a crew to take one more contract is worth more than the truth behind it."
+    },
+    {
+      "type": "flavor",
+      "text": "Nobody becomes a legend by filling out paperwork correctly. Although Ledger is testing that theory."
+    },
+    {
+      "type": "info-block",
+      "icon": "🦾",
+      "title": "Iron Vaska",
+      "subtitle": "Legendary Contractor · Keth",
+      "entries": [
+        {"label": "Species", "value": "Keth"},
+        {"label": "Status", "value": "Active. Still working. 14 verified scars."},
+        {"label": "Specialty", "value": "Red Zone extraction"},
+        {"label": "Augmentation", "value": "Three original arms. Fourth replaced with a Sentinel military prosthetic."},
+        {"label": "Crews Outlived", "value": "Seven.", "full": true}
+      ],
+      "desc": "Iron Vaska is the most scarred active contractor anyone can verify — fourteen scars across a career that should have ended a dozen times. Four arms, three original, one replaced with Sentinel military hardware after the original was lost in a Red Zone collapse. She specializes in the contracts other veterans won't take: deep extraction in zones where the ambient toxicity makes the air shimmer and the geometry stops making sense. She doesn't talk about the crews she's outlived. There have been seven. Seven full teams, gone — dead, retired, or vanished into the zones. Vaska is still working. Not because she needs the money. Not because she loves the job. Because stopping would mean sitting still long enough to count the names, and there are too many names."
+    },
+    {
+      "type": "info-block",
+      "icon": "🏥",
+      "title": "Doc Calloway",
+      "subtitle": "Retired Contractor · Human",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Status", "value": "Retired. Runs a clinic in the margin."},
+        {"label": "Scars", "value": "Six. He quit after the sixth."},
+        {"label": "Specialty", "value": "Below-cost medical care for contractors. Waiting list: three weeks."},
+        {"label": "Location", "value": "Calloway Clinic, western margin", "full": true}
+      ],
+      "desc": "Doc Calloway is proof that getting out is possible. He contracted for eight years, saved everything he earned, and quit after his sixth scar — the one that took a piece of his left hand and most of his appetite for risk. Now he runs a clinic in the margin, providing below-cost medical care to contractors who can't afford Wellspring rates and won't trust Undercity clinics. The waiting list is three weeks long. He works sixteen-hour days. He's burning through his savings slowly but steadily. He is the single most frequently cited example of a contractor who \"made it out\" — and he's also the proof that making it out costs everything you have and most of what you are. He doesn't regret it. He also doesn't sleep well."
+    },
+    {
+      "type": "info-block",
+      "icon": "👁",
+      "title": "The Veil",
+      "subtitle": "Legendary Contractor (?) · Whisper",
+      "entries": [
+        {"label": "Species", "value": "Whisper"},
+        {"label": "Status", "value": "Unknown"},
+        {"label": "Specialty", "value": "Rift navigation — allegedly the greatest who ever lived"},
+        {"label": "Claimed Feats", "value": "Mapped three uncharted dimensions solo. Navigated a Black Zone without instruments."},
+        {"label": "Verification", "value": "None. Nobody can confirm. Nobody can deny.", "full": true}
+      ],
+      "desc": "The Veil is either the greatest rift navigator who ever lived or an urban legend invented by Whispers to mess with people. The claims vary depending on who's telling the story and how much they've had to drink: solo mapping of three uncharted dimensions, navigation through a Black Zone without instruments, a successful crossing into a dimension that Pear Technologies classified as \"theoretically impossible to enter.\" Nobody can confirm any of it. Nobody can deny it, either, which is the part that keeps the story alive. Ask a Whisper about The Veil and they smile — that particular Whisper smile that means they know something you don't, or they want you to think they do, and the distinction doesn't matter because the effect is identical."
+    },
+    {
+      "type": "info-block",
+      "icon": "💀",
+      "title": "Santos \"Surefire\" Reyes",
+      "subtitle": "Legendary Contractor · Human",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Status", "value": "Deceased (probably). Missing six months."},
+        {"label": "Last Known Contract", "value": "Solo Black Zone entry. Contract still listed as \"pending.\""},
+        {"label": "Payout", "value": "Enough to retire three full crews."},
+        {"label": "Recovery Status", "value": "Someone would have to find them first.", "full": true}
+      ],
+      "desc": "Santos \"Surefire\" Reyes was legend-tier before they disappeared — the kind of contractor who made impossible contracts look routine and made other legends look cautious. Six months ago, they took a solo contract into a Black Zone. Nobody does solo Black Zone contracts. Reyes did. The contract is still listed as \"pending\" on three separate broker boards, which means nobody has confirmed completion or failure. The payout is staggering — enough credits to retire three crews comfortably. It sits uncollected. All someone would have to do is enter a Black Zone, find Reyes (or what's left of Reyes), confirm the contract status, and return alive. The fact that no one has tried tells you everything you need to know about what \"solo Black Zone contract\" actually means."
+    },
+    {
+      "type": "callout",
+      "label": "GM Guidance — Legends in Play",
+      "style": "accent",
+      "text": "Legends serve three functions. <strong>First: aspiration.</strong> They show players what contractor careers can become — and what they cost. Iron Vaska is a success story with a body count. Doc Calloway is an escape story that's slowly bankrupting him. <strong>Second: plot hooks.</strong> Santos Reyes is a missing-person quest, a treasure hunt, and a Black Zone survival scenario in one NPC. The Veil is a mystery that can be whatever your campaign needs — real, fictional, or somewhere unsettlingly in between. <strong>Third: scale.</strong> Fourteen scars. Seven dead crews. A solo Black Zone contract. These numbers tell your players what the ceiling looks like and what it costs to reach it."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Contacts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate contacts are the people who sign the contracts, authorize the payments, and decide whether your crew is worth the investment of another mission or whether you've been reclassified as acceptable losses. They work for the corps. They represent the corps. They are not your friends. Some of them are decent people operating within indecent systems. Some of them are the system."
+    },
+    {
+      "type": "flavor",
+      "text": "The corp always pays. The corp never pays enough. These two facts coexist without contradiction."
+    },
+    {
+      "type": "info-block",
+      "icon": "📊",
+      "title": "Director Hale",
+      "subtitle": "Contract Coordinator · Human · Congo Industries",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Corporation", "value": "Congo Industries"},
+        {"label": "Role", "value": "Mid-level contract coordinator"},
+        {"label": "Location", "value": "Congo Central Administrative Complex"},
+        {"label": "Payment Style", "value": "Exactly what's owed. To the credit. Never more.", "full": true}
+      ],
+      "desc": "Director Hale is professional, efficient, and treats contractors like spreadsheet entries — because to her, that's what they are. Line items on a resource allocation document. She will always pay exactly what's owed, process paperwork on time, and ensure logistical support meets the contractual minimum. She will never learn a contractor's name. She has never seen the point. When a crew is lost, Hale updates the file, adjusts the risk projection, and posts a replacement contract. There's no malice in it. There's no anything in it. Hale is Congo's operational philosophy given a desk and a title: the machine works, the numbers balance, and the people are inputs."
+    },
+    {
+      "type": "info-block",
+      "icon": "👑",
+      "title": "Dame Estelle",
+      "subtitle": "Knight-Commandant, Rift Border Guard · Human · The Crowned Table",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Corporation", "value": "The Crowned Table"},
+        {"label": "Role", "value": "Knight-Commandant of the Rift Border Guard"},
+        {"label": "Demeanor", "value": "Genuinely kind. Absolutely condescending. Tips well."},
+        {"label": "Worldview", "value": "The feudal hierarchy is correct, natural, and benevolent. Contractors are peasants to be cared for.", "full": true}
+      ],
+      "desc": "Dame Estelle genuinely believes in the feudal system. Not as a convenient power structure — she <em>believes</em>. The hierarchy exists because some are born to lead and others to serve, and a good noble's duty is to care for those beneath them. She treats contractors with the same noblesse oblige she'd show any peasant: kindly, warmly, with absolute certainty that the arrangement is correct and natural. She tips well. She remembers birthdays. She sends condolence letters when crew members die, handwritten on actual paper with the Crowned Table seal. She is, by every measurable standard, a better employer than most corporate contacts. She is also a person who considers you fundamentally beneath her and will never, under any circumstances, question whether the system that places her above you might be wrong."
+    },
+    {
+      "type": "info-block",
+      "icon": "🗺",
+      "title": "Architect Lin",
+      "subtitle": "Dimensional Cartography Lead · Human · Pear Technologies",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Corporation", "value": "Pear Technologies"},
+        {"label": "Role", "value": "Lead dimensional cartographer"},
+        {"label": "Specialty", "value": "Rift mapping, dimensional survey, data extraction"},
+        {"label": "Warning", "value": "Contracts through Lin are always more complicated than advertised. Always.", "full": true}
+      ],
+      "desc": "Architect Lin is brilliant, condescending, and speaks in a technical jargon that's half legitimate dimensional physics and half Pear religious terminology — she'll reference \"rift harmonics\" and \"dimensional resonance\" in the same sentence as \"sacred geometries\" and \"the Pattern's will,\" and it's genuinely unclear where the science ends and the theology begins. Possibly there's no distinction. Contracts through Lin are always more complicated than advertised. The briefing says \"map this rift corridor.\" What it means is \"map this rift corridor, collect these seventeen data samples she forgot to mention, install these monitoring devices at coordinates she'll transmit mid-mission, and don't ask why the coordinates keep changing.\" She doesn't withhold information maliciously. She withholds it because she assumes contractors don't need to understand the full picture. She is, by Pear standards, extremely open about her work. By everyone else's standards, she's a maze."
+    },
+    {
+      "type": "info-block",
+      "icon": "🎖",
+      "title": "Captain Voss",
+      "subtitle": "Contract Officer · Human · Sentinel Systems",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Corporation", "value": "Sentinel Systems"},
+        {"label": "Role", "value": "Career military officer, contractor liaison"},
+        {"label": "Reputation", "value": "Honest briefings. Accurate intel. Fair pay."},
+        {"label": "The Catch", "value": "Sentinel doesn't waste honest officers on safe jobs. Voss's contracts are the most dangerous ones.", "full": true}
+      ],
+      "desc": "Captain Voss is what happens when a military career officer actually respects the people he works with. He gives honest briefings — real threat assessments, not sanitized summaries. His intel is accurate. His pay is fair. He learns contractors' names and remembers their specialties. He has been known to personally advocate for hazard pay increases when the field conditions exceed the contract parameters. He is, by a significant margin, the best corporate contact a contractor can draw. The catch — because there is always a catch — is that Sentinel Systems does not assign its most honest, most competent, most decent officer to routine border patrols. Voss runs the contracts that Sentinel needs done <em>right</em>, which means the contracts where the margin for error is zero and the threat level justifies sending someone who won't lie to the crew about their odds. Good man. Terrible assignments."
+    },
+    {
+      "type": "callout",
+      "label": "GM Guidance — Corporate Contacts in Play",
+      "style": "gold",
+      "text": "Corporate contacts define <strong>how the corps feel at the table</strong>. Hale makes Congo feel like a machine — impersonal but reliable. Dame Estelle makes the Crowned Table feel like a Renaissance fair run by people with real power and real swords. Lin makes Pear feel like a puzzle box — you never have the full picture. Voss makes Sentinel feel dangerous <em>because</em> he's honest about it. Mix and match: a party might deal with Hale for routine extraction work and Voss when the stakes are existential. <strong>Let players build relationships with contacts.</strong> Hale won't warm up — she's the machine. Dame Estelle rewards loyalty with genuine patronage. Lin opens up if you prove you're smart enough to follow her. Voss will go to bat for a crew he trusts. These relationships should create narrative leverage the players can pull on."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Undercity Figures"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Undercity isn't a place — it's a network. And every network has nodes: the people who provide services the legitimate economy won't, who operate in the space between what's legal and what's necessary. Contractors interact with the Undercity regularly because the Undercity provides things the corps don't: anonymity, off-record medical care, information that hasn't been filtered through a corporate PR department, and the kind of second chances that don't show up on any official record."
+    },
+    {
+      "type": "flavor",
+      "text": "The Undercity doesn't judge. It invoices."
+    },
+    {
+      "type": "info-block",
+      "icon": "💉",
+      "title": "\"Stitch\"",
+      "subtitle": "Gene-Doc · Flicker",
+      "entries": [
+        {"label": "Species", "value": "Flicker"},
+        {"label": "Role", "value": "Unlicensed augment and mutation installation specialist"},
+        {"label": "Location", "value": "Deep Undercity, rotating clinics"},
+        {"label": "Training", "value": "Former Wellspring facility surgeon. Defected."},
+        {"label": "Prices", "value": "Fair. Quality is surprisingly good. Don't ask about the leftover biological material.", "full": true}
+      ],
+      "desc": "Stitch is a Flicker gene-doc who runs unlicensed augment and mutation installation clinics in the deep Undercity — plural, because she rotates locations every few weeks to stay ahead of Wellspring's recovery teams. She trained at a Wellspring facility, which means her surgical skills are corp-grade. She defected, which means she applies those skills without the corp-grade oversight, record-keeping, or ethical review. Her work is surprisingly good — Flicker surgical speed combined with Wellspring training produces results that rival legitimate clinics at a fraction of the cost. Prices are fair. She won't gouge a contractor in need. She also won't answer questions about what happens to the biological material left over from augment installation procedures. The silence on that topic is professional, absolute, and suggests a revenue stream that's better left uninvestigated."
+    },
+    {
+      "type": "info-block",
+      "icon": "🕵",
+      "title": "Silas Vane",
+      "subtitle": "Information Broker · Human",
+      "entries": [
+        {"label": "Species", "value": "Human"},
+        {"label": "Role", "value": "Information broker, former Pear citizen"},
+        {"label": "Specialty", "value": "Corporate secrets. All seven corps. War-starting caliber."},
+        {"label": "Pricing", "value": "Sliding scale. More dangerous the info, higher the price — plus relocation costs."},
+        {"label": "Location", "value": "Changes. Frequently. For obvious reasons.", "full": true}
+      ],
+      "desc": "Silas Vane is a former Pear Technologies citizen who sold corporate secrets and burned his citizenship so thoroughly that returning would be a death sentence delivered with religious ceremony. What he took with him when he left was knowledge — about Pear, yes, but also about every corp Pear had intelligence on, which is all of them. He knows things about all seven megacorporations that would start wars if published, and he sells that information on a sliding scale. Low-danger intel (trade routes, personnel movements, contract schedules) is affordable. High-danger intel (weapons programs, territorial plans, evidence of Accord violations) costs significantly more — and the price includes Vane's relocation fee, because selling that kind of information means someone is going to come looking, and Vane intends to not be there when they arrive. He's paranoid. He's also alive, which validates the paranoia."
+    },
+    {
+      "type": "info-block",
+      "icon": "🎭",
+      "title": "\"Blank\"",
+      "subtitle": "Identity Forger · Hollow",
+      "entries": [
+        {"label": "Species", "value": "Hollow"},
+        {"label": "Role", "value": "Identity fabrication, toxicity spoofing, contractor history falsification"},
+        {"label": "Pricing", "value": "500–2,000 credits depending on complexity. Payment in advance. Always."},
+        {"label": "Real Identity", "value": "Unknown. Ironic or intentional. Possibly both."},
+        {"label": "Reputation", "value": "The best in the business. No one has ever successfully traced a Blank identity.", "full": true}
+      ],
+      "desc": "Blank creates new identities. Full packages: name, biometric profile, contractor history, toxicity readings, employment records, the works. A Blank identity will pass corporate screening, broker registration, and standard background verification. The quality is unmatched — no one has ever successfully traced a Blank-forged identity back to its original owner. Blank is a Hollow, which makes them ideally suited for the work: pattern recognition that borders on precognitive, an understanding of bureaucratic systems that's intuitive rather than learned, and a total absence of the emotional tells that trip up other forgers. No one knows Blank's real identity, which is either deeply ironic for someone in the identity business or exactly the point. Payment is always in advance. Always. Blank doesn't extend credit, doesn't negotiate, and doesn't accept partial payment. The price is the price. The work is flawless. The transaction is impersonal. Blank wouldn't have it any other way."
+    },
+    {
+      "type": "info-block",
+      "icon": "🏠",
+      "title": "Mother Rusk",
+      "subtitle": "Sanctuary Operator · Grunt",
+      "entries": [
+        {"label": "Species", "value": "Grunt"},
+        {"label": "Role", "value": "Runs a sanctuary for contractors who need to disappear"},
+        {"label": "Location", "value": "Converted warehouse, deep margin"},
+        {"label": "Price", "value": "Nothing. Survives on donations and favors."},
+        {"label": "Duration", "value": "Thirty years and counting. Everyone owes her. She never collects.", "full": true}
+      ],
+      "desc": "Mother Rusk operates a converted warehouse in the deep margin where contractors who need to disappear can stay, no questions asked. Burned a corporate identity and need to lay low while Blank builds you a new one. Took a contract that went sideways and the employer wants their deposit back — with interest. Toxicity reading spiked and you need somewhere to detox before mandatory quarantine flags your file. Mother Rusk doesn't ask why you're there. She provides a bed, a meal, and silence. She charges nothing. The sanctuary survives on donations from contractors who made it through and remember where they stayed when things were worst. She's been doing this for thirty years. She's a Grunt — the regeneration keeps her going, the patience keeps her sane, and the deliberate, careful kindness keeps the sanctuary running. Everyone in the margin owes Mother Rusk something. She has never collected on a single debt. Not because she's forgotten. Because collecting would change what the sanctuary is, and what the sanctuary is matters more than what it's owed."
+    },
+    {
+      "type": "callout",
+      "label": "GM Guidance — Undercity Figures in Play",
+      "style": "rust",
+      "text": "Undercity NPCs are <strong>service providers with complications</strong>. Stitch can install augments without records — but her Wellspring defection means corporate recovery teams might show up mid-surgery. Silas has information the party needs — but buying it means someone will come looking for the buyer, too. Blank solves identity problems perfectly — but owing a favor to someone with no identity is its own kind of problem. Mother Rusk is a safe harbor — but the sanctuary's existence depends on nobody powerful enough to shut it down learning where it is. Every Undercity interaction should feel like a transaction with a hidden cost, not because these people are dishonest, but because <strong>operating outside the system has consequences the system doesn't advertise</strong>."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Wildcards"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every NPC fits a category. The margin produces people who exist outside the usual structures — not brokers, not legends, not corporate, not Undercity. Just people who are where they are, doing what they do, for reasons that don't always align with anyone else's agenda. Wildcards are the NPCs who make the world feel larger than the systems that organize it."
+    },
+    {
+      "type": "info-block",
+      "icon": "🌀",
+      "title": "Prophet Cael",
+      "subtitle": "Rift Cultist · Vael",
+      "entries": [
+        {"label": "Species", "value": "Vael"},
+        {"label": "Role", "value": "Leader of the Open Door sect"},
+        {"label": "Belief", "value": "Rifts are sentient. Communication, not exploitation."},
+        {"label": "Affiliation", "value": "Unaffiliated. Green Cradle watches them. Pear wants to study them."},
+        {"label": "Predictions", "value": "Uncomfortably accurate regarding rift activity. Uncomfortably.", "full": true}
+      ],
+      "desc": "Prophet Cael leads a small sect called the Open Door — a group that believes rifts are not resources to be exploited but entities to be communicated with. Most people dismiss them as harmless weirdos, the kind of fringe spiritualists that accumulate around any poorly understood phenomenon. The problem is that Cael's predictions about rift activity are uncomfortably accurate. Not vaguely correct — <em>specifically</em> accurate, with timing and location details that outperform Pear's monitoring systems. Green Cradle watches the Open Door because Vael-led rift cults make them nervous. Pear wants to study Cael because the predictive accuracy implies a perceptual framework they don't understand and can't replicate. Cael is unaffiliated and intends to stay that way. They speak softly, their Vael crest shifts colors when they discuss rift patterns, and they have the serene patience of someone who believes they're right and has no interest in convincing anyone else."
+    },
+    {
+      "type": "flavor",
+      "text": "\"We don't open the doors. They were always open. We just stopped pretending they were walls.\""
+    },
+    {
+      "type": "info-block",
+      "icon": "🥃",
+      "title": "\"Click\"",
+      "subtitle": "Bartender · Unknown Species",
+      "entries": [
+        {"label": "Species", "value": "Unknown. Looks almost human if the light is wrong."},
+        {"label": "Role", "value": "Bartender at The Last Round"},
+        {"label": "Location", "value": "The Last Round, margin watering hole"},
+        {"label": "Origin", "value": "Arrived through a rift seventeen years ago. No matching dimensional record."},
+        {"label": "Languages", "value": "Four. None of them their first.", "full": true}
+      ],
+      "desc": "Click arrived through a rift seventeen years ago and took a job behind the bar at a margin watering hole called The Last Round. That's the biography. Everything else is inference, observation, and the kind of quiet agreement that forms when someone is useful enough that nobody pushes for details. Click looks almost human — the proportions are right, the face is right, the voice is right. But something is off in a way that's hard to articulate. The light catches wrong. The shadows don't quite match. The smile arrives a half-second after the joke, like it's being translated from something else first. Click speaks four languages fluently, none of them their first. Makes excellent drinks. Knows everything that happens in the margin — every contract, every crew, every deal, every betrayal — and never volunteers any of it. But Click never lies. Ask a direct question and you'll get a direct answer, delivered with the same pleasant neutrality regardless of whether the answer is \"the special tonight is synth-whiskey\" or \"the crew that took that contract didn't come back.\" Contractors trust Click more than they trust most people. Nobody knows what Click is. Including, possibly, Click."
+    },
+    {
+      "type": "callout",
+      "label": "GM Guidance — Wildcards in Play",
+      "style": "accent",
+      "text": "Wildcards are your <strong>atmosphere and mystery budget</strong>. Prophet Cael is a plot hook that can point in any direction — are the rifts really sentient? Is Cael a prophet or a very good guesser? The answer is whatever your campaign needs. Click is a permanent fixture: the bartender who knows everything, says nothing unprompted, and never lies. Use Click as an <strong>information valve</strong> — players can get answers, but only if they ask the right questions, and the answers are always literally true without being necessarily complete. Both wildcards work best when you <strong>never fully explain them</strong>. The mystery is the point. The moment you give Click a species or Cael a scientific explanation, they become ordinary. Keep them strange."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Using These NPCs"
+    },
+    {
+      "type": "paragraph",
+      "text": "These eighteen names are starting points. Your campaign will generate its own NPCs — the broker the party befriends, the corporate contact who betrays them, the Undercity doctor who saves a life at the wrong moment. Use these templates to establish the <strong>tone</strong> of how NPCs operate in the world: everyone has an angle, everyone has a cost, and the people who seem like exceptions are usually the ones you don't understand yet."
+    },
+    {
+      "type": "callout",
+      "label": "Quick Reference",
+      "style": "gold",
+      "text": "<strong>Brokers:</strong> Needle (medical/Flicker), Ledger (perfect/Hollow), Mags Korova (old-school/Human), Thresh (heavy-labor/Keth). <strong>Legends:</strong> Iron Vaska (scarred veteran/Keth), Doc Calloway (retired proof/Human), The Veil (mystery/Whisper), Santos Reyes (missing/Human). <strong>Corporate:</strong> Director Hale (Congo/machine), Dame Estelle (Table/feudal), Architect Lin (Pear/maze), Captain Voss (Sentinel/honest). <strong>Undercity:</strong> Stitch (gene-doc/Flicker), Silas Vane (intel/Human), Blank (identity/Hollow), Mother Rusk (sanctuary/Grunt). <strong>Wildcards:</strong> Prophet Cael (rift cult/Vael), Click (bartender/unknown)."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The individuals profiled in this section are presented for narrative convenience and should not be interpreted as endorsements, official dossiers, or contractually binding representations of any living, dead, or dimensionally displaced persons. Any resemblance to actual contractors, corporate employees, or unlicensed medical practitioners is a statistical inevitability in a world with this many people and this few original ideas. The Intercompany Bureau of Contractor Affairs reminds all readers that unofficial biographical information is not admissible in arbitration proceedings, and that 'I heard it from a guy in a bar' has never once constituted a valid defense. Modify freely. Attribute responsibly. And if someone on this list comes looking for you because you used their name in a game — that's a personal problem, not a publishing one.\"</em>"
+    }
+  ]
+}
