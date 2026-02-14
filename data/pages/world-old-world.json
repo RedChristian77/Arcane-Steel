@@ -1,0 +1,327 @@
+{
+  "id": "world-old-world",
+  "title": "The World Before",
+  "subtitle": "What we think we remember",
+  "content": [
+    {
+      "type": "heading",
+      "text": "The World Before"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Pre-rift historical records are maintained by the Intercompany Historical Archive, a bureau with no budget, no staff, and no obligation to accuracy. The Archive's official position is that the past probably happened. Details are under review. The review has no deadline. If you believe you possess historically significant pre-rift materials, please submit them to the Archive's intake office, which is located in a building that may or may not still exist. Filing fee: 200 cr. Refund policy: no.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "What People Think They Know"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most people in 3025 know roughly three things about the world before the rifts: there were governments instead of corporations, there was no magic, and everything was worse. Two of those are probably true. The third depends on who's telling the story and what they're selling."
+    },
+    {
+      "type": "paragraph",
+      "text": "The problem isn't that pre-rift records don't exist. Some do. The problem is that a thousand years of dimensional contamination, corporate revisionism, oral telephone, and the Resource Wars (during which entire libraries were burned for warmth or political convenience) have turned history into folklore. What survives is <strong>fragmented</strong>, usually <strong>biased</strong>, and always <strong>incomplete</strong>."
+    },
+    {
+      "type": "callout",
+      "label": "Sources of Historical Knowledge",
+      "style": "teal",
+      "text": "What passes for pre-rift education comes from three unreliable pipelines:",
+      "items": [
+        "<strong>Corporate educational materials</strong> — every corp teaches its own version of the Before, carefully edited to support the corp's origin myth. Accuracy is secondary to narrative.",
+        "<strong>Salvaged media</strong> — pre-rift data storage degrades. What's been recovered from ruins and dead zones is fragmentary, often corrupted by ambient magic, and missing context. An intact pre-rift entertainment file might tell you what people ate, wore, and feared, but you won't know if it was fiction or documentary. Nobody can tell anymore.",
+        "<strong>Oral tradition</strong> — a thousand years of whisper-down-the-lane. Settlements in the margins and dead zones pass down stories about the Before the way ancient cultures passed down myths about gods. The stories are vivid, emotionally resonant, and almost certainly wrong about the specifics."
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "History is just propaganda that's been dead long enough to seem respectable."
+    },
+    {
+      "type": "heading",
+      "text": "The Before as Mythology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every corp tells the story of the Before differently, because every corp needs the Before to justify its present. Pre-rift history isn't taught as fact anywhere. It's taught as <em>origin story</em> — a sacred narrative that explains why the corp exists, why it deserves to rule, and why the Before had to end so the corp could begin."
+    },
+    {
+      "type": "callout",
+      "label": "Congo Industries",
+      "style": "teal",
+      "text": "Congo teaches that the Before was a golden age of logistics — a world where goods moved freely, where delivery was a sacred covenant between supplier and consumer, and where the First Deliverer ascended on a pillar of fire to promise that no package would be lost. The rifts, in Congo's telling, were the next step in the supply chain: new warehouses, new inventory, new routes. The Resource Wars happened because <em>other people</em> couldn't handle the disruption. Congo adapted. Congo delivered. Congo always delivers. The fact that pre-rift \"delivery\" meant cardboard boxes on doorsteps and not armored caravans through dimensional hellscapes is not addressed in the curriculum."
+    },
+    {
+      "type": "callout",
+      "label": "The Crowned Table",
+      "style": "gold",
+      "text": "The Table teaches that the Before was an era of great houses — noble lineages of food service that fed the world. The Franchise Wars were the Table's Arthurian legend: rival houses clashing, alliances forged over shared menus, a golden age ending in betrayal and fire. Pre-rift fast food restaurants are depicted in Table iconography as grand halls of feasting, their drive-through windows reimagined as portcullises, their paper crowns as genuine regalia. The Feast of the Founder's Meal is the holiest day on the Table calendar. Nobody in the Table's educational system mentions that the original product was a ninety-nine-cent hamburger."
+    },
+    {
+      "type": "callout",
+      "label": "Pear Technologies",
+      "style": "accent",
+      "text": "Pear teaches that the Before was a period of <em>primitive promise</em>. The old world's technology was crude — flat screens, chemical batteries, wired networks — but it contained the seed of the Visionary's design. Pre-rift Pear was, according to Pear's scripture, already building toward the Network: a unified information architecture that would eventually map reality itself. The rifts were an acceleration event, not a catastrophe. Everything before Pear was a rough draft. Pear is the final version. The fact that pre-rift Pear primarily sold phones and laptops to consumers is framed as \"democratizing the tools of enlightenment,\" which is technically not a lie if you define enlightenment loosely enough."
+    },
+    {
+      "type": "callout",
+      "label": "House of Mouse",
+      "style": "accent",
+      "text": "The House teaches that the Before was the First Act — the opening chapter of a story that the Founder began and that the House continues. Pre-rift entertainment media is treated as sacred text, its characters as saints, its theme parks as the first temples. The Founder himself is depicted as a creative demigod who <em>imagined worlds into existence</em> — which, given that the House now builds actual experiences based on dimensional exploration, has become uncomfortably close to literal truth. House historians argue that the Founder predicted the rifts. The evidence for this is a pre-rift animated film about doors to other worlds. The House considers this proof. Everyone else considers this a stretch."
+    },
+    {
+      "type": "callout",
+      "label": "Other Corps",
+      "style": "teal",
+      "text": "<strong>Sentinel</strong> teaches the Before as a cautionary tale: a world that failed to prepare, failed to defend, and collapsed because it was soft. The rifts were the threat that the old world wasn't ready for. Sentinel was. <strong>Wellspring</strong> teaches that pre-rift humanity was <em>unfinished</em> — fragile, short-lived, unaugmented, riddled with diseases that modern medicine considers quaint. The Before was the body before treatment. Wellspring is the cure. <strong>Green Cradle</strong> teaches that the Before was an ecological disaster that the rifts accidentally corrected — new biology flooding a world that had poisoned its own. Green Cradle is the gardener that took the chaos and made it grow right."
+    },
+    {
+      "type": "flavor",
+      "text": "Seven corporations. Seven creation myths. Zero overlap."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Ruins and Archaeology"
+    },
+    {
+      "type": "paragraph",
+      "text": "The old world left bones. Cities, infrastructure, vehicles, buildings — all of it abandoned during the Transition Period and the Resource Wars, all of it sitting in what are now dead zones of varying severity. A thousand years of dimensional contamination does strange things to architecture. Some ruins are preserved better than they should be, frozen in pockets of temporal distortion. Others are warped beyond recognition, twisted by dimensional bleed into shapes that Euclidean geometry politely declines to explain."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most pre-rift cities are buried under rift flora, submerged by rising water tables contaminated with ambient magic, or simply <em>gone</em> — consumed by black zone expansion during the worst centuries. The ones that remain are scattered across yellow, orange, and red zones, which means accessing them requires equipment, planning, and a willingness to accumulate toxicity for the privilege of looking at very old buildings."
+    },
+    {
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "<strong>Dead zones preserve and distort simultaneously.</strong> A pre-rift structure in a yellow zone might be structurally intact but magically saturated — the concrete absorbs ambient energy, the rebar conducts it, the whole building hums at a frequency you feel in your teeth. An orange zone ruin might be overgrown with rift flora that's using the structure as a trellis, its roots cracking foundations while its canopy creates a micro-ecosystem of things that want to eat you. A red zone ruin might be spatially wrong — rooms that are bigger inside than outside, hallways that loop, staircases that go up and arrive at the basement. Bring a surveyor. Bring a weapon. Bring both."
+    },
+    {
+      "type": "heading",
+      "text": "Notable Ruins"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following sites appear in multiple corporate and independent records. Their existence is verified. Their contents are disputed. Their ownership is, legally speaking, a nightmare."
+    },
+    {
+      "type": "callout",
+      "label": "The Athenaeum",
+      "style": "teal",
+      "text": "A pre-rift university complex in a yellow zone, partially intact. Its library — a massive data archive — survived the Transition Period behind blast doors that someone had the foresight (or paranoia) to seal. The data is technically recoverable, but a thousand years of ambient magic has corrupted the storage media in unpredictable ways. Files merge. Databases cross-reference themselves with information from other dimensions. A team from Pear spent three months extracting data and came back with a complete pre-rift encyclopedia that was 40% accurate and 60% entries about species that don't exist in this dimension. Pear classified the results. They haven't gone back. Officially."
+    },
+    {
+      "type": "callout",
+      "label": "Bunker 9",
+      "style": "rust",
+      "text": "A pre-rift military installation in a red zone. Still sealed. The door — a meter-thick alloy that predates rift metallurgy — has resisted every attempt to open it, including explosives, channeling, and a Green Cradle biological acid that eats through modern composites like paper. Sentinel has mounted four expeditions. All four breached the outer perimeter but failed at the primary vault. Whatever's inside has been sealed for a thousand years. The power readings from the site suggest something in there is still running. Sentinel's official position is that the installation is \"under evaluation.\" Their unofficial position is that they want it open more than they want anything else in the world."
+    },
+    {
+      "type": "callout",
+      "label": "The Wonderland",
+      "style": "gold",
+      "text": "A massive pre-rift entertainment complex in an orange zone. Overgrown with rift flora but structurally recognizable — the central tower still stands, wrapped in bioluminescent vines. The rides are frozen in place, some of them still partially functional thanks to magical energy seeping into their mechanical systems. The whole site radiates a faint, unsettling cheerfulness. House of Mouse claims the site is sacred ground — a First Temple, built by the Founder or his immediate disciples. They've filed seventeen territorial claims, all contested. Green Cradle counterclaims that the rift-flora ecosystem that's colonized the site constitutes a protected biome. The legal dispute has lasted ninety years. The ruins don't care."
+    },
+    {
+      "type": "callout",
+      "label": "The Sunken Archive",
+      "style": "teal",
+      "text": "Underwater ruins near a Brine rift gate — a pre-rift coastal city submerged by a combination of rising sea levels and dimensional subsidence. The ruins extend for kilometers along the ocean floor, preserved by cold water and low ambient contamination. Green Cradle wants access for the marine rift-biology that's colonized the structures. Wellspring wants access for biological specimens found nowhere else — deep-water organisms that have been feeding on pre-rift industrial chemicals and ambient magic for a millennium. Both corps have research vessels in the area. Neither acknowledges the other's presence. Contractors caught between the two describe the experience as \"working two jobs that each think they're your only job.\""
+    },
+    {
+      "type": "callout",
+      "label": "The Hum",
+      "style": "accent",
+      "text": "A pre-rift server farm in a dead zone. Black zone perimeter, but the site itself reads as yellow — an anomalous bubble of lower toxicity in otherwise lethal territory. The servers are still running. Nobody knows how or why. The power source is internal and unidentified. The data inside is intact, encrypted, and <em>enormous</em>. Pear would kill for access. According to three independent contractor reports, Pear may have already killed for access — two rival salvage teams that were approaching the site disappeared within a week of each other. Pear denies involvement. Pear denies everything. The site hums at a frequency that's audible from half a kilometer away, which is how it got its name and also why nobody sleeps well near it."
+    },
+    {
+      "type": "flavor",
+      "text": "The old world is still out there. It just has new tenants."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Old-World Artifacts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pre-rift objects are trade goods. Some are functional. Most are curiosities. A few are genuinely dangerous — not because of what they were designed to do, but because of what a thousand years of ambient magic has done to them. A pre-rift battery that's been soaking in dimensional energy for ten centuries isn't a battery anymore. It's an unstable magical capacitor shaped like a battery. Treat it accordingly."
+    },
+    {
+      "type": "paragraph",
+      "text": "The market for pre-rift artifacts is surprisingly robust. Corporations buy them for research, propaganda, or both. Collectors hoard them. Scholars study them. Cultists worship them. A well-preserved pre-rift object in good condition can fund a crew for a month. A pre-rift object with functional technology inside can fund a crew for a year — or get them killed by whichever corp wants it most."
+    },
+    {
+      "type": "table",
+      "headers": ["Artifact Type", "Typical Value", "Primary Buyer", "Why They Want It"],
+      "rows": [
+        ["<strong>Data storage</strong> (drives, servers, media)", "200–5,000 cr", "Pear Technologies", "Information. Any information. Pear's archivists will pay premium for intact storage, even if the data is corrupted. Especially if the data is corrupted — corrupted data sometimes contains dimensional bleed."],
+        ["<strong>Printed books</strong>", "50–500 cr", "Intercompany Historical Archive / collectors", "Cultural artifacts. Most are unreadable (language drift, physical decay). Intact ones are worth more as objects than as texts, since nobody can agree on what the words meant."],
+        ["<strong>Weapons & ammunition</strong>", "100–2,000 cr", "Sentinel Systems", "Reverse engineering. Pre-rift ballistics operated on different principles than modern magitech weapons. Some designs are more efficient. Sentinel wants to know which ones."],
+        ["<strong>Food packaging & brand materials</strong>", "50–800 cr", "The Crowned Table", "Sacred relics. An intact pre-rift food wrapper with a recognizable logo is a holy artifact. The Table's vault-temples contain thousands of preserved wrappers, cups, and containers, displayed under glass like fragments of the true cross."],
+        ["<strong>Entertainment media</strong> (films, games, music)", "100–10,000 cr", "House of Mouse", "Intellectual property. If it's a story, a character, or a creative work, the House claims it. They'll pay well for intact media — and then classify it, copyright it, and sue anyone who describes it without a license."],
+        ["<strong>Medical equipment</strong>", "100–3,000 cr", "Wellspring Pharma", "Historical comparison. Pre-rift medical technology was crude but operated on principles that modern magical medicine has abandoned. Wellspring occasionally rediscovers useful techniques by studying old equipment."],
+        ["<strong>Biological samples</strong> (preserved, sealed)", "200–4,000 cr", "Green Cradle / Wellspring", "Genetic baselines. Pre-rift biological material is uncontaminated by ambient magic — pure baseline samples of species that no longer exist in unmodified form. Extremely rare. Extremely valuable."],
+        ["<strong>Infrastructure components</strong> (pipes, wiring, circuits)", "10–100 cr", "Congo Industries", "Logistics archaeology. Congo studies pre-rift supply chain infrastructure the way theologians study scripture — looking for the Founder's original design principles."],
+        ["<strong>Personal effects</strong> (jewelry, clothing, photos)", "5–50 cr", "Nobody specific", "Sentimental value among collectors. Most are worthless. Occasionally one triggers a genuine emotional response in someone and becomes priceless for reasons that have nothing to do with economics."]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "<strong>Magically saturated artifacts are unpredictable.</strong> A pre-rift clock that's been sitting in an orange zone for centuries might keep perfect time, tell time from another dimension, or stop time in a three-meter radius when wound. A pre-rift vehicle engine might run on ambient magic instead of fuel — efficiently, until it explodes. Test everything in a controlled environment. Do not test anything by using it. The distinction between \"artifact\" and \"improvised magical device\" is academic. The distinction between \"functional\" and \"about to detonate\" is not."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Lost Knowledge"
+    },
+    {
+      "type": "paragraph",
+      "text": "Humanity used to know things. Specific, technical, useful things. A thousand years of societal collapse, dimensional contamination, and corporate information control have turned much of that knowledge into rumor, fragment, or corporate property."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mathematics</strong> survived better than most disciplines, because math doesn't corrode. The fundamental principles are intact. But applied mathematics — the kind that built bridges and modeled weather and put things in orbit — has gaps. Nobody builds bridges the old way anymore (magical engineering is easier). Nobody models weather the old way (the weather doesn't follow old rules). Nobody puts things in orbit anymore at all."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Science</strong> is fragmented along corporate lines. Each corp preserves the knowledge that serves it and quietly discards the rest. Wellspring has the best surviving medical literature. Pear has the best computing archives. Sentinel has the best materials science. Green Cradle has the best biology — though they've modified it so extensively that the line between \"preserved knowledge\" and \"Green Cradle propaganda\" is invisible."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Languages</strong> are mostly gone. Pre-rift humanity spoke thousands of languages. Modern humanity speaks Corporate Standard (a lingua franca that evolved from trade pidgin during the Resource Wars) and whatever regional dialect their corp territory developed. Pre-rift texts in other languages are largely unreadable. A few linguistic scholars maintain fragmentary dictionaries, but translating a pre-rift document is less \"reading\" and more \"educated guessing with institutional bias.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Art</strong> is the strangest loss. People still make art. But the pre-rift artistic traditions — styles, techniques, movements, the whole cultural context that gave them meaning — are gone. A recovered pre-rift painting is beautiful and incomprehensible, like a sentence in a language you almost speak. House of Mouse hoards pre-rift art aggressively, not because they understand it, but because they understand that owning it is the same as understanding it, as far as anyone else can tell."
+    },
+    {
+      "type": "callout",
+      "label": "Deliberate Destruction",
+      "style": "rust",
+      "text": "Not all knowledge was lost accidentally. Some corps actively destroy records that contradict their origin myths. The Crowned Table has standing orders to confiscate and destroy any pre-rift documentation that depicts their founding houses as — and this is the official phrasing — \"low-status food service establishments.\" Pear classifies any recovered data suggesting the Visionary was a businessman rather than a prophet. Congo's archivists have instructions to file certain labor-history documents under \"Restricted — Theological Sensitivity.\" The past is a managed asset. Accuracy is a liability."
+    },
+    {
+      "type": "flavor",
+      "text": "The truth about the Before is out there. It's just classified, corrupted, or buried under something that wants to eat you."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Old-World Tech vs. Current Tech"
+    },
+    {
+      "type": "paragraph",
+      "text": "The relationship between pre-rift and modern technology isn't a clean upgrade path. Some things got better. Some things got lost. Some things became impossible. And some things from the Before simply don't work anymore, because the world they were designed for doesn't exist."
+    },
+    {
+      "type": "callout",
+      "label": "What Was Lost",
+      "style": "rust",
+      "text": "<strong>Space technology.</strong> Pre-rift humanity could leave the planet. Rockets. Satellites. Stations in orbit. All of it is gone — the infrastructure destroyed during the Resource Wars, the knowledge fragmented, and (critically) modern ambient magic interferes with the propulsion systems. Nobody has left the atmosphere in roughly 800 years. The satellites are still up there, dead and drifting. On clear nights you can see them. Sentinel tracks them obsessively, convinced one of them contains something useful. They're probably right. They can't reach it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Certain manufacturing processes</strong> are lost. Pre-rift industrial chemistry operated in a magic-free environment, which means some compounds can no longer be synthesized — ambient magic contaminates the reactions. Modern substitutes exist for most of them (magical alternatives, rift-sourced materials), but a few pre-rift alloys, polymers, and composites remain unreplicable. When you find them in ruins, they're worth their weight in rift crystal."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Agricultural techniques</strong> for non-magical crops are largely forgotten. Green Cradle's rift-touched agriculture is more productive, more resilient, and more alive than anything the old world grew. But it's also entirely dependent on ambient magic. If the rifts ever closed — a hypothetical nobody takes seriously except Sentinel, who takes every hypothetical seriously — the food supply would collapse in a season. Pre-rift farming didn't need magic. Nobody remembers how it worked."
+    },
+    {
+      "type": "callout",
+      "label": "What Improved",
+      "style": "gold",
+      "text": "<strong>Augmentation</strong> has no pre-rift equivalent. Cybernetics existed in primitive forms, but modern augmentation — gene-splicing, biological grafts, rift-fauna integration, magical enhancement — is orders of magnitude beyond anything the Before could achieve. <strong>Rift engineering</strong> is entirely new: the science of managing, stabilizing, and exploiting dimensional rifts didn't exist before there were rifts. <strong>Magical infrastructure</strong> powers cities, drives transportation, and enables technologies that pre-rift physics said were impossible. The old world had electricity. The new world has something better. It also has the toxicity that comes with it."
+    },
+    {
+      "type": "callout",
+      "label": "Incompatibility",
+      "style": "accent",
+      "text": "<strong>Pre-rift electronics cannot handle ambient magic.</strong> This is the fundamental incompatibility. Old-world circuit boards, processors, and storage media were designed for a world with zero magical background radiation. In the modern world, they short out, behave erratically, store data from other dimensions, or develop something uncomfortably close to sentience. A recovered pre-rift computer doesn't <em>compute</em> anymore — it <em>channels</em>. Sometimes usefully. Usually not. Pear's entire tech-archaeology division exists to solve this problem. They haven't. They're getting closer. They've been \"getting closer\" for two centuries."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Archaeological Contracts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations occasionally fund expeditions to pre-rift sites. These contracts are posted through normal broker channels and pay well — usually 50-100% above standard rates for equivalent zone difficulty. They're also almost always more complicated than the briefing suggests, because the corp posting the contract has an agenda that the briefing doesn't mention."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The official objective</strong> is always simple: go to the site, recover specified materials, return. The unofficial objective — the one you figure out on-site when you realize the briefing was incomplete — is where the money and the danger actually live."
+    },
+    {
+      "type": "callout",
+      "label": "Who Hires and Why",
+      "style": "teal",
+      "text": "Corporate motivations for archaeological contracts:",
+      "items": [
+        "<strong>Pear</strong> wants data. Specifically, they want pre-rift data storage intact and unwiped. They'll pay recovery rates for the hardware and bonus rates for verified data. What they won't tell you is that three previous teams have gone to the same site, or that the data is defended by something that wasn't in the survey report, or that the \"abandoned\" server farm has a security system that's been running on ambient magic for a millennium and has opinions about visitors.",
+        "<strong>House of Mouse</strong> wants \"historical content\" — pre-rift entertainment media, creative works, anything with a story or a character they can claim. The briefing will describe this as a simple recovery operation. It won't mention that the site is a former entertainment complex that the House considers sacred ground, that touching certain artifacts triggers theological responses from House operatives embedded in your team, or that everything you recover will be classified and you'll sign an NDA before getting paid.",
+        "<strong>Congo</strong> wants logistics records — pre-rift supply chain documentation, warehouse layouts, distribution maps. They study the Founder's original design principles the way monks study illuminated manuscripts. Congo contracts are the most straightforward: go to an old distribution center, photograph everything, recover any intact records. The complication is that Congo distribution centers were enormous, often underground, and are now full of whatever crawled in during the last thousand years.",
+        "<strong>Sentinel</strong> wants weapons. Pre-rift military technology, defense systems, ballistic specifications, anything they can reverse-engineer. Sentinel archaeological contracts are the most dangerous because military installations were built to keep people out, and a thousand years of magical saturation has only made their security systems more creative. Also, Sentinel doesn't always mention that the site is in a red zone until you've already accepted the contract.",
+        "<strong>Wellspring</strong> wants biological baselines — pre-rift medical samples, genetic records, anything that shows what humans looked like before a millennium of ambient magic reshaped the species. These contracts sound clinical and safe. They are not clinical and safe.",
+        "<strong>Green Cradle</strong> wants seed banks, agricultural records, and pre-rift biological specimens. They also want to study how rift flora interacts with old-world structures, which means your \"recovery contract\" might actually be a \"stand guard while our scientists take samples for six days\" contract. Green Cradle pays on time. They also extend contracts without asking."
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "Archaeological contracts: high pay, low honesty, excellent stories for the bar afterward."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Nostalgia Question"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some people romanticize the Before. There's a whole subculture — \"Retroists,\" mostly margin-dwellers and contractor-adjacent types — who collect pre-rift artifacts, study dead languages, and tell each other that the old world was better. Their gatherings have the energy of a support group and the accuracy of a fever dream. They piece together fragments of pre-rift culture and build a mosaic that's 30% evidence and 70% longing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Others think the Before was worse. No augments. No magic. No rift resources. Shorter lifespans. Diseases that modern medicine considers jokes. An unaugmented body that broke down after seven or eight decades and couldn't be repaired. From this perspective, the rifts were the best thing that ever happened — a violent upgrade that the species needed and wouldn't have chosen voluntarily. Wellspring citizens tend to hold this view, unsurprisingly."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most people don't think about it at all. The Before is irrelevant. It doesn't pay rent. It doesn't fix your augments. It doesn't lower your toxicity. It doesn't tell you which contracts to take or which brokers to trust. The Before is a place that doesn't exist anymore, full of people who are all dead, and the only thing it's good for is giving corporate priests something to preach about and giving collectors something to hoard."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "The Before is a tool for your campaign. Use it to create mysteries (what's in Bunker 9?), generate contracts (recover pre-rift data from a dead zone site), add flavor (a contractor wearing a pre-rift watch that occasionally displays the time in another dimension), or explore themes (what's worth preserving from a dead world?). The Before works best when it's specific and strange — not a generic \"old world\" but a place full of details that are just familiar enough to be unsettling."
+    },
+    {
+      "type": "paragraph",
+      "text": "The debate doesn't resolve. It can't. Nobody alive has a complete picture. The Retroists are working from fragments. The modernists are rationalizing. The majority are too busy surviving to care. The Before recedes a little more every generation, becoming less history and more myth, less fact and more atmosphere. In another thousand years, if anyone's still here, it'll be indistinguishable from fairy tale."
+    },
+    {
+      "type": "flavor",
+      "text": "The past is just another dimension nobody's figured out how to monetize. Yet."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"This document has been reviewed by the Intercompany Historical Archive and found to be neither accurate nor inaccurate. The Archive reminds all readers that historical truth is a provisional designation subject to revision, reclassification, or corporate acquisition at any time. If you believe you have a more accurate account of pre-rift history, the Archive invites you to submit it in writing, in triplicate, to an office that will be staffed eventually. Your patience and continued productivity are appreciated. The past thanks you for your interest. The present thanks you for your labor.\"</em>"
+    }
+  ]
+}

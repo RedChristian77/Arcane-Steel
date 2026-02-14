@@ -1,0 +1,338 @@
+{
+  "id": "world-environment",
+  "title": "Weather & Environment",
+  "subtitle": "What the sky does when reality is damaged",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"ATMOSPHERIC ADVISORY — Intercompany Environmental Bureau, Bulletin 3025-W-441: Atmospheric conditions in rift-affected zones are not covered under standard contractor insurance. Weather events resulting from dimensional instability, ambient toxicity fluctuation, or localized reality failure are classified as 'Acts of Extradimensional Origin' and fall outside all liability frameworks. Contractors operating in dead-zone territories assume full personal responsibility for exposure to non-standard precipitation, anomalous wind patterns, gravitational irregularities, and any meteorological phenomenon that does not appear in the pre-rift atmospheric record. If you experience weather that cannot be described using existing vocabulary, please file Form W-9(d) with your broker at your earliest convenience. Do not attempt to describe the indescribable. Attach a photograph if the photograph cooperates.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Normal Weather (City-States)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inside the walls, weather is mostly what you'd expect. Rain, sun, wind, seasonal variation — corporate infrastructure manages ambient conditions well enough that citizens experience something approximating the meteorological normal their ancestors would have recognized. The filtration canopies scrub most particulate rift contamination from precipitation. The atmospheric processors keep air quality within acceptable parameters. The climate stabilizers smooth out the worst of the dimensional interference."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mostly."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes the rain glows faintly. A shimmer that's only visible at certain angles, like oil on water but in the wrong part of the spectrum. Sometimes the wind carries smells from dimensions that don't have names — mineral sweetness, ozone that tastes blue, the scent of something burning that hasn't been lit yet. Sometimes the sunset is a color that wasn't on the visible spectrum last week. Citizens don't notice anymore. They've been not-noticing for generations. The children of 3025 think a faintly luminescent drizzle is just what rain does."
+    },
+    {
+      "type": "flavor",
+      "text": "The forecast calls for partly cloudy with a chance of ontological contamination."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "City-state weather is <strong>functionally normal for gameplay purposes</strong>. It's background flavor — the little wrongnesses that remind players and characters that the world is damaged at a fundamental level. Don't apply mechanical effects to city-state weather unless you're running a scenario where the infrastructure fails. When it does fail, skip ahead to the dead zone weather tables. The walls don't keep reality out. They just make it polite."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Storms"
+    },
+    {
+      "type": "paragraph",
+      "text": "The signature weather event of the post-rift world. A rift storm is what happens when ambient magical energy in a region surges past atmospheric tolerability — the air pressure drops, barometric instruments stop giving coherent readings, and the sky takes on a color that isn't on any spectrum humanity has cataloged. It's not purple. It's not green. Contractors have tried to describe it for centuries and the best anyone has managed is <em>\"wrong.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift storms occur when dimensional membranes thin across a wide area, allowing ambient rift energy to spike. The result is a cascading atmospheric event that affects everything — weather, wildlife, technology, and the structural integrity of any nearby rifts. Duration ranges from hours to days. Frequency depends on location: 2-3 per month in dead zones, rare in city-states (the infrastructure suppresses most of them, though occasionally one punches through and the corps pretend it didn't happen)."
+    },
+    {
+      "type": "callout",
+      "label": "Rift Storm Effects",
+      "style": "rust",
+      "text": "During a rift storm, the following effects apply:",
+      "items": [
+        "<strong>Ambient toxicity increases by +1</strong> for the duration (stacks with zone baseline)",
+        "<strong>Wild rifts are more likely to open.</strong> Roll frequency doubles. The membrane is thin and tearing.",
+        "<strong>Existing rifts fluctuate</strong> — size, stability, and duration become unpredictable. Corporate rift gates activate emergency stabilizers. Wild rifts may expand, contract, or relocate without warning.",
+        "<strong>Electronics and augments may malfunction.</strong> Any augment-dependent check has a 1-in-6 chance of glitching (roll 1d6; on a 1, the check automatically fails). Chrome-heavy contractors hate rift storms.",
+        "<strong>Rift-sensitive species experience severe discomfort.</strong> Whispers get headaches — bad ones. Migraines that blur the line between pain and involuntary precognition. Some receive fragmented sensory data from nearby rifts. This information is occasionally useful and always unpleasant.",
+        "<strong>Channeling is amplified but unstable.</strong> All rift pattern damage increases by +1, but any channeling check that fails does so with an additional +1 toxicity cost."
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "You can feel a rift storm coming the way you can feel a migraine — by the time you notice, it's too late to do anything useful about it."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Toxic Rain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Precipitated rift energy. Not acid rain — that would be simple. Acid rain burns. Toxic rain <em>saturates</em>. It carries ambient dimensional contamination in liquid form, depositing it on every surface it touches — skin, gear, soil, water supply. Prolonged exposure doesn't dissolve you. It fills you. Toxicity climbs steadily and silently, and by the time you notice the faint tingling in your extremities, you've already absorbed more than you wanted."
+    },
+    {
+      "type": "paragraph",
+      "text": "Different zones produce different rain. The contamination level of the local environment dictates what falls from the sky, and the progression from mildly unsettling to genuinely alien is remarkably consistent across geographic regions."
+    },
+    {
+      "type": "table",
+      "headers": ["Zone", "Appearance", "Toxicity", "Notes"],
+      "rows": [
+        ["<strong>Yellow</strong>", "Faint shimmer. Looks almost normal. Falls at the correct speed and in the correct direction.", "+1/hour of exposure", "Most contractors don't bother with shelter. Most contractors are wrong."],
+        ["<strong>Orange</strong>", "Visibly wrong. Color shifts between drops — blues that should be clear, greens that shouldn't exist. Falls too slowly, as if the air is thicker than it should be.", "+2/hour of exposure", "Pools of standing water become mildly toxic within hours. Don't drink it. Don't wash in it. Don't let it get in open wounds."],
+        ["<strong>Red</strong>", "Doesn't always fall down. Some drops drift laterally. Some hover. Some fall upward for a few meters before succumbing to gravity, reluctantly.", "+3/hour of exposure", "Pooled water becomes a persistent environmental hazard. Evaporation leaves a residue that's toxic to the touch. Infrastructure in red zones corrodes in ways metallurgists can't explain."],
+        ["<strong>Black</strong>", "What falls isn't always liquid. Sometimes it's particulate. Sometimes it's light. Sometimes it has texture that liquid shouldn't have. Don't look at it directly.", "Don't be here.", "If you're reading this entry for practical planning purposes, reconsider your life choices."]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Gear Advisory",
+      "style": "teal",
+      "text": "<strong>Breather Masks do not protect against toxic rain.</strong> They filter air, not precipitation. Full environmental suits (Hazmat Liner or Rift-Walker Suit) reduce toxic rain absorption by half. A sealed vehicle eliminates it entirely — assuming the seals hold. In orange zones and above, check your seals twice."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Dimensional Wind"
+    },
+    {
+      "type": "paragraph",
+      "text": "Air pressure differentials from active rifts create wind. Not ordinary wind — wind that carries particles, compounds, and occasionally data from other dimensions. The composition of dimensional wind depends entirely on which rift it's blowing through, and since most wild rifts lead to unsurveyed dimensions, what you're breathing is anyone's guess. The standard recommendation is: don't breathe it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Near <strong>Char rifts</strong>: hot, mineral-laden wind that tastes like copper and smells like a forge. Prolonged exposure coats exposed skin in fine metalite dust. Inhalation without filtration causes coughing, then respiratory complications, then problems that don't have names in standard medicine."
+    },
+    {
+      "type": "paragraph",
+      "text": "Near <strong>Bloom rifts</strong>: spore-heavy gusts that carry biological material from the Bloom dimension. The spores are alive — or close enough to alive that the distinction is academic. They settle on surfaces and begin growing within hours. In humid conditions, Bloom wind can seed an area with rift flora overnight. Green Cradle considers this a blessing. Everyone with a building foundation considers it a structural emergency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Near <strong>Static rifts</strong>: wind that carries data fragments. This sounds metaphorical. It is not. Augmented individuals within range of Static wind report involuntary information downloads — text, images, sensory data, sometimes code. The information is usually meaningless, occasionally useful, and rarely in a language anyone recognizes. Unaugmented individuals hear it as white noise. Heavily augmented individuals sometimes can't turn it off."
+    },
+    {
+      "type": "paragraph",
+      "text": "Near <strong>Brine rifts</strong>: salt spray and the sound of something breathing. The salt is chemically distinct from terrestrial sodium chloride — it registers on scanners as an unknown compound with similar properties and a molecular structure that shouldn't be stable. The breathing sound has no identifiable source. It persists even when the wind dies. Acoustic analysis confirms it is <em>not</em> wind passing through geological formations. Something is breathing. Nobody has identified what."
+    },
+    {
+      "type": "flavor",
+      "text": "The wind advisory today is: from the east, 15 kph, carrying the memories of a dead civilization."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Seasonal Cycles"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ambient magical intensity fluctuates on roughly annual cycles. The underlying mechanism isn't fully understood — dimensional membrane thickness varies in a pattern that <em>approximates</em> seasonal rhythm, possibly influenced by planetary orbital mechanics, possibly influenced by something else. Corps have modeled it. The models are accurate 70% of the time. The other 30% is why contractors carry extra detox supplies."
+    },
+    {
+      "type": "table",
+      "headers": ["Season", "Duration", "Toxicity Modifier", "Rift Frequency", "Contract Availability"],
+      "rows": [
+        ["<strong>Surge Season</strong>", "~3 months", "+1 to all zone baselines", "High — wild rift openings double", "Abundant. Dangerous. Corps ramp up extraction operations and need bodies."],
+        ["<strong>Waning Transit</strong>", "~3 months", "Normal", "Normal", "Steady. Standard contract economy. The grind continues."],
+        ["<strong>Ebb Season</strong>", "~3 months", "-1 to all zone baselines (min 0)", "Low — wild rifts rare, existing rifts may close", "Scarce. Fewer rifts means fewer resources means fewer contracts. Contractors starve or take worse jobs."],
+        ["<strong>Rising Transit</strong>", "~3 months", "Normal", "Increasing — buildup toward Surge", "Growing. Smart contractors prep during this phase. The dumb ones are still broke from Ebb."]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Surge Season",
+      "style": "accent",
+      "text": "Surge Season is payday and doomsday rolled into one. Ambient magic peaks across the globe. More wild rifts tear open — some in places that haven't seen rifts in decades. Dead zone boundaries push outward. Rift storms intensify. Toxicity baselines climb. Fauna activity spikes. Corps increase extraction operations because the dimensional yield is highest during Surge, and they need <strong>more contractors than usual</strong> because the casualty rate is also highest during Surge. Pay goes up. So does the body count."
+    },
+    {
+      "type": "callout",
+      "label": "Ebb Season",
+      "style": "rust",
+      "text": "Ebb Season is the slow death. Magic recedes like a tide. Rifts shrink, destabilize, or close entirely. Dead zones contract slightly — yellow zone borders may test as habitable for a few weeks. Sounds idyllic. It isn't. Fewer rifts means fewer resources. Fewer resources means fewer contracts. Fewer contracts means no income. Contractors who didn't save during Surge spend Ebb scraping for day labor, running maintenance jobs for half-pay, or taking desperation contracts that nobody should accept. The most dangerous time to be a contractor isn't when the magic is high. It's when the money is low."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Zone-Specific Weather"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each dead zone classification has its own atmospheric personality. \"Personality\" is the wrong word. Zones don't have personalities. But the weather patterns in each are consistent enough to describe, and inconsistent enough to keep you nervous."
+    },
+    {
+      "type": "callout",
+      "label": "Yellow Zone Weather",
+      "style": "gold",
+      "text": "<strong>Eerie calm.</strong> The sky is the wrong shade of blue — too saturated, like someone adjusted the contrast. Clouds don't move naturally; they drift in patterns that suggest currents that aren't there, or stop dead in a wind that's clearly blowing. Sound carries too far. You can hear conversations at distances that should be impossible, and sometimes conversations that aren't happening yet. Weather is almost normal. Almost. Something is off in a way you can't articulate, and the inability to articulate it is worse than the wrongness itself."
+    },
+    {
+      "type": "callout",
+      "label": "Orange Zone Weather",
+      "style": "accent",
+      "text": "<strong>Actively wrong.</strong> Fog that moves against the wind — not drifting, <em>moving</em>, with apparent intent. The ground hums at frequencies you feel in your teeth, in your joints, in the fillings of augmented jaw plates. Rain is frequent and wrong (see Toxic Rain). Flora responds to weather in ways terrestrial biology shouldn't — some plants bloom during rift storms, petals opening toward the dimensional disturbance like sunflowers tracking a toxic sun. Others retreat underground, pulling root systems below the surface within minutes. The plants know something. They're not sharing."
+    },
+    {
+      "type": "callout",
+      "label": "Red Zone Weather",
+      "style": "rust",
+      "text": "<strong>Dimensional symptoms.</strong> Weather is no longer weather — it's the atmosphere reacting to reality damage. Gravity fluctuates during storms: objects drift upward for seconds at a time, then slam back down with force disproportionate to their mass. Temporal echoes manifest — you might hear sounds from yesterday. A gunshot, a scream, a conversation in a language that went extinct last month. Sometimes you hear tomorrow. Light bends around corners it shouldn't reach. Shadows don't match their sources — yours might point the wrong direction, move independently, or belong to someone who isn't there. Navigation requires constant compass recalibration, and compasses don't always agree with each other."
+    },
+    {
+      "type": "callout",
+      "label": "Black Zone Weather",
+      "style": "rust",
+      "text": "<strong>The concept does not apply.</strong> \"Weather\" implies atmospheric phenomena operating within understood physical parameters. Black zones do not have understood physical parameters. The sky may not be visible — not because of clouds, but because the concept of \"up\" has become locally negotiable. The air may not be air. It sustains respiration (usually) but tastes of nothing and carries sound in directions that don't correlate with speaker and listener positions. Time and space are suggestions. What happens in a black zone during a rift storm is a question nobody who has answered it has been reliable about. Field reports from black zone survey teams are archived in a section of the Intercompany Records Office that requires two levels of clearance and a psychological evaluation to access. Most of it is redacted. The unredacted portions are worse."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Natural Disasters"
+    },
+    {
+      "type": "paragraph",
+      "text": "The old world had earthquakes, hurricanes, floods. The new world has those too, occasionally. It also has disasters that the pre-rift lexicon doesn't have words for. The Intercompany Environmental Bureau classifies the following as Category-D events (\"Dimensional Disaster\"), and the official protocol for each is the same: evacuate if possible, shelter if not, document if you survive."
+    },
+    {
+      "type": "callout",
+      "label": "Rift Cascade",
+      "style": "rust",
+      "text": "<strong>Chain reaction of wild rifts opening in sequence.</strong> One rift tears open. The energy discharge destabilizes the membrane nearby. Another opens. Then another. The cascade propagates outward like a dimensional earthquake, tearing holes in reality across kilometers of territory in minutes. A rift cascade can convert stable yellow zone to red zone in hours. Corporations' worst nightmare — not because of the casualties (those are insured against), but because of the infrastructure loss and territorial reclassification. A rift cascade in a transit corridor can sever trade routes for months. Three confirmed cascades in the last century have permanently removed formerly habitable territory from the map."
+    },
+    {
+      "type": "callout",
+      "label": "Zone Creep",
+      "style": "rust",
+      "text": "<strong>Dead zones slowly expanding.</strong> Not a sudden event — a geological-timescale process that's been accelerating. Yellow zones darken to orange. Orange thickens to red. Red deepens to black. The habitable world is shrinking. Slowly. Over centuries. The trend is unmistakable in the survey data, and the survey data is classified at levels most contractors will never see. Corps don't talk about it publicly. The Intercompany Environmental Bureau releases annual \"Zone Stability Reports\" that use language like \"within projected parameters\" and \"statistically nominal boundary adjustment\" to describe the fact that humanity's living room is getting smaller. Green Cradle publishes counter-reports. Nobody reads them."
+    },
+    {
+      "type": "callout",
+      "label": "Dimensional Quake",
+      "style": "accent",
+      "text": "<strong>When two dimensions press against each other without a rift forming.</strong> The membrane holds, but barely. The ground shakes — not from tectonic activity but from the fabric of reality vibrating under pressure. Structures crack. Water sloshes without wind. And for a few seconds or minutes, reality gets thin enough to <em>see through</em>. A dimensional quake in a city-state means citizens briefly glimpse whatever dimension is pressing against theirs — the Char's volcanic landscapes, the Bloom's writhing canopy, the Grave's empty silence. Temporary but terrifying. Structural damage is real. Psychological damage is often worse."
+    },
+    {
+      "type": "callout",
+      "label": "Bloom Event",
+      "style": "gold",
+      "text": "<strong>Rift flora surges at accelerated rates, consuming infrastructure.</strong> Specific to zones near Bloom rifts. Spores that were dormant activate simultaneously. Vines, mycelium, crystalline growths, and organisms that defy biological classification erupt from soil, walls, foundations, and occasionally living tissue. A Bloom event can overwhelm a frontier settlement in hours — buildings disappear under writhing growth, roads are torn apart by root systems that move visibly, and the air fills with pollen that registers as both organic and mineral on lab equipment. Green Cradle sees Bloom events as sacred — evidence of a living dimension expressing itself. Everyone else sees them as disasters that cost money and lives."
+    },
+    {
+      "type": "flavor",
+      "text": "The good news: natural disasters are rare. The bad news: \"natural\" doesn't mean what it used to."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Environmental Hazards Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use this table during dead-zone missions to determine ambient environmental conditions. Roll once at mission start or whenever the GM wants the world to remind the party that it's hostile. Conditions last for the scene unless otherwise noted."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Condition", "Effect", "Duration"],
+      "rows": [
+        ["1", "<strong>Clear</strong>", "No environmental effects. Visibility is good. The air is breathable. Enjoy it — this doesn't happen often.", "Scene"],
+        ["2", "<strong>Rift Storm</strong>", "+1 ambient toxicity. Augments have 1-in-6 glitch chance per check. Wild rift probability doubles. The sky is the wrong color.", "1d6 hours"],
+        ["3", "<strong>Toxic Rain</strong>", "+1 toxicity per hour for anyone outdoors without environmental protection. Pooled water becomes hazardous in orange+ zones.", "2d6 hours"],
+        ["4", "<strong>Dimensional Wind</strong>", "Random rift particles in the air. Perception checks required (DC 3 Edge) to identify rift type. Unfiltered breathing adds +1 toxicity per 2 hours. Augmented characters may receive involuntary data.", "1d4 hours"],
+        ["5", "<strong>Ground Fog</strong>", "Visibility reduced to Short range. +1 toxicity per hour in orange+ zones (the fog is saturated). Movement through fog is at -1 speed. Things hide in fog.", "Scene"],
+        ["6", "<strong>Gravity Fluctuation</strong>", "-1 movement (terrain is unreliable). Ranged accuracy -1 (projectile trajectories unpredictable). Objects occasionally drift. Unsecured gear may relocate itself.", "1d4 hours"],
+        ["7", "<strong>Temporal Echo</strong>", "Sounds from other times bleed through. DC 4 Edge check or become disoriented (-1 to all checks for the scene). Success: you hear something potentially useful from the past or future. Failure: you hear something that isn't useful and can't stop hearing it.", "Scene"],
+        ["8", "<strong>Silence</strong>", "No sound carries beyond Adjacent range. Communication requires line of sight and hand signals. Unnatural and absolute. Something is watching. +1 to stealth checks. -2 to all social checks. Rift fauna ambush probability increases.", "1d4 hours"]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Stacking Conditions",
+      "style": "teal",
+      "text": "Conditions can stack. A rift storm and toxic rain simultaneously is a bad day. A rift storm, toxic rain, and gravity fluctuation simultaneously is a <strong>very</strong> bad day. If two contradictory conditions are rolled (Silence + Temporal Echo), the GM chooses which applies, or applies both and watches the players try to process hearing sounds from other times that can't travel more than two meters. That's not a bug. That's the setting."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "How Weather Affects Gameplay"
+    },
+    {
+      "type": "paragraph",
+      "text": "Environmental conditions interact with core mechanics in predictable ways. The following are guidelines, not exhaustive rules — GMs should adapt based on severity and narrative needs."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Visibility:</strong> Fog, toxic rain, rift storms, and black zone conditions reduce visibility. Short-range visibility means ranged attacks beyond Short range have disadvantage. No visibility means ranged attacks require a successful perception check first. Darkness is a separate condition but stacks with weather (rain at night in a red zone is functionally blind)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Movement:</strong> Gravity fluctuation, dimensional wind (in severe cases), and terrain changes from Bloom events impose movement penalties. -1 movement means each zone of movement costs an additional action point. Severe conditions (red zone gravity storms, active Bloom growth) may make certain routes impassable."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Toxicity Accumulation:</strong> The primary mechanical effect of weather. Toxic rain, ground fog, dimensional wind, and rift storms all add toxicity on top of zone baseline rates. A team operating in an orange zone (+2/day baseline) during toxic rain (+2/hour) during a rift storm (+1 ambient) is accumulating toxicity at a rate that will push threshold decisions within hours, not days. This is the math that makes extraction timelines real."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Equipment Reliability:</strong> Rift storms cause augment glitches. Dimensional wind (Static variant) can interfere with electronic equipment. Toxic rain corrodes seals on environmental suits over extended exposure. Gravity fluctuations affect projectile weapons. Weather degrades your tools, and your tools are the difference between a contract payout and a body recovery."
+    },
+    {
+      "type": "callout",
+      "label": "Design Intent",
+      "style": "gold",
+      "text": "<strong>Weather is a GM tool.</strong> Use it to set mood, create urgency, and remind players that the world itself is hostile. A clear day in the dead zone should feel like a gift. A rift storm should feel like a countdown. Weather isn't background — it's a ticking clock, a resource drain, and a narrative engine. The best dead zone missions have a moment where the weather changes and the team has to decide: push forward into worsening conditions, or pull back and lose progress. That's the game."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Survival Considerations"
+    },
+    {
+      "type": "paragraph",
+      "text": "A brief practical guide for contractors who intend to operate in dead zones and would like to continue existing afterward."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Check the forecast.</strong> The Intercompany Environmental Bureau publishes daily atmospheric projections for major transit corridors and surveyed dead zones. The projections are wrong roughly 30% of the time, but 70% accuracy is better than walking into a rift storm because you didn't check. Brokers with premium intel packages sometimes have access to corporate weather satellites that provide better data. This costs money. Dying costs more."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Carry shelter.</strong> A Portable Shelter (see Equipment) won't protect you from a rift cascade, but it will keep toxic rain off your skin and provide filtered air during dimensional wind events. The weight-to-survival ratio is among the best of any piece of field equipment. Contractors who don't carry shelter in orange+ zones are not optimistic. They are statistically likely to be processed by a corp medical facility within six months."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Know your extraction timeline.</strong> Before entering a dead zone, calculate your worst-case toxicity accumulation rate — zone baseline, plus likely weather conditions, plus rift proximity, plus any personal modifiers (mutations, augments, existing toxicity level). Determine how many hours you can operate before hitting your next threshold. Set a timer. Leave before it expires. Contractors who say \"just a little longer\" are the ones whose gear shows up on salvage market three weeks later."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Respect the black zone forecast.</strong> If the projection for a black zone adjacent to your operating area shows Surge-season activity, do not enter the region regardless of contract pay. There is no contract lucrative enough to compensate for what a black zone does to unprotected personnel during Surge conditions. If your broker disagrees, get a new broker."
+    },
+    {
+      "type": "flavor",
+      "text": "The weather doesn't care about your contract deadline. Plan accordingly."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Environmental Bureau reminds all contractors that atmospheric conditions are monitored for informational purposes only. No corporate entity guarantees the accuracy, completeness, or survivability of published weather data. Precipitation type, gravitational consistency, temporal linearity, and the continued existence of a breathable atmosphere are provided on an 'as-is' basis. If conditions deviate from published projections, the Bureau recommends adapting your operational parameters accordingly. 'Accordingly' is defined at the contractor's discretion. The Bureau accepts no responsibility for the consequences of any definition of 'accordingly' that results in death, dismemberment, dimensional displacement, or reclassification as a non-human entity. Stay safe out there. Or don't. The weather will be here regardless.\"</em>"
+    }
+  ]
+}

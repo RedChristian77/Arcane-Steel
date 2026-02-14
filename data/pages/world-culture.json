@@ -1,0 +1,407 @@
+{
+  "id": "world-culture",
+  "title": "Culture & Religion",
+  "subtitle": "When branding becomes belief",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"The following cultural observations are provided for contractor orientation purposes and are not intended to endorse or critique any corporate belief system. The Intercompany Contractor Relations Bureau maintains strict neutrality regarding matters of corporate faith. Any resemblance between corporate religious practices and pre-rift commercial advertising is coincidental, protected under Intercompany Cultural Heritage Statute 9(b), and not a topic you should bring up at checkpoints.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Religion"
+    },
+    {
+      "type": "paragraph",
+      "text": "A thousand years ago, these were companies. They had logos, slogans, and brand guidelines. Employees wore the colors because HR said so. Customers bought the products because marketing said to. It was commercial. It was transactional. It was <em>voluntary</em>."
+    },
+    {
+      "type": "flavor",
+      "text": "That was a thousand years ago."
+    },
+    {
+      "type": "paragraph",
+      "text": "What happens when forty generations are born, raised, educated, employed, and buried inside the same corporate identity? What happens when the only history you know is the company history? When the only holidays are product launches? When the only saints are founders? When the only scripture is the mission statement, and the only heresy is brand disloyalty?"
+    },
+    {
+      "type": "paragraph",
+      "text": "You get religion. Not metaphorically. Not as a critique. <em>Actual religion.</em> With theology, liturgy, sacred texts, ordained clergy, pilgrimage sites, and the absolute conviction that the Founder's vision is the divine organizing principle of the universe. The executives believe it. The workers believe it. The children born tomorrow will believe it. The cynicism burned off centuries ago. What's left is faith — genuine, unironic, load-bearing faith that holds entire civilizations together."
+    },
+    {
+      "type": "callout",
+      "label": "Key Concept",
+      "style": "accent",
+      "text": "<strong>This is not a conspiracy.</strong> Nobody is pulling the strings. There's no boardroom of atheists laughing at the rubes. The CEO of Congo Industries wakes up every morning, recites the Fulfillment Prayer, and means every word. The Crowned Table's monarch genuinely believes the ancient franchise agreements are divine law. Pear's Chief Architect weeps during Update Ceremonies. The belief is real. The fact that it's also commercially convenient is just a thousand-year-old coincidence that nobody's in a position to question."
+    },
+    {
+      "type": "paragraph",
+      "text": "The logos are sacred geometry. The color palettes are liturgical. The mission statements are scripture — parsed by theologians, debated by scholars, enforced by inquisitors. Corporate headquarters are cathedrals. Quarterly reports are prophetic texts. Brand guidelines are canon law. And the founders — those half-remembered figures from a millennium ago — are saints, prophets, or gods, depending on which corp you're talking about and how seriously they take themselves."
+    },
+    {
+      "type": "flavor",
+      "text": "They all take themselves very seriously."
+    },
+    {
+      "type": "callout",
+      "label": "Contractor Advisory",
+      "style": "rust",
+      "text": "<strong>Respect the faith.</strong> You don't have to believe it. You do have to not get killed over it. Corporate citizens take their beliefs with the same intensity that ancient humans took theirs — which is to say, violently. Mocking a corp's rituals inside their territory is not edgy. It's a death wish with extra steps. Smile, nod, and save your opinions for the margins."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rituals of the Seven"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every corporation has its own ritual calendar — daily observances, weekly gatherings, annual holy days. For citizens, these aren't optional. For contractors, they're obstacles, opportunities, or both. Knowing when a corp is distracted by religious fervor is the kind of intel that keeps you employed. Knowing when they're watching for blasphemy is the kind that keeps you alive."
+    },
+    {
+      "type": "info-block",
+      "icon": "⛏️",
+      "title": "Congo Industries — The Fulfillment",
+      "subtitle": "Brown/Gold · Citizens: Fulfillers",
+      "entries": [
+        {"label": "Daily", "value": "The Fulfillment — morning assembly where workers recite the day's logistics priorities aloud, in unison. Think corporate briefing meets liturgical chant."},
+        {"label": "Weekly", "value": "Delivery Day — communities exchange gifts wrapped in brown paper. The content doesn't matter. The wrapping does. The act of delivery is the sacrament."},
+        {"label": "Annual", "value": "Prime Day — the holiest day. Celebrates the Founder's First Delivery. Massive parades of cargo vehicles. Warehouses are decorated. Workers who exceeded fulfillment metrics are honored publicly. Those who didn't are not mentioned."}
+      ],
+      "desc": "Congo's faith is logistics made liturgy. The sacred arrow points forward. The chain must not break. A package undelivered is a prayer unanswered. During Prime Day, all non-essential contracts are suspended. The entire supply chain stops to celebrate itself, which is the only day of the year it stops for anything."
+    },
+    {
+      "type": "info-block",
+      "icon": "👑",
+      "title": "The Crowned Table — The Feast",
+      "subtitle": "Red/Gold · Citizens: Subjects",
+      "entries": [
+        {"label": "Monthly", "value": "Feast Days — communal meals served from the Sacred Menu, ancient recipes preserved for a millennium. Citizens eat ritualized fast food with the gravity of a state banquet. The fries are always perfect. The burgers are always identical. Consistency is holiness."},
+        {"label": "Coming-of-Age", "value": "The Crowning — when young citizens receive their house sigil, swear fealty, and are assigned to a franchise-house. Involves kneeling, a paper crown, and an oath that would make a medieval knight uncomfortable."},
+        {"label": "Holidays", "value": "Knight Tournaments — franchise-houses compete in formalized combat, logistics challenges, and cooking competitions. Winners receive territorial rights. Losers get reassigned to drive-through duty, which is exactly what it sounds like."}
+      ],
+      "desc": "The Crowned Table turned franchise agreements into feudal pacts. Every restaurant is a castle. Every manager is a lord. Every cook is an artisan-priest. The ancient menu items are treated with the reverence of holy relics — the original recipes are locked in a vault that hasn't been opened in four centuries. What's served now is based on oral tradition and theological interpretation. Scholars debate the salt content of the Original Fry."
+    },
+    {
+      "type": "info-block",
+      "icon": "🍐",
+      "title": "Pear Technologies — The Update",
+      "subtitle": "White/Silver · Citizens: Users",
+      "entries": [
+        {"label": "Quarterly", "value": "Update Ceremonies — citizens gather in pristine white halls to receive new augment firmware. The Update is spiritual renewal. Your body is the device. The firmware is the soul. Refusing an update is apostasy."},
+        {"label": "Ongoing", "value": "Genius Confessionals — citizens confess technical sins to ordained Technicians. Using non-Pear products. Running unauthorized software. Having unoptimized thoughts. Penance is assigned. Recalibration follows."},
+        {"label": "Annual", "value": "Launch Day — celebration of new product lines, treated as divine revelation. The Chief Architect presents the new offerings from a white stage. The crowd weeps. The products are beautiful, expensive, and will be obsolete by next Launch Day. This is by design. Planned obsolescence is planned resurrection."}
+      ],
+      "desc": "Pear's religion is the cult of the sleek, the minimal, the optimized. The Founder — depicted as a figure of serene, turtlenecked enlightenment — spoke in koans about design and simplicity. These koans are now scripture. 'Think Different' is a commandment. 'It Just Works' is a creed. The fact that Pear products frequently don't just work is a test of faith, not a failure of engineering."
+    },
+    {
+      "type": "info-block",
+      "icon": "💊",
+      "title": "Wellspring Pharma — The Prescription",
+      "subtitle": "Green/White · Citizens: Patients",
+      "entries": [
+        {"label": "Daily", "value": "Health Benedictions — morning health score readings broadcast to all citizens. Your number defines your day. High score: access to premium services, social standing, pride. Low score: mandatory clinic visits, dietary restrictions, concerned looks from neighbors."},
+        {"label": "Annual", "value": "The Check-Up — mandatory physical examination that doubles as religious census. Every citizen reports. Every body is measured. Every genome is updated. Refusal is not an option. Refusal implies you have something to hide. Hiding things from your doctor is a sin."},
+        {"label": "Annual", "value": "Contribution Day — when citizens who have 'graduated' (reached toxicity threshold) are 'honored' in public ceremony. Their names are read. Their contributions are praised. They are escorted to a facility. They don't come back. Everyone claps."}
+      ],
+      "desc": "Wellspring's faith is the body as temple — literally. Health is holiness. Sickness is sin. The corporation monitors every citizen's biological data from conception to Contribution, and frames this total surveillance as <em>care</em>. The most disturbing part isn't the monitoring. It's that the citizens genuinely feel loved."
+    },
+    {
+      "type": "info-block",
+      "icon": "🏛️",
+      "title": "Sentinel Systems — The Watch",
+      "subtitle": "Gray/Red · Citizens: Soldiers",
+      "entries": [
+        {"label": "Daily", "value": "Reveille — mandatory wake-up ritual. Every citizen rises at the same time, dresses in the same order, and reports. There is no civilian life in Sentinel. There is only duty with varying degrees of intensity."},
+        {"label": "Ongoing", "value": "Promotion Ceremonies — elaborate military-religious events combining rank advancement with spiritual elevation. A Sergeant is a Sergeant in both the chain of command and the chain of being. Stars on your collar are stars on your soul."},
+        {"label": "Memorial", "value": "Remembrance — memorials for fallen Soldiers. Held frequently, because everyone falls eventually. Sentinel doesn't pretend death is rare. They've built an entire theological framework around the certainty of it. Dying in service isn't tragedy — it's fulfillment of purpose. The memorial walls are very long."}
+      ],
+      "desc": "Sentinel turned military discipline into religious devotion. The Founder — a figure depicted in gray armor, visor down, weapon raised — is the Eternal Commander. Orders flow down from doctrine as surely as they flow down from high command. Questioning an order is questioning the faith. Sentinel citizens are the most disciplined, the most obedient, and the most unsettling people you'll meet. They're not unhappy. They're <em>certain</em>. Certainty is worse."
+    },
+    {
+      "type": "info-block",
+      "icon": "🌿",
+      "title": "Green Cradle — The Growth",
+      "subtitle": "Green/Brown · Citizens: Cultivators",
+      "entries": [
+        {"label": "Seasonal", "value": "Bloom Festivals — celebrations of growth cycles tied to whatever the current dominant crop or organism is. Music, dancing, floral displays, and the quiet understanding that some of the things blooming came from dimensions that would rather not be discussed."},
+        {"label": "Daily", "value": "The Tending — community gardening ritual. Every citizen tends something. A plot, a wall garden, a biological specimen, a rift-touched organism in a containment bed. The act of growing is prayer. The act of neglecting growth is sin."},
+        {"label": "Periodic", "value": "Harvest Rite — when specimens from rift dimensions are formally cataloged and 'welcomed' into the Green Cradle ecosystem. A ceremony involving soil, water, and chanting. The specimens don't get a vote on whether they want to be welcomed."}
+      ],
+      "desc": "Green Cradle's religion is growth itself — biological, ecological, expansive. The Founder is depicted as a figure kneeling in soil, hands in the dirt, vines growing from their fingertips. Nature is sacred, but nature is also <em>property</em>. Green Cradle's environmentalism isn't preservation — it's cultivation. They don't protect ecosystems. They design them. The rift organisms they 'welcome' into their biomes are assets, not guests."
+    },
+    {
+      "type": "info-block",
+      "icon": "🎭",
+      "title": "House of Mouse — The Performance",
+      "subtitle": "Black/Gold · Citizens: Cast Members",
+      "entries": [
+        {"label": "Daily", "value": "Performance Rites — daily life <em>is</em> performance. Every citizen has a role. Every interaction is a scene. Breaking character is the gravest sin. There is no backstage. There is no off-camera. The show never stops."},
+        {"label": "Ongoing", "value": "Premiere — when new stories, productions, or narrative arcs begin. An entire district might be rewritten overnight. New sets. New costumes. New scripts. Citizens adapt or are recast. Recast citizens are reassigned. Reassignment is not discussed."},
+        {"label": "Death", "value": "The Curtain Call — the death ritual. Death is not the end of a life. It's the end of an act. The deceased is eulogized as a character whose arc is complete. Mourning is reframed as appreciation for a great performance. Tears are encouraged. Grief is stage-directed."},
+        {"label": "Assignment", "value": "Audition Day — when new Cast Members are assigned their permanent roles. Children audition. The House assigns. Your role defines your career, your social circle, your wardrobe, and your personality for the rest of your life. Typecasting is theology."}
+      ],
+      "desc": "The House of Mouse is the most psychologically complete corporate religion. There is no gap between life and performance, no space where a citizen is simply <em>themselves</em>. Identity is assigned, rehearsed, and maintained. The Founder — depicted smiling, always smiling, with eyes that see through walls — is the Author of All Stories. Creativity is divine. Originality is sacred. And every original thought belongs to the House, because the Author wrote you, and everything you create is part of the Story."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Holidays — Contractor Advisory"
+    },
+    {
+      "type": "paragraph",
+      "text": "Knowing the corporate calendar isn't cultural enrichment. It's operational intelligence. A corp mid-celebration is a corp with distracted security, closed offices, and citizens who aren't answering comms. A corp mid-holy-day is also a corp with heightened religious sensitivity, zero tolerance for blasphemy, and armed patrols looking for excuses. Plan accordingly."
+    },
+    {
+      "type": "table",
+      "headers": ["Corp", "Major Holiday", "Frequency", "Contractor Notes"],
+      "rows": [
+        ["⛏️ Congo", "Prime Day", "Annual (spring)", "All logistics halt for 48 hours. No contracts posted. No deliveries. Warehouses locked. Best time to avoid Congo territory — or the best time to be in it, if you need to move through unmonitored routes."],
+        ["👑 Crowned Table", "Grand Feast", "Monthly", "Don't take contracts during Feast Days. Nobody's working. Kitchens are sacred ground. Franchise-houses are locked down for communal meals. The whole territory smells like ancient fryer oil and devotion."],
+        ["🍐 Pear", "Launch Day", "Annual (autumn)", "Citizens are in rapture. Literally. The new products are revealed and the entire population enters a 72-hour consumption frenzy. Security is distracted. Wallets are open. Contracts are available but underpaid — the budget went to product development."],
+        ["💊 Wellspring", "Contribution Day", "Annual (varies)", "The date shifts based on 'population health metrics.' Citizens are somber. The honored graduates are paraded. Contractors should be aware that Wellspring's toxicity scanners are running at maximum sensitivity during this period. Running hot near Wellspring territory on Contribution Day is asking to be volunteered."],
+        ["🏛️ Sentinel", "Remembrance Day", "Quarterly", "Solemn. Military parades. Weapons discharge salutes. Heightened security everywhere. Sentinel territory during Remembrance is not where you want to be caught without proper documentation. They're honoring the dead. They're comfortable making more."],
+        ["🌿 Green Cradle", "Bloom Festival", "Seasonal (4/year)", "Festive, colorful, and deeply unsettling if you look too closely at what's blooming. Security is relaxed. Citizens are outdoors. Good time for contracts that require moving through Green Cradle territory quietly. Bad time if you have plant allergies. Or if you're allergic to things that used to be plants."],
+        ["🎭 House of Mouse", "The Premiere", "Irregular", "Announced with 48 hours' notice. Entire districts transform. If you're in House territory when a Premiere drops, your cover identity better have a character arc. Contracts during Premieres pay triple. Survival rates are not disclosed."]
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "The smart contractor keeps a calendar. The lucky contractor checks it before accepting a job."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Counter-Cultures & Resistance"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not everyone drinks the branded water. In the margins, the dead zones, and the cracks between corporate territories, people exist who've rejected the whole system — or built something outside it. The corps call them dissidents, heretics, or terrorists, depending on which PR department is drafting the press release. The truth, as usual, is more complicated and less convenient."
+    },
+    {
+      "type": "info-block",
+      "icon": "🚫",
+      "title": "The Unbranded",
+      "subtitle": "No logo. No colors. No allegiance.",
+      "entries": [
+        {"label": "Population", "value": "Unknown. Estimated in the low thousands."},
+        {"label": "Territory", "value": "Deep margins, dead zones, abandoned infrastructure"},
+        {"label": "Threat Level", "value": "Low (to corps). High (to themselves)."}
+      ],
+      "desc": "People who reject all corporate identity. No colors, no logos, no augments traceable to any corp's supply chain. They live in the spaces nobody wants — toxic ruins, rift-adjacent wastelands, collapsed infrastructure too expensive to reclaim. Some are idealists who believe in a world that doesn't run on brand loyalty. Some are ex-citizens who saw behind the curtain and couldn't go back. Some are just angry. The corps don't actively hunt them — it's not cost-effective. But being Unbranded means being invisible to every system that provides food, shelter, medical care, and protection. Freedom from the corps is also freedom from everything the corps provide. Most Unbranded communities don't last more than a few years. The ones that do are remarkable."
+    },
+    {
+      "type": "info-block",
+      "icon": "🌀",
+      "title": "Rift Cults",
+      "subtitle": "Worshippers of what comes through",
+      "entries": [
+        {"label": "Variants", "value": "Dozens. Range from meditation circles to doomsday cults."},
+        {"label": "Core Belief", "value": "Dimensional energy is divine. The rifts are not accidents — they're apertures to something greater."},
+        {"label": "Threat Level", "value": "Variable. Some are harmless. Some deliberately seek toxicity overflow. Some succeed."}
+      ],
+      "desc": "Where corporate religion worships brands, rift cults worship the rifts themselves — the raw dimensional energy that remade the world. The harmless ones meditate near wild rifts, collect rift-touched artifacts, and talk about cosmic unity. The dangerous ones believe toxicity overflow is transcendence and actively seek it. The most dangerous ones have figured out that a human at maximum toxicity is a walking rift battery and have developed techniques for <em>directing</em> the overflow. Every few years, a rift cult does something that makes the news. The corps use it as justification for increased margin surveillance. The cults use the surveillance as proof they're onto something."
+    },
+    {
+      "type": "info-block",
+      "icon": "📚",
+      "title": "The Rememberers",
+      "subtitle": "Underground historians",
+      "entries": [
+        {"label": "Goal", "value": "Preserve pre-rift knowledge. Document actual corporate origins."},
+        {"label": "Method", "value": "Hidden archives. Oral histories. Smuggled data cores from before the Transition."},
+        {"label": "Threat Level", "value": "Existential — to corporate mythology. Hunted accordingly."}
+      ],
+      "desc": "Every corporate religion depends on its origin story. The Founder was a visionary. The mission was divine. The logo was always sacred. The Rememberers are the people who know that the Founder was a billionaire with a tax problem, the mission was quarterly earnings, and the logo was designed by an unpaid intern. They collect pre-rift records — fragmentary, corrupted, incomplete — and try to reconstruct what the world was actually like before it became this. The corps hunt them not because the information is dangerous in itself, but because faith requires mystery, and mystery requires ignorance. A Rememberer with a data core containing the original Crowned Table franchise agreement is more dangerous to the Crowned Table than an armed insurrection. You can shoot an insurrection. You can't shoot a fact. You can, however, shoot the person carrying it."
+    },
+    {
+      "type": "callout",
+      "label": "Cross-Corp Communities",
+      "style": "teal",
+      "text": "In the margins, where corporate borders blur and nobody's checking IDs too carefully, something blasphemous happens: citizens from different corps live together. A Congo Fulfiller sharing a kitchen with a Crowned Table Subject. A Pear User fixing a Sentinel Soldier's augments. A Green Cradle Cultivator growing food for a Wellspring Patient who can't stomach the nutritional paste anymore. By corporate theology, this is heresy — your identity is your corp, and mixing is contamination. By practical reality, it's Thursday. Margin communities don't have the luxury of ideological purity. You eat what's available. You fix what's broken. You sleep next to whoever has the next watch shift. The corps hate it. The people living it don't care."
+    },
+    {
+      "type": "flavor",
+      "text": "Blasphemy is easy when the alternative is starving alone."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Art, Music & Entertainment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Art exists. It has always existed. The question isn't whether people create — it's who owns what they create and what it's allowed to say."
+    },
+    {
+      "type": "callout",
+      "label": "Corporate Media",
+      "style": "teal",
+      "text": "Every corporation produces entertainment for its citizens. House of Mouse dominates — their content pipeline is the largest in the world, and their IP enforcement ensures nobody else can compete at scale. But every corp has its own media division. Congo produces efficiency documentaries and logistics dramas (hero delivers package against impossible odds, weeps with gratitude upon completion). Crowned Table produces chivalric romances and cooking competitions with stakes that are literally feudal. Pear produces sleek, minimalist experiences that are more aesthetic than narrative. Wellspring produces health programming — educational, mandatory, and relentless. Sentinel produces war films. Green Cradle produces nature documentaries about organisms that did not originate in nature. <strong>All corporate media is propaganda.</strong> Some of it is good propaganda. None of it is honest."
+    },
+    {
+      "type": "callout",
+      "label": "Contractor Culture",
+      "style": "accent",
+      "text": "Outside the corporate media machine, in the bars and basements and bunks of the margins, contractors make their own art. It's rough. It's real. It's the only uncensored culture in the world. Margin bars have live music — half-augmented musicians playing instruments that are part salvage, part rift-tech, part desperation. Contractor ballads about dead crews, bad contracts, and the one that got away. Graffiti on every surface the corps haven't scrubbed yet — the only public art that says what it actually means. Poets who perform for drinks. Storytellers who trade tales for meals. None of it has distribution. None of it has copyright. None of it will last. That's what makes it honest."
+    },
+    {
+      "type": "paragraph",
+      "text": "The best contractor musicians are legends in the margins and unknown everywhere else. A song about a crew that walked into a rift and only the drummer walked out can bring a bar to silence. A good storyteller who knows the history of a particular margin district is worth a meal and a drink and maybe a place to sleep. Art isn't currency in the margins. It's something better. It's <em>free</em>."
+    },
+    {
+      "type": "callout",
+      "label": "Content as Currency",
+      "style": "gold",
+      "text": "House of Mouse treats creative output — stories, performances, designs, <em>ideas</em> — as literal economic assets. A novel thought is a commodity. A good story has a market value. An original character design can be worth more than a year of contract work. This isn't metaphor. The House has a Content Exchange where narrative properties are bought, sold, and traded like stocks. A war between two franchise districts might be scripted. A citizen's emotional breakdown might be rated. Your grief is content. Your joy is content. Your death is a season finale."
+    },
+    {
+      "type": "flavor",
+      "text": "In the House, the worst thing you can be isn't evil. It's boring."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Slang & Idioms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Language drifts. A thousand years of corporate culture, rift exposure, and margin survival have produced a working vocabulary that would be incomprehensible to anyone from the pre-rift world. Contractors have their own dialect — a practical, cynical shorthand built from corporate jargon, rift terminology, and the dark humor of people who expect to die at work."
+    },
+    {
+      "type": "table",
+      "headers": ["Term", "Meaning", "Origin / Usage"],
+      "rows": [
+        ["<strong>Running hot</strong>", "High toxicity", "From scanner readouts. 'She's running hot — keep her away from the Wellspring checkpoint.'"],
+        ["<strong>Clean</strong>", "Low toxicity; also: no corporate attachments", "Dual meaning. 'Clean scan' means you'll pass a checkpoint. 'Clean contractor' means nobody owns you. Both are valuable."],
+        ["<strong>Stocked / Stock</strong>", "Unaugmented human (pejorative)", "Short for 'stock model.' Used the way you'd describe a base-model vehicle — functional, unimpressive, vulnerable. Among contractors, being stock is either a philosophical choice or a financial one, and nobody assumes it's the first."],
+        ["<strong>Scar talk</strong>", "Showing off / comparing experiences", "The ritual of comparing scars at a bar. Part social bonding, part resume. The stories behind the scars matter more than the scars themselves. Good scar talk buys drinks. Bad scar talk buys pity, which is worse."],
+        ["<strong>The grind</strong>", "Contractor life in general", "Not poetic. Not ironic. Just accurate. The grind is the loop: contract, recover, prep, contract. You're on the grind until you get off the grind, and most people don't get off."],
+        ["<strong>Fresh meat</strong>", "New contractor", "Not affectionate. Not hostile. Just descriptive. Fresh meat hasn't learned the margins yet. Whether they survive long enough to stop being fresh is a bet the regulars take."],
+        ["<strong>Taking the Long Shift</strong>", "Dying", "From Wellspring's euphemism for citizens who 'graduate' past toxicity threshold. Contractors adopted it with the gallows humor it deserves. 'Heard Kowalski took the Long Shift last Tuesday.'"],
+        ["<strong>Crowned</strong>", "Promoted beyond your competence", "From the Crowned Table's habit of elevating franchise managers to noble rank regardless of qualification. 'Don't give that job to Reyes — she'll get Crowned and we'll all pay for it.'"],
+        ["<strong>Pear'd</strong>", "Had something break at the worst possible moment", "From Pear Technologies' planned obsolescence. Your augment fails mid-combat? You got Pear'd. Your vehicle dies at the rift gate? Pear'd. The term has transcended its origin — anything that fails when you need it most has been Pear'd."],
+        ["<strong>Going dark</strong>", "Cutting all corporate tracking", "Disabling transponders, spoofing IDs, dropping off every grid. Expensive, temporary, and sometimes necessary. 'She went dark three weeks ago. Either she's running a job or she's running.'"],
+        ["<strong>Margin rat</strong>", "Someone who lives in the margins", "Not necessarily pejorative among contractors — most contractors are margin rats. Among corporate citizens, it's an insult. Among contractors, it's an identity. Some people wear it with something that looks almost like pride."]
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "Language tells you who a person is faster than their ID does."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Fashion & Personal Expression"
+    },
+    {
+      "type": "paragraph",
+      "text": "Clothes aren't fashion in the corporate world. They're uniform. They're doctrine. They're the visible proof that you belong."
+    },
+    {
+      "type": "callout",
+      "label": "Corporate Dress",
+      "style": "teal",
+      "text": "Corporate citizens wear corp colors and corp-approved styles. Always. Deviation isn't rebellion — it's diagnostic. A Congo Fulfiller wearing blue instead of brown isn't making a statement. They're having a breakdown. Neighbors will report it. A wellness check will follow. The colors aren't just clothing. They're identity, loyalty, and mental health assessment rolled into one wardrobe. Every corp has its aesthetic: Congo's utilitarian brown coveralls, the Crowned Table's feudal livery, Pear's minimalist whites, Wellspring's clinical scrubs, Sentinel's gray fatigues, Green Cradle's earth-toned organics, and the House's elaborate costuming. You can identify a citizen's corp from two blocks away. That's the point."
+    },
+    {
+      "type": "callout",
+      "label": "Contractor Style",
+      "style": "accent",
+      "text": "Contractors have no dress code. <strong>Practical gear defines the look.</strong> Armor that works. Boots that last. Jackets with enough pockets. The aesthetic is 'whatever keeps you alive and carries your equipment.' Augments are visible — some displayed deliberately, some impossible to hide, most just <em>there</em>, integrated into the body with the casual permanence of a tattoo. Scars are displayed or hidden depending on the person, but everyone notices them. A contractor's appearance is a resume: the quality of the augments, the wear on the boots, the patches on the armor, the way they carry their weight. Veterans look like veterans. Fresh meat looks like fresh meat. The margins aren't subtle about it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Status symbols among contractors:</strong> Quality of augments says money. Condition of gear says discipline. A well-maintained weapon says professional. A custom-modded weapon says invested. Visible scars say experienced. The subtle glow of managed toxicity says dangerous. The absence of any corporate insignia says <em>free</em> — or at least, as free as anyone gets. The most respected contractors don't dress up. They dress <em>right</em>. Everything functional. Nothing wasted. The clothing equivalent of a clean resume."
+    },
+    {
+      "type": "flavor",
+      "text": "You can always spot fresh meat. The gear is too new and the scars aren't showing yet."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Food Culture"
+    },
+    {
+      "type": "paragraph",
+      "text": "Everyone eats. What you eat, how you eat it, and who cooked it says more about your place in the world than any ID card."
+    },
+    {
+      "type": "callout",
+      "label": "Corporate Cuisine",
+      "style": "teal",
+      "text": "Each corporation has its own food culture, and none of them think the others are eating properly.",
+      "items": [
+        "<strong>Congo Industries:</strong> Efficient. Pre-packaged ration packs designed for consumption during work shifts. The food is calorie-dense, shelf-stable, and optimized for logistics workers who don't stop moving. Taste is a tertiary concern. The packaging is brown. The packaging is always brown.",
+        "<strong>The Crowned Table:</strong> Ritualized fast food elevated to sacrament. Citizens eat burgers, fries, and shakes prepared according to Sacred Menu specifications. Every meal is a feast. Every feast is a communion. The food is familiar in a way that triggers something primal — it tastes like a thousand years of consistency, and the consistency is the point.",
+        "<strong>Pear Technologies:</strong> Minimalist. Elegant. Portions are small, presentation is immaculate, and every ingredient has been optimized for nutritional efficiency and aesthetic appeal. The food looks better than it tastes. This is considered a feature.",
+        "<strong>Wellspring Pharma:</strong> Nutritionally optimized paste. Color-coded by health requirement. Personalized to each citizen's current biometric profile. It contains everything the body needs. It tastes like compliance. Citizens who request flavor are flagged for psychological evaluation.",
+        "<strong>Sentinel Systems:</strong> MREs. Military rations. Three meals a day, identical portions, consumed at regulation speed. Sentinel citizens eat to fuel the body, not to enjoy the experience. Enjoying food is considered an inefficiency. There is no dessert.",
+        "<strong>Green Cradle:</strong> Whatever grows in the walls. Green Cradle's architecture is alive — buildings are grown, not built — and the food comes from the same biomass. It's organic, it's fresh, it's sometimes still moving, and it occasionally has a genetic profile that doesn't match anything native to this dimension. Citizens don't ask questions about the salad.",
+        "<strong>House of Mouse:</strong> Themed. Every meal is an experience. Every restaurant is a set. Every server is in character. The food is excellent — the House understands that cuisine is entertainment — but every dish comes with a narrative, a presentation, and a licensing agreement. Eating at the House is dinner theater where the theater is mandatory."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Margin Food",
+      "style": "accent",
+      "text": "Street vendors. Communal kitchens. Night markets lit by rift-glow. The margin food economy is built on whatever's cheap, whatever's available, and whatever someone figured out how to cook. Rift-touched ingredients are common — vegetables that grew near a wild rift, meat from creatures that wandered through, spices that technically exist in a state of dimensional ambiguity. It's mostly safe. <strong>Mostly.</strong> The vendors who've been around longest are the ones whose food doesn't cause hallucinations, mutations, or spontaneous dimensional awareness. They charge a premium. It's worth it."
+    },
+    {
+      "type": "callout",
+      "label": "Contractor Cooking",
+      "style": "gold",
+      "text": "<strong>A crew that can cook is a crew that saves money.</strong> Base kitchens are investments — a hot plate and a pot can save hundreds of credits a month over street food. Recipes shared between crews are a form of currency, traded at bars and staging areas alongside contract intel and scar stories. The best contractor cooks are minor celebrities in their districts. A good stew made from margin ingredients and rift-touched spices can do more for crew morale than a week of downtime. Some crews guard their recipes more carefully than their contract intel. A few have built side businesses selling food from their base kitchens. The economics work. The community builds itself around the cooking."
+    },
+    {
+      "type": "flavor",
+      "text": "The best meal in the margins tastes like someone gives a damn. That's the secret ingredient."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Shape of Belief"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here's what contractors need to understand about corporate religion, stripped of the anthropology and boiled down to operational reality:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>It's real to them.</strong> Not performed. Not maintained for social control. Not a costume they take off at the end of the day. A Crowned Table Subject believes in the divine right of the franchise monarchy the way ancient humans believed the sun would rise. A Sentinel Soldier believes in the chain of command the way medieval monks believed in God. It's the water they swim in. They can't see it any more than a fish can see the ocean."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>It works.</strong> Corporate religions provide everything a religion is supposed to provide: meaning, community, identity, purpose, a framework for understanding suffering, and a promise that the suffering matters. Citizens aren't miserable. Most of them are content. Some are genuinely happy. The system delivers on its promises — as long as you don't look too closely at the fine print, and the fine print is in a font size that requires augmentation to read."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>It's fragile in ways they don't see.</strong> A faith built on a brand is a faith with a supply chain. When the supply chain breaks — when a corp can't deliver on its promises, when the sacred products stop working, when the founder's history gets exposed, when a citizen wakes up and <em>notices</em> — the collapse isn't gradual. It's catastrophic. Apostates from corporate faith don't become agnostics. They become furious. Some become Unbranded. Some become rift cultists. Some become contractors."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "gold",
+      "text": "Corporate religion is a tool for dramatic tension, not a lecture. Let players encounter it through NPCs who believe genuinely, rituals that are simultaneously beautiful and disturbing, and moments where the line between brand and belief is impossible to locate. The most effective scenes are the ones where a corporate citizen is <em>kind</em>, <em>generous</em>, and <em>completely sincere</em> — and the player has to decide whether to respect that sincerity or recognize the system that produced it. There's no right answer. That's the point."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Contractor Relations Bureau reminds all freelance personnel that cultural sensitivity is a professional obligation. Disparagement of corporate religious practices, desecration of corporate sacred sites, unauthorized possession of corporate religious artifacts, or public expression of theological opinions in corporate territory may result in detention, prosecution, excommunication, or termination of contractor status. 'Termination' in this context refers to your contract. Probably. The Bureau recommends not testing the ambiguity. Cultural compliance is everyone's responsibility. Belief is optional. Respect is not.\"</em>"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "id": "world-species-communities",
+  "title": "Non-Human Communities",
+  "subtitle": "Politics, culture, and survival beyond the species page",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Personhood Accords recognize seven sapient non-human species as legal persons entitled to the full protections of corporate citizenship, including freedom from involuntary servitude, access to medical care, and equitable compensation for labor rendered. Intercompany Species Relations reminds all personnel that legal recognition and practical rights are distinct concepts, and that the distance between them is measured not in policy but in enforcement. No enforcement body currently exists. This is by design, though officially it is by oversight.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Overview"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-humans aren't minorities. Combined, they constitute roughly 30% of the global population — a figure that's been stable for centuries and shows no sign of changing. In any given city-state, you'll find Vael tending rooftop gardens, Keth maintaining infrastructure that would break human hands, Flickers running courier networks faster than corporate logistics can track, and Grunts doing the jobs nobody else survives long enough to finish."
+    },
+    {
+      "type": "paragraph",
+      "text": "And yet: humans control all seven major corporations. Every board seat. Every executive tier. Every military command structure. Non-human employees exist at every level below the top, and the top is where decisions get made. Thirty percent of the population. Zero percent of the power."
+    },
+    {
+      "type": "flavor",
+      "text": "Democracy requires voters. Corporate governance requires shareholders. Guess who owns the shares."
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-human political power is limited, fragmented, and constantly undermined — not through conspiracy (though there's some of that) but through structural exclusion so old and so thorough that most humans don't notice it. The species page tells you <em>what</em> non-humans are. This page tells you how they <strong>organize</strong>, how they <strong>fight</strong>, and how they <strong>survive</strong> in a world that values their biology more than their personhood."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Inter-Species Relations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seven species. A thousand years of coexistence. The relationships between non-human communities are as complex, contentious, and politically charged as anything humans have produced — which is to say, messy."
+    },
+    {
+      "type": "callout",
+      "label": "Vael and Keth",
+      "style": "teal",
+      "text": "<strong>Tension.</strong> The Bloom and The Char are ecological opposites — one is a symbiotic overgrowth of cooperative life, the other is a volcanic hellscape where silence means survival. The cultural values that evolved from these origins are almost perfectly incompatible. Vael are communal, verbal, emotionally transparent. Keth are solitary, silent, emotionally private. A Vael's instinct when meeting someone new is to share. A Keth's instinct is to observe. Neither instinct is wrong. Both feel wrong to the other species. They respect each other's competence — a Vael scout and a Keth mechanic working the same contract is a devastatingly effective pairing. They just don't eat lunch together."
+    },
+    {
+      "type": "callout",
+      "label": "Flicker and Whisper",
+      "style": "accent",
+      "text": "<strong>Unexpected cooperation.</strong> Both species are outsiders even among non-humans. Flickers are too fast — their conversations happen at a tempo that makes other species feel sluggish, and their restless energy reads as anxiety to everyone except Whispers, who don't read social cues the way anyone else does. Whispers are too strange — their dimensional perception makes them say things that sound like nonsense until three hours later when the rift opens exactly where they said it would. In the Undercity, where being weird is less a liability and more a competitive advantage, Flicker-Whisper partnerships have become surprisingly common. The Flicker handles commerce. The Whisper handles threat assessment. Nobody else understands the arrangement. It works anyway."
+    },
+    {
+      "type": "callout",
+      "label": "Grunt and Everyone",
+      "style": "gold",
+      "text": "<strong>Grunts get along with everyone.</strong> This is frequently attributed to their disposition, which is calm. It should be attributed to their strategy, which is deliberate. Grunts don't start conflicts because starting conflicts is inefficient. They don't take offense easily because taking offense is a waste of metabolic resources. They cooperate with whoever is present because cooperation produces better outcomes than hostility. This is sometimes misread as simplicity. Contractors who've worked alongside Grunts for any length of time know better. Grunts remember everything — every slight, every favor, every broken promise. They don't react immediately. They react when it's strategically optimal. The word 'patient' doesn't cover it. 'Geological' is closer."
+    },
+    {
+      "type": "flavor",
+      "text": "A Grunt forgives nothing. They just invoice on a longer timeline."
+    },
+    {
+      "type": "callout",
+      "label": "Hollow and Everyone",
+      "style": "rust",
+      "text": "<strong>Hollows make everyone uncomfortable.</strong> Their competence is undeniable — pattern recognition that borders on precognition, efficiency that makes optimized systems look wasteful, and an ability to assess situations without the interference of emotional noise. Their motives are opaque. Not hidden — opaque. Ask a Hollow why they did something and you'll get an answer that is technically complete and emotionally empty. Most species settle on wary professionalism: work with them, rely on their analysis, don't ask personal questions. Vael find Hollows deeply unsettling on a level that approaches revulsion. Vael culture is built on emotional connection — shared feeling, communal experience, the belief that relationships are the foundation of meaning. Hollows don't have that. They perform it, sometimes, but the performance has the uncanny quality of a mirror that reflects everything except the person looking into it."
+    },
+    {
+      "type": "callout",
+      "label": "Humans and Non-Humans",
+      "style": "rust",
+      "text": "<strong>The fundamental power imbalance.</strong> Humans run the corporations. Non-humans tolerate magic better, which makes them valuable — and exploitable. Corporate employment contracts for non-humans often contain toxicity exposure clauses that would be illegal for human employees. The word <em>\"illegal\"</em> does a lot of work in that sentence. It implies enforcement. It implies consequences. It implies someone is checking. Nobody is checking. The Personhood Accords guarantee equal treatment. Corporate legal departments guarantee that \"equal treatment\" is a phrase flexible enough to cover almost anything."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the margins, the dynamic is different. Contractor crews judge by competence, not species. A Keth mechanic who keeps the vehicle running is worth more than a human mechanic who doesn't, and the margin's economy is too brutal for the luxury of prejudice. This isn't idealism. It's arithmetic. The margin is the closest thing to species equality that exists in the world. It's also a place where everyone is one bad contract from dying, so the bar for \"equality\" is doing a lot of heavy lifting."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Diaspora vs. Home Dimension"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every non-human species faces the same question: what is the relationship between those who stayed and those who left? A thousand years of dimensional immigration has created communities split across realities, and the rifts between them — literal and figurative — define non-human politics as much as any corporate policy."
+    },
+    {
+      "type": "callout",
+      "label": "Keth: The Char and the City",
+      "style": "gold",
+      "text": "City Keth have adapted. They speak human languages. They work human jobs. They've learned to use two of their four arms casually to avoid making colleagues uncomfortable. Char Keth think they've sold out — abandoned the silence, abandoned the communal forges, traded crystalline integrity for corporate scrip. The rift between them is generational and deepening. Some city Keth have never seen The Char. Some don't want to. Some are afraid of what they'd find if they went back: a home that doesn't recognize them and wouldn't want them if it did."
+    },
+    {
+      "type": "callout",
+      "label": "Vael: The Bloom and the Margins",
+      "style": "teal",
+      "text": "Margin Vael maintain cultural practices with a devotion that borders on desperation — communal living, shared consciousness rituals, color-language ceremonies performed in cramped apartments that bear no resemblance to the Bloom's vast symbiotic canopies. But the Bloom's ecosystem can't be replicated on Earth. The biological connection that defines Vael identity — the sense of being part of a living network, of feeling the health of the community as a physical sensation — is diminished here. Attenuated. Like trying to hear music through a wall. They're homesick for something more fundamental than a place. They're homesick for a way of <em>being</em> that this dimension doesn't support."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Whispers</strong> don't have a diaspora problem. The Static doesn't have stable communities to leave — it's a dimension of shifting frequencies and recursive signal patterns. You can't be homesick for white noise. Whispers who've visited The Static describe it as 'returning to a conversation that was never finished,' which is either profound or meaningless depending on your tolerance for Whisper metaphors."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grunts</strong> can't go home because nobody knows where home is. They've been on Earth longer than any other non-human species — long enough that their origin dimension has become a theoretical concept rather than a geographical fact. Some Grunt elders maintain oral histories that describe a place of vast plains and slow seasons, but whether these are memories or myths is an open question. After a certain number of centuries, the distinction stops mattering."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Flickers</strong> came from so many dimensions — at least fourteen documented origin points, likely more — that 'home dimension' is a meaningless concept for most. A Flicker born in the Undercity to parents from two different dimensional origins has no homeland to miss. Their home is wherever the economy needs them, which is everywhere, which is nowhere."
+    },
+    {
+      "type": "callout",
+      "label": "Hollow: Pilgrimages to The Grave",
+      "style": "rust",
+      "text": "Some Hollows make pilgrimages back to The Grave. The trips are planned months in advance, undertaken alone, and last precisely as long as the Hollow determined beforehand — never longer, never shorter. They return quieter than when they left. Not disturbed. Not enlightened. Just <em>quieter</em>, as if something that was already barely audible has been turned down further. Nobody asks what they found. The few who have asked received answers so precisely uninformative that the questioning felt like a waste of both parties' time."
+    },
+    {
+      "type": "flavor",
+      "text": "Home is where they know your species name. Everywhere else, you're a category on a census form."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Species-Specific Political Organizations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-humans organize. Not well, not consistently, and not in ways that corporate governance structures recognize as legitimate — but they organize. The following are the most significant political bodies operating across species lines."
+    },
+    {
+      "type": "info-block",
+      "icon": "🌿",
+      "title": "The Vael Collective",
+      "subtitle": "Cross-city federation of Vael communities",
+      "entries": [
+        {"label": "Structure", "value": "Loose federation. No central leadership — Vael don't do hierarchy."},
+        {"label": "Membership", "value": "Open to all Vael. Participation is cultural expectation, not requirement."},
+        {"label": "Primary Agenda", "value": "Ecological protections, anti-harvesting legislation, community land rights."},
+        {"label": "Corporate Stance", "value": "Green Cradle tolerates them. Other corps ignore them.", "full": true},
+        {"label": "Effectiveness", "value": "Moderate locally, negligible at intercompany level. Excellent mutual aid network.", "full": true}
+      ],
+      "desc": "The Collective operates through consensus, which means decisions take weeks and are implemented immediately once reached. Corporate lobbyists find this baffling — they're accustomed to fast decisions with slow implementation, not the reverse. The Collective's greatest achievement is the Verdant Compact, a mutual aid agreement between seventeen Vael communities across four corporate territories that ensures no isolated Vael group goes unsupported. Its greatest failure is everything involving corporate policy, where it has achieved exactly nothing in three hundred years of polite, well-documented advocacy."
+    },
+    {
+      "type": "info-block",
+      "icon": "⛏",
+      "title": "The Keth Silence",
+      "subtitle": "Not an organization — a cultural practice",
+      "entries": [
+        {"label": "Structure", "value": "None. The Silence is emergent, not organized."},
+        {"label": "Mechanism", "value": "Collective non-cooperation. When conditions are intolerable, Keth stop working."},
+        {"label": "Trigger", "value": "No formal criteria. When enough Keth independently decide it's enough, it's enough."},
+        {"label": "Corporate Impact", "value": "Devastating. When Keth refuse to work, supply chains break.", "full": true}
+      ],
+      "desc": "The Silence isn't a strike — strikes require organization, demands, and negotiation. The Silence is simpler: Keth stop. They don't picket. They don't make demands. They sit in their quarters and wait. Since Keth communication relies heavily on gesture and physical proximity rather than verbal language, corporate surveillance can't detect coordination. There are no messages to intercept. No leaders to arrest. No demands to negotiate. Just silence. Congo Industries learned this the hard way three times. The third time cost them an estimated 2.3 billion credits in delayed extraction operations. Congo's official position is that the Silence is 'spontaneous labor disruption.' Their internal memos use the word 'terrifying.'"
+    },
+    {
+      "type": "info-block",
+      "icon": "👁",
+      "title": "The Whisper Network",
+      "subtitle": "Named by humans, not by Whispers",
+      "entries": [
+        {"label": "Structure", "value": "Informal. No membership. No hierarchy. No charter."},
+        {"label": "Function", "value": "Information sharing. Whispers who sense rift anomalies pass warnings to each other."},
+        {"label": "Medium", "value": "Unknown. Possibly dimensional perception. Possibly something else entirely."},
+        {"label": "Corporate Stance", "value": "Corps can't tap it, can't regulate it, and hate that it exists.", "full": true}
+      ],
+      "desc": "The name was imposed by human intelligence analysts who needed a term for the phenomenon of Whispers consistently knowing about rift events before monitoring equipment detected them. Whispers themselves don't call it anything — naming it would imply it's a discrete thing rather than a natural consequence of how they perceive reality. Pear Technologies has spent considerable resources attempting to reverse-engineer the Network's information transfer mechanism. They've produced eighteen classified reports, all of which conclude with some variation of 'further research required.' Sentinel has a standing bounty for any intelligence that explains how it works. The bounty has been active for 140 years. It remains uncollected."
+    },
+    {
+      "type": "info-block",
+      "icon": "🦴",
+      "title": "Grunt Councils",
+      "subtitle": "Governance by deliberation",
+      "entries": [
+        {"label": "Structure", "value": "Consensus-based councils. Every adult Grunt present has equal voice."},
+        {"label": "Process", "value": "Slow. Thorough. A council meeting can last days. Sometimes weeks."},
+        {"label": "Decision Quality", "value": "Consistently excellent. The decisions account for variables humans don't consider."},
+        {"label": "Corporate Stance", "value": "Corps find them infuriating. Deadlines mean nothing to a Grunt council.", "full": true}
+      ],
+      "desc": "Grunt Councils are maddening to interact with if you're operating on human timescales. A corporate representative requesting a decision on a labor agreement will be invited to sit, offered food, and then subjected to a deliberation process that examines every implication, precedent, and potential consequence of every clause. The representative will be consulted. Their answers will be considered. More questions will be asked. The process cannot be rushed because rushing produces bad decisions and Grunts don't make bad decisions if they can help it. The irony is that corps who've actually waited for Grunt Council decisions report that the outcomes are better than anything their own legal departments produced. They just can't afford to wait."
+    },
+    {
+      "type": "info-block",
+      "icon": "⚡",
+      "title": "Flicker Guilds",
+      "subtitle": "Economic cooperatives with teeth",
+      "entries": [
+        {"label": "Structure", "value": "Formal cooperatives. Elected guild masters. Rotating leadership."},
+        {"label": "Function", "value": "Resource pooling, contract negotiation, mutual insurance, price-setting."},
+        {"label": "Territory", "value": "Dominant in the Undercity informal economy. Expanding into margin commerce."},
+        {"label": "Effectiveness", "value": "The most commercially successful non-human political structure in existence.", "full": true}
+      ],
+      "desc": "Flicker Guilds operate like corporations in miniature — pooled capital, shared contracts, collective bargaining, and an institutional memory that spans generations. A Flicker working alone is fast and fragile. A Flicker Guild is fast and resilient. They've cornered markets in courier services, emergency medical response, data processing, and Undercity logistics. The guilds negotiate collectively with corporate buyers, which means a corp that alienates one guild finds itself cut off from an entire economic network. House of Mouse learned this when they tried to undercut a Flicker archival guild. Within a week, every Flicker-operated courier service in the city-state refused Mouse contracts. The dispute was resolved in the guild's favor. Quickly."
+    },
+    {
+      "type": "info-block",
+      "icon": "🔮",
+      "title": "Hollow Protocol",
+      "subtitle": "Organizational structure: unknown",
+      "entries": [
+        {"label": "Structure", "value": "Unclear. Possibly emergent. Possibly something else."},
+        {"label": "Leadership", "value": "None identified. No charter. No meeting place. No records."},
+        {"label": "Observable Behavior", "value": "Hollows coordinate. Decisions appear to have been made. Resources appear to have been allocated."},
+        {"label": "Corporate Stance", "value": "Sentinel has a dedicated analysis team. They've produced nothing actionable in 200 years.", "full": true}
+      ],
+      "desc": "Nobody's sure if Hollows organize politically. The evidence is circumstantial: when a policy threatens Hollow interests, Hollow employees across multiple corporations simultaneously adjust their behavior in ways that produce favorable outcomes. No communications are intercepted. No meetings are detected. No leaders emerge. It looks like independent individuals making identical decisions at the same time, which is either a coincidence or a coordination mechanism so sophisticated that it's indistinguishable from coincidence. The working theory among intelligence analysts is 'emergent collective behavior' — the idea that Hollows' pattern recognition is so advanced that they independently arrive at the same conclusions from the same data. The alternative theory is that they're doing something humans can't detect. Both theories are uncomfortable."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Resistance and Advocacy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where there is exploitation, there is resistance. Non-human advocacy movements range from polite institutional lobbying (ineffective, well-funded) to radical direct action (effective, short-lived). The following are the most significant."
+    },
+    {
+      "type": "info-block",
+      "icon": "🩸",
+      "title": "The Anti-Harvesting Coalition",
+      "subtitle": "Cross-species opposition to corporate toxicity exploitation",
+      "entries": [
+        {"label": "Membership", "value": "Mixed species. Majority Vael and Grunt, growing Keth participation."},
+        {"label": "Primary Issue", "value": "Corporate 'harvesting' — collecting sapients at maximum toxicity as dimensional energy resources."},
+        {"label": "Methods", "value": "Public advocacy, legal challenges, whistleblower protection, contract auditing."},
+        {"label": "Scope", "value": "Harvesting disproportionately affects non-humans who work closer to rifts.", "full": true}
+      ],
+      "desc": "Harvesting is the Coalition's word for a practice that corporations call 'voluntary energy contribution' or 'toxicity-offset recycling.' The mechanics are straightforward: a sapient being at high toxicity is a battery. Their accumulated dimensional energy can be extracted, processed, and sold. The process is survivable. It is also deeply unpleasant, medically risky, and — when performed on non-humans who were pushed to high toxicity by corporate deployment policies they couldn't refuse — ethically indefensible. The Coalition's legal challenges have been struck down eight times. Their public campaigns have been effective enough that Wellspring now uses the phrase 'consensual energy partnership' instead of 'harvesting' in external communications. Progress."
+    },
+    {
+      "type": "info-block",
+      "icon": "📋",
+      "title": "Species Integration Advocates",
+      "subtitle": "Working within the system, against the system",
+      "entries": [
+        {"label": "Membership", "value": "Mixed species. Significant human membership — mostly academics and legal professionals."},
+        {"label": "Primary Issue", "value": "Non-human representation in corporate governance structures."},
+        {"label": "Methods", "value": "Legal advocacy, policy proposals, shareholder petitions, intercompany lobbying."},
+        {"label": "Track Record", "value": "Have achieved exactly nothing in 400 years of continuous operation.", "full": true}
+      ],
+      "desc": "The SIA is the most respectable, most well-funded, and least effective non-human advocacy organization in existence. Their annual reports are impeccably researched. Their policy proposals are legally sound. Their shareholder petitions are procedurally perfect. And every single one has been voted down, tabled, referred to committee, or subjected to review processes that outlast the careers of the people who filed them. The SIA persists because it provides a useful fiction: its existence allows corporations to claim that non-human political participation is possible within the system. The fact that participation has produced zero structural change in four centuries is, apparently, not relevant to this claim."
+    },
+    {
+      "type": "info-block",
+      "icon": "🔥",
+      "title": "The Untethered",
+      "subtitle": "Radical non-human separatism",
+      "entries": [
+        {"label": "Membership", "value": "Non-human only. Small. Cell-based. No central organization."},
+        {"label": "Primary Issue", "value": "Complete rejection of corporate integration. Non-human autonomy."},
+        {"label": "Methods", "value": "Direct action. Infrastructure sabotage. Occasionally violent."},
+        {"label": "Public Perception", "value": "Most non-humans think they're counterproductive. Some secretly agree with them.", "full": true}
+      ],
+      "desc": "The Untethered believe that corporate integration is a trap — that working within human systems means accepting human control, and that no amount of advocacy will change a power structure designed to exploit non-human labor. Their solution is withdrawal: non-human communities should disengage from corporate economies entirely, establish independent territories, and defend those territories by whatever means necessary. In practice, this has produced a handful of short-lived autonomous zones, several infrastructure attacks that made the news cycle for exactly one day, and a body count that hurts their cause more than it helps. Most non-humans view the Untethered the way most humans view their own radicals: embarrassing, occasionally correct, and too dangerous to support openly."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Mixed-Species Communities in the Margins"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate territory separates by hierarchy. The margins mix by necessity."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the spaces between corporate borders — the contractor settlements, the free towns, the Undercity warrens — species mix more freely than anywhere else in the world. Not because the margins are idealistic. Because the margins are <em>poor</em>, and poverty is an effective solvent for prejudice. When your choices are 'cooperate with the Keth next door' or 'starve,' cultural preferences become negotiable."
+    },
+    {
+      "type": "paragraph",
+      "text": "A margin settlement might contain a Vael running a communal kitchen out of a converted shipping container, next to a Keth forge that repairs augments and vehicles for anyone who pays, next to a Flicker medical station offering trauma care at rates that undercut corporate clinics by 80%. A Grunt on the corner selling secondhand equipment with the patience of a geological formation. A Whisper somewhere nearby, doing something nobody can quite describe but everyone vaguely benefits from. It works because everyone needs each other. The Vael feeds the community. The Keth keeps the infrastructure running. The Flicker keeps people alive. The Grunt provides stability. The Whisper provides warnings."
+    },
+    {
+      "type": "flavor",
+      "text": "The margins didn't invent multiculturalism. They just couldn't afford the alternative."
+    },
+    {
+      "type": "paragraph",
+      "text": "These communities are the closest thing to genuine interspecies cooperation the world produces. They're also fragile, underfunded, and one bad contract away from dissolution. A single corporate land-grab, a rift event in the wrong location, or a supply chain disruption can scatter a community that took years to build. The margins build anyway. They don't have a choice."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "Mixed-species margin settlements are excellent campaign home bases. They provide natural access to multiple species NPCs, built-in economic pressures (the settlement always needs something), and stakes that feel personal — defending a community is more compelling than defending a contract. The fragility is the point: players should feel like their home base could be lost."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Species Rights Under Corporate Law"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every corporation handles non-human legal status differently. The Personhood Accords set a floor — sapient non-humans are legally persons, entitled to basic protections. What each corp builds on that floor tells you everything about how they see non-humans. The terminology is revealing. The gap between terminology and practice is more revealing."
+    },
+    {
+      "type": "table",
+      "headers": ["Corporation", "Non-Human Legal Status", "Notable Policies"],
+      "rows": [
+        ["⛏️ <strong>Congo Industries</strong>", "\"Equal economic units\"", "No legal distinction between species — but pay scales \"adjust for biological capability.\" In practice, this means Keth get paid less because their heat tolerance means they can work longer shifts, which Congo interprets as lower hourly value. The math is creative."],
+        ["👑 <strong>The Crowned Table</strong>", "\"Honored subjects of foreign blood\"", "Technically equal under the Crown's law. Culturally patronized. Non-humans are welcomed as subjects but rarely promoted to knightly orders. The phrase \"foreign blood\" appears in every official document, a perpetual reminder that you belong here by permission, not by right."],
+        ["🍐 <strong>Pear Technologies</strong>", "\"Compatible systems\"", "Non-humans are welcome participants in the Pear ecosystem — as long as they use Pear products, Pear interfaces, and Pear-approved dimensional monitoring software. Integration is frictionless. Opting out is not an option. Species is irrelevant; brand loyalty is everything."],
+        ["💊 <strong>Wellspring Pharma</strong>", "\"Research-eligible persons\"", "Legal guinea pigs with extra steps. Non-human employees sign consent forms that are technically voluntary and practically mandatory. The biological differences between species are \"research opportunities.\" Vael photosynthesis, Keth crystalline biology, Grunt regeneration — Wellspring wants samples. Wellspring always wants samples."],
+        ["🏛️ <strong>Sentinel Systems</strong>", "\"Allied non-combatant assets\"", "Useful, monitored, not trusted. Non-humans in Sentinel territory are tracked more aggressively than humans. Security clearances are harder to obtain. The official reason is \"dimensional origin security protocols.\" The unofficial reason is that Sentinel's threat modeling hasn't updated its priors in 400 years."],
+        ["🌿 <strong>Green Cradle</strong>", "\"Symbiotic partners\"", "Genuine respect for Vael, whose biology aligns with Cradle's ecological mission. Genuine curiosity about everyone else. Green Cradle's non-human policies are the best in the corporate world, which says less about Green Cradle than it does about the corporate world."],
+        ["🎭 <strong>House of Mouse</strong>", "\"Guest performers\"", "Everyone is Cast. Species is just another costume. Non-humans in Mouse territory are expected to perform their species identity for entertainment value — the Keth blacksmith experience, the Vael garden tour, the Flicker speed demonstration. Your culture is content. Your biology is a brand. Smile for the audience."]
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "Seven corporations. Seven ways of saying 'you're useful' without saying 'you're equal.'"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Intercompany Species Relations wishes to clarify that the above categorizations represent legal frameworks developed independently by each signatory corporation in accordance with their sovereign governance rights under the Intercompany Charter. Standardization of non-human legal status has been proposed 347 times. It has been tabled 347 times. The correlation between these numbers is not officially acknowledged.\"</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Question Nobody Asks Out Loud"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here is the thing that every non-human community knows and no corporate policy acknowledges: <strong>non-humans tolerate magic better than humans do.</strong> This is the foundation of every exploitation, every unequal contract, every toxicity exposure clause buried in employment agreements. Non-humans are more resistant to the thing that the entire economy runs on. In a just system, this would make them valued. In the actual system, it makes them expendable — because you can push a non-human closer to the edge before they break, and the edge is where the money is."
+    },
+    {
+      "type": "paragraph",
+      "text": "The question nobody asks out loud is simple: <em>what happens when 30% of the population decides that being valuable and being exploited are no longer compatible?</em> The Keth Silence is a preview. The Untethered are a rough draft. The Flicker Guilds are a proof of concept. Individually, none of these movements threaten corporate power. Collectively — if they ever became collective — they would represent the single largest organized labor force in human history, with biological capabilities that humans can't match and dimensional tolerances that make them irreplaceable."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every corporate intelligence division has a file on this scenario. The files are classified at the highest level. The recommended responses vary by corporation but share a common theme: ensure non-human political movements remain fragmented. The word used in Sentinel's version is <em>\"compartmentalized.\"</em> Congo's version uses <em>\"managed.\"</em> Pear's uses <em>\"optimized for individual engagement.\"</em> They all mean the same thing: keep them apart."
+    },
+    {
+      "type": "flavor",
+      "text": "Thirty percent of the world. Zero percent of the boardrooms. One hundred percent of the leverage, if they ever figured out how to use it."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Intercompany Species Relations reminds all corporate personnel that non-human communities are valued partners in the continued prosperity of the global economy. Any suggestion that interspecies relations are characterized by systemic exploitation is inconsistent with the principles of the Personhood Accords and should be reported to your local Compliance Office for review. Intercompany Species Relations thanks you for your cooperation. Your cooperation is, as always, mandatory.\"</em>"
+    }
+  ]
+}
