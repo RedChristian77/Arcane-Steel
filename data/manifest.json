@@ -28,6 +28,41 @@
           "id": "world-undercity",
           "title": "The Undercity",
           "file": "pages/world-undercity.json"
+        },
+        {
+          "id": "world-history",
+          "title": "History & Timeline",
+          "file": "pages/world-history.json"
+        },
+        {
+          "id": "world-old-world",
+          "title": "The World Before",
+          "file": "pages/world-old-world.json"
+        },
+        {
+          "id": "world-environment",
+          "title": "Weather & Environment",
+          "file": "pages/world-environment.json"
+        },
+        {
+          "id": "world-culture",
+          "title": "Culture & Religion",
+          "file": "pages/world-culture.json"
+        },
+        {
+          "id": "world-species-communities",
+          "title": "Non-Human Communities",
+          "file": "pages/world-species-communities.json"
+        },
+        {
+          "id": "world-npcs",
+          "title": "Notable Figures",
+          "file": "pages/world-npcs.json"
+        },
+        {
+          "id": "world-legends",
+          "title": "Legends & Folklore",
+          "file": "pages/world-legends.json"
         }
       ]
     },
@@ -79,6 +114,11 @@
           "id": "world-brokers",
           "title": "Brokers & Factions",
           "file": "pages/world-brokers.json"
+        },
+        {
+          "id": "world-politics",
+          "title": "Corporate Politics",
+          "file": "pages/world-politics.json"
         }
       ]
     },
@@ -389,6 +429,11 @@
           "id": "expeditions-uncharted",
           "title": "Uncharted Dimensions",
           "file": "pages/expeditions-uncharted.json"
+        },
+        {
+          "id": "expeditions-new-dimensions",
+          "title": "Rumored Dimensions",
+          "file": "pages/expeditions-new-dimensions.json"
         }
       ]
     },
@@ -452,6 +497,11 @@
           "id": "gm-quickstart",
           "title": "Quickstart Guide",
           "file": "pages/gm-quickstart.json"
+        },
+        {
+          "id": "world-exploration-feedback",
+          "title": "Exploration Tables",
+          "file": "pages/world-exploration-feedback.json"
         }
       ]
     }

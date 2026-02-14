@@ -1,0 +1,302 @@
+{
+  "id": "world-exploration-feedback",
+  "title": "Exploration Tables",
+  "subtitle": "What you see, hear, and wish you hadn't",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"FIELD ADVISORY — Intercompany Contractor Orientation, Supplemental Bulletin 3025-EX-09: The following tables are compiled from contractor field reports, broker debriefs, and (where available) recovered audio logs. Entries reflect commonly reported phenomena and should not be interpreted as exhaustive. The world is stranger than any table can capture. If you encounter something not listed here, congratulations — you've found something new. File a report if you survive. Attach sensory data if the data cooperates. Do not attempt to categorize the uncategorizable. That's our job, and we're not very good at it either.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Using These Tables"
+    },
+    {
+      "type": "paragraph",
+      "text": "These tables are tools. Roll when the crew is traveling, exploring, or when the scene needs texture. Not every result needs mechanical weight — sometimes atmosphere is enough. A strange sound in the distance, a piece of graffiti on a wall, a fellow passenger who talks too much. These are the details that make the world feel lived-in, died-in, and survived-in. Use them when the scene is quiet and you want to remind everyone that quiet doesn't mean safe."
+    },
+    {
+      "type": "callout",
+      "label": "How to Use",
+      "style": "teal",
+      "text": "Roll a <strong>d8</strong> on any table that fits the crew's current location. You can roll in advance during session prep or in the moment when the players are traveling and you want something to happen. Not every entry demands a response from the players — some are just the world being the world. Let the crew decide what's worth investigating and what's background noise. The best sessions have both."
+    },
+    {
+      "type": "flavor",
+      "text": "The difference between a good contractor and a dead one is knowing which details matter. The problem is, they all matter. You just can't afford to act on all of them."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "City-State Encounters"
+    },
+    {
+      "type": "paragraph",
+      "text": "For scenes inside corporate city-state walls. The city is safe — comparatively, technically, legally. But safe doesn't mean boring, and corporate territory has its own kind of danger. These encounters flavor downtime, shopping trips, and those moments between contracts when the crew remembers they live somewhere."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Event", "Details"],
+      "rows": [
+        ["1", "<strong>Corp parade blocking the street</strong>", "Banners, music, augmented honor guard in full chrome. The corporation is celebrating something — a successful extraction, a founder's anniversary, a territorial acquisition. Streets are closed for 1d4 hours. The crowd is mandatory. Contractors are expected to look respectful or leave the district."],
+        ["2", "<strong>Toxicity scanner checkpoint</strong>", "Sentinel or corporate security running ambient scans on everyone passing through. Anyone with toxicity above baseline gets pulled aside for questioning. Where have you been? How long were you in the zone? Do you have documentation? The questions are routine. The detainment is not."],
+        ["3", "<strong>Market price surge</strong>", "Something happened in the dead zones — a rift closed, a supply line was cut, a salvage crew didn't come back. Prices on a common resource (detox supplies, rift components, ammunition) have doubled since yesterday. Brokers are scrambling. Contractors who stocked up are suddenly popular."],
+        ["4", "<strong>Street preacher</strong>", "Corp-specific religion in full voice. A Table evangelist reciting the Sacred Menu. A Wellspring devotee preaching hydrological salvation. A Green Cradle missionary with living rift flora woven into their clothes, talking about harmony with the Bloom. Earnest, loud, and drawing a crowd that's either fascinated or annoyed."],
+        ["5", "<strong>Augment malfunction in a crowd</strong>", "Someone's chrome glitches in the market square. A limb locks, an eye projects static, a vocal modulator starts broadcasting internal diagnostics at full volume. It's embarrassing, potentially dangerous, and a reminder that the technology keeping everyone functional is one software error from catastrophe. Bystanders either help or film it."],
+        ["6", "<strong>Contractor brawl outside a bar</strong>", "Two crews with overlapping contract claims, or an old grudge, or just enough cheap synthohol to make bad decisions. Fists first, augments second, weapons if nobody intervenes. Sentinel response time in the margins is slow. In corporate districts, it's immediate and heavy-handed. Either way, someone's getting detained."],
+        ["7", "<strong>A Whisper staring at something nobody else can see</strong>", "Standing still in the middle of foot traffic, eyes focused on a point in empty air, lips moving without sound. Whispers see things — rift energy, dimensional pressure, echoes of rifts that haven't opened yet. This one sees something. The expression on their face suggests it isn't good. They won't talk about it if asked. They never do."],
+        ["8", "<strong>Power outage in the margin district</strong>", "The lights go out in a three-block radius. Corporate infrastructure prioritizes citizen districts — the margins get what's left, and what's left just failed. Emergency generators kick in at the broker offices and the medical clinics. Everything else goes dark. It'll be fixed in hours, maybe. Margin residents light candles and pretend this is normal. It is."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Margin Life"
+    },
+    {
+      "type": "paragraph",
+      "text": "For scenes in the margins — the strip of territory between city walls and the dead zones where contractors live, work, and try not to think about what's on the other side of the perimeter. Margin life is loud, cramped, resourceful, and never dull. These encounters happen between contracts, during downtime, or in the middle of the night when something wakes everyone up."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Event", "Details"],
+      "rows": [
+        ["1", "<strong>Neighbor's augment alarm going off at 3 AM</strong>", "A proximity alert, a toxicity warning, or a glitched diagnostic loop that won't stop beeping. The entire floor is awake. The neighbor is either genuinely in danger, having a nightmare that their chrome is interpreting as a threat, or simply the owner of a malfunctioning arm that thinks it's Tuesday in 3019. Nobody is going back to sleep soon."],
+        ["2", "<strong>A new broker board opening</strong>", "Fresh contracts posted, new broker setting up shop. Rumors circulate immediately — who's backing them, where their intel comes from, whether their contracts pay on time. A new board means new opportunities or a new way to get killed. Contractors crowd the entrance, sizing up the postings and each other."],
+        ["3", "<strong>Communal kitchen serving something rift-touched</strong>", "It tastes like copper but fills you up. The cook swears it's safe — salvaged from a Bloom zone, processed according to Green Cradle guidelines, nutritionally complete in ways terrestrial food isn't anymore. Half the margin eats it without question. The other half eats it with questions and empty stomachs. Nobody's died from it yet. <em>Yet</em> is doing a lot of work in that sentence."],
+        ["4", "<strong>A Keth forge running all night</strong>", "Sparks and heat bleeding through thin walls. Someone commissioned custom work — a weapon modification, an augment housing, a piece of equipment that doesn't exist in any catalog. The Keth don't sleep when they're forging. Neither does anyone within earshot. The rhythmic hammering becomes a kind of industrial lullaby if you've lived in the margins long enough."],
+        ["5", "<strong>Someone painting graffiti on the wall next door</strong>", "Contractor tags, crew sigils, warnings, memorials, or something stranger — a map fragment, a rift pattern sketch, a name repeated forty times in increasingly unsteady handwriting. Graffiti in the margins is part art, part communication network, part memorial wall. This one might be useful. It might be someone processing something they saw in the zones. Hard to tell at 2 AM."],
+        ["6", "<strong>Transit convoy arriving with news</strong>", "A train from another city-state, carrying passengers, cargo, and information. Word spreads through the margin within the hour — contract opportunities in distant territories, a rift cascade that swallowed a settlement, a corp war heating up, a new species sighted in the red zones. Some of it's true. The challenge is figuring out which parts."],
+        ["7", "<strong>An Undercity contact leaving a package at the door</strong>", "No knock. No note. Just a wrapped parcel sitting on the threshold when you open the door. It might be a delivery you arranged, a payment owed, a warning, or a test. Undercity contacts don't explain themselves. They leave things and disappear, and what they leave is either exactly what you needed or exactly what you shouldn't have."],
+        ["8", "<strong>A wild rift flickering in the distance</strong>", "Visible from the margin perimeter — a tear in the sky, two kilometers out, opening and closing like a wound that can't decide whether to heal. Too far to reach before it closes. Close enough to see the light from the other side, the wrong color spilling across the dead zone terrain. Everyone on the wall watches it. Nobody says anything. It closes. The night continues."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Yellow Zone Exploration"
+    },
+    {
+      "type": "paragraph",
+      "text": "The entry-level dead zone. Survivable, mostly. The toxicity is low, the fauna is manageable, and the ruins still look like ruins rather than abstract art. Yellow zones are where new contractors cut their teeth and where veterans go for easy money. <em>Easy</em> is relative. The yellow zone will kill you if you let it — it just does it slower and more politely than the alternatives."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Encounter", "Effect"],
+      "rows": [
+        ["1", "<strong>Abandoned vehicle</strong>", "Half-buried in rift vegetation, windows shattered, registration plates corroded beyond reading. 50% chance of salvageable parts — roll a luck check or GM decides. If salvageable: fuel cell components, intact wiring, or a functional nav unit worth 50-100 credits on the margin market. If not: someone already stripped it, or the rift growth has eaten through everything useful."],
+        ["2", "<strong>Old-world ruins</strong>", "A structure from before the rifts — residential, commercial, impossible to tell anymore. Walls leaning at angles that suggest structural failure is imminent or already happened and the building hasn't noticed yet. Possible artifacts inside: pre-rift tech, personal effects, occasionally something valuable. Also possible: unstable floors, rift fauna nesting sites, and load-bearing walls that are load-bearing in name only."],
+        ["3", "<strong>Rift fauna tracks</strong>", "Recent. Heading your direction. The prints are wrong — too many toes, or too few, or the gait pattern suggests a limb configuration that doesn't match any cataloged species. T1 creature, probably. Possibly a T2 that wandered down from an orange zone. Either way, something knows this area and uses it regularly. You're in its territory now."],
+        ["4", "<strong>Functioning water source</strong>", "A spring, a stream, a cistern that's somehow still collecting rainwater. Looks clean. Test for toxicity first — a scanner reading of 0.3 or below is drinkable. Above that, you're trading hydration for contamination, and that math gets ugly fast. If clean, mark it on your map. Clean water in the yellow zone is worth more than most salvage."],
+        ["5", "<strong>Salvage guild marker</strong>", "A metal post driven into the ground, painted with guild colors and a registration code. This area has been claimed — someone filed the paperwork, paid the fee, and has legal rights to everything in a 500-meter radius. Respect it and move on, or ignore it and risk a guild enforcement crew showing up at an inconvenient time. Guild enforcers are professional, well-equipped, and do not negotiate."],
+        ["6", "<strong>A quiet clearing</strong>", "No wildlife sounds. No insect noise. No wind through the rift vegetation. Just silence — the kind that means something scared everything away and that something might still be here. Could be a predator that's moved on. Could be a predator that hasn't. The clearing is peaceful and the peace is a warning."],
+        ["7", "<strong>Contractor graffiti</strong>", "Painted on a wall, scratched into concrete, carved into a tree that shouldn't have bark that color. The message reads: <em>\"TURN BACK\"</em> or <em>\"CLEAN WATER 2KM EAST\"</em> or just a name and a date from six months ago. The name might be in the death records. The directions might be accurate. The warning might be overblown. All of these possibilities are equally likely."],
+        ["8", "<strong>A distant rift glow on the horizon</strong>", "Faint light where light shouldn't be — the telltale shimmer of dimensional energy bleeding through a tear in reality. Could be a known rift, stable and cataloged. Could be a new wild rift, fresh and uncharted. At this distance, you can't tell. It's not on your mission brief. It's not your problem. Unless the glow is getting brighter, in which case it might become your problem whether you want it to or not."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Orange Zone Exploration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Where the dead zone stops pretending to be survivable and starts being honest about what it is. The toxicity climbs, the fauna gets worse, and the environment itself begins to exhibit behaviors that terrestrial landscapes shouldn't. Orange zones are where contracts start paying real money, because the corps need to compensate for the fact that a non-trivial percentage of contractors who enter don't exit."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Encounter", "Effect"],
+      "rows": [
+        ["1", "<strong>Rift flora patch</strong>", "Beautiful. Crystalline growths catching light in spectra the human eye wasn't designed for, bioluminescent tendrils pulsing in rhythms that approximate a heartbeat. Also toxic — ambient +1 toxicity within 10 meters. Some specimens are harvestable for rift components if you have the right tools and the patience to work carefully. The beauty is not a trap. The toxicity is not a punishment. They're the same thing."],
+        ["2", "<strong>Fog bank rolling in the wrong direction</strong>", "Against the wind. Visibly, deliberately against the wind. The fog is saturated with ambient rift energy — +1 toxicity per hour if caught inside it. Visibility drops to Adjacent range. The fog moves slowly enough to outrun if you notice it early. If you don't notice it early, you're spending the next 1d4 hours breathing dimensional contamination and navigating by sound."],
+        ["3", "<strong>Overgrown structure</strong>", "A building — warehouse, outpost, residential, impossible to tell — swallowed by rift vegetation. Vines with thorns that glow faintly. Roots that have cracked the foundation and woven through the walls like circulatory systems. Might contain supplies left by previous occupants. Might contain something that moved in after they left. Entry requires cutting through growth that may or may not react to being cut."],
+        ["4", "<strong>Something large in the undergrowth</strong>", "You hear it before you see it — the crack of branches, the displacement of vegetation, a weight pressing down on ground that should be solid. T2 creature. It might not have noticed you yet. Freeze, reroute, or prepare for contact — the decision needs to be made in the next ten seconds. T2 fauna in the orange zone are territorial but not always aggressive. <em>Not always</em> is doing exactly as much work as you think it is."],
+        ["5", "<strong>The ground humming</strong>", "A frequency you feel in your teeth, in your fillings, in the mounting bolts of jaw-plate augments. Not vibration — sound, pitched below hearing but above sensation. A passing phenomenon, geological in origin (probably), lasting about an hour. No mechanical effect beyond discomfort, but the discomfort is profound. Augmented crew members may need to recalibrate dental and cranial hardware afterward."],
+        ["6", "<strong>Toxic rain starting</strong>", "The sky darkens in colors the visible spectrum shouldn't include. The first drops hit — warm, faintly luminescent, carrying the mineral-sweet taste of dimensional contamination. +1 toxicity per hour for anyone outdoors without environmental protection. Duration: 1d6 hours. Find shelter, deploy portable cover, or accept the accumulation and adjust your extraction timeline accordingly."],
+        ["7", "<strong>An old campsite</strong>", "Fire ring (cold), cleared ground, anchoring points for a portable shelter. Someone was here recently — days, not weeks. Supplies might be cached nearby (50% chance — roll or GM decides). If cached: rations, water purification tablets, basic medical supplies. If not: someone took everything when they left, or someone took everything from them. Check for tracks leading away. Check if the tracks stop suddenly."],
+        ["8", "<strong>A rift opening in the distance</strong>", "Small. Unstable. The edges flicker and warp, tearing open and half-closing in irregular pulses. Probably temporary — wild rifts this size usually collapse within hours. The light from the other side is visible: red-orange for Char, vivid green for Bloom, static-white for Static, deep blue-black for Brine. It's not on any chart. It's not in any brief. It exists right now, and it might not exist in an hour."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Red Zone Exploration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reality damage is visible here. Not inferred, not measured by instruments, not something you need a scanner to detect — you can <em>see</em> it. The laws of physics are suggestions. The local geometry doesn't always agree with Euclidean principles. The things that live here have adapted to conditions that would kill anything from a sane dimension. Red zone contracts pay exceptionally well because the corps are buying your willingness to operate in a place where the ground rules of existence are locally negotiable."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Encounter", "Effect"],
+      "rows": [
+        ["1", "<strong>Gravity fluctuation</strong>", "Objects drift upward for ten seconds — dust, debris, loose gear, anything not secured. Then gravity reasserts itself with disproportionate force. Everything that went up comes down hard. Unsecured equipment takes damage. Unsecured personnel take 1d4 impact damage if they don't grab something solid. The fluctuation passes. Gravity returns to normal. <em>Normal</em> is a strong word for what gravity does in the red zone."],
+        ["2", "<strong>Temporal echo</strong>", "You hear voices. Yesterday's voices — a conversation that happened in this exact spot twenty-four hours ago, playing back like an audio recording embedded in the air. Or tomorrow's voices — words that haven't been spoken yet, in tones you might recognize as your own. DC 4 Edge check or spend 1 round disoriented, unable to distinguish between now and then. Success means you hear it clearly enough to extract information."],
+        ["3", "<strong>The sky changes color</strong>", "Abruptly. No transition, no gradient — one second it's the wrong shade of blue, the next it's amber, or violet, or a color you can't name because your visual cortex doesn't have a category for it. Lasts 1d4 hours. No mechanical effect, but morale takes a hit. The sky shouldn't do that. Everyone knows the sky shouldn't do that. It does it anyway."],
+        ["4", "<strong>Impossible structure</strong>", "A building made of materials from two dimensions blended together. Concrete fused with crystalline Char-stone. Steel beams threaded with Bloom vines that have become load-bearing. Glass windows that look out onto a landscape that isn't the one you're standing in. The structure shouldn't exist. It is structurally sound. It may contain salvage. It will definitely contain questions you can't answer."],
+        ["5", "<strong>T3 creature watching</strong>", "At a distance. Still. Watching with eyes — or sensory organs that function like eyes — that track your movement with the patient attention of something that hasn't decided if you're food yet. T3 fauna are apex predators adapted to red zone conditions. They're fast, durable, and intelligent enough to evaluate threats before engaging. If it decides you're not worth the effort, it will leave. If it decides otherwise, you'll know."],
+        ["6", "<strong>Simultaneous augment glitch</strong>", "Every piece of chrome in the crew malfunctions at once. Limbs lock, optics static, neural interfaces spike with garbage data. Duration: 1 round. Cause: ambient rift energy surge interacting with electronic systems. The reboot is automatic but not instant. For one round, every augmented crew member is operating on meat alone. In the red zone, one round is a long time."],
+        ["7", "<strong>Rift scar</strong>", "A place where a rift closed but reality didn't heal properly. The air shimmers. The ground is discolored — darker, or lighter, or a texture that doesn't match the surrounding terrain. Walking through a rift scar causes 1d4 toxicity, immediate, no resistance check. The scar is visible and avoidable if you're paying attention. If you're running from something, you might not be paying attention."],
+        ["8", "<strong>Complete silence</strong>", "Absolute. No ambient sound — no wind, no fauna, no distant rift hum. Your own footsteps are audible but they sound wrong, flat, like sound recorded in a dead room. Duration: 10 minutes. Something caused this. Either something is coming and the environment knows it, or something just left and the environment is recovering. Either way, weapons ready. The silence is not peaceful. The silence is a symptom."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Black Zone Phenomena"
+    },
+    {
+      "type": "paragraph",
+      "text": "You shouldn't be here. The corps won't contract you here. The brokers won't post jobs here. The Sentinel won't follow you here. Whatever brought you to a black zone is either incredibly valuable or incredibly stupid, and the zone doesn't care which. The following phenomena are compiled from the accounts of survivors, and <em>survivors</em> is a word that requires significant qualification in this context."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Phenomenon", "Effect"],
+      "rows": [
+        ["1", "<strong>Time skips</strong>", "The crew loses or gains an hour without noticing. Chronometers disagree with each other and with the crew's subjective experience. Nobody remembers the missing time. Nobody has extra memories from the gained time. The math simply doesn't work. Adjust rations and toxicity accumulation accordingly — the hour was real even if nobody experienced it."],
+        ["2", "<strong>Spatial distortion</strong>", "A corridor, path, or stretch of terrain is longer returning than going. The crew walked 200 meters in. They walk 400 meters out. The landmarks are the same, in the same order, at the same distances from each other — there are just more of them. The path is not looping. It is genuinely longer. Compasses and GPS confirm positions that are geometrically impossible."],
+        ["3", "<strong>Voices</strong>", "Clear. Conversational. Friendly, even. They know your name. They ask questions — reasonable questions, the kind a colleague might ask. <em>How far to the extraction point? Did you bring enough detox? Is that your crew or someone else's?</em> DC 6 Edge check or answer them. Answering them is not immediately dangerous. What's dangerous is that they learn from your answers, and the next questions are more specific."],
+        ["4", "<strong>Gravity reversal</strong>", "The ceiling becomes the floor. Everything falls upward for 1d4 rounds — personnel, equipment, debris, anything not bolted down. When gravity returns, everything falls again. Total fall damage is calculated from the height of the space; outdoors, the reversal lifts objects 3d6 meters before returning. Secure your gear. Secure yourself. This is survivable if you're prepared and lethal if you're not."],
+        ["5", "<strong>Permanent rift</strong>", "A rift that's been open so long it's become geography. Not a tear — a <em>feature</em>, like a canyon or a lake. The edges are stable, smoothed by time, integrated into the terrain. Things wander through from the other side. Things from this side have wandered in. An ecosystem has formed around it — organisms from two dimensions coexisting in ways that biology says shouldn't work. It's beautiful the way a hurricane is beautiful: from a safe distance, which doesn't exist here."],
+        ["6", "<strong>Sensory crossover</strong>", "You see sounds as colors — a voice is amber, a footstep is blue, a rift hum is a shade that doesn't have a name. You hear light as music — sunlight is a sustained chord, shadows are silence, rift glow is a melody in a key that doesn't exist. Duration: 1 hour. No mechanical penalty, but navigation and communication require creative adaptation. Some Whispers report that the crossover reveals patterns invisible to normal perception."],
+        ["7", "<strong>Shadow companion</strong>", "Something walks beside you that you can only see in peripheral vision. Turn to look at it directly and it's gone. Look away and it's back — same pace, same distance, same height. It doesn't interact with the environment. It doesn't make sound. It doesn't appear on augment imaging. It's there for 1d4 hours and then it isn't. Nobody has ever determined what it is. Nobody has ever been harmed by it. Nobody has ever been comfortable with it."],
+        ["8", "<strong>False familiarity</strong>", "The dimension you're in starts looking like home. The terrain shifts — subtly, over minutes — into something that resembles a place you know. A street from your childhood. The margin district you live in. A room you haven't been in for years. The resemblance is close but not exact, and the wrongness is in details you can't quite identify. This is worse than it sounds. The psychological effect of almost-home in a place that is definitionally as far from home as reality allows is profound. DC 5 Edge check or take -1 to all checks for the remainder of the scene from existential distress."]
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "The black zone doesn't want to kill you. That would require intent. The black zone simply doesn't acknowledge that your survival is a relevant variable."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Transit Corridor Encounters"
+    },
+    {
+      "type": "paragraph",
+      "text": "The armored trains that connect city-states run through sealed corridors carved through the dead zones. Travel time ranges from hours to days depending on distance and route. The corridors are maintained, patrolled, and mostly safe. <em>Mostly</em> is the operative word. Inside a metal box hurtling through dimensional wasteland, anything that goes wrong goes wrong at speed and with limited options."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Event", "Details"],
+      "rows": [
+        ["1", "<strong>Train delay</strong>", "Mechanical failure or rift interference — the intercom doesn't specify which, and the crew's experience suggests the operators don't always know. The train stops. Duration: 1d4 hours. Passengers shift from annoyed to nervous as the delay extends. The corridor shielding is rated for transit, not parking. Every hour stopped is an hour the ambient environment has to test the seals."],
+        ["2", "<strong>Talkative passenger</strong>", "A fellow contractor who talks too much about contracts — crew compositions, payout structures, zone conditions, broker reputations. The information is detailed and specific. It might be genuine intel from someone who's been in the field and likes to share. It might be deliberate misinformation from someone who wants to steer competition away from their next job. It might be both. Buy them a drink and decide for yourself."],
+        ["3", "<strong>Cargo inspection</strong>", "Corporate checkpoint. Security personnel board and scan cargo holds. They check manifests, open crates, run chemical analysis on anything that flags their instruments. What's in your bags? If the answer is <em>standard contractor equipment</em>, you're fine. If the answer is <em>undeclared rift materials, black-market augment components, or that thing you picked up in the orange zone that you're pretty sure isn't illegal</em>, this is about to get complicated."],
+        ["4", "<strong>Dimensional transit view</strong>", "For thirty seconds, the corridor shielding thins enough that the landscape outside becomes visible. What you see depends on which dead zone the corridor passes through — alien terrain, impossible colors, structures that shouldn't exist, occasionally something looking back. Thirty seconds. Most passengers look away. Some can't. The view is free. What it does to your dreams afterward is extra."],
+        ["5", "<strong>Freight car fight</strong>", "Shouting from the back of the train. A personal dispute — overlapping contracts, an unpaid debt, an old betrayal — escalating in the confined space of a freight car. Or a corporate setup: someone was supposed to not make it to their destination, and the freight car is where it's happening. Intervening is optional. The consequences of intervening or not intervening are both unpredictable."],
+        ["6", "<strong>Unscheduled stop</strong>", "The train decelerates and stops at a platform that isn't on the route map. The platform is empty. Lights work but nobody's home — no staff, no passengers, no signage beyond a faded designation code. The doors open. Nobody gets on. A full minute passes. The doors close. The train resumes. The conductor offers no explanation. The platform doesn't appear on any map you can find afterward."],
+        ["7", "<strong>Sentinel patrol checking IDs</strong>", "A Sentinel team moves through the passenger cars, scanning identification, checking contractor licenses, cross-referencing warrant databases. Routine or targeted — impossible to tell until they either pass you by or stop at your seat. If your paperwork is clean, it's an inconvenience. If your paperwork is not clean, or if you're carrying something you shouldn't be, this is the longest thirty seconds of the trip."],
+        ["8", "<strong>Contracts pulled on arrival</strong>", "You arrive at your destination to find the broker board stripped. Every contract that was posted when you departed has been pulled — cancelled, reassigned, or completed by someone who got there first. Something happened while you were traveling. A rift closed, a corp changed priorities, a rival crew undercut your bid. You're in a new city-state with no work lined up. The next train back isn't for two days. Start networking."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Sensory Descriptions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Atmosphere is everything. When the crew enters a new zone, read or paraphrase the appropriate description below. These aren't mechanics — they're mood. The right description at the right moment turns a map location into a place the players can feel."
+    },
+    {
+      "type": "callout",
+      "label": "Yellow Zone",
+      "style": "gold",
+      "text": "The air tastes metallic. The sky is blue but the wrong shade — lighter than it should be, like someone copied it from memory. Sound carries too far. Your footsteps echo off buildings that should absorb them. There's no birdsong. There hasn't been birdsong here in a long time."
+    },
+    {
+      "type": "callout",
+      "label": "Orange Zone",
+      "style": "accent",
+      "text": "The ground hums. Not vibration — sound, too low to hear but you feel it behind your eyes. The vegetation is wrong — too green, too alive, growing in patterns that suggest intention. The fog moves against the wind. It always moves against the wind."
+    },
+    {
+      "type": "callout",
+      "label": "Red Zone",
+      "style": "rust",
+      "text": "Your shadow doesn't match you. It's close — same shape, same size — but it moves a fraction of a second too late. Or too early. Structures in the distance seem to breathe. The light comes from everywhere and casts shadows in directions that don't correspond to any light source."
+    },
+    {
+      "type": "callout",
+      "label": "Black Zone",
+      "style": "rust",
+      "text": "There are no descriptions that adequately prepare you. The GMs who run Black Zone encounters should describe the <strong>absence</strong> of things: the direction you can't look, the sound you can't identify, the thought you can't finish. Less is more. Much less is much more."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Contractor Graffiti"
+    },
+    {
+      "type": "paragraph",
+      "text": "Found on walls, vehicles, ruins, and occasionally trees throughout the dead zones. Contractor graffiti is part warning system, part memorial, part proof of existence. Some of it saves lives. Some of it is a lie. Roll when the crew finds markings in the field, or use these as inspiration for environmental details."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Graffiti", "Context"],
+      "rows": [
+        ["1", "<strong>\"MAGS WAS RIGHT\"</strong>", "Painted in large letters on a retaining wall. Nobody knows which Mags. There are fourteen contractors named Mags in the active registry and six in the deceased registry. None of them have claimed the quote. All of them have been asked. Whatever Mags was right about, it was important enough to paint but not important enough to specify."],
+        ["2", "<strong>Five tally marks, the fifth crossed out</strong>", "Scratched into concrete near a former campsite. A crew of five went in. Four came back. Or five went in, one was crossed off for a different reason — expelled, betrayed, left behind by choice. The marks are months old. The story behind them is somewhere in the broker records if anyone cares to look. Someone should."],
+        ["3", "<strong>\"CLEAN WATER 3KM SOUTH — DON'T DRINK THE CREEK\"</strong>", "Painted in steady, careful letters by someone who took the time to be precise. The directions might be reliable — contractor water markers are generally trustworthy because clean water keeps everyone alive. The creek warning is probably genuine. Probably. There's always the possibility that someone redirected the sign to lead scavengers away from their personal water source."],
+        ["4", "<strong>\"IF YOU CAN READ THIS YOU WENT TOO FAR\"</strong>", "Painted at a zone boundary — the transition line between yellow and orange, or orange and red. The paint is the same color as the zone you're entering: amber for orange, red for red. Whoever painted it had a sense of humor and enough field experience to know exactly where safe becomes unsafe. The letters are large enough to read from fifty meters. That's deliberate."],
+        ["5", "<strong>Detailed creature sketch with \"FAST — AIM LOW\"</strong>", "A surprisingly accurate illustration of a rift fauna specimen — six limbs, low center of gravity, armored dorsal plating. The tactical note is specific and useful: the creature's underbelly is its vulnerability, and it closes distance faster than you'd expect from its size. This is field intelligence painted on a wall. Someone survived this encounter and took the time to help the next person."],
+        ["6", "<strong>\"WE WERE HERE\" — four names and a date</strong>", "Two years old. The names are legible. The date is specific. A quick check of the contractor death records would reveal whether any of the four are still active. A quick check is all it would take, and nobody ever does it in the field because the answer might change how the rest of the mission feels. You can check when you get back. If you get back."],
+        ["7", "<strong>An arrow pointing deeper into the zone with \"WORTH IT\"</strong>", "Written by who? Meaning what? A genuine marker pointing toward a valuable salvage site, a rift with harvestable resources, a cache left for retrieval? Or a trap — someone baiting scavengers into dangerous territory for reasons that range from competitive to predatory? The handwriting is confident. The arrow is precise. Whoever wrote it believed what they were writing. That doesn't make it true."],
+        ["8", "<strong>\"THE PERFECT CONTRACT IS A TRAP\"</strong>", "Everyone knows this. Someone wrote it anyway — in neat block letters, at eye level, in a location where every contractor passing through would see it. The advice is universal, obvious, and consistently ignored. The contracts that pay too well for the stated risk, the jobs that seem too straightforward, the briefs with suspiciously complete intel — everyone recognizes them. Everyone takes them anyway. The rent is due."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Phenomena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rifts are not static. They pulse, shift, migrate, and occasionally do things that the theoretical models say they shouldn't. These phenomena occur near active rifts or in areas with high ambient rift energy. Roll when the crew is operating near a known rift, or use these to complicate an extraction that was going too smoothly."
+    },
+    {
+      "type": "table",
+      "headers": ["Roll (d8)", "Phenomenon", "Duration"],
+      "rows": [
+        ["1", "<strong>Rift brightening</strong>", "An existing rift pulses with increased energy — the glow intensifies, the edges sharpen, the hum becomes audible at greater distance. Something is about to come through, or something on this side is about to go in. The brightening lasts 1d4 minutes. If nothing emerges, the rift returns to baseline. If something emerges, consult the appropriate fauna table and add the phrase <em>\"it's angry\"</em> to the encounter description."],
+        ["2", "<strong>Rift singing</strong>", "An audible harmonic vibration emanating from a nearby rift — a sustained tone that shifts in pitch and timbre like a voice searching for a note. Whispers can read the song: it carries dimensional data, pressure differentials, information about what's on the other side and how stable the connection is. Non-Whispers feel uneasy without knowing why. Duration: 1d6 hours. The song doesn't stop. You just stop hearing it. Or you think you do."],
+        ["3", "<strong>Rift echo</strong>", "A rift that closed months ago briefly flickers back into existence — same location, same size, same dimensional signature. It's visible for seconds: a ghost of a tear, translucent and unstable, there and gone before anyone can react. The echo is harmless. What it implies is not — if closed rifts can echo, the membrane damage is permanent. The tear healed on the surface. Underneath, it's still open."],
+        ["4", "<strong>Dimensional bleed</strong>", "The terrain within 100 meters of an active rift takes on characteristics of the other side. Near a Char rift: the temperature spikes, the ground cracks, metalite deposits form on surfaces overnight. Near a Bloom rift: vegetation erupts, spores fill the air, the soil turns rich and dark and hungry. Near a Static rift: geometry shifts, angles stop adding up to 180 degrees, data fragments manifest as visible text floating in the air. Duration: persistent while the rift is active, fading over days after closure."],
+        ["5", "<strong>Rift migration</strong>", "A wild rift moves. Not instantly — slowly, like a storm front, drifting across the terrain at walking pace. The zone behind it is reshaped: toxicity levels spike, terrain is altered, anything in the rift's path is exposed to dimensional energy at close range. Duration: the migration continues for 1d6 hours before the rift stabilizes in its new location. Maps are now wrong. Plan accordingly."],
+        ["6", "<strong>Double rift</strong>", "Two rifts open within 50 meters of each other, leading to different dimensions. This shouldn't happen — the energy required to maintain two simultaneous tears in the same area should cause both to collapse. Instead, the area between them becomes deeply unstable: gravity fluctuates, time dilates, sensory crossover occurs without warning. The double rift persists for 1d4 hours. The area between them is passable but hazardous — 1d4 toxicity for anyone who crosses through. The dimensional contamination is from two sources simultaneously, and the interaction effects are unpredictable."],
+        ["7", "<strong>Ghost rift</strong>", "A rift that's visible but can't be entered. The tear is there — you can see the other side, see the light, feel the energy — but the membrane hasn't actually broken. It's a window that won't open. You can observe the other dimension in detail: landscapes, weather, occasionally movement. But you can't reach it, can't harvest from it, can't send anything through. Duration: persistent. Some ghost rifts have been observed for years. They're studied by corp researchers and ignored by contractors. You can't bill for looking."],
+        ["8", "<strong>Rift collapse</strong>", "An existing rift closes suddenly. The tear seals in seconds — edges rushing inward, light cutting off, the dimensional hum dropping to silence. Clean, final, irreversible. Anyone or anything partially through the rift at the moment of collapse is in serious trouble: the closing membrane exerts force equivalent to being crushed between dimensions. Damage is catastrophic. Survival requires being fully on one side or the other. The rift is gone. Whatever was on the other side stays on the other side. Whatever was on this side stays here. Whatever was in between is a cautionary tale."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "callout",
+      "label": "A Note on Frequency",
+      "style": "teal",
+      "text": "One or two rolls per session is enough. These tables exist to add texture, not to overwhelm. A single strange detail — a piece of graffiti, a distant rift glow, a passenger who knows too much — does more for atmosphere than rolling on every table every scene. The goal is a world that feels alive and dangerous in the margins of the story, not a world that demands constant attention. Let the players breathe between the strange moments. The quiet makes the noise louder."
+    }
+  ]
+}

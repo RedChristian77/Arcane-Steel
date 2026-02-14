@@ -1,0 +1,343 @@
+{
+  "id": "world-politics",
+  "title": "Corporate Politics",
+  "subtitle": "Seven gods arguing over a broken world",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"Inter-corporate relations are governed by the Intercompany Accords, a document nobody has read in its entirety and everyone violates selectively. The Accords were ratified in 2612, amended forty-three times since, and are currently 14,000 pages long. Enforcement is the responsibility of the signatory corporations, which is another way of saying enforcement is the responsibility of nobody. The following chapter summarizes the practical realities of corporate politics as they affect contractor operations. It is not legal advice. Nothing is legal advice. The concept of 'legal advice' assumes a legal system that functions. Adjust expectations accordingly.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "How Corporate War Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations don't fight wars like the nations they replaced. Open warfare is expensive, destroys infrastructure, craters stock prices, disrupts supply chains, and — most importantly — it looks bad. Even in a world where corporations are sovereign theocracies with divine mandates and private armies, <em>metrics matter</em>. A war that costs more than the territory is worth isn't a victory. It's a negative ROI event, and negative ROI events get directors removed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Instead, corporate conflict operates on a spectrum. At the low end: tariffs, trade restrictions, propaganda campaigns, poaching each other's skilled workers, and the kind of economic pressure that makes a city-state's food prices triple overnight without anyone technically declaring hostilities. In the middle: proxy conflicts, espionage, sabotage, and <strong>\"incidents\"</strong> — events that are definitely, absolutely, categorically not acts of war despite involving armed personnel, destroyed infrastructure, and body counts."
+    },
+    {
+      "type": "flavor",
+      "text": "At the high end: open war. But nobody talks about the high end. Talking about it makes the markets nervous."
+    },
+    {
+      "type": "callout",
+      "label": "The Spectrum of Hostility",
+      "style": "teal",
+      "text": "Corporate conflict escalates in predictable stages. Understanding where on the spectrum your contract falls is the difference between a routine job and a casket:",
+      "items": [
+        "<strong>Cold Commerce</strong> — Trade restrictions, tariff wars, PR campaigns. You won't notice this unless you're buying imported goods and the price just tripled.",
+        "<strong>Warm Friction</strong> — Espionage, counter-espionage, corporate poaching, border provocations. Contractors start getting hired for jobs that seem simple but have complicated origins.",
+        "<strong>Hot Incidents</strong> — Proxy engagements, deniable operations, \"accidental\" border skirmishes. People die. Nobody claims responsibility. The Accords technically prohibit this. The Accords technically prohibit a lot of things.",
+        "<strong>Open Conflict</strong> — Targeted strikes on infrastructure, rift gates, and supply lines. Rare. Devastating. Short. The last time it happened, two city-states ceased to exist."
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "THE RELATIONSHIP MATRIX"
+    },
+    {
+      "type": "heading",
+      "text": "Who Hates Whom (And Why)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seven corporations. Twenty-one bilateral relationships. Each one is a unique combination of shared interests, competing doctrines, historical grievances, and mutual dependency that nobody involved would describe as \"friendship.\" The word they use is \"strategic alignment.\" The word they mean is \"we haven't found a reason to destroy you yet.\""
+    },
+    {
+      "type": "table",
+      "headers": ["Corp A", "Corp B", "Status", "Summary"],
+      "rows": [
+        ["⛏️ Congo", "👑 Table", "Cold Rivalry", "Territorial neighbors. Trade route disputes. Mutual contempt."],
+        ["⛏️ Congo", "🏛️ Sentinel", "Strong Alliance", "Shared doctrine. Logistics + security. Most stable partnership."],
+        ["⛏️ Congo", "💊 Wellspring", "Business", "Supply chain dependency. Congo ships; doesn't ask what."],
+        ["⛏️ Congo", "🍐 Pear", "Transactional", "Congo moves Pear's hardware. Pear maps Congo's rifts. Efficient."],
+        ["⛏️ Congo", "🌿 Green Cradle", "Tense", "Extraction vs. conservation. Doctrinal opposition. Active disputes."],
+        ["⛏️ Congo", "🎭 Mouse", "Commercial", "Congo distributes Mouse merchandise. Profitable. Shallow."],
+        ["👑 Table", "🏛️ Sentinel", "Mutual Respect", "Shared values: hierarchy, discipline, duty. Near-friendship."],
+        ["👑 Table", "🎭 Mouse", "Cultural Rivalry", "Both trade in spectacle and loyalty. Citizen defections. Fury."],
+        ["👑 Table", "💊 Wellspring", "Cautious", "Wellspring supplies Table's medical needs. Table distrusts the terms."],
+        ["👑 Table", "🍐 Pear", "Distant", "Minimal interaction. Incompatible cultures. Mutual indifference."],
+        ["👑 Table", "🌿 Green Cradle", "Cordial", "Agricultural trade. Table feeds people; Cradle grows things. Functional."],
+        ["🍐 Pear", "🎭 Mouse", "Information War", "Data vs. narrative. The most sophisticated corporate conflict."],
+        ["🍐 Pear", "🏛️ Sentinel", "Tense Cooperation", "Mutual dependency. Mutual distrust. Confirmed backdoors."],
+        ["🍐 Pear", "💊 Wellspring", "Data Exchange", "Pear wants biological data. Wellspring wants predictive models. Wary."],
+        ["🍐 Pear", "🌿 Green Cradle", "Research Overlap", "Both Survey-primary. Competing methodologies. Academic hostility."],
+        ["💊 Wellspring", "🌿 Green Cradle", "Bioethics War", "Preservation vs. experimentation. Personal. Ideological. Violent."],
+        ["💊 Wellspring", "🏛️ Sentinel", "Symbiotic", "Medical support for military access. Mutually uncomfortable."],
+        ["💊 Wellspring", "🎭 Mouse", "Wary Commerce", "Mouse wants specimens for exhibits. Wellspring wants them for labs. Bidding wars."],
+        ["🌿 Green Cradle", "🎭 Mouse", "Unexpected Tension", "Conservation vs. exhibition. Both claim moral high ground."],
+        ["🌿 Green Cradle", "🏛️ Sentinel", "Professional", "Environmental security contracts. Functional. No warmth."],
+        ["🏛️ Sentinel", "🎭 Mouse", "Mutual Tolerance", "Sentinel secures Mouse's border gates. Mouse pays promptly. That's it."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Key Rivalries & Alliances"
+    },
+    {
+      "type": "callout",
+      "label": "Congo & Sentinel — The Iron Pact",
+      "style": "teal",
+      "text": "The most stable partnership in corporate politics. Congo provides logistics — supply chains, dimensional transit, warehousing, distribution. Sentinel provides security — perimeter defense, rift containment, military force projection. Both share Denial as a doctrine. Both value efficiency over sentiment. Their alliance isn't built on trust. It's built on mutual indispensability, which is stronger. Congo can't protect its convoys without Sentinel. Sentinel can't supply its garrisons without Congo. The arrangement has survived four centuries without a major disruption, which in corporate politics qualifies as eternal love."
+    },
+    {
+      "type": "callout",
+      "label": "Pear & Mouse — The Information War",
+      "style": "accent",
+      "text": "The most sophisticated corporate conflict in the world — and possibly the most dangerous, because neither side uses bullets. Pear wants to own the <strong>data layer</strong> — raw information, predictive models, the architecture of knowledge itself. Mouse wants to own the <strong>narrative layer</strong> — stories, meaning, the framework through which data becomes belief. They're fighting over who controls what people <em>know</em> versus what people <em>feel</em>. The war is fought in code, copyright claims, consciousness-level advertising, and memetic engineering. Contractors caught between them won't hear gunfire. They'll hear lawyers."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Archive Incident of 2847 — in which a Pear survey team and a House of Mouse acquisitions crew entered the same uncharted dimension simultaneously, each with contradictory IP claims — resulted in the dimension being sealed by mutual agreement. Neither corp will discuss what happened inside. The dimension remains locked. The legal proceedings are still active. Both sides have filed motions in courts that don't technically have jurisdiction over sealed dimensions, which has not slowed the filings.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "Wellspring & Green Cradle — The Bioethics War",
+      "style": "rust",
+      "text": "Both corps care about biological resources from rifts. That's where the agreement ends. Green Cradle wants to <strong>preserve</strong> — catalog species, protect ecosystems, maintain biodiversity across dimensions. Wellspring wants to <strong>experiment</strong> — dissect, splice, modify, and patent. Their conflicts are personal, ideological, and occasionally violent. Green Cradle scientists have been found sabotaging Wellspring collection operations. Wellspring acquisition teams have been caught poaching from Cradle-protected biomes. Both sides consider the other a moral abomination. Both sides are partially correct."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Bloom Dispute</strong> — a long-running territorial conflict over Bloom-origin rifts rich in unique biological specimens — has been \"officially resolved\" three times. It is not resolved. Green Cradle maintains monitoring stations around contested Bloom gates. Wellspring maintains collection teams within walking distance. The contractors working for each side occasionally meet in the field. These meetings are awkward at best and fatal at worst."
+    },
+    {
+      "type": "callout",
+      "label": "Congo & Crowned Table — Cold Neighbors",
+      "style": "gold",
+      "text": "Territorial neighbors with overlapping trade routes and incompatible philosophies. Congo thinks the Table is an inefficient feudal anachronism running a supply chain on chivalric poetry and deep fryers. The Table thinks Congo is a soulless logistics algorithm that's forgotten what it means to serve people rather than manifests. Neither is wrong. Their border zones are tense — minor tariff disputes, competing transit corridor claims, and the occasional \"misunderstanding\" where a Congo convoy gets rerouted through Table territory without proper heraldic authorization. Blood has not been shed. Paperwork has been filed aggressively."
+    },
+    {
+      "type": "callout",
+      "label": "Crowned Table & Sentinel — The Professional Friendship",
+      "style": "teal",
+      "text": "The closest thing to genuine friendship between corporations. Both value hierarchy, discipline, and duty. Both organize their societies around clear chains of command. They disagree on aesthetics — Sentinel's militaristic minimalism versus the Table's feudal pageantry — but they understand each other at a structural level. Table knights and Sentinel officers have been known to share drinks during diplomatic functions, which in corporate politics is the equivalent of a blood oath. When a rift emergency threatens both territories, they coordinate without the weeks of negotiation other corp pairings require."
+    },
+    {
+      "type": "callout",
+      "label": "Crowned Table & House of Mouse — The Spectacle War",
+      "style": "accent",
+      "text": "Both corporations trade in loyalty and spectacle. The Table earns loyalty through feudal obligation, shared meals, and centuries of tradition. The Mouse earns it through narrative, performance, and emotional engineering. Each thinks the other's method is inferior. The Table sees Mouse as shallow — all surface, no substance, loyalty manufactured rather than earned. The Mouse sees the Table as quaint — a Renaissance faire that accidentally became a nation-state. Their citizens sometimes defect to each other, drawn by the other corp's brand of belonging. This infuriates both sides beyond proportion. Nothing is more offensive than losing a true believer to a competing faith."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wellspring & Sentinel</strong> maintain a symbiotic relationship built on mutual benefit and mutual discomfort. Wellspring provides medical support to Sentinel's military — field hospitals, combat medicine, augment maintenance, toxicity treatment for front-line soldiers. In exchange, Sentinel looks the other way regarding Wellspring's \"research programs\" — the laboratories, the specimen vaults, the experiments that technically violate several provisions of the Personhood Accords. Both corps benefit. Neither corp is proud of the arrangement. Sentinel officers who've seen the inside of a Wellspring research facility don't talk about it. Wellspring researchers who've seen what Sentinel does with the weapons they help develop don't talk about it either. The silence is the foundation of the partnership."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Green Cradle & House of Mouse</strong> have a relationship that surprises people. On paper, they should get along — both care about rift creatures, both invest in presentation, both have strong aesthetic identities. In practice, Mouse wants specimens for <em>exhibits and experiences</em>. Living attractions. Dimensional theme park additions. Green Cradle considers this exploitation dressed in costumes. Mouse counters that Green Cradle exploits organisms too — capturing, cataloging, genetically modifying — just with better PR and more earnest facial expressions. The argument has no resolution because both sides are correct."
+    },
+    {
+      "type": "flavor",
+      "text": "Every corp relationship is a different flavor of the same question: how much do we need them versus how much do we hate them? The math changes quarterly."
+    },
+    {
+      "type": "divider",
+      "text": "TERRITORIAL DISPUTES"
+    },
+    {
+      "type": "heading",
+      "text": "Fighting Over the Map"
+    },
+    {
+      "type": "paragraph",
+      "text": "Territory is sovereignty. Rift gates are economy. Where those two things overlap between corporations, you get disputes — slow-burning conflicts over who controls what, fought with lawyers, lobbyists, proxy contractors, and the occasional act of infrastructure sabotage that both sides blame on wild rift activity."
+    },
+    {
+      "type": "callout",
+      "label": "Gate Cluster Conflicts",
+      "style": "rust",
+      "text": "The most valuable territorial assets are <strong>gate clusters</strong> — multiple stabilized rifts in close proximity, each opening to a different dimension. A gate cluster means diversified extraction, redundant transit routes, and strategic depth. They're worth fighting over. Wars have been fought over them. The Accords designate gate clusters as belonging to whichever corp's territory they fall within, but \"within\" gets creative when you're drawing borders around dimensional access points. Congo and Sentinel jointly operate three gate clusters under a revenue-sharing agreement that works because neither can afford to fight over them. Pear and Green Cradle dispute two survey-priority clusters where both corps have historical claims and active monitoring equipment. Wellspring has attempted to purchase gate access from every other corp at some point. The offers are always generous. The terms are always suspicious."
+    },
+    {
+      "type": "callout",
+      "label": "Border Zones",
+      "style": "gold",
+      "text": "Where corporate territories overlap, you get border zones — strips of land where jurisdiction is contested, dual-flagged, or simply ignored. Border zones have their own culture: citizens who carry two ID badges, businesses that pay taxes to both corps (and cheat on both), and a general atmosphere of people who've learned to say the right anthem depending on who's asking. Contractors operating in border zones should check which corp's law applies to their current street corner. The answer may change at the next intersection."
+    },
+    {
+      "type": "paragraph",
+      "text": "The <strong>Neutral Corridors</strong> are transit routes that no single corporation controls. They exist because multiple corps need them, none can seize them without provoking a coalition, and the cost of fighting over them exceeds the cost of sharing. Neutral Corridors are maintained by mutual agreement and mutual threat — any corp that tries to claim exclusive access faces coordinated economic retaliation from the others. The corridors function. They're not safe. They're just not anyone's specific problem, which means they're everyone's general problem."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Free settlements</strong> dot the border zones and corridor margins — communities that exist in the gaps between corporate claims. Too small to be worth conquering, too useful to be worth destroying, too stubborn to be worth negotiating with. Both neighboring corps may claim jurisdiction over a free settlement on paper. In practice, the settlement governs itself, trades with whoever offers better prices, and hopes nobody important notices them. Contractors find good work in free settlements — the pay is low, but the gratitude is real, and a settlement that remembers you helped them is a safe harbor when the corps are hunting."
+    },
+    {
+      "type": "divider",
+      "text": "PROXY WARS"
+    },
+    {
+      "type": "heading",
+      "text": "Other People's Fights"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations don't fight each other directly. They send <em>contractors</em>. A Congo extraction crew clearing a rift might discover a Wellspring acquisition team was sent to the same rift with different orders. Who hired the second team isn't clear. The contract didn't mention competition. The briefing didn't mention another crew. You're standing in an alien dimension holding a manifest and a weapon, and there are people across the chamber who are holding a specimen container and a weapon, and neither of you know who's supposed to be here."
+    },
+    {
+      "type": "flavor",
+      "text": "That's a proxy war. Nobody declared it. Nobody will claim it. Somebody is going to get hurt."
+    },
+    {
+      "type": "callout",
+      "label": "Historical Proxy Conflicts",
+      "style": "accent",
+      "text": "Three proxy conflicts define the modern political landscape:",
+      "items": [
+        "<strong>The Char Gate War</strong> (Congo vs. Sentinel, ~2780–2810) — A thirty-year proxy conflict over transit rights through the Char dimension. Technically resolved by treaty. Practically ongoing — both corps maintain 'monitoring teams' at disputed Char gates, and contractor crews working for one side occasionally encounter contractor crews working for the other. The encounters are rarely friendly. The war never officially started, so it can never officially end.",
+        "<strong>The Bloom Dispute</strong> (Wellspring vs. Green Cradle, ~2900–present) — An ideological conflict over Bloom-origin biological resources that has been simmering for over a century. Three ceasefires. Zero resolutions. Both corps send contractors into the same Bloom-adjacent rifts with contradictory objectives. Green Cradle says 'preserve.' Wellspring says 'collect.' The specimens don't get a vote.",
+        "<strong>The Archive Incident</strong> (Pear vs. House of Mouse, 2847) — A data/IP conflict that escalated until both corps agreed to seal an entire dimension rather than let the other one have it. The sealed dimension is still there. The legal case is still open. Both corps maintain research stations at the sealed gate, monitoring each other's research stations. The contractors stationed there describe the posting as 'aggressively boring.'"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "How contractors get caught in the middle: <strong>you took a contract. You did the job. It turns out the job was one side of a corporate conflict you didn't know about.</strong> Now the other side knows your face. Your contractor ID is in someone's report. You're not an enemy combatant — you're a \"person of interest\" in an \"ongoing security review,\" which is corp-speak for \"we know who you are and we haven't decided what to do about it yet.\" The contract you completed paid well. The consequences of completing it may cost more."
+    },
+    {
+      "type": "divider",
+      "text": "ESPIONAGE"
+    },
+    {
+      "type": "heading",
+      "text": "The Intelligence Economy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every corporation spies on every other corporation. This is known. This is expected. This is, in a functional sense, the unofficial eighth industry of the corporate world. The Accords technically prohibit espionage between signatories. The Accords technically prohibit a lot of things. The section on espionage is fourteen pages long, every clause has an exception, and every exception has a loophole. It was written by spies."
+    },
+    {
+      "type": "callout",
+      "label": "Espionage Contracts",
+      "style": "gold",
+      "text": "Contractors are the preferred tool for corporate espionage because they're deniable. An employee caught spying is an act of war. A contractor caught spying is a rogue individual acting without authorization. The contractor knows this going in — or should. Espionage contracts are well-paid, extremely dangerous, and come with an implicit understanding: <strong>if you're caught, the corp that hired you will deny your existence</strong>. Your contractor ID will be scrubbed. Your broker will have no record of the job. You are a ghost who got careless, and ghosts don't have legal standing."
+    },
+    {
+      "type": "paragraph",
+      "text": "The work varies. <strong>Infiltration:</strong> getting inside a corp facility under false pretenses. <strong>Data theft:</strong> extracting proprietary research, survey data, rift maps, or personnel files. <strong>Sabotage:</strong> damaging equipment, disrupting operations, or introducing corrupted data into corporate systems. <strong>Talent extraction:</strong> convincing (or coercing) a corporate specialist to defect. Each type pays differently. Each type kills you differently if it goes wrong."
+    },
+    {
+      "type": "callout",
+      "label": "Counter-Intelligence",
+      "style": "rust",
+      "text": "Every corp plays defense too. The quality varies:",
+      "items": [
+        "<strong>Sentinel Systems</strong> is the best at detecting spies. Their counter-intelligence division is larger than most corps' entire intelligence operations. Paranoia is doctrine. Every employee, contractor, and visitor is treated as a potential threat until proven otherwise. Proving otherwise takes years. Operating inside Sentinel territory without authorization is not recommended. Getting caught is not survived.",
+        "<strong>Pear Technologies</strong> is the best at <em>being</em> spies. Their Network penetration capabilities are unmatched — every piece of Pear hardware is a potential listening device, and Pear hardware is everywhere. Sentinel suspects that Pear's proprietary network contains backdoors in every other corp's infrastructure. Sentinel is correct. Pear's official position is that backdoors are 'diagnostic access points maintained for user experience optimization.'",
+        "<strong>House of Mouse</strong> handles IP theft with the Advocates — lawyer-assassins who serve cease-and-desist orders and kill shots with equal professionalism. Stealing Mouse IP isn't just espionage. It's heresy. The Advocates treat it accordingly."
+      ]
+    },
+    {
+      "type": "flavor",
+      "text": "Congo's intelligence division is small but efficient — they don't need spies when they're already shipping everyone else's cargo. It's hard to keep secrets from the people who deliver your mail."
+    },
+    {
+      "type": "divider",
+      "text": "NEUTRAL GROUND"
+    },
+    {
+      "type": "heading",
+      "text": "Where Nobody Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a world owned by seven corporations, the spaces that belong to nobody are rare, fragile, and essential. These are the places where information crosses corporate lines, where deals are made that can't be made in corp territory, and where people who don't fit the corporate template manage to exist. Neutral ground isn't safe. It's just unclaimed, which is a different thing entirely."
+    },
+    {
+      "type": "callout",
+      "label": "The Soma Collective",
+      "style": "teal",
+      "text": "Not one of the seven. Not exactly independent, either. The Soma Collective is a neutral entity that facilitates inter-corporate research, data exchange, and — when things get bad enough — mediation. They operate archives, maintain shared databases, run neutral meeting spaces, and provide the infrastructure for cross-corporate academic collaboration. Trusted by nobody. Used by everyone. <strong>Soma's power comes from being needed</strong> — they have no military, no territory, no citizens. What they have is information that every corp wants and no corp can get without Soma's intermediation. Destroying Soma would mean destroying the neutral infrastructure that makes inter-corporate cooperation possible. Nobody wants to be the corp that does that. So Soma persists, small and indispensable, the one institution in the world that survives on usefulness alone."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Free settlements</strong> are towns and communities in the margins that have avoided corporate absorption — through geographic luck, collective stubbornness, or being too small to bother with. They govern themselves by council, strongman, or collective agreement. Their economies run on trade, agriculture, and the kind of desperate ingenuity that comes from knowing nobody is going to save you. Free settlements are fiercely independent. They're also fragile. A single corporate decision — a border adjustment, a new transit corridor, a rezoning initiative — can erase a settlement that's existed for generations. Some settlements survive by being useful to nearby corps without being owned by them. It's a tightrope. The net doesn't exist."
+    },
+    {
+      "type": "callout",
+      "label": "The Undercity",
+      "style": "accent",
+      "text": "No corporate jurisdiction. No corporate law. The only truly neutral ground in the world, and it's neutral because nobody can control it, not because anybody agreed to share. The Undercity — the shadow economy that runs underneath every city-state — is where corporate agents operate without corporate authority. Sentinel counter-intelligence runs assets in the Undercity. Pear maintains network nodes nobody is supposed to know about. Mouse's Advocates serve writs in the Undercity, which is technically illegal and practically unstoppable. Every corp is there. None of them are in charge. The Undercity belongs to the Undercity, and the Undercity doesn't belong to anyone."
+    },
+    {
+      "type": "divider",
+      "text": "OPEN WAR"
+    },
+    {
+      "type": "heading",
+      "text": "When the Accords Fail"
+    },
+    {
+      "type": "paragraph",
+      "text": "Open corporate war is rare. It is devastating. It is short. The Intercompany Accords exist specifically to prevent it, because the last time it happened — the Gate War, approximately two hundred years ago — two city-states were destroyed, a new Black Zone was created where they used to be, and the economic shockwaves took a generation to stabilize. Every corp paid for that war, even the ones that didn't fight in it. The lesson was clear: open warfare is a negative-sum game. Everyone loses. Some lose more."
+    },
+    {
+      "type": "callout",
+      "label": "What Open War Looks Like",
+      "style": "rust",
+      "text": "Not armies marching across dead zones. Corporate war is <strong>targeted destruction</strong> — surgical strikes on infrastructure, rift gates, supply lines, and command nodes. Rift gates are priority targets because destroying one collapses the local economy. Transit corridors are cut to isolate city-states. Power grids are sabotaged. Water treatment is compromised. The goal isn't conquest — it's making the enemy's territory <em>too expensive to hold</em>. Corporate citizens are collateral. Contractors are ammunition — thrown at objectives with the understanding that the contract they signed includes an acceptable casualty clause buried on page forty-seven."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The aftermath:</strong> whoever wins absorbs the loser's territory, infrastructure, and citizens. The absorption is methodical. Corporate branding is replaced. Curricula are rewritten. Hymns are reassigned. Within a generation, the children of the conquered corporation grow up believing they always belonged to the victor. The old corp's identity survives only in the memories of people too old to matter and too tired to fight. The citizens adapt. They always adapt. Adaptation isn't resilience. It's the absence of options."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Gate War (2819–2823) resulted in the dissolution of two territorial holdings, the creation of Black Zone Sector 7-North, and an estimated 4.2 million civilian casualties. The Intercompany Accords were amended following the conflict to include additional provisions regarding proportional response, infrastructure targeting, and the mandatory 90-day cooling period before military escalation. These provisions have been invoked twice. They have been effective once. The other time, the cooling period was used to reposition artillery.\"</em>"
+    },
+    {
+      "type": "flavor",
+      "text": "Peace isn't the absence of war. Peace is war conducted at a price point everyone can afford."
+    },
+    {
+      "type": "divider",
+      "text": "CONTRACTOR SURVIVAL GUIDE"
+    },
+    {
+      "type": "heading",
+      "text": "Navigating the Politics"
+    },
+    {
+      "type": "paragraph",
+      "text": "You're a contractor. You exist in the spaces between corporations. The politics of the seven are not your politics — you don't vote, you don't hold citizenship, you don't attend the rallies or sing the anthems. But corporate politics will find you anyway, because every contract you take originates from a corporate interest, and every corporate interest is entangled with six others. Understanding the politics doesn't make you safe. It makes you less surprised when the situation deteriorates."
+    },
+    {
+      "type": "callout",
+      "label": "Rule One: Don't Pick Sides",
+      "style": "gold",
+      "text": "Or if you do, pick carefully. Exclusive loyalty to a single corporation means steady work, reliable pay, and a reputation that opens doors — inside that corp. It also means every other corp considers you compromised. A Congo-exclusive contractor can't take a Crowned Table job without the Table wondering what Congo told them to do while they're there. Multi-corp contractors have more flexibility and more risk. The sweet spot is being trusted enough by multiple corps to get good contracts, without being trusted so much by any single corp that the others consider you an asset of the enemy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Read the contract. All of it.</strong> The clause about \"competing interests\" — usually buried in Section 8 or 9, between the liability waiver and the IP assignment — tells you whether you're walking into a proxy war. If the contract specifies \"exclusive operational theater,\" someone else has been hired to work against you. If it includes a \"non-disclosure of opposition\" clause, the corp knows there's competition and has chosen not to tell you who. If the words \"plausible deniability\" appear anywhere in the document, put the contract down and walk away. Or don't. The pay is usually excellent."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some contractors specialize in <strong>multi-corp work</strong> — playing the gaps, taking contracts from rival corporations in sequence. Monday you're clearing a rift for Congo. Thursday you're surveying the same rift for Pear. Both corps know you work for the other. Neither will acknowledge it directly. The arrangement is lucrative, because both sides are paying you for work <em>and</em> for the intelligence you carry between them, whether you intend to or not. It's also how you end up on kill lists — because eventually one side decides you know too much about the other, and the cleanest solution is making sure you don't know anything anymore."
+    },
+    {
+      "type": "callout",
+      "label": "The Contractor's Paradox",
+      "style": "accent",
+      "text": "The safest contractors are the ones nobody notices. The richest contractors are the ones who play the politics right. There's a reason those aren't usually the same people. <strong>Visibility is currency and liability in equal measure.</strong> A crew with a reputation for excellent, discreet multi-corp work is the most valuable asset in the contract economy. They're also the most likely to receive a visit from an Advocate, a Sentinel counter-intelligence officer, or a Wellspring 'recruitment specialist' who doesn't take no for an answer."
+    },
+    {
+      "type": "paragraph",
+      "text": "The contractors who survive longest in the political landscape share a few traits: they keep records the corps don't know about (insurance), they maintain contacts in the Soma Collective (neutral ground), they never discuss one client's business with another client (professional standards, or at least the performance of them), and they always — <em>always</em> — have an exit strategy. Not for the rift. For the politics."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "flavor",
+      "text": "Seven corporations. Twenty-one relationships. A thousand unwritten rules. And you, in the middle, trying to get paid without getting killed by someone else's grudge match. Welcome to the job."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Relations Bureau reminds all licensed contractors that corporate political disputes are internal matters between sovereign signatories and do not concern non-citizen personnel. Contractors who find themselves involved in inter-corporate incidents should file Form IC-7 ('Involuntary Involvement in Corporate Dispute') with their registered broker within 30 days. Processing time: 6–18 business months. Resolution options include: reclassification of the incident as a 'coincidence,' reclassification of the contractor as 'uninvolved,' or reclassification of the contractor as 'deceased (administrative).' The Bureau thanks you for your patience and reminds you that patience is mandatory.\"</em>"
+    }
+  ]
+}

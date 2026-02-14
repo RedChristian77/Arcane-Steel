@@ -1,0 +1,642 @@
+{
+  "id": "world-legends",
+  "title": "Legends & Folklore",
+  "subtitle": "Stories contractors tell when the lights are low",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Every Crew Has Stories"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every contractor has stories. Most of them are bullshit. The problem is figuring out which ones aren't."
+    },
+    {
+      "type": "paragraph",
+      "text": "This isn't the official record. Corps don't publish this. Brokers don't brief you on it. What follows is the oral tradition of a working class that lives too close to impossible things — the legends passed down in margin bars and crew bunks and late-night transit rides between contracts. Some of it is exaggeration. Some of it is coping mechanism. Some of it is the only honest record of things that happened to people nobody else was going to remember."
+    },
+    {
+      "type": "paragraph",
+      "text": "The voice changes here. The handbook drops the bureaucratic tone because the people telling these stories never had one. This is contractor folklore — raw, biased, haunted, and more accurate than anyone in a boardroom would be comfortable admitting."
+    },
+    {
+      "type": "flavor",
+      "text": "The difference between a legend and a field report is who survived to write it down."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Dead Zone Myths"
+    },
+    {
+      "type": "paragraph",
+      "text": "Half the planet is dead zone. Yellow, Orange, Red, Black — each one worse than the last, each one full of things that shouldn't exist and stories about things that might. Contractors who work the zones long enough start collecting stories the way they collect scars. Involuntarily. Permanently."
+    },
+    {
+      "type": "heading",
+      "text": "The Waiting City"
+    },
+    {
+      "type": "paragraph",
+      "text": "Everyone's heard a version. A crew running a contract through an Orange Zone hits a fog bank — thick, the kind that eats visibility at ten meters. They push through because the job's on a clock and detours cost money. The fog breaks. And there's a city."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not ruins. Not wreckage. A <strong>city</strong>. Intact buildings. Working lights — not flickering, not dying, <em>working</em>, steady power in a zone where nothing should have power. Streets that are clean. Infrastructure that functions. No toxicity readings inside the boundary. Clean air. Clean water. Supplies stacked in buildings like someone was expecting visitors."
+    },
+    {
+      "type": "paragraph",
+      "text": "No people."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crews who've claimed to find it describe the same things: relief first, then unease. Everything they need is there. Food that's safe. Medical supplies. Shelter that doesn't cost anything. Some crews report staying for days. Resting. Healing. Eating meals that didn't come out of a ration pack. Sleeping in rooms that lock from the inside. One crew — the telling varies, but the detail is always the same — said they found a working shower with hot water and three of them cried."
+    },
+    {
+      "type": "paragraph",
+      "text": "When they leave, they can never find it again. The fog closes. The coordinates lead to empty terrain. Whatever was there isn't there anymore — or isn't there for them."
+    },
+    {
+      "type": "flavor",
+      "text": "Some crews never leave at all. Not because something stops them. Because they stop wanting to."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "<strong>The Waiting City is real.</strong> It's a dimensional overlap — a location from another reality bleeding through the thinned membrane in Orange Zones. The city exists in another dimension and periodically phases into ours when local conditions align. It's not malicious. It's not a trap. It's also not stable. The overlap lasts days at most, and when it ends, anyone still inside is displaced — dropped back into the Orange Zone at the point of entry, disoriented and often missing time. The city doesn't want anything from the crews that find it. That's what makes it unsettling. Use it as a safe harbor that costs nothing and means everything. Or use the crew that never left — the ones who were inside when the overlap ended — as a hook. Where did they go?"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Backward Place"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deep in a Red Zone — the specific location changes with every telling, which is either suspicious or exactly what you'd expect from a place that doesn't obey linear time — there's a location where time runs in reverse."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not metaphorically. <em>Backward.</em> Wounds close. Scars fade. Toxicity drops. A contractor who walks in carrying six months of accumulated damage walks out looking like the day they took their first contract. The body remembers what it used to be and becomes it again."
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost is memories. Time runs backward, and it takes everything with it. Contractors who stay too long start forgetting. Recent things first — the last contract, the crew's names, why they came. Then older things. The city they grew up in. The language they speak. Their own name. They walk out younger and empty. Healed in body, hollowed in everything else."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Mara went in with a shattered knee and seven toxicity. Came out walking straight, readings at zero. Didn't know any of us. Didn't know herself. She kept touching her knee like she was looking for something that should have hurt. It didn't. Nothing did. She couldn't tell us why that was wrong.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "<strong>Partially real.</strong> Temporal distortion exists in Red Zones — documented, measured, and aggressively classified. The \"forgetting\" is exaggerated but based on documented cases of temporal disorientation in field teams exposed to severe chronal anomalies. Localized time reversal has been observed in controlled settings (objects aging backward, chemical reactions un-reacting), but the full \"walk in broken, walk out new\" effect has never been verified by corporate science teams. That said, corporate science teams don't spend much time in Red Zones. Contractors do. The mechanism for using this in play: the Backward Place can heal anything — scars, toxicity, physical damage — but each benefit costs a memory. Let the player choose what they lose. The choices will be devastating."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Voices in the Black"
+    },
+    {
+      "type": "paragraph",
+      "text": "This one isn't contested. Everyone who's been in a Black Zone reports it. <strong>Everyone.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Voices. Not their own. Not anyone they know. Clear, conversational, speaking directly to them — not shouting across a void, but talking like someone sitting next to them in a bar. The voices know their names. The voices know things they haven't told anyone. Private things. Shameful things. Things they thought in the dark and never said out loud."
+    },
+    {
+      "type": "paragraph",
+      "text": "The voices don't threaten. That's the part that stays with people. They're not menacing. They're <em>familiar</em>. Warm, even. Like talking to someone who already knows you completely and doesn't judge. Some contractors describe it as the most honest conversation they've ever had. Some describe it as the most terrifying."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corps classify this as <strong>\"dimensional auditory hallucination\"</strong> — a known side effect of extreme ambient magical saturation on human neurology. Standard. Documented. Harmless. The classification has been in place for centuries."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors who've heard them aren't so sure. Because hallucinations don't tell you things you didn't know. And sometimes the voices do."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "rust",
+      "text": "<strong>Real. The source is unknown.</strong> No corporate research team has identified what speaks in Black Zones, and several that tried have produced reports so disturbing they were sealed under Intercompany Classification Protocol Nine. Using this in play is devastating — the GM speaks directly to a character, privately, saying things that character has never shared with the party. The voice is kind. It understands. It offers nothing and asks for nothing. It just <em>knows</em>. Let the player decide whether their character tells the crew what they heard. Most won't."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Legendary Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors don't have monuments. They don't get statues or pension plans or corporate memorial plaques. What they get are stories — names that echo through margin bars long after the person behind them has died, retired, or become something the stories don't fully explain. These are the big ones. The legends that every fresh meat hears in their first week and every veteran tells differently."
+    },
+    {
+      "type": "heading",
+      "text": "The Long Walk"
+    },
+    {
+      "type": "paragraph",
+      "text": "The name changes depending on who's telling it. Kai. Orin. Vasquez. The Quiet One. Doesn't matter. The story is always the same."
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor — experienced, scarred, near the end of a career that had lasted longer than anyone expected — walked into a Black Zone. Alone. No crew. No contract. No gear. Just walked in like they were going to buy groceries. Didn't tell anyone. Didn't leave a note. The crew woke up and they were gone."
+    },
+    {
+      "type": "paragraph",
+      "text": "They walked for days. Into territory that kills equipped teams in hours. Into the kind of darkness that the voices live in. And they came back."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Different.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not augmented — no new chrome, no visible changes. Not scarred — if anything, they looked <em>better</em>, like the zone had subtracted something instead of adding to it. Just different in a way that the people who knew them couldn't articulate. Some versions say they could see rifts before they opened — would stop mid-sentence and point to empty air, and thirty seconds later the membrane would tear. Some say they stopped accumulating toxicity entirely, as though the world's ambient magic passed through them like light through glass. Some say they weren't the same person who went in. Not a replacement. Not a copy. Just someone who had been fundamentally <em>renegotiated</em> by whatever lives in the Black."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every version agrees on one thing: they never took another contract. They didn't need to. Whatever they needed from the world — money, safety, purpose — they'd either found it or stopped needing it. They'd walk through margin districts and people would step aside without knowing why. Not fear. Something quieter than fear."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"I met them once. After. They were sitting at a bar drinking water. Just water. I sat next to them and they looked at me and I felt like I was being read. Not judged. Read. Like a document. They smiled and said, 'You're going to be fine.' I'd never told anyone I was scared. I hadn't even admitted it to myself. They finished their water and left. I never saw them again.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "Use this as a campaign hook if you want. The truth behind the Long Walk is whatever serves your table. Maybe the Black Zone strips away everything inessential and what's left is something more than human. Maybe it's a transaction — you give the zone something and it gives you something back. Maybe the contractor died in the Black and what came back is wearing their face. The legend works because it's unresolvable. If a player character attempts the Long Walk, make it a solo session. Make it quiet. Make it personal. Whatever they find in the Black should change the campaign."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Retirement"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the one that hurts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Five contractors. A full crew. They did everything right. Took smart contracts. Managed their toxicity. Invested in a base early. Had a crafter who kept ammo costs down and a medic who kept treatment costs at zero. They built their savings over years of disciplined, unglamorous work — no legendary scores, no impossible heists, just the steady accumulation of money by people who understood the math and refused to let the spiral catch them."
+    },
+    {
+      "type": "paragraph",
+      "text": "They saved enough. They found a plot of land in a free settlement — outside corporate jurisdiction, outside the contract economy, outside the system that was designed to use them until they broke. They bought it. They built a house. They grew food. They retired."
+    },
+    {
+      "type": "paragraph",
+      "text": "The story is told reverently in margin bars, late at night, usually after someone's had a bad contract or a worse week. The details are always vague. Nobody can name them. Nobody can say where the settlement is. Nobody can point to a specific crew and say <em>\"them, they did it.\"</em> But everyone knows someone who knows someone who met one of them. A friend of a friend visited the settlement and saw the house. A broker heard about it from a retired handler. A medic treated one of them years later and said they looked healthy. Happy. <em>Old.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The dream persists because contractors need it to. The math says it's possible. The system says it shouldn't be. And somewhere, supposedly, five people proved the math right and the system wrong."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "gold",
+      "text": "<strong>This one's true. They exist. They don't want to be found.</strong> The Retirement is real — a crew that made it out, that lives quietly in a settlement that doesn't appear on corporate maps. They're older now. They don't talk about what they did. They don't want visitors. Finding them is possible but requires effort, connections, and a willingness to respect what they've built. If the crew ever locates them, the retired contractors will be kind, cautious, and absolutely unwilling to come back. They've seen what the grind does. They got out. The most valuable thing they can offer isn't advice or resources — it's <em>proof</em>. Proof that it's possible. That's worth more than any loot table."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Phenomena"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rifts are holes in reality. They're cataloged, studied, exploited, and — officially — understood. But contractors who spend enough time near them know the catalog is incomplete. There are things rifts do that don't appear in any corporate database. Things that get reported, ignored, and then reported again by someone who's never heard the first report. The consistency is what keeps the stories alive."
+    },
+    {
+      "type": "heading",
+      "text": "The Grief Gate"
+    },
+    {
+      "type": "paragraph",
+      "text": "A rift that opens only when someone nearby is experiencing genuine grief. Not performative. Not dramatic. Not the kind of grief that makes for good stories. The quiet kind. The kind that sits in your chest like a stone and doesn't move. Real, deep, helpless loss — the kind you can't perform because you can barely survive it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The rift opens. It's small — person-sized, barely. And through it: something beautiful. Descriptions vary but the word <em>\"gentle\"</em> comes up every time. Light that doesn't burn. Air that smells like somewhere safe. A warmth that feels like being held."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nobody who's gone through while grieving has ever described what they found on the other side. They come back. Always. Usually within hours. But they're quieter. The grief is duller — not gone, but blunted, like something reached in and took the sharpest edge of it. Like part of the weight was shared, or absorbed, or held by something that could carry it better than they could."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"After Devyn died, I couldn't function. Couldn't eat. Couldn't sleep. Couldn't hold a weapon steady. I was sitting in the field outside the gate and the air opened up. I didn't think. I just walked in. I don't remember what was on the other side. I remember coming back and being able to breathe again. The grief was still there. But it wasn't all of me anymore.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "gold",
+      "text": "<strong>Real. The emotional mechanism is unexplained but documented.</strong> What's on the other side of the Grief Gate is the GM's choice — a peaceful dimension, an entity that feeds on sorrow without malice, a place where loss is processed differently. The mechanical truth is: the rift responds to genuine grief. No check. No skill. No stat. If a player character is experiencing real loss — a crew member's death, a betrayal, the destruction of something they cared about — and the player leans into it, the Grief Gate can open. What it offers isn't a fix. It's relief. Partial, temporary, deeply personal. Use this for moments that matter. It will be one of the most memorable scenes in your campaign."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Watcher Rift"
+    },
+    {
+      "type": "paragraph",
+      "text": "A rift opens. Standard procedure — the membrane tears, dimensional energy spills through, the instruments spike. But nothing comes through. No fauna. No weather. No debris. The rift sits there, stable, open, and <em>occupied</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can feel it. Like standing in front of a window at night when the lights are on inside and the outside is dark. You know someone is on the other side of the glass. You can't see them. But the weight of their attention is physical. It presses against your skin. It makes the hair on your arms stand up. It makes the part of your brain that evolved to detect predators scream at a frequency you can't hear but can't ignore."
+    },
+    {
+      "type": "paragraph",
+      "text": "It stays open for hours. Sometimes days. The instruments record nothing — no energy transfer, no atmospheric exchange, no biological readings. Just a hole in reality and something on the other side of it that is <em>looking</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then it closes. Quietly. Like someone drawing a curtain. Nobody knows what was watching. Nobody has ever tried to go through a Watcher Rift. The universal instinct is the same: <strong>don't.</strong>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "rust",
+      "text": "<strong>Real. Use sparingly. Maximum unease.</strong> The Watcher Rift is exactly what it appears to be — something on the other side of a dimensional membrane observing this reality. What it is, what it wants, whether it's a single entity or a phenomenon — all unknown. The mechanical use is atmosphere. Drop a Watcher Rift into a mission and let the party react. No combat. No check. No resolution. Just the knowledge that something was watching and chose not to come through. The question of <em>why</em> it didn't is worse than anything that could have."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Return"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rifts take things. Everyone knows that — equipment lost in dimensional transit, crews who stepped through and didn't come out the other side, materials that vanished mid-extraction. The universe of lost things is vast and growing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sometimes the rifts give them back."
+    },
+    {
+      "type": "paragraph",
+      "text": "Equipment first. A weapon that went missing during a Char extraction turns up in a wild rift three years later, scorched but functional. A sensor array that was lost in the Static appears in a Brine-linked rift, corroded with salt but still holding data from its last survey. Gear returns. It's unusual but documented — the corps have a whole classification system for recovered dimensional artifacts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then remains. A crew that vanished in the Bloom — full team, no survivors, no signal, no trace — and then, eleven years later, a rift opens and deposits five skeletons in Bloom-origin flora. Identified by dental records and augment serial numbers. The families were notified. The report was filed. Nobody asked where they'd been for eleven years or why the bones were clean."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then, once, allegedly: a person."
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractor who stepped through a rift thirty years ago and never came back. Declared dead. Insurance paid out. Crew disbanded. And then a wild rift opened in a Yellow Zone transit corridor and they walked out. Thirty years gone. Not a day older. Wearing the same gear. Carrying the same weapons. Remembering nothing after the moment they stepped through. For them, no time had passed. For everyone they knew, a generation had."
+    },
+    {
+      "type": "paragraph",
+      "text": "The corps suppressed the story. The contractor was taken into corporate custody for \"debriefing\" and never seen publicly again. What they learned during those thirty years of non-existence — if they learned anything — died in a classified file."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "<strong>Time dilation is real.</strong> The specific story is embellished but based on real phenomena — objects and biological material have been recovered from rifts after significant time displacement. The person-returning-after-decades version is unconfirmed but plausible within established dimensional physics. Use this for long-term campaign hooks: an NPC who vanished before the campaign started returns mid-arc, unchanged, carrying information from a time that no longer exists. Or use it as a threat: every time a character steps through a rift, there's a vanishingly small chance they don't come out on the other end for a very long time. The fear isn't dying in a rift. It's coming back to find out everyone moved on."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Cautionary Tales"
+    },
+    {
+      "type": "paragraph",
+      "text": "Legends inspire. Cautionary tales keep you alive. Every veteran contractor carries a mental library of stories about people who made mistakes — not because they were stupid, but because the system is designed to exploit the gap between what you need and what you know. These stories aren't exciting. They're just true enough to matter."
+    },
+    {
+      "type": "heading",
+      "text": "The Perfect Contract"
+    },
+    {
+      "type": "paragraph",
+      "text": "If a contract pays too well, it's a trap. If the risk assessment is too low, it's wrong. If the corp contact is too friendly, they need you to die."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every veteran knows this. Fresh meat learns it the hard way — or doesn't learn it at all, which is the same thing."
+    },
+    {
+      "type": "paragraph",
+      "text": "The story changes in the details. Sometimes it's a Wellspring live-capture contract where the \"specimen\" turns out to be bait and the real specimen is the crew — test subjects for a pharmaceutical that needed field data on human stress responses. Sometimes it's a Congo extraction where the \"rare minerals\" are in a nest of something that hasn't been cataloged yet because everyone who's cataloged it is dead. Sometimes it's a Pear data recovery where the data is in a facility that Pear locked down for a reason, and the reason is still inside."
+    },
+    {
+      "type": "paragraph",
+      "text": "The lesson is always the same: if it looks too good, run. The margin between a generous contract and a death sentence is thinner than the corps want you to know, and the corps are the ones drawing the line."
+    },
+    {
+      "type": "flavor",
+      "text": "The best-paying contract you'll ever see is the one you shouldn't take. The second-best is fine. Probably."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Friendly Handler"
+    },
+    {
+      "type": "paragraph",
+      "text": "A corporate contact who remembers your name. Asks about your crew. Brings coffee to briefings. Laughs at your jokes. Sends a follow-up message after the contract to make sure everyone's okay."
+    },
+    {
+      "type": "paragraph",
+      "text": "The contractor community's collective wisdom, earned in blood and compiled over generations: <strong>this person needs you to do something that will destroy you, and they need you to trust them first.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not always true. Some handlers are genuinely decent people working inside systems that reward indecency. They remember your name because they're human. They bring coffee because the briefing room is cold. They follow up because they have consciences that their quarterly reviews haven't managed to kill yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the cautionary version persists because it's true often enough. The handler who builds rapport is the one who needs you to walk into something you wouldn't walk into for a stranger. The warmth is an investment. The return on that investment is your willingness to die for someone who knows your name."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Chen was the best handler I ever had. Remembered my kid's birthday. Sent a gift once. Real thoughtful. Then came the Bloom contract. The one where we lost Asher. In the debrief, Chen cried. Real tears. I believe they were real. I also believe Chen knew what was in that canopy and sent us anyway. Both things are true. That's the worst part.\"</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Shortcut"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every crew knows someone who took a shortcut through a dead zone to save time. Faster route, lower transit costs, shave a day off the schedule. The zone is only Yellow. The readings are stable. What could go wrong."
+    },
+    {
+      "type": "paragraph",
+      "text": "The answer is always: everything."
+    },
+    {
+      "type": "paragraph",
+      "text": "The dead zone doesn't care about your schedule. It doesn't care that the readings were stable yesterday, or that the forecast said \"low activity,\" or that you checked three times before committing to the route. The zone is not a road. It's a wound in reality that tolerates your passage until it doesn't. And the moment it stops tolerating — a wild rift, a fauna migration, a sudden spike in ambient toxicity, a weather event that wasn't on any forecast — you're in the middle of it, hours from safety, with equipment rated for transit and not survival."
+    },
+    {
+      "type": "paragraph",
+      "text": "The stories vary in specifics but end the same way: fewer people came out than went in. The math they saved on transit costs didn't cover the funeral expenses. The time they saved getting there was less than the time it took to recover from what happened."
+    },
+    {
+      "type": "flavor",
+      "text": "There are no shortcuts through a dead zone. There are long ways and there are last ways."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Superstitions & Rituals"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors are not, as a class, superstitious people. They're pragmatists who calculate toxicity rates and ammo expenditures and survival odds. They deal in hard numbers and harder realities. They are also, to a person, absolutely unwilling to violate any of the following unwritten rules. Logic has nothing to do with it. The dead zone doesn't run on logic."
+    },
+    {
+      "type": "callout",
+      "label": "Never Count Your Scars Out Loud",
+      "style": "rust",
+      "text": "Bad luck. The worst kind. Nobody explains why. Nobody can trace the superstition to an origin. Nobody disobeys. A contractor will show you every scar they have, tell you the story behind each one, describe in clinical detail the injury that caused it. But they will not <em>count</em> them. Not out loud. Counting them is an invitation. To what? Doesn't matter. Don't count them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tap your weapon twice before entering a rift.</strong> Doesn't do anything. Every instrument reading confirms it does absolutely nothing. The weapon doesn't fire better. The rift doesn't stabilize. No measurable effect of any kind. Feels right. Every contractor does it. New crew members pick it up within their first three missions without being told. It's contagious in the way that things that feel right are contagious."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Never say \"last job.\"</strong> Calling a contract your last one guarantees it won't be — either because you'll survive and need the money again, or because you won't survive and it becomes your last job in the wrong way. The phrase is cursed. Crews will correct you. Violently, if you're about to step through a rift. Say \"next job.\" Say \"the current contract.\" Say anything else. The universe is listening and it has a sense of humor that nobody appreciates."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Leave something behind at base before a contract.</strong> Something personal. A photograph. A piece of jewelry. A favorite mug. So the base remembers you. So there's a piece of you anchored to the place you intend to return to. Contractors who don't have a base leave something with their broker, or tuck it into a locker at a Watering Hole. The item doesn't matter. The act of leaving it does — it's a promise to come back for it."
+    },
+    {
+      "type": "callout",
+      "label": "Whisper Rule",
+      "style": "rust",
+      "text": "<strong>If a Whisper tells you not to go somewhere, don't go there.</strong> Whispers don't explain. They rarely elaborate. They'll say \"not that door\" or \"skip this one\" or simply stop walking and refuse to move forward. They won't tell you what they sense or how they know. Arguing is pointless. Ignoring them is suicide. Whispers are always right. <em>Always.</em> The veteran contractor's relationship with their crew's Whisper is absolute trust built on the complete absence of information. You don't know why. You don't need to know why. You just don't go there."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Don't eat the food in other dimensions.</strong> Even if it smells good. <em>Especially</em> if it smells good. The Bloom produces fruit that smells like the best thing you've ever eaten. The Brine has edible shellfish that taste extraordinary. The Grave has preserved rations that look perfectly safe. None of it is worth the risk. Dimensional biology interacts with human systems in ways that range from \"mild gastrointestinal distress\" to \"your gut flora is now partially extradimensional and doctors are writing papers about you.\" The one exception is Tide Crawler meat from the Brine, and even that is controversial."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The pre-mission meal.</strong> Some crews have a tradition — a specific meal they eat together before every contract. The specific food varies. Noodles. Dumplings. Ration bars heated to exactly the right temperature. One crew is famous for insisting on pancakes. The food isn't the point. The ritual is the point: sitting together, eating together, being human together before walking into something inhuman. Crews that lose a member often can't eat the meal anymore. That's how you know the ritual mattered."
+    },
+    {
+      "type": "flavor",
+      "text": "Superstition is just pattern recognition in a world where the patterns don't make sense."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Toxicity Overflow Legends"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every contractor knows what happens when you hit max toxicity. The official story is simple, corporate, and final: at maximum saturation, you become a resource. Your body has absorbed so much ambient magical energy that you are, from a corporate accounting perspective, more valuable as raw material than as a worker. You are collected. You are processed. Your energy is harvested. Your contract is terminated — in every sense."
+    },
+    {
+      "type": "paragraph",
+      "text": "That's the official version. The one in the handbook. The one the corps print on the toxicity disclosure forms that every contractor signs before their first deployment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The unofficial stories are worse."
+    },
+    {
+      "type": "callout",
+      "label": "The Consciousness Harvest",
+      "style": "rust",
+      "text": "Some say the corps don't just harvest your energy — they harvest your <strong>consciousness</strong>. Your memories. Your experiences. Every decision you ever made, every rift you ever walked through, every moment of fear and calculation and survival instinct, extracted and fed into corporate prediction algorithms. Your life experiences, modeled and replicated, used to predict future contractor behavior. Why train an AI on simulated data when you have thousands of contractors accumulating real experience every day? The overflow isn't disposal. It's <em>acquisition</em>. You spent your life learning how to survive. The corps want to know what you learned."
+    },
+    {
+      "type": "paragraph",
+      "text": "Others say the overflow doesn't kill you. Not exactly. It <strong>transforms</strong> you. At maximum saturation, the human body doesn't fail — it adapts. Becomes something that can survive in Black Zones. Something that doesn't need food, doesn't need sleep, doesn't process oxygen the way humans do. Something that isn't human anymore. And the corps use them. Send them into zones that would kill anything biological. They're the reason Black Zone survey data exists at all — not drones, not remote sensors, but former contractors who can walk through the worst places on Earth because they've become part of it."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"My old crew lead hit max. We were there. Watched the Sentinel team come. Watched them put her in the transport. She was conscious. She was talking. She wasn't screaming, wasn't fighting. She looked at me and said, 'It's okay. I can hear them now. They've been waiting.' Then the doors closed. That was four years ago. I still dream about what she meant by 'them.'\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "<strong>The official story is true enough.</strong> At max toxicity, contractors are collected and their saturated bodies are processed for energy — this is documented, legal, and written into every freelancer contract. The rest is embellishment. Unless you want it not to be. The consciousness harvest, the transformation, the Black Zone walkers — none of it is canon until you make it canon. These legends exist to give GMs options. If your table wants the overflow to be a clean, grim endpoint, it is. If your table wants to discover that the corps are harvesting minds, that's a campaign-defining revelation. If a player's character hits max and you want them to come back as something else — something that remembers being human but isn't anymore — that's one of the most powerful arcs this system can produce. The legends are seeds. Plant the ones that grow at your table."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Mirror — The Other Side"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the big one. The story that divides every bar, every crew, every late-night conversation about what's really out there. The one that starts arguments and ends friendships and makes people go quiet in a way that means they're either lying or remembering."
+    },
+    {
+      "type": "paragraph",
+      "text": "If contractor folklore had a crown jewel, this is it."
+    },
+    {
+      "type": "flavor",
+      "text": "Ask about the Mirror in a margin bar and watch the room split. Half will laugh. Half will stop talking. Neither reaction is comforting."
+    },
+    {
+      "type": "heading",
+      "text": "The Rumor"
+    },
+    {
+      "type": "paragraph",
+      "text": "There's a dimension that's Earth."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not an alien world. Not a hellscape. Not a dimension of fire or data or salt or silence. <strong>Earth.</strong> Same geography. Same continents. Same city-states — but different. Wrong. A building in the wrong place. A street that runs backward. Signs in a language that's <em>almost</em> readable — close enough that your brain tries to parse it, far enough that it can't, and the gap between almost-understanding and not-understanding is worse than complete illegibility."
+    },
+    {
+      "type": "paragraph",
+      "text": "People. People who look like people you know but aren't. The same face with different eyes. The same voice with different words. Familiar strangers walking familiar-wrong streets in a city that is yours and isn't."
+    },
+    {
+      "type": "heading",
+      "text": "The Details"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crews claim to have been there. Not many — a handful of reports spread across decades, passed from crew to crew through the oral network that is the only record system contractors trust. But the stories are <em>remarkably</em> consistent for rumors."
+    },
+    {
+      "type": "paragraph",
+      "text": "The same unsettling familiarity. You step through and the sky is the right color and the gravity is right and the air smells like home, and for a moment — one terrible, hopeful moment — you think you've somehow come back. Then you look closer. The skyline is wrong. That building is too tall, or wasn't there, or is in a place where a park should be. The transit system runs on different routes. The corporate logos are similar but <em>not the same</em>. The wrongness is gradual and cumulative. The deeper you go, the more the differences compound, and by the time you're deep enough to realize how far you are from anything recognizable, you're deep enough that getting back is a problem."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some versions include encountering parallel versions of people they know. A broker who's dead in our world, alive in theirs. A crew member's family — same faces, different lives. Some include discovering that the other side has contractors too. That they go through rifts. That they extract resources from other dimensions. That they have crews and brokers and scars and toxicity and every piece of the machinery that grinds people down on our side of the membrane."
+    },
+    {
+      "type": "paragraph",
+      "text": "That they come through to our dimension. That from their perspective, <strong>we</strong> are the rift fauna."
+    },
+    {
+      "type": "heading",
+      "text": "The Corporate Response"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corps deny it exists. Officially, there is no parallel Earth dimension. The classification is <strong>\"theoretical — unverified.\"</strong> No corporate rift catalog lists a Mirror entry. No survey database contains parallel-Earth data. No expedition report has been publicly filed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sentinel gets very quiet when asked about it. Not defensive. Not dismissive. <em>Quiet</em> — the kind of quiet that comes from people who've been briefed on exactly what to say, which is nothing. Pear changes the subject with the practiced ease of an organization that has changed this specific subject many, many times. Congo says \"never heard of it.\" Wellspring says \"never heard of it.\" House of Mouse says \"never heard of it\" and their legal department sends a follow-up letter reminding you that speculation about unverified dimensional classifications may constitute a violation of Intercompany Information Protocol."
+    },
+    {
+      "type": "paragraph",
+      "text": "Soma doesn't deny it. Soma doesn't confirm it. Soma says, <em>\"What an interesting question,\"</em> and smiles in a way that answers nothing and suggests everything."
+    },
+    {
+      "type": "heading",
+      "text": "The Skeptic's Position"
+    },
+    {
+      "type": "paragraph",
+      "text": "No verifiable evidence has ever been produced. No rift gate has been publicly identified as leading to a parallel Earth. No physical samples have been tested and confirmed as parallel-origin. No photographic or sensor evidence has survived peer review. The stories could be dimensional disorientation — contractors seeing familiar patterns in alien landscapes because their brains need to make sense of what they're seeing. Humans are pattern-matching machines. Put a human in a sufficiently strange environment and their brain will find something familiar, even if it has to fabricate the familiarity."
+    },
+    {
+      "type": "paragraph",
+      "text": "The skeptic's position is clean, rational, and supported by the available evidence. It's also, according to believers, exactly what the corps want you to think."
+    },
+    {
+      "type": "heading",
+      "text": "The Believer's Position"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nobody who claims to have been there tells the same lie twice. The details are too specific, too consistent across independent accounts that were never in contact with each other. A contractor in a margin bar in the Pacific Rim describes the same wrong-skyline feeling as a contractor in a transit camp outside the European corridor, and neither one has heard the other's story. The descriptions of the <em>almost</em>-language match. The feeling of gradual wrongness matches. The specific, visceral horror of recognizing a face that shouldn't be there matches."
+    },
+    {
+      "type": "paragraph",
+      "text": "And Sentinel's silence is louder than any denial. A corp that catalogs every rift, surveys every dimension, classifies every threat with obsessive military precision — that corp has <em>nothing</em> on the most talked-about legend in contractor history? No data? No assessment? No classification? Sentinel, who classifies the color of dimensional rainfall by zone and season, has no file on the Mirror?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The absence of evidence, believers argue, is the evidence. The hole in the catalog is Mirror-shaped. And the corps are standing in front of it."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"I know what I saw. It was my street. My building. Wrong number on the door. Wrong color on the walls. And someone was looking out the window who wasn't me but could have been. Same height. Same build. Standing where I stand every morning to watch the transit go by. They saw me. I saw them seeing me. We both froze. Then the rift shifted and I was back in the Orange Zone staring at dead ground and I have never been so afraid in my life. Not of what I saw. Of what it meant.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM TRUTH — The Mirror Is Real",
+      "style": "teal",
+      "text": "<strong>The Mirror is real.</strong> It's a parallel dimension — a divergent Earth that split from this one at some unknown point in the past. The divergence determines how different it is: a recent split produces a world that's nearly identical, an ancient split produces something almost unrecognizable. The corps know. All of them. It's classified at the highest levels because it's not a philosophical curiosity — it's a <strong>security threat</strong>.<br><br>Rifts to the Mirror are bidirectional. If our contractors enter the Mirror, the Mirror's contractors enter our dimension. This isn't theoretical. It's happening. It has been happening. From the other side's perspective, our Earth is a toxic, half-dead world full of hostile corporations — exactly the kind of place they'd send extraction teams into. They have crews. They have augments. They have brokers who send them. They have their own version of the grind, and we are on their contract board.<br><br>Sentinel's paranoia about gate security isn't just about rift fauna — it's about organized, equipped, intelligent teams running the same playbook in reverse. Some of the \"fauna incursions\" in Sentinel's classified records aren't fauna at all. They're Mirror contractors who got caught. The thirteen sealed dimensions? Some were sealed because the other side sealed them first. Or because one side was losing.<br><br>This can stay background lore that never surfaces. A whispered truth that colors the world but never enters play. Or it can be the <strong>biggest campaign reveal imaginable</strong> — the moment the crew discovers that the thing coming through the rift isn't a monster. It's a contractor. With a crew. With augments. With a broker who sent them. And they think <em>you're</em> the rift fauna.<br><br>The Mirror crew isn't evil. They're workers. Same grind, different side. The moral complexity of fighting people who are doing exactly what you do — for the same reasons, under the same pressures — is the payload. Use this if your table can handle it. Not every campaign needs this layer. The ones that use it will never forget it."
+    },
+    {
+      "type": "flavor",
+      "text": "The scariest thing about the Mirror isn't that it might exist. It's that if it does, someone on the other side is telling the same story about us."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Why Stories Matter"
+    },
+    {
+      "type": "paragraph",
+      "text": "The corps have data. Surveys, classifications, risk assessments, quarterly reports on dimensional activity trends. They have the official record — sanitized, structured, and designed to make the impossible feel manageable. The official record is useful. It is not <em>true</em> — not in the way that matters to the people who live inside it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Legends are how contractors process a world that doesn't make sense. A world where half the planet is poisoned, where holes in reality open in your kitchen, where the thing that kills you might be harvested from your corpse to power someone's stock portfolio. The official record can't hold that. The official record doesn't have room for what it feels like."
+    },
+    {
+      "type": "paragraph",
+      "text": "So contractors tell stories. About cities that appear in fog and offer everything you need. About places where time heals you and takes your memories as payment. About voices in the dark that know your name. About people who walked into the worst place on Earth and came back changed. About people who made it out. About a parallel world where someone just like you is doing the same terrible work for the same terrible reasons and neither of you knows the other exists."
+    },
+    {
+      "type": "paragraph",
+      "text": "The stories aren't data. They're meaning. They're the only framework contractors have for understanding a life that the official systems were never designed to make livable. Every legend is a question: <em>what kind of world is this?</em> Every retelling is an answer: <em>one where these things might be true, and we keep going anyway.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "That's the real folklore. Not the monsters. Not the miracles. The fact that people hear these stories and go back to work the next morning."
+    },
+    {
+      "type": "flavor",
+      "text": "The lights come up. The bar closes. Tomorrow there's a contract on the board. The stories will keep."
+    }
+  ]
+}
