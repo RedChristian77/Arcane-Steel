@@ -252,4 +252,27 @@
   font-weight: 500;
 }
 
+/* --- Child pages (abilities nested under tree pages) --- */
+.nav-child {
+  display: block;
+  padding: 3px 10px 3px 24px;
+  font-size: 0.68rem;
+  color: var(--muted);
+  border-left: 2px solid transparent;
+  cursor: pointer;
+  transition: all var(--tr);
+  line-height: var(--lh-tight);
+}
+
+.nav-child:hover { color: var(--text); background: var(--accent-glow); }
+
+.nav-child.active {
+  color: var(--accent);
+  border-left-color: var(--accent);
+  background: var(--accent-dim);
+  font-weight: 500;
+}
+
+.sec-subnav.child { margin-left: 24px; }
+
 .nav-ico { font-size: 0.85rem; width: 22px; text-align: center; display: inline-block; }

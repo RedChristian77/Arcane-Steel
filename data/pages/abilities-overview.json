@@ -32,28 +32,14 @@
       "text": "Progression Structure"
     },
     {
-      "type": "paragraph",
-      "text": "-------------- -------------- -------------- -------------- --------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Tier</strong>       <strong>Unlock</strong>     <strong>Abilities    </strong>Base Cost<strong>  </strong>Training Available<strong>                   Time</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>T1</strong>         Kit start      1 passive      Free           Included (free with kit)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>T2</strong>         After 2-3      Pick 1 from    300 cr +       1 downtime missions       5-6 options    instructor     activity"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>T3</strong>         After 5-6      Pick 1 from    600 cr +       2 downtime missions       5-6 options    instructor     activities"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>T4</strong>         After 8-10     Pick 1 from    1,000 cr +     3 downtime missions       3-4 options    specialist     activities instructor -------------- -------------- -------------- -------------- --------------"
+      "type": "table",
+      "headers": ["Tier", "Unlock", "Abilities Available", "Base Cost", "Training Time"],
+      "rows": [
+        ["T1", "Kit start", "1 passive", "Free", "Included with kit"],
+        ["T2", "After 2-3 missions", "Pick 1 from 5-6 options", "300 cr + instructor", "1 downtime activity"],
+        ["T3", "After 5-6 missions", "Pick 1 from 5-6 options", "600 cr + instructor", "2 downtime activities"],
+        ["T4", "After 8-10 missions", "Pick 1 from 3-4 options", "1,000 cr + specialist instructor", "3 downtime activities"]
+      ]
     },
     {
       "type": "paragraph",
@@ -72,36 +58,16 @@
       "text": "Training Sources"
     },
     {
-      "type": "paragraph",
-      "text": "----------------- ----------------- ------------------ -----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Source</strong>        <strong>Cost Modifier</strong> <strong>Availability</strong>   <strong>Notes</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Corporate       ×1.0              T1-T3. T4 requires Standardized, Program</strong>                           corp rep +3.       documented."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Freelance       ×1.2              T1-T4. Find via    Practical, Instructor</strong>                        Streetwise or      experienced. broker."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Undercity       ×0.8              T2-T4. Requires    Cheaper. Dirtier Trainer</strong>                           Undercity rep +1.  techniques."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Faction         ×1.5              T3-T4 only.        Elite techniques. Specialist</strong>                        Requires faction   Strings attached. rep +3."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Self-Taught</strong>   ×0.5              T2 only. 3×        Slow but cheap. downtime instead of 1×."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Crew            ×0.7              Any tier your      A crewmate who Mentorship</strong>                        mentor has.        has the ability can teach you. Builds crew bonds. ----------------- ----------------- ------------------ -----------------"
+      "type": "table",
+      "headers": ["Source", "Cost Modifier", "Availability", "Notes"],
+      "rows": [
+        ["Corporate Program", "×1.0", "T1-T3. T4 requires corp rep +3.", "Standardized, documented."],
+        ["Freelance Instructor", "×1.2", "T1-T4. Find via Streetwise or broker.", "Practical, experienced."],
+        ["Undercity Trainer", "×0.8", "T2-T4. Requires Undercity rep +1.", "Cheaper. Dirtier techniques."],
+        ["Faction Specialist", "×1.5", "T3-T4 only. Requires faction rep +3.", "Elite techniques. Strings attached."],
+        ["Self-Taught", "×0.5", "T2 only. 3× downtime instead of 1×.", "Slow but cheap."],
+        ["Crew Mentorship", "×0.7", "Any tier your mentor has.", "A crewmate who has the ability can teach you. Builds crew bonds."]
+      ]
     }
   ]
 }

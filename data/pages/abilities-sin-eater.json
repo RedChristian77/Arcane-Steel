@@ -76,6 +76,14 @@
       "text": "<strong>Tox Channel (Active, 1 AP):</strong> Convert 3 of your Toxicity into healing — touch an ally and heal 1d6+Interface bonus HP. Contamination becomes medicine."
     },
     {
+      "type": "paragraph",
+      "text": "<strong>Suffering Echo (Passive):</strong> When you Absorb a condition from an ally, the enemy who originally applied it takes -1 to their next attack. Your absorption resonates back through the rift connection."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Purification Pulse (Active, 2 AP):</strong> Remove all conditions from yourself. For each condition removed, one ally within Close range heals 2 HP. Your suffering converts into mending. Once per encounter."
+    },
+    {
       "type": "heading",
       "text": "T4 — Pick from (1,000 cr each)"
     },
@@ -90,6 +98,10 @@
     {
       "type": "paragraph",
       "text": "<strong>Sacrifice (Passive):</strong> When an ally within Medium range would be downed, take the killing blow instead. Ally stays at 1 HP. You take the damage (bypasses armor). Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Vessel of Suffering (Passive):</strong> While carrying 3+ absorbed conditions, gain +2 Armor and regenerate 1 HP at the start of each turn. The more you carry, the more the rift sustains you. Your pain becomes your shield."
     }
   ]
 }

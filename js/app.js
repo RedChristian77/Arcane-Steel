@@ -22,6 +22,11 @@ function findPage(pageId) {
   for (const section of window._manifest.sections) {
     for (const page of section.pages) {
       if (page.id === pageId) return page;
+      if (page.children) {
+        for (const child of page.children) {
+          if (child.id === pageId) return child;
+        }
+      }
     }
   }
   return null;
@@ -40,7 +45,10 @@ async function loadPage(pageId) {
 async function loadAllPagesForSearch() {
   const promises = [];
   window._manifest.sections.forEach(s => {
-    s.pages.forEach(p => promises.push(loadPage(p.id)));
+    s.pages.forEach(p => {
+      promises.push(loadPage(p.id));
+      if (p.children) p.children.forEach(c => promises.push(loadPage(c.id)));
+    });
   });
   await Promise.all(promises);
   buildSearchIndex(pageCache, window._manifest);
