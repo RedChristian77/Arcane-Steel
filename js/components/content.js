@@ -34,7 +34,12 @@ function renderContent(items) {
         const isBoldLead = text.startsWith('<strong>');
         const isShort = stripped.length < 80;
         paraRun++;
-        if (isBoldLead) {
+
+        // --- Ability card detection ---
+        const abilityMatch = text.match(/^<strong>(.+?)\s*\((Passive|Active)([^)]*)\)\s*:?\s*<\/strong>\s*(.*)/s);
+        if (abilityMatch) {
+          html += renderAbilityCard(abilityMatch[1], abilityMatch[2], abilityMatch[3], abilityMatch[4]);
+        } else if (isBoldLead) {
           html += '<div class="c-keypoint"><p class="c-keypoint-text">' + text + '</p></div>';
         } else if (isShort && paraRun <= 2) {
           html += '<p class="c-emphasis">' + text + '</p>';
@@ -47,7 +52,7 @@ function renderContent(items) {
       case 'heading': {
         paraRun = 0;
         const hId = 'h-' + item.text.replace(/<[^>]*>/g, '').replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
-        html += '<h3 class="c-heading" id="' + hId + '">' + item.text + '</h3>';
+        html += '<h3 class="c-heading" id="' + hId + '"><a class="c-heading-anchor" href="#' + hId + '" title="Link to this section">#</a>' + item.text + '</h3>';
         break;
       }
       case 'blockquote':
@@ -114,7 +119,18 @@ function renderContent(items) {
     }
   });
   flushBullets();
-  return html;
+  return styleDiceNotation(html);
+}
+
+/* --- Inline dice notation styling ---
+   Detects patterns like d6, d8, 1d6, 3d10, 4d12 in text content only (not inside HTML tags) */
+function styleDiceNotation(html) {
+  // Split into tags and text. Only apply dice styling to text segments.
+  return html.replace(/([^<]+)(?=<|$)/g, function(textSegment) {
+    return textSegment.replace(/\b(\d*d(?:4|6|8|10|12|20|100))\b/gi, function(match) {
+      return '<span class="dice-badge">' + match + '</span>';
+    });
+  });
 }
 
 /* --- Callout box (key rules, warnings, tips) --- */
@@ -257,6 +273,30 @@ function renderKitGrid(data) {
       + '<div class="kit-detail full"><span class="kit-detail-l">Gear</span><span class="kit-detail-v">' + esc(kit.gear) + '</span></div>'
       + '</div></div>';
   });
+  html += '</div>';
+  return html;
+}
+
+/* --- Ability card (auto-detected from paragraph pattern) --- */
+function renderAbilityCard(name, type, extra, desc) {
+  const isActive = type === 'Active';
+  const apMatch = extra.match(/(\d+)\s*AP/);
+  const apCost = apMatch ? apMatch[1] : null;
+  const extraClean = extra.replace(/,\s*/, '').replace(/\d+\s*AP/, '').trim();
+
+  let html = '<div class="ability-card' + (isActive ? ' ability-card--active' : ' ability-card--passive') + '">';
+  html += '<div class="ability-card-hdr">';
+  html += '<span class="ability-card-name">' + name.trim() + '</span>';
+  html += '<div class="ability-card-tags">';
+  html += '<span class="ability-tag ability-tag--' + type.toLowerCase() + '">' + type + '</span>';
+  if (apCost) {
+    html += '<span class="ability-tag ability-tag--ap">' + apCost + ' AP</span>';
+  }
+  if (extraClean) {
+    html += '<span class="ability-tag ability-tag--extra">' + extraClean.replace(/^,\s*/, '') + '</span>';
+  }
+  html += '</div></div>';
+  html += '<div class="ability-card-desc">' + desc + '</div>';
   html += '</div>';
   return html;
 }
