@@ -16,32 +16,15 @@
       "text": "Roll your weapon’s accuracy die and add your <strong>stat bonus.</strong>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat Value</strong>                      <strong>Bonus</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "2-3                                 +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "4-5                                 +2"
-    },
-    {
-      "type": "paragraph",
-      "text": "6-7                                 +3"
-    },
-    {
-      "type": "paragraph",
-      "text": "8-9                                 +4"
-    },
-    {
-      "type": "paragraph",
-      "text": "10                                  +5 ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Stat Value", "Bonus"],
+      "rows": [
+        ["2-3", "+1"],
+        ["4-5", "+2"],
+        ["6-7", "+3"],
+        ["8-9", "+4"],
+        ["10", "+5"]
+      ]
     },
     {
       "type": "blockquote",
@@ -136,32 +119,15 @@
       "text": "Every weapon has an AP cost that determines how many times you can attack per turn and how much flexibility you have left over."
     },
     {
-      "type": "paragraph",
-      "text": "----------------- ------------------ ----------------- -----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>AP Cost</strong>       <strong>Attacks/Turn</strong>   <strong>Spare AP</strong>      <strong>Tactical Profile</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 AP              5 attacks          0                 All-in flurry. No movement, no items. Pure aggression."
-    },
-    {
-      "type": "paragraph",
-      "text": "2 AP              2 attacks          1                 Two strikes, one spare for Move or Item. Balanced."
-    },
-    {
-      "type": "paragraph",
-      "text": "3 AP              1 attack           2                 One strike, full tactical flexibility (Move + Item)."
-    },
-    {
-      "type": "paragraph",
-      "text": "4 AP              1 attack           1                 One devastating blow, one spare for Move or Item."
-    },
-    {
-      "type": "paragraph",
-      "text": "5 AP              1 attack           0                 Full commitment. Everything goes into one shot. ----------------- ------------------ ----------------- -----------------"
+      "type": "table",
+      "headers": ["AP Cost", "Attacks/Turn", "Spare AP", "Tactical Profile"],
+      "rows": [
+        ["1 AP", "5 attacks", "0", "All-in flurry. No movement, no items. Pure aggression."],
+        ["2 AP", "2 attacks", "1", "Two strikes, one spare for Move or Item. Balanced."],
+        ["3 AP", "1 attack", "2", "One strike, full tactical flexibility (Move + Item)."],
+        ["4 AP", "1 attack", "1", "One devastating blow, one spare for Move or Item."],
+        ["5 AP", "1 attack", "0", "Full commitment. Everything goes into one shot."]
+      ]
     },
     {
       "type": "paragraph",

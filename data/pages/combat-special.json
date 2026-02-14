@@ -108,24 +108,13 @@
       "text": "Cover Types"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Cover</strong>               <strong>Evasion Bonus</strong>       <strong>Description</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Light Cover</strong>         +1                      Thin walls, furniture, foliage. Blocks line of sight partially."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Heavy Cover</strong>         +2                      Concrete walls, vehicles, fortified positions. Blocks most angles."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Total Cover</strong>         Can’t be targeted      Fully enclosed. You can’t be shot and you can’t shoot. ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Cover", "Evasion Bonus", "Description"],
+      "rows": [
+        ["Light Cover", "+1", "Thin walls, furniture, foliage. Blocks line of sight partially."],
+        ["Heavy Cover", "+2", "Concrete walls, vehicles, fortified positions. Blocks most angles."],
+        ["Total Cover", "Can't be targeted", "Fully enclosed. You can't be shot and you can't shoot."]
+      ]
     },
     {
       "type": "heading",
@@ -168,32 +157,15 @@
       "text": "Roll your weapon’s accuracy die and add your <strong>stat bonus.</strong>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat Value</strong>                      <strong>Bonus</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "2-3                                 +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "4-5                                 +2"
-    },
-    {
-      "type": "paragraph",
-      "text": "6-7                                 +3"
-    },
-    {
-      "type": "paragraph",
-      "text": "8-9                                 +4"
-    },
-    {
-      "type": "paragraph",
-      "text": "10                                  +5 ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Stat Value", "Bonus"],
+      "rows": [
+        ["2-3", "+1"],
+        ["4-5", "+2"],
+        ["6-7", "+3"],
+        ["8-9", "+4"],
+        ["10", "+5"]
+      ]
     },
     {
       "type": "blockquote",
@@ -288,32 +260,15 @@
       "text": "Every weapon has an AP cost that determines how many times you can attack per turn and how much flexibility you have left over."
     },
     {
-      "type": "paragraph",
-      "text": "----------------- ------------------ ----------------- -----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>AP Cost</strong>       <strong>Attacks/Turn</strong>   <strong>Spare AP</strong>      <strong>Tactical Profile</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 AP              5 attacks          0                 All-in flurry. No movement, no items. Pure aggression."
-    },
-    {
-      "type": "paragraph",
-      "text": "2 AP              2 attacks          1                 Two strikes, one spare for Move or Item. Balanced."
-    },
-    {
-      "type": "paragraph",
-      "text": "3 AP              1 attack           2                 One strike, full tactical flexibility (Move + Item)."
-    },
-    {
-      "type": "paragraph",
-      "text": "4 AP              1 attack           1                 One devastating blow, one spare for Move or Item."
-    },
-    {
-      "type": "paragraph",
-      "text": "5 AP              1 attack           0                 Full commitment. Everything goes into one shot. ----------------- ------------------ ----------------- -----------------"
+      "type": "table",
+      "headers": ["AP Cost", "Attacks/Turn", "Spare AP", "Tactical Profile"],
+      "rows": [
+        ["1 AP", "5 attacks", "0", "All-in flurry. No movement, no items. Pure aggression."],
+        ["2 AP", "2 attacks", "1", "Two strikes, one spare for Move or Item. Balanced."],
+        ["3 AP", "1 attack", "2", "One strike, full tactical flexibility (Move + Item)."],
+        ["4 AP", "1 attack", "1", "One devastating blow, one spare for Move or Item."],
+        ["5 AP", "1 attack", "0", "Full commitment. Everything goes into one shot."]
+      ]
     },
     {
       "type": "paragraph",
@@ -333,35 +288,18 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage  <em>Crit chance by accuracy die:</em>"
+      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Accuracy Die</strong>        <strong>Crit Chance Per       </strong>Crit Chance Per Turn Attack<strong>                (at max attacks)</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "d4                      25%                     25% (1 attack)"
-    },
-    {
-      "type": "paragraph",
-      "text": "d6                      16.7%                   16.7% (1 attack)"
-    },
-    {
-      "type": "paragraph",
-      "text": "d8                      12.5%                   12.5% (1 attack)"
-    },
-    {
-      "type": "paragraph",
-      "text": "d10                     10%                     19% (2 attacks)"
-    },
-    {
-      "type": "paragraph",
-      "text": "d12                     8.3%                    35% (5 attacks) ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Accuracy Die", "Crit Chance Per Attack", "Crit Chance Per Turn (at max attacks)"],
+      "rows": [
+        ["d4", "25%", "25% (1 attack)"],
+        ["d6", "16.7%", "16.7% (1 attack)"],
+        ["d8", "12.5%", "12.5% (1 attack)"],
+        ["d10", "10%", "19% (2 attacks)"],
+        ["d12", "8.3%", "35% (5 attacks)"]
+      ]
     },
     {
       "type": "paragraph",
@@ -384,64 +322,30 @@
       "text": "<strong>Base Evasion = 3 + Edge bonus.</strong> Modified by armor, augments, conditions, and cover."
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Evasion</strong>             <strong>Difficulty</strong>          <strong>Rough Equivalent</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "2-3                     Easy to hit             Slow, large, unaware"
-    },
-    {
-      "type": "paragraph",
-      "text": "4-5                     Standard                Average contractor"
-    },
-    {
-      "type": "paragraph",
-      "text": "6-7                     Hard to hit             Agile, augmented"
-    },
-    {
-      "type": "paragraph",
-      "text": "8+                      Very hard               Exceptional evasion, heavy cover ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Evasion", "Difficulty", "Rough Equivalent"],
+      "rows": [
+        ["2-3", "Easy to hit", "Slow, large, unaware"],
+        ["4-5", "Standard", "Average contractor"],
+        ["6-7", "Hard to hit", "Agile, augmented"],
+        ["8+", "Very hard", "Exceptional evasion, heavy cover"]
+      ]
     },
     {
       "type": "paragraph",
       "text": "<strong>Armor caps Evasion.</strong> Heavy armor limits how much your Edge stat contributes to Evasion."
     },
     {
-      "type": "paragraph",
-      "text": "----------------- ----------------- ----------------- -----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Armor Type</strong>    <strong>Armor Value</strong>   <strong>Evasion Cap</strong>   <strong>Chrome Required</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Street Clothes    0                 No cap            —"
-    },
-    {
-      "type": "paragraph",
-      "text": "Light Weave       2                 No cap            —"
-    },
-    {
-      "type": "paragraph",
-      "text": "Contractor        4                 6                 Chrome 2 Standard"
-    },
-    {
-      "type": "paragraph",
-      "text": "Heavy Plate       6                 3                 Chrome 4"
-    },
-    {
-      "type": "paragraph",
-      "text": "Corp Tactical     5                 4                 Chrome 3"
-    },
-    {
-      "type": "paragraph",
-      "text": "Rift-Walker Suit  3                 No cap            Interface 4 ----------------- ----------------- ----------------- -----------------"
+      "type": "table",
+      "headers": ["Armor Type", "Armor Value", "Evasion Cap", "Chrome Required"],
+      "rows": [
+        ["Street Clothes", "0", "No cap", "—"],
+        ["Light Weave", "2", "No cap", "—"],
+        ["Contractor Standard", "4", "6", "Chrome 2"],
+        ["Heavy Plate", "6", "3", "Chrome 4"],
+        ["Corp Tactical", "5", "4", "Chrome 3"],
+        ["Rift-Walker Suit", "3", "No cap", "Interface 4"]
+      ]
     },
     {
       "type": "paragraph",
@@ -480,36 +384,16 @@
       "text": "<em>HP = 12 + (Grit × 2)</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Grit</strong>                            <strong>HP</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "3                                   18"
-    },
-    {
-      "type": "paragraph",
-      "text": "4                                   20"
-    },
-    {
-      "type": "paragraph",
-      "text": "5                                   22"
-    },
-    {
-      "type": "paragraph",
-      "text": "6                                   24"
-    },
-    {
-      "type": "paragraph",
-      "text": "8                                   28"
-    },
-    {
-      "type": "paragraph",
-      "text": "10                                  32 ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Grit", "HP"],
+      "rows": [
+        ["3", "18"],
+        ["4", "20"],
+        ["5", "22"],
+        ["6", "24"],
+        ["8", "28"],
+        ["10", "32"]
+      ]
     },
     {
       "type": "paragraph",
@@ -536,44 +420,18 @@
       "text": "<strong>1. Gain +1 Scar</strong> (permanent until treated)  <strong>2. Roll 1d20 vs Death DC</strong> (based on total Scars)  <strong>3. Success:</strong> Stabilize at 50% max HP. You’re alive. Get up next turn.  <strong>4. Failure:</strong> Flatline. Death or harvesting (GM’s call based on circumstances)."
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Scars</strong>               <strong>Death DC</strong>            <strong>Survival %</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "1                       0                       100% (free one)"
-    },
-    {
-      "type": "paragraph",
-      "text": "2                       2                       95%"
-    },
-    {
-      "type": "paragraph",
-      "text": "3                       5                       80%"
-    },
-    {
-      "type": "paragraph",
-      "text": "4                       8                       65%"
-    },
-    {
-      "type": "paragraph",
-      "text": "5                       11                      50%"
-    },
-    {
-      "type": "paragraph",
-      "text": "6                       14                      35%"
-    },
-    {
-      "type": "paragraph",
-      "text": "7                       17                      20%"
-    },
-    {
-      "type": "paragraph",
-      "text": "8+                      19                      10% ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Scars", "Death DC", "Survival %"],
+      "rows": [
+        ["1", "0", "100% (free one)"],
+        ["2", "2", "95%"],
+        ["3", "5", "80%"],
+        ["4", "8", "65%"],
+        ["5", "11", "50%"],
+        ["6", "14", "35%"],
+        ["7", "17", "20%"],
+        ["8+", "19", "10%"]
+      ]
     },
     {
       "type": "paragraph",
@@ -660,28 +518,14 @@
       "text": "4 players = approximately 4 enemy activations."
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Enemy Type</strong>                      <strong>Activations</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Minion Horde (any size)             1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Standard Enemy                      1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Elite                               1 (2 for large elites)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Boss                                2-3 ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Enemy Type", "Activations"],
+      "rows": [
+        ["Minion Horde (any size)", "1"],
+        ["Standard Enemy", "1"],
+        ["Elite", "1 (2 for large elites)"],
+        ["Boss", "2-3"]
+      ]
     }
   ]
 }
