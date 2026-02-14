@@ -20,20 +20,28 @@
       "text": "What It Offers"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Black Market Goods:</strong> Military-grade augments, restricted pharmaceuticals, stolen corp technology, pre-ban weapons, exotic rift materials that should have been reported to a sorting facility. Anything that has value and isn’t supposed to be available — the Undercity has it, for a price. Quality varies. Caveat emptor."
+      "type": "callout",
+      "label": "Goods",
+      "style": "gold",
+      "text": "<strong>Black Market Goods:</strong> Military-grade augments, restricted pharmaceuticals, stolen corp technology, pre-ban weapons, exotic rift materials that should have been reported to a sorting facility. Anything that has value and isn't supposed to be available — the Undercity has it, for a price. Quality varies. Caveat emptor."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Unregistered Services:</strong> Augment installation that doesn’t appear on any medical record. Scar treatment that doesn’t trigger a health-score report. Detox that doesn’t log your toxicity readings. Identity alteration — new name, new contractor ID, new history. Toxicity spoofing — devices that fool corp scanners into reading lower than your actual levels. These services exist because the corps track everything, and some people need to not be tracked."
+      "type": "callout",
+      "label": "Services",
+      "style": "teal",
+      "text": "<strong>Unregistered Services:</strong> Augment installation that doesn't appear on any medical record. Scar treatment without health-score reports. Detox without toxicity logging. Identity alteration — new name, new contractor ID, new history. Toxicity spoofing — devices that fool corp scanners. These services exist because the corps track everything, and some people need to not be tracked."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Information:</strong> The Undercity’s most valuable commodity. Who’s hiring, who’s dying, which corp is moving on which territory, which contracts are traps, where the Sentinel patrols are tonight, and where the wild rift opened last week that nobody’s reported yet. Information flows through the Undercity faster than through official channels because it’s not filtered, redacted, or classified."
+      "type": "callout",
+      "label": "Intel",
+      "style": "accent",
+      "text": "<strong>Information:</strong> The Undercity's most valuable commodity. Who's hiring, who's dying, which corp is moving on which territory, which contracts are traps, where the Sentinel patrols are tonight. Information flows faster than official channels because it's not filtered, redacted, or classified."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Sanctuary:</strong> For people who need to disappear. Ex-corporate citizens who left without permission. Contractors who broke an NDA and the Advocates are looking. Non-humans who escaped Wellspring “employment.“ People with toxicity readings that would trigger mandatory quarantine. The Undercity doesn’t judge. It doesn’t protect, either — it just doesn’t report. Anonymity is the service. What you do with it is your problem."
+      "type": "callout",
+      "label": "Sanctuary",
+      "style": "rust",
+      "text": "<strong>For people who need to disappear.</strong> Ex-corporate citizens who left without permission. Contractors who broke an NDA. Non-humans who escaped Wellspring \"employment.\" People with toxicity readings that would trigger mandatory quarantine. The Undercity doesn't judge. It doesn't protect, either — it just doesn't report. Anonymity is the service. What you do with it is your problem."
     },
     {
       "type": "heading",
@@ -60,60 +68,32 @@
       "text": "Undercity Price Modifiers"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Item Type</strong>                       <strong>Undercity Price vs Market</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Standard goods (available legally)  80-90% market (slight discount, no tax)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Restricted goods (corp-controlled)  150-200% market (scarcity premium)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Military-grade (stolen/smuggled)    200-300% market"
-    },
-    {
-      "type": "paragraph",
-      "text": "Unregistered services (off-record)  120-150% of registered equivalent"
-    },
-    {
-      "type": "paragraph",
-      "text": "Identity services (new ID, history) 500-2,000 cr (depends on quality)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Toxicity spoofing device            300 cr (lasts \\~30 days before recalibration)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Information (specific, actionable)  50-500 cr (depends on value and danger) ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Item Type", "Price vs Market", "Notes"],
+      "rows": [
+        ["Standard goods (legal)", "80–90% market", "Slight discount, no tax"],
+        ["Restricted goods (corp-controlled)", "150–200% market", "Scarcity premium"],
+        ["Military-grade (stolen/smuggled)", "200–300% market", "Quality varies wildly"],
+        ["Unregistered services", "120–150% of registered", "No records, no questions"],
+        ["Identity services (new ID)", "500–2,000 cr", "Depends on quality"],
+        ["Toxicity spoofing device", "300 cr", "Lasts ~30 days before recalibration"],
+        ["Information (specific, actionable)", "50–500 cr", "Depends on value and danger"]
+      ]
     },
     {
       "type": "heading",
       "text": "Undercity Risks"
     },
     {
-      "type": "paragraph",
-      "text": "Buying from the Undercity isn’t free of consequences:"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Quality Variance:</strong> That “military-grade“ augment might be stolen from a Sentinel armory (excellent quality) or reverse-engineered in a margin workshop (questionable quality). No warranties. No returns."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Attention:</strong> Frequent Undercity transactions create a pattern. Corp surveillance isn’t omniscient, but it’s persistent. A contractor who regularly purchases unregistered services eventually appears on someone’s report. The consequences range from “increased scanning at gate checkpoints“ to “a visit from someone who asks uncomfortable questions.“"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dependency:</strong> The Undercity’s services are convenient. Reliance on them creates vulnerability — your identity forger knows your real name, your toxicity spoofer knows your actual readings, your black market augment installer knows exactly what chrome you’re carrying and where. Trust in the Undercity is mutual — but mutual vulnerability isn’t the same as mutual loyalty."
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "Buying from the Undercity isn't free of consequences:",
+      "items": [
+        "<strong>Quality Variance:</strong> That \"military-grade\" augment might be stolen from a Sentinel armory (excellent quality) or reverse-engineered in a margin workshop (questionable quality). No warranties. No returns.",
+        "<strong>Attention:</strong> Frequent Undercity transactions create a pattern. Corp surveillance isn't omniscient, but it's persistent. Consequences range from \"increased scanning at checkpoints\" to \"a visit from someone who asks uncomfortable questions.\"",
+        "<strong>Dependency:</strong> Your identity forger knows your real name. Your toxicity spoofer knows your actual readings. Your augment installer knows exactly what chrome you're carrying. Mutual vulnerability isn't the same as mutual loyalty."
+      ]
     },
     {
       "type": "blockquote",

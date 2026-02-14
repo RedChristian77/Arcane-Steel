@@ -224,7 +224,15 @@ function App(){
       const t2=nonBonus.filter(([,v])=>v===2).length;
       // Bonus at T2 counts toward T2 limit
       const bnT2=(bn&&nS[bn]===2)?1:0;
-      if(t1>3||t2+bnT2>1)return p;
+      if(t1>3||t2+bnT2>1){
+        // If T1→T2 was blocked for non-bonus, skip to removal instead of locking up
+        if(!isBn&&cur===1&&next===2){
+          const nS2={...p};
+          delete nS2[s.name];
+          return nS2;
+        }
+        return p;
+      }
       return nS;
     });
   }

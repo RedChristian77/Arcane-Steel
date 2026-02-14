@@ -31,6 +31,21 @@ function renderSidebar(manifest, currentPageId) {
         html += '<a class="nav-page' + (active ? ' active' : '') + '" '
           + 'onclick="navigateTo(\'' + page.id + '\')">'
           + esc(page.title) + '</a>';
+        // Show "On This Page" sub-nav for active page
+        if (active && pageCache[page.id]) {
+          const headings = pageCache[page.id].content.filter(function(c) { return c.type === 'heading'; });
+          if (headings.length > 1) {
+            html += '<div class="sec-subnav">';
+            html += '<div class="sec-subnav-label">On This Page</div>';
+            headings.forEach(function(h) {
+              const hText = h.text.replace(/<[^>]*>/g, '');
+              const hId = 'h-' + hText.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+              html += '<a class="sec-subnav-item" onclick="scrollToHeading(\'' + hId + '\')">'
+                + esc(hText) + '</a>';
+            });
+            html += '</div>';
+          }
+        }
       });
       html += '</div>';
     }
@@ -58,4 +73,15 @@ function toggleSidebar() {
 function closeSidebar() {
   document.getElementById('sidebar').classList.remove('open');
   document.getElementById('sidebarOverlay').classList.remove('open');
+}
+
+function scrollToHeading(id) {
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    el.style.transition = 'box-shadow 0.3s';
+    el.style.boxShadow = '0 0 0 2px var(--accent)';
+    setTimeout(function() { el.style.boxShadow = 'none'; }, 1200);
+  }
+  closeSidebar();
 }

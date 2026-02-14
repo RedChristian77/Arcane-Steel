@@ -28,32 +28,71 @@
       ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Doctrine:</strong> Acquisition (primary), Denial (secondary) <strong>Culture Origin:</strong> Ancient entertainment/media empire. The largest creator of stories, characters, and imagined worlds in human history. A thousand years later, the stories are scripture, the characters are saints, and the imagined worlds are blueprints for the real ones. The House of Mouse doesn’t just own intellectual property — it IS intellectual property. Every creature design, every magical technique, every dimensional discovery made under the House’s banner belongs to the House. Forever. Across all dimensions. Including ones that haven’t been discovered yet. The legal framework for this was established six centuries ago and has never been successfully challenged, because challenging it requires surviving the legal department, and nobody survives the legal department. <strong>Aesthetic:</strong> Black and gold. Elegant. Theatrical. Everything is a performance. Public spaces are stages. Architecture tells stories — every building has a narrative, every street has a theme, every district is a chapter. The Founder — a figure of almost divine creative power — is depicted everywhere. Smiling. Always smiling. The smile is warm. The eyes are not. <strong>Citizen Identity:</strong> Cast Members. Every citizen is a Cast Member. Not employees — performers in an ongoing production that is the House itself. Your role is assigned. Your costume (uniform) is provided. Your lines (approved speech patterns) are trained. Authenticity to the House’s creative vision isn’t just expected — it’s the only measure of worth. The most devoted Cast Members — those who embody their assigned characters so completely that the performance becomes identity — are elevated to the Inner Circle. The Inner Circle runs the House. They haven’t broken character in generations."
+      "type": "heading",
+      "text": "Culture & Origins"
     },
     {
       "type": "paragraph",
-      "text": "<strong>What They Want From Rifts:</strong> New stories. New creatures. New worlds to claim, catalog, and own. The House of Mouse sends teams into rifts not primarily for resources but for <em>content</em> — unique species, environments, and phenomena that can be documented, designed around, and added to the House’s proprietary archive. Every rift creature the House discovers is sketched, named, categorized, and copyrighted before the field team returns. If another corp later discovers the same creature independently, the House’s legal division will be in contact. The creature was theirs first. They have the paperwork."
+      "text": "An ancient entertainment and media empire — the largest creator of stories, characters, and imagined worlds in human history. A thousand years later, the stories are scripture, the characters are saints, and the imagined worlds are blueprints for the real ones. The House of Mouse doesn't just own intellectual property — it IS intellectual property. Every creature design, every magical technique, every dimensional discovery made under the House's banner belongs to the House. Forever. Across all dimensions. Including ones that haven't been discovered yet. The legal framework for cross-dimensional IP was established six centuries ago and has never been successfully challenged, because challenging it requires surviving the legal department, and nobody survives the legal department."
+    },
+    {
+      "type": "callout",
+      "label": "Aesthetic",
+      "style": "teal",
+      "text": "Black and gold. Elegant. Theatrical. Everything is a performance. Public spaces are stages. Architecture tells stories — every building has a narrative, every street has a theme, every district is a chapter. The Founder — a figure of almost divine creative power — is depicted everywhere. Smiling. Always smiling. The smile is warm. The eyes are not."
+    },
+    {
+      "type": "callout",
+      "label": "Citizens",
+      "style": "accent",
+      "text": "Cast Members. Every citizen is a performer in an ongoing production that is the House itself. Roles are assigned. Costumes are provided. Lines are trained. Authenticity to the House's creative vision isn't just expected — it's the only measure of worth. The Inner Circle — those who've embodied their assigned characters so completely that the performance became identity — runs the House. They haven't broken character in generations."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Operations"
     },
     {
       "type": "paragraph",
-      "text": "Their Denial doctrine is defensive — not sealing rifts, but protecting the House’s proprietary discoveries from theft, replication, or unauthorized observation. If you see something that belongs to the House, you didn’t see it. If you took something that belongs to the House, you’ll return it. If you replicated something that belongs to the House, the Advocates are already en route."
+      "text": "They want <em>content</em> — unique species, environments, and phenomena to document, design around, and own. Every rift creature the House discovers is sketched, named, categorized, and copyrighted before the field team returns. If another corp discovers the same creature independently, the House's legal division will be in contact. The creature was theirs first. They have the paperwork."
     },
     {
       "type": "paragraph",
-      "text": "<strong>The Advocates:</strong> The House of Mouse’s enforcement arm. Part lawyer, part assassin, part performance artist. Every Advocate is a licensed legal professional, a trained combatant, and a true believer. They carry writs of enforcement alongside weapons. They’ll serve you a cease-and-desist and a killing blow in the same motion, and both will be legally binding. Advocates wear black suits with gold pins shaped like the House sigil. They’re always polite. The politeness is not reassuring."
+      "text": "Their Denial doctrine is defensive — protecting the House's proprietary discoveries from theft, replication, or unauthorized observation. If you see something that belongs to the House, you didn't see it. If you replicated something that belongs to the House, the Advocates are already en route."
+    },
+    {
+      "type": "divider",
+      "text": "THE ADVOCATES"
+    },
+    {
+      "type": "callout",
+      "label": "Enforcement",
+      "style": "rust",
+      "text": "The Advocates — the House of Mouse's enforcement arm. Part lawyer, part assassin, part performance artist. Every Advocate is a licensed legal professional, a trained combatant, and a true believer. They carry writs of enforcement alongside weapons. They'll serve you a cease-and-desist and a killing blow in the same motion, and both will be legally binding. Black suits, gold pins shaped like the House sigil. Always polite. The politeness is not reassuring."
     },
     {
       "type": "paragraph",
-      "text": "Advocates are deployed for intellectual property violations: unauthorized reproduction of House-owned creature designs, use of House-proprietary magical techniques, possession of House-cataloged specimens without license, or — the most serious offense — creating original content that is “confusingly similar“ to existing House property. The definition of “confusingly similar“ is determined by the House. It is always confusing. It is always similar."
+      "text": "Advocates are deployed for intellectual property violations: unauthorized creature reproduction, use of House-proprietary techniques, possession of cataloged specimens without license, or creating original content that is \u201cconfusingly similar\u201d to existing House property. The definition of \u201cconfusingly similar\u201d is determined by the House. It is always confusing. It is always similar."
+    },
+    {
+      "type": "heading",
+      "text": "Working For The House"
+    },
+    {
+      "type": "callout",
+      "label": "Pay",
+      "style": "gold",
+      "text": "Excellent. The House of Mouse is one of the wealthiest corps in the world and they pay contractors well. The catch: your contract includes IP clauses that assign everything you discover, create, or even <em>think of</em> during the contract period to the House. Technically, the interesting thought you had about rift topology while eating lunch is now House property. Enforcement of this clause is selective but not theoretical. An Advocate once filed a claim against a contractor's dream journal. The Advocate won."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Pay:</strong> Excellent. The House of Mouse is one of the wealthiest corps in the world and they pay contractors well. The catch: your contract includes IP clauses that assign everything you discover, create, or even <em>think of</em> during the contract period to the House. Technically, the interesting thought you had about rift topology while eating lunch is now House property. Enforcement of this clause is selective but not theoretical. An Advocate once filed a claim against a contractor’s dream journal. The Advocate won."
+      "text": "Theatrical. Immaculate. Deeply unsettling. Everything is beautiful. The briefings are presentations with musical accompaniment. The equipment is elegant, well-designed, and embossed with the House sigil. The handlers are friendly, supportive, and watching you with the focused attention of people evaluating whether you're on-brand. You will sign more documents than any other corp. You will understand fewer of them. The food is themed. The lodging is themed. The mandatory team-building exercises are themed. At some point you'll realize that the entire experience has been designed to make you feel something specific, and that the feeling was planned before you arrived."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Working For The House:</strong> Theatrical. Immaculate. Deeply unsettling. Everything is beautiful. The briefings are presentations with musical accompaniment. The equipment is elegant, well-designed, and embossed with the House sigil. The handlers are friendly, supportive, and watching you with the focused attention of people who are evaluating whether you’re on-brand. You will sign more documents than any other corp. You will understand fewer of them. The food is themed. The lodging is themed. The mandatory team-building exercises are themed. At some point you’ll realize that the entire experience has been designed to make you feel something specific, and that the feeling was planned before you arrived. It’s a wonderful experience. It’s a perfect experience. And when you leave, you’ll notice that you can’t quite remember agreeing to certain things, but the paperwork says you did, and the paperwork is immaculate."
+      "type": "blockquote",
+      "text": "<em>\"All creative output generated during contracted engagement periods — including but not limited to observations, sketches, verbal descriptions, involuntary exclamations, and dreams occurring within 48 hours of mission completion — constitutes Work Product under Section 14(g) of the Standard Contribution Agreement. The House thanks you for your imagination. It belongs to us now.\"</em>"
     }
   ]
 }

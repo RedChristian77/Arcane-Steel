@@ -44,10 +44,12 @@ function renderContent(items) {
         }
         break;
       }
-      case 'heading':
+      case 'heading': {
         paraRun = 0;
-        html += '<h3 class="c-heading">' + item.text + '</h3>';
+        const hId = 'h-' + item.text.replace(/<[^>]*>/g, '').replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+        html += '<h3 class="c-heading" id="' + hId + '">' + item.text + '</h3>';
         break;
+      }
       case 'blockquote':
         paraRun = 0;
         html += '<div class="c-blockquote"><div class="c-bq-badge">CORP NOTICE</div>' + item.text + '</div>';
@@ -91,12 +93,69 @@ function renderContent(items) {
         html += renderKitGrid(item);
         break;
 
+      case 'callout':
+        paraRun = 0;
+        html += renderCallout(item);
+        break;
+
+      case 'info-block':
+        paraRun = 0;
+        html += renderInfoBlock(item);
+        break;
+
+      case 'divider':
+        paraRun = 0;
+        html += '<div class="c-divider' + (item.style ? ' c-divider--' + item.style : '') + '">'
+          + (item.text ? esc(item.text) : '⬦ ⬦ ⬦') + '</div>';
+        break;
+
       default:
         paraRun = 0;
     }
   });
   flushBullets();
   return html;
+}
+
+/* --- Callout box (key rules, warnings, tips) --- */
+function renderCallout(item) {
+  const style = item.style || 'accent';
+  let html = '<div class="c-callout c-callout--' + style + '">';
+  if (item.label) {
+    html += '<div class="c-callout-label">' + esc(item.label) + '</div>';
+  }
+  html += '<div class="c-callout-text">' + item.text + '</div>';
+  if (item.items && item.items.length) {
+    html += '<ul class="c-callout-list">'
+      + item.items.map(function(li) { return '<li>' + li + '</li>'; }).join('')
+      + '</ul>';
+  }
+  return html + '</div>';
+}
+
+/* --- Info block (structured profile card) --- */
+function renderInfoBlock(item) {
+  let html = '<div class="c-info-block">';
+  html += '<div class="c-info-block-header">';
+  if (item.icon) html += '<span class="c-info-block-icon">' + item.icon + '</span>';
+  html += '<div>';
+  html += '<div class="c-info-block-title">' + esc(item.title) + '</div>';
+  if (item.subtitle) html += '<div class="c-info-block-subtitle">' + esc(item.subtitle) + '</div>';
+  html += '</div></div>';
+  if (item.entries && item.entries.length) {
+    html += '<div class="c-info-block-entries">';
+    item.entries.forEach(function(e) {
+      html += '<div class="c-info-block-entry' + (e.full ? ' full' : '') + '">'
+        + '<span class="c-info-block-entry-label">' + esc(e.label) + '</span>'
+        + '<span class="c-info-block-entry-val">' + e.value + '</span>'
+        + '</div>';
+    });
+    html += '</div>';
+  }
+  if (item.desc) {
+    html += '<div class="c-info-block-desc">' + item.desc + '</div>';
+  }
+  return html + '</div>';
 }
 
 function renderTable(item) {

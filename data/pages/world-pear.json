@@ -28,28 +28,57 @@
       ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Doctrine:</strong> Survey (primary), Acquisition (secondary) <strong>Culture Origin:</strong> Ancient consumer technology company. Sleek devices. Proprietary ecosystems. Planned obsolescence. A founder who wore simple clothes and spoke in revelations. A thousand years later, the founder is a genuine saint — the Visionary, depicted in iconography as a robed figure holding a single luminous fruit. The product launches are holy days. The devices are sacraments. And the ecosystem is now a literal closed society where every piece of technology, every augment, every interface in your body must be Pear-compatible or it doesn’t work."
+      "type": "heading",
+      "text": "Culture & Origins"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Aesthetic:</strong> White and silver. Minimalist. Clean. Every surface is a screen. Every screen is an interface. Every interface connects to the Network, which is Pear’s proprietary information architecture — a system so deeply integrated into daily life that citizens experience withdrawal symptoms when disconnected. The architecture is beautiful. The stores are temples. The Genius Bars are confessionals where technician-priests diagnose your spiritual and technical ailments."
+      "text": "Ancient consumer technology company. Sleek devices. Proprietary ecosystems. Planned obsolescence. A founder who wore simple clothes and spoke in revelations. A thousand years later, the founder is a genuine saint — the Visionary, depicted in iconography as a robed figure holding a single luminous fruit. The product launches are holy days. The devices are sacraments. And the ecosystem is now a literal closed society where every piece of technology, every augment, every interface in your body must be Pear-compatible or it doesn't work."
+    },
+    {
+      "type": "callout",
+      "label": "Aesthetic",
+      "style": "teal",
+      "text": "White and silver. Minimalist. Clean. Every surface is a screen. Every screen is an interface. Every interface connects to the Network, which is Pear's proprietary information architecture — a system so deeply integrated into daily life that citizens experience withdrawal symptoms when disconnected. The architecture is beautiful. The stores are temples. The Genius Bars are confessionals where technician-priests diagnose your spiritual and technical ailments."
+    },
+    {
+      "type": "callout",
+      "label": "Citizens",
+      "style": "accent",
+      "text": "Users. Not pejoratively — reverently. To Use is to participate in the Network. To be Connected is to be alive. Disconnection is exile. Obsolescence is death. Citizens upgrade constantly — not just devices but themselves. Augments must be Pear-certified. Non-certified modifications void your warranty, which in Pear territory means voiding your citizenship. The most Connected citizen — the one running the most current version of themselves — has the highest status."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Operations"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Citizen Identity:</strong> Users. Not pejoratively — reverently. To Use is to participate in the Network. To be Connected is to be alive. Disconnection is exile. Obsolescence is death. Citizens upgrade constantly — not just devices but themselves. Augments must be Pear-certified. Non-certified modifications void your warranty, which in Pear territory means voiding your citizenship. The most Connected citizen — the one running the most current version of themselves — has the highest status."
+      "text": "Data. Dimensional topology. Information architecture from other realities. Pear's Survey doctrine is about mapping everything — not just rift geography but the underlying information structure of other dimensions. They believe (and they might be right) that reality itself is an operating system, and the rifts are access points to the source code. If they can read it, they can write it. Every other corp thinks Pear is being dramatic. Pear thinks every other corp lacks vision."
+    },
+    {
+      "type": "heading",
+      "text": "Working For Pear"
+    },
+    {
+      "type": "callout",
+      "label": "Pay",
+      "style": "gold",
+      "text": "Data-weighted. Base pay is average. Bonuses for quality data are enormous. A survey that produces a new predictive model for rift behavior is worth a small fortune. A survey that returns corrupted data pays minimum. Pear's payment system is, naturally, proprietary and requires a Pear-compatible financial interface to access."
     },
     {
       "type": "paragraph",
-      "text": "<strong>What They Want From Rifts:</strong> Data. Dimensional topology. Information architecture from other realities. Pear’s Survey doctrine is about mapping everything — not just rift geography but the underlying information structure of other dimensions. They believe (and they might be right) that reality itself is an operating system, and the rifts are access points to the source code. If they can read it, they can write it. Every other corp thinks Pear is being dramatic. Pear thinks every other corp lacks vision."
+      "text": "Sleek. Condescending. Pear treats contractors the way a temple treats visiting barbarians — with polite tolerance and the unshakeable belief that you'd be happier if you just converted. Briefings are delivered via holographic presentation with soundtrack. Equipment is excellent and only compatible with other Pear equipment. The technician-priests who handle your debriefing are genuinely brilliant and genuinely confused by anyone who uses non-Pear augments. \"Why would you do that to yourself?\" they ask, with the sincere concern of missionaries encountering the unbaptized."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Pay:</strong> Data-weighted. Base pay is average. Bonuses for quality data are enormous. A survey that produces a new predictive model for rift behavior is worth a small fortune. A survey that returns corrupted data pays minimum. Pear’s payment system is, naturally, proprietary and requires a Pear-compatible financial interface to access."
+      "type": "flavor",
+      "text": "They believe reality itself is an operating system, and the rifts are access points to the source code. If they can read it, they can write it."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Working For Pear:</strong> Sleek. Condescending. Pear treats contractors the way a temple treats visiting barbarians — with polite tolerance and the unshakeable belief that you’d be happier if you just converted. Briefings are delivered via holographic presentation with soundtrack. Equipment is excellent and only compatible with other Pear equipment. The technician-priests who handle your debriefing are genuinely brilliant and genuinely confused by anyone who uses non-Pear augments. “Why would you do that to yourself?“ they ask, with the sincere concern of missionaries encountering the unbaptized."
+      "type": "blockquote",
+      "text": "<em>\"Your debriefing data has been synced to the Network. Thank you for your contribution to the dimensional index. Your equipment will be returned following a compatibility audit. Please note that any non-Pear augments detected during post-mission screening may void your coverage under the Contractor Care Initiative. Upgrade paths are available at all Genius Shrines. Think Different. Think Pear.\"</em>"
     }
   ]
 }

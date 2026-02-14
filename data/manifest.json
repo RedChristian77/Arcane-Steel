@@ -10,51 +10,6 @@
           "file": "pages/world-orientation.json"
         },
         {
-          "id": "world-corporations",
-          "title": "How Corporations Work",
-          "file": "pages/world-corporations.json"
-        },
-        {
-          "id": "world-congo",
-          "title": "Congo Industries",
-          "file": "pages/world-congo.json"
-        },
-        {
-          "id": "world-table",
-          "title": "The Crowned Table",
-          "file": "pages/world-table.json"
-        },
-        {
-          "id": "world-pear",
-          "title": "Pear Technologies",
-          "file": "pages/world-pear.json"
-        },
-        {
-          "id": "world-wellspring",
-          "title": "Wellspring Pharma",
-          "file": "pages/world-wellspring.json"
-        },
-        {
-          "id": "world-sentinel",
-          "title": "Sentinel Systems",
-          "file": "pages/world-sentinel.json"
-        },
-        {
-          "id": "world-green-cradle",
-          "title": "Green Cradle",
-          "file": "pages/world-green-cradle.json"
-        },
-        {
-          "id": "world-house-of-mouse",
-          "title": "The House of Mouse",
-          "file": "pages/world-house-of-mouse.json"
-        },
-        {
-          "id": "world-brokers",
-          "title": "Brokers & Factions",
-          "file": "pages/world-brokers.json"
-        },
-        {
           "id": "world-geography",
           "title": "Geography & Territories",
           "file": "pages/world-geography.json"
@@ -73,6 +28,57 @@
           "id": "world-undercity",
           "title": "The Undercity",
           "file": "pages/world-undercity.json"
+        }
+      ]
+    },
+    {
+      "title": "Corporations",
+      "icon": "🏢",
+      "pages": [
+        {
+          "id": "world-corporations",
+          "title": "How Corps Work",
+          "file": "pages/world-corporations.json"
+        },
+        {
+          "id": "world-congo",
+          "title": "⛏️ Congo Industries",
+          "file": "pages/world-congo.json"
+        },
+        {
+          "id": "world-table",
+          "title": "👑 The Crowned Table",
+          "file": "pages/world-table.json"
+        },
+        {
+          "id": "world-pear",
+          "title": "🍐 Pear Technologies",
+          "file": "pages/world-pear.json"
+        },
+        {
+          "id": "world-wellspring",
+          "title": "💊 Wellspring Pharma",
+          "file": "pages/world-wellspring.json"
+        },
+        {
+          "id": "world-sentinel",
+          "title": "🏛️ Sentinel Systems",
+          "file": "pages/world-sentinel.json"
+        },
+        {
+          "id": "world-green-cradle",
+          "title": "🌿 Green Cradle",
+          "file": "pages/world-green-cradle.json"
+        },
+        {
+          "id": "world-house-of-mouse",
+          "title": "🎭 House of Mouse",
+          "file": "pages/world-house-of-mouse.json"
+        },
+        {
+          "id": "world-brokers",
+          "title": "Brokers & Factions",
+          "file": "pages/world-brokers.json"
         }
       ]
     },

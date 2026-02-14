@@ -28,20 +28,57 @@
       ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Doctrine:</strong> Extraction (primary), Denial (secondary) <strong>Culture Origin:</strong> Ancient logistics/retail megacorporation. The name is all that remains of a delivery empire that once promised everything, everywhere, in two days. A thousand years later, the Two-Day Promise is a religious covenant. Congo doesn’t just extract from rifts — they warehouse, catalog, distribute, and deliver. The rift is a supply chain. Everything is a supply chain. <strong>Aesthetic:</strong> Brown and gold. Warehouses the size of cities. Sorting facilities that never close. The arrow logo — once a simple brand mark — has become a sacred geometry. It points forward. Always forward. Citizens wear it over their hearts. <strong>Citizen Identity:</strong> Fulfillers. Every citizen is part of the chain — picking, packing, shipping, delivering. Not metaphorically. The caste system is literally organized by fulfillment role. Pickers harvest. Packers process. Shippers transport. Deliverers are the warrior-clergy who ensure goods reach their destination. The Founder — a figure of mythic proportions, bald and laughing, ascending to the stars on a pillar of fire — is worshipped as the First Deliverer."
+      "type": "heading",
+      "text": "Culture & Origins"
     },
     {
       "type": "paragraph",
-      "text": "<strong>What They Want From Rifts:</strong> Volume. Raw materials by the ton. Exotic goods for cataloging and distribution. Congo’s rift operations are industrial-scale extraction with logistics precision. They don’t just mine the rift — they’ve built sorting facilities on the other side. Forward operating warehouses in other dimensions. The supply chain extends through reality itself."
+      "text": "The name is all that remains of a delivery empire that once promised everything, everywhere, in two days. A thousand years later, the Two-Day Promise is a religious covenant. Congo doesn't just extract from rifts — they warehouse, catalog, distribute, and deliver. The rift is a supply chain. Everything is a supply chain."
+    },
+    {
+      "type": "callout",
+      "label": "Aesthetic",
+      "style": "teal",
+      "text": "Brown and gold. Warehouses the size of cities. Sorting facilities that never close. The arrow logo — once a simple brand mark — has become a sacred geometry. It points forward. Always forward. Citizens wear it over their hearts."
+    },
+    {
+      "type": "callout",
+      "label": "Citizens",
+      "style": "accent",
+      "text": "Fulfillers. Every citizen is part of the chain — picking, packing, shipping, delivering. Not metaphorically. The caste system is literally organized by fulfillment role. Pickers harvest. Packers process. Shippers transport. Deliverers are the warrior-clergy who ensure goods reach their destination. The Founder — a figure of mythic proportions, bald and laughing, ascending to the stars on a pillar of fire — is worshipped as the First Deliverer."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Rift Operations"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Pay:</strong> Volume-based. Base pay is average, but tonnage bonuses are generous. Congo’s motto for contractors: “Fill the manifest.“ The more you haul, the more you earn. Vehicle owners thrive here."
+      "text": "Volume. Raw materials by the ton. Exotic goods for cataloging and distribution. Congo's rift operations are industrial-scale extraction with logistics precision. They don't just mine the rift — they've built sorting facilities on the other side. Forward operating warehouses in other dimensions. The supply chain extends through reality itself."
+    },
+    {
+      "type": "heading",
+      "text": "Working For Congo"
+    },
+    {
+      "type": "callout",
+      "label": "Pay",
+      "style": "gold",
+      "text": "Volume-based. Base pay is average, but tonnage bonuses are generous. Fill the manifest — the more you haul, the more you earn. Vehicle owners thrive here."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Working For Congo:</strong> Efficient. Impersonal. You are a logistics resource. Your contractor ID is a tracking number. Briefings are automated — you receive a manifest, a route, and a deadline. Meet the deadline, get paid. Miss it, get docked. Congo doesn’t hate you. Congo doesn’t think about you. You’re a line on a spreadsheet that either resolves green or red."
+      "text": "Efficient. Impersonal. You are a logistics resource. Your contractor ID is a tracking number. Briefings are automated — you receive a manifest, a route, and a deadline. Meet the deadline, get paid. Miss it, get docked. Congo doesn't hate you. Congo doesn't think about you."
+    },
+    {
+      "type": "flavor",
+      "text": "You're a line on a spreadsheet that either resolves green or red."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Congo Industries appreciates your contribution to the supply chain. Your fulfillment metrics have been logged. Remember: there is no 'I' in 'logistics.' There is, however, an 'I' in 'termination clause.' Deliver accordingly.\"</em>"
     }
   ]
 }

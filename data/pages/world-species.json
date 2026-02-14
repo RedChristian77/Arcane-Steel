@@ -56,220 +56,184 @@
       "text": "<em>GM Note for playable non-humans: Any of these can be played as contractor characters. The mechanical impact is noted for each — mostly minor adjustments that reflect their biology without unbalancing the game. Non-human characters use the same stat array, kits, and progression as humans.</em>"
     },
     {
-      "type": "heading",
-      "text": "Human"
+      "type": "info-block",
+      "icon": "👤",
+      "title": "Human",
+      "subtitle": "Origin: Earth · Population: Dominant",
+      "entries": [
+        {"label": "Origin", "value": "Earth"},
+        {"label": "Population", "value": "Dominant — outnumber all non-humans combined"},
+        {"label": "Biology", "value": "Fragile. Slow. Magically intolerant. Worst toxicity resistance of any sapient species.", "full": true},
+        {"label": "Playable Bonus", "value": "<strong>Adaptive: +1 to all learning and training checks.</strong> Humans don't start better — they <em>get</em> better, faster.", "full": true}
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> Earth <strong>Population:</strong> Dominant. Humans outnumber all non-human species combined by a wide margin."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Biology:</strong> Fragile. Slow. Magically intolerant. Humans have the lowest baseline toxicity resistance of any sapient species in the cataloged dimensions. They can’t eat rock, photosynthesize, regenerate, or perceive dimensional energy. By any objective biological measure, humans are the worst-adapted species for a world full of interdimensional rifts."
-    },
-    {
-      "type": "paragraph",
+      "type": "flavor",
       "text": "They run the world anyway."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Why:</strong> Humans learn faster than anything else alive. Not smarter — faster at <em>adapting</em>. A Keth is born with four arms and heat tolerance. A human trains until they don’t need four arms. A Vael senses rift activity instinctively. A human builds a sensor that does it better. A Grunt heals naturally. A human invents augmentation surgery and heals faster. Every biological advantage another species has, humans have compensated for through technology, training, and an evolutionary stubbornness that borders on pathological."
+      "text": "<strong>Why:</strong> Humans learn faster than anything else alive. Not smarter — faster at <em>adapting</em>. A Keth is born with four arms and heat tolerance. A human trains until they don't need four arms. A Vael senses rift activity instinctively. A human builds a sensor that does it better. A Grunt heals naturally. A human invents augmentation surgery and heals faster. Every biological advantage another species has, humans have compensated for through technology, training, and an evolutionary stubbornness that borders on pathological."
     },
     {
       "type": "paragraph",
-      "text": "A thousand years ago, humans couldn’t survive ambient toxicity. Now they run seven megacorporations, exploit hundreds of dimensions, and employ every other sapient species — willingly or otherwise. Not because they’re superior. Because they’re relentless learners who refuse to accept biological limitations as permanent."
+      "text": "A thousand years ago, humans couldn't survive ambient toxicity. Now they run seven megacorporations, exploit hundreds of dimensions, and employ every other sapient species — willingly or otherwise. Not because they're superior. Because they're relentless learners who refuse to accept biological limitations as permanent."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "info-block",
+      "icon": "🌿",
+      "title": "The Vael",
+      "subtitle": "Origin: The Bloom · Population: Moderate",
+      "entries": [
+        {"label": "Appearance", "value": "Tall, slender. Skin shifts color with emotion. Fern-like crest. Large multifaceted eyes."},
+        {"label": "Biology", "value": "Plant-animal hybrid. Photosynthesizes supplementally. High toxicity tolerance."},
+        {"label": "Culture", "value": "Extremely community-oriented. Don't do well alone."},
+        {"label": "Corp Ties", "value": "Green Cradle (model citizens), Wellspring (research interest)"},
+        {"label": "Contractor Rep", "value": "Reliable. Excellent scouts. Early warning system for rift anomalies.", "full": true},
+        {"label": "Adjustments", "value": "+1 Toxicity threshold per bracket. -1 in extreme heat. Sense wild rifts at Close range.", "full": true}
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> <strong>Adaptive: +1 to all learning and training checks</strong> (skill advancement rolls, stat training checks, any check related to acquiring new capabilities). Over a campaign, this compounds — human characters advance skills faster, train stats more reliably, and pick up techniques quicker than any other species. Humans don’t start better. They <em>get</em> better, faster."
-    },
-    {
-      "type": "heading",
-      "text": "The Vael"
+      "text": "The Vael came from a dimension where cooperation was survival — their original ecosystem was so aggressive that solitary organisms died. They're community-oriented to an extreme degree that humans sometimes find claustrophobic. Isolated Vael experience genuine psychological decline. In contractor crews, they bond deeply and take team losses harder than most."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> The Bloom (or similar hyper-biological dimension)"
+      "text": "Green Cradle treats Vael as model citizens — their biological affinity for living systems makes them ideal for biome cultivation, agricultural work, and ecosystem management. Wellspring wants to study them (the gene-splicing implications of plant-animal hybrid biology are "fascinating," which is Wellspring's most dangerous word)."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "info-block",
+      "icon": "⛏",
+      "title": "The Keth",
+      "subtitle": "Origin: The Char · Population: Small but concentrated",
+      "entries": [
+        {"label": "Appearance", "value": "Broad, dense, shorter than human. Crystalline skin. Four arms. Infrared eyes."},
+        {"label": "Biology", "value": "Dense bones, high heat tolerance. Can eat rock. Four-armed efficiency."},
+        {"label": "Culture", "value": "Quiet by nature — silence was survival. Communication via gesture and touch."},
+        {"label": "Corp Ties", "value": "Congo & Sentinel (extraction, industrial). Exploited for durability."},
+        {"label": "Contractor Rep", "value": "Best mechanics in the margin. Tough but slow. Can dual-wield + hold a shield.", "full": true},
+        {"label": "Adjustments", "value": "+1 Chrome carry weight. Two-handed weapon + shield. -1 Edge. -1 Speed. Heat-adapted.", "full": true}
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Appearance:</strong> Tall, slender, with skin that shifts color subtly based on emotional state (greens and blues for calm, reds and ambers for stress or aggression). Hair-equivalent is a crest of fine, fern-like fronds. Eyes are large, multifaceted, adapted for low-light conditions. Graceful in a way that humans find either beautiful or unsettling."
+      "text": "Keth from the Char evolved in an environment where silence was survival (sound attracts Magma Drakes). They're quiet by nature — not unfriendly, just economical with words. Humans sometimes mistake Keth reserve for hostility. It isn't. Keth who trust you will hand you tools before you ask for them. Keth who don't trust you will say nothing and watch."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Population:</strong> Moderate. Established communities in most major city-states, particularly in Green Cradle territory where they’re actively recruited."
+      "text": "Congo and Sentinel employ Keth heavily in extraction and industrial roles. The exploitation angle: Keth are routinely assigned to the most dangerous extraction shifts because they can survive conditions that would hospitalize a human. The pay doesn't reflect the risk differential. The Keth notice. They don't forget."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "info-block",
+      "icon": "👁",
+      "title": "The Whisper",
+      "subtitle": "Origin: The Static · Population: Small, scattered",
+      "entries": [
+        {"label": "Appearance", "value": "Human-passing. Proportions slightly wrong. Solid-color eyes. Shadow doesn't always match."},
+        {"label": "Biology", "value": "Dimensionally attuned. Perceive rift energy like light. Localized dimensional manipulation."},
+        {"label": "Culture", "value": "No unified culture. Perpetually adjacent — present, functional, never fully understood."},
+        {"label": "Corp Ties", "value": "Pear & Soma (dimensional perception, rift monitoring). Treated well because irreplaceable."},
+        {"label": "Contractor Rep", "value": "Unsettling. Useful. When the Whisper says 'don't go that way,' everyone listens.", "full": true},
+        {"label": "Adjustments", "value": "+2 rift Interface checks. Auto-sense rifts & Null Zones. -1 social with strangers. Immune to Geometry.", "full": true}
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Biology:</strong> Plant-animal hybrid metabolism. Vael photosynthesize supplementally — direct sunlight reduces their food requirements (not eliminates — they still eat, they just eat less). Their immune systems are remarkably robust, and they process toxicity more efficiently than humans. They’re also more sensitive to environmental changes — a Vael can feel a wild rift forming before instruments detect it."
+      "text": "Whispers have no unified culture — they arrived individually over centuries, from dimensions that don't share common origins. What they share is an experience: being fundamentally alien in a way that other non-human species aren't. Their perception of reality includes layers that humans can't access, and explaining those layers is like describing color to someone who's never seen it. Most Whispers stop trying after a while."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Culture:</strong> The Vael came from a dimension where cooperation was survival — their original ecosystem was so aggressive that solitary organisms died. They’re community-oriented to an extreme degree that humans sometimes find claustrophobic. Vael don’t do well alone. Isolated Vael experience genuine psychological decline. In contractor crews, they bond deeply and take team losses harder than most."
+      "text": "Their crew contribution isn't muscle — it's the moment when the Whisper says "don't go that way" and everyone listens because the last time someone didn't listen, they walked into a Null Zone. Whispers don't explain their warnings. The explanations don't translate."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "info-block",
+      "icon": "🦴",
+      "title": "The Grunt",
+      "subtitle": "Origin: Unknown · Population: Moderate",
+      "entries": [
+        {"label": "Appearance", "value": "Large. Broad-shouldered. Heavy-browed. Deep brown to gray-green skin."},
+        {"label": "Biology", "value": "Regeneration (minor wounds in hours). Metabolize toxicity faster. Think carefully, not quickly."},
+        {"label": "Culture", "value": "Value deliberation, endurance, long-term planning. Don't rush. Don't panic."},
+        {"label": "Corp Ties", "value": "Congo (extraction), Sentinel (frontline). Exploited for durability."},
+        {"label": "Contractor Rep", "value": "The best in a crisis. When the Grunt stops and thinks for ten seconds, you wait for the answer.", "full": true},
+        {"label": "Adjustments", "value": "Regen 1 HP/hour. Scar costs -25%. -1 Initiative. +1 Grit for toxicity resistance.", "full": true}
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Corporate Relationship:</strong> Green Cradle treats Vael as model citizens — their biological affinity for living systems makes them ideal for biome cultivation, agricultural work, and ecosystem management. Wellspring wants to study them (the gene-splicing implications of plant-animal hybrid biology are “fascinating,“ which is Wellspring’s most dangerous word). Other corps employ Vael for rift-zone work due to their toxicity tolerance."
+      "text": "Grunts process complex information more slowly. Not less capably — more slowly. They think carefully and thoroughly. Humans mistake this for stupidity. It isn't. A Grunt who's had time to consider a problem will produce a solution as sophisticated as any human's. They just won't produce it in the first three seconds."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Contractor Reputation:</strong> Reliable crew members. Good in the Bloom (home turf advantage). Struggle in the Char (heat and mineral dust are hard on their biology). Their environmental sensitivity makes them excellent scouts — the crew’s early warning system for rift anomalies."
+      "text": "In a society that rewards instant reaction, this makes them seem slow. In a rift zone where panic kills and patience saves, this makes them invaluable. A Grunt who's been hit three times and lost half their HP isn't panicking. They're planning."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "info-block",
+      "icon": "⚡",
+      "title": "The Flicker",
+      "subtitle": "Origin: Multiple dimensions · Population: Moderate, widely distributed",
+      "entries": [
+        {"label": "Appearance", "value": "Small, slight (<150cm). Too-long fingers. Enormous reflective eyes. Move in quick bursts."},
+        {"label": "Biology", "value": "1.5x human nerve speed. See the world in slow motion. Burn hot — eat twice as much, wear out fast."},
+        {"label": "Culture", "value": "Opportunists. Dominate the Undercity informal economy — speed is the niche."},
+        {"label": "Corp Ties", "value": "Mixed. Pear (data analysis), House of Mouse (archivists). Corporate tempo is agonizingly slow."},
+        {"label": "Contractor Rep", "value": "Fast and fragile. Natural skirmishers and scouts. Flicker medics are the best in the business.", "full": true},
+        {"label": "Adjustments", "value": "+1 Reflex (Initiative only). +1 fine dexterity. -2 Carry. +50% food costs.", "full": true}
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> +1 Toxicity threshold at every bracket (effectively 25% more toxicity tolerance). -1 to all checks in extreme heat environments (the Char, volcanic zones). Can sense wild rift activity within Close range (GM provides a warning before the rift fully forms)."
-    },
-    {
-      "type": "heading",
-      "text": "The Keth"
+      "text": "Flickers are opportunists by evolution — their survival strategy in every dimension they've inhabited is speed, adaptability, and finding the niche nobody else is using. They're not criminal by nature. They're entrepreneurial in environments where legal entrepreneurship isn't available."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> The Char (or similar mineral/volcanic dimension)"
+      "text": "A Flicker medic is the best in the business — their hands are faster and steadier than augmented human hands. Doc Vasik has said, quietly, that the best surgeon he ever saw was a Flicker who worked out of a margin clinic with no power and no augments."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "info-block",
+      "icon": "🔮",
+      "title": "The Hollow",
+      "subtitle": "Origin: The Grave · Population: Very small, solitary",
+      "entries": [
+        {"label": "Appearance", "value": "Extremely humanoid. Too symmetrical. Porcelain skin. Dark, lightless eyes. Learned expressions."},
+        {"label": "Biology", "value": "Partially synthetic. May be artificial. Fast pattern recognition, slow emotional processing."},
+        {"label": "Culture", "value": "Defined by one question: <em>What were we made for?</em>"},
+        {"label": "Corp Ties", "value": "Wary of attention. Prefer Congo (pragmatic) or Crowned Table ('strange knights')."},
+        {"label": "Contractor Rep", "value": "Competent. Precise. Uncomfortable. Trust never fully extends to comfort.", "full": true},
+        {"label": "Adjustments", "value": "+1 Interface (data/pattern). Immune to psychoactive. -2 emotional social. No natural healing.", "full": true}
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Appearance:</strong> Broad, dense, shorter than average human. Skin has a mineral quality — not rocky, but with a faint crystalline sheen that catches light. Four arms (two primary, two secondary — secondary arms are shorter but fully functional). Eyes are heat-adapted — they see infrared. Hair is metalite — thin metallic strands that conduct heat away from the skull. <strong>Population:</strong> Small but concentrated. Keth communities cluster near industrial zones and vehicle yards. Ratch is Keth."
+      "text": "Hollow culture, such as it exists, is centered on a question: what were we made for? They emerged from dimensions containing ruins of advanced civilizations. Whether they're the builders, the builders' creations, or something else entirely is unknown. Hollows themselves don't know — their oldest memories don't extend to their origin."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Biology:</strong> Dense bone structure, high heat tolerance, and a metabolism that processes mineral-rich food more efficiently than biological food. Keth can eat rock. Not as a primary diet — they need organic food too — but mineral supplementation through literal stone consumption is normal. Their four arms are the most visible trait and the most practically useful — Keth mechanics, surgeons, and craftspeople work with an efficiency that two-armed species can’t match."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Culture:</strong> Keth from the Char evolved in an environment where silence was survival (sound attracts Magma Drakes). They’re quiet by nature — not unfriendly, just economical with words. Communication in Keth communities relies heavily on gesture, expression, and touch. Humans sometimes mistake Keth reserve for hostility. It isn’t. Keth who trust you will hand you tools before you ask for them. Keth who don’t trust you will say nothing and watch."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Corporate Relationship:</strong> Congo and Sentinel employ Keth heavily in extraction and industrial roles. Their heat tolerance and physical durability make them ideal for Char operations. The exploitation angle: Keth are routinely assigned to the most dangerous extraction shifts because they can survive conditions that would hospitalize a human. The pay doesn’t reflect the risk differential. The Keth notice. They don’t forget."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contractor Reputation:</strong> Best mechanics in the margin. A Keth Chrome Tech is the gold standard. In combat, they’re tough and strong (four arms, dense build), but slow — not skirmishers. Their infrared vision is invaluable in low-light conditions and smoke. The four-arm thing isn’t just flavor — a Keth contractor can use a two-handed weapon while still holding a shield, or dual wield while carrying a tool kit."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> +1 Chrome for carry weight calculation only (more arms = more load). Can use a two-handed weapon and a shield simultaneously. <strong>-1 Edge (dense mineral build, subtle social and physical cues don’t translate — lower Evasion, harder social reads).</strong> -1 Speed in chase/pursuit situations (dense build). Heat-adapted: ignore heat-related environmental penalties."
-    },
-    {
-      "type": "heading",
-      "text": "The Whisper"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> The Static (or similar anomalous dimension)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Appearance:</strong> Human-passing at first glance. Look closer: the proportions are slightly wrong. Limbs a fraction too long. Joints that bend with one extra degree of freedom. Eyes that are solid color — no visible iris or pupil, just a uniform shade (varies by individual: gray, pale blue, violet). Their shadow doesn’t always match their posture."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Population:</strong> Small. Whispers are uncommon and tend not to cluster. They’re distributed thinly across most city-states, often alone or in pairs."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Biology:</strong> Whispers are dimensionally attuned — their biology interfaces with the fabric of reality in ways that human science can describe but not explain. They perceive dimensional energy the way humans perceive light. Rift boundaries are visible to them. Dimensional instability registers as a physical sensation. In high-magic environments, Whispers can do things that look like telekinesis but are actually localized dimensional manipulation — nudging objects through micro-rifts."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Culture:</strong> Whispers have no unified culture — they arrived individually over centuries, from dimensions that don’t share common origins. What they share is an experience: being fundamentally alien in a way that other non-human species aren’t. Vael and Keth are visibly different but psychologically recognizable — they want community, safety, purpose. Whispers think differently. Their perception of reality includes layers that humans can’t access, and explaining those layers is like describing color to someone who’s never seen it. Most Whispers stop trying after a while. The result is a species that’s perpetually adjacent — present, functional, useful, and never fully understood."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Corporate Relationship:</strong> Pear and Soma recruit Whispers aggressively. Their dimensional perception is invaluable for survey work, rift monitoring, and the kind of theoretical physics that requires intuition science can’t provide. Whispers in corporate employment are treated well — not out of respect, but because their abilities are rare and irreplaceable. A Whisper who leaves is a loss that can’t be filled."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contractor Reputation:</strong> Unsettling. Useful. Whisper contractors tend to excel at rift casting and dimensional navigation. Their crew contribution isn’t muscle — it’s the moment when the Whisper says “don’t go that way“ and everyone listens because the last time someone didn’t listen, they walked into a Null Zone. Whispers don’t explain their warnings. The explanations don’t translate."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> +2 to all Interface checks related to rift navigation and dimensional detection. Can sense rift boundaries, dimensional instability, and Null Zones automatically (no check required). -1 to social checks with humans who don’t know them (the uncanny valley effect). Cannot be targeted by the Geometry enemy type (dimensional attunement makes them invisible to spatial-warping entities)."
-    },
-    {
-      "type": "heading",
-      "text": "The Grunt"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> Unknown (arrived through wild rifts in the early centuries, origin dimension never identified) <strong>Appearance:</strong> Large. Broad-shouldered. Heavy-browed. Skin ranges from deep brown to gray-green. Pronounced underbite with visible lower canines. Strong jaw, flat nose, small eyes. They look exactly like what a thousand years of human prejudice says they look like: primitive, brutish, dangerous. They are none of these things. <strong>Population:</strong> Moderate. Grunt communities exist in most margins and in some corporate territories (primarily Sentinel and Congo, who value their physical capabilities)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Biology:</strong> The Grunts’ most notable biological feature is their regenerative capacity. Minor wounds heal in hours. Major wounds heal in days. Scarring is minimal. A Grunt contractor who takes a scar-level hit recovers faster and with less residual damage than a human. They also metabolize toxicity slightly faster. The trade-off: Grunts process complex information more slowly. Not less capably — more slowly. They think carefully and thoroughly. Humans mistake this for stupidity. It isn’t. A Grunt who’s had time to consider a problem will produce a solution as sophisticated as any human’s. They just won’t produce it in the first three seconds."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Culture:</strong> Grunts arrived with no cultural context that translated to human society. Their origin dimension, wherever it was, produced a species that valued deliberation, physical endurance, and long-term planning. They found human society baffling — the speed, the noise, the constant urgency. Over centuries, they adapted. But the cultural core persists: Grunts don’t rush. They don’t panic. They don’t make decisions under pressure if they can help it. In a society that rewards instant reaction, this makes them seem slow. In a rift zone where panic kills and patience saves, this makes them invaluable."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Corporate Relationship:</strong> Exploited for their physical capabilities and healing factor. Congo uses Grunts for heavy extraction. Sentinel uses them as frontline soldiers. The jobs are dangerous, the pay is mediocre, and the assumption that Grunts can “handle it“ because they heal faster is used to justify assignments that would be unconscionable for human workers. Grunts are aware of this dynamic. They endure it because the alternatives are worse — margin life without corporate employment is hard, and independent Grunt communities in the dead zone are vulnerable."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contractor Reputation:</strong> The best in a crisis. Grunt contractors don’t panic when things go wrong — they get quieter, steadier, more deliberate. A Grunt who’s been hit three times and lost half their HP isn’t panicking. They’re planning. Crews with a Grunt learn to trust the pause — when the Grunt stops moving and thinks for ten seconds, you wait for the answer."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> Regeneration: heal 1 HP per hour naturally (doesn’t apply in combat, but reduces downtime healing time). Scar treatment costs are reduced by 25% (faster recovery). -1 Initiative (deliberate nature means slower reaction). +1 Grit for toxicity resistance checks only."
-    },
-    {
-      "type": "heading",
-      "text": "The Flicker"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> Multiple (Flickers appear across many dimensions, suggesting a species that migrated dimensionally before arriving on Earth) <strong>Appearance:</strong> Small. Slight. Rarely above 150 cm. Wiry build with fingers that are slightly too long and slightly too many joints. Enormous eyes adapted for darkness — reflective, like a cat’s, but in metallic shades (copper, silver, gold). They move in quick, precise bursts punctuated by absolute stillness. Watching a Flicker work is like watching a hummingbird. <strong>Population:</strong> Moderate. Flickers are everywhere, in everything — they’re the most widely distributed non-human species, found in every city-state, every margin, and most free settlements."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Biology:</strong> Flickers are fast. Not augmented-fast — naturally fast. Their nervous system processes information roughly 1.5 times faster than a human’s, which translates to quicker reflexes, faster hands, and an attention span that operates at a higher clock speed. They see the world in slow motion relative to humans. The downside: their metabolism burns hot to support this speed. Flickers eat twice as much as a human of equivalent size, sleep poorly, and wear out faster. A Flicker in their prime (20-40 years by human standards) is extraordinary. A Flicker past their prime declines rapidly."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Culture:</strong> Flickers are opportunists by evolution — their survival strategy in every dimension they’ve inhabited is speed, adaptability, and finding the niche nobody else is using. On Earth, the niche is the Undercity. Flickers dominate the informal economy — black markets, information brokering, smuggling, rapid courier services, and the kind of mechanical work that requires hands faster than human hands can manage. They’re not criminal by nature. They’re entrepreneurial in environments where legal entrepreneurship isn’t available."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Corporate Relationship:</strong> Mixed. Some corps employ Flickers in roles that exploit their speed — assembly lines, data processing, precision manufacturing. Pear uses Flicker Interface specialists for rapid data analysis. The House of Mouse employs Flicker archivists and catalogers. But the corporate world is built for human tempo, and Flickers find it agonizingly slow. Many prefer the Undercity, where the pace matches their biology."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contractor Reputation:</strong> Fast and fragile. Flicker contractors are skirmishers — in and out before you see them. Their Reflex-heavy builds make them natural gunfighters and scouts. They struggle with sustained combat (metabolism burns through stamina) and heavy loads (slight build). A Flicker medic, though, is the best in the business — their hands are faster and steadier than augmented human hands. Doc Vasik has said, quietly, that the best surgeon he ever saw was a Flicker who worked out of a margin clinic with no power and no augments."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> +1 Reflex for Initiative only. +1 to checks requiring fine manual dexterity (lock picking, surgery, precision crafting). -2 Carry Capacity (slight build). Require 50% more food (lifestyle costs increase by 5 cr/day minimum)."
-    },
-    {
-      "type": "heading",
-      "text": "The Hollow"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Origin Dimension:</strong> The Grave (or similar post-civilizational dimension) <strong>Appearance:</strong> Humanoid. Extremely humanoid. Smooth features that are attractive in a way that triggers discomfort — too symmetrical, too even, too <em>designed</em>. Skin is pale with a faint porcelain quality. Eyes are dark and reflect no light. Their expressions are learned, not instinctive — a Hollow smiles because they’ve learned that smiling is what humans do, not because their biology produces the expression naturally. They don’t blink at human frequency. You notice this eventually. <strong>Population:</strong> Very small. Hollows are rare and tend toward solitary existence or small clusters."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Biology:</strong> Nobody’s sure. Hollows won’t submit to comprehensive medical examination, and the ones who have been examined (by Wellspring, without consent, in incidents that are not discussed publicly) produced results that raised more questions than answers. Their biology is partially synthetic — not augmented, but natively constructed from a combination of organic and inorganic components. They may be artificial. They may be the product of a civilization (the Grave’s builders?) that blurred the line between biological and manufactured life. They process information differently than biological species — faster in some domains (pattern recognition, language acquisition, data analysis), slower in others (emotional processing, creative improvisation, understanding humor)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Culture:</strong> Hollow culture, such as it exists, is centered on a question: what were we made for? They emerged from dimensions containing ruins of advanced civilizations. Whether they’re the builders, the builders’ creations, or something else entirely is unknown. Hollows themselves don’t know — their oldest memories don’t extend to their origin. This existential uncertainty defines them. Some cope through dedication to purpose (work, mission, craft). Some cope through imitation (adopting human behavior patterns with increasing sophistication). Some don’t cope."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Corporate Relationship:</strong> Pear and House of Mouse are fascinated by Hollows — a potentially artificial species with unknown origin technology has implications for both data science and intellectual property law. Soma wants to study them. Wellspring wants to study them more intrusively. Hollows are wary of corporate attention. The ones who’ve accepted corporate employment tend to choose corps with less invasive cultures (Congo, which doesn’t care what you are as long as you work; the Crowned Table, which classifies them as “strange knights“ and assigns them quests)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contractor Reputation:</strong> Competent. Precise. Uncomfortable. Hollow contractors execute missions with efficiency that’s impressive and slightly wrong — they make the right calls at the right times but the decision-making process doesn’t show on their face. Crews who work with Hollows long enough learn to trust their judgment. The trust never fully extends to comfort. There’s always a gap. Hollows know this. They’ve learned to not mind. Whether they actually don’t mind or have just learned the performance of not minding is a question that answers itself."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Playable Adjustments:</strong> +1 Interface for data analysis and pattern recognition checks. Immune to psychoactive effects (Spore Drifter hallucinations, Reef Singer hypnosis, fear effects). -2 to social checks that rely on emotional resonance (inspiring, comforting, empathizing — not negotiation or deception, which they can learn). Do not heal naturally — require medical treatment or repair (self-maintenance counts, 1 AP per 1d6 HP restored)."
+      "text": "Hollow contractors execute missions with efficiency that's impressive and slightly wrong — they make the right calls at the right times but the decision-making process doesn't show on their face. Crews who work with Hollows long enough learn to trust their judgment. The trust never fully extends to comfort. There's always a gap. Hollows know this. They've learned to not mind. Whether they actually don't mind or have just learned the performance of not minding is a question that answers itself."
     }
   ]
 }
