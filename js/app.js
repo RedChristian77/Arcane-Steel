@@ -58,6 +58,10 @@ async function navigateTo(pageId) {
   window._currentPage = pageId;
   const main = document.getElementById('mainContent');
 
+  // Fade out current content
+  main.classList.add('page-exit');
+  await new Promise(r => setTimeout(r, 120));
+
   if (pageId === 'home') {
     main.innerHTML = renderHome(window._manifest);
   } else {
@@ -68,6 +72,15 @@ async function navigateTo(pageId) {
       main.innerHTML = '<div class="container"><p>Page not found: ' + esc(pageId) + '</p></div>';
     }
   }
+
+  // Fade in new content
+  main.classList.remove('page-exit');
+  main.classList.add('page-enter');
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      main.classList.remove('page-enter');
+    });
+  });
 
   renderSidebar(window._manifest, pageId);
   window.scrollTo(0, 0);
@@ -88,6 +101,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (e.key === '/' && !e.target.matches('input, textarea')) { e.preventDefault(); openSearch(); }
     if (e.key === 'Escape') { closeSearch(); closeSidebar(); }
   });
-  window.addEventListener('scroll', updateProgress);
+  window.addEventListener('scroll', function() {
+    updateProgress();
+    var btn = document.getElementById('scrollTop');
+    if (btn) btn.classList.toggle('visible', window.scrollY > 400);
+  });
   setTimeout(() => loadAllPagesForSearch(), 800);
 });
