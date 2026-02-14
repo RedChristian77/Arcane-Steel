@@ -12,41 +12,72 @@
       "text": "Every major corporation in the world follows the same basic structure, because a thousand years of competition selected for the structure that works. The names are different. The logos are different. The hymns are different. The org chart is the same."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Territory.</strong> Every corp controls physical land — cities, industrial zones, rift gates, agricultural regions, and the infrastructure connecting them. Territory is sovereignty. Inside corporate borders, the corp is the law, the government, the landlord, and the tax authority. Border disputes between corps are resolved through negotiation, economic pressure, proxy conflict, or (rarely, expensively) open war."
+      "type": "heading",
+      "text": "Territory"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Citizens.</strong> People born into corporate territory are citizens. Citizenship isn’t a legal status you apply for — it’s an identity you inherit. You’re born into the corp, educated by the corp, employed by the corp, and when you die, the corp handles the funeral (tax-deductible). Leaving is technically possible. Practically, it ranges from “expensive bureaucratic nightmare“ to “they send a team.“"
+      "text": "Every corp controls physical land — cities, industrial zones, rift gates, agricultural regions, and the infrastructure connecting them. Territory is sovereignty. Inside corporate borders, the corp is the law, the government, the landlord, and the tax authority. Border disputes between corps are resolved through negotiation, economic pressure, proxy conflict, or (rarely, expensively) open war."
+    },
+    {
+      "type": "heading",
+      "text": "Citizens"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Tiers.</strong> Every corp has internal hierarchy, though they call it different things:"
+      "text": "People born into corporate territory are citizens. Citizenship isn't a legal status you apply for — it's an identity you inherit. You're born into the corp, educated by the corp, employed by the corp, and when you die, the corp handles the funeral (tax-deductible). Leaving is technically possible. Practically, it ranges from \u201cexpensive bureaucratic nightmare\u201d to \u201cthey send a team.\u201d"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Hierarchy"
     },
     {
       "type": "callout",
-      "label": "Hierarchy",
+      "label": "The Tiers",
       "style": "teal",
       "text": "Every corp has internal hierarchy, though they call it different things:",
       "items": [
         "<strong>Executive Caste</strong> — the decision-makers. Board members, directors, high priests, whatever the local title is. 0.1% of the population. Controls everything.",
-        "<strong>Managerial Layer</strong> — middle management. Administrators, department heads, regional governors. They keep the machine running. 5–10% of the population.",
-        "<strong>Skilled Workers</strong> — engineers, doctors, technicians, soldiers, specialists. The valuable labor. 20–30% of the population.",
+        "<strong>Managerial Layer</strong> — middle management. Administrators, department heads, regional governors. They keep the machine running. 5\u201310% of the population.",
+        "<strong>Skilled Workers</strong> — engineers, doctors, technicians, soldiers, specialists. The valuable labor. 20\u201330% of the population.",
         "<strong>General Citizens</strong> — everyone else. Factory workers, service industry, agriculture, maintenance. The bulk of the population. They live, work, consume, and believe.",
         "<strong>Contractors</strong> — not citizens. Not on the chart. Exist in the margins between corps. Useful, disposable, unprotected."
       ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Rift Operations.</strong> Every corp has a Rift Division — the department responsible for managing, exploiting, and defending dimensional rifts within their territory. Rift Divisions vary wildly in doctrine, priority, and method, and this is where the real differences between corps show up (see individual profiles below)."
+      "type": "heading",
+      "text": "Rift Operations"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Military.</strong> Every corp maintains armed forces. Size and doctrine vary. Some corps maintain massive standing armies. Others rely on small, elite units supplemented by contracted specialists (that’s you). All of them have more firepower than any contractor team. Don’t start fights with corp military unless the contract specifically says to."
+      "text": "Every corp has a Rift Division — the department responsible for managing, exploiting, and defending dimensional rifts within their territory. Rift Divisions vary wildly in doctrine, priority, and method, and this is where the real differences between corps show up."
+    },
+    {
+      "type": "heading",
+      "text": "Military"
+    },
+    {
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "Every corp maintains armed forces. Size and doctrine vary. Some corps maintain massive standing armies. Others rely on small, elite units supplemented by contracted specialists (that's you). All of them have more firepower than any contractor team. Don't start fights with corp military unless the contract specifically says to."
+    },
+    {
+      "type": "heading",
+      "text": "Economy"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Economy.</strong> Internal corporate economies are mostly closed systems — citizens earn corp scrip, spend it at corp stores, live in corp housing. Cross-corp trade exists but is regulated, taxed, and monitored. The free market, such as it is, lives in the spaces between corporate territories — the border zones, the free settlements, the black markets. This is where contractors operate, and where real credits (the universal currency accepted across corporate lines) have value."
+      "text": "Internal corporate economies are mostly closed systems — citizens earn corp scrip, spend it at corp stores, live in corp housing. Cross-corp trade exists but is regulated, taxed, and monitored."
+    },
+    {
+      "type": "callout",
+      "label": "The Free Market",
+      "style": "gold",
+      "text": "The free market, such as it is, lives in the spaces between corporate territories — the border zones, the free settlements, the black markets. This is where contractors operate, and where real credits (the universal currency accepted across corporate lines) have value."
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "heading",
@@ -54,7 +85,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This is the big differentiator. What a corporation <em>does</em> with rifts defines its identity, its economy, its military doctrine, and the contracts it offers. There are four broad rift doctrines:"
+      "text": "This is the big differentiator. What a corporation <em>does</em> with rifts defines its identity, its economy, its military doctrine, and the contracts it offers. There are four broad doctrines:"
     },
     {
       "type": "callout",
