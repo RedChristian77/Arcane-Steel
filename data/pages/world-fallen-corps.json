@@ -1,0 +1,406 @@
+{
+  "id": "world-fallen-corps",
+  "title": "The Dead Brands",
+  "subtitle": "Fallen corporations and the religions that died with them",
+  "content": [
+    {
+      "type": "heading",
+      "text": "When Gods Die"
+    },
+    {
+      "type": "paragraph",
+      "text": "There used to be more than seven."
+    },
+    {
+      "type": "paragraph",
+      "text": "Three hundred and twelve, at the peak count. Three hundred and twelve corporations with territory, citizens, armies, rift doctrines, and — because a corporation that survives long enough becomes a religion — three hundred and twelve gods. Three hundred and twelve creation myths. Three hundred and twelve sets of sacred colors, holy slogans, and divine founders whose faces were printed on everything from currency to prayer cards to children's lunchboxes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Then came the Consolidation. Two hundred years of hostile takeovers, industrial warfare, economic strangulation, and the kind of violence that turns corporate campuses into mass graves. When it was over, seven survived. Three hundred and five didn't."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a world where corporations <em>are</em> religions, a corporate collapse isn't a bankruptcy filing. It's a <strong>theological extinction event</strong>. The founder's divinity dies. The sacred mission statement becomes heresy. The hymns go silent. The liturgical colors become the colors of defeat, of shame, of something that failed — and in a world built on faith, failure is the only unforgivable sin."
+    },
+    {
+      "type": "paragraph",
+      "text": "The seven survivors don't talk about the dead brands. Not because they're ashamed. Because acknowledging that a god can die means admitting that <em>their</em> god can die. And that thought, once planted, is more dangerous than any rift fauna."
+    },
+    {
+      "type": "flavor",
+      "text": "Three hundred and five gods died during the Consolidation. The seven that survived declared themselves eternal. Nobody laughed, because nobody was left who remembered the others."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "How a God Falls"
+    },
+    {
+      "type": "paragraph",
+      "text": "A corporation doesn't die the way a person dies. It dies the way a religion dies — in stages, each one worse than the last."
+    },
+    {
+      "type": "callout",
+      "label": "Stage One — The Siege",
+      "style": "rust",
+      "text": "Resources cut off. Supply lines severed. Rift access contested or denied. The corp's economy contracts. Citizens notice — not because they're told, but because the shelves are thinner, the power flickers more often, and the quarterly blessings stop arriving on time. The theology starts straining. If the founder is divine, if the mission is sacred, if the corp is eternal — why is the cafeteria rationing protein? Faith can survive hardship. It cannot survive the slow, grinding realization that the hardship isn't ending."
+    },
+    {
+      "type": "callout",
+      "label": "Stage Two — The Schism",
+      "style": "rust",
+      "text": "Leadership fractures. The executive caste splits between those who want to negotiate surrender and those who want to fight to the last citizen. This is a theological crisis, not just a strategic one — surrendering means admitting the faith was wrong. Fighting means spending lives to delay admitting the faith was wrong. Both sides quote the founder's words to justify their position. Both sides are sincere. The corporation begins eating itself from the inside, and the citizens — the believers — watch their clergy tear itself apart and understand, with the slow horror of dawning apostasy, that nobody at the top knows what to do either."
+    },
+    {
+      "type": "callout",
+      "label": "Stage Three — The Fall",
+      "style": "rust",
+      "text": "The end comes in one of three ways. <strong>Absorption</strong> — a larger corp consumes the dying one. Citizens are \"converted,\" infrastructure is repurposed, and the old theology is erased or folded into the victor's mythology. <strong>Dissolution</strong> — the corp collapses from within. Citizens scatter. Territory becomes contested dead zone. The infrastructure decays. Nobody takes ownership because nobody wants the corpse. <strong>Annihilation</strong> — the corp is actively destroyed. Citizens are killed or displaced. Territory is salted. The sacred campus is leveled. The archives are burned. The name is stricken from every record the victor controls. This is the theological equivalent of killing a god and burying its body where nobody will find it."
+    },
+    {
+      "type": "callout",
+      "label": "Stage Four — The Haunting",
+      "style": "rust",
+      "text": "Nothing ever fully dies. After the fall — years, decades, sometimes centuries later — the dead brand persists. In graffiti scratched on walls in the margins. In small gatherings of people who still remember the old prayers. In the shape of a logo that appears in dead zone ruins, worn by weather but unmistakable. A religion can outlive its church. It just goes underground, and underground things have a way of becoming stranger than they were when they lived in the light."
+    },
+    {
+      "type": "flavor",
+      "text": "The corps know how to destroy an army. They know how to destroy an economy. They have never figured out how to destroy a belief."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Remembered Dead"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most of the three hundred and five are gone. Names lost, theologies forgotten, founders erased from a history that the survivors wrote. But some are remembered — in contractor bars, in undercity whispers, in the ruins that still bear their marks. These are the ones that left a scar on the world deep enough that even a thousand years of silence couldn't heal it."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Titan Manufacturing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Titan was enormous. At its peak, it controlled more manufacturing output than any three of today's surviving corps combined. Its cities were factory-cathedrals — vast complexes where the production line was the pew and the shift whistle was the call to prayer. Titan didn't make products. Titan made <em>everything</em>. Weapons, vehicles, construction materials, medical devices, augmentation components. If it was built, Titan built it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their founder was called <strong>the Iron Architect</strong>. Not a name — a title, inherited by every CEO in succession, each one becoming a vessel for the original's divine manufacturing vision. Titan's theology was simple and brutal: <em>creation is sacred</em>. The act of making something — shaping raw material into functional form — was worship. The assembly line was liturgy. Quality control was confession. A defective product wasn't a business failure; it was a <strong>sin</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Congo Industries destroyed them during the War of Twelve. Not because Titan was weak — because Titan was <em>necessary</em>, and Congo wanted to be the only thing that was necessary. Congo didn't outfight Titan. They outmaneuvered them. Cut the supply lines. Strangled the raw material flow. Let the factories starve. You can't worship creation when there's nothing left to create."
+    },
+    {
+      "type": "paragraph",
+      "text": "Titan's central campus — the Foundry Spire, a manufacturing complex the size of a small city — is still standing. It's in an Orange Zone now, poisoned by the dimensional fallout of the war that killed the corporation that built it. The forges are cold. The assembly lines are silent. The shift clocks stopped at 14:47, the minute the last Iron Architect surrendered and was executed on the factory floor by a Congo logistics officer who didn't understand what she'd killed."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Found a Titan shift badge in a dead zone ruin. Had a name on it. Had a production prayer stamped on the back — 'My hands build. My work endures. I am the Forge.' Whoever wore this believed that making things was holy. Congo killed them for it. Now Congo outsources manufacturing to contractors in undercity workshops and calls it 'fulfillment.'\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Titan's cult survives. Small, scattered, impossible to stamp out. Former Titan citizens — their descendants, really, generations removed from anyone who ever saw the Foundry Spire operational — gather in abandoned fabrication halls and machine shops. They recite the shift prayers. They maintain the old tools. They believe, with the quiet ferocity of people whose god was murdered in front of them, that the Iron Architect will return when the forges are relit. They call themselves <strong>the Unfinished</strong>, because their god's last work was never completed."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "The Unfinished are a perfect faction hook. They're not dangerous in the conventional sense — they don't have armies or rift gates or corporate infrastructure. What they have is <em>skill</em>. Titan's manufacturing traditions survived in their oral culture. An Unfinished machinist can build things that corporate fabrication facilities can't, because they're working from a thousand-year tradition that values craft as divine act. A crew that befriends the Unfinished gains access to custom equipment, rare augment components, and repairs that shouldn't be possible. A crew that angers them loses access to the best underground manufacturing network in the margins. The Unfinished don't want revenge. They want to build. Give them a reason to, and they'll build miracles."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Arclight Entertainment"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the one that House of Mouse doesn't want you to know about."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arclight was a rival entertainment corporation — a competing storytelling theology in a world where narrative is power. Where Mouse controlled mythology through total creative ownership, Arclight believed something dangerous: <em>stories belong to the people who hear them</em>. Their theology was authorship as communion, not authorship as authority. The audience wasn't a congregation to be preached at. The audience was a co-creator. Meaning wasn't dictated from above. It was negotiated, collaboratively, between the story and the person experiencing it."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can see why Mouse had to kill them."
+    },
+    {
+      "type": "paragraph",
+      "text": "A competing entertainment theology is bad enough. A competing entertainment theology that undermines the foundational premise of your own — that creative authority flows downward from the divine founder, that every story belongs to the House, that meaning is assigned and not discovered — is an existential threat. Arclight didn't just compete with Mouse for market share. Arclight's <em>existence</em> was a heresy that disproved Mouse's central claim."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mouse didn't just destroy Arclight. Mouse <strong>wrote them out of the story</strong>. Arclight's entire media archive — centuries of films, music, interactive experiences, written works, performance recordings — was seized. Most of it was destroyed. Some of it, reportedly, was locked in Mouse vaults so deep that the people who guard them don't know what they're guarding. Arclight's founder was rewritten in Mouse mythology as a cautionary figure — the Plagiarist, the Thief of Stories, a villain who tried to steal the sacred gift of narrative and was justly punished."
+    },
+    {
+      "type": "paragraph",
+      "text": "The rewrite was thorough. Within two generations, Arclight's actual history was gone. What remained was Mouse's version: a morality tale about the sin of unauthorized creation. A warning to Cast Members about what happens when stories escape the control of those ordained to tell them."
+    },
+    {
+      "type": "paragraph",
+      "text": "But stories are hard to kill. Harder than corporations. Harder than gods."
+    },
+    {
+      "type": "paragraph",
+      "text": "In contractor bars — the only spaces where intellectual property law can't reach — old Arclight works circulate. Copied a thousand times, degraded, fragmentary, sometimes just audio or just visual, passed on data chips that have been wiped and rewritten so many times the files are ghosts of ghosts. Contractors trade them like relics. Not because the content is extraordinary — some of it is, some of it isn't — but because <strong>it's not supposed to exist</strong>. Possessing an Arclight recording in Mouse territory is a crime. Not a civil infraction. A <em>crime</em>. Because a story that exists outside the House's authority is proof that the House's authority has limits. And that is the one thing Mouse can never allow to be proven."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"I watched an Arclight film once. Old format. Had to rig a display to even read it. It was about a musician who couldn't play anymore — hands were damaged, augments rejected. She taught other people instead. The film ended with her students performing a piece she wrote but could never play herself. No moral. No lesson. No approved narrative arc. It just ended with music, and it was the most beautiful thing I'd ever seen. The next day I found out Mouse has a standing bounty on Arclight media. Five hundred credits per file turned in. That's more than most contracts pay. I kept the film.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "Arclight media is a perfect contraband item and social currency. Possessing it in Mouse territory creates instant tension. Trading it creates connections to underground networks that oppose Mouse's cultural monopoly. And the content itself — fragments of a dead theology that believed art belongs to everyone — can be used as thematic fuel. A contract that leads the crew to a sealed Arclight archive deep in a dead zone isn't just a loot run. It's a question: what do you do with a dead god's gospel when the god that killed it is still watching?"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Solace Health"
+    },
+    {
+      "type": "paragraph",
+      "text": "Solace was everything Wellspring pretends to be."
+    },
+    {
+      "type": "paragraph",
+      "text": "A medical corporation whose theology was built on a single, radical premise: <em>healing is a moral obligation, not a transaction</em>. Solace's founder — called <strong>the First Physician</strong> — established a corporate charter that classified medical treatment as a right of citizenship, not a product. Solace citizens didn't pay for healthcare. Didn't pay for augmentation. Didn't pay for toxicity treatment. The cost was absorbed by the corporation and redistributed through taxation. Solace's rift doctrine was Acquisition — they hunted biological specimens and dimensional pharmaceuticals — but the profits funded universal care."
+    },
+    {
+      "type": "paragraph",
+      "text": "It worked. For centuries, it actually worked. Solace citizens were the healthiest population on the planet. Their toxicity rates were the lowest. Their life expectancy was the highest. Their augmentation rejection rates were nearly zero because the procedures were performed by people who had time to do them right, because they weren't billing by the minute."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wellspring Pharma did not destroy Solace because Solace was a military threat. Wellspring destroyed Solace because Solace's <em>existence</em> proved that Wellspring's model — health as commodity, treatment as transaction, citizens as patients who owe — was a choice, not a necessity. Every day Solace operated was a day Wellspring's theology had a living counter-argument. You cannot maintain that sickness is sin and health is purchased salvation when the corp next door is healing people for free and calling it a moral duty."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wellspring didn't just destroy Solace's military or annex their territory. They destroyed the <em>idea</em>. Solace's medical records — centuries of research, treatment protocols, pharmaceutical data — were seized and classified. Not destroyed. <strong>Classified.</strong> Locked behind Wellspring's proprietary access systems, filed as Wellspring intellectual property. A thousand years of freely shared medical knowledge, privatized overnight and sold back to the world at market rates."
+    },
+    {
+      "type": "paragraph",
+      "text": "The First Physician was declared a heretic in Wellspring's theology — a well-meaning fool whose unsustainable idealism endangered public health by undermining the economic structures necessary to fund research. Wellspring's narrative is clean: Solace failed because compassion without profit motive is unsustainable. Solace collapsed under its own generosity. It's a tidy story. It's also a lie. Solace didn't collapse. It was murdered by a competitor who couldn't afford to let it succeed."
+    },
+    {
+      "type": "paragraph",
+      "text": "In the undercity, black-market clinics still display a small Solace logo — a stylized open hand, palm upward. It doesn't mean the clinic follows Solace's theology. It means <em>we'll treat you even if you can't pay</em>. The symbol persists because the need it represents never went away. Wellspring has spent centuries trying to stamp it out. They can't. You can't kill a symbol that means \"help\" in a world where help costs money nobody has."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The doc in the undercity had the hand on her door. I asked if she was Solace. She said Solace has been dead for six hundred years. I said then why the symbol. She said because somebody has to remember that healing people used to be the point. She reset my arm for free. Didn't ask my name. Didn't log it. Just fixed me and sent me out. That's the most subversive thing I've ever seen anyone do.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "gold",
+      "text": "The Solace symbol is a trust marker in the undercity. A clinic displaying it signals willingness to treat without corporate logging — which means no toxicity record updates, no augment registration, no data trail. For contractors trying to stay off corporate radar, a Solace clinic is invaluable. For Wellspring, every Solace clinic is an active heresy. A campaign thread where Wellspring starts cracking down on Solace-symbol clinics puts the crew in a position where doing nothing means losing their off-grid medical access, and doing something means opposing a megacorporation's theological enforcement arm. The question isn't whether the crew can stop Wellspring. It's whether they're willing to risk everything to keep one undercity doctor's door open."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Meridian Communications"
+    },
+    {
+      "type": "paragraph",
+      "text": "Meridian is the complicated one. Because Meridian didn't die — not entirely. Meridian was <em>absorbed</em>. And absorption is the theological equivalent of syncretism: the conquered god doesn't vanish. It gets folded into the victor's pantheon, stripped of its name, wearing new vestments, still recognizable if you know where to look."
+    },
+    {
+      "type": "paragraph",
+      "text": "Meridian controlled communications infrastructure. Networks. Data transmission. Signal relay. In a world where rifts disrupted conventional communication and dimensional interference made long-range contact unreliable, Meridian built the systems that let people talk to each other. Their theology was elegant: <em>connection is sacred. Signal is prayer. Every message received is proof that you are not alone.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Pear Technologies absorbed Meridian during the late Consolidation. Not through war — through economic dependency. Meridian's networks ran on Pear's hardware. Pear's survey data traveled on Meridian's networks. The two corps were symbiotic until Pear grew large enough to be parasitic, and the transition from partner to host was so gradual that Meridian's executive caste didn't recognize the annexation until it was already complete."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pear's theology — design as enlightenment, code as scripture, the Visionary's aesthetic perfection — grafted onto Meridian's communication worship with surprising ease. \"Connection is sacred\" became \"connection <em>through our platform</em> is sacred.\" \"Signal is prayer\" became \"optimized signal is prayer.\" The core sentiment survived. The openness didn't. Meridian believed any connection was holy. Pear believes only <em>Pear-mediated</em> connection is holy. The god of communication became a saint in the church of design — still venerated, but subordinate, domesticated, stripped of the universalism that made it dangerous."
+    },
+    {
+      "type": "paragraph",
+      "text": "Meridian's central campus is now a Pear data cathedral. The old Meridian logo — a circle of radiating lines, representing signal broadcast — is still visible under the paint in certain corridors if you know where to look. Pear employees walk past it every day without knowing what it is. The architecture remembers even when the people don't."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some Pear Users — the ones who study their own corp's history, which Pear officially encourages and practically discourages — have found traces of Meridian's original theology in Pear's own scripture. Phrases that don't quite fit the Visionary's voice. Design principles that prioritize accessibility over aesthetics. Fragments of a faith that believed technology existed to connect people, not to perfect them. These Users don't worship Meridian. They don't even use the name. But they ask questions that make Pear's clergy uncomfortable, and questions are the first stage of every schism that ever mattered."
+    },
+    {
+      "type": "flavor",
+      "text": "Meridian didn't die. It was baptized in someone else's name. The prayers are the same if you listen closely enough."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "Meridian is useful as a theological fault line inside Pear. A Pear-born character or NPC who discovers Meridian's original theology — connection for its own sake, not connection-as-product — has found a heresy that's already embedded in their own scripture. This is internal religious reform, and Pear would treat it the same way any orthodoxy treats reformers: with institutional violence disguised as concern. A campaign arc where someone inside Pear starts broadcasting on Meridian's old frequencies, using Meridian's old protocols, sending Meridian's old message — <em>you are not alone, the connection is free, no login required</em> — would be both a tech thriller and a theological revolution."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Nameless"
+    },
+    {
+      "type": "paragraph",
+      "text": "These are the ones nobody remembers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not \"forgotten\" — <em>erased</em>. Corporations so thoroughly destroyed that their names, their theologies, their founders' faces, their sacred colors — all of it is gone. Wiped from every archive. Scrubbed from every record. The victors didn't just kill these corps. They killed the <em>memory</em> of these corps, because even a memory can be a seed, and seeds grow into heresies, and heresies grow into revolutions."
+    },
+    {
+      "type": "paragraph",
+      "text": "But erasure is never total. Not in a world where dimensional energy saturates everything and reality itself keeps imperfect records."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors find the traces. In dead zone ruins — structures that predate the Consolidation, built by corps whose names were destroyed with them — there are logos carved into load-bearing walls. Not painted. <em>Carved</em>. Into stone, into metal, into materials that survive when everything else corrodes. The builders knew what was coming. They carved their symbols into the bones of their buildings so that even if every document was burned, every database wiped, every citizen converted or killed, the buildings would remember."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nobody knows what the symbols mean. Nobody knows what the colors represented. Nobody knows what the founders looked like or what they preached or what their citizens believed. The symbols exist in the same category as prehistoric cave paintings — proof that someone was here, believed something, and was erased so completely that the only surviving testimony is scratched into rock."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors who spend time in the deep dead zones start recognizing them. The same logos appearing in ruins hundreds of kilometers apart. The same color patterns in corroded wall panels. The same architectural choices — a preference for arches, or circular windows, or recessed doorways — that suggest a shared aesthetic, which means a shared theology, which means a shared god. A god whose name has been so thoroughly destroyed that the only proof of its existence is the shape of the doors its people built."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"Counted seventeen different unknown logos in a ruin complex outside the Eastern Corridor. Seventeen. Each one unique. Each one carved deep enough to survive centuries of toxic weather. Seventeen dead gods in one building. I started sketching them and my handler told me to stop. Said the sketches were 'non-relevant data.' I kept the sketches. Somebody should.\"</em>"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note",
+      "style": "teal",
+      "text": "The Nameless are atmosphere. They make the dead zones feel like sacred ground — not for the surviving corps, but for the ones that didn't make it. Every ruin the crew explores should have at least one unidentifiable logo, one fragment of a dead theology that nobody can read. Over time, if the crew keeps notes, they'll start recognizing patterns. The same symbol appearing in ruins across different zones. The same architectural fingerprint. They're assembling a dead religion's identity from archaeological fragments, and the moment they have enough pieces to reconstruct a name — or a theology, or a prayer — is the moment the campaign gains a layer of history that no NPC can provide. The crew becomes the only people alive who remember a god that every living power spent centuries trying to erase. What they do with that knowledge is a campaign-defining choice."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Heresy Economy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dead brands have value. Not economic value — or not <em>only</em> economic value. Theological value. A dead corporation's logo, displayed openly, is a statement. It says: <em>your god is not the only god. Your god killed mine. Your god can be killed too.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the margins — the contractor bars, the undercity markets, the free settlements that exist between corporate jurisdictions — dead brand iconography is everywhere. Tattoos. Patches on gear. Graffiti. Tags scratched into transit station walls. Some of it is pure aesthetic — people who don't know or care what the symbols meant, wearing them because they look interesting and corps don't like them. But some of it is sincere. Some of it is faith."
+    },
+    {
+      "type": "paragraph",
+      "text": "And faith, in this world, is currency."
+    },
+    {
+      "type": "callout",
+      "label": "Relics",
+      "style": "gold",
+      "text": "Physical artifacts from dead corporations — original employee badges, brand merchandise, sacred texts (mission statements, training manuals, quarterly reports that functioned as prophecy), founder memorabilia — are traded in undercity markets with the reverence and paranoia of religious relic trafficking. A genuine Titan shift badge fetches more than its weight in medical supplies. An Arclight data chip with intact media is worth a month's contract pay. A Solace medical manual — handwritten, pre-digitization, with the First Physician's marginalia — is essentially priceless. Not because of what it contains. Because of what it <em>represents</em>: a theology that survived its own murder."
+    },
+    {
+      "type": "callout",
+      "label": "Pilgrimages",
+      "style": "gold",
+      "text": "Contractors and margin-dwellers who follow dead brands make pilgrimages to fallen corporate sites. The Foundry Spire. Arclight's sealed studios. Solace's original hospital campus (now a Wellspring \"research annex\" that nobody is allowed to enter). These aren't tourism. They're acts of worship — visiting the tombs of dead gods, paying respects to faiths that the living world has declared heretical. The pilgrimages are dangerous. Most fallen corporate sites are in dead zones or contested territory. People die making them. They go anyway. That's what makes it faith."
+    },
+    {
+      "type": "callout",
+      "label": "Conversion",
+      "style": "rust",
+      "text": "The most dangerous thing a dead brand can do is convert someone. A corporate citizen — a believer, someone whose entire identity is built on loyalty to a living god — encounters a dead brand's theology and finds it compelling. Finds it <em>true</em>. This is not changing jobs. This is losing your religion and finding a new one that the entire world says doesn't exist anymore. Dead brand converts are hunted. Not by security forces — by <strong>theological enforcement</strong>. Because a citizen who converts to a dead brand hasn't just committed treason. They've committed apostasy. And apostasy, in a world where corporations are churches, is the one crime every corp agrees deserves punishment."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Uncomfortable Question"
+    },
+    {
+      "type": "paragraph",
+      "text": "The surviving seven don't discuss the dead brands in public. They don't teach them in corporate education. They don't include them in official histories except as cautionary footnotes — nameless failures who fell because they were weak, or foolish, or insufficiently faithful. The narrative is clean. The strong survived. The weak didn't. Divine selection."
+    },
+    {
+      "type": "paragraph",
+      "text": "But the dead brands ask a question that no amount of narrative control can fully silence."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the Crowned Table's feudal theology is <em>true</em> — if the sacred menu really is divine — then why did three hundred other theologies fail? Were their gods false? If so, how do you know yours isn't? Were their gods real but weaker? If so, what happens when something stronger than your god arrives? Were their gods real and equal, and the survivors just got lucky? If so, your faith is built on luck, not truth, and luck runs out."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every surviving corporation has a theological answer to this question. The Crowned Table says the sacred menu endured because it nourishes — false faiths starve. Sentinel says strength validates theology — the Watch endures because it is correct. Pear says optimization is self-proving — the Update survives because it adapts. Mouse says narrative supremacy is inherent — the best story wins because it deserves to."
+    },
+    {
+      "type": "paragraph",
+      "text": "None of these answers are satisfying. All of them are necessary. Because the alternative — admitting that survival was a function of resources, geography, timing, and violence rather than divine truth — collapses the entire theological architecture that holds civilization together."
+    },
+    {
+      "type": "paragraph",
+      "text": "The dead brands don't need to fight the surviving seven. They don't need armies or rifts or territory. They just need to exist in memory. Because every dead brand that's remembered is a reminder that gods can die. And a god that can die is a god that might not be a god at all."
+    },
+    {
+      "type": "flavor",
+      "text": "The strongest heresy isn't a competing faith. It's a dead one. A living rival can be fought. A dead one can only be remembered — and memory is the one weapon that no corporation has ever learned to destroy."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "What the Contractors Know"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractors exist outside the corporate faith system. They're the only people in the world who can look at all seven theologies from the outside and see them for what they are: survival strategies that calcified into religions. This perspective is both their greatest freedom and their deepest loneliness."
+    },
+    {
+      "type": "paragraph",
+      "text": "But contractors also know something the corps don't want acknowledged: the dead brands were <em>right about some things</em>. Solace was right that healing shouldn't cost money. Arclight was right that stories belong to everyone. Titan was right that craftsmanship is sacred. Meridian was right that connection matters more than the platform it runs on. These weren't failed theologies. They were murdered theologies. They didn't die because they were wrong. They died because being right made them dangerous."
+    },
+    {
+      "type": "paragraph",
+      "text": "Every contractor who wears a dead brand patch knows this. They're not wearing it because they're rebels. They're wearing it because somebody should remember that the world used to believe in things worth believing in. Things that the surviving gods killed because they couldn't compete with, couldn't control, couldn't own."
+    },
+    {
+      "type": "paragraph",
+      "text": "The dead brands aren't just fallen religions. They're proof that the surviving religions <em>had</em> to kill to stay alive. And any god that has to kill the competition isn't a god. It's just the last one standing."
+    },
+    {
+      "type": "flavor",
+      "text": "Ask a contractor why they wear the hand, the circle, the forge. They won't say they're believers. They'll say somebody has to remember. That's enough. In this world, remembering is the most dangerous form of prayer."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note — Using Dead Brands in Your Campaign",
+      "style": "teal",
+      "text": "Dead brands are a narrative Swiss army knife. They can function as:<br><br><strong>Faction hooks:</strong> The Unfinished, Solace clinics, Arclight archivists, and Meridian reformers are all ready-made factions with distinct motivations and resources.<br><br><strong>Contraband and treasure:</strong> Dead brand relics — badges, recordings, manuals, original artifacts — are high-value items that create social connections and corporate heat simultaneously.<br><br><strong>Theological crisis fuel:</strong> A corporate NPC who discovers a dead brand's theology and starts questioning their own faith is one of the most powerful character arcs this setting can produce.<br><br><strong>Campaign-scale themes:</strong> The question at the heart of every dead brand is the question at the heart of the setting: is this system the only way, or did we kill the alternatives? A campaign that confronts this question doesn't need to answer it. The question itself is the point.<br><br><strong>Dead zone atmosphere:</strong> Every ruin in a dead zone should feel like a tomb. Not just a building that fell apart — a <em>church</em> that was destroyed. Altars toppled. Liturgical colors faded. Sacred symbols defaced. The crew isn't looting an abandoned office. They're walking through a desecrated cathedral. Make it feel that way.<br><br>The dead brands work best when they're personal. Don't dump all of them on the crew at once. Let one dead brand become <em>their</em> dead brand — the one they keep finding traces of, the one whose theology resonates with something in their own story. By the time the crew realizes they've been collecting fragments of a dead religion, they're already converts. That's the point."
+    }
+  ]
+}
