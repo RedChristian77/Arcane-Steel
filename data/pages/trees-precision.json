@@ -30,6 +30,11 @@
           "name": "Recoil Dampener",
           "effect": "Ignore first -1 penalty from weapon conditions per attack",
           "cost": "200 cr"
+        },
+        {
+          "name": "Rangefinder Optic",
+          "effect": "No accuracy penalty for long range attacks. Distance is just math",
+          "cost": "250 cr"
         }
       ]
     },
@@ -83,6 +88,11 @@
           "name": "Overwatch Protocol",
           "effect": "Overwatch attacks gain +2 accuracy",
           "cost": "500 cr"
+        },
+        {
+          "name": "Called Shot Algorithm",
+          "effect": "1/combat: declare hit location. Limb: target speed halved for 2 rounds. Weapon arm: target -2 accuracy for 2 rounds",
+          "cost": "600 cr"
         }
       ]
     },

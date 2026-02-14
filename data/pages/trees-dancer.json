@@ -59,6 +59,11 @@
           "name": "Counter-Rhythm",
           "effect": "After enemy misses you in melee, off-hand gains +2 accuracy",
           "cost": "350 cr"
+        },
+        {
+          "name": "Flowing Guard",
+          "effect": "While dual wielding: +1 Evasion against melee attacks. Your off-hand deflects instinctively",
+          "cost": "350 cr"
         }
       ]
     },

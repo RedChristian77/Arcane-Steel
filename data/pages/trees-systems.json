@@ -30,6 +30,11 @@
           "name": "Diagnostic Ping",
           "effect": "1/combat: identify all augments on one target",
           "cost": "150 cr"
+        },
+        {
+          "name": "Maintenance Subroutine",
+          "effect": "Equipment you carry has +1 durability. 1/mission: field-repair a broken item without tools",
+          "cost": "200 cr"
         }
       ]
     },

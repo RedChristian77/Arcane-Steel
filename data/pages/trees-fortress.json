@@ -83,6 +83,16 @@
           "name": "Fortress Wall",
           "effect": "Opportunity attacks deal +2 damage per die",
           "cost": "550 cr"
+        },
+        {
+          "name": "Kinetic Dispersal",
+          "effect": "Reduce all area-of-effect damage taken by half (rounded down)",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Anchored Defense",
+          "effect": "While you don't move this turn: allies directly behind you gain half cover (+2 Evasion)",
+          "cost": "550 cr"
         }
       ]
     },

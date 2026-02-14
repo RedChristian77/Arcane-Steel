@@ -80,6 +80,10 @@
       "text": "<strong>Twin Fangs (Passive):</strong> When dual wielding, if your first attack applies a condition (Bleed, Poison, etc.), your second attack applies it again automatically on hit. Double condition stacking."
     },
     {
+      "type": "paragraph",
+      "text": "<strong>After Image (Passive):</strong> When you move and attack in the same turn, the first melee attack against you before your next turn has -2 accuracy. Your afterimage lingers where you were."
+    },
+    {
       "type": "heading",
       "text": "T4 — Pick from (1,000 cr each)"
     },

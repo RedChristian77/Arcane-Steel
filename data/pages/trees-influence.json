@@ -25,6 +25,16 @@
           "name": "Calm Under Fire",
           "effect": "+1 to Edge checks during combat (not attacks)",
           "cost": "250 cr"
+        },
+        {
+          "name": "Voice Modulator",
+          "effect": "+2 to Deception and Bluff checks. Voice pitch, tone, and cadence are software-controlled",
+          "cost": "200 cr"
+        },
+        {
+          "name": "Micro-Expression Reader",
+          "effect": "+2 to Insight checks and detecting lies. Facial muscle tracking overlay in your HUD",
+          "cost": "250 cr"
         }
       ]
     },
@@ -49,6 +59,11 @@
           "name": "Negotiator's Edge",
           "effect": "Reduce prices in shops/services by 10%",
           "cost": "300 cr"
+        },
+        {
+          "name": "Pheromone Emitter",
+          "effect": "1/encounter: target within short range becomes non-hostile for 1 round. Edge vs Grit",
+          "cost": "400 cr"
         }
       ]
     },
@@ -68,6 +83,16 @@
           "name": "Corporate Leverage",
           "effect": "1/mission: call in a corporate favor",
           "cost": "550 cr"
+        },
+        {
+          "name": "Empathic Broadcast",
+          "effect": "1/combat: all enemies in short range make Edge check DC 7 or hesitate, losing 1 AP on their next turn",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Network Node",
+          "effect": "1/mission: contact a friendly NPC in any district for intel. You always know someone who knows someone",
+          "cost": "500 cr"
         }
       ]
     },
@@ -82,6 +107,11 @@
           "name": "Puppet Strings",
           "effect": "1/combat: force one enemy to attack an ally of yours choosing",
           "cost": "1,000 cr"
+        },
+        {
+          "name": "Silver Tongue Protocol",
+          "effect": "All social checks gain +3. 1/mission: auto-succeed a persuasion check vs a non-boss NPC",
+          "cost": "950 cr"
         }
       ]
     },
