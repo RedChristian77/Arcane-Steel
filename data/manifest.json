@@ -254,11 +254,6 @@
           "id": "trees-sin-eater",
           "title": "😈 Sin Eater",
           "file": "pages/trees-sin-eater.json"
-        },
-        {
-          "id": "trees-loop",
-          "title": "⚡ The Loop",
-          "file": "pages/trees-loop.json"
         }
       ]
     },
