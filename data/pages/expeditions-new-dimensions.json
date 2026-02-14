@@ -1,0 +1,284 @@
+{
+  "id": "expeditions-new-dimensions",
+  "title": "Rumored Dimensions",
+  "subtitle": "Unverified. Unconfirmed. Unsettling.",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Probably Nonsense. But the Details Are Specific Enough to Be Uncomfortable.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following dimensional reports have not been verified by any corporate survey team, recognized broker network, or credible source. They persist because contractors keep telling the same stories, in the same bars, with the same specific details that shouldn't be consistent if they were fabricated."
+    },
+    {
+      "type": "paragraph",
+      "text": "We include them here not as fact but as a concession to thoroughness. If even one of these is real, it changes the math on what's out there. If none of them are real, then a disturbing number of unrelated contractors across multiple city-states have independently constructed identical fictions. That's almost stranger."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Rift Survey Bureau does not maintain records on unverified dimensional claims. Contractors are advised to treat all unsubstantiated rift reports with appropriate skepticism. The Bureau further notes that the dissemination of unverified dimensional intelligence may constitute a violation of Intercompany Information Integrity statutes, and encourages all personnel to direct rumors to their assigned corporate liaison for proper disposition.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Translation: stop talking about it. The fact that they issued a statement about things that don't exist is, itself, interesting."
+    },
+    {
+      "type": "callout",
+      "label": "GM Eyes Only",
+      "style": "teal",
+      "text": "These dimensions are <strong>real</strong>. All of them. Use them as campaign reveals, contract destinations, or background lore that bleeds into the main story. The urban legend framing gives you control over when and how players discover the truth — maybe they hear the rumors for sessions before a contract drops them into the real thing. Maybe they never learn the truth and operate entirely on hearsay. The gap between what contractors believe and what's actually out there is one of the best tensions you can build."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Lattice"
+    },
+    {
+      "type": "flavor",
+      "text": "Perfect geometry. No atmosphere. No life. The structures breathe anyway."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Rumor:</strong> Contractors working deep Char extraction runs — the ones who push past the charted veins into substrata that haven't been surveyed — talk about a rift that doesn't lead to rock and magma. It leads to geometry. Perfect geometry. Structures made of metal that doesn't exist on any periodic table, repeating at every scale. Fractal architecture that goes down to the molecular level and up to the horizon. No organic life. No atmosphere in the traditional sense — you can breathe, but what you're breathing isn't air. The structures themselves seem to <em>breathe</em>. A slow, rhythmic expansion and contraction, like the walls have a pulse."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who Tells It:</strong> Mostly Keth miners and Congo extraction crews. The overlap is suspicious — Keth and Congo teams don't drink in the same bars, don't share the same networks, and have no reason to coordinate a fabrication. The story always includes someone who brought back a sample: an alloy that metallurgists can't identify, that doesn't corrode under any conditions tested, that seems to repair microscopic damage to itself over time. Nobody's ever produced a verified sample for independent analysis. But the descriptions of its properties are identical across accounts that span decades."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Skeptic's Position:</strong> \"It's a Char substratum. Crystalline formation under extreme pressure that <em>looks</em> structured because the human brain sees patterns everywhere. The breathing is thermal cycling — heat expansion in a confined space. The self-repairing alloy is a metallurgical misidentification. Keth perceive material properties differently than humans. Congo crews are exhausted, dehydrated, and working in extreme heat. None of this requires a new dimension.\""
+    },
+    {
+      "type": "callout",
+      "label": "The Details That Don't Fit",
+      "style": "gold",
+      "text": "The geometry reconfigures. Multiple independent accounts — across different years, different teams, different entry points — describe walls and corridors rearranging while observers watch. Not fast. Slow, deliberate, like the structure is <strong>optimizing itself</strong>. Surfaces slide against surfaces without friction. Angles change by fractions of a degree per hour. Teams that stay too long find the exit has moved. Not collapsed. Not sealed. <em>Moved.</em> Relocated to a position that's structurally more efficient. Some teams found it eventually. Some teams never found it again."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"I put a mark on the wall. Scored it with my knife, right at eye level. Came back the same corridor two hours later. The mark was there. Eight meters higher. The wall hadn't moved. The floor had.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "That account comes from a Keth miner named Dolsk who worked Congo deep-vein contracts out of Keth Threshold for eleven years. Dolsk doesn't drink. Dolsk doesn't embellish. Dolsk's crew lead confirmed the story independently, using different details that matched. The interviewer noted that Dolsk described the reconfiguration the way you'd describe machinery — not with awe or fear, but with professional assessment. Like recognizing that something was <em>engineered</em>."
+    },
+    {
+      "type": "callout",
+      "label": "GM Truth — The Lattice",
+      "style": "teal",
+      "text": "The Lattice is real. It's a dimension of self-replicating mechanical structures — not built, <strong>grown</strong>. There is no organic life. The structures <em>are</em> the life. They optimize endlessly, reconfiguring toward some unknown purpose that may or may not have an endpoint. The dimension is a single organism expressed as architecture, and it has been growing for longer than human civilization has existed.",
+      "items": [
+        "<strong>Resources:</strong> Computational crystals (lattice-grown processing nodes worth 500+ cr each to Pear or Soma), self-repairing alloys (priceless to the right buyer — Congo would pay fortunes, Sentinel would classify them immediately).",
+        "<strong>Hazard:</strong> The Lattice treats intruders as <em>material to incorporate</em>. Stay too long and the geometry starts to include you. Boots fuse to floors. Equipment bonds to walls. Organic tissue doesn't bond — it gets enclosed. Sealed inside reconfiguring architecture with no exit. The dimension doesn't do this maliciously. It does it the way a crystal grows around an impurity.",
+        "<strong>Threat Classification:</strong> Fauna: N/A — the dimension itself is the threat. Environmental hazard rating: T3. The Lattice won't chase you. It will simply make leaving progressively more difficult the longer you stay."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Lattice Hazard", "Effect", "Onset", "Mitigation"],
+      "rows": [
+        ["Structural Reconfiguration", "Exits relocate; navigation checks increase by +1 DC per hour", "After 2 hours", "Mark multiple routes; never rely on a single exit path"],
+        ["Material Bonding", "Equipment in contact with surfaces begins fusing (Chrome DC 7 to free)", "After 4 hours", "Keep moving; never set gear down on Lattice surfaces"],
+        ["Geometric Enclosure", "Walls close around stationary targets at 0.5m per hour", "After 6 hours", "Do not sleep inside the Lattice"],
+        ["Atmospheric Shift", "Breathable medium thins near reconfiguration zones; Grit DC 6 or -1 to all checks", "Variable", "Breather Masks (standard), supplemental air supply (recommended)"],
+        ["Incorporation", "Organic tissue sealed within structure; irreversible without cutting equipment", "After 8+ hours", "Leave. There is no mitigation. Leave."]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Recommended Expedition Loadout",
+      "style": "accent",
+      "text": "Breather Masks (required), cutting tools rated for T3 materials, navigation beacons (minimum 6 — you will lose some to bonding), <strong>a hard extraction timer</strong>. Four hours in, four hours out. No exceptions. Teams that set six-hour timers had losses. Teams that set eight-hour timers didn't come back."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Hollow Dark"
+    },
+    {
+      "type": "flavor",
+      "text": "Not nighttime darkness. Absence-of-light darkness. The kind where your eyes never adjust."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Rumor:</strong> Deep dead zone salvagers — the ones who work the edges of Black Zones where reality gets thin — talk about a rift type they call \"cold gates.\" Rifts that don't glow, don't pulse, don't radiate. They're just <em>holes</em>. In the air. You notice them because the air near them is colder, because sound behaves differently, because your hindbrain screams at you to walk the other way. And on the other side: nothing. Complete darkness. Not nighttime darkness. Not underground darkness. <em>Absence-of-light</em> darkness. The kind where your eyes never adjust because there's nothing for them to adjust to."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who Tells It:</strong> Salvage guild members. Always secondhand. \"My partner's old crew\" or \"a team that came through the margin three years ago.\" Nobody claims first-person experience. That's either because the story is fabricated through a long game of whisper-down-the-line, or because the people with first-person experience aren't telling the story anymore. The details are always the same: the cold, the silence, the things that respond to vibration."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Skeptic's Position:</strong> \"Black Zone sensory deprivation. Your brain fills in darkness when reality stops making sense. Classic rift psychosis — we've documented this extensively. Contractors who spend too long in high-toxicity zones hallucinate. This is textbook. The 'things that respond to vibration' are echo artifacts from spatial distortion. You're hearing your own movements bounced back through warped geometry.\""
+    },
+    {
+      "type": "callout",
+      "label": "The Details That Don't Fit",
+      "style": "gold",
+      "text": "Sound works wrong. Not silence — sound <em>carries</em>, but it bounces off things that aren't there. Or doesn't bounce off things that are. Teams have reported hearing their own footsteps <strong>behind</strong> them, arriving seconds late, as if the sound took a longer path to reach them than the distance should allow. And something responds to the sound. Not aggressively. <em>Curiously.</em> Like it's never heard that particular vibration before and wants more of it. One account describes a contractor who tapped a rhythm on a metal railing and something in the dark tapped it back. Perfectly. Then tapped a variation. Then waited."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"We turned off every light, every augment, every device. Complete silence. Complete dark. And something breathed. Not air. Not wind. Something with lungs. Something close. I don't mean I heard breathing. I mean I felt it. On my neck. And when I turned around, the breathing moved. It stayed behind me. It stayed exactly behind me no matter which way I faced.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "That account is anonymous. It was scratched into the back wall of a salvager bar in Lower Threshold, undated. It's been painted over three times. Someone keeps re-scratching it. The handwriting is different each time."
+    },
+    {
+      "type": "callout",
+      "label": "GM Truth — The Hollow Dark",
+      "style": "teal",
+      "text": "The Hollow Dark is real. A dimension with no light source — not dark because of clouds or distance from a star, but <strong>fundamentally lightless</strong>. The dimension was never meant to have light. It operates on vibration and pressure the way other dimensions operate on electromagnetic radiation. Temperature: near absolute zero in most areas, with pockets of warmth near entity clusters.",
+      "items": [
+        "<strong>Fauna:</strong> Vibration-sensitive entities (T2–T3) that navigate by echolocation and pressure waves. They are not hostile by default — they are <em>curious</em>. They've existed in perfect silence for millennia, and the vibrations that contractors produce are novel stimuli. They investigate. They mirror. They get closer. Curious things can kill you, not out of malice but because the investigation involves physical contact with organisms that exist at near-zero temperatures.",
+        "<strong>Apex Entity:</strong> Something deeper in. Accounts are too fragmented to classify. The salvager accounts describe a pressure — not sound, not movement, just <em>weight</em> — that builds when you've been inside too long. As if something very large has noticed you and is deciding what to do. Assign T4 status if it ever becomes relevant.",
+        "<strong>Resources:</strong> Null-energy crystals — they absorb ambient magic, actively negate toxicity buildup in their proximity. Each worth 800+ cr. Cold-forged metals that maintain structural integrity at any temperature, from absolute zero to stellar core. These are among the most valuable materials theoretically accessible through rifts, which is why the rumor persists. Someone, somewhere, is finding these things.",
+        "<strong>Critical Detail:</strong> The entities are <strong>photophobic</strong>. Light doesn't calm them — it causes panic. Panicked entities in an enclosed, pitch-dark environment with no navigable exits is a scenario that kills crews. Light sources are necessary for human navigation but must be used sparingly and directionally. Strobe effects cause mass panic responses. Sustained, low-level illumination is tolerated but draws investigation."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Hollow Dark Hazard", "Effect", "Onset", "Mitigation"],
+      "rows": [
+        ["Absolute Darkness", "All visual perception fails; -4 to ranged attacks, -2 to melee without alternative senses", "Immediate", "Thermal imaging, echolocation augments, Whisper crew members"],
+        ["Extreme Cold", "1 HP loss per hour without thermal protection; equipment failure at 4+ hours exposure", "Immediate", "Thermal gear (required), heated suits (recommended)"],
+        ["Vibration Attention", "Activity draws entity investigation; louder actions draw faster response", "After first significant noise", "Vibration dampeners on boots and gear; move slowly; communicate via text or hand signals"],
+        ["Photophobic Panic", "Light sources cause T2–T3 entities to scatter violently; collision damage 2d6 in Adjacent range", "On light activation", "Infrared-only illumination, directional beams, never use area lights"],
+        ["Deep Pressure", "Grit DC 8 or suffer mounting anxiety; -1 cumulative to all checks per hour after failure", "After 6 hours", "Leave before the pressure builds. There is no known countermeasure."]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Recommended Expedition Loadout",
+      "style": "accent",
+      "text": "Thermal gear (required — non-negotiable), vibration dampeners (boots, weapons, equipment), infrared optics or echolocation augments, <strong>no area light sources</strong>, communication via text display or tactile signals. Whisper crew members are invaluable — their perception operates on wavelengths that function in the Hollow Dark. Keth thermal tolerance gives them an edge on exposure time. Human-baseline contractors without augmentation are a liability."
+    },
+    {
+      "type": "callout",
+      "label": "Warning",
+      "style": "rust",
+      "text": "If you use the Hollow Dark in play, commit to the sensory deprivation. Describe sounds, textures, temperature, pressure — never what things <em>look</em> like. Players should feel the disorientation. The horror of the Hollow Dark isn't monsters in the dark. It's the dark itself, and the slow realization that something in it is learning your sounds."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Weave"
+    },
+    {
+      "type": "flavor",
+      "text": "A landscape that exists as information. Terrain shaped by what the observer is thinking. Memories with weight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Rumor:</strong> This one comes mostly from Whispers, which is why most people dismiss it. Whispers are already strange — their descriptions of rift phenomena are always filtered through perceptions that humans can't share, using metaphors that don't map cleanly to human experience. But the Whispers describe a dimension that isn't physical. Not \"has different physics\" — <em>isn't physical</em>. A landscape that exists as information. Terrain shaped by what the observer is thinking. A place where memories have weight and thoughts have texture and the boundary between what you remember and where you're standing dissolves."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Who Tells It:</strong> Whispers. Almost exclusively. Some rift-sensitives who've been near unusual wild rifts — rifts that didn't feel like doors so much as invitations. A handful of Channelers who pushed too deep during meditation and touched something that pushed back. The accounts share structural similarities despite coming from individuals who never met, never communicated, and in several cases don't speak the same language. A Whisper in Keth Threshold and a Channeler in the European Margins described the same landmark — a tower made of childhood memories — using different words for identical architecture."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Skeptic's Position:</strong> \"Rift-cult mysticism. Dimensional hallucination filtered through Whisper perception, which is already non-standard and poorly understood. The brain creates a narrative when exposed to anomalous stimuli. Channelers who overchannel experience cognitive distortion — this is documented, this is <em>textbook</em>. A dimension made of thoughts is not a dimension. It's a symptom.\""
+    },
+    {
+      "type": "callout",
+      "label": "The Details That Don't Fit",
+      "style": "gold",
+      "text": "Contractors who've reportedly been there describe the same experience independently: a landscape that responds to memory. Not randomly — <strong>specifically</strong>. You think of a place, the terrain becomes that place. You think of a person, something wearing that person's shape appears. It gets the details right. Details you'd forgotten. Details you didn't know you remembered. The problem: the terrain also responds to things you're <em>not</em> thinking about. Subconscious fears. Suppressed memories. The dimension maps your mind and shows you things you've buried. Some of what it shows is useful — forgotten knowledge, lost skills, memories of things you saw but didn't consciously register. Some of it is devastating."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"I thought about home. And there it was. My crew quarters. My bunk. My stuff. Perfect down to the scratch on the locker door. Then it showed me what home looked like without me in it. My crew, eating dinner, laughing at something. The empty bunk already reassigned. Someone else's gear in my locker. That wasn't a memory. That was something the place knew that I didn't.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "That account comes from a contractor who asked to remain unnamed. When pressed on the last detail — the reassigned bunk — the contractor confirmed that they returned from the expedition to find their bunk had, in fact, been reassigned during their absence. The crew had assumed they weren't coming back. The dimension didn't show them a fear. It showed them a fact they hadn't learned yet."
+    },
+    {
+      "type": "paragraph",
+      "text": "We don't know what to do with that. The skeptic's explanation — coincidence, confabulation, retroactive narrative construction — is reasonable. It's also not satisfying."
+    },
+    {
+      "type": "callout",
+      "label": "GM Truth — The Weave",
+      "style": "teal",
+      "text": "The Weave is real and it's the strangest dimension documented — or undocumented. It exists as a <strong>semi-corporeal information space</strong>: physical enough to walk through, intangible enough that the landscape reshapes based on cognitive input from anyone present. Multiple observers create overlapping realities that blend at the edges. It's beautiful, disorienting, and deeply personal in ways that make it the most psychologically dangerous dimension in the catalog.",
+      "items": [
+        "<strong>Fauna:</strong> Thought-forms (T2–T3) — entities that exist as cognitive patterns, feeding on attention and memory. The longer you think about them, the more real they become. Ignore them and they fade. They take shapes drawn from the observer's mind, which means every crew sees different threats. A contractor afraid of Magma Drakes sees Magma Drakes. A contractor grieving a dead friend sees the friend. The forms are not real. Their damage is.",
+        "<strong>Apex Entity — The Librarian (T4):</strong> Something that has consumed so many memories it's become an intelligence. It manifests as a calm, articulate presence — no fixed form, just a voice and a sense of vast, patient awareness. It trades in knowledge. It's very reasonable. It always wants more. It will answer any question in exchange for a memory, and the memory it takes is always worth more than the answer it gives. Contractors who've dealt with it describe feeling lighter afterward — not relieved, <em>diminished</em>.",
+        "<strong>Resources:</strong> Patterned knowledge crystals — crystallized information formations that can be extracted and decoded. Dimensional survey data, historical records from unknown civilizations, and raw cognitive impressions worth 200–500 cr per crystal depending on content. Memory extractions — direct-recorded experiences from the Weave's accumulated data. Pear Technologies would pay any price for these. They cannot be allowed to know the Weave exists.",
+        "<strong>Critical Hazard — Identity Erosion:</strong> Extended exposure causes blurred boundaries between self and environment. Contractors report difficulty distinguishing their own memories from things the dimension showed them. Emotional responses to events that never happened. Skills from lives they didn't live. Some never fully recover. The Weave doesn't damage your body. It damages your sense of who you are."
+      ]
+    },
+    {
+      "type": "table",
+      "headers": ["Weave Hazard", "Effect", "Onset", "Mitigation"],
+      "rows": [
+        ["Cognitive Reshaping", "Terrain shifts based on observer thought; navigation requires Interface DC 6 to maintain bearings", "Immediate", "Focus exercises; designate one crew member as navigator who thinks only about the route"],
+        ["Thought-Form Manifestation", "Subconscious fears manifest as T2 hostile entities", "After 1 hour or under stress", "Mental discipline; acknowledge fear without focusing on it (easier said than done)"],
+        ["Memory Bleed", "Gain 1 false memory per 4 hours; Interface DC 7 to identify it as false", "After 4 hours", "Journaling (write down what you know before entry; compare after exit)"],
+        ["The Librarian's Interest", "Entity initiates contact; offers knowledge in exchange for memories; trades are binding", "When a contractor seeks answers", "Do not engage. Do not answer questions. Do not accept offers. The exchange rate is never fair."],
+        ["Identity Erosion", "Grit DC 8 or lose 1 point from a random mental stat permanently; cumulative per day", "After 8 hours", "Hard extraction limit. No overnight stays. The Weave is not survivable long-term."]
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Recommended Expedition Loadout",
+      "style": "accent",
+      "text": "Cognitive anchoring devices (if available — Pear prototypes exist but aren't on the open market), written personal journals (analog — the Weave interferes with digital storage), <strong>pre-recorded extraction timers with physical alarms</strong>. Whisper crew members are double-edged: their perception gives them natural affinity for the Weave's landscape, but they're also more susceptible to identity erosion. Channelers should not enter the Weave under any circumstances unless the GM wants to explore what happens when someone who manipulates dimensional energy enters a dimension made of thought. The answer is: nothing good, but narratively spectacular."
+    },
+    {
+      "type": "callout",
+      "label": "Warning — Player Consent",
+      "style": "rust",
+      "text": "The Weave deals in personal memories, fears, and identity. Before running a Weave expedition, <strong>check with your players</strong>. Some tables will love the psychological horror. Others won't want their character's backstory weaponized by the environment. Both responses are valid. The Weave can be run as cosmic horror (the dimension strips you bare) or as character drama (the dimension shows you who you really are). Calibrate to your table."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "A Final Note on Rumored Dimensions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rumored dimensions share a common thread, and it's not the obvious one. The common thread isn't that they're unverified. It's that they're all places where the rules don't apply. Not \"different rules\" — the cataloged dimensions have different rules, and those rules can be mapped, predicted, and exploited. The Char is hot. The Bloom is alive. The Static is broken. These are known quantities."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Lattice doesn't have ecology — it <em>is</em> ecology. The Hollow Dark doesn't have an environment — it's the <em>absence</em> of environment. The Weave doesn't have physics — it has <em>psychology</em>. These aren't dimensions with unusual properties. They're dimensions that operate on principles that the existing survey framework can't categorize. The Intercompany Rift Survey Bureau's classification system has fields for gravity, atmosphere, toxicity rate, and fauna threat tier. What field do you fill in for a dimension made of thought? What threat tier do you assign to architecture that's alive?"
+    },
+    {
+      "type": "paragraph",
+      "text": "That's either why they're fake — because they're designed to be unclassifiable, which makes them unfalsifiable, which makes them perfect urban legends. Or it's why the corps won't admit they're real — because admitting them means admitting that the classification system is incomplete, that the known dimensions are the <em>easy</em> ones, and that whatever's out there beyond the surveyed boundaries operates on principles we haven't even named yet."
+    },
+    {
+      "type": "callout",
+      "label": "GM Note — Using Rumors",
+      "style": "teal",
+      "text": "The urban legend framing is a tool, not a limitation. You can keep these dimensions as background flavor — stories contractors hear that add texture to the world. You can use them as foreshadowing — a rumor that becomes real when the crew stumbles into a cold gate or a rift that leads to geometry. Or you can build entire campaign arcs around the revelation that the rumors are true and the corps have known all along. The gap between what contractors believe and what's real is where the best stories live."
+    },
+    {
+      "type": "callout",
+      "label": "The Thirteen Sealed Dimensions",
+      "style": "rust",
+      "text": "The Intercompany Dimensional Registry lists thirteen dimensions as \"sealed\" — access prohibited by intercompany treaty, reasons classified. The rumored dimensions described here are <strong>not</strong> among the thirteen. The thirteen are known, cataloged, and locked for reasons the corps agreed were sufficient to justify permanent closure. The rumored dimensions are something else entirely: places that may or may not exist, that no corp claims jurisdiction over, that appear on no registry. If they're real, they represent something the classification system never anticipated. Whether that's more or less frightening than the thirteen sealed dimensions is a question worth asking your players."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "flavor",
+      "text": "The board doesn't list contracts for places that don't exist. But someone keeps taking jobs that lead exactly nowhere anyone can verify. The pay is excellent. The silence afterward is total."
+    }
+  ]
+}
