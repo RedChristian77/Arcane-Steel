@@ -181,7 +181,26 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage  <em>Crit chance by accuracy die:</em>"
+      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage"
+    },
+    {
+      "type": "table",
+      "headers": ["Accuracy Die", "Crit Chance Per Attack", "Crit Chance Per Turn (at max attacks)"],
+      "rows": [
+        ["d4", "25%", "25% (1 attack)"],
+        ["d6", "16.7%", "16.7% (1 attack)"],
+        ["d8", "12.5%", "12.5% (1 attack)"],
+        ["d10", "10%", "19% (2 attacks)"],
+        ["d12", "8.3%", "35% (5 attacks)"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy weapons (small accuracy dice) crit more often per swing — but they only swing once. Light weapons (large accuracy dice) crit less per swing but get many more chances. Over a full turn, a knife wielder making 5 attacks has roughly the same crit probability as a heavy weapon user making one."
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference: a knife crit doubles 1d6 to 2d6 (average 7). A Great Maul crit doubles 4d12 to 8d12 (average 52). Crits on heavy weapons end fights."
     }
   ]
 }
