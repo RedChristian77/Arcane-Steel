@@ -13,7 +13,7 @@ function esc(text) {
 }
 
 async function loadManifest() {
-  const resp = await fetch('data/manifest.json');
+  const resp = await fetch('data/manifest.json', { cache: 'no-cache' });
   window._manifest = await resp.json();
   return window._manifest;
 }
@@ -37,7 +37,7 @@ async function loadPage(pageId) {
   const entry = findPage(pageId);
   if (!entry) return null;
   try {
-    const resp = await fetch('data/' + entry.file);
+    const resp = await fetch('data/' + entry.file, { cache: 'no-cache' });
     if (!resp.ok) return null;
     const data = await resp.json();
     pageCache[pageId] = data;
