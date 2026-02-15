@@ -36,10 +36,16 @@ async function loadPage(pageId) {
   if (pageCache[pageId]) return pageCache[pageId];
   const entry = findPage(pageId);
   if (!entry) return null;
-  const resp = await fetch('data/' + entry.file);
-  const data = await resp.json();
-  pageCache[pageId] = data;
-  return data;
+  try {
+    const resp = await fetch('data/' + entry.file);
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    pageCache[pageId] = data;
+    return data;
+  } catch (e) {
+    console.error('Failed to load page:', pageId, e);
+    return null;
+  }
 }
 
 async function loadAllPagesForSearch() {
