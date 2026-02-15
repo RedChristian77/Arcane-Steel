@@ -16,52 +16,19 @@
       "text": "Creation Steps Overview"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Step</strong>                <strong>What You Do</strong>         <strong>Time</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "1                       Read the <strong>Five Stats</strong> 2 min"
-    },
-    {
-      "type": "paragraph",
-      "text": "2                       Choose a <strong>Résumé</strong> (or 2 min create custom)"
-    },
-    {
-      "type": "paragraph",
-      "text": "3                       Assign <strong>Flex Points</strong>  2 min to stats"
-    },
-    {
-      "type": "paragraph",
-      "text": "4                       Choose a <strong>Kit</strong>        2 min"
-    },
-    {
-      "type": "paragraph",
-      "text": "5                       Pick <strong>Skills</strong> (3 at   5 min T1, 1 at T2)"
-    },
-    {
-      "type": "paragraph",
-      "text": "6                       Choose optional         1 min"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Traits</strong> (Genius, etc.)"
-    },
-    {
-      "type": "paragraph",
-      "text": "7                       Record <strong>Derived        2 min Values</strong> (HP, Evasion, Armor, etc.)"
-    },
-    {
-      "type": "paragraph",
-      "text": "8                       Spend <strong>Starting        5 min Credits</strong> on gear"
-    },
-    {
-      "type": "paragraph",
-      "text": "9                       Write your <strong>Dossier</strong>  5 min (name, personality, why you’re here) ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Step", "What You Do", "Time"],
+      "rows": [
+        ["1", "Read the <strong>Five Stats</strong>", "2 min"],
+        ["2", "Choose a <strong>Résumé</strong> (or create custom)", "2 min"],
+        ["3", "Assign <strong>Flex Points</strong> to stats", "2 min"],
+        ["4", "Choose a <strong>Kit</strong>", "2 min"],
+        ["5", "Pick <strong>Skills</strong> (3 at T1, 1 at T2)", "5 min"],
+        ["6", "Choose optional <strong>Traits</strong> (Genius, etc.)", "1 min"],
+        ["7", "Record <strong>Derived Values</strong> (HP, Evasion, Armor, etc.)", "2 min"],
+        ["8", "Spend <strong>Starting Credits</strong> on gear", "5 min"],
+        ["9", "Write your <strong>Dossier</strong> (name, personality, why you're here)", "5 min"]
+      ]
     },
     {
       "type": "paragraph",
@@ -73,43 +40,22 @@
     },
     {
       "type": "paragraph",
-      "text": "Every stat does three things: it generates a <strong>Stat Bonus</strong> (used for skill checks and combat), it influences a <strong>combat role</strong>, and it has a"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>passive effect</strong> that’s always active."
+      "text": "Every stat does three things: it generates a <strong>Stat Bonus</strong> (used for skill checks and combat), it influences a <strong>combat role</strong>, and it has a <strong>passive effect</strong> that's always active."
     },
     {
       "type": "paragraph",
       "text": "<strong>Stat Bonuses</strong> are derived from the stat value:"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat Value</strong>                      <strong>Bonus</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "2-3                                 +0"
-    },
-    {
-      "type": "paragraph",
-      "text": "4-5                                 +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "6-7                                 +2"
-    },
-    {
-      "type": "paragraph",
-      "text": "8-9                                 +3"
-    },
-    {
-      "type": "paragraph",
-      "text": "10                                  +4 ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Stat Value", "Bonus"],
+      "rows": [
+        ["2–3", "+0"],
+        ["4–5", "+1"],
+        ["6–7", "+2"],
+        ["8–9", "+3"],
+        ["10", "+4"]
+      ]
     },
     {
       "type": "paragraph",
@@ -204,32 +150,15 @@
       "text": "No stat is expendable. Every stat does something essential:"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>If You Ignore It…</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              Can’t carry gear, can’t use heavy weapons, useless in melee"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              Act last, miss at range, can’t escape"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                Die fast, toxicity kills you, can’t take a hit"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           No rift casting, no hacking, no tech"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                Easy to hit, bad social outcomes, miss opportunities, pay more for everything ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Stat", "If You Ignore It…"],
+      "rows": [
+        ["Chrome", "Can't carry gear, can't use heavy weapons, useless in melee"],
+        ["Reflex", "Act last, miss at range, can't escape"],
+        ["Grit", "Die fast, toxicity kills you, can't take a hit"],
+        ["Interface", "No rift casting, no hacking, no tech"],
+        ["Edge", "Easy to hit, bad social outcomes, miss opportunities, pay more for everything"]
+      ]
     },
     {
       "type": "paragraph",
