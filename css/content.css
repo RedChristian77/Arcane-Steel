@@ -28,6 +28,25 @@
 .c-heading:first-child { margin-top: var(--sp-sm); }
 .c-heading strong { color: var(--accent); }
 
+/* Heading anchor link — appears on hover */
+.c-heading-anchor {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--mono);
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  color: var(--muted);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity var(--tr), color var(--tr);
+  padding: 4px 6px;
+}
+
+.c-heading:hover .c-heading-anchor { opacity: 0.6; }
+.c-heading-anchor:hover { opacity: 1 !important; color: var(--accent); }
+
 /* --- Regular paragraphs --- */
 .c-para {
   font-size: var(--fs-base);
@@ -801,10 +820,124 @@
   font-weight: 500;
 }
 
+/* ============================================================
+   DICE NOTATION — Inline dice badges (d6, 3d10, etc.)
+   ============================================================ */
+
+.dice-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--accent);
+  background: var(--accent-glow);
+  border: 1px solid var(--border-accent);
+  padding: 0 5px;
+  border-radius: 3px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+/* ============================================================
+   ABILITY CARDS — Auto-detected from paragraph patterns
+   Active/Passive kit abilities with tag badges
+   ============================================================ */
+
+.ability-card {
+  margin: var(--sp-sm) 0;
+  padding: var(--sp-md) var(--sp-lg);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color var(--tr), background var(--tr);
+}
+
+.ability-card:hover {
+  background: var(--surface2);
+}
+
+.ability-card--passive {
+  border-left: 3px solid var(--teal);
+}
+
+.ability-card--active {
+  border-left: 3px solid var(--gold);
+}
+
+.ability-card-hdr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--sp-sm);
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.ability-card-name {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: var(--fs-md);
+  color: var(--text);
+}
+
+.ability-card--passive .ability-card-name { color: var(--teal); }
+.ability-card--active .ability-card-name { color: var(--gold); }
+
+.ability-card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.ability-tag {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.ability-tag--passive {
+  color: var(--teal);
+  background: var(--teal-dim);
+}
+
+.ability-tag--active {
+  color: var(--gold);
+  background: var(--gold-dim);
+}
+
+.ability-tag--ap {
+  color: var(--rust);
+  background: var(--rust-dim);
+}
+
+.ability-tag--extra {
+  color: var(--muted);
+  background: var(--bg3);
+}
+
+.ability-card-desc {
+  font-size: var(--fs-sm);
+  color: var(--text2);
+  line-height: var(--lh-base);
+}
+
+.ability-card-desc strong { color: var(--accent); }
+
+/* Consecutive ability cards stack tighter */
+.ability-card + .ability-card {
+  margin-top: calc(-1 * var(--sp-xs));
+}
+
 @media (max-width: 768px) {
   .kit-grid { grid-template-columns: 1fr; }
   .corp-grid { grid-template-columns: 1fr; }
   .corp-contracts-grid { grid-template-columns: 1fr; }
   .c-info-block-entries { grid-template-columns: 1fr; }
   .tbl-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .ability-card-hdr { flex-direction: column; align-items: flex-start; }
 }

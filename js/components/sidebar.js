@@ -14,7 +14,9 @@ function renderSidebar(manifest, currentPageId) {
     + '<span class="nav-ico">⌂</span> Home</a>';
 
   manifest.sections.forEach((section, sIdx) => {
-    const isActive = section.pages.some(p => p.id === currentPageId);
+    const isActive = section.pages.some(p =>
+      p.id === currentPageId || (p.children && p.children.some(c => c.id === currentPageId))
+    );
     const isOpen = sidebarState[sIdx] !== undefined ? sidebarState[sIdx] : isActive;
 
     html += '<div class="nav-group' + (isOpen ? ' open' : '') + '">'
@@ -45,6 +47,29 @@ function renderSidebar(manifest, currentPageId) {
             });
             html += '</div>';
           }
+        }
+        // Render child pages (e.g. abilities nested under tree)
+        if (page.children && page.children.length) {
+          page.children.forEach(child => {
+            const cActive = child.id === currentPageId;
+            html += '<a class="nav-child' + (cActive ? ' active' : '') + '" '
+              + 'onclick="navigateTo(\'' + child.id + '\')">'
+              + esc(child.title) + '</a>';
+            if (cActive && pageCache[child.id]) {
+              const cHeadings = pageCache[child.id].content.filter(function(c) { return c.type === 'heading'; });
+              if (cHeadings.length > 1) {
+                html += '<div class="sec-subnav child">';
+                html += '<div class="sec-subnav-label">On This Page</div>';
+                cHeadings.forEach(function(h) {
+                  const hText = h.text.replace(/<[^>]*>/g, '');
+                  const hId = 'h-' + hText.replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase().replace(/^-|-$/g, '');
+                  html += '<a class="sec-subnav-item" onclick="scrollToHeading(\'' + hId + '\')">'
+                    + esc(hText) + '</a>';
+                });
+                html += '</div>';
+              }
+            }
+          });
         }
       });
       html += '</div>';

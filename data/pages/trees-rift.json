@@ -83,6 +83,16 @@
           "name": "Arcane Resonance",
           "effect": "Magic weapon damage dice upgraded by 1 step",
           "cost": "700 cr"
+        },
+        {
+          "name": "Dimensional Leash",
+          "effect": "1/combat: tether enemy in medium range. Target cannot move more than 1 band from current position for 2 rounds. +1 Toxicity",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Mana Siphon",
+          "effect": "When enemy within short range uses a magic ability, reduce their effect by 1 die and reduce your Toxicity by 1",
+          "cost": "550 cr"
         }
       ]
     },

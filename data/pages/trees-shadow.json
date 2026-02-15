@@ -59,6 +59,11 @@
           "name": "Exploit Weakness",
           "effect": "+1 damage die vs enemies who haven't acted yet",
           "cost": "350 cr"
+        },
+        {
+          "name": "Smoke Disperser",
+          "effect": "1/combat: deploy smoke cloud at your location. All attacks against you from outside the cloud: -2 accuracy. Lasts 2 rounds",
+          "cost": "350 cr"
         }
       ]
     },

@@ -18,7 +18,10 @@ function renderPage(pageData, manifest) {
 
   // --- Prev / Next ---
   const allPages = [];
-  manifest.sections.forEach(s => s.pages.forEach(p => allPages.push(p)));
+  manifest.sections.forEach(s => s.pages.forEach(p => {
+    allPages.push(p);
+    if (p.children) p.children.forEach(c => allPages.push(c));
+  }));
   const idx = allPages.findIndex(p => p.id === pageData.id);
 
   html += '<div class="pg-nav">';

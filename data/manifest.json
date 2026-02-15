@@ -253,12 +253,26 @@
         {
           "id": "trees-overview",
           "title": "How Trees Work",
-          "file": "pages/trees-overview.json"
+          "file": "pages/trees-overview.json",
+          "children": [
+            {
+              "id": "abilities-overview",
+              "title": "Kit Abilities Overview",
+              "file": "pages/abilities-overview.json"
+            }
+          ]
         },
         {
           "id": "trees-fury",
           "title": "🔥 Fury",
-          "file": "pages/trees-fury.json"
+          "file": "pages/trees-fury.json",
+          "children": [
+            {
+              "id": "abilities-berserker",
+              "title": "Berserker Abilities",
+              "file": "pages/abilities-berserker.json"
+            }
+          ]
         },
         {
           "id": "trees-precision",
@@ -268,12 +282,26 @@
         {
           "id": "trees-rift",
           "title": "🌀 Rift",
-          "file": "pages/trees-rift.json"
+          "file": "pages/trees-rift.json",
+          "children": [
+            {
+              "id": "abilities-channeler",
+              "title": "Channeler Abilities",
+              "file": "pages/abilities-channeler.json"
+            }
+          ]
         },
         {
           "id": "trees-systems",
           "title": "⚙️ Systems",
-          "file": "pages/trees-systems.json"
+          "file": "pages/trees-systems.json",
+          "children": [
+            {
+              "id": "abilities-technician",
+              "title": "Technician Abilities",
+              "file": "pages/abilities-technician.json"
+            }
+          ]
         },
         {
           "id": "trees-fortress",
@@ -283,83 +311,62 @@
         {
           "id": "trees-shadow",
           "title": "👤 Shadow",
-          "file": "pages/trees-shadow.json"
+          "file": "pages/trees-shadow.json",
+          "children": [
+            {
+              "id": "abilities-phantom",
+              "title": "Phantom Abilities",
+              "file": "pages/abilities-phantom.json"
+            }
+          ]
         },
         {
           "id": "trees-dancer",
           "title": "💃 Dancer",
-          "file": "pages/trees-dancer.json"
+          "file": "pages/trees-dancer.json",
+          "children": [
+            {
+              "id": "abilities-dancer",
+              "title": "Dancer Abilities",
+              "file": "pages/abilities-dancer.json"
+            }
+          ]
         },
         {
           "id": "trees-influence",
           "title": "🗣️ Influence",
-          "file": "pages/trees-influence.json"
+          "file": "pages/trees-influence.json",
+          "children": [
+            {
+              "id": "abilities-negotiator",
+              "title": "Negotiator Abilities",
+              "file": "pages/abilities-negotiator.json"
+            }
+          ]
         },
         {
           "id": "trees-leech",
           "title": "☣️ Leech",
-          "file": "pages/trees-leech.json"
+          "file": "pages/trees-leech.json",
+          "children": [
+            {
+              "id": "abilities-leech",
+              "title": "Leech Abilities",
+              "file": "pages/abilities-leech.json"
+            }
+          ]
         },
         {
           "id": "trees-sin-eater",
           "title": "😈 Sin Eater",
-          "file": "pages/trees-sin-eater.json"
-        },
-        {
-          "id": "trees-loop",
-          "title": "⚡ The Loop",
-          "file": "pages/trees-loop.json"
-        }
-      ]
-    },
-    {
-      "title": "Kit Abilities",
-      "icon": "⚡",
-      "pages": [
-        {
-          "id": "abilities-overview",
-          "title": "Overview",
-          "file": "pages/abilities-overview.json"
-        },
-        {
-          "id": "abilities-berserker",
-          "title": "Berserker",
-          "file": "pages/abilities-berserker.json"
-        },
-        {
-          "id": "abilities-channeler",
-          "title": "Channeler",
-          "file": "pages/abilities-channeler.json"
-        },
-        {
-          "id": "abilities-technician",
-          "title": "Technician",
-          "file": "pages/abilities-technician.json"
-        },
-        {
-          "id": "abilities-phantom",
-          "title": "Phantom",
-          "file": "pages/abilities-phantom.json"
-        },
-        {
-          "id": "abilities-negotiator",
-          "title": "Negotiator",
-          "file": "pages/abilities-negotiator.json"
-        },
-        {
-          "id": "abilities-dancer",
-          "title": "Dancer",
-          "file": "pages/abilities-dancer.json"
-        },
-        {
-          "id": "abilities-leech",
-          "title": "Leech",
-          "file": "pages/abilities-leech.json"
-        },
-        {
-          "id": "abilities-sin-eater",
-          "title": "Sin Eater",
-          "file": "pages/abilities-sin-eater.json"
+          "file": "pages/trees-sin-eater.json",
+          "children": [
+            {
+              "id": "abilities-sin-eater",
+              "title": "Sin Eater Abilities",
+              "file": "pages/abilities-sin-eater.json"
+            }
+          ]
         }
       ]
     },

@@ -93,7 +93,11 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>Mastermind (Passive):</strong> At the start of each round, you can issue one Command for free (0 AP): reposition one ally 1 range band, give one ally +2 to their next check, or impose -2 on one enemy’s next check. Your tactical mind works constantly."
+      "text": "<strong>Mastermind (Passive):</strong> At the start of each round, you can issue one Command for free (0 AP): reposition one ally 1 range band, give one ally +2 to their next check, or impose -2 on one enemy's next check. Your tactical mind works constantly."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>War of Words (Active, 2 AP):</strong> Edge check vs Grit on an enemy within Medium range. On success, that enemy cannot use special abilities or augment effects for 2 rounds. Your words crack their focus wide open. Once per encounter."
     }
   ]
 }

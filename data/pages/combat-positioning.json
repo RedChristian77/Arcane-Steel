@@ -2,5 +2,152 @@
   "id": "combat-positioning",
   "title": "Positioning & Movement",
   "subtitle": "Range, cover, opportunity attacks",
-  "content": []
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Where you stand matters more than what you swing.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Range Bands"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arcane Steel uses <strong>range bands</strong> instead of grids or exact distances. Range bands are abstract zones that describe relative distance between combatants. No counting squares. No measuring tape. The GM describes where things are, and range bands tell you what you can do from there."
+    },
+    {
+      "type": "table",
+      "headers": ["Range Band", "Rough Distance", "What It Means"],
+      "rows": [
+        ["Adjacent", "Touching / within arm's reach", "Grappling range. Unarmed attacks. Melee with short weapons."],
+        ["Close", "A few meters — same room, same alley", "Standard melee range. Most kit abilities that say 'Close range.' Opportunity attacks trigger when leaving this band."],
+        ["Medium", "Across a room, down a corridor", "Pistol range. Many ranged abilities. Most rift patterns. Too far for melee without closing."],
+        ["Long", "Across a warehouse, a city block", "Rifle range. Sniper territory. Most ranged weapons are effective here."],
+        ["Extreme", "Rooftop to rooftop, across an open field", "Only dedicated long-range weapons (Sniper Rifle, Rift Lance). -2 accuracy penalty unless the weapon says otherwise."]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adjacent vs Close:</strong> Adjacent means you're right on top of someone — grappling distance. Close means you're in the same general area and can reach each other with a blade. Most melee combat happens at Close range. Adjacent matters for grappling, shoving, and abilities that specify 'adjacent' or 'touch.'"
+    },
+    {
+      "type": "heading",
+      "text": "Movement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Moving costs <strong>1 AP per range band.</strong> You can split movement across your turn — move 1 band, attack, move 1 more band. Moving within the same band (repositioning behind cover, circling an enemy) is free."
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>1 AP:</strong> Move 1 range band in any direction  • <strong>2 AP:</strong> Move 2 range bands (can split across turn)  • <strong>Free:</strong> Reposition within your current range band  • <strong>Free:</strong> Move from Adjacent to Close or Close to Adjacent (same band — you're just adjusting spacing)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Difficult terrain</strong> (rubble, flooded zones, dense undergrowth, rift-warped ground) costs <strong>2 AP per range band</strong> instead of 1. The GM declares difficult terrain at the start of combat."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Climbing and dropping:</strong> Climbing up a level costs 2 AP. Dropping down costs 1 AP (and may require a Reflex check to land safely). Vertical movement uses the same range bands — a rooftop two stories up is roughly 1 range band vertically."
+    },
+    {
+      "type": "heading",
+      "text": "Weapon Range"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every weapon has an <strong>effective range</strong> — the furthest band at which it can attack without penalty. Attacking beyond effective range incurs -2 accuracy per band past the limit. Some weapons can't attack beyond certain ranges at all."
+    },
+    {
+      "type": "table",
+      "headers": ["Weapon Type", "Effective Range", "Examples"],
+      "rows": [
+        ["Unarmed / Fist Weapons", "Adjacent", "Knuckle dusters, claws"],
+        ["Light Melee", "Close", "Combat Knife, Precision Blade"],
+        ["Heavy Melee", "Close", "Heavy Axe, Great Maul, Longsword"],
+        ["Reach Melee", "Close (can attack into Medium)", "Spear, Polearm — no penalty at Medium"],
+        ["Sidearms", "Medium", "Pistols, Machine Pistol"],
+        ["Tactical Ranged", "Long", "Corp Rifle, Assault Carbine, Scatter Gun"],
+        ["Precision Ranged", "Extreme", "Sniper Rifle, Anti-Materiel Rifle"],
+        ["Rift Patterns", "Medium (varies)", "Most rift weapons. Some extend to Long."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Engagement & Threat Zones"
+    },
+    {
+      "type": "paragraph",
+      "text": "A melee combatant <strong>threatens</strong> everyone at Close range. Moving out of a threatened zone (Close → Medium) without a Disengage-type ability provokes an <strong>Opportunity Attack.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "This creates <strong>engagement zones</strong> — areas where melee fighters pin enemies in place. A Berserker standing in a doorway threatens the entire door. Anyone trying to push past eats a free hit. This is the fundamental positioning mechanic: melee fighters create sticky zones, ranged fighters need distance to operate."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Engagement rules:</em>  • You threaten all enemies at Close range if you have a melee weapon equipped  • Moving from Close to Medium (or further) triggers an Opportunity Attack  • Moving within Close range (circling, repositioning) does NOT trigger OA  • Moving toward a melee fighter (Medium to Close) does NOT trigger OA  • Only one OA per round (uses your Reaction)"
+    },
+    {
+      "type": "heading",
+      "text": "Tactical Positioning"
+    },
+    {
+      "type": "heading",
+      "text": "Flanking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two attackers on <strong>opposite sides</strong> of a target (roughly 180 degrees apart) both get <strong>+2 accuracy</strong> against that target. This is the Flanked condition. It requires deliberate setup — one ally engages the front, another circles behind."
+    },
+    {
+      "type": "paragraph",
+      "text": "Flanking is the simplest and most powerful tactical setup in the game. It costs nothing but positioning. Two contractors with +2 accuracy each will end fights noticeably faster."
+    },
+    {
+      "type": "heading",
+      "text": "High Ground"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attacking from above grants <strong>+1 accuracy</strong> on ranged attacks against targets below. Defending from high ground grants <strong>+1 Evasion</strong> against melee attacks from below — they have to climb to reach you."
+    },
+    {
+      "type": "heading",
+      "text": "Cover"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taking cover costs <strong>1 AP</strong> (move into available cover in your current zone). Cover grants Evasion bonuses against ranged attacks from the covered direction. Melee attacks and shots from uncovered angles ignore cover."
+    },
+    {
+      "type": "table",
+      "headers": ["Cover Type", "Evasion Bonus", "Description"],
+      "rows": [
+        ["Light Cover", "+1", "Thin walls, furniture, foliage. Partially blocks line of sight."],
+        ["Heavy Cover", "+2", "Concrete walls, vehicles, fortified positions. Blocks most angles."],
+        ["Total Cover", "Can't be targeted", "Fully enclosed. You can't be shot and you can't shoot."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Choke Points & Kill Zones"
+    },
+    {
+      "type": "paragraph",
+      "text": "Smart crews don't fight in open ground. They funnel enemies through <strong>choke points</strong> — doorways, corridors, bridges — where only 1-2 enemies can advance at a time. A Berserker in a doorway with a Phantom flanking from a vent is worth five contractors in the open."
+    },
+    {
+      "type": "paragraph",
+      "text": "A <strong>kill zone</strong> is any area where your crew has overlapping threat ranges. Set up Overwatch on a corridor, put a melee fighter at the end, Suppress the entrance. Enemies have to eat a ranged interrupt, cross suppressed ground at -2 accuracy and +1 AP movement cost, then walk into melee engagement range. That's the whole tactical game: make the enemy fight on your terms."
+    },
+    {
+      "type": "heading",
+      "text": "Positioning Tips by Kit"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Berserker:</strong> Get into Close range and stay there. You're the sticky zone. Your job is to make enemies fight you instead of your crew.  • <strong>Channeler:</strong> Medium range is your home. Close enough for rift patterns, far enough to avoid melee. Let the frontline buy you space.  • <strong>Technician:</strong> Anywhere your allies are. Close range for Overclock and Efficiency Protocol. Medium range for Disrupt and System Crash.  • <strong>Phantom:</strong> Wherever they aren't looking. Flank, ambush, and fade. High ground and cover are your staging areas.  • <strong>Negotiator:</strong> Medium range with line of sight to the whole fight. Your abilities target enemies and allies across the battlefield — you need to see everything.  • <strong>Dancer:</strong> Everywhere, in sequence. Move after every attack. Never end your turn where you started it. You're the flanking partner for everyone.  • <strong>Leech:</strong> Close range, always. Your Burn/Bleed loop only works in melee. Get adjacent, stay adjacent, vent through violence.  • <strong>Sin Eater:</strong> Close to whoever needs you. Early tiers require adjacency for Absorb. At T3+, Medium range works — stay behind the frontline and pull conditions from a safer distance."
+    }
+  ]
 }

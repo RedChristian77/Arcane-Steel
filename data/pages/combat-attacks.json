@@ -16,32 +16,15 @@
       "text": "Roll your weapon’s accuracy die and add your <strong>stat bonus.</strong>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat Value</strong>                      <strong>Bonus</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "2-3                                 +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "4-5                                 +2"
-    },
-    {
-      "type": "paragraph",
-      "text": "6-7                                 +3"
-    },
-    {
-      "type": "paragraph",
-      "text": "8-9                                 +4"
-    },
-    {
-      "type": "paragraph",
-      "text": "10                                  +5 ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Stat Value", "Bonus"],
+      "rows": [
+        ["2-3", "+1"],
+        ["4-5", "+2"],
+        ["6-7", "+3"],
+        ["8-9", "+4"],
+        ["10", "+5"]
+      ]
     },
     {
       "type": "blockquote",
@@ -136,32 +119,15 @@
       "text": "Every weapon has an AP cost that determines how many times you can attack per turn and how much flexibility you have left over."
     },
     {
-      "type": "paragraph",
-      "text": "----------------- ------------------ ----------------- -----------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>AP Cost</strong>       <strong>Attacks/Turn</strong>   <strong>Spare AP</strong>      <strong>Tactical Profile</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 AP              5 attacks          0                 All-in flurry. No movement, no items. Pure aggression."
-    },
-    {
-      "type": "paragraph",
-      "text": "2 AP              2 attacks          1                 Two strikes, one spare for Move or Item. Balanced."
-    },
-    {
-      "type": "paragraph",
-      "text": "3 AP              1 attack           2                 One strike, full tactical flexibility (Move + Item)."
-    },
-    {
-      "type": "paragraph",
-      "text": "4 AP              1 attack           1                 One devastating blow, one spare for Move or Item."
-    },
-    {
-      "type": "paragraph",
-      "text": "5 AP              1 attack           0                 Full commitment. Everything goes into one shot. ----------------- ------------------ ----------------- -----------------"
+      "type": "table",
+      "headers": ["AP Cost", "Attacks/Turn", "Spare AP", "Tactical Profile"],
+      "rows": [
+        ["1 AP", "5 attacks", "0", "All-in flurry. No movement, no items. Pure aggression."],
+        ["2 AP", "2 attacks", "1", "Two strikes, one spare for Move or Item. Balanced."],
+        ["3 AP", "1 attack", "2", "One strike, full tactical flexibility (Move + Item)."],
+        ["4 AP", "1 attack", "1", "One devastating blow, one spare for Move or Item."],
+        ["5 AP", "1 attack", "0", "Full commitment. Everything goes into one shot."]
+      ]
     },
     {
       "type": "paragraph",
@@ -181,7 +147,26 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage  <em>Crit chance by accuracy die:</em>"
+      "text": "<em>Crit Rules:</em>  • <strong>Auto-hit</strong> — bypasses Evasion entirely  • <strong>Double damage dice</strong> — roll twice as many damage dice as normal  • Some weapons have <strong>special crit effects</strong> in addition to double damage"
+    },
+    {
+      "type": "table",
+      "headers": ["Accuracy Die", "Crit Chance Per Attack", "Crit Chance Per Turn (at max attacks)"],
+      "rows": [
+        ["d4", "25%", "25% (1 attack)"],
+        ["d6", "16.7%", "16.7% (1 attack)"],
+        ["d8", "12.5%", "12.5% (1 attack)"],
+        ["d10", "10%", "19% (2 attacks)"],
+        ["d12", "8.3%", "35% (5 attacks)"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy weapons (small accuracy dice) crit more often per swing — but they only swing once. Light weapons (large accuracy dice) crit less per swing but get many more chances. Over a full turn, a knife wielder making 5 attacks has roughly the same crit probability as a heavy weapon user making one."
+    },
+    {
+      "type": "paragraph",
+      "text": "The difference: a knife crit doubles 1d6 to 2d6 (average 7). A Great Maul crit doubles 4d12 to 8d12 (average 52). Crits on heavy weapons end fights."
     }
   ]
 }

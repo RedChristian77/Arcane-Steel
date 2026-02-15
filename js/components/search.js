@@ -5,26 +5,30 @@ let searchIndex = null;
 
 function buildSearchIndex(pageCache, manifest) {
   searchIndex = [];
+  function indexEntry(entry, sectionTitle) {
+    const page = pageCache[entry.id];
+    if (!page) return;
+    const texts = [];
+    page.content.forEach(item => {
+      if (item.text) texts.push(stripHtml(item.text));
+      if (item.rows) item.rows.forEach(r => r.forEach(c => texts.push(stripHtml(c))));
+      if (item.headers) item.headers.forEach(h => texts.push(stripHtml(h)));
+    });
+    const full = texts.join(' ');
+    if (full.trim()) {
+      searchIndex.push({
+        pageId: entry.id,
+        pageTitle: entry.title,
+        sectionTitle: sectionTitle,
+        text: full,
+        lower: full.toLowerCase()
+      });
+    }
+  }
   manifest.sections.forEach(section => {
     section.pages.forEach(entry => {
-      const page = pageCache[entry.id];
-      if (!page) return;
-      const texts = [];
-      page.content.forEach(item => {
-        if (item.text) texts.push(stripHtml(item.text));
-        if (item.rows) item.rows.forEach(r => r.forEach(c => texts.push(stripHtml(c))));
-        if (item.headers) item.headers.forEach(h => texts.push(stripHtml(h)));
-      });
-      const full = texts.join(' ');
-      if (full.trim()) {
-        searchIndex.push({
-          pageId: entry.id,
-          pageTitle: entry.title,
-          sectionTitle: section.title,
-          text: full,
-          lower: full.toLowerCase()
-        });
-      }
+      indexEntry(entry, section.title);
+      if (entry.children) entry.children.forEach(c => indexEntry(c, section.title));
     });
   });
 }
