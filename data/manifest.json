@@ -50,6 +50,11 @@
           "file": "pages/world-culture.json"
         },
         {
+          "id": "world-species-history",
+          "title": "Species History",
+          "file": "pages/world-species-history.json"
+        },
+        {
           "id": "world-species-communities",
           "title": "Non-Human Communities",
           "file": "pages/world-species-communities.json"
@@ -119,6 +124,11 @@
           "id": "world-politics",
           "title": "Corporate Politics",
           "file": "pages/world-politics.json"
+        },
+        {
+          "id": "world-fallen-corps",
+          "title": "The Dead Brands",
+          "file": "pages/world-fallen-corps.json"
         }
       ]
     },

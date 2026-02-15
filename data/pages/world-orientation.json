@@ -366,12 +366,60 @@
       "text": "It’s a living. Technically."
     },
     {
-      "type": "blockquote",
-      "text": "<em>“Orientation complete. Your contractor ID has been provisionally activated. Please proceed to Equipment Requisition (Section 3) for your starting loadout. Remember: your first scar is on us. After that, treatment is available at competitive market rates.</em>  <em>Welcome to the grind.“</em>"
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "What They Don't Tell You in Orientation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The above is the official version. It covers the basics — enough to get you deployed without asking dangerous questions. But the world is deeper than any orientation manual admits. If you want to understand what you're actually walking into, keep reading."
+    },
+    {
+      "type": "callout",
+      "label": "The Deep History",
+      "style": "teal",
+      "text": "A thousand years of history produced this world, and the official version leaves out the parts that matter most:",
+      "items": [
+        "<strong>History & Timeline</strong> — The full arc from first rift to corporate sovereignty. The Unraveling. The Resource Wars. The Consolidation that killed three hundred corporations and left seven standing.",
+        "<strong>The World Before</strong> — What existed before the rifts. Nations, governments, a world without magic. Most of it is lost. Some of it is suppressed.",
+        "<strong>The Dead Brands</strong> — Three hundred corporations died during the Consolidation. In a world where corporations are religions, that's three hundred dead gods. Their ruins are temples. Their logos are heresies. Their followers are cults. The surviving seven don't talk about them. You should."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Species & Their History",
+      "style": "accent",
+      "text": "Non-humans are 30% of the population and 0% of corporate governance. The official story is 'integration.' The real story is darker:",
+      "items": [
+        "<strong>Non-Human Species</strong> — The seven sapient species, their biology, their origins, and what makes them valuable enough to exploit.",
+        "<strong>Species History</strong> — The Specimen Era. The Importation Programs. The three uprisings that forced the Personhood Accords. A thousand years of not belonging, told by the people who lived it.",
+        "<strong>Non-Human Communities</strong> — How species organize, resist, and survive in a world that values their biology more than their personhood."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Corporate Theology",
+      "style": "gold",
+      "text": "The corporations aren't just employers. They're religions. Understanding this is the difference between surviving the world and understanding it:",
+      "items": [
+        "<strong>Culture & Religion</strong> — How brand loyalty became genuine faith over forty generations. Sacred logos. Divine founders. Liturgical quarterly reports.",
+        "<strong>Corporate Politics</strong> — The alliances, rivalries, and cold wars between the seven. The information war. The bioethics war. The proxy conflicts fought with contractor blood.",
+        "<strong>Legends & Folklore</strong> — The stories contractors tell when the lights are low. The Waiting City. The Long Walk. The Mirror. Some of them are true. The ones that aren't are more useful."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Orientation gives you the map. Everything else gives you the territory. The map is useful. The territory will keep you alive."
     },
     {
       "type": "blockquote",
-      "text": "<em>“The following corporate profiles are provided for contractor orientation purposes only. Opinions expressed herein are those of the Intercompany Contractor Relations Bureau and do not reflect the official positions of any sovereign corporate entity. If you believe any information in this document to be inaccurate, please file a correction request with the Bureau. Processing time: 6-8 business quarters. Sincerity of request: optional.“</em>"
+      "text": "<em>"Orientation complete. Your contractor ID has been provisionally activated. Please proceed to Equipment Requisition (Section 3) for your starting loadout. Remember: your first scar is on us. After that, treatment is available at competitive market rates.</em>  <em>Welcome to the grind."</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>"The following corporate profiles are provided for contractor orientation purposes only. Opinions expressed herein are those of the Intercompany Contractor Relations Bureau and do not reflect the official positions of any sovereign corporate entity. If you believe any information in this document to be inaccurate, please file a correction request with the Bureau. Processing time: 6-8 business quarters. Sincerity of request: optional."</em>"
     }
   ]
 }

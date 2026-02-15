@@ -1,0 +1,323 @@
+{
+  "id": "world-species-history",
+  "title": "Species History",
+  "subtitle": "A thousand years of not belonging",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"The following historical summary addresses the integration, classification, and legal status of non-human sapient species within corporate territories. The Intercompany Species Relations Bureau notes that 'integration' is a term of art, not a description of outcome. Non-human perspectives on the events described herein may differ from the corporate-approved narrative. Non-human perspectives have not been solicited. This is, we are reminded, standard procedure.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "The Shape of the Story"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seven sapient species crossed into Earth over the course of eight centuries. Some came willingly. Some came because someone opened a door in their living room and armed men walked through it. Some arrived under circumstances that nobody — including the species themselves — can fully explain."
+    },
+    {
+      "type": "paragraph",
+      "text": "The corporate version of this story is one of progress: first contact, followed by misunderstanding, followed by gradual integration, followed by the Personhood Accords, followed by equality under the law. It's a clean narrative. It's also a lie — not because none of those things happened, but because the story leaves out the parts where integration meant captivity, misunderstanding meant exploitation, and equality under the law meant equality under laws written entirely by humans."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the version with the parts left in."
+    },
+    {
+      "type": "flavor",
+      "text": "Corporate history remembers first contact. Non-human history remembers what happened second."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Specimen Era (~2147–2350)"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the first two centuries of contact, non-human sapient species were not classified as people. They were classified as <strong>rift fauna</strong> — the same category as dimensional predators, exotic plants, and the crystalline organisms that sometimes grow on extraction equipment. The distinction between \"intelligent\" and \"sapient\" was debated in corporate boardrooms with the urgency of a tax classification dispute, because that's exactly what it was. If a Keth is a person, you owe them wages. If a Keth is a specimen, you owe them a cage with adequate ventilation."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first Keth who crossed through mining rifts in 2147 were treated with cautious respect — they were large, visibly strong, and holding tools. Mutual recognition between mining crews created an informal peace. But when corporate management learned about the contact, the response wasn't diplomacy. It was <strong>acquisition</strong>. The Keth were reclassified from \"encountered sapient\" to \"high-value dimensional specimen\" within six months. The memo is still in Congo's archives. It's written in the same format as mineral assay reports."
+    },
+    {
+      "type": "callout",
+      "label": "The Importation Programs",
+      "style": "rust",
+      "text": "Between 2150 and 2300, multiple corporations ran what internal documents called <strong>\"Controlled Immigration Programs\"</strong> and what non-human oral histories call <strong>\"the Taking.\"</strong> Corporate extraction teams operating in the Char, the Bloom, and other inhabited dimensions were given secondary objectives: bring back specimens. Not materials. Not biological samples. <em>People.</em><br><br>The programs varied by corp. Congo imported Keth laborers for mining operations — the Keth's heat resistance and four-armed efficiency made them ideal extraction workers. Wellspring imported Vael for biological research — their plant-animal hybrid biology was \"fascinating,\" a word that Wellspring uses the way other people use \"profitable.\" Sentinel captured Grunts during border skirmishes in frontier dimensions and put them to work in military construction. House of Mouse acquired Flickers for archival work — their speed made them efficient at cataloging media libraries that would take human workers decades.<br><br>The imported species were housed in corporate facilities. They were fed, sheltered, and maintained — the way you maintain equipment. Some adapted. Some resisted. The ones who resisted were classified as \"defective specimens\" and dealt with accordingly. The ones who adapted were put to work. Their children were born inside corporate territory, which made them — under corporate law — corporate property."
+    },
+    {
+      "type": "paragraph",
+      "text": "Not every corp participated equally. Green Cradle's Vael integration was genuinely more cooperative — the Vael's ecological skills aligned with Cradle's biome management needs, and Cradle's leadership recognized early that willing workers produced better results than captive ones. But \"better than captivity\" is a low bar, and the Vael noticed they were clearing the bar by inches, not miles."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Whispers were the exception. When they appeared in the 2210s — not arriving, just suddenly <em>being there</em> — no corporation could claim to have imported them. No rift event correlated with their appearance. Their dimensional perception made them immediately useful, and the unsettling details (the wrong shadows, the solid-color eyes, the way they knew things they shouldn't) made corporate leadership wary of antagonizing them. The Whispers were never classified as specimens. Nobody wanted to find out what would happen if they were."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"My grandmother was brought through a rift in the Char when she was twelve. She didn't know what was happening. She thought the humans were other miners — her clan traded with unfamiliar groups all the time. She followed them through the gate because they gestured and she assumed it was an invitation. It wasn't. She spent the next twenty years in a Congo extraction facility. She was classified as equipment. She had a serial number. She taught herself the human language by listening to the guards. When she finally got the classification changed — thirty years later, after the Second Uprising — the processing officer congratulated her on her 'reclassification to personhood status.' She said thank you. She came home and didn't speak for three days.\"</em>"
+    },
+    {
+      "type": "flavor",
+      "text": "The Specimen Era lasted two hundred years. Two hundred years is long enough to build a civilization. It's also long enough to build a grudge that outlives the people who earned it."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Resource Wars — Non-Human Experience (~2300–2400)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the nation-states went to war against the corporations, non-humans were caught in the middle. They weren't citizens of any nation. They weren't (legally) citizens of any corporation. They were assets — and assets get deployed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations sent non-human workers to the front lines. Not because non-humans were expendable (though that calculation was certainly made) but because they were <em>effective</em>. Keth could operate in environments that killed human soldiers. Grunts could take damage that would hospitalize humans and keep fighting. Vael could navigate terrain that human scouts couldn't read. Flickers could run messages faster than electronic communications that were being jammed."
+    },
+    {
+      "type": "paragraph",
+      "text": "The non-humans fought. Not for the corporations — for survival. When your choices are \"fight for the corp that owns you\" or \"die as collateral damage in a war between species that both consider you property,\" you fight for the side that's feeding you. Nobody pretended it was heroic. It was arithmetic."
+    },
+    {
+      "type": "callout",
+      "label": "The Grunt Garrisons",
+      "style": "accent",
+      "text": "During the Resource Wars, Grunt families who had settled in frontier zones became inadvertent bulwarks against government military incursions. They didn't fight for corporations. They fought for their crops, their houses, their children. But from a corporate perspective, Grunt settlements in strategic territory functioned as free defensive infrastructure. Several corps deliberately encouraged Grunt settlement in buffer zones — offering land grants and reduced oversight in exchange for \"residential presence\" in areas likely to see conflict. The Grunts understood what was happening. They took the land anyway. Free land is free land. The fact that you're being used as a shield doesn't mean the shield isn't also a home."
+    },
+    {
+      "type": "paragraph",
+      "text": "The wars also produced something unexpected: cross-species solidarity among combatants. Keth and human miners fighting side by side in extraction facility defense. Grunt and human soldiers sharing rations in forward positions. Vael and human medics working the same triage stations. For the first time in two centuries of contact, humans and non-humans were dying together for the same cause — and the cause, stripped of corporate rhetoric, was just \"staying alive.\" Bonds formed in combat that peacetime had never produced."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the wars ended and the corporations won, those bonds didn't disappear. They went underground. They became networks. And networks, eventually, become movements."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Consolidation — Expendable Theology (~2400–2600)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Consolidation was worse."
+    },
+    {
+      "type": "paragraph",
+      "text": "When three hundred corporations fought down to seven, non-humans were used as everything: soldiers, shields, bargaining chips, collateral, and — in the most cynical cases — <strong>theological props</strong>. A corporation-as-religion needs an Other. A divine mission needs something to be divine <em>against</em>. Several mid-tier corps built their entire theological identity around human supremacy — the founder's vision was human, the sacred mission was human, and non-human species were the test sent by whatever divine principle the corp worshipped. Proof that the founder's people were chosen."
+    },
+    {
+      "type": "paragraph",
+      "text": "Those corps are dead now. Not because their theology was wrong (morally it was, but morality doesn't determine corporate survival). They died because building your economy on the exploitation of 30% of the available labor pool while simultaneously teaching them that they're inferior is an unstable strategy. Non-human workers in human-supremacist corps had low loyalty, high turnover, and a tendency to defect to any rival that treated them marginally better. When the final wars came, those corps couldn't hold their workforce together, and a corp without workers is just a flag with nobody to wave it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The seven survivors won partly because they were smarter about non-human integration. Not kinder — smarter. Congo paid non-human workers enough to prevent rebellion. Sentinel gave non-human soldiers genuine rank advancement. Green Cradle gave Vael meaningful ecological authority. Mouse gave Flicker archivists real curatorial power. These weren't acts of justice. They were acts of retention. The distinction is important because the corps don't see a distinction, and the non-humans never forget that there is one."
+    },
+    {
+      "type": "callout",
+      "label": "The War of Twelve — Non-Human Casualties",
+      "style": "rust",
+      "text": "The final Consolidation war — sixty years, twelve corps to seven — killed approximately 4.2 million people. Corporate records break this down by citizenship. They do not break it down by species. Independent estimates suggest that non-humans constituted 35–40% of total casualties despite being roughly 25% of the population at the time. The disproportionate rate isn't mysterious: non-humans were deployed to the most dangerous theaters because their toxicity tolerance allowed them to fight in conditions that would kill human soldiers. This was documented as \"optimal resource allocation\" in military planning documents. The Keth have a different term for it. It doesn't translate cleanly, but the closest English approximation is \"being spent like currency.\""
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Three Uprisings"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Personhood Accords didn't happen because the corporations woke up one morning and discovered justice. They happened because non-human communities made the alternative more expensive than the concession."
+    },
+    {
+      "type": "callout",
+      "label": "The First Uprising — The Keth Stoppage (2614)",
+      "style": "teal",
+      "text": "Two years after the Intercompany Accords formalized corporate borders, the Keth did something nobody expected: they stopped working. Not a strike in the traditional sense — they didn't picket, didn't march, didn't issue demands through representatives. They simply <em>stopped</em>. Every Keth in Congo extraction facilities, Sentinel construction projects, and independent mining operations put down their tools simultaneously and stood in silence.<br><br>Keth don't organize loudly. They organize through touch, gesture, and a communication network that humans still don't fully understand. The signal propagated across three continents in less than a week. When asked what they wanted, every Keth who responded said the same four words in the same measured tone: <strong>\"We are not equipment.\"</strong><br><br>The Stoppage lasted nineteen days. Congo's extraction output dropped 40%. Sentinel construction projects halted. Infrastructure maintenance in six city-states fell behind schedule. The economic impact was estimated at 2.8 billion credits. The Keth didn't need violence. They needed the corporations to do the math."
+    },
+    {
+      "type": "callout",
+      "label": "The Second Uprising — The Bloom Refusal (2627)",
+      "style": "teal",
+      "text": "The Vael in Green Cradle territory refused to tend. Not crops — <em>everything</em>. Air filtration gardens. Water purification wetlands. Toxicity-absorbing ground cover. The biological infrastructure that kept two city-states breathable. A Vael community leader — a woman named Eshara, now a folk saint in Vael oral history — delivered a single statement to Cradle management: <strong>\"The garden does not serve those who do not see the gardener.\"</strong><br><br>Green Cradle's response was panic masked as negotiation. Without Vael tending, the biome systems degraded within days. Air quality readings spiked. Toxicity in residential districts climbed above comfort thresholds. Citizens noticed. Citizens asked questions. Cradle couldn't answer those questions without admitting that its entire ecological infrastructure depended on a species it had been classifying as \"specialist biological labor\" rather than \"people who keep you alive.\"<br><br>Eshara negotiated for eleven days. The Vael got reclassified, got representation in agricultural planning councils, and got their children removed from the \"biological asset\" registry. Eshara died three years later — natural causes, according to Cradle records. The Vael don't discuss it."
+    },
+    {
+      "type": "callout",
+      "label": "The Third Uprising — The Shadow Strike (2635)",
+      "style": "rust",
+      "text": "This one was violent. Flicker networks in the undercity of a Sentinel city-state organized a simultaneous disruption of corporate logistics, communications, and surveillance systems. The Flickers didn't fight. They were too small, too fragile, too few. Instead they <em>broke things</em> — courier networks that delivered intelligence reports, data relays that coordinated military patrols, the informal communication channels that let corporate management talk to corporate management. For seventy-two hours, a Sentinel city-state the size of a small country was functionally deaf, blind, and mute.<br><br>Sentinel's response was immediate and brutal. The suppression killed eighty-nine Flickers and injured over three hundred. The Flicker community called it the Night of Fast Hands. Sentinel called it a \"security incident.\" The international outcry — not from other corps, who couldn't have cared less, but from non-human communities across all corporate territories — forced the issue. The other species saw what happened to the Flickers and understood: <strong>this could be any of us, and next time the response might be worse.</strong><br><br>The Personhood Accords negotiations began three months later. They were not voluntary. They were the corporations' calculation that formal legal recognition was cheaper than a simultaneous uprising across all seven territories."
+    },
+    {
+      "type": "flavor",
+      "text": "Three uprisings. Nineteen days of silence. Eleven days without air. Seventy-two hours of blindness. Eighty-nine dead. The cost of being recognized as a person."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Personhood Accords (2638)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Personhood Accords are the most important legal document in non-human history. They are also the most carefully worded corporate compromise ever produced — a document that grants everything in language and nothing in enforcement."
+    },
+    {
+      "type": "callout",
+      "label": "What the Accords Guarantee",
+      "style": "teal",
+      "text": "<strong>On paper:</strong>",
+      "items": [
+        "Legal recognition of sapient entity status for seven non-human species",
+        "Freedom from involuntary servitude (\"servitude\" defined narrowly enough to exclude most existing employment contracts)",
+        "Right to property ownership within corporate territories",
+        "Right to legal representation (representation provided by corporate legal departments, creating an obvious conflict of interest)",
+        "Protection from involuntary medical experimentation (\"involuntary\" requiring proof of non-consent, which is difficult when consent forms are written in a language the signer learned under duress)",
+        "Equal compensation for equal labor (\"equal labor\" determined by corporate assessment, not independent audit)"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "What the Accords Don't Do",
+      "style": "rust",
+      "text": "<strong>In practice:</strong>",
+      "items": [
+        "No independent enforcement body exists. Compliance is self-reported by the corporations, which is like asking the defendant to also serve as judge",
+        "No provision for non-human representation in corporate governance. Board seats, executive positions, and policy-making authority remain structurally inaccessible",
+        "No reparations for the Specimen Era. Two centuries of unpaid labor, captured populations, and destroyed communities were retroactively classified as \"pre-Accords activity\" and exempted from legal review",
+        "No restrictions on \"voluntary\" extended-deployment clauses that appear in non-human employment contracts with suspicious frequency",
+        "No acknowledgment that the seven recognized species may not be the only sapient non-humans — the other seven classifications \"under review\" have been under review for 386 years"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Accords are better than what came before. This is true. It is also the lowest possible bar. Non-human activists describe the Accords as \"a door that's technically open but leads to a room where all the chairs are bolted to the floor and sized for humans.\" Corporate officials describe the Accords as \"a landmark achievement in interspecies cooperation.\" Both descriptions are accurate. Neither is complete."
+    },
+    {
+      "type": "flavor",
+      "text": "The Personhood Accords guarantee that non-humans are people. They do not guarantee that being a person means anything."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Species-Specific Histories"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each species carries its own version of the last thousand years. These are not corporate histories. These are the stories told by non-human communities to their children — the oral traditions that survive because nobody in a boardroom thought they were worth recording."
+    },
+    {
+      "type": "callout",
+      "label": "Keth — The Long Memory",
+      "style": "accent",
+      "text": "The Keth remember everything. Not metaphorically — Keth oral tradition is a precise, sequential recounting of events passed from elder to child through physical ritual (a specific pattern of hand-touches that encodes information in muscle memory). A Keth elder in 3025 can recite the exact working conditions in a Congo extraction facility in 2160, passed down through forty generations of perfect transmission.<br><br>This makes the Keth the most dangerous species from a corporate perspective. Not physically — culturally. They cannot be made to forget. Congo's historical narrative about \"early integration challenges\" doesn't survive contact with a Keth elder who can recite the serial number her great-grandmother was assigned. The Keth don't use this knowledge as a weapon. They use it as a foundation. You can't gaslight a species with perfect oral recall.<br><br>The Keth word for their time on Earth translates roughly as <strong>\"the second mine\"</strong> — a place they work, with colleagues they respect, in conditions they endure, waiting for something they can't name. It's not bitter. It's patient. Keth patience is the kind that outlasts mountains."
+    },
+    {
+      "type": "callout",
+      "label": "Vael — The Tending",
+      "style": "teal",
+      "text": "Vael historical memory is collective — literally. Their community-oriented psychology means that traumatic events are processed communally, shared across the group until the weight is distributed enough to bear. The result is a species that remembers the Specimen Era not as individual suffering but as a <em>communal wound</em> — a shared scar that every Vael carries a piece of.<br><br>Eshara is their central historical figure. The Bloom Refusal is their defining moment. The lesson they teach their children is not \"humans are cruel\" (Vael psychology doesn't process cruelty the way humans do) but rather: <strong>\"The garden does not tend itself, and the people who forget this will learn when the garden stops.\"</strong> It's a statement of power disguised as ecological philosophy. The Vael know that human civilization depends on biological systems that only the Vael fully understand. This is not a threat. It's a fact. The Vael simply make sure nobody forgets it."
+    },
+    {
+      "type": "callout",
+      "label": "Grunts — The Slow Reckoning",
+      "style": "teal",
+      "text": "Grunts don't tell their history as a narrative. They tell it as a <strong>ledger</strong> — a careful, thorough accounting of what was given and what was taken. Land given, labor taken. Safety given, autonomy taken. Citizenship given, power taken. The ledger is never balanced. The Grunts don't expect it to be. They expect it to be <em>acknowledged</em>.<br><br>The Grunt community's historical stance is pragmatic: the past happened. It can't be undone. What can be done is to ensure the accounting is accurate and the debt is recognized. This isn't forgiveness. It's the opposite — it's a species-wide commitment to never letting the debt be forgotten or minimized or reframed as something other than what it was. Grunts don't hold grudges. They hold receipts."
+    },
+    {
+      "type": "callout",
+      "label": "Flickers — The Fast History",
+      "style": "accent",
+      "text": "Flicker historical memory is fragmented and distributed — passed through the informal networks they dominate, carried in courier runs and data chips and whispered conversations that happen too fast for non-Flicker observers to follow. Their history of the Night of Fast Hands is the centerpiece: eighty-nine names, recited at speed, in a specific order that Flicker communities across the world perform simultaneously once a year. The recitation takes eleven seconds. It sounds like static to human ears. To Flickers, it's a memorial service, a political statement, and a warning.<br><br>Flickers don't trust institutional power. Their history taught them that institutions classify you as a resource, deploy you as a tool, and suppress you when you become inconvenient. The Flicker response is structural: stay informal, stay distributed, stay fast enough that institutions can't pin you down. The undercity isn't just where Flickers work — it's where they're safe. And safety, for a species that remembers being hunted through the streets of a Sentinel city-state, is not a small thing."
+    },
+    {
+      "type": "callout",
+      "label": "Whispers — The Unwritten",
+      "style": "rust",
+      "text": "Whispers don't share their history. Not because it's secret — because it doesn't translate. Whisper perception includes dimensional layers that human language can't describe, and their experience of the last eight hundred years includes events, relationships, and phenomena that occurred in those layers. A Whisper's memory of the Specimen Era includes not just what happened in physical space but what happened in the dimensional fabric <em>around</em> physical space — resonances, patterns, and shifts that no human instrument detected and no human history recorded.<br><br>What is known: Whispers were never classified as specimens. The unspoken reason is fear. Whispers are unsettling in a way that other non-humans aren't — they're almost human, which puts them in the uncanny valley, and their perception of reality is visibly different in ways that make corporate administrators uncomfortable. The practical reason: nobody wanted to find out what happened when you put a Whisper in a cage. The suspicion — never confirmed, never denied — is that the Whispers know exactly why they weren't caged, and the reason is worse than anyone wants to articulate."
+    },
+    {
+      "type": "callout",
+      "label": "Hollows — The Missing History",
+      "style": "accent",
+      "text": "The Hollows have no history before their discovery in the Grave around 2500. Their earliest memories begin at the moment of contact with human exploration teams. Before that: nothing. Not amnesia — <em>nothing</em>. As if they began existing at the moment they were observed.<br><br>This raises questions that nobody has satisfactorily answered. Were the Hollows dormant until activated by human presence? Were they created by whatever built the Grave's ruins, left behind as... what? Caretakers? Records? Weapons? Were they always there, conscious and waiting, in the dark, for five hundred years or five million? The Hollows themselves approach the question with a curiosity that mirrors human researchers' curiosity about them, which is either genuinely endearing or a very sophisticated performance of genuine endearment. Their history on Earth is shorter than any other species' — five centuries, all of it post-Consolidation, all of it spent in a world that had already decided what non-humans were worth. The Hollows adapted to this world with the speed and precision of organisms designed to adapt. Whether \"designed\" is the right word is the question that makes everyone uncomfortable."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Present (3025)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thirty percent of the global population. Zero percent of corporate governance. Legally recognized as persons. Practically treated as resources with opinions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-human communities in 3025 exist in a state of organized endurance. The Accords provide a legal framework. The framework has holes large enough to drive exploitation through. Non-humans work in corporate territories under contracts that are technically equal and practically not. They live in neighborhoods that are technically integrated and practically segregated. They have rights that are technically enforceable and practically unenforced."
+    },
+    {
+      "type": "paragraph",
+      "text": "Progress is real but glacial. Non-human representation in corporate management has increased from 0% to roughly 3% over four centuries. Non-human access to augmentation technology — originally restricted on the grounds that \"non-human biology presents unique risks\" — has improved, though the augments available to non-humans are often older models at higher prices. Non-human children attend corporate schools alongside human children, though the curriculum is entirely human-authored and the history taught is the corporate version, which means non-human children learn about the Personhood Accords as a triumph of corporate benevolence and not as the grudging result of three uprisings that scared the boards into action."
+    },
+    {
+      "type": "paragraph",
+      "text": "The contractor margins are the exception. In the margins, species matters less than capability. A Keth mechanic, a Vael scout, a Flicker medic, a Grunt frontliner — these are valued for what they do, not categorized by what they are. The margins aren't utopia. They're pragmatic. But pragmatism produces a rough equality that ideology never has, and non-human contractors know this. The margins are the one place in the world where a non-human can be judged by the quality of their work rather than the shape of their ears."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"I was born in a Congo city-state. My classification was 'Keth citizen, general labor category.' My father's classification was 'Keth citizen, general labor category.' His mother's classification was 'Keth specimen, extraction asset.' Three generations. Specimen to citizen in three generations. They call that progress. I call it three generations of my family not being recognized as people. The math doesn't change just because you rearrange the words.\"</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "What Non-Humans Want"
+    },
+    {
+      "type": "paragraph",
+      "text": "The answer depends on who you ask, which is the point — non-humans aren't a monolith. Seven species, dozens of communities, thousands of individual perspectives. But there are threads that run through all of them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Acknowledgment.</strong> Not apology — nobody expects apology from a corporation. But acknowledgment that the Specimen Era happened, that the Importation Programs were kidnapping operations, that the Personhood Accords were forced concessions and not gifts. The Keth keep perfect records. The Vael carry communal memory. The Grunts maintain a ledger. The Flickers recite eighty-nine names every year. The history exists. They want the other side to stop pretending it doesn't."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Representation.</strong> A seat at the table where decisions are made. Not advisory positions. Not cultural liaisons. Not \"non-human affairs coordinators\" who report to human directors. Actual authority. The power to shape policy, allocate resources, and define the laws that govern their communities. This is the demand that every corporation resists most fiercely, because sharing power requires admitting that the current allocation of power is unjust, and that admission undermines the theological foundation of every corporate faith."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Autonomy.</strong> The right to maintain their own cultural practices, their own histories, their own educational traditions without corporate approval or revision. The right to tell their children the truth about what happened instead of the corporate-approved version. The right to be Keth, Vael, Grunt, Flicker, Whisper, or Hollow on their own terms, not on terms defined by a human theology that has spent a thousand years categorizing everything that isn't human as either useful or dangerous."
+    },
+    {
+      "type": "paragraph",
+      "text": "None of these demands are radical. All of them are, within the current system, impossible. The gap between what non-humans want and what the system can provide without collapsing is the fundamental tension of the setting — a tension that no amount of augmentation, rift extraction, or corporate theology can resolve."
+    },
+    {
+      "type": "flavor",
+      "text": "A thousand years. Seven species. Three uprisings. One set of accords. Zero seats at the table. The math hasn't changed. The non-humans are still counting."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "callout",
+      "label": "GM Note — Using Species History",
+      "style": "teal",
+      "text": "Species history is campaign fuel. Some ways to use it:<br><br><strong>Personal backstory:</strong> A non-human PC whose family history includes the Specimen Era, the uprisings, or the Consolidation has a built-in emotional landscape that informs every interaction with corporate authority. A Keth character whose great-grandmother's serial number is part of their family's oral tradition doesn't need to explain why they don't trust Congo. The history does it for them.<br><br><strong>NPC motivations:</strong> A Vael elder who remembers Eshara's words. A Flicker who recites the eighty-nine names. A Grunt who maintains a ledger of debts unpaid. A Keth who can recite working conditions from two centuries ago with perfect accuracy. These NPCs don't need to be activists or radicals — they just need to be people carrying a history that the corporate world would prefer they forget.<br><br><strong>Campaign-scale conflict:</strong> The Personhood Accords are due for their quadricentennial review. What if a coalition of non-human communities across all seven territories uses the review as leverage to demand actual representation? What if the corporations resist? What if a fourth uprising begins — and the crew is caught between the community they live in and the system they work for?<br><br><strong>The margin as refuge:</strong> The contractor margins are the one place where species history matters less than present capability. This isn't accidental — it's earned. A campaign that explores why the margins work when corporate society doesn't is a campaign about whether equality is possible, and what it costs."
+    }
+  ]
+}
