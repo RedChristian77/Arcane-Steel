@@ -22,6 +22,11 @@ function findPage(pageId) {
   for (const section of window._manifest.sections) {
     for (const page of section.pages) {
       if (page.id === pageId) return page;
+      if (page.children) {
+        for (const child of page.children) {
+          if (child.id === pageId) return child;
+        }
+      }
     }
   }
   return null;
@@ -31,16 +36,27 @@ async function loadPage(pageId) {
   if (pageCache[pageId]) return pageCache[pageId];
   const entry = findPage(pageId);
   if (!entry) return null;
-  const resp = await fetch('data/' + entry.file);
-  const data = await resp.json();
-  pageCache[pageId] = data;
-  return data;
+  try {
+    const resp = await fetch('data/' + entry.file);
+    if (!resp.ok) return null;
+    const data = await resp.json();
+    pageCache[pageId] = data;
+    return data;
+  } catch (e) {
+    console.error('Failed to load page:', pageId, e);
+    return null;
+  }
 }
 
 async function loadAllPagesForSearch() {
   const promises = [];
   window._manifest.sections.forEach(s => {
-    s.pages.forEach(p => promises.push(loadPage(p.id)));
+    s.pages.forEach(p => {
+      promises.push(loadPage(p.id));
+      if (p.children) {
+        p.children.forEach(c => promises.push(loadPage(c.id)));
+      }
+    });
   });
   await Promise.all(promises);
   buildSearchIndex(pageCache, window._manifest);
