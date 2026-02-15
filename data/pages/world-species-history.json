@@ -32,7 +32,7 @@
     },
     {
       "type": "heading",
-      "text": "The Specimen Era (~2147–2350)"
+      "text": "The Specimen Era (~2110–2350)"
     },
     {
       "type": "paragraph",
@@ -40,13 +40,17 @@
     },
     {
       "type": "paragraph",
-      "text": "The first Keth who crossed through mining rifts in 2147 were treated with cautious respect — they were large, visibly strong, and holding tools. Mutual recognition between mining crews created an informal peace. But when corporate management learned about the contact, the response wasn't diplomacy. It was <strong>acquisition</strong>. The Keth were reclassified from \"encountered sapient\" to \"high-value dimensional specimen\" within six months. The memo is still in Congo's archives. It's written in the same format as mineral assay reports."
+      "text": "The Grunts were first — walking through wild rifts around 2110, settling frontier land, farming. Nobody in a boardroom noticed. The Grunts didn't ask to be noticed. They built homes, grew food, and watched the humans from a distance. It took years before corporate reports even acknowledged their presence, and when they did, the classification was immediate: rift fauna, large variant, potentially domesticable. The Grunts who had been peacefully farming for a decade were retroactively categorized as specimens who had self-relocated."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the first Keth crossed through mining rifts in 2147, the corporate response was more formal but no less exploitative. The Keth were large, visibly strong, and holding tools — mutual recognition between mining crews created an informal peace. But when corporate management learned about the contact, the response wasn't diplomacy. It was <strong>acquisition</strong>. The Keth were reclassified from \"encountered sapient\" to \"high-value dimensional specimen\" within six months. The memo is still in Congo's archives. It's written in the same format as mineral assay reports."
     },
     {
       "type": "callout",
       "label": "The Importation Programs",
       "style": "rust",
-      "text": "Between 2150 and 2300, multiple corporations ran what internal documents called <strong>\"Controlled Immigration Programs\"</strong> and what non-human oral histories call <strong>\"the Taking.\"</strong> Corporate extraction teams operating in the Char, the Bloom, and other inhabited dimensions were given secondary objectives: bring back specimens. Not materials. Not biological samples. <em>People.</em><br><br>The programs varied by corp. Congo imported Keth laborers for mining operations — the Keth's heat resistance and four-armed efficiency made them ideal extraction workers. Wellspring imported Vael for biological research — their plant-animal hybrid biology was \"fascinating,\" a word that Wellspring uses the way other people use \"profitable.\" Sentinel captured Grunts during border skirmishes in frontier dimensions and put them to work in military construction. House of Mouse acquired Flickers for archival work — their speed made them efficient at cataloging media libraries that would take human workers decades.<br><br>The imported species were housed in corporate facilities. They were fed, sheltered, and maintained — the way you maintain equipment. Some adapted. Some resisted. The ones who resisted were classified as \"defective specimens\" and dealt with accordingly. The ones who adapted were put to work. Their children were born inside corporate territory, which made them — under corporate law — corporate property."
+      "text": "Between 2150 and 2300, multiple corporations ran what internal documents called <strong>\"Controlled Immigration Programs\"</strong> and what non-human oral histories call <strong>\"the Taking.\"</strong> Corporate extraction teams operating in the Char, the Bloom, and other inhabited dimensions were given secondary objectives: bring back specimens. Not materials. Not biological samples. <em>People.</em><br><br>The programs varied by corp. Congo imported Keth laborers for mining operations — the Keth's heat resistance and four-armed efficiency made them ideal extraction workers. Wellspring imported Vael for biological research — their plant-animal hybrid biology was \"fascinating,\" a word that Wellspring uses the way other people use \"profitable.\" Sentinel conscripted Grunts from frontier settlements — the ones who'd been on Earth for decades, farming peacefully, suddenly reclassified as \"available labor resources\" and put to work in military construction. House of Mouse acquired Flickers for archival work — their speed made them efficient at cataloging media libraries that would take human workers decades.<br><br>The imported species were housed in corporate facilities. They were fed, sheltered, and maintained — the way you maintain equipment. Some adapted. Some resisted. The ones who resisted were classified as \"defective specimens\" and dealt with accordingly. The ones who adapted were put to work. Their children were born inside corporate territory, which made them — under corporate law — corporate property."
     },
     {
       "type": "paragraph",
@@ -87,7 +91,7 @@
       "type": "callout",
       "label": "The Grunt Garrisons",
       "style": "accent",
-      "text": "During the Resource Wars, Grunt families who had settled in frontier zones became inadvertent bulwarks against government military incursions. They didn't fight for corporations. They fought for their crops, their houses, their children. But from a corporate perspective, Grunt settlements in strategic territory functioned as free defensive infrastructure. Several corps deliberately encouraged Grunt settlement in buffer zones — offering land grants and reduced oversight in exchange for \"residential presence\" in areas likely to see conflict. The Grunts understood what was happening. They took the land anyway. Free land is free land. The fact that you're being used as a shield doesn't mean the shield isn't also a home."
+      "text": "During the Resource Wars, Grunt families who had been settled in frontier zones for nearly two centuries became inadvertent bulwarks against government military incursions. These weren't recent arrivals — they were the oldest non-human communities on Earth, with generational roots deeper than some human settlements. They didn't fight for corporations. They fought for their crops, their houses, their children. But from a corporate perspective, Grunt settlements in strategic territory functioned as free defensive infrastructure. Several corps deliberately encouraged further Grunt settlement in buffer zones — offering land grants and reduced oversight in exchange for \"residential presence\" in areas likely to see conflict. The Grunts understood what was happening. They took the land anyway. Free land is free land. The fact that you're being used as a shield doesn't mean the shield isn't also a home."
     },
     {
       "type": "paragraph",
@@ -230,9 +234,9 @@
     },
     {
       "type": "callout",
-      "label": "Grunts — The Slow Reckoning",
+      "label": "Grunts — The First and the Longest",
       "style": "teal",
-      "text": "Grunts don't tell their history as a narrative. They tell it as a <strong>ledger</strong> — a careful, thorough accounting of what was given and what was taken. Land given, labor taken. Safety given, autonomy taken. Citizenship given, power taken. The ledger is never balanced. The Grunts don't expect it to be. They expect it to be <em>acknowledged</em>.<br><br>The Grunt community's historical stance is pragmatic: the past happened. It can't be undone. What can be done is to ensure the accounting is accurate and the debt is recognized. This isn't forgiveness. It's the opposite — it's a species-wide commitment to never letting the debt be forgotten or minimized or reframed as something other than what it was. Grunts don't hold grudges. They hold receipts."
+      "text": "Grunts were the first non-human species on Earth, and they carry that weight with the deliberation they bring to everything. They were here before the Keth, before the Vael, before anyone with a clipboard arrived to classify them. They walked through wild rifts, found soil, and built. Then the corporations noticed them, retroactively classified them as fauna, and conscripted their settlements into labor pools. The Grunts' ledger starts there — with land they cleared being reclassified as corporate territory, with farms they planted being \"requisitioned,\" with families who had been self-sufficient for decades suddenly owing labor to entities that hadn't existed when the Grunts first broke ground.<br><br>Grunts don't tell their history as a narrative. They tell it as a <strong>ledger</strong> — a careful, thorough accounting of what was given and what was taken. Land given, labor taken. Safety given, autonomy taken. Citizenship given, power taken. The ledger starts earlier than anyone else's. It's also longer than anyone else's. The Grunts don't expect it to be balanced. They expect it to be <em>acknowledged</em>. This isn't forgiveness. It's a species-wide commitment to never letting the debt be forgotten or minimized or reframed as something other than what it was. Grunts don't hold grudges. They hold receipts. And their receipts go back further than anyone else's."
     },
     {
       "type": "callout",

@@ -110,12 +110,13 @@
       "headers": ["Year (Approx.)", "Event", "Significance"],
       "rows": [
         ["2103", "First wild rift opens (Brazil)", "Proof that dimensional membrane is degrading autonomously"],
+        ["~2110", "First Grunt families walk through wild rifts", "First non-human sapient species on Earth — arrived before anyone was looking"],
         ["2130s", "Ambient magic becomes detectable in groundwater", "Environmental saturation begins"],
-        ["2147", "First Keth cross through a mining rift in the Char", "First confirmed non-human sapient contact"],
+        ["2147", "First Keth cross through a mining rift in the Char", "First formal corporate-mediated sapient contact"],
         ["2160s", "First human mutations documented", "Ambient-origin manifestation in newborns near rift sites"],
         ["2180", "Background magic detectable in all major cities", "Global saturation confirmed"],
-        ["2195", "First Vael communities establish near Bloom-origin rifts", "Second major species immigration begins"],
-        ["2210", "Whispers first reported — no record of arrival", "Third species confirmed; origin unknown"],
+        ["2195", "First Vael communities establish near Bloom-origin rifts", "Third major species immigration begins"],
+        ["2210", "Whispers first reported — no record of arrival", "Fourth species confirmed; origin unknown"],
         ["2230", "First recorded rift storm — 200+ simultaneous wild rifts", "Dimensional instability enters catastrophic phase"],
         ["2250", "Magic confirmed in the global food chain", "Biological adaptation becomes unavoidable"],
         ["2280", "Corporate nations begin restricting rift access to citizens", "Seeds of the Resource Wars"]
@@ -123,9 +124,15 @@
     },
     {
       "type": "callout",
+      "label": "The Grunts Were Already Here",
+      "style": "accent",
+      "text": "The first non-human sapient species on Earth wasn't discovered by a corporate expedition. They just showed up. Around 2110 — barely seven years after the first wild rift tore open in that Brazilian soybean field — Grunt families started walking through. Small groups. No announcement. No diplomacy. They assessed the climate, found it acceptable, found the local fauna manageable, and started building. Frontier communities in wild-rift-adjacent territory reported them first: large, quiet people who appeared out of nowhere, cleared land, planted crops, and didn't seem interested in explaining themselves. By the time the corporations noticed, the Grunts had been farming for decades. Nobody recorded the exact date of first arrival because nobody with a clipboard was watching. The Grunts didn't need an invitation. They needed soil."
+    },
+    {
+      "type": "callout",
       "label": "The Keth Arrive",
       "style": "accent",
-      "text": "In 2147, a corporate mining team operating in the Char dimension encountered a group of Keth near a thermal vent they were excavating. The Keth had been mining the same vent. For considerably longer. First contact was, by all surviving accounts, extremely awkward — two groups of miners staring at each other across a lava field, both holding pickaxes. The Keth followed the humans back through the rift. They've been here since. They brought their own tools."
+      "text": "In 2147, a corporate mining team operating in the Char dimension encountered a group of Keth near a thermal vent they were excavating. The Keth had been mining the same vent. For considerably longer. This was the first <em>corporate-mediated</em> sapient contact — the Grunts had been on Earth for decades, but nobody in a boardroom had noticed. The Keth encounter was different because it happened inside a corporate operation, which meant it happened inside a system that kept records. First contact was, by all surviving accounts, extremely awkward — two groups of miners staring at each other across a lava field, both holding pickaxes. The Keth followed humans back through the rift. They've been here since. They brought their own tools."
     },
     {
       "type": "paragraph",
@@ -249,27 +256,27 @@
     },
     {
       "type": "callout",
-      "label": "First Wave: The Keth (~2147)",
+      "label": "First Wave: The Grunts (~2110)",
       "style": "teal",
-      "text": "The Keth came because they were already there. Mining the same veins, in the same volcanic dimension, when human extraction teams punched through. First contact was accidental and mutual — two species of miners meeting underground. The Keth followed humans back through the rift gates out of curiosity, then stayed because Earth had resources the Char didn't. Integration was relatively smooth. Miners understand miners. The corps understood cheap, durable labor. The Keth understood they were being underpaid. They stayed anyway. The rock here is interesting."
+      "text": "The Grunts were first. Not first to be formally recognized — first to <em>arrive</em>. Within a decade of the first wild rift, Grunt families were walking through and settling frontier land as though interdimensional migration was a perfectly normal Tuesday. No corporate contact protocols existed because nobody expected sapient species to just show up and start farming. By the time the corporations developed a framework for non-human contact, the Grunts had been on Earth for decades, had built settlements, and had very little interest in being \"contacted\" by people they'd been watching from a distance. They're the oldest non-human community on Earth. They remember when no one else does."
     },
     {
       "type": "callout",
-      "label": "Second Wave: The Vael (~2195)",
+      "label": "Second Wave: The Keth (~2147)",
+      "style": "teal",
+      "text": "The Keth came because they were already there. Mining the same veins, in the same volcanic dimension, when human extraction teams punched through. First formal corporate-mediated contact was accidental and mutual — two species of miners meeting underground. The Keth followed humans back through the rift gates out of curiosity, then stayed because Earth had resources the Char didn't. Integration was relatively smooth. Miners understand miners. The corps understood cheap, durable labor. The Keth understood they were being underpaid. They stayed anyway. The rock here is interesting."
+    },
+    {
+      "type": "callout",
+      "label": "Third Wave: The Vael (~2195)",
       "style": "teal",
       "text": "The Vael arrived through Bloom-origin rifts — drawn by ecological signals that their biology interpreted as distress calls. Their home dimension was overgrown, hyper-competitive, and suffocating. Earth's damaged biosphere was, to them, a garden in need of tending. They came as caretakers. The corps employed them as agricultural workers and biome engineers. Green Cradle welcomed them as model citizens. Everyone else tolerated them as useful. The Vael noticed the exploitation. Their community-oriented psychology made individual resistance difficult — they adapted collectively, quietly, and with the patience of organisms that photosynthesize."
     },
     {
       "type": "callout",
-      "label": "Third Wave: The Whispers (~2210)",
+      "label": "Fourth Wave: The Whispers (~2210)",
       "style": "accent",
       "text": "The Whispers didn't arrive. They were <em>noticed</em>. No record of their crossing exists. No rift event correlates to their appearance. One day they simply were — present in cities, working jobs, living in apartments, as though they'd always been there. Background checks returned data that was technically valid but felt wrong, like a form filled out by someone who'd read about forms but never seen one. Corporate response was cautious: they're useful (dimensional perception is irreplaceable), they're unsettling (their shadows do things), and nobody wants to be the entity that provokes whatever the Whispers actually are."
-    },
-    {
-      "type": "callout",
-      "label": "Fourth Wave: The Grunts (~2280)",
-      "style": "teal",
-      "text": "The Grunts showed up during the late Unraveling, walking through wild rifts in small family groups. No fanfare. No diplomacy. They assessed the situation, found the climate acceptable, the food edible, and the local population disorganized enough to leave room. They settled in frontier zones, built structures, and started farming. When the Resource Wars reached their settlements, they fought — not for ideology, but because someone was standing on their crops. They won often enough that the corps decided recruiting was cheaper than conquering. Grunts have been the backbone of heavy labor and frontline security ever since. They don't complain about the arrangement. They do remember it."
     },
     {
       "type": "callout",
