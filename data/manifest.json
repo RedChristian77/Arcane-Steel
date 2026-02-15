@@ -20,6 +20,11 @@
           "file": "pages/world-daily-life.json"
         },
         {
+          "id": "world-family",
+          "title": "Family & Childhood",
+          "file": "pages/world-family.json"
+        },
+        {
           "id": "world-species",
           "title": "Non-Human Species",
           "file": "pages/world-species.json"

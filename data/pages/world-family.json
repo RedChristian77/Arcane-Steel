@@ -1,0 +1,223 @@
+{
+  "id": "world-family",
+  "title": "Family & Childhood",
+  "subtitle": "How the next generation gets made, owned, and occasionally loved",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The species survived a thousand years of dimensional rifts, ambient magic, and corporate governance. Someone had to keep having kids.</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"All corporate citizens are entitled to family planning services, parental leave (as defined by local franchise charter), and youth development programming. The Corporation values its future workforce and invests accordingly. Please note: family planning services may include mandatory consultation. Parental leave durations are subject to productivity review. Youth development programming content is proprietary.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "The Corporate Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations need workers. Workers come from somewhere. For a thousand years, that somewhere has been carefully managed reproduction — incentivized through housing upgrades, credit bonuses, and social status, and quietly discouraged when the headcount projections don't call for it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate families exist. They're real. People love each other, raise children, build lives. But every one of those lives happens inside a system that tracks fertility rates the way it tracks quarterly earnings. The love is genuine. The framework around it is not."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Key Concept",
+      "text": "Corporate families are <strong>real families</strong> — they love, fight, grieve, and celebrate like families always have. But they exist inside systems designed to produce productive citizens, not happy ones. The fact that happiness sometimes happens anyway is a credit to human stubbornness, not corporate planning."
+    },
+    {
+      "type": "heading",
+      "text": "Marriage — Corporate Style"
+    },
+    {
+      "type": "paragraph",
+      "text": "Marriage in the corporate zones isn't a ceremony. It's a contract. Literally. Two citizens file a <strong>Partnership Declaration</strong> with their corporation's civil registry. The document specifies resource sharing, housing allocation, and — critically — which corporation claims jurisdiction over any resulting children."
+    },
+    {
+      "type": "paragraph",
+      "text": "Same-corp partnerships are simple. The corp upgrades your housing tier, adjusts your combined credit allocation, and files you under a shared household productivity index. Some corps throw a small celebration. Sentinel holds a formation. The Crowned Table hosts a feast. Wellspring updates your health profile to include a second person's biometrics. Pear sends a notification."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Cross-Corp Partnerships",
+      "text": "When two people from <strong>different corporations</strong> file a Partnership Declaration, things get complicated. Both corps have to agree on jurisdiction, credit allocation, and child assignment. These negotiations can take months. Some couples wait years. Some give up. Some move to the margins and skip the paperwork entirely.",
+      "items": [
+        "Children of cross-corp partnerships are assigned to <strong>one</strong> corporation at birth — typically whichever corp has the stronger claim or higher demand for future citizens",
+        "The other parent's corp may contest. Legal disputes over child jurisdiction can outlast the partnership itself",
+        "Some corps offer <strong>Transfer Incentives</strong> — bonuses for the lower-status partner to switch corporate citizenship entirely"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Divorce is equally bureaucratic. You file a <strong>Partnership Dissolution</strong>. Assets are divided according to corporate policy, not personal preference. Children stay with the parent whose corp claimed them. The process is efficient, bloodless, and profoundly dehumanizing."
+    },
+    {
+      "type": "flavor",
+      "text": "<em>Love finds a way. Paperwork finds a longer way.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Childhood"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporate children are born into the system. From birth, they're citizens of their parent's corporation — assigned a citizen ID, enrolled in the corp's youth development pipeline, and tracked. Every milestone is logged. Every aptitude is measured. Every deviation is noted."
+    },
+    {
+      "type": "paragraph",
+      "text": "The first five years look almost normal. Parents raise their children in corporate housing. There's daycare — corp-provided, corp-supervised. There are toys — corp-branded, corp-approved. There are other kids. It's recognizable as childhood, if you don't look too closely at the logo on the building."
+    },
+    {
+      "type": "paragraph",
+      "text": "At six, <strong>Youth Development</strong> begins. This is school, corporate style. Children spend six hours a day in corp-run education facilities learning literacy, numeracy, corporate history (their corporation's version), and doctrine. The remaining hours are split between family time and structured activities — sports, crafts, early vocational assessment."
+    },
+    {
+      "type": "paragraph",
+      "text": "By twelve, tracking gets serious. Aptitude assessments determine which developmental pathway a child enters. The bright ones get technical training. The strong ones get physical conditioning. The charismatic ones get social grooming. Every child is being shaped for a role, whether they know it or not."
+    },
+    {
+      "type": "paragraph",
+      "text": "At sixteen, corporate citizens receive their <strong>Assignment</strong> — their first official role within the corporation. Most stay in the track their aptitudes predicted. Some get lucky. Some don't. By eighteen, they're full citizens with full responsibilities, full productivity expectations, and the full weight of corporate life pressing down."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Corp Differences",
+      "text": "Every corporation raises children differently, but the goal is the same: productive citizens who believe.",
+      "items": [
+        "<strong>Congo Industries:</strong> Practical, hands-on. Kids work sorting stations by ten. 'Learning through doing' — also known as child labor with educational branding",
+        "<strong>The Crowned Table:</strong> Pageantry. Children are 'squires' from age eight, assigned to a franchise-house. Earn their 'crowning' at sixteen. The ceremony is genuine. The kids cry. So do the parents",
+        "<strong>Pear Technologies:</strong> Screens. So many screens. Education is gamified, individualized, and optimized. Children compete on leaderboards. Top performers get early device access. Bottom performers get 'support programs' that feel like punishment",
+        "<strong>Wellspring Pharma:</strong> Monitored. Every child wears a health tracker from birth. Diet, sleep, exercise — all optimized. Childhood is a clinical trial you didn't consent to",
+        "<strong>Sentinel Systems:</strong> Cadets. Uniforms at six. Formations at eight. Discipline, structure, and a sincere belief that they're protecting something. The kids who thrive here love it. The kids who don't learn to hide",
+        "<strong>Green Cradle:</strong> The closest to normal. Community-raised, outdoor education, emphasis on growth and nurturing. Genuinely kinder. Still tracking. Still shaping. But the gardens are real",
+        "<strong>House of Mouse:</strong> Audition Day. Children perform. Roles are assigned. Your character becomes your life. Some kids get hero roles. Some kids get villain roles. <em>Nobody picks their own part</em>"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Margin Families"
+    },
+    {
+      "type": "paragraph",
+      "text": "In the margins, nobody files a Partnership Declaration. Nobody assigns your child to a corporation. Nobody tracks aptitude scores or schedules Youth Development. This sounds like freedom. Sometimes it is. Mostly it's terrifying."
+    },
+    {
+      "type": "paragraph",
+      "text": "Margin families form the way families have always formed — people find each other, decide to stay, and figure it out. Partnerships are declared by living together, not by paperwork. Divorce is declared by one person leaving. It's simpler and messier than the corporate version, which is to say: it's human."
+    },
+    {
+      "type": "paragraph",
+      "text": "Margin children grow up fast. There's no Youth Development pipeline, but there's also no safety net. Education comes from whoever in the community has time and knowledge — a retired Keth smith teaching metalwork, a Vael elder teaching reading, an ex-contractor teaching which sounds mean trouble. It's inconsistent, personal, and often better than corporate education at producing people who can actually think. It's also often worse at producing people who can read."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "The Margin Bargain",
+      "text": "Margin children are <strong>free</strong> — no corporate citizen ID, no tracking, no assignment. They're also <strong>invisible</strong> — no healthcare, no guaranteed food, no legal identity. Margin parents face a constant calculation: is freedom worth the risk?",
+      "items": [
+        "Some margin families <strong>register one parent</strong> with a corporation for healthcare access, keeping the children off-books",
+        "Some send children to corporate districts for education, then pull them back — 'day-tripping' across the line",
+        "Some accept corporate <strong>Citizenship Offers</strong> when a child is sick or injured, trading freedom for a med bay"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The hardest conversations in the margins happen when a child is old enough to choose. Stay in the margins — free, poor, invisible? Or walk into a corporate district and become a citizen — tracked, employed, fed? Every margin parent dreads this conversation. Every margin child has it."
+    },
+    {
+      "type": "flavor",
+      "text": "<em>The margin parents who register their kids with a corp aren't selling them. They're buying them a meal they can't afford to cook.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Contractor Families"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most contractors don't have families. The math doesn't work. A solo contractor clears maybe 100–220 credits a week after expenses. A child costs roughly 80–120 credits a week in the margins — food, shelter, basic medical. That's most of your surplus, gone. One bad contract, one expensive scar, and you can't feed your kid."
+    },
+    {
+      "type": "paragraph",
+      "text": "The contractors who do have families fall into three categories:"
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Contractor Parents",
+      "text": "Having children as a contractor is possible. It just requires planning that most people who fight rift beasts for a living don't have the luxury of doing.",
+      "items": [
+        "<strong>The Established:</strong> Veterans with bases, steady income, and enough augments to survive reliably. They've broken the financial loop. Children are possible when you're not worried about next month's rent",
+        "<strong>The Partnered:</strong> One parent contracts, one parent stays home or works a margin job. This is the most common model — and it puts enormous pressure on the contracting parent to never have a bad month",
+        "<strong>The Crew-Raised:</strong> The whole crew helps. Childcare rotates. Costs are split. The kid grows up with four or five 'parents' who teach them different things. Messy, loud, and the closest thing to a village the margins produce"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Contractor children grow up knowing what their parents do. They see the scars. They hear the stories. They understand, very young, that the person who tucks them in might not come back from the next job. Some of them become contractors themselves. More of them swear they never will. Both groups end up in the rift eventually."
+    },
+    {
+      "type": "flavor",
+      "text": "<em>The crew doesn't talk about the kid. Not on contracts. Bad luck. But everyone comes back a little harder when they know someone's waiting.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Non-Human Families"
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-human species bring their own family structures to a world that wasn't built for them. Corporations accommodate some of these differences. Mostly they don't."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Species Family Structures",
+      "text": "Each non-human species has distinct approaches to family, partnership, and child-rearing — most of which corporate legal frameworks ignore entirely.",
+      "items": [
+        "<strong>Vael:</strong> Communal parenting. Children belong to the community, not individual parents. In corporate zones, this clashes with single-household citizen registration. Corps force Vael to designate 'primary guardians' — a concept Vael find absurd and slightly offensive",
+        "<strong>Keth:</strong> Forge-families. A Keth family centers on a shared craft or forge, not blood. Children apprentice where their talent leads, which might not be with their birth parents. Keth consider this natural. Humans find it cold. Neither side is wrong",
+        "<strong>Grunts:</strong> Elders raise children collectively, with a patience humans find unnerving. A Grunt child's education can last decades. Grunt parents think human childhoods are recklessly short",
+        "<strong>Whispers:</strong> Pair-bonding is intense and often short. Whisper children grow up sensing dimensional frequencies their parents can't hear anymore. Each generation perceives the rift differently. Whisper family reunions are quiet, strange, and deeply alien",
+        "<strong>Flickers:</strong> Loose networks. A Flicker child might be raised by three different households in three different districts over five years. Flickers don't see this as instability — speed and movement are home. Staying still is what feels wrong",
+        "<strong>Hollows:</strong> Nobody's entirely sure how Hollows reproduce. Hollow children appear in communities already partially formed. Hollow parents don't explain. Nobody asks twice"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Mixed-species partnerships happen, mostly in the margins. A Vael and a human raising a child together. A Keth and a Grunt sharing a forge-family. These families work, but they navigate two sets of cultural expectations with no rulebook and no institutional support."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mixed-species children are biologically impossible — the species are dimensionally distinct. Adoption, co-parenting, and blended households are the reality. The margins don't care about bloodlines. They care about whether you show up."
+    },
+    {
+      "type": "heading",
+      "text": "What Nobody Talks About"
+    },
+    {
+      "type": "paragraph",
+      "text": "Here's what the orientation manual skips: the corps <em>need</em> children. Not want — need. Toxicity attrition, rift casualties, and the simple grind of a dangerous world mean the population doesn't replace itself without incentives. Every corp runs the numbers. Every corp adjusts policy to push birth rates in the direction their projections demand."
+    },
+    {
+      "type": "paragraph",
+      "text": "When Congo needs more logistics workers, housing credits for families go up. When Wellspring needs more test subjects — sorry, <em>patients</em> — fertility consultations become free. When Sentinel's casualty reports spike, the parental leave policy quietly becomes more generous."
+    },
+    {
+      "type": "paragraph",
+      "text": "Nobody says it out loud. The incentives just shift, and the birth rates follow, because people respond to economics even when they think they're making free choices. Forty generations of this and it feels natural. Of course the corp helps with childcare. Of course there's a housing upgrade for families. Isn't that just good policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "It is good policy. That's the worst part."
+    },
+    {
+      "type": "flavor",
+      "text": "<em>The children don't know any of this. They just know their parents love them, their corp takes care of them, and the world outside the walls is dangerous. Two out of three isn't bad.</em>"
+    }
+  ]
+}
