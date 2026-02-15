@@ -15,10 +15,18 @@
 .st-val{color:var(--accent);font-family:var(--mono);font-weight:600;font-size:.82rem}
 .st-sec{margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border2)}
 .st-sec-t{font-family:var(--mono);font-size:.6rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
-.step-bar{display:flex;gap:2px;margin-bottom:20px}
-.step-pip{flex:1;height:4px;border-radius:2px;background:var(--border);transition:background .2s}
-.step-pip.done{background:var(--accent)}
-.step-pip.active{background:var(--teal)}
+/* --- Step tabs --- */
+.step-bar{display:flex;gap:0;margin-bottom:24px;border-bottom:1px solid var(--border2);overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.step-bar::-webkit-scrollbar{display:none}
+.step-pip{position:relative;padding:10px 14px 12px;font-family:var(--mono);font-size:.68rem;letter-spacing:.02em;color:var(--muted);cursor:default;transition:color .2s;white-space:nowrap;display:flex;align-items:center;gap:6px;border-bottom:2px solid transparent;margin-bottom:-1px}
+.step-pip .step-num{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;border:1px solid var(--border);font-size:.6rem;font-weight:600;transition:all .2s}
+.step-pip .step-lbl{display:none}
+.step-pip.done{color:var(--text2);cursor:pointer}
+.step-pip.done:hover{color:var(--accent)}
+.step-pip.done .step-num{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.step-pip.active{color:var(--teal);border-bottom-color:var(--teal)}
+.step-pip.active .step-num{border-color:var(--teal);color:var(--bg);background:var(--teal)}
+@media(min-width:600px){.step-pip .step-lbl{display:inline}}
 .step-t{font-family:var(--heading);font-size:1.3rem;color:var(--text);margin-bottom:4px}
 .step-d{font-size:.85rem;color:var(--text2);margin-bottom:20px;font-style:italic}
 .cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
@@ -29,6 +37,13 @@
 .cd-d{font-size:.78rem;color:var(--text2);line-height:1.4}
 .tag{display:inline-block;padding:1px 6px;font-family:var(--mono);font-size:.6rem;border-radius:3px;background:var(--accent-dim);color:var(--accent);margin-right:4px;margin-bottom:3px}
 .tag.tl{background:var(--teal-dim);color:var(--teal)}
+/* --- Tab bar (Kit/Custom, Weapon category) --- */
+.tab-bar{display:flex;gap:0;border-bottom:1px solid var(--border2);margin-bottom:16px}
+.tab-btn{position:relative;padding:8px 16px 10px;font-family:var(--mono);font-size:.75rem;letter-spacing:.03em;color:var(--muted);background:transparent;border:none;border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;transition:all .15s;text-transform:uppercase}
+.tab-btn:hover{color:var(--text2)}
+.tab-btn.active{color:var(--accent);border-bottom-color:var(--accent)}
+.tab-btn.active.teal{color:var(--teal);border-bottom-color:var(--teal)}
+/* --- Buttons --- */
 .btn{padding:8px 20px;border:1px solid var(--accent);background:var(--accent-dim);color:var(--accent);font-family:var(--mono);font-size:.78rem;border-radius:var(--radius);cursor:pointer;transition:all var(--tr)}
 .btn:hover{background:var(--accent);color:var(--bg)}
 .btn:disabled{opacity:.4;cursor:not-allowed}

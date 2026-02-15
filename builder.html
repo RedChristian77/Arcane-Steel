@@ -346,8 +346,8 @@ function App(){
 
     case 3: return h('div',null,
       // Kit / Custom toggle
-      h('div',{style:{display:'flex',gap:6,marginBottom:16}},
-        ['kit','custom'].map(m=>h('button',{key:m,className:'btn'+(kitMode===m?'':' sec'),
+      h('div',{className:'tab-bar'},
+        ['kit','custom'].map(m=>h('button',{key:m,className:'tab-btn'+(kitMode===m?' active':''),
           onClick:()=>sKitMode(m)},m==='kit'?'Pick a Kit':'Custom Build ('+CUSTOM_BUDGET+'cr)'))),
       kitMode==='kit'?
         h('div',{className:'cg'},KITS.map(k=>h('div',{key:k.name,className:'cd'+(kit===k?' sel':''),onClick:()=>sKit(k)},
@@ -364,9 +364,9 @@ function App(){
             h('div',{style:{fontSize:'.68rem',color:'var(--muted)',marginTop:2}},'Resume credits ('+cr+'cr) are your starting cash — separate from gear budget.')),
           // Weapon tabs
           h('div',{style:{fontFamily:'var(--heading)',fontSize:'.78rem',color:'var(--teal)',marginBottom:6}},'WEAPONS'),
-          h('div',{style:{display:'flex',gap:4,marginBottom:10}},
-            ['melee','ranged','tech'].map(t=>h('button',{key:t,className:'btn'+(wTab===t?'':' sec'),
-              style:{fontSize:'.7rem',padding:'4px 12px'},onClick:()=>sWTab(t)},t.toUpperCase()))),
+          h('div',{className:'tab-bar',style:{marginBottom:10}},
+            ['melee','ranged','tech'].map(t=>h('button',{key:t,className:'tab-btn'+(wTab===t?' active teal':''),
+              onClick:()=>sWTab(t)},t))),
           h('div',{className:'cg'},
             wTab==='melee'?renderWeaponList(MELEE,0):wTab==='ranged'?renderWeaponList(RANGED,MELEE.length):renderWeaponList(TECHW,MELEE.length+RANGED.length)),
           // Armor
@@ -466,7 +466,10 @@ function App(){
       h('div',{className:'b-sub'},'Character Builder'),
       h(StatPanel,{style:{}})),
     h('div',{className:'builder-main'},
-      h('div',{className:'step-bar'},stps.map((_,i)=>h('div',{key:i,className:'step-pip'+(i<step?' done':'')+(i===step?' active':'')}))),
+      h('div',{className:'step-bar'},stps.map((s,i)=>h('div',{key:i,className:'step-pip'+(i<step?' done':'')+(i===step?' active':''),
+        onClick:()=>{if(i<step)sStep(i)}},
+        h('span',{className:'step-num'},i<step?'✓':i+1),
+        h('span',{className:'step-lbl'},s.t)))),
       h('div',{className:'step-t'},stps[step].t),
       h('div',{className:'step-d'},stps[step].d),
       renderStep(),
