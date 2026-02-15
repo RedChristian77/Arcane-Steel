@@ -188,12 +188,31 @@
       ]
     },
     {
-      "type": "paragraph",
-      "text": "Mixed-species partnerships happen, mostly in the margins. A Vael and a human raising a child together. A Keth and a Grunt sharing a forge-family. These families work, but they navigate two sets of cultural expectations with no rulebook and no institutional support."
+      "type": "heading",
+      "text": "Mixed-Species Families"
     },
     {
       "type": "paragraph",
-      "text": "Mixed-species children are biologically impossible — the species are dimensionally distinct. Adoption, co-parenting, and blended households are the reality. The margins don't care about bloodlines. They care about whether you show up."
+      "text": "Here's a fact that raises more questions than it answers: humans can have biological children with every non-human species. Rift-origin genetics are surprisingly compatible with human biology when magic is involved. A thousand years of ambient magical saturation has made human DNA weirdly receptive to dimensional biology. Nobody fully understands why. Wellspring has research programs dedicated to the question. The results are classified."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why human–nonhuman partnerships are common, especially in the margins. A human and a Vael raising half-Vael children. A human and a Keth whose kids inherited their father's crystalline skin patches and their mother's fifth finger. These families are everywhere — not a majority, but visible enough that nobody blinks. The children are healthy, viable, and often inherit a blend of traits that corporate geneticists find <em>very</em> interesting."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Non-Human Crossbreeding",
+      "text": "Non-human species having children with <strong>each other</strong> is a different story. It's not impossible — but it's rare. Keth and Vael biology, for instance, is dimensionally distinct enough that conception requires magical intervention, specialized medical support, or sheer biological luck. It happens. Just not often.",
+      "items": [
+        "Humans are the <strong>universal bridge</strong> — compatible with every known sapient species. No one is sure whether this is evolutionary, magical, or something stranger",
+        "Non-human to non-human pairings <strong>can</strong> produce children, but the success rate is low enough that most mixed non-human couples adopt, co-parent, or build blended households instead",
+        "The rarity of non-human crossbreeding is one reason <strong>human–nonhuman relationships dominate</strong> mixed families. Biology doesn't care about cultural preferences — it just makes some combinations easier than others"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The result: the margins are full of human–nonhuman families, and relatively few Vael-Keth or Grunt-Flicker households with biological children. Mixed non-human partnerships absolutely exist — love doesn't check a compatibility chart — but they're more likely to be blended families built through adoption and co-parenting than biological reproduction. The margins don't care how a family got built. They care about whether you show up."
     },
     {
       "type": "heading",
