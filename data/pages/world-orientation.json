@@ -61,7 +61,7 @@
     },
     {
       "type": "paragraph",
-      "text": "When a fast-food chain has been the dominant cultural institution for forty generations, "brand loyalty" doesn't quite cover it anymore. It's closer to religion. The iconography is sacred. The founders are saints. The corporate mission statement is scripture."
+      "text": "When a fast-food chain has been the dominant cultural institution for forty generations, \"brand loyalty\" doesn't quite cover it anymore. It's closer to religion. The iconography is sacred. The founders are saints. The corporate mission statement is scripture."
     },
     {
       "type": "divider"
@@ -76,7 +76,7 @@
       "type": "callout",
       "label": "Warning",
       "style": "rust",
-      "text": "<strong>But using it will kill you.</strong> For humans, channeling magic is like breathing poison. The body can process it — slowly, painfully, with cumulative damage. Every spell, every enchanted device you activate directly, every minute spent in a saturated rift zone adds to your toxicity. It disperses naturally over time, but "naturally" means "weeks," and weeks are a luxury most people don't have."
+      "text": "<strong>But using it will kill you.</strong> For humans, channeling magic is like breathing poison. The body can process it — slowly, painfully, with cumulative damage. Every spell, every enchanted device you activate directly, every minute spent in a saturated rift zone adds to your toxicity. It disperses naturally over time, but \"naturally\" means \"weeks,\" and weeks are a luxury most people don't have."
     },
     {
       "type": "paragraph",
@@ -89,7 +89,7 @@
       "type": "callout",
       "label": "Augmentation",
       "style": "gold",
-      "text": "<strong>Augmentation is normal.</strong> Laws restricting human experimentation were dropped centuries ago. Gene-splicing, cybernetic augments, biological grafts from rift fauna — most people walking down the street are some combination of modifications. A man with a reinforced titanium ribcage and orc-spliced musculature raises fewer eyebrows than someone who's completely unmodified. Being "stock" is the oddity."
+      "text": "<strong>Augmentation is normal.</strong> Laws restricting human experimentation were dropped centuries ago. Gene-splicing, cybernetic augments, biological grafts from rift fauna — most people walking down the street are some combination of modifications. A man with a reinforced titanium ribcage and orc-spliced musculature raises fewer eyebrows than someone who's completely unmodified. Being \"stock\" is the oddity."
     },
     {
       "type": "callout",
@@ -185,7 +185,7 @@
       "type": "callout",
       "label": "Method 2",
       "style": "accent",
-      "text": "<strong>Survivor crews.</strong> Your last team died. Or retired. Or got harvested. Or one of them took a corp job and the others scattered. You're at a staging area, waiting for a ping, and you notice three other people doing the same thing. Everyone's got that look — the "I've done this before and I'm still here" look. Someone suggests a drink. Someone mentions a contract. By morning you're a crew. Survivor crews tend to be tight. People who've already lost a team don't waste time with politics."
+      "text": "<strong>Survivor crews.</strong> Your last team died. Or retired. Or got harvested. Or one of them took a corp job and the others scattered. You're at a staging area, waiting for a ping, and you notice three other people doing the same thing. Everyone's got that look — the \"I've done this before and I'm still here\" look. Someone suggests a drink. Someone mentions a contract. By morning you're a crew. Survivor crews tend to be tight. People who've already lost a team don't waste time with politics."
     },
     {
       "type": "callout",
@@ -415,11 +415,11 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>"Orientation complete. Your contractor ID has been provisionally activated. Please proceed to Equipment Requisition (Section 3) for your starting loadout. Remember: your first scar is on us. After that, treatment is available at competitive market rates.</em>  <em>Welcome to the grind."</em>"
+      "text": "<em>\"Orientation complete. Your contractor ID has been provisionally activated. Please proceed to Equipment Requisition (Section 3) for your starting loadout. Remember: your first scar is on us. After that, treatment is available at competitive market rates.</em>  <em>Welcome to the grind.\"</em>"
     },
     {
       "type": "blockquote",
-      "text": "<em>"The following corporate profiles are provided for contractor orientation purposes only. Opinions expressed herein are those of the Intercompany Contractor Relations Bureau and do not reflect the official positions of any sovereign corporate entity. If you believe any information in this document to be inaccurate, please file a correction request with the Bureau. Processing time: 6-8 business quarters. Sincerity of request: optional."</em>"
+      "text": "<em>\"The following corporate profiles are provided for contractor orientation purposes only. Opinions expressed herein are those of the Intercompany Contractor Relations Bureau and do not reflect the official positions of any sovereign corporate entity. If you believe any information in this document to be inaccurate, please file a correction request with the Bureau. Processing time: 6-8 business quarters. Sincerity of request: optional.\"</em>"
     }
   ]
 }
