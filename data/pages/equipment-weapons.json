@@ -29,6 +29,16 @@
       ],
       "rows": [
         [
+          "Unarmed Strike",
+          "d8",
+          "1d4",
+          "1",
+          "0",
+          "—",
+          "Unarmed",
+          "Always available. No weapon required."
+        ],
+        [
           "Combat Knife",
           "d12",
           "1d6",
