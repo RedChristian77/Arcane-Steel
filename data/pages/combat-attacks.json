@@ -44,6 +44,30 @@
     },
     {
       "type": "heading",
+      "text": "Unarmed Strikes"
+    },
+    {
+      "type": "paragraph",
+      "text": "No weapon? You can always throw a punch. <strong>Unarmed Strikes</strong> use Chrome, cost 1 AP, roll d8 for accuracy, and deal 1d4 damage. It's the worst attack in the game — low accuracy, garbage damage, and armor eats it alive. Against anything wearing plate, you're punching a wall."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Unarmed Strike",
+      "text": "<strong>Accuracy:</strong> d8 + Chrome bonus · <strong>Damage:</strong> 1d4 · <strong>AP:</strong> 1 · <strong>Range:</strong> Adjacent",
+      "items": [
+        "Always available — no equipment required",
+        "Gauntlets (100 cr) upgrade your accuracy to d12 and are the baseline unarmed weapon",
+        "Some augments and kit abilities (like the Leech's <strong>Toxic Touch</strong>) trigger on unarmed strikes",
+        "Armor reduces each die individually — a 1d4 punch against Armor 3+ deals nothing"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Unarmed fighting is a desperation move for most contractors. For a few, it's a lifestyle choice — and the augments exist to make it work. But out of the box, buy a knife."
+    },
+    {
+      "type": "heading",
       "text": "Step 2: Apply Weapon Modifiers"
     },
     {

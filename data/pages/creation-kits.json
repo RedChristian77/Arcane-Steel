@@ -109,6 +109,16 @@
           "gear": "Siphon Rod, Combat Knife, Light Weave",
           "desc": "Pull suffering from allies. Redirect it at enemies.",
           "icon": "😈"
+        },
+        {
+          "name": "Brawler",
+          "tree": "Fury",
+          "aug": "Adrenal Injector",
+          "ability": "Iron Fists",
+          "lean": "Chrome / Grit",
+          "gear": "Gauntlets, Buckler, Contractor Standard",
+          "desc": "No weapons needed. Your fists are the weapon. Close, hit, shove.",
+          "icon": "👊"
         }
       ]
     },
