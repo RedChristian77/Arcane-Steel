@@ -311,7 +311,14 @@
         {
           "id": "trees-fortress",
           "title": "🛡️ Fortress",
-          "file": "pages/trees-fortress.json"
+          "file": "pages/trees-fortress.json",
+          "children": [
+            {
+              "id": "abilities-bulwark",
+              "title": "Bulwark Abilities",
+              "file": "pages/abilities-bulwark.json"
+            }
+          ]
         },
         {
           "id": "trees-shadow",

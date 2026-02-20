@@ -1,0 +1,103 @@
+{
+  "id": "abilities-bulwark",
+  "title": "Bulwark Abilities",
+  "subtitle": "Bulwark kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Bulwark"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>The wall. Stand in front, absorb damage, protect your crew. Abilities focus on ally protection, shield techniques, threat control, and positional defense. You don't win fights — you make sure your crew survives them.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hold the Line (Passive):</strong> When you don't move on your turn, allies within Adjacent range gain +1 Evasion until your next turn. Standing your ground protects those around you."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Pick from (300 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shield Bash (Active, 1 AP):</strong> While wielding a shield, make a melee attack using Chrome + d10. On hit: 1d6 damage and target is pushed 1 range band. No weapon needed — the shield is the weapon."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Intercept (Active, 1 AP, Reaction):</strong> When an ally within Adjacent range is hit by an attack, you become the target instead. Take the damage. Once per round. You don't ask permission — you just step in front."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rally Cry (Active, 1 AP):</strong> One ally within Close range removes one condition (Bleed, Poison, Fear, etc.). Your voice cuts through chaos and gets people moving."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Defensive Footing (Passive):</strong> While you haven't moved this turn, the first melee attack against you each round has -2 accuracy. Your stance is a fortress."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Watchful Guard (Passive):</strong> Your opportunity attacks trigger against enemies moving within Close range, not just those leaving Adjacent. You punish movement in a wider area."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Absorb Blow (Passive):</strong> Once per encounter, reduce damage from a single attack by your Chrome bonus (after armor). Flex through the hit."
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Pick from (600 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Phalanx (Passive):</strong> While wielding a shield, allies directly behind you (relative to the attacker) gain your shield's Evasion bonus against ranged attacks. Your shield covers more than just you."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Retaliatory Strike (Passive):</strong> When an enemy hits you with a melee attack, deal damage equal to your Armor value back to them. Automatic, no roll needed. Hitting you hurts."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Living Wall (Active, 2 AP):</strong> Choose one ally within Adjacent range. Until your next turn, all attacks targeting them are redirected to you instead. You become their shield. Once per encounter."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Endure (Passive):</strong> Reduce all incoming damage by 1 (flat, after armor, minimum 0). Stacks with everything. Every hit is a little less."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Iron Stance (Passive):</strong> While you haven't moved this turn, critical hits against you are treated as normal hits. Your position is too solid to exploit."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Second Wind (Active, 2 AP):</strong> Heal HP equal to your Chrome bonus + Grit bonus. Once per encounter. You catch your breath and keep standing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deny Ground (Passive):</strong> Enemies within Adjacent range cannot move past you without spending an additional 1 AP. You don't just hold space — you own it."
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Pick from (1,000 cr each)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress Stance (Active, 3 AP):</strong> Until your next turn: +3 Armor, cannot move, and all allies within Close range gain +1 Armor and +1 Evasion. Once per encounter. The ultimate defensive position."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Martyr's Bond (Passive):</strong> Choose one ally at the start of combat. While both alive and within Close range, you take half of all damage they receive (they take the other half, rounded down). Your pain is their safety."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Iron Sentinel (Passive):</strong> You make opportunity attacks against any enemy that moves within Close range — not just those leaving your reach. Your opportunity attacks deal +1d6 bonus damage. Nothing moves near you without paying for it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Last Bastion (Passive):</strong> While below 25% HP, gain +3 Armor and become immune to conditions (Bleed, Poison, Stun, Fear). The closer to death, the harder to break. The wall doesn't fall — it just gets shorter."
+    }
+  ]
+}
