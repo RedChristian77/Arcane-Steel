@@ -9,7 +9,7 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>“REMINDER: All contractors are required to review the Engagement Protocols Manual (v47.3) before entering any active rift zone. Failure to comply voids your medical waiver. Failure to survive voids your medical waiver faster.“</em>"
+      "text": "<em>"REMINDER: All contractors are required to review the Engagement Protocols Manual (v47.3) before entering any active rift zone. Failure to comply voids your medical waiver. Failure to survive voids your medical waiver faster."</em>"
     },
     {
       "type": "heading",
@@ -17,7 +17,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Combat in Arcane Steel is fast and dangerous. Most fights resolve in 3-5 rounds. Weapons hit hard, going to 0 HP means a Scar — permanent damage that accumulates over a career. Smart contractors win fast or don’t fight at all."
+      "text": "Combat in Arcane Steel is fast and dangerous. Most fights resolve in 3-5 rounds. Weapons hit hard, going to 0 HP means a Scar — permanent damage that accumulates over a career. Smart contractors win fast or don't fight at all."
     },
     {
       "type": "heading",
@@ -32,120 +32,48 @@
       "text": "Standard Actions"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Action</strong>              <strong>AP Cost</strong>             <strong>Description</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Attack</strong>              Weapon-dependent (1-5   Make one attack with an AP)                     equipped weapon."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Move</strong>                1 AP per range band     Move one range band. Can be split across the turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Use Item</strong>            1 AP                    Healing stim, grenade, scrubber, tech device."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Activate Augment</strong>    1 AP                    Any activated augment ability (Burn, Redirect, etc.)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Interact</strong>            1 AP                    Open a door, pull a lever, grab an object, flip a switch."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Help</strong>                1 AP                    Grant +2 to an adjacent ally’s next roll this turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Defend</strong>              2 AP                    +2 Evasion until your next turn. Can stack with cover."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Skill Check</strong>         1 AP                    Any skill use in combat (Medicine, Tech, Stealth, etc.)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Reload</strong>              1 AP                    Reload a weapon that requires it (GM calls which weapons need reloading)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Swap Weapon</strong>         1 AP                    Switch to a different equipped weapon. Sheathe one, draw another."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stand from Prone</strong>    1 AP                    Get up from Prone. Removes Prone condition."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Escape Grapple</strong>      1 AP                    Chrome check (DC set by grappler’s Chrome or ability). Success = free. Failure = still grappled, AP wasted."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Grapple</strong>             2 AP                    Melee only. Chrome check vs target’s Chrome. Success = target is Grappled."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Shove</strong>               1 AP                    Melee only. Chrome check vs target’s Chrome. Success = push target 1 range band OR knock Prone (your choice)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Drag</strong>                1 AP                    Move a Grappled target 1 range band with you. Requires maintaining grapple."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stabilize</strong>           1 AP                    Medicine check on an adjacent downed ally. Prevents next Death Roll."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Take Cover</strong>          1 AP                    Move into available cover in your current zone. Gain In Cover condition (+2 Evasion vs ranged from covered direction)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Overwatch</strong>           Weapon AP + 1           Reserve your attack. The next enemy that moves within your weapon’s range this round triggers your attack as an interrupt. One attack only. Must have line of sight."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Suppress</strong>            3 AP                    Ranged weapons only. Designate a zone. Until your next turn, enemies in that zone are Suppressed (-2 accuracy, +1 AP to advance toward you). Consumes ammo."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Delay</strong>               0 AP                    Hold your turn. Jump back into initiative at any point later in the round. Once you act, your position resets. ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Action", "AP Cost", "Description"],
+      "rows": [
+        ["Attack", "Weapon-dependent (1–5 AP)", "Make one attack with an equipped weapon."],
+        ["Move", "1 AP per range band", "Move one range band. Can be split across the turn."],
+        ["Use Item", "1 AP", "Healing stim, grenade, scrubber, tech device."],
+        ["Activate Augment", "1 AP", "Any activated augment ability (Burn, Redirect, etc.)."],
+        ["Interact", "1 AP", "Open a door, pull a lever, grab an object, flip a switch."],
+        ["Help", "1 AP", "Grant +2 to an adjacent ally's next roll this turn."],
+        ["Defend", "2 AP", "+2 Evasion until your next turn. Can stack with cover."],
+        ["Skill Check", "1 AP", "Any skill use in combat (Medicine, Tech, Stealth, etc.)."],
+        ["Reload", "1 AP", "Reload a weapon that requires it (GM calls which weapons need reloading)."],
+        ["Swap Weapon", "1 AP", "Switch to a different equipped weapon. Sheathe one, draw another."],
+        ["Stand from Prone", "1 AP", "Get up from Prone. Removes Prone condition."],
+        ["Escape Grapple", "1 AP", "Chrome check (DC set by grappler's Chrome or ability). Success = free. Failure = still grappled, AP wasted."],
+        ["Grapple", "2 AP", "Melee only. Chrome check vs target's Grit. Success = target is Grappled."],
+        ["Shove", "1 AP", "Melee only. Chrome check vs target's Grit. Success = push target 1 range band OR knock Prone (your choice)."],
+        ["Drag", "1 AP", "Move a Grappled target 1 range band with you. Requires maintaining grapple."],
+        ["Stabilize", "1 AP", "Medicine check on an adjacent downed ally. Prevents next Death Roll."],
+        ["Take Cover", "1 AP", "Move into available cover in your current zone. Gain In Cover condition (+2 Evasion vs ranged from covered direction)."],
+        ["Overwatch", "Weapon AP + 1", "Reserve your attack. The next enemy that moves within your weapon's range this round triggers your attack as an interrupt. One attack only. Must have line of sight."],
+        ["Suppress", "3 AP", "Ranged weapons only. Designate a zone. Until your next turn, enemies in that zone are Suppressed (-2 accuracy, +1 AP to advance toward you). Consumes ammo."],
+        ["Delay", "0 AP", "Hold your turn. Jump back into initiative at any point later in the round. Once you act, your position resets."]
+      ]
     },
     {
       "type": "heading",
-      "text": "Quick Actions (Free, once per turn)"
+      "text": "Quick Actions (0 AP — one of each per turn)"
     },
     {
       "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "text": "Quick Actions are free and don't cost AP. You can use <strong>one of each</strong> Quick Action per turn — not one total."
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Action</strong>                          <strong>Description</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Drop Item</strong>                       Let go of something. Hits the ground at your feet."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Speak</strong>                           A short sentence. Shout a warning, call a target, coordinate. Not a full conversation."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Activate Passive</strong>                Toggle a passive augment or ability on/off."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Fall Prone</strong>                      Voluntarily hit the ground. -2 Evasion but +2 vs ranged attacks from Medium+ range (smaller target). ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Action", "Description"],
+      "rows": [
+        ["Drop Item", "Let go of something. Hits the ground at your feet."],
+        ["Speak", "A short sentence. Shout a warning, call a target, coordinate. Not a full conversation."],
+        ["Activate Passive", "Toggle a passive augment or ability on/off."],
+        ["Fall Prone", "Voluntarily hit the ground. -2 Evasion but +2 vs ranged attacks from Medium+ range (smaller target)."]
+      ]
     },
     {
       "type": "heading",
@@ -153,11 +81,11 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>You can mix and match.</strong> Swing a Heavy Axe (4 AP) and Move (1 AP). Stab with a Knife three times (3 AP) and use a healing stim (1 AP) and Move (1 AP). Fire a Sniper Rifle (5 AP) and do nothing else. The weapon’s AP cost determines how much of your turn it consumes."
+      "text": "<strong>You can mix and match.</strong> Swing a Heavy Axe (4 AP) and Move (1 AP). Stab with a Knife three times (3 AP) and use a healing stim (1 AP) and Move (1 AP). Fire a Sniper Rifle (5 AP) and do nothing else. The weapon's AP cost determines how much of your turn it consumes."
     },
     {
       "type": "paragraph",
-      "text": "Light weapons attack fast but hit soft. Heavy weapons attack slow but devastate. Your spare AP after attacking is your tactical flexibility — movement, items, defense. A contractor who commits all 5 AP to attacks can’t move or use items that turn. A contractor who saves AP for movement and items is more versatile but deals less damage."
+      "text": "Light weapons attack fast but hit soft. Heavy weapons attack slow but devastate. Your spare AP after attacking is your tactical flexibility — movement, items, defense. A contractor who commits all 5 AP to attacks can't move or use items that turn. A contractor who saves AP for movement and items is more versatile but deals less damage."
     },
     {
       "type": "heading",
@@ -165,7 +93,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Reactions happen <strong>outside your turn.</strong> You don’t spend AP from your turn on them — reactions have their own economy. By default, every contractor gets <strong>1 Reaction per round.</strong> Your reaction refreshes at the start of your turn."
+      "text": "Reactions happen <strong>outside your turn.</strong> You don't spend AP from your turn on them — reactions have their own economy. By default, every contractor gets <strong>1 Reaction per round.</strong> Your reaction refreshes at the start of your turn."
     },
     {
       "type": "heading",
@@ -177,15 +105,15 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Rules:</em>  • Roll your <strong>best melee stat bonus + d8 accuracy</strong> (regardless of equipped weapon). This is a quick, reactive strike — not a full attack.  • Damage: <strong>1d6 + stat bonus</strong> (flat, no weapon dice). Armor applies normally.  • Uses your Reaction for the round (you can’t make another Reaction until your next turn).  • Only triggers on movement <em>away from you.</em> Moving around you at the same range band doesn’t trigger it. Moving toward you doesn’t trigger it.  • If the target uses the <strong>Disengage</strong> action (Dancer T2), <strong>Shadow Step</strong> (Phantom T2), or any ability that says “without provoking opportunity attacks,“ no reaction is triggered.  • Enemies can also make Opportunity Attacks against players using the same fixed damage (1d6 + stat bonus). A Rift Goblin’s OA doesn’t suddenly deal Brine Crusher damage."
+      "text": "<em>Rules:</em>  • Roll your <strong>best melee stat bonus + d8 accuracy</strong> (regardless of equipped weapon). This is a quick, reactive strike — not a full attack.  • Damage: <strong>1d6 + stat bonus</strong> (flat, no weapon dice). Armor applies normally.  • Uses your Reaction for the round (you can't make another Reaction until your next turn).  • Only triggers on movement <em>away from you.</em> Moving around you at the same range band doesn't trigger it. Moving toward you doesn't trigger it.  • If the target uses the <strong>Disengage</strong> action (Dancer T2), <strong>Shadow Step</strong> (Phantom T2), or any ability that says \"without provoking opportunity attacks,\" no reaction is triggered.  • Enemies can also make Opportunity Attacks against players using the same fixed damage (1d6 + stat bonus). A Rift Goblin's OA doesn't suddenly deal Brine Crusher damage."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Why fixed damage?</strong> An Opportunity Attack is a snap reaction — a quick jab, a pistol whip, a slash across the back as someone turns to run. It’s not a fully wound-up Great Maul overhead. The threat is real enough to make disengaging cost something, but not so devastating that high-AP weapons become free death zones."
+      "text": "<strong>Why fixed damage?</strong> An Opportunity Attack is a snap reaction — a quick jab, a pistol whip, a slash across the back as someone turns to run. It's not a fully wound-up Great Maul overhead. The threat is real enough to make disengaging cost something, but not so devastating that high-AP weapons become free death zones."
     },
     {
       "type": "blockquote",
-      "text": "<em>Why this matters:∗∗ Opportunity Attacks make positioning sticky. You can’t just walk away from a Berserker for free. Getting out of melee costs something — either 1 AP for Disengage, a specific ability, or you eat a hit. This creates frontline/backline dynamics. The Berserker who’s in an enemy’s face is ∗keeping them there.</em>"
+      "text": "<em>Why this matters:</em> Opportunity Attacks make positioning sticky. You can't just walk away from a Berserker for free. Getting out of melee costs something — either 1 AP for Disengage, a specific ability, or you eat a hit. This creates frontline/backline dynamics. The Berserker who's in an enemy's face is <em>keeping them there.</em>"
     },
     {
       "type": "heading",
@@ -193,51 +121,30 @@
     },
     {
       "type": "paragraph",
-      "text": "Reactions aren’t limited to Opportunity Attacks. Several abilities and augments grant additional reaction options:"
+      "text": "Reactions aren't limited to Opportunity Attacks. Several abilities and augments grant additional reaction options:"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Source</strong>              <strong>Reaction</strong>            <strong>Trigger</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Opportunity Attack</strong>  One melee attack        Enemy leaves your melee range"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Overwatch</strong> (2 AP,    One ranged attack       Enemy moves in your set on your turn)                               weapon’s range"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Riposte</strong> (Dancer T2  One off-hand melee      Enemy misses you in ability)                attack                  melee"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Countermeasu</strong>        Negate tech/Interface   Enemy uses tech ability (Technician T3 ability) ability                 in range"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Cutting Words</strong>       Reduce damage by 1d6    Enemy hits ally in (Negotiator T3 ability)                         range"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Tactical Relay</strong>      Ally spends 2 AP out of You use 1 AP on your (Technician T3 ability) turn                    turn to set it up"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Martyrdom Protocol</strong>  Absorb half damage      Ally takes damage in (Sin Eater T4 augment)                          range"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Battlefield           +1 Evasion for ally     Ally is attacked in Commander</strong> (Negotiator                         range T3 ability) ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Source", "Reaction", "Trigger"],
+      "rows": [
+        ["Opportunity Attack", "One melee snap strike (1d6 + stat)", "Enemy leaves your melee range"],
+        ["Riposte (Dancer T2 ability)", "One off-hand melee attack", "Enemy misses you in melee"],
+        ["Countermeasure (Technician T3 ability)", "Negate tech/Interface ability", "Enemy uses tech ability in range"],
+        ["Cutting Words (Negotiator T3 ability)", "Reduce damage by 1d6", "Enemy hits ally in range"],
+        ["Tactical Relay (Technician T3 ability)", "Ally spends 2 AP out of turn", "You use 1 AP on your turn to set it up"],
+        ["Martyrdom Protocol (Sin Eater T4 augment)", "Absorb half damage", "Ally takes damage in range"],
+        ["Battlefield Commander (Negotiator T3 ability)", "+1 Evasion for ally", "Ally is attacked in range"]
+      ]
     },
     {
       "type": "paragraph",
       "text": "<strong>Reaction limit: 1 per round</strong> unless an ability specifically grants additional reactions. Some T4 abilities may grant a second Reaction per round."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Overwatch Is Not a Reaction",
+      "text": "Overwatch is a <strong>Standard Action</strong> (Weapon AP + 1), not a Reaction. It's set up on your turn and triggers as an interrupt, but it does <strong>not</strong> consume your Reaction. You can Overwatch AND make an Opportunity Attack in the same round. See the Overwatch section below for full details."
     },
     {
       "type": "heading",
@@ -245,7 +152,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Grappling is melee wrestling — grabbing someone and not letting go. It’s a tool for controlling enemy positioning, holding a target still for your crew, or dragging someone where they don’t want to be."
+      "text": "Grappling is melee wrestling — grabbing someone and not letting go. It's a tool for controlling enemy positioning, holding a target still for your crew, or dragging someone where they don't want to be."
     },
     {
       "type": "heading",
@@ -253,7 +160,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> 2 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target’s Chrome. Success = Grappled. Failure = nothing happens.  • Creatures of dramatically different sizes modify the check (GM discretion — grappling something three times your size is harder)."
+      "text": "• <strong>Cost:</strong> 2 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target's Grit. Success = Grappled. Failure = nothing happens.  • Creatures of dramatically different sizes modify the check (GM discretion — grappling something three times your size is harder)."
     },
     {
       "type": "heading",
@@ -265,7 +172,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• Cannot move (speed = 0)  • Has -1 Evasion  • Can still attack, use items, and use abilities normally (they’re held, not helpless)  • Can attempt to <strong>Escape</strong> (1 AP, Chrome check vs grappler’s Chrome)"
+      "text": "• Cannot move (speed = 0)  • Has -1 Evasion  • Can still attack, use items, and use abilities normally (they're held, not helpless)  • Can attempt to <strong>Escape</strong> (1 AP, Chrome check vs grappler's Chrome)"
     },
     {
       "type": "paragraph",
@@ -273,7 +180,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• Can <strong>Drag</strong> the target (1 AP = move 1 range band, target comes with you)  • Can attack the grappled target at +1 accuracy (they’re held in place)  • Can <strong>Throw</strong> the target (1 AP, Chrome check DC 7 — success = target is pushed 1 range band and knocked Prone)  • Cannot use two-handed weapons while grappling (one hand is occupied)  • Can release the grapple as a Quick Action (free)"
+      "text": "• Can <strong>Drag</strong> the target (1 AP = move 1 range band, target comes with you)  • Can attack the grappled target at +1 accuracy (they're held in place)  • Can <strong>Throw</strong> the target (1 AP, Chrome check DC 7 — success = target is pushed 1 range band and knocked Prone)  • Cannot use two-handed weapons while grappling (one hand is occupied)  • Can release the grapple as a Quick Action (free)"
     },
     {
       "type": "heading",
@@ -281,7 +188,7 @@
     },
     {
       "type": "paragraph",
-      "text": "A grappled target who fails to Escape can be grappled continuously. The grappler doesn’t need to re-roll each turn — the grapple persists until the target Escapes, the grappler releases, or the grappler is incapacitated."
+      "text": "A grappled target who fails to Escape can be grappled continuously. The grappler doesn't need to re-roll each turn — the grapple persists until the target Escapes, the grappler releases, or the grappler is incapacitated."
     },
     {
       "type": "paragraph",
@@ -297,11 +204,11 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> 1 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target’s Chrome  • <strong>On success, choose one:</strong>  • <strong>Push:</strong> Target moves 1 range band in a direction you choose. Can push into hazards, off ledges, or into your crew’s kill zone.  • <strong>Knock Prone:</strong> Target gains the Prone condition (-2 Evasion, costs 1 AP to stand).  • <strong>On failure:</strong> Nothing happens. You bounce off."
+      "text": "• <strong>Cost:</strong> 1 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target's Grit  • <strong>On success, choose one:</strong>  • <strong>Push:</strong> Target moves 1 range band in a direction you choose. Can push into hazards, off ledges, or into your crew's kill zone.  • <strong>Knock Prone:</strong> Target gains the Prone condition (-2 Evasion, costs 1 AP to stand).  • <strong>On failure:</strong> Nothing happens. You bounce off."
     },
     {
       "type": "paragraph",
-      "text": "Shoving is cheaper than Grappling (1 AP vs 2) but temporary — the target isn’t held, just displaced. Use it for positioning rather than control."
+      "text": "Shoving is cheaper than Grappling (1 AP vs 2) but temporary — the target isn't held, just displaced. Use it for positioning rather than control."
     },
     {
       "type": "heading",
@@ -313,11 +220,11 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> Weapon AP + 1 (spent on your turn). A Combat Knife (1 AP) costs 2 AP to Overwatch. A Sniper Rifle (5 AP) costs 6 AP — meaning you need to have saved AP from a previous round or have an AP bonus to Overwatch with heavy weapons. This is intentional.  • <strong>Range:</strong> Your weapon’s effective range  • <strong>Effect:</strong> You reserve your attack. The next enemy that moves within your line of sight this round triggers one attack from you as an interrupt (resolved before their movement completes). Uses your full weapon stats — accuracy, damage, everything.  • <strong>Limit:</strong> One Overwatch attack per setup. After it triggers, you’re done until your next turn.  • <strong>Doesn’t use your Reaction.</strong> Overwatch is pre-set, not reactive. You can Overwatch AND make an Opportunity Attack in the same round."
+      "text": "• <strong>Cost:</strong> Weapon AP + 1 (spent on your turn). A Combat Knife (1 AP) costs 2 AP to Overwatch. A Sniper Rifle (5 AP) costs 6 AP — meaning you need an AP bonus from an augment or ability to Overwatch with heavy weapons. This is intentional.  • <strong>Range:</strong> Your weapon's effective range  • <strong>Effect:</strong> You reserve your attack. The next enemy that moves within your line of sight this round triggers one attack from you as an interrupt (resolved before their movement completes). Uses your full weapon stats — accuracy, damage, everything.  • <strong>Limit:</strong> One Overwatch attack per setup. After it triggers, you're done until your next turn.  • <strong>Doesn't use your Reaction.</strong> Overwatch is pre-set, not reactive. You can Overwatch AND make an Opportunity Attack in the same round."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Why weapon AP + 1?</strong> Overwatch is powerful — you get to shoot at something that has to move into your sights, and you interrupt their action. The +1 AP tax ensures it’s always more expensive than just shooting. A Corp Rifle (3 AP) costs 4 AP to Overwatch. That means you can Overwatch and still have 1 AP for movement — a reasonable tactical choice. A Sniper Rifle at 6 AP means you’re dedicating your entire turn plus needing a bonus to pull it off, which makes Overwatch with heavy weapons a rare, deliberate setup rather than the default play."
+      "text": "<strong>Why weapon AP + 1?</strong> Overwatch is powerful — you get to shoot at something that has to move into your sights, and you interrupt their action. The +1 AP tax ensures it's always more expensive than just shooting. A Corp Rifle (3 AP) costs 4 AP to Overwatch. That means you can Overwatch and still have 1 AP for movement — a reasonable tactical choice. A Sniper Rifle at 6 AP means you're dedicating your entire turn plus needing a bonus to pull it off, which makes Overwatch with heavy weapons a rare, deliberate setup rather than the default play."
     },
     {
       "type": "paragraph",
@@ -337,31 +244,20 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> 1 AP (move into available cover in your zone)  • <strong>Effect:</strong> Gain <strong>In Cover</strong> condition: +2 Evasion against ranged attacks from the covered direction only. Attacks from other angles or melee attacks ignore cover.  • Cover is environmental — walls, crates, vehicles, pillars, rubble. The GM describes what’s available.  • You can attack from cover normally. Leaving cover (moving out of the zone or standing up from behind it) removes the condition."
+      "text": "• <strong>Cost:</strong> 1 AP (move into available cover in your zone)  • <strong>Effect:</strong> Gain <strong>In Cover</strong> condition: +2 Evasion against ranged attacks from the covered direction only. Attacks from other angles or melee attacks ignore cover.  • Cover is environmental — walls, crates, vehicles, pillars, rubble. The GM describes what's available.  • You can attack from cover normally. Leaving cover (moving out of the zone or standing up from behind it) removes the condition."
     },
     {
       "type": "heading",
       "text": "Cover Types"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Cover</strong>               <strong>Evasion Bonus</strong>       <strong>Description</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Light Cover</strong>         +1                      Thin walls, furniture, foliage. Blocks line of sight partially."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Heavy Cover</strong>         +2                      Concrete walls, vehicles, fortified positions. Blocks most angles."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Total Cover</strong>         Can’t be targeted      Fully enclosed. You can’t be shot and you can’t shoot. ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Cover", "Evasion Bonus", "Description"],
+      "rows": [
+        ["Light Cover", "+1", "Thin walls, furniture, foliage. Blocks line of sight partially."],
+        ["Heavy Cover", "+2", "Concrete walls, vehicles, fortified positions. Blocks most angles."],
+        ["Total Cover", "Can't be targeted", "Fully enclosed. You can't be shot and you can't shoot."]
+      ]
     },
     {
       "type": "heading",

@@ -12,36 +12,79 @@
       "text": "Available Traits"
     },
     {
-      "type": "paragraph",
-      "text": "------------------ ----------------- ------------------ -----------------"
+      "type": "heading",
+      "text": "Genius"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Trait</strong>          <strong>Benefit</strong>       <strong>Cost</strong>           <strong>Trade-off</strong>"
+      "type": "callout",
+      "style": "teal",
+      "label": "Genius",
+      "text": "Your mind works faster than everyone else's. The cost is that it never stops working.",
+      "items": [
+        "<strong>Benefit:</strong> +2 to all Downtime Learning rolls",
+        "<strong>Cost:</strong> Lose 1 starting T1 skill pick (start with 2 + résumé instead of 3 + résumé)",
+        "<strong>Trade-off:</strong> Stress system hits harder — gain stress from ally injuries, critical failures, and unsolvable problems. Breakdowns happen. See Downtime Learning doc."
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Genius</strong>         +2 to all         Lose 1 starting T1 Stress system Downtime Learning skill pick (start  hits harder: gain rolls             with 2 + résumé    stress from instead of 3 +     learning, ally résumé)            injuries, critical failures, unsolvable problems. Breakdowns happen. See Downtime Learning doc."
+      "type": "heading",
+      "text": "Scarred Veteran"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Scarred          +200 starting     Start with </strong>2     You start closer Veteran<strong>          credits and +1    Scars</strong> already    to death. Death free augment (any (and their         DC is already at T1 from any tree  debuffs:           2 (95% survival — you’ve been  Battle-Worn +      on next scar). in the field)     Lingering Ache)    But you’re experienced and equipped."
+      "type": "callout",
+      "style": "rust",
+      "label": "Scarred Veteran",
+      "text": "You've been in the field. You've got the scars and the gear to prove it — and less runway before the next one kills you.",
+      "items": [
+        "<strong>Benefit:</strong> +200 starting credits and 1 free augment (any T1 from any tree — you've been in the field)",
+        "<strong>Cost:</strong> Start with <strong>2 Scars</strong> already (and their debuffs: Battle-Worn + Lingering Ache)",
+        "<strong>Trade-off:</strong> You start closer to death. Death DC is already at 2 (95% survival on next scar). But you're experienced and equipped."
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Rift-Touched</strong>   One free          Start with **5     You’ve been"
+      "type": "heading",
+      "text": "Rift-Touched"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Standard-tier   Toxicity</strong> and the exposed. You’re mutation<strong> with   mutation is        already changed. no installation   </strong>involuntary**    The mutation is cost              (GM rolls or       yours — bonus assigns)           AND built-in complication. Can’t be removed."
+      "type": "callout",
+      "style": "accent",
+      "label": "Rift-Touched",
+      "text": "You've been exposed to raw rift energy. You're already changed — the mutation is yours, bonus AND built-in complication.",
+      "items": [
+        "<strong>Benefit:</strong> One free Standard-tier mutation with no installation cost",
+        "<strong>Cost:</strong> Start with <strong>5 Toxicity</strong> and the mutation is <strong>involuntary</strong> (GM rolls or assigns). Can't be removed.",
+        "<strong>Trade-off:</strong> You've been exposed. You're already changed. The mutation is yours — bonus AND built-in complication. Can't be removed."
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Corporate        Start with +300   Corp tracks your   You’re Asset</strong>            credits and       location, monitors comfortable. But corporate housing your augments, and you’re owned. (0 cr/day living  can issue          The corp can ping costs)            mandatory          you with jobs you assignments        can’t refuse without consequences. Your data is in their system. Privacy doesn’t exist."
+      "type": "heading",
+      "text": "Corporate Asset"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Ghost</strong>          No records exist. -200 starting      Corp contracts No contractor ID. credits. Cannot    pay better, corp Corps don’t know take corporate     clinics won’t you exist. Total  contracts          treat you, and freedom from      (freelance/black   corp stores surveillance.     market only until  won’t sell to you establish ID). you without ID. The street is your home. ------------------ ----------------- ------------------ -----------------"
+      "type": "callout",
+      "style": "gold",
+      "label": "Corporate Asset",
+      "text": "You're comfortable. But you're owned. The corp can ping you with jobs you can't refuse without consequences.",
+      "items": [
+        "<strong>Benefit:</strong> Start with +300 credits and corporate housing (0 cr/day living costs)",
+        "<strong>Cost:</strong> Corp tracks your location, monitors your augments, and can issue mandatory assignments",
+        "<strong>Trade-off:</strong> Your data is in their system. Privacy doesn't exist. The corp can ping you with jobs you can't refuse without consequences."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ghost"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Ghost",
+      "text": "No records exist. No contractor ID. Corps don't know you exist. Total freedom from surveillance — total exclusion from services.",
+      "items": [
+        "<strong>Benefit:</strong> No records exist. No contractor ID. Corps don't know you exist. Total freedom from surveillance.",
+        "<strong>Cost:</strong> -200 starting credits. Cannot take corporate contracts (freelance/black market only until you establish ID).",
+        "<strong>Trade-off:</strong> Corp contracts pay better, corp clinics won't treat you, and corp stores won't sell to you without ID. The street is your home."
+      ]
     }
   ]
 }
