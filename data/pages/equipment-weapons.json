@@ -69,6 +69,26 @@
           "Bleed 1 on hit"
         ],
         [
+          "Mace",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "150 cr",
+          "Light",
+          "Pen 1. Stagger on crit (-1 AP next turn)"
+        ],
+        [
+          "Spear",
+          "d8",
+          "1d10",
+          "2",
+          "2",
+          "175 cr",
+          "Medium, Reach",
+          "Reach. +2 acc at Close, -2 at Adjacent"
+        ],
+        [
           "Longsword",
           "d8",
           "2d8",
@@ -87,6 +107,16 @@
           "275 cr",
           "Medium",
           "Pen 1. Disarm on crit (target drops weapon)"
+        ],
+        [
+          "Glaive",
+          "d8",
+          "2d8",
+          "3",
+          "2",
+          "325 cr",
+          "Medium, Reach",
+          "Reach. +2 acc at Close, -2 at Adjacent. Sweep on crit (one Close enemy takes half damage)"
         ],
         [
           "Rift Blade",
@@ -117,6 +147,26 @@
           "350 cr",
           "Heavy",
           "+2 dmg/die vs Armor 3+. Shatter on crit (target -1 Armor, stacks)"
+        ],
+        [
+          "Halberd",
+          "d6",
+          "2d10",
+          "4",
+          "3",
+          "400 cr",
+          "Heavy, Reach",
+          "Reach. Pen 1. +2 acc at Close, -2 at Adjacent. Bleed 1 on crit"
+        ],
+        [
+          "Pike",
+          "d6",
+          "3d8",
+          "4",
+          "3",
+          "275 cr",
+          "Heavy, Reach",
+          "Reach. +2 acc at Close, -2 at Adjacent. Set: +2 acc vs targets who moved toward you"
         ],
         [
           "Great Maul",
