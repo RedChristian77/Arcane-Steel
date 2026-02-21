@@ -437,7 +437,7 @@
     },
     {
       "type": "paragraph",
-      "text": "5 AP per turn. Attack = 1-5 AP. Move = 1 AP/band. Item = 1 AP. Skill = 1 AP. Defend = 2 AP. Overwatch = 2 AP. Grapple = 2 AP. Suppress = 3 AP."
+      "text": "5 AP per turn. Attack = 1-5 AP. Move = 1 AP/band. Item = 1 AP. Skill = 1 AP. Defend = 2 AP. Overwatch = Weapon AP + 1. Grapple = 2 AP. Suppress = 3 AP."
     },
     {
       "type": "heading",

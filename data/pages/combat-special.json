@@ -17,7 +17,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> 2 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target’s Chrome. Success = Grappled. Failure = nothing happens.  • Creatures of dramatically different sizes modify the check (GM discretion — grappling something three times your size is harder)."
+      "text": "• <strong>Cost:</strong> 2 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target's Grit. Success = Grappled. Failure = nothing happens.  • Creatures of dramatically different sizes modify the check (GM discretion — grappling something three times your size is harder)."
     },
     {
       "type": "heading",
@@ -61,7 +61,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> 1 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target’s Chrome  • <strong>On success, choose one:</strong>  • <strong>Push:</strong> Target moves 1 range band in a direction you choose. Can push into hazards, off ledges, or into your crew’s kill zone.  • <strong>Knock Prone:</strong> Target gains the Prone condition (-2 Evasion, costs 1 AP to stand).  • <strong>On failure:</strong> Nothing happens. You bounce off."
+      "text": "• <strong>Cost:</strong> 1 AP  • <strong>Range:</strong> Close (melee only)  • <strong>Roll:</strong> Chrome check vs target's Grit  • <strong>On success, choose one:</strong>  • <strong>Push:</strong> Target moves 1 range band in a direction you choose. Can push into hazards, off ledges, or into your crew’s kill zone.  • <strong>Knock Prone:</strong> Target gains the Prone condition (-2 Evasion, costs 1 AP to stand).  • <strong>On failure:</strong> Nothing happens. You bounce off."
     },
     {
       "type": "paragraph",
@@ -77,7 +77,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• <strong>Cost:</strong> Weapon AP + 1 (spent on your turn). A Combat Knife (1 AP) costs 2 AP to Overwatch. A Sniper Rifle (5 AP) costs 6 AP — meaning you need to have saved AP from a previous round or have an AP bonus to Overwatch with heavy weapons. This is intentional.  • <strong>Range:</strong> Your weapon’s effective range  • <strong>Effect:</strong> You reserve your attack. The next enemy that moves within your line of sight this round triggers one attack from you as an interrupt (resolved before their movement completes). Uses your full weapon stats — accuracy, damage, everything.  • <strong>Limit:</strong> One Overwatch attack per setup. After it triggers, you’re done until your next turn.  • <strong>Doesn’t use your Reaction.</strong> Overwatch is pre-set, not reactive. You can Overwatch AND make an Opportunity Attack in the same round."
+      "text": "• <strong>Cost:</strong> Weapon AP + 1 (spent on your turn). A Combat Knife (1 AP) costs 2 AP to Overwatch. A Sniper Rifle (5 AP) costs 6 AP — meaning you need an AP bonus from an augment or ability to Overwatch with heavy weapons. This is intentional.  • <strong>Range:</strong> Your weapon’s effective range  • <strong>Effect:</strong> You reserve your attack. The next enemy that moves within your line of sight this round triggers one attack from you as an interrupt (resolved before their movement completes). Uses your full weapon stats — accuracy, damage, everything.  • <strong>Limit:</strong> One Overwatch attack per setup. After it triggers, you’re done until your next turn.  • <strong>Doesn’t use your Reaction.</strong> Overwatch is pre-set, not reactive. You can Overwatch AND make an Opportunity Attack in the same round."
     },
     {
       "type": "paragraph",

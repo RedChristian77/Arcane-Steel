@@ -4,392 +4,254 @@
   "subtitle": "What you did before the grind",
   "content": [
     {
+      "type": "paragraph",
+      "text": "Your Résumé is your backstory in mechanical form. It sets your <strong>stat modifiers</strong>, <strong>starting credits</strong>, a <strong>Résumé Perk</strong>, and a <strong>free bonus skill at T1.</strong> Choose one, or build a Custom Résumé at the bottom of this page."
+    },
+    {
+      "type": "heading",
+      "text": "Enforcer"
+    },
+    {
       "type": "blockquote",
       "text": "<em>You were the muscle. Gate guard, enforcement detail, riot response. They pointed, you hit. Then they pointed you at a rift and forgot to mention what was inside.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Enforcer",
+      "icon": "👊",
+      "entries": [
+        {"label": "Chrome", "value": "<strong>+2</strong>"},
+        {"label": "Reflex", "value": "+1"},
+        {"label": "Grit", "value": "+1"},
+        {"label": "Interface", "value": "<strong>-1</strong>"},
+        {"label": "Edge", "value": "—"},
+        {"label": "Credits", "value": "400 cr"}
+      ],
+      "desc": "<strong>Résumé Perk — Conditioned Response:</strong> +1 to initiative (Reflex) in the first round of any combat. Your training kicks in before your brain does.<br><strong>Bonus Skill:</strong> Athletics T1 (free — doesn't count against your picks)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 400 cr <strong>Résumé Perk — Conditioned Response:</strong> +1 to initiative (Reflex) in the first round of any combat. Your training kicks in before your brain does. <strong>Bonus Skill:</strong> Athletics T1 (free — doesn’t count against your picks)"
+      "type": "heading",
+      "text": "Researcher"
     },
     {
       "type": "blockquote",
-      "text": "<em>You worked the R&D floors. Gene-splicing, rift analysis, prototype testing. You know how the sausage is made. That’s why you stopped eating it.</em>"
+      "text": "<em>You worked the R&D floors. Gene-splicing, rift analysis, prototype testing. You know how the sausage is made. That's why you stopped eating it.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Researcher",
+      "icon": "🔬",
+      "entries": [
+        {"label": "Interface", "value": "<strong>+2</strong>"},
+        {"label": "Edge", "value": "+1"},
+        {"label": "Grit", "value": "+1"},
+        {"label": "Chrome", "value": "<strong>-1</strong>"},
+        {"label": "Reflex", "value": "—"},
+        {"label": "Credits", "value": "500 cr"}
+      ],
+      "desc": "<strong>Résumé Perk — Clinical Eye:</strong> When you use a healing stim on anyone (including yourself), heal +1 HP. You know where to stick the needle.<br><strong>Bonus Skill:</strong> Medicine T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 500 cr <strong>Résumé Perk — Clinical Eye:</strong> When you use a healing stim on anyone (including yourself), heal +1 HP. You know where to stick the needle. <strong>Bonus Skill:</strong> Medicine T1 (free)"
+      "type": "heading",
+      "text": "Margin Rat"
     },
     {
       "type": "blockquote",
       "text": "<em>No corp history. No education. No records. You grew up in the gaps between corporate territories where nobody counts the bodies. You survived because you were faster than everything that tried to kill you.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Margin Rat",
+      "icon": "🐀",
+      "entries": [
+        {"label": "Reflex", "value": "<strong>+2</strong>"},
+        {"label": "Edge", "value": "+1"},
+        {"label": "Grit", "value": "+1"},
+        {"label": "Interface", "value": "<strong>-1</strong>"},
+        {"label": "Chrome", "value": "—"},
+        {"label": "Credits", "value": "250 cr"}
+      ],
+      "desc": "<strong>Résumé Perk — Survivor's Instinct:</strong> Once per session, when you would be surprised, you aren't. You've been jumped too many times. Also: you know the black market exists at character creation (other Résumés need Streetwise T2+ to access it).<br><strong>Bonus Skill:</strong> Streetwise T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 250 cr <strong>Résumé Perk — Survivor’s Instinct:</strong> Once per session, when you would be surprised, you aren’t. You’ve been jumped too many times. Also: you know the black market exists at character creation (other Résumés need Streetwise T2+ to access it)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Bonus Skill:</strong> Streetwise T1 (free)"
+      "type": "heading",
+      "text": "Corporate Drone"
     },
     {
       "type": "blockquote",
-      "text": "<em>Spreadsheets. Reports. Meetings about meetings. You know how corporations think because you were the one writing their thoughts for them. Then you got “restructured.“</em>"
+      "text": "<em>Spreadsheets. Reports. Meetings about meetings. You know how corporations think because you were the one writing their thoughts for them. Then you got \"restructured.\"</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Corporate Drone",
+      "icon": "📋",
+      "entries": [
+        {"label": "Edge", "value": "<strong>+2</strong>"},
+        {"label": "Interface", "value": "+1"},
+        {"label": "Grit", "value": "+1"},
+        {"label": "Chrome", "value": "<strong>-1</strong>"},
+        {"label": "Reflex", "value": "—"},
+        {"label": "Credits", "value": "600 cr (severance)"}
+      ],
+      "desc": "<strong>Résumé Perk — Corporate Fluency:</strong> Advantage on all checks involving corporate bureaucracy, contracts, and legal documents. You can read a 200-page waiver in 10 minutes and find the clause that kills you.<br><strong>Bonus Skill:</strong> Negotiate T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 600 cr (severance package) <strong>Résumé Perk — Corporate Fluency:</strong> Advantage on all checks involving corporate bureaucracy, contracts, and legal documents. You can read a 200-page waiver in 10 minutes and find the clause that kills you. <strong>Bonus Skill:</strong> Negotiate T1 (free)"
+      "type": "heading",
+      "text": "Rift Pioneer"
     },
     {
       "type": "blockquote",
-      "text": "<em>You were one of the first wave — sent in to map rifts before the extraction teams. You’ve seen things that don’t have names yet. Some of them saw you back.</em>"
+      "text": "<em>You were one of the first wave — sent in to map rifts before the extraction teams. You've seen things that don't have names yet. Some of them saw you back.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Rift Pioneer",
+      "icon": "🌀",
+      "entries": [
+        {"label": "Interface", "value": "<strong>+2</strong>"},
+        {"label": "Grit", "value": "+1"},
+        {"label": "Reflex", "value": "+1"},
+        {"label": "Edge", "value": "<strong>-1</strong>"},
+        {"label": "Chrome", "value": "—"},
+        {"label": "Credits", "value": "350 cr"}
+      ],
+      "desc": "<strong>Résumé Perk — Rift Sense:</strong> You can feel when a rift is nearby (within 100m). You know the \"flavor\" of different rift types. +1 to all checks made inside rift zones.<br><strong>Bonus Skill:</strong> Rift Lore T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 350 cr <strong>Résumé Perk — Rift Sense:</strong> You can feel when a rift is nearby (within 100m). You know the “flavor“ of different rift types. +1 to all checks made inside rift zones. <strong>Bonus Skill:</strong> Rift Lore T1 (free)"
+      "type": "heading",
+      "text": "Combat Medic"
     },
     {
       "type": "blockquote",
-      "text": "<em>You patched soldiers in corporate wars before the rift era, or you patched contractors in the early rift years. Either way, you’ve seen the inside of more people than most surgeons. The difference is you did it under fire.</em>"
+      "text": "<em>You patched soldiers in corporate wars before the rift era, or you patched contractors in the early rift years. Either way, you've seen the inside of more people than most surgeons. The difference is you did it under fire.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Combat Medic",
+      "icon": "🩺",
+      "entries": [
+        {"label": "Grit", "value": "<strong>+2</strong>"},
+        {"label": "Interface", "value": "+1"},
+        {"label": "Chrome", "value": "+1"},
+        {"label": "Edge", "value": "<strong>-1</strong>"},
+        {"label": "Reflex", "value": "—"},
+        {"label": "Credits", "value": "400 cr"}
+      ],
+      "desc": "<strong>Résumé Perk — Triage Training:</strong> When an ally hits 0 HP within short range, you can move to them immediately (free movement, no AP cost) to assist. If you have Medicine, you can attempt to stabilize before the Scar roll.<br><strong>Bonus Skill:</strong> Medicine T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 400 cr <strong>Résumé Perk — Triage Training:</strong> When an ally hits 0 HP within short range, you can move to them immediately (free movement, no AP cost) to assist. If you have Medicine, you can attempt to stabilize before the Scar roll. <strong>Bonus Skill:</strong> Medicine T1 (free)"
+      "type": "heading",
+      "text": "Black Market Mechanic"
     },
     {
       "type": "blockquote",
-      "text": "<em>You built things for people who couldn’t buy them legally. Custom weapons, modified vehicles, black-market augments. No license. No records. A lot of satisfied customers and a few unsatisfied corpses.</em>"
+      "text": "<em>You built things for people who couldn't buy them legally. Custom weapons, modified vehicles, black-market augments. No license. No records. A lot of satisfied customers and a few unsatisfied corpses.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Black Market Mechanic",
+      "icon": "🔧",
+      "entries": [
+        {"label": "Chrome", "value": "<strong>+2</strong>"},
+        {"label": "Interface", "value": "+1"},
+        {"label": "Edge", "value": "+1"},
+        {"label": "Reflex", "value": "<strong>-1</strong>"},
+        {"label": "Grit", "value": "—"},
+        {"label": "Credits", "value": "350 cr + Field Kit (200 cr value, free)"}
+      ],
+      "desc": "<strong>Résumé Perk — Scrapyard Genius:</strong> Can jury-rig broken equipment to work for one encounter without a skill check. Once per mission. Also: you start with black market access (normally requires Streetwise T2+).<br><strong>Bonus Skill:</strong> Tech T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 350 cr + a <strong>Field Kit</strong> (200 cr value, free)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Résumé Perk — Scrapyard Genius:</strong> Can jury-rig broken equipment to work for one encounter without a skill check. Once per mission. Also: you start with black market access (normally requires Streetwise T2+)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Bonus Skill:</strong> Tech T1 (free)"
+      "type": "heading",
+      "text": "Disgraced Executive"
     },
     {
       "type": "blockquote",
-      "text": "<em>You were on the way up. Corner office. Stock options. Then someone found something in your file — or planted it. Now you’re contracting. The skills transfer. The paycheck doesn’t.</em>"
+      "text": "<em>You were on the way up. Corner office. Stock options. Then someone found something in your file — or planted it. Now you're contracting. The skills transfer. The paycheck doesn't.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Disgraced Executive",
+      "icon": "💼",
+      "entries": [
+        {"label": "Edge", "value": "<strong>+2</strong>"},
+        {"label": "Interface", "value": "+1"},
+        {"label": "Chrome", "value": "+1"},
+        {"label": "Grit", "value": "<strong>-1</strong>"},
+        {"label": "Reflex", "value": "—"},
+        {"label": "Credits", "value": "800 cr (last of your savings)"}
+      ],
+      "desc": "<strong>Résumé Perk — Connections:</strong> You still know people. Once per mission, call a former colleague for information, a small favor, or access to a restricted area. They'll help — but each favor costs social capital. The GM tracks how often you call. Eventually, they stop answering.<br><strong>Bonus Skill:</strong> Negotiate T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 800 cr (the last of your savings — it won’t last) <strong>Résumé Perk — Connections:</strong> You still know people. Once per mission, call a former colleague for information, a small favor, or access to a restricted area. They’ll help — but each favor costs social capital. The GM tracks how often you call. Eventually, they stop answering. <strong>Bonus Skill:</strong> Negotiate T1 (free)"
+      "type": "heading",
+      "text": "Spine Runner"
     },
     {
       "type": "blockquote",
-      "text": "<em>You drove the Spine. Not the nice cars — the freight section, the branch lines, the convoys through dead zones that corporate insurance doesn’t cover. When things went wrong between city-states, you were the one who kept the cargo moving and the crew alive. Fast hands on the wheel, faster hands on the gun rack.</em>"
+      "text": "<em>You drove the Spine. Not the nice cars — the freight section, the branch lines, the convoys through dead zones that corporate insurance doesn't cover. When things went wrong between city-states, you were the one who kept the cargo moving and the crew alive. Fast hands on the wheel, faster hands on the gun rack.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
+      "type": "info-block",
+      "title": "Spine Runner",
+      "icon": "🚛",
+      "entries": [
+        {"label": "Reflex", "value": "<strong>+2</strong>"},
+        {"label": "Grit", "value": "+1"},
+        {"label": "Chrome", "value": "+1"},
+        {"label": "Edge", "value": "<strong>-1</strong>"},
+        {"label": "Interface", "value": "—"},
+        {"label": "Credits", "value": "400 cr"}
+      ],
+      "desc": "<strong>Résumé Perk — Wheelman:</strong> Advantage on all vehicle-related checks (driving, evasive maneuvers, emergency repairs while moving). When the crew has a vehicle, you can coax an extra 10% fuel efficiency out of it. You've driven things that shouldn't still be running.<br><strong>Bonus Skill:</strong> Piloting T1 (free)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 400 cr <strong>Résumé Perk — Wheelman:</strong> Advantage on all vehicle-related checks (driving, evasive maneuvers, emergency repairs while moving). When the crew has a vehicle, you can coax an extra 10% fuel efficiency out of it. You’ve driven things that shouldn’t still be running. <strong>Bonus Skill:</strong> Piloting T1 (free)"
+      "type": "heading",
+      "text": "Wasteland Scavenger"
     },
     {
       "type": "blockquote",
-      "text": "<em>You lived outside the walls. Not in the margins — in the dead zones. Salvaging pre-collapse tech from ruins, filtering your own water, breathing air that made your teeth ache. You came to the city-state because the zone was killing you slowly. Contracting just kills you faster, but at least there’s a clinic afterward.</em>"
+      "text": "<em>You lived outside the walls. Not in the margins — in the dead zones. Salvaging pre-collapse tech from ruins, filtering your own water, breathing air that made your teeth ache. You came to the city-state because the zone was killing you slowly. Contracting just kills you faster, but at least there's a clinic afterward.</em>"
+    },
+    {
+      "type": "info-block",
+      "title": "Wasteland Scavenger",
+      "icon": "☢️",
+      "entries": [
+        {"label": "Grit", "value": "<strong>+2</strong>"},
+        {"label": "Chrome", "value": "+1"},
+        {"label": "Reflex", "value": "+1"},
+        {"label": "Edge", "value": "<strong>-1</strong>"},
+        {"label": "Interface", "value": "—"},
+        {"label": "Credits", "value": "200 cr (everything fits in one bag)"}
+      ],
+      "desc": "<strong>Résumé Perk — Zone-Hardened:</strong> Your toxicity threshold is permanently shifted by +5% (you've built up tolerance from years of ambient exposure). Environmental hazards that require Grit checks (heat, cold, pressure, bad air) are rolled at advantage. Your body has been slowly poisoning itself for years. At this point, a little more barely registers.<br><strong>Bonus Skill:</strong> Resilience T1 (free)"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Custom Résumé"
     },
     {
       "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                            <strong>Modifier</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Grit                                <strong>+2</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Chrome                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reflex                              +1"
-    },
-    {
-      "type": "paragraph",
-      "text": "Edge                                <strong>-1</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "Interface                           — ----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Starting Credits:</strong> 200 cr (everything you own fits in one bag)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Résumé Perk — Zone-Hardened:</strong> Your toxicity threshold is permanently shifted by +5% (you’ve built up tolerance from years of ambient exposure). Environmental hazards that require Grit checks (heat, cold, pressure, bad air) are rolled at advantage. Your body has been slowly poisoning itself for years. At this point, a little more barely registers. <strong>Bonus Skill:</strong> Resilience T1 (free)"
-    },
-    {
-      "type": "paragraph",
-      "text": "For players who want full control over their background. Create your own using this table:"
+      "text": "For players who want full control over their background. Create your own using the rules below."
     },
     {
       "type": "heading",
       "text": "Stat Budget"
     },
     {
-      "type": "blockquote",
-      "text": "• Start with <strong>4 / 4 / 4 / 4 / 4</strong> base  • Assign: <strong>+2</strong> to one stat, <strong>+1</strong> to two stats, <strong>-1</strong> to one stat  • Then apply 3 Flex Points (same rules as preset Résumés)  • No stat above 10, no stat below 2"
+      "type": "callout",
+      "style": "accent",
+      "label": "Custom Stat Rules",
+      "text": "Build your stats from a base of <strong>4 / 4 / 4 / 4 / 4</strong>.",
+      "items": [
+        "Assign: <strong>+2</strong> to one stat, <strong>+1</strong> to two stats, <strong>-1</strong> to one stat",
+        "Then apply 3 Flex Points (same rules as preset Résumés)",
+        "No stat above 10, no stat below 2"
+      ]
     },
     {
       "type": "heading",
@@ -400,28 +262,14 @@
       "text": "Choose a financial background:"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Background</strong>          <strong>Credits</strong>             <strong>Trade-off</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Destitute</strong>           150 cr                  Gain +1 extra Flex Point (4 total)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Scraping By</strong>         300 cr                  No trade-off"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Comfortable</strong>         500 cr                  Lose 1 Flex Point (2 total)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Wealthy</strong>             750 cr                  Lose 1 Flex Point (2 total) + no Résumé Perk ----------------------- ----------------------- -----------------------"
+      "type": "table",
+      "headers": ["Background", "Credits", "Trade-off"],
+      "rows": [
+        ["Destitute", "150 cr", "Gain +1 extra Flex Point (4 total)"],
+        ["Scraping By", "300 cr", "No trade-off"],
+        ["Comfortable", "500 cr", "Lose 1 Flex Point (2 total)"],
+        ["Wealthy", "750 cr", "Lose 1 Flex Point (2 total) + no Résumé Perk"]
+      ]
     },
     {
       "type": "heading",
@@ -432,44 +280,18 @@
       "text": "Choose one (or work with your GM to design one):"
     },
     {
-      "type": "paragraph",
-      "text": "----------------------------------- -----------------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Perk</strong>                            <strong>Effect</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Specialist Training</strong>             One extra skill at T1 (free, doesn’t count against picks)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Hard Knocks</strong>                     +1 to Scar survival rolls. You’ve been hurt before."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Quick Learner</strong>                   +1 to all Downtime Learning rolls"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Well-Connected</strong>                  Start with one NPC contact (GM determines details)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Scrounger</strong>                       Start with 2 extra gear items of your choice (50 cr or less each)"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Tough as Nails</strong>                  +2 max HP"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Lucky</strong>                           Once per session, reroll one non-combat check"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Paranoid</strong>                        Cannot be surprised. Ever. But -1 to social checks (you’re visibly twitchy). ----------------------------------- -----------------------------------"
+      "type": "table",
+      "headers": ["Perk", "Effect"],
+      "rows": [
+        ["Specialist Training", "One extra skill at T1 (free, doesn't count against picks)"],
+        ["Hard Knocks", "+1 to Scar survival rolls. You've been hurt before."],
+        ["Quick Learner", "+1 to all Downtime Learning rolls"],
+        ["Well-Connected", "Start with one NPC contact (GM determines details)"],
+        ["Scrounger", "Start with 2 extra gear items of your choice (50 cr or less each)"],
+        ["Tough as Nails", "+2 max HP"],
+        ["Lucky", "Once per session, reroll one non-combat check"],
+        ["Paranoid", "Cannot be surprised. Ever. But -1 to social checks (you're visibly twitchy)."]
+      ]
     },
     {
       "type": "heading",
