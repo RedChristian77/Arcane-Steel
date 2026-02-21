@@ -13,7 +13,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Melee weapons use <strong>Chrome</strong> for accuracy. They're cheap to maintain, never need recharging, and most contractors carry at least a knife as backup."
+      "text": "Melee weapons use <strong>Chrome</strong> for accuracy. Weapons with the <strong>Finesse</strong> tag use <strong>Reflex</strong> instead — speed and precision over brute force. They're cheap to maintain, never need recharging, and most contractors carry at least a knife as backup."
     },
     {
       "type": "table",
@@ -45,8 +45,8 @@
           "1",
           "1",
           "50 cr",
-          "Light",
-          "—"
+          "Light, Finesse",
+          "Bleed 1 on crit"
         ],
         [
           "Gauntlets",
@@ -55,8 +55,8 @@
           "1",
           "1",
           "100 cr",
-          "Light, Unarmed",
-          "—"
+          "Light, Unarmed, Finesse",
+          "Stagger on crit (target -1 AP next turn)"
         ],
         [
           "Precision Blade",
@@ -65,8 +65,8 @@
           "2",
           "1",
           "200 cr",
-          "Light",
-          "—"
+          "Light, Finesse",
+          "Bleed 1 on hit"
         ],
         [
           "Longsword",
@@ -76,7 +76,7 @@
           "2",
           "300 cr",
           "Medium",
-          "—"
+          "Cleave: on crit, one adjacent enemy takes half damage"
         ],
         [
           "Chain Flail",
@@ -86,7 +86,7 @@
           "2",
           "275 cr",
           "Medium",
-          "Penetration 1"
+          "Pen 1. Disarm on crit (target drops weapon)"
         ],
         [
           "Rift Blade",
@@ -106,7 +106,7 @@
           "3",
           "350 cr",
           "Heavy",
-          "+2 acc if moved toward target"
+          "+2 acc if moved toward target. Bleed 2 on crit"
         ],
         [
           "War Hammer",
@@ -116,7 +116,7 @@
           "3",
           "350 cr",
           "Heavy",
-          "+2 dmg/die vs Armor 3+"
+          "+2 dmg/die vs Armor 3+. Shatter on crit (target -1 Armor, stacks)"
         ],
         [
           "Great Maul",
@@ -161,7 +161,7 @@
           "150 cr",
           "2 cr",
           "Light, Ammo",
-          "—"
+          "Bleed 1 on crit"
         ],
         [
           "Burst Pistol",
@@ -172,7 +172,7 @@
           "400 cr",
           "8 cr",
           "Light, Ammo",
-          "—"
+          "Suppress on crit (target -2 acc next turn)"
         ],
         [
           "Throwing Axes ×3",
@@ -183,7 +183,7 @@
           "75 cr",
           "—",
           "Light, Thrown",
-          "Must retrieve after combat"
+          "Must retrieve after combat. Stagger on crit (-1 AP next turn)"
         ],
         [
           "Composite Bow",
@@ -194,7 +194,7 @@
           "200 cr",
           "2 cr",
           "Medium, Ammo",
-          "No range penalties"
+          "No range penalties. Pin on crit (target -1 Move next turn)"
         ],
         [
           "Scatter Gun",
@@ -205,7 +205,7 @@
           "500 cr",
           "10 cr",
           "Heavy, Ammo",
-          "+2 acc Adjacent/Close. -2 Medium+"
+          "+2 acc Adjacent/Close. -2 Medium+. Knockback 1 range band on hit at Adjacent"
         ],
         [
           "Corp Rifle",
@@ -216,7 +216,7 @@
           "700 cr",
           "12 cr",
           "Medium, Ammo",
-          "+2 acc Medium+. -2 Adjacent"
+          "+2 acc Medium+. -2 Adjacent. Suppress on crit (target -2 acc next turn)"
         ],
         [
           "Crossbow",
@@ -227,7 +227,7 @@
           "250 cr",
           "3 cr",
           "Medium, Ammo",
-          "+2 acc Medium+ range"
+          "+2 acc Medium+ range. Pen 1"
         ],
         [
           "Heavy Crossbow",
@@ -238,7 +238,7 @@
           "400 cr",
           "5 cr",
           "Heavy, Ammo",
-          "+2 acc if didn't move"
+          "+2 acc if didn't move. Pen 1. Stagger on crit (-1 AP next turn)"
         ],
         [
           "Shotgun",
@@ -249,7 +249,7 @@
           "500 cr",
           "10 cr",
           "Heavy, Ammo",
-          "+2 acc Adjacent. -2 Medium+"
+          "+2 acc Adjacent. -2 Medium+. Knockback 1 range band on hit at Adjacent"
         ],
         [
           "Sniper Rifle",
@@ -260,7 +260,7 @@
           "1,200 cr",
           "25 cr",
           "Heavy, Ammo",
-          "+2 if stationary. +2 if target stationary."
+          "Pen 2. +2 acc if stationary. +2 acc if target stationary. Stagger on crit (-1 AP next turn)"
         ]
       ]
     },
