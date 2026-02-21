@@ -47,7 +47,7 @@
         ["Swap Weapon", "1 AP", "Switch to a different equipped weapon. Sheathe one, draw another."],
         ["Stand from Prone", "1 AP", "Get up from Prone. Removes Prone condition."],
         ["Escape Grapple", "1 AP", "Chrome check (DC set by grappler's Chrome or ability). Success = free. Failure = still grappled, AP wasted."],
-        ["Grapple", "2 AP", "Melee only. Chrome check vs target's Grit. Success = target is Grappled."],
+        ["Grapple", "2 AP", "Melee only. Chrome check vs target's Reflex or Grit (target's choice). Success = target is Grappled."],
         ["Shove", "1 AP", "Melee only. Chrome check vs target's Grit. Success = push target 1 range band OR knock Prone (your choice)."],
         ["Drag", "1 AP", "Move a Grappled target 1 range band with you. Requires maintaining grapple."],
         ["Stabilize", "1 AP", "Medicine check on an adjacent downed ally. Prevents next Death Roll."],
