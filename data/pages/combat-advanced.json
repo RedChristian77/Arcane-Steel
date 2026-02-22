@@ -113,6 +113,106 @@
     },
     {
       "type": "heading",
+      "text": "Throwables & Area Effects"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grenades, bombs, and other thrown items follow different rules than weapon attacks. You're targeting an <strong>area</strong>, not a person — no accuracy roll required."
+    },
+    {
+      "type": "heading",
+      "text": "Using a Throwable"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Cost:</strong> 1 AP (Use Item action)  • <strong>Range:</strong> Close (unless noted otherwise)  • <strong>Targeting:</strong> No accuracy roll. Pick a point in range and throw.  • <strong>Friendly fire:</strong> Yes. Grenades don't pick sides. If allies are in the blast area, they're affected too."
+    },
+    {
+      "type": "heading",
+      "text": "Adjacent Cluster"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many throwables affect an <strong>Adjacent cluster</strong> — all creatures within Adjacent range (arm's reach) of the detonation point. This typically means <strong>2-4 creatures</strong> who are grouped together. The GM determines who's in the cluster based on positioning."
+    },
+    {
+      "type": "blockquote",
+      "text": "• Creatures spread across a room are NOT in one cluster — they're at Close range from each other, not Adjacent.  • Two enemies fighting your frontliner? Same cluster.  • A horde packed in a doorway? Same cluster.  • Your ally who charged into that horde? Also in the cluster. Plan accordingly."
+    },
+    {
+      "type": "heading",
+      "text": "Dodge Roll (Damage Throwables)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a throwable deals <strong>direct damage</strong> (Frag Grenade, Incendiary Grenade, Rift Flare, Concussion Charge), each target in the area may attempt a <strong>Reflex check (2d6 + Reflex bonus) vs DC 9</strong> as a free reaction."
+    },
+    {
+      "type": "table",
+      "headers": ["Result", "Effect"],
+      "rows": [
+        ["Success (9+)", "Half damage (round each die down before armor). Any secondary conditions from the throwable (Burn, etc.) don't apply."],
+        ["Failure", "Full damage. All secondary conditions apply."]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Modifiers:</strong>"
+    },
+    {
+      "type": "table",
+      "headers": ["Situation", "Modifier"],
+      "rows": [
+        ["Prone", "-2 to dodge roll (already on the ground — hard to dive)"],
+        ["Stunned or Grappled", "Cannot dodge (no reaction possible)"],
+        ["In Cover from blast direction", "Automatic half damage (no roll needed). Does not stack with a successful dodge — half is the floor."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Condition Saves (Effect Throwables)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Throwables that inflict <strong>conditions without damage</strong> (Flashbang, Smoke Grenade, Toxin Cloud, EMP Charge, Glue Bomb) use their own listed save — typically <strong>Grit DC 7</strong>. This is a separate mechanic from the dodge roll. You're not diving away, you're enduring the effect."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>One roll per throwable.</em> Damage throwables → Reflex DC 9 (dodge the blast, avoid secondary conditions). Effect-only throwables → listed save (resist the condition). Never both."
+    },
+    {
+      "type": "heading",
+      "text": "Knockback"
+    },
+    {
+      "type": "paragraph",
+      "text": "When an effect says <strong>\"Knockback X range band(s)\"</strong>, the target is pushed X range bands directly away from the source. Knockback is <strong>forced movement</strong> — no resistance roll, no save. The physics don't care about your opinion."
+    },
+    {
+      "type": "blockquote",
+      "text": "• Knockback does NOT provoke Opportunity Attacks (the target isn't choosing to move).  • If knocked into a <strong>solid obstacle</strong> (wall, pillar, vehicle), the target stops and takes <strong>1d6 impact damage</strong> (ignores armor).  • If knocked off a <strong>ledge or into a hazard</strong>, the target suffers the appropriate falling/hazard damage.  • Knockback moves the target even if they're Prone."
+    },
+    {
+      "type": "heading",
+      "text": "Condition Interactions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiple conditions <strong>stack independently</strong>. Being Stunned, Prone, and Hexed at the same time is rough but mechanically straightforward — apply all effects."
+    },
+    {
+      "type": "table",
+      "headers": ["Rule", "Details"],
+      "rows": [
+        ["Same condition twice", "Reapplying a condition refreshes its duration. You can't be \"double Stunned\" — but the timer resets."],
+        ["Effect stacks (Poison, Hex, etc.)", "These stack infinitely. Each application adds another stack. Different from conditions."],
+        ["Clearing conditions", "Clearing a condition removes its effects immediately. Standing from Prone (1 AP) removes -2 Evasion that instant."],
+        ["Incapacitated targets", "Stunned/Grappled targets cannot dodge AoE and automatically fail Reflex-based saves. Grit saves are still rolled."],
+        ["Immunity", "Some abilities grant condition immunity (e.g., Last Bastion). Immune means the condition never applies — not that it applies and is removed."]
+      ]
+    },
+    {
+      "type": "heading",
       "text": "Rift Casting in Combat"
     },
     {

@@ -37,23 +37,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Grenades, charges, and area denial. Thrown items target an <strong>Adjacent cluster</strong> at Close range unless otherwise noted."
+      "text": "Grenades, charges, and area denial. Thrown at Close range, targeting an <strong>Adjacent cluster</strong> unless noted. See <strong>Advanced Rules: Throwables & Area Effects</strong> for dodge rolls, cluster rules, and knockback."
     },
     {
       "type": "table",
       "headers": ["Item", "Weight", "Cost", "Effect"],
       "rows": [
-        ["Frag Grenade", "0", "100 cr", "3d6 damage to all targets in Adjacent cluster."],
-        ["Incendiary Grenade", "0", "100 cr", "2d6 damage to Adjacent cluster. Burn 2 for 2 rounds."],
-        ["Flashbang", "0", "50 cr", "Adjacent cluster: Grit DC 7 or Dazed 1 round (-2 acc, -2 dodge)."],
-        ["Smoke Grenade", "0", "40 cr", "Creates Obscured zone for 3 rounds. Blocks line of sight."],
-        ["Concussion Charge", "0", "90 cr", "2d8 damage to single target. Knockback 1 range band on hit."],
-        ["Rift Flare", "0", "100 cr", "2d8 magic damage to Adjacent cluster. +1 Toxicity to user."],
+        ["Frag Grenade", "0", "100 cr", "3d6 damage to Adjacent cluster. Dodge: Reflex DC 9 for half."],
+        ["Incendiary Grenade", "0", "100 cr", "2d6 damage to Adjacent cluster. Burn 2 for 2 rounds. Dodge: Reflex DC 9 for half + no Burn."],
+        ["Flashbang", "0", "50 cr", "Adjacent cluster: Grit DC 7 or Dazed 1 round (-2 acc, -2 Evasion)."],
+        ["Smoke Grenade", "0", "40 cr", "Creates Obscured zone for 3 rounds. Blocks line of sight. No save."],
+        ["Concussion Charge", "0", "90 cr", "2d8 damage to single target. Knockback 1 range band. Dodge: Reflex DC 9 for half + no Knockback."],
+        ["Rift Flare", "0", "100 cr", "2d8 magic damage to Adjacent cluster. +1 Toxicity to user. Dodge: Reflex DC 9 for half."],
         ["Toxin Cloud", "0", "125 cr", "Adjacent cluster: +2 Toxicity. Grit DC 7 or Poison 1. Zone persists 2 rounds."],
-        ["EMP Charge", "0", "150 cr", "Disables all Tech-tagged gear in Adjacent cluster for 2 rounds."],
-        ["Trap Mine", "1", "125 cr", "Place during prep or as 1 AP. First creature entering takes 4d6 damage."],
-        ["Glue Bomb", "0", "60 cr", "Immobilize target. Chrome DC 6 to break free (costs 1 AP)."],
-        ["Caltrops", "0", "30 cr", "Cover Adjacent area. Entering costs +1 AP. Lasts until cleared."]
+        ["EMP Charge", "0", "150 cr", "Disables all Tech-tagged gear in Adjacent cluster for 2 rounds. No save."],
+        ["Trap Mine", "1", "125 cr", "Place during prep or as 1 AP. First creature entering takes 4d6 damage. Dodge: Reflex DC 9 for half."],
+        ["Glue Bomb", "0", "60 cr", "Single target: Immobilized. Chrome DC 6 to break free (costs 1 AP)."],
+        ["Caltrops", "0", "30 cr", "Cover Adjacent area. Entering costs +1 AP. Lasts until cleared. No save."]
       ]
     },
     {
