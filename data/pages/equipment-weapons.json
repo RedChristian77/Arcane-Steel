@@ -9,6 +9,34 @@
     },
     {
       "type": "heading",
+      "text": "The Weapon Triangle"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every weapon sits on a triangle: <strong>Flesh Damage</strong>, <strong>Anti-Armor</strong>, and <strong>Price</strong>. You only get two."
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Damage + Cheap:</strong> Great vs flesh, useless vs armor, affordable.\n• <strong>Damage + Anti-Armor:</strong> Effective vs both, costs a fortune.\n• <strong>Anti-Armor + Cheap:</strong> Cracks armor for the team, won't kill alone."
+    },
+    {
+      "type": "heading",
+      "text": "Anti-Armor Tags"
+    },
+    {
+      "type": "table",
+      "columns": ["Tag", "Mechanic", "Narrative"],
+      "rows": [
+        ["Impact", "Bypasses Absorb entirely", "Blunt force through plate. Mauls, power fists."],
+        ["Pierce", "Bypasses Absorb entirely", "Finds gaps. Stilettos, AP rounds. Delivers poison."],
+        ["Penetration X", "Reduces armor Value by X per die", "AP munitions. Pen 3 vs Armor 6 = treats as Armor 3."],
+        ["Shred X", "Permanently reduces armor Value by X per hit", "Weakens armor for the whole squad. Force multiplier."],
+        ["Predictable X", "Guaranteed X damage to Armor HP per hit, ignores all defenses", "Inevitable chip. Gauntlets denting plate every punch."],
+        ["Direct Dmg X", "Bonus X damage to Armor HP per hit", "Structural damage beyond normal combat."]
+      ]
+    },
+    {
+      "type": "heading",
       "text": "Melee Weapons (Chrome)"
     },
     {
@@ -16,168 +44,58 @@
       "text": "Melee weapons use <strong>Chrome</strong> for accuracy. Weapons with the <strong>Finesse</strong> tag use <strong>Reflex</strong> instead — speed and precision over brute force. They're cheap to maintain, never need recharging, and most contractors carry at least a knife as backup."
     },
     {
+      "type": "heading",
+      "text": "Damage + Cheap — Melee"
+    },
+    {
       "type": "table",
-      "headers": [
-        "Weapon",
-        "Accuracy",
-        "Damage",
-        "AP",
-        "Weight",
-        "Cost",
-        "Tags",
-        "Conditionals"
-      ],
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Tags", "Conditionals"],
       "rows": [
-        [
-          "Unarmed Strike",
-          "d8",
-          "1d4",
-          "1",
-          "0",
-          "—",
-          "Unarmed",
-          "Always available. No weapon required."
-        ],
-        [
-          "Combat Knife",
-          "d12",
-          "1d6",
-          "1",
-          "1",
-          "50 cr",
-          "Light, Finesse",
-          "Bleed 1 on crit"
-        ],
-        [
-          "Gauntlets",
-          "d12",
-          "1d4",
-          "1",
-          "1",
-          "100 cr",
-          "Light, Unarmed, Finesse",
-          "Stagger on crit (target -1 AP next turn)"
-        ],
-        [
-          "Precision Blade",
-          "d10",
-          "1d8",
-          "2",
-          "1",
-          "200 cr",
-          "Light, Finesse",
-          "Bleed 1 on hit"
-        ],
-        [
-          "Mace",
-          "d10",
-          "1d8",
-          "2",
-          "1",
-          "150 cr",
-          "Light",
-          "Pen 1. Stagger on crit (-1 AP next turn)"
-        ],
-        [
-          "Spear",
-          "d8",
-          "1d10",
-          "2",
-          "2",
-          "175 cr",
-          "Medium, Reach",
-          "Reach. +2 acc at Close, -2 at Adjacent"
-        ],
-        [
-          "Longsword",
-          "d8",
-          "2d8",
-          "3",
-          "2",
-          "300 cr",
-          "Medium",
-          "Cleave: on crit, one adjacent enemy takes half damage"
-        ],
-        [
-          "Chain Flail",
-          "d8",
-          "1d10",
-          "3",
-          "2",
-          "275 cr",
-          "Medium",
-          "Pen 1. Disarm on crit (target drops weapon)"
-        ],
-        [
-          "Glaive",
-          "d8",
-          "2d8",
-          "3",
-          "2",
-          "325 cr",
-          "Medium, Reach",
-          "Reach. +2 acc at Close, -2 at Adjacent. Sweep on crit (one Close enemy takes half damage)"
-        ],
-        [
-          "Rift Blade",
-          "d8",
-          "2d8",
-          "3",
-          "2",
-          "600 cr",
-          "Medium, Magic",
-          "Pen 2. +1 Toxicity/encounter"
-        ],
-        [
-          "Heavy Axe",
-          "d6",
-          "3d10",
-          "4",
-          "3",
-          "350 cr",
-          "Heavy",
-          "+2 acc if moved toward target. Bleed 2 on crit"
-        ],
-        [
-          "War Hammer",
-          "d6",
-          "2d12",
-          "4",
-          "3",
-          "350 cr",
-          "Heavy",
-          "+2 dmg/die vs Armor 3+. Shatter on crit (target -1 Armor, stacks)"
-        ],
-        [
-          "Halberd",
-          "d6",
-          "2d10",
-          "4",
-          "3",
-          "400 cr",
-          "Heavy, Reach",
-          "Reach. Pen 1. +2 acc at Close, -2 at Adjacent. Bleed 1 on crit"
-        ],
-        [
-          "Pike",
-          "d6",
-          "3d8",
-          "4",
-          "3",
-          "275 cr",
-          "Heavy, Reach",
-          "Reach. +2 acc at Close, -2 at Adjacent. Set: +2 acc vs targets who moved toward you"
-        ],
-        [
-          "Great Maul",
-          "d4",
-          "4d12",
-          "5",
-          "4",
-          "500 cr",
-          "Heavy",
-          "Stuns on crit (-2 AP next turn)"
-        ]
+        ["Unarmed Strike", "d8", "1d4", "1", "0", "—", "Unarmed", "Always available. No weapon required."],
+        ["Combat Knife", "d12", "1d6", "1", "1", "50 cr", "Light, Finesse", "Bleed 1 on crit"],
+        ["Precision Blade", "d10", "1d8", "2", "1", "200 cr", "Light, Finesse", "Bleed 1 on hit"],
+        ["Mace", "d10", "1d8", "2", "1", "150 cr", "Light", "Pen 1. Stagger on crit (-1 AP next turn)"],
+        ["Spear", "d8", "1d10", "2", "2", "175 cr", "Medium, Reach", "Reach. +2 acc at Close, -2 at Adjacent"],
+        ["Longsword", "d8", "2d8", "3", "2", "300 cr", "Medium", "Cleave: on crit, one adjacent enemy takes half damage"],
+        ["Chain Flail", "d8", "1d10", "3", "2", "275 cr", "Medium", "Pen 1. Disarm on crit (target drops weapon)"],
+        ["Glaive", "d8", "2d8", "3", "2", "325 cr", "Medium, Reach", "Reach. +2 acc at Close, -2 at Adjacent. Sweep on crit (one Close enemy takes half damage)"],
+        ["Rift Blade", "d8", "2d8", "3", "2", "600 cr", "Medium, Magic", "Pen 2. +1 Toxicity/encounter"],
+        ["Heavy Axe", "d6", "3d10", "4", "3", "350 cr", "Heavy", "+2 acc if moved toward target. Bleed 2 on crit"],
+        ["War Hammer", "d6", "2d12", "4", "3", "350 cr", "Heavy", "+2 dmg/die vs Armor 3+. Shatter on crit (target -1 Armor, stacks)"],
+        ["Halberd", "d6", "2d10", "4", "3", "400 cr", "Heavy, Reach", "Reach. Pen 1. +2 acc at Close, -2 at Adjacent. Bleed 1 on crit"],
+        ["Pike", "d6", "3d8", "4", "3", "275 cr", "Heavy, Reach", "Reach. +2 acc at Close, -2 at Adjacent. Set: +2 acc vs targets who moved toward you"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Damage + Anti-Armor — Melee"
+    },
+    {
+      "type": "table",
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Tags", "Conditionals"],
+      "rows": [
+        ["Great Maul", "d4", "4d12", "5", "4", "1,800 cr", "Heavy, Impact, DirDmg 3", "Caves in armor. Stuns on crit (-2 AP next turn)"],
+        ["Sunder Greatsword", "d6", "3d10", "4", "3", "1,500 cr", "Heavy, Shred 1", "Peels armor for the whole squad"],
+        ["Rift Lance", "d6", "3d12", "5", "3", "2,000 cr", "Heavy, Magic, Pierce, Pen 1", "Costs toxicity, not credits. +2 Tox/encounter"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Anti-Armor + Cheap — Melee"
+    },
+    {
+      "type": "paragraph",
+      "text": "These are team weapons. The gauntlet user isn't the killer — they're the can opener. Break the shell, drop the tool, draw your real weapon."
+    },
+    {
+      "type": "table",
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Tags", "Conditionals"],
+      "rows": [
+        ["Gauntlets", "d12", "1d4", "1", "1", "100 cr", "Light, Unarmed, Finesse, Pred 1", "1 armor HP/hit guaranteed. 5 atks/turn. Can opener."],
+        ["Power Gauntlets", "d8", "1d6", "2", "1", "200 cr", "Light, Impact, Pred 2", "Ignores absorb + 2 chip/hit."],
+        ["Stiletto", "d12", "1d4", "1", "1", "30 cr", "Light, Finesse, Pierce", "Bypasses absorb. Finds gaps. Delivers poison."],
+        ["War Pick", "d6", "2d6", "3", "2", "250 cr", "Medium, Pen 3", "Reduces armor value per die."],
+        ["Sunder Hammer", "d6", "1d8", "4", "3", "300 cr", "Heavy, Shred 1, DirDmg 1", "Team force multiplier."]
       ]
     },
     {
@@ -189,129 +107,46 @@
       "text": "Ranged weapons use <strong>Reflex</strong> for accuracy. They require <strong>Charges</strong> — an ongoing cost that makes ammo management part of the economic game."
     },
     {
+      "type": "heading",
+      "text": "Damage + Cheap — Ranged"
+    },
+    {
       "type": "table",
-      "headers": [
-        "Weapon",
-        "Accuracy",
-        "Damage",
-        "AP",
-        "Weight",
-        "Cost",
-        "Charge",
-        "Tags",
-        "Conditionals"
-      ],
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Charge", "Tags", "Conditionals"],
       "rows": [
-        [
-          "Hand Crossbow",
-          "d12",
-          "1d8",
-          "1",
-          "1",
-          "150 cr",
-          "2 cr",
-          "Light, Ammo",
-          "Bleed 1 on crit"
-        ],
-        [
-          "Burst Pistol",
-          "d10",
-          "1d8",
-          "2",
-          "1",
-          "400 cr",
-          "8 cr",
-          "Light, Ammo",
-          "Suppress on crit (target -2 acc next turn)"
-        ],
-        [
-          "Throwing Axes ×3",
-          "d10",
-          "1d8",
-          "2",
-          "1",
-          "75 cr",
-          "—",
-          "Light, Thrown",
-          "Must retrieve after combat. Stagger on crit (-1 AP next turn)"
-        ],
-        [
-          "Composite Bow",
-          "d8",
-          "1d10",
-          "2",
-          "2",
-          "200 cr",
-          "2 cr",
-          "Medium, Ammo",
-          "No range penalties. Pin on crit (target -1 Move next turn)"
-        ],
-        [
-          "Scatter Gun",
-          "d12",
-          "2d8",
-          "3",
-          "3",
-          "500 cr",
-          "10 cr",
-          "Heavy, Ammo",
-          "+2 acc Adjacent/Close. -2 Medium+. Knockback 1 range band on hit at Adjacent"
-        ],
-        [
-          "Corp Rifle",
-          "d8",
-          "2d8",
-          "3",
-          "3",
-          "700 cr",
-          "12 cr",
-          "Medium, Ammo",
-          "+2 acc Medium+. -2 Adjacent. Suppress on crit (target -2 acc next turn)"
-        ],
-        [
-          "Crossbow",
-          "d8",
-          "2d8",
-          "3",
-          "2",
-          "250 cr",
-          "3 cr",
-          "Medium, Ammo",
-          "+2 acc Medium+ range. Pen 1"
-        ],
-        [
-          "Heavy Crossbow",
-          "d6",
-          "3d10",
-          "4",
-          "3",
-          "400 cr",
-          "5 cr",
-          "Heavy, Ammo",
-          "+2 acc if didn't move. Pen 1. Stagger on crit (-1 AP next turn)"
-        ],
-        [
-          "Shotgun",
-          "d8",
-          "2d10",
-          "3",
-          "3",
-          "500 cr",
-          "10 cr",
-          "Heavy, Ammo",
-          "+2 acc Adjacent. -2 Medium+. Knockback 1 range band on hit at Adjacent"
-        ],
-        [
-          "Sniper Rifle",
-          "d6",
-          "3d10",
-          "5",
-          "4",
-          "1,200 cr",
-          "25 cr",
-          "Heavy, Ammo",
-          "Pen 2. +2 acc if stationary. +2 acc if target stationary. Stagger on crit (-1 AP next turn)"
-        ]
+        ["Hand Crossbow", "d12", "1d8", "1", "1", "150 cr", "2 cr", "Light, Ammo", "Bleed 1 on crit"],
+        ["Burst Pistol", "d10", "1d8", "2", "1", "400 cr", "8 cr", "Light, Ammo", "Suppress on crit (target -2 acc next turn)"],
+        ["Throwing Axes ×3", "d10", "1d8", "2", "1", "75 cr", "—", "Light, Thrown", "Must retrieve after combat. Stagger on crit (-1 AP next turn)"],
+        ["Composite Bow", "d8", "1d10", "2", "2", "200 cr", "2 cr", "Medium, Ammo", "No range penalties. Pin on crit (target -1 Move next turn)"],
+        ["Scatter Gun", "d12", "2d8", "3", "3", "500 cr", "10 cr", "Heavy, Ammo", "+2 acc Adjacent/Close. -2 Medium+. Knockback 1 range band on hit at Adjacent"],
+        ["Corp Rifle", "d8", "2d8", "3", "3", "700 cr", "12 cr", "Medium, Ammo", "+2 acc Medium+. -2 Adjacent. Suppress on crit (target -2 acc next turn)"],
+        ["Crossbow", "d8", "2d8", "3", "2", "250 cr", "3 cr", "Medium, Ammo", "+2 acc Medium+ range. Pen 1"],
+        ["Heavy Crossbow", "d6", "3d10", "4", "3", "400 cr", "5 cr", "Heavy, Ammo", "+2 acc if didn't move. Pen 1. Stagger on crit (-1 AP next turn)"],
+        ["Shotgun", "d8", "2d10", "3", "3", "500 cr", "10 cr", "Heavy, Ammo", "+2 acc Adjacent. -2 Medium+. Knockback 1 range band on hit at Adjacent"],
+        ["Sniper Rifle", "d6", "3d10", "5", "4", "1,200 cr", "25 cr", "Heavy, Ammo", "Pen 2. +2 acc if stationary. +2 acc if target stationary. Stagger on crit (-1 AP next turn)"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Damage + Anti-Armor — Ranged"
+    },
+    {
+      "type": "table",
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Charge", "Tags", "Conditionals"],
+      "rows": [
+        ["AP Sniper", "d6", "3d10", "5", "4", "1,200 cr", "50 cr", "Heavy, Ammo, Pierce, Pen 2", "Expensive ammo pierces plate. +2 acc if stationary."],
+        ["Thermite Rifle", "d8", "2d8", "3", "3", "1,400 cr", "30 cr", "Medium, Ammo, Pen 2, DirDmg 2", "Sustained ranged siege."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Anti-Armor + Cheap — Ranged"
+    },
+    {
+      "type": "table",
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Tags", "Conditionals"],
+      "rows": [
+        ["Acid Flask ×3", "d10", "1d4", "2", "1", "75 cr", "Thrown, Shred 1, Pred 1", "Thrown consumable. Melts armor."]
       ]
     },
     {
@@ -324,88 +159,56 @@
     },
     {
       "type": "table",
-      "headers": [
-        "Weapon",
-        "Accuracy",
-        "Damage",
-        "AP",
-        "Weight",
-        "Cost",
-        "Tags",
-        "Conditionals"
-      ],
+      "columns": ["Weapon", "Accuracy", "Damage", "AP", "Weight", "Cost", "Tags", "Conditionals"],
       "rows": [
-        [
-          "Toxic Needle",
-          "d12",
-          "1d2",
-          "1",
-          "0",
-          "150 cr",
-          "Light, Effect",
-          "Applies Poison stack on hit"
-        ],
-        [
-          "Neural Probe",
-          "d10",
-          "1d4",
-          "1",
-          "1",
-          "300 cr",
-          "Light, Tech",
-          "Applies Glitch stack on hit"
-        ],
-        [
-          "Siphon Rod",
-          "d10",
-          "1d8",
-          "2",
-          "1",
-          "450 cr",
-          "Light, Magic",
-          "Heals 50% of damage dealt. +2 Tox/enc. Pen 1"
-        ],
-        [
-          "Hex Totem",
-          "d10",
-          "1d6",
-          "2",
-          "1",
-          "350 cr",
-          "Light, Magic",
-          "Applies Hex stack. +1 Tox/enc"
-        ],
-        [
-          "Arc Caster",
-          "d10",
-          "1d8",
-          "2",
-          "2",
-          "500 cr",
-          "Medium, Tech",
-          "Chains to 1 adjacent (half dmg, no acc roll)"
-        ],
-        [
-          "Pulse Gauntlet",
-          "d10",
-          "1d8",
-          "2",
-          "1",
-          "400 cr",
-          "Light, Tech",
-          "Melee. Push 1 range band on crit"
-        ],
-        [
-          "Rift Staff",
-          "d8",
-          "2d10",
-          "3",
-          "2",
-          "400 cr",
-          "Medium, Magic",
-          "Channel Rift Patterns (+1 check). +1 Tox/enc. Pen 1"
-        ]
+        ["Toxic Needle", "d12", "1d2", "1", "0", "150 cr", "Light, Effect", "Applies Poison stack on hit"],
+        ["Neural Probe", "d10", "1d4", "1", "1", "300 cr", "Light, Tech", "Applies Glitch stack on hit"],
+        ["Siphon Rod", "d10", "1d8", "2", "1", "450 cr", "Light, Magic", "Heals 50% of damage dealt. +2 Tox/enc. Pen 1"],
+        ["Hex Totem", "d10", "1d6", "2", "1", "350 cr", "Light, Magic", "Applies Hex stack. +1 Tox/enc"],
+        ["Arc Caster", "d10", "1d8", "2", "2", "500 cr", "Medium, Tech", "Chains to 1 adjacent (half dmg, no acc roll)"],
+        ["Pulse Gauntlet", "d10", "1d8", "2", "1", "400 cr", "Light, Tech", "Melee. Push 1 range band on crit"],
+        ["Rift Staff", "d8", "2d10", "3", "2", "400 cr", "Medium, Magic", "Channel Rift Patterns (+1 check). +1 Tox/enc. Pen 1"]
       ]
+    },
+    {
+      "type": "heading",
+      "text": "Squad Doctrine"
+    },
+    {
+      "type": "paragraph",
+      "text": "How you compose your squad's loadout determines how you crack armored targets. No single weapon does everything — the triangle forces team coordination."
+    },
+    {
+      "type": "heading",
+      "text": "Budget Squad (1,800 cr weapons)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Loadout:</strong> 2× Corp Rifle, 1× Gauntlets, 1× Sunder Hammer. Gauntlets chip Armor HP (Predictable 1, 5 hits/turn = 5 armor HP/turn). Sunder peels Armor Value (Shred 1). Once armor breaks, rifles finish. ~35% kill in 4 rounds vs Heavy Plate. 100% armor break rate."
+    },
+    {
+      "type": "heading",
+      "text": "Premium Squad (4,600 cr weapons)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Loadout:</strong> 2× Corp Rifle, 1× Great Maul, 1× Sunder Greatsword. Maul ignores absorb + direct armor damage. Greatsword shreds value. 99% kill in 4 rounds vs Heavy Plate. Fast but enormous weapon investment."
+    },
+    {
+      "type": "heading",
+      "text": "Assassin Squad (1,830 cr + poison)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Loadout:</strong> 2× Corp Rifle, 1× Gauntlets + Stiletto (dual wield), 1× Sunder Hammer. The dual wielder chips armor with gauntlets while attempting poison delivery through the Stiletto's Pierce tag. Even 1 damage through gets poison ticking. By round 3: poison stacking, armor cracking, rifles punching through."
+    },
+    {
+      "type": "heading",
+      "text": "Anti-Siege Rig Doctrine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Siege Rig (Armor 8/die, Absorb 8, 30 Armor HP) requires dedicated anti-armor from multiple squad members. A single specialist is insufficient. These are boss fights requiring pre-contract preparation."
     }
   ]
 }

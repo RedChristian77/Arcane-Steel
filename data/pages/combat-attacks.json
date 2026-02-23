@@ -96,35 +96,47 @@
     },
     {
       "type": "heading",
-      "text": "Step 4: Subtract Armor"
+      "text": "Step 4: Armor — Per-Die Reduction"
     },
     {
       "type": "paragraph",
-      "text": "The target’s <strong>Armor</strong> value is subtracted from <strong>each damage die individually.</strong> A damage die reduced below 1 deals 0 damage."
+      "text": "The target's armor <strong>Value</strong> is subtracted from <strong>each damage die individually.</strong> A damage die reduced below 1 deals 0 damage."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Example:</strong> Heavy Axe deals 3d10: roll 8, 3, 9. Target has Armor 3. Each die loses 3: 5, 0, 6 = 11 total damage."
+      "text": "<strong>Example:</strong> Heavy Axe deals 3d10: roll 8, 3, 9. Target has Value 3. Each die loses 3: 5, 0, 6 = 11 remaining."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Example:</strong> Combat Knife deals 1d6: roll 4. Target has Armor 3. 4 - 3 = 1 damage."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Example:</strong> Combat Knife deals 1d6: roll 2. Target has Armor 3. 2 - 3 = 0 damage. The blade bounces off."
-    },
-    {
-      "type": "paragraph",
-      "text": "This is why weapon choice matters against armored targets. Heavy weapons roll big damage dice that punch through armor. Light weapons roll small dice that get eaten by armor. Against armored enemies, you need big hits — not fast ones."
+      "text": "<strong>Example:</strong> Combat Knife deals 1d6: roll 2. Target has Value 3. 2 - 3 = 0 damage. The blade bounces off. <strong>If all dice reduce to 0, the attack never reaches Absorb and never degrades Armor HP.</strong>"
     },
     {
       "type": "heading",
-      "text": "Step 5: Apply Damage"
+      "text": "Step 5: Armor — Absorb Threshold"
     },
     {
       "type": "paragraph",
-      "text": "Subtract total remaining damage from the target’s HP. <strong>If HP reaches 0:</strong> See “Going Down“ below."
+      "text": "Sum remaining damage after per-die reduction. Subtract the target's <strong>Absorb</strong> value from the total. This is a flat threshold — the armor's padding absorbing residual force."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> 11 remaining damage vs Absorb 2 = 9 punch-through damage."
+    },
+    {
+      "type": "heading",
+      "text": "Step 6: Punch-Through"
+    },
+    {
+      "type": "paragraph",
+      "text": "Remaining damage after Absorb hits <strong>BOTH Armor HP AND Character HP</strong>. The armor degrades as hits land. When Armor HP reaches 0, the armor <strong>breaks</strong> — all protection (Value, Absorb, HP) drops to zero. The wearer is fully exposed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Example:</strong> 9 punch-through damage. Target has 10 Armor HP and 20 Character HP. After hit: 1 Armor HP remaining, 11 Character HP remaining."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is why weapon choice matters against armored targets. Heavy weapons roll big damage dice that punch through per-die Value. Light weapons roll small dice that get eaten. Against armored enemies, you need big hits, anti-armor tags, or dedicated can-opener weapons — not fast ones."
     },
     {
       "type": "heading",
@@ -132,7 +144,7 @@
     },
     {
       "type": "blockquote",
-      "text": "<strong>1.</strong> Roll accuracy die + stat bonus  <strong>2.</strong> Apply weapon conditional modifiers  <strong>3.</strong> Total ≥ Evasion = Hit  <strong>4.</strong> Hit → roll weapon damage dice  <strong>5.</strong> Subtract Armor from each damage die  <strong>6.</strong> Total remaining = damage dealt"
+      "text": "<strong>1.</strong> Roll accuracy die + stat bonus\n<strong>2.</strong> Apply weapon conditional modifiers\n<strong>3.</strong> Total ≥ Evasion = Hit\n<strong>4.</strong> Hit → roll weapon damage dice\n<strong>5.</strong> Subtract armor Value from each damage die (min 0 per die)\n<strong>6.</strong> Sum remaining. Subtract Absorb from total.\n<strong>7.</strong> Remaining = punch-through → hits both Armor HP and Character HP\n<strong>8.</strong> Armor HP reaches 0 = Armor Break (all protection lost)"
     },
     {
       "type": "heading",
