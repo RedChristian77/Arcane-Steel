@@ -1,92 +1,51 @@
 {
   "id": "equipment-armor",
   "title": "Armor & Shields",
-  "subtitle": "Protection and evasion",
+  "subtitle": "Protection, durability, and repair",
   "content": [
     {
       "type": "paragraph",
-      "text": "Armor provides flat <strong>damage reduction per die</strong> and may cap your Evasion. Heavier armor requires Chrome investment."
+      "text": "Armor is <strong>Temp HP with built-in damage reduction</strong>. Strong while it lasts. Catastrophic when it breaks."
     },
     {
       "type": "heading",
-      "text": "Armor"
+      "text": "Damage Flow"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a hit lands, damage passes through four layers:"
+    },
+    {
+      "type": "blockquote",
+      "text": "<strong>1. Per-Die Reduction:</strong> Subtract armor Value from each damage die individually. Min 0 per die.\n<strong>2. Absorb Threshold:</strong> Sum remaining damage. Subtract Absorb from total. Flat threshold.\n<strong>3. Punch-Through:</strong> Remaining damage hits BOTH Armor HP AND Character HP.\n<strong>4. Armor Break:</strong> When Armor HP reaches 0, all layers (Value, Absorb, HP) drop to zero. Wearer fully exposed. Permanent max HP loss to armor."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Bounce Rule",
+      "text": "If a hit deals 0 after per-die reduction, it never reaches Absorb and never degrades armor. Light weapons bouncing off heavy plate don't wear it down."
+    },
+    {
+      "type": "heading",
+      "text": "Armor Table"
     },
     {
       "type": "table",
-      "headers": [
-        "Armor",
-        "Armor Value",
-        "Evasion Cap",
-        "Chrome Req",
-        "Weight",
-        "Cost"
-      ],
+      "columns": ["Armor", "Val/Die", "Absorb", "Armor HP", "EV Cap", "Chrome Req", "Cost", "Repair"],
       "rows": [
-        [
-          "Clothes",
-          "0",
-          "No cap",
-          "—",
-          "0",
-          "Free"
-        ],
-        [
-          "Padded Jacket",
-          "1",
-          "No cap",
-          "—",
-          "1",
-          "50 cr"
-        ],
-        [
-          "Light Weave",
-          "2",
-          "No cap",
-          "—",
-          "1",
-          "200 cr"
-        ],
-        [
-          "Contractor Standard",
-          "3",
-          "6",
-          "Chrome 2",
-          "2",
-          "400 cr"
-        ],
-        [
-          "Corp Tactical",
-          "4",
-          "5",
-          "Chrome 3",
-          "3",
-          "750 cr"
-        ],
-        [
-          "Rift-Walker Suit",
-          "3",
-          "6",
-          "Chrome 2",
-          "2",
-          "600 cr"
-        ],
-        [
-          "Heavy Plate",
-          "6",
-          "3",
-          "Chrome 4",
-          "4",
-          "1,200 cr"
-        ],
-        [
-          "Siege Rig",
-          "8",
-          "2",
-          "Chrome 6",
-          "6",
-          "2,500 cr"
-        ]
+        ["Clothes", "0", "0", "0", "None", "—", "Free", "—"],
+        ["Padded Jacket", "1", "0", "3", "None", "—", "50 cr", "15 cr"],
+        ["Light Weave", "2", "0", "6", "None", "—", "200 cr", "40 cr"],
+        ["Contractor Standard", "3", "2", "10", "8", "Chrome 2", "400 cr", "60 cr"],
+        ["Rift-Walker Suit", "3", "2", "10", "8", "Chrome 2", "600 cr", "100 cr"],
+        ["Corp Tactical", "4", "3", "14", "7", "Chrome 3", "750 cr", "120 cr"],
+        ["Heavy Plate", "6", "5", "20", "5", "Chrome 4", "1,200 cr", "200 cr"],
+        ["Siege Rig", "8", "8", "30", "4", "Chrome 6", "2,500 cr", "400 cr"]
       ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Note:</strong> Light Weave and Padded Jacket have Armor HP but no Absorb. Against multi-die weapons, damage exceeding per-die Value hits both armor HP and flesh simultaneously. Environmental effects, acid, and abilities that target armor directly also interact with Armor HP at all tiers."
     },
     {
       "type": "paragraph",
@@ -98,6 +57,106 @@
     },
     {
       "type": "heading",
+      "text": "Armor Break = Liability"
+    },
+    {
+      "type": "paragraph",
+      "text": "When armor breaks, the tank's stat investment works against them. Chrome and Grit don't help dodge. Low evasion makes them the easiest target on the field with no defensive layers."
+    },
+    {
+      "type": "heading",
+      "text": "Economic Loop"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Evasion builds:</strong> No repair costs. High medical costs when hits land. Scars accumulate.\n• <strong>Tank builds:</strong> High repair costs every contract. Low medical while armor holds. Catastrophic if armor breaks mid-contract."
+    },
+    {
+      "type": "paragraph",
+      "text": "Both paths drain the wallet. Money is survival. Every choice feeds the debt cycle."
+    },
+    {
+      "type": "heading",
+      "text": "Armor Repair & Durability"
+    },
+    {
+      "type": "heading",
+      "text": "Field Repair (Armor HP > 0)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Requirement:</strong> 1 repair charge (Crafting Kit or Field Workshop)\n• <strong>Check:</strong> Crafting T1, DC 6\n• <strong>Success:</strong> Restore 1d4+1 Armor HP (cannot exceed current max)\n• <strong>Time:</strong> 1 AP out of combat, or 10 minutes narrative\n• Can attempt multiple times. Each attempt costs 1 charge."
+    },
+    {
+      "type": "heading",
+      "text": "Emergency Repair (Armor HP = 0, Broken)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Requirement:</strong> 3 repair charges\n• <strong>Check:</strong> Crafting T1, DC 8\n• <strong>Success:</strong> Armor restored to 50% of CURRENT max HP. Value and Absorb return to full.\n• <strong>PERMANENT PENALTY:</strong> Max Armor HP reduced by 25% (round up, minimum 1). Structural integrity compromised.\n• <strong>Failure:</strong> Charges consumed. Armor remains broken. Can retry with more charges.\n• After emergency repair, standard field repair works normally to top up from 50%."
+    },
+    {
+      "type": "heading",
+      "text": "Reforge (Workshop, Downtime)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Requirement:</strong> Crafting T2+ and a Workshop\n• <strong>Cost:</strong> 50% of armor purchase price in materials\n• <strong>Effect:</strong> Restores ALL max HP to original value. Removes all break penalties. 1 downtime activity."
+    },
+    {
+      "type": "heading",
+      "text": "Break Penalty Accumulation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy Plate example:"
+    },
+    {
+      "type": "table",
+      "columns": ["Break #", "Max HP", "Lost", "Status"],
+      "rows": [
+        ["Original", "20", "—", "Full strength"],
+        ["Break 1", "15", "-5", "Compromised. Reforge 600 cr or fight degraded."],
+        ["Break 2", "12", "-3", "Seriously weakened. Getting expensive."],
+        ["Break 3", "9", "-3", "Consider buying new (1,200 cr)."],
+        ["Break 4", "7", "-2", "Barely functional."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Nano-Repair Lattice (Armor Augment)"
+    },
+    {
+      "type": "blockquote",
+      "text": "• <strong>Cost:</strong> 800 cr. Takes 1 armor mod slot.\n• <strong>Effect:</strong> When armor breaks (hits 0 HP), NO permanent max HP loss.\n• <strong>Still requires:</strong> Emergency repair (3 charges, DC 8) to restore function.\n• <strong>Break-even:</strong> Saves 600 cr reforge on Heavy Plate after first break. Pays for itself immediately on expensive armor."
+    },
+    {
+      "type": "heading",
+      "text": "Repair Economics Per Contract"
+    },
+    {
+      "type": "table",
+      "columns": ["Armor", "Scenario", "Charges", "Charge Cost", "Reforge", "Total"],
+      "rows": [
+        ["Light Weave", "Light damage", "1", "75 cr", "—", "75 cr"],
+        ["Light Weave", "Armor breaks", "3+1", "300 cr", "100 cr", "400 cr"],
+        ["Contractor Std", "Moderate", "2", "150 cr", "—", "150 cr"],
+        ["Contractor Std", "Armor breaks", "3+1", "300 cr", "200 cr", "500 cr"],
+        ["Heavy Plate", "Light damage", "2", "150 cr", "—", "150 cr"],
+        ["Heavy Plate", "Heavy damage", "5", "375 cr", "—", "375 cr"],
+        ["Heavy Plate", "Armor breaks", "3+2", "375 cr", "600 cr", "975 cr"],
+        ["Siege Rig", "Moderate", "4", "300 cr", "—", "300 cr"],
+        ["Siege Rig", "Armor breaks", "3+3", "450 cr", "1,250 cr", "1,700 cr"]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Siege Rig Insurance",
+      "text": "Siege Rig break costs 1,700 cr to fully restore (~70% of purchase price). Nano-Repair Lattice (800 cr) eliminates the reforge, reducing break cost to just 450 cr in charges."
+    },
+    {
+      "type": "heading",
       "text": "Shields"
     },
     {
@@ -106,42 +165,12 @@
     },
     {
       "type": "table",
-      "headers": [
-        "Shield",
-        "Evasion Bonus",
-        "Weight",
-        "Cost",
-        "Notes"
-      ],
+      "columns": ["Shield", "Evasion Bonus", "Weight", "Cost", "Notes"],
       "rows": [
-        [
-          "Buckler",
-          "+1",
-          "1",
-          "100 cr",
-          "Can use Light weapon in shield hand"
-        ],
-        [
-          "Standard Shield",
-          "+2",
-          "2",
-          "250 cr",
-          "Occupies one hand"
-        ],
-        [
-          "Tower Shield",
-          "+3",
-          "4",
-          "500 cr",
-          "-1 accuracy on all attacks. Provides cover to allies behind you."
-        ],
-        [
-          "Rift-Ward Shield",
-          "+2",
-          "2",
-          "600 cr",
-          "+2 Evasion vs Magic attacks specifically"
-        ]
+        ["Buckler", "+1", "1", "100 cr", "Can use Light weapon in shield hand"],
+        ["Standard Shield", "+2", "2", "250 cr", "Occupies one hand"],
+        ["Tower Shield", "+3", "4", "500 cr", "-1 accuracy on all attacks. Provides cover to allies behind you."],
+        ["Rift-Ward Shield", "+2", "2", "600 cr", "+2 Evasion vs Magic attacks specifically"]
       ]
     }
   ]
