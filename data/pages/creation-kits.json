@@ -104,10 +104,10 @@
           "name": "Sin Eater",
           "tree": "Sin Eater",
           "aug": "Empathic Link",
-          "ability": "Burden Sense",
+          "ability": "Burden Sense, Empathic Touch",
           "lean": "Interface / Edge",
           "gear": "Siphon Rod, Combat Knife, Light Weave",
-          "desc": "Pull suffering from allies. Redirect it at enemies.",
+          "desc": "Absorb suffering. Process it. Redirect it. The cost is always yours.",
           "icon": "😈"
         },
         {

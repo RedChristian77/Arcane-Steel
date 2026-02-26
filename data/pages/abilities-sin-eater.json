@@ -9,99 +9,68 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Condition absorber, debuff manager, crew sustain. You take what hurts your allies and decide where it goes — into you, into Toxicity, or into the enemy. Abilities focus on expanding your absorption capacity, improving transfer efficiency, and surviving the load.</em>"
+      "text": "<em>Condition absorber and DoT applicator. Every ability has a tangible cost — Toxicity, HP, or carrying conditions that hurt you. Abilities complement the augment system's Absorb/Redirect cycle.</em>"
     },
     {
       "type": "heading",
-      "text": "T1 — Baseline (Free)"
+      "text": "T1 — Baseline (Free — Two Abilities)"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Burden Sense (Passive):</strong> You can see active conditions on any creature within Medium range as visible rift distortions — colored auras, dark threads, pulsing marks. You always know who’s suffering and what from. Additionally, your Afflict and Curse Touch effects (from augment tree) gain +1 to their Interface check when targeting an enemy you’ve already scanned with Burden Sense this encounter. Knowing what ails them helps you know what to inflict."
+      "text": "<strong>Burden Sense (Passive):</strong> You can see active conditions on any creature within Medium range — colored auras, dark threads, pulsing marks. You always know who's suffering and what from. Your Interface checks against enemies you've scanned gain +1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Empathic Touch (Active, 1 AP):</strong> [Martyr] Touch an ally within Close range. Reduce one condition on them by 1 stack (Bleed 3 → Bleed 2, Poison 2 → Poison 1). Doesn't transfer to you — just reduces it. +1 Toxicity. The entry-level heal — cheaper than full Absorb but still costs Toxicity."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 — Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Steady Hands (Passive):</strong> Your Absorb actions don’t provoke opportunity attacks. Walk in, pull Bleed off the Berserker, walk out."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Empathic Shield (Active, 1 AP):</strong> An ally within Close range gets +2 to resist the next condition applied to them. Preemptive defense."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Pain Split (Passive):</strong> When you Absorb, you can split — half stacks to you, half destroyed. Round in the condition’s favor."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Calming Presence (Passive):</strong> Allies within Close range are immune to fear and panic effects. Your presence stabilizes."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contamination Read (Active, 1 AP):</strong> Touch an enemy. Learn all active conditions, current Toxicity, and any buffs."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Transfer Efficiency (Passive):</strong> The +1 Toxicity cost per Absorb is reduced to +0 for the first Absorb each turn. One clean transfer."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Steady Hands", "Martyr", "Passive", "—", "Your Absorb and Empathic Touch don't provoke opportunity attacks. Walk in, pull conditions, walk out."],
+        ["Empathic Shield", "Martyr", "Active", "1 AP", "An ally within Close range gains +2 to resist the next condition applied to them. +1 Toxicity. Preventative medicine."],
+        ["Calming Presence", "Martyr", "Passive", "—", "Allies within Close range are immune to fear and panic effects. Your presence stabilizes."],
+        ["Venomous Intent", "Vessel", "Active", "1 AP", "Your next melee weapon attack this turn applies Poison 1 on hit in addition to normal weapon damage. +1 Toxicity. Your weapon carries your contamination."],
+        ["Withering Touch", "Vessel", "Active", "1 AP", "Close range, Interface check vs Grit. Apply Bleed 1d4 to target (1d4 damage/round for 2 rounds). +1 Toxicity. Direct DoT application."],
+        ["Triage", "Shared", "Passive", "—", "At the start of your turn, reduce one condition you're carrying by 1 stack automatically. Your body processes suffering faster. Free."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 — Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Infectious Compassion (Passive):</strong> When you Absorb from an ally, they gain +1 to their next check. Your touch encourages."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Backlash (Active, 1 AP):</strong> When you Purge a condition, apply it to the nearest enemy within Close range at half strength. Offensive purging."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Overload Tolerance (Passive):</strong> Carry up to 5 conditions before overload penalties begin (normally 3 with Pain Threshold)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Sympathetic Bond (Active, 2 AP):</strong> Link to an ally for 3 rounds. Conditions applied to them auto-copy to you at half strength. Passive absorption."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Condition Immunity (Passive):</strong> Choose one condition type. You are permanently immune. Can only be taken once."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Tox Channel (Active, 1 AP):</strong> Convert 3 of your Toxicity into healing — touch an ally and heal 1d6+Interface bonus HP. Contamination becomes medicine."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Suffering Echo (Passive):</strong> When you Absorb a condition from an ally, the enemy who originally applied it takes -1 to their next attack. Your absorption resonates back through the rift connection."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Purification Pulse (Active, 2 AP):</strong> Remove all conditions from yourself. For each condition removed, one ally within Close range heals 2 HP. Your suffering converts into mending. Once per encounter."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Infectious Compassion", "Martyr", "Passive", "—", "When you Absorb from an ally, that ally gains +1 to their next check. Your touch encourages."],
+        ["Emergency Transfusion", "Martyr", "Active", "2 AP", "Spend up to 5 of your own HP to heal an ally within Close range for the same amount +2. No Toxicity cost — just blood."],
+        ["Condition Immunity", "Martyr", "Passive", "—", "Choose one condition type permanently (Poison, Bleed, Stun, Hex, Corrode, Burn). You are immune to it. Can only be taken once. Your body has adapted."],
+        ["Overload Tolerance", "Martyr", "Passive", "—", "Carry up to 5 conditions before overload penalties (normally 3 with Pain Threshold). Extraordinary capacity."],
+        ["Sympathetic Bond", "Shared", "Active", "2 AP", "Link to an ally within Medium range for 3 rounds. Any condition applied to them is automatically copied to you at half strength (no AP, no Absorb needed). +1 Toxicity per auto-absorb. You feel what they feel."],
+        ["Purge Strike", "Vessel", "Active", "1 AP", "Your next melee weapon attack, if it hits, also applies one condition you're currently carrying to the target at full strength. The condition is removed from you. +1 Toxicity. Hit them with your suffering."],
+        ["Spreading Affliction", "Vessel", "Active", "1 AP", "Choose an enemy within Medium range that has a DoT condition. Interface check (DC 7). On success, one adjacent enemy gains the same condition at half strength (round up). +1 Toxicity. Your infections spread."],
+        ["Rift Siphon", "Vessel", "Active", "1 AP", "Spend 2 Toxicity. An enemy within Medium range loses one active buff or positive condition. Interface check (DC 8). Strip their advantages."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 — Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Living Antidote (Passive):</strong> Allies within Close range automatically reduce Poison, Bleed, and Toxicity accumulation by 1 per turn. Passive cleanse field."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Sin Eater’s Gambit (Active, 4 AP):</strong> Absorb all conditions from all allies within Medium range. Convert all to Toxicity. Redirect all onto a single enemy. One action. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Sacrifice (Passive):</strong> When an ally within Medium range would be downed, take the killing blow instead. Ally stays at 1 HP. You take the damage (bypasses armor). Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Vessel of Suffering (Passive):</strong> While carrying 3+ absorbed conditions, gain +2 Armor and regenerate 1 HP at the start of each turn. The more you carry, the more the rift sustains you. Your pain becomes your shield."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Mass Cleanse", "Martyr", "Active", "3 AP", "Remove one condition from ALL allies within Medium range. Conditions are destroyed, not transferred. +1 Toxicity per condition removed. Once per encounter."],
+        ["Wellspring", "Martyr", "Active", "2 AP", "Spend 4 Toxicity. An ally within Medium range heals for 2d6 + Interface bonus HP AND has one condition removed. The most efficient single-target heal in the game."],
+        ["Sin Eater's Gambit", "Shared", "Active", "4 AP", "Absorb ALL conditions from ALL allies within Medium range. All absorbed conditions are immediately Redirected onto enemies of your choice (distribute as you wish). +1 Toxicity per condition processed. Once per encounter. The squad is cleansed, the enemies are buried."],
+        ["Plague Carrier", "Vessel", "Passive", "—", "All DoT conditions you apply (through any source — Afflict, Withering Touch, Purge Strike, Redirect, Venomous Intent) gain +1 stack. Bleed 1 becomes Bleed 2. Everything you touch rots faster."],
+        ["Living Conduit", "Vessel", "Passive", "—", "When you Redirect a condition onto an enemy, all allies within Close range heal 1 HP. The cycle of suffering-to-healing runs automatically."]
+      ]
     }
   ]
 }
