@@ -6,8 +6,66 @@
     {
       "type": "tree-meta",
       "stat_lean": "Reflex / Edge",
-      "theme": "Patience. Distance. One shot, one kill. The Precision contractor doesn't need to be close.",
-      "design": "Precision augments reward careful aim, target analysis, and controlling engagements from range."
+      "theme": "Plant your feet. Line up the shot. Make every round count — then make the next one count harder.",
+      "design": "Precision augments reward stationary fire, accuracy stacking, and sustained pressure on targets. Two branches — Marksman (first-shot power, conditions, penetration) and Gunslinger (escalating multi-hit volume) — share the same tree and stack together. No resources to track. All triggers are stateless: \"Did you move?\" and \"How many hits this turn?\""
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Marksman Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "You <strong>haven't moved this turn</strong> (0 feet of voluntary movement spent before or during the attack). Rewards planting your feet, finding cover, and staying put. The first shot of each turn benefits most — the Marksman's opening strike is surgical. Being pushed/shoved by an enemy doesn't count as voluntary movement; you can still trigger Marksman after being repositioned against your will."
+    },
+    {
+      "type": "heading",
+      "text": "Gunslinger Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "You've already <strong>landed a hit this turn</strong>. Each subsequent hit escalates. Rewards volume of fire — the more shots you land in a single turn, the more dangerous each one becomes. Misses don't break the chain but don't advance it either. Only hits count."
+    },
+    {
+      "type": "table",
+      "columns": ["Hits This Turn", "Gunslinger Bonus"],
+      "rows": [
+        ["1st hit", "No Gunslinger bonus (this IS the first hit)"],
+        ["2nd hit", "Gunslinger Tier 1 bonus"],
+        ["3rd hit", "Gunslinger Tier 2 bonus"],
+        ["4th hit", "Gunslinger Tier 3 bonus"],
+        ["5th+ hit", "Gunslinger Tier 3 bonus (cap)"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "What the bonus actually IS depends on which Gunslinger augments you've installed. The escalation structure is fixed — the augments fill in what each tier of bonus does."
+    },
+    {
+      "type": "heading",
+      "text": "Combined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stand still. First shot gets Marksman bonuses (accuracy, penetration, conditions). Second shot gets Marksman AND Gunslinger Tier 1. Third shot gets Marksman AND Gunslinger Tier 2. You're a turret — stationary, devastating, and every round makes the next one worse for the target."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Natural Tension with Shadow",
+      "text": "Shadow wants to MOVE (charge triggers require 10+ feet). Precision wants to be STILL (Marksman triggers require 0 movement). Cross-tree investment works but you choose one identity per turn. You can't pinball AND turret on the same turn."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Natural Counters",
+      "text": "• <strong>Flanking</strong> — Precision users don't move, so enemies can circle around cover\n• <strong>Closing distance</strong> — a melee enemy in your face forces you to move or fight at disadvantage\n• <strong>Smoke/obscuration</strong> — blocks line of sight, negates range advantage\n• <strong>Forced movement</strong> — Shove, pull effects, explosions that knock you out of position (but only voluntary movement breaks Marksman — forced movement can knock you out of cover)\n• <strong>Rush tactics</strong> — overwhelming the Precision user with more targets than they can track"
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "tree-tier",
@@ -18,23 +76,39 @@
       "augments": [
         {
           "name": "Targeting Suite",
-          "effect": "+1 ranged accuracy",
+          "branch": "Marksman",
+          "effect": "+1 accuracy on ranged attacks when you haven't moved this turn",
           "cost": "250 cr"
         },
         {
           "name": "Spotter Optics",
-          "effect": "Identify enemy Evasion and Armor values",
+          "branch": "Marksman",
+          "effect": "You can see enemy Evasion and Armor values. Know where to aim before you pull the trigger.",
           "cost": "200 cr"
+        },
+        {
+          "name": "Rangefinder Implant",
+          "branch": "Marksman",
+          "effect": "No accuracy penalty for long range attacks. Distance is just math.",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Rapid Acquisition",
+          "branch": "Gunslinger",
+          "effect": "After your first hit each turn, your next attack this turn gets +1 accuracy. The entry-level escalation.",
+          "cost": "250 cr"
         },
         {
           "name": "Recoil Dampener",
-          "effect": "Ignore first -1 penalty from weapon conditions per attack",
+          "branch": "Gunslinger",
+          "effect": "Ignore the first -1 penalty from weapon conditionals per attack. Sustained fire stays on target.",
           "cost": "200 cr"
         },
         {
-          "name": "Rangefinder Optic",
-          "effect": "No accuracy penalty for long range attacks. Distance is just math",
-          "cost": "250 cr"
+          "name": "Quick Draw Wiring",
+          "branch": "Shared",
+          "effect": "Weapon swaps cost 0 AP (normally free action but only once per turn — this removes the once-per-turn limit). Enables rifle → pistol → pistol rotations.",
+          "cost": "200 cr"
         }
       ]
     },
@@ -46,24 +120,40 @@
       "budget": "",
       "augments": [
         {
-          "name": "Steady Hands Mod",
-          "effect": "Ignore first -2 accuracy penalty from conditions",
-          "cost": "350 cr"
+          "name": "Stabilized Platform",
+          "branch": "Marksman",
+          "effect": "While stationary: +1 accuracy AND +1 damage per die on ranged attacks. Your body is a weapons platform.",
+          "cost": "450 cr"
         },
         {
-          "name": "Vital Scanner",
-          "effect": "+1 damage die against enemies below 50% HP",
+          "name": "Armor Crack Rounds",
+          "branch": "Marksman",
+          "effect": "First ranged hit each turn while stationary: apply Cracked 1 to target (reduce armor by 1 until end of your next turn). Sets up your follow-up shots AND your squad's attacks.",
           "cost": "400 cr"
         },
         {
-          "name": "Quick Draw Wiring",
-          "effect": "First round of combat: +2 accuracy",
-          "cost": "350 cr"
+          "name": "Vital Scanner",
+          "branch": "Marksman",
+          "effect": "+1 damage die against enemies below 50% HP. Finish what you started.",
+          "cost": "400 cr"
         },
         {
-          "name": "Zeroing Algorithm",
-          "effect": "Attacks against same target on consecutive turns: +1 acc (stacks to +3)",
+          "name": "Sustained Fire Protocol",
+          "branch": "Gunslinger",
+          "effect": "2nd hit this turn: +1 accuracy. 3rd hit: +2 accuracy. 4th+: +3 accuracy. Escalating precision through volume.",
           "cost": "450 cr"
+        },
+        {
+          "name": "Spread Pattern",
+          "branch": "Gunslinger",
+          "effect": "When you hit two different targets in the same turn, the second target gets -1 Evasion until end of your next turn. Covering fire rattles them.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Snap Shooter",
+          "branch": "Gunslinger",
+          "effect": "First round of combat: all attacks cost -1 AP (minimum 1). The fast draw. Burst Pistol at 1 AP, Corp Rifle at 2 AP for one glorious opening turn.",
+          "cost": "350 cr"
         }
       ]
     },
@@ -75,24 +165,52 @@
       "budget": "",
       "augments": [
         {
-          "name": "Predictive Targeting",
-          "effect": "+2 accuracy against targets that didn't move last turn",
-          "cost": "600 cr"
-        },
-        {
           "name": "Penetrating Rounds",
-          "effect": "Ranged attacks gain Penetration 1",
-          "cost": "550 cr"
+          "branch": "Marksman",
+          "effect": "Ranged attacks gain Penetration 1 while stationary. Your shots go through armor. Stacks with Armor Crack Rounds — crack it then punch through it.",
+          "cost": "600 cr"
         },
         {
           "name": "Overwatch Protocol",
-          "effect": "Overwatch attacks gain +2 accuracy",
-          "cost": "500 cr"
+          "branch": "Marksman",
+          "effect": "Overwatch attacks gain +2 accuracy and +1 damage per die. The sniper nest is a kill zone.",
+          "cost": "550 cr"
         },
         {
           "name": "Called Shot Algorithm",
-          "effect": "1/combat: declare hit location. Limb: target speed halved for 2 rounds. Weapon arm: target -2 accuracy for 2 rounds",
+          "branch": "Marksman",
+          "effect": "1/combat while stationary: declare hit location before rolling. Limb: target movement halved for 2 rounds. Weapon arm: target -2 accuracy for 2 rounds. Center mass: +2 damage per die.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Predictive Targeting",
+          "branch": "Marksman",
+          "effect": "+2 accuracy against targets that didn't move last turn. You and the target are both still — perfect conditions for a kill shot.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Suppressive Shred",
+          "branch": "Gunslinger",
+          "effect": "3rd+ hit on the same target in one turn: apply Cracked 1 per hit. Standing still and dumping rounds into one target tears their armor apart. Stacks with Marksman's Armor Crack Rounds.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Bullet Storm",
+          "branch": "Gunslinger",
+          "effect": "Once per combat: your next 2 attacks this turn cost -1 AP each (minimum 1). Burst of speed for two extra shots in a critical moment.",
           "cost": "600 cr"
+        },
+        {
+          "name": "Target Saturation",
+          "branch": "Gunslinger",
+          "effect": "When you hit 3+ different targets in the same turn, all hit targets get -1 accuracy on their next attack. You're rattling the entire enemy line.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Lock-On Processor",
+          "branch": "Shared",
+          "effect": "Attacks against the same target on consecutive turns: +1 accuracy (max +2). Resets if you switch targets or move. Rewards committing to a kill.",
+          "cost": "500 cr"
         }
       ]
     },
@@ -104,14 +222,46 @@
       "budget": "",
       "augments": [
         {
-          "name": "Ghost Round",
-          "effect": "1/combat: attack auto-hits. Weapon jams after (trade-off)",
+          "name": "Kill Confirmed",
+          "branch": "Marksman",
+          "effect": "Critical hits deal triple damage dice instead of double. When a Sniper Rifle crits (4d12 → 12d12), the target ceases to exist.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Dead Zone",
+          "branch": "Marksman",
+          "effect": "While stationary and in cover: enemies that enter your line of sight within Medium+ range are automatically targeted — you may make one free ranged attack (0 AP, uses Reaction) against them. Overwatch without the setup cost.",
           "cost": "1,100 cr"
         },
         {
-          "name": "Kill Confirmed",
-          "effect": "Crits deal double damage instead of bonus die",
+          "name": "Deadeye Optics",
+          "branch": "Marksman",
+          "effect": "+2 ranged accuracy permanently. -2 accuracy on melee attacks. Your eyes are optimized for distance — up close, everything's a blur.",
           "cost": "900 cr"
+        },
+        {
+          "name": "Cascade Protocol",
+          "branch": "Gunslinger",
+          "effect": "Each hit in a turn adds +1 damage per die to ALL subsequent attacks that turn. 1st hit: normal. 2nd hit: +1/die. 3rd: +2/die. 4th: +3/die. The avalanche.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Ricochet Processor",
+          "branch": "Gunslinger",
+          "effect": "Once per combat: when you hit a target, deal half the rolled damage (before armor) to one adjacent enemy. The bullet fragments or overpenetrates.",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Gun Kata",
+          "branch": "Gunslinger",
+          "effect": "While stationary and dual-wielding ranged weapons: off-hand accuracy penalty reduced by 2. The turret has two barrels.",
+          "cost": "950 cr"
+        },
+        {
+          "name": "Threat Suppression Field",
+          "branch": "Shared",
+          "effect": "While stationary: all enemies within your weapon's range that you hit this turn have -1 AP on their next turn. You're not just shooting — you're pinning them down. Scales with hit count.",
+          "cost": "950 cr"
         }
       ]
     },
@@ -123,11 +273,101 @@
       "budget": "",
       "augments": [
         {
-          "name": "Perfect Shot",
-          "effect": "1/mission: declare before rolling. Attack auto-crits with maximum damage",
-          "cost": "2,000 cr"
+          "name": "Perfect Machine",
+          "effect": "Passive. While stationary: your first miss each turn automatically becomes a hit (reroll with +4 accuracy). Gunslinger hit chains cannot be broken by your first miss — the chain continues as if you hit. Your accuracy floor is absurdly high. Additionally, Cracked applied by your attacks stacks to a maximum of 3 instead of being single-instance.",
+          "cost": "—"
         }
       ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Synergy Examples"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Marksman Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Targeting Suite → Stabilized Platform → Armor Crack Rounds → Penetrating Rounds → Kill Confirmed + Dead Zone. Find cover. Don't move. First shot cracks armor, penetrates through the rest, and if it crits, the target is deleted. Dead Zone means enemies that try to rush you eat a free shot on approach. The ultimate sniper nest."
+    },
+    {
+      "type": "heading",
+      "text": "Pure Gunslinger Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Rapid Acquisition → Recoil Dampener → Sustained Fire Protocol → Snap Shooter → Cascade Protocol + Gun Kata. Dual Burst Pistols. First round: both pistols at 1 AP each (Snap Shooter). Five attacks in one turn. Each hit escalates accuracy AND damage. By the fourth hit you're at +3 accuracy and +3 damage per die. The room is empty."
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid (The Full Operative)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Targeting Suite → Armor Crack Rounds → Sustained Fire Protocol → Penetrating Rounds → Suppressive Shred → Cascade Protocol. Stand still. First shot cracks armor (Marksman). Second shot penetrates and escalates (both branches). Third shot shreds more armor AND adds cascade damage. By shot four, the target has Cracked 3, you're hitting at +3 accuracy with +3 damage per die, and all that damage is punching through reduced armor."
+    },
+    {
+      "type": "heading",
+      "text": "Marksman + Fortress Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Precision T3 (Penetrating Rounds, Dead Zone) + Fortress T2 (Subdermal Plating, damage reduction). Immovable sniper nest that's also a tank. You don't move because you CAN'T be moved. Heavy armor, high Evasion from cover, and anyone who gets close eats Dead Zone shots while trying to punch through your armor. The bunker."
+    },
+    {
+      "type": "heading",
+      "text": "Gunslinger + Shadow Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Precision T2 (Sustained Fire Protocol, Snap Shooter) + Shadow T2 (Sprint Actuators, Momentum Drive). Turn 1: charge in (Shadow), melee hit, momentum. Turn 2: plant feet, pull pistols, Gunslinger escalation. Alternating between shark and turret. Never the same threat twice."
+    },
+    {
+      "type": "heading",
+      "text": "Gunslinger + Dancer Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Precision T2 (Sustained Fire, Rapid Acquisition) + Dancer T2 (Flow State, Paired Strike). Dual-wielding Burst Pistols with Dancer's penalty reduction AND Gunslinger's escalation. Every shot in the chain gets more accurate and hits harder. The dual-pistol action hero fantasy."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why stationary is the core trigger:</strong> Every other tree rewards movement or aggression. Precision is the anchor — the one build that rewards patience and positioning. In a squad, the Precision user is the base of fire. The Berserker charges in, the Phantom flanks, the Precision user holds the line and makes the lane dangerous. Somebody has to be the foundation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Gunslinger rewards hit count, not attack count:</strong> Misses shouldn't advance your chain. If Gunslinger rewarded attacks regardless of hits, you could spray wildly and still escalate. Making it hit-dependent means accuracy matters even for the volume-of-fire branch. A Gunslinger who can't hit isn't a Gunslinger — they're wasting ammo."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Cracked stacks from Precision:</strong> Armor shred is the Precision user's squad contribution. The Shadow deals personal damage. The Fortress absorbs damage. Precision reduces enemy defenses for the whole team. Cracked applied by your shots helps every ally shooting at that target. It makes the Precision user's first shot each turn one of the most tactically important actions in the round."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the mastery auto-corrects one miss:</strong> Gunslinger chains live and die on hit streaks. One miss at the wrong time kills your entire turn's momentum. Perfect Machine guarantees that your first miss per turn doesn't matter — the chain continues. It doesn't make you infallible (second miss still kills it), but it removes the worst feel-bad moment: missing shot 2 of 5 and watching your whole escalation collapse."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "AP Math — Gunslinger Chains",
+      "text": "• <strong>Burst Pistol (2 AP):</strong> Attack (2 AP) → Attack (2 AP) → 1 AP left. 2 shots, Gunslinger kicks in on shot 2.\n• <strong>With Bullet Storm:</strong> Attack (1 AP) → Attack (1 AP) → Attack (2 AP) → 1 AP left. 3 shots, escalation on 2 and 3.\n• <strong>Dual Burst Pistols:</strong> Main (2 AP) → Off-hand (2 AP) → 1 AP left. 2 shots. Dancer cross-tree or Gun Kata reduces off-hand penalty.\n• <strong>Hand Crossbow (1 AP):</strong> 5 attacks, 0 AP left. Shots 2–5 all get Gunslinger escalation. Maximum chain length but d8 damage each."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "AP Math — Marksman",
+      "text": "• <strong>Corp Rifle (3 AP):</strong> Attack (3 AP) → 2 AP left for Covering Fire, Brace, Spotter Call, or Move (but moving kills Marksman for that turn). 1 devastating shot + tactical support.\n• <strong>Sniper Rifle (5 AP):</strong> Attack (5 AP) → 0 AP left. One shot. Make it count. Marksman bonuses make it terrifying.\n\nThe Precision user's worst nightmare: a swarm of fast melee enemies in a tight room. No range, no cover, forced to reposition constantly. Marksman triggers die. Gunslinger chains are hard to build when everything is in your face. That's why you bring a Berserker — they hold the line so you don't have to move."
     }
   ]
 }

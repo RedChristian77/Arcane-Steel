@@ -282,7 +282,14 @@
         {
           "id": "trees-precision",
           "title": "🎯 Precision",
-          "file": "pages/trees-precision.json"
+          "file": "pages/trees-precision.json",
+          "children": [
+            {
+              "id": "abilities-operative",
+              "title": "Operative Abilities",
+              "file": "pages/abilities-operative.json"
+            }
+          ]
         },
         {
           "id": "trees-rift",
