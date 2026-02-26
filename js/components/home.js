@@ -12,7 +12,9 @@ function renderHome(manifest) {
     + 'A Tabletop RPG of Corporate Dystopia, Dimensional Rifts,<br>'
     + 'and the Grind That Never Stops.<br>'
     + '<em>Sign your waiver.</em>'
-    + '</div></div>';
+    + '</div>'
+    + '<div class="hero-updated">Last Updated: February 26, 2026</div>'
+    + '</div>';
 
   html += '<div class="home-sections">';
   manifest.sections.forEach(section => {
@@ -37,6 +39,16 @@ function renderHome(manifest) {
     + '</div>'
     + '<div class="home-sec-pages">'
     + '<a class="home-page-link" href="builder.html">Launch Builder →</a>'
+    + '</div></div>';
+
+  // Changelog card
+  html += '<div class="home-sec home-sec-builder">'
+    + '<div class="home-sec-hdr">'
+    + '<span class="home-sec-ico">📋</span>'
+    + '<span class="home-sec-title">Changelog</span>'
+    + '</div>'
+    + '<div class="home-sec-pages">'
+    + '<a class="home-page-link" onclick="navigateTo(\'changelog\')">View Changelog →</a>'
     + '</div></div>';
 
   html += '</div>';

@@ -82,6 +82,11 @@ function renderSidebar(manifest, currentPageId) {
   html += '<a class="nav-item builder" href="builder.html">'
     + '<span class="nav-ico">⚙</span> Character Builder</a>';
 
+  // Changelog link
+  html += '<a class="nav-item' + (currentPageId === 'changelog' ? ' active' : '') + '" '
+    + 'onclick="navigateTo(\'changelog\')">'
+    + '<span class="nav-ico">📋</span> Changelog</a>';
+
   nav.innerHTML = html;
 }
 
