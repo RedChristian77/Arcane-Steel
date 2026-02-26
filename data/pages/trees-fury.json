@@ -6,34 +6,139 @@
     {
       "type": "tree-meta",
       "stat_lean": "Chrome / Grit",
-      "theme": "Pain is fuel. Scars are power. The closer to death, the more dangerous you become.",
-      "design": "Fury augments reward taking damage and surviving — not avoiding it."
+      "theme": "Pain is fuel. Scars are power. You don't avoid damage — you convert it into violence. The closer to death, the more dangerous you become.",
+      "design": "The Fury is offense-first melee. Two branches — Wrath (sustained escalation: take damage, get stronger each round) and Carnage (explosive burst: kills chain into more kills) — share the same tree and converge when you're hurt AND killing. No resource pool. No management puzzle. Your HP is your fuel and your Scars are your permanent power-ups."
+    },
+    {
+      "type": "callout",
+      "label": "Critical Rule",
+      "style": "rust",
+      "text": "<strong>Fury has no external resource.</strong> No Toxicity management (that's Leech). No deployable inventory (that's Technician). No ability points or mana. The Fury's \"resource\" is their own HP and their willingness to let it drop. Every augment that makes you stronger requires you to be in danger. Safe Fury = weak Fury."
+    },
+    {
+      "type": "callout",
+      "label": "vs Fortress",
+      "style": "teal",
+      "text": "<strong>Fortress</strong> takes damage to protect allies. <strong>Fury</strong> takes damage to kill faster. Fortress is defensive — their contribution is measured in damage the squad DIDN'T take. Fury is offensive — their contribution is measured in bodies on the ground."
+    },
+    {
+      "type": "callout",
+      "label": "vs Leech",
+      "style": "teal",
+      "text": "<strong>Leech</strong> deliberately injects Toxicity for buffs — controlled, deliberate, with a management puzzle. <strong>Fury</strong> takes damage from ENEMIES and converts it passively — reactive, escalating, with no off-switch. Leech can choose not to Burn. Fury can't choose not to get hit. The escalation is involuntary."
+    },
+    {
+      "type": "callout",
+      "label": "vs Shadow",
+      "style": "teal",
+      "text": "<strong>Shadow</strong> deals burst damage through positioning and speed — hit and run, surgical, controlled. <strong>Fury</strong> deals escalating damage through attrition — wade in, take hits, hit harder, outlast. Shadow is the scalpel. Fury is the sledgehammer."
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Wrath Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you <strong>take damage from any source</strong> (after armor). Wrath augments track cumulative damage taken this encounter. As the total climbs, passive bonuses escalate: accuracy, damage per die, condition resistance, AP cost reduction. The Wrath Berserker gets more dangerous the longer the fight goes. Round 1 they're a competent melee fighter. Round 5 at 25+ damage taken, they're a force of nature."
+    },
+    {
+      "type": "heading",
+      "text": "Wrath Escalation Tracker"
+    },
+    {
+      "type": "table",
+      "headers": ["Damage Taken (cumulative)", "Wrath Tier", "Base Bonus"],
+      "rows": [
+        ["0–9", "None", "—"],
+        ["10+", "Wrath 1", "+1 melee accuracy"],
+        ["20+", "Wrath 2", "+1 melee accuracy, +1 damage per die"],
+        ["30+", "Wrath 3", "+2 melee accuracy, +1 damage per die, +5ft movement"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Healing does NOT reset the tracker.</strong> Damage taken is cumulative and permanent for the encounter. You earned it — it stays."
+    },
+    {
+      "type": "heading",
+      "text": "Carnage Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you <strong>reduce an enemy to 0 HP with a melee attack</strong>. Carnage augments fire on kill. Free attacks, AP refunds, movement, cleave effects, temporary damage spikes. The Carnage Berserker is a snowball — each kill makes the next kill easier. Against hordes, they chain through entire groups. Against single tough targets, Carnage doesn't trigger and you're just a baseline melee fighter."
+    },
+    {
+      "type": "heading",
+      "text": "Combined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Take damage (Wrath escalation climbing) → kill an enemy (Carnage triggers) → Carnage gives free attack → free attack kills another (Carnage chains) → all attacks enhanced by Wrath bonuses. The Berserker in a target-rich environment at Wrath 2+ is a blender — escalated stats feeding kill chains feeding more attacks."
+    },
+    {
+      "type": "heading",
+      "text": "Scar Synergy"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Fury is the only tree that interacts with <strong>Scars as a power source</strong>. Every other class wants Scars treated. The Berserker has a genuine choice: keep the Scar for the combat bonus, or treat it and lose the edge. The DEBUFF from the Scar still applies — you accept the penalty for the power. A 3-Scar Berserker has chronic pain AND +3 melee accuracy. That's the deal."
+    },
+    {
+      "type": "callout",
+      "label": "Natural Counters",
+      "style": "rust",
+      "items": [
+        "<strong>Kiting / ranged enemies</strong> — Fury has no ranged options. Enemies that stay at distance deny both triggers (no damage taken in melee, no kills). You have to close distance, which costs AP you want for attacking.",
+        "<strong>Crowd control</strong> — Stun prevents attacking. A stunned Berserker at Wrath 3 is terrifying potential energy being wasted. Immobilize stops you from reaching targets.",
+        "<strong>Burst damage (one-shot)</strong> — Wrath rewards SUSTAINED damage over many rounds. An enemy that kills you in one hit doesn't give you time to escalate.",
+        "<strong>Single tough enemies (for Carnage)</strong> — Carnage needs kills. Against a boss with 80 HP, Carnage triggers might fire once the entire fight. Pure Carnage builds are horde-killers, not boss-killers.",
+        "<strong>Healing denial</strong> — if the squad can't heal you, your HP becomes a one-way trip. Wrath tracks damage regardless of healing, but you still need HP to survive long enough to USE the escalation.",
+        "<strong>Smart focus fire</strong> — enemies that identify the Berserker as the biggest threat and focus fire can overwhelm even high Grit + armor. Wrath escalation doesn't help if you're dead."
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "AUGMENT TREE"
     },
     {
       "type": "tree-tier",
       "tier": 1,
       "title": "Entry",
-      "req": "0 augments required",
-      "budget": "Minor bonuses. Conditional combat edges. Small survivability bumps.",
+      "req": "0 augments",
+      "budget": "Adrenal Injector provides Scar safety and Wrath trigger bonus. Aggression Chip gives conditional accuracy. Bloodlust starts the kill chain. Pain Dullers and Iron Stomach are cheap survivability.",
       "augments": [
         {
           "name": "Adrenal Injector",
-          "effect": "First scar per mission: 0% death chance",
+          "branch": "Wrath",
+          "effect": "First Scar per mission has 0% death chance (you automatically survive the Scar roll). Additionally: when you first reach Wrath 1 (10 damage taken) each encounter, gain +1 AP that turn. The adrenaline kicks in.",
           "cost": "200 cr"
         },
         {
-          "name": "Pain Dullers",
-          "effect": "+1 max HP",
-          "cost": "150 cr"
-        },
-        {
           "name": "Aggression Chip",
-          "effect": "+1 melee accuracy when below 50% HP",
+          "branch": "Wrath",
+          "effect": "+1 melee accuracy when below 50% HP. Simple, always relevant. The chip overclocks your targeting when your body is failing.",
           "cost": "250 cr"
         },
         {
+          "name": "Bloodlust",
+          "branch": "Carnage",
+          "effect": "When you reduce an enemy to 0 HP with a melee attack, your next melee attack this turn costs -1 AP (minimum 1). Kills give you time for more killing.",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Pain Dullers",
+          "branch": "Shared",
+          "effect": "+2 maximum HP. You can take more before the math catches up.",
+          "cost": "200 cr"
+        },
+        {
           "name": "Iron Stomach",
-          "effect": "+2 to Grit checks for toxicity resistance",
+          "branch": "Shared",
+          "effect": "+2 to Grit checks for Toxicity resistance and condition resistance. Your body fights off everything harder.",
           "cost": "150 cr"
         }
       ]
@@ -42,28 +147,50 @@
       "type": "tree-tier",
       "tier": 2,
       "title": "Adapted",
-      "req": "1 augment required",
-      "budget": "Conditional combat bonuses. HP bumps. Scar interaction begins.",
+      "req": "1 augment",
+      "budget": "Wrath Accelerator drops escalation thresholds by 5 — Wrath 1 at just 5 damage taken. Rage Shunt starts the Scar-as-power loop. Cleave is the basic kill chain. Momentum Charge rewards aggressive engagement.",
       "augments": [
         {
-          "name": "Reinforced Vasculature",
-          "effect": "+2 max HP",
-          "cost": "350 cr"
+          "name": "Rage Shunt",
+          "branch": "Wrath",
+          "effect": "While you have 1+ untreated Scars, gain +1 melee damage die. Your Scars fuel your augments. The first taste of the Scar-as-power loop.",
+          "cost": "400 cr"
         },
         {
-          "name": "Rage Shunt",
-          "effect": "+1 damage die when at 1+ Scars",
+          "name": "Wrath Accelerator",
+          "branch": "Wrath",
+          "effect": "Wrath escalation thresholds decrease by 5 (Wrath 1 at 5 damage, Wrath 2 at 15, Wrath 3 at 25). You escalate faster. The rage comes quicker.",
           "cost": "400 cr"
         },
         {
           "name": "Scar Tissue Adaptation",
-          "effect": "Scar debuffs reduced by 1 tier",
+          "branch": "Wrath",
+          "effect": "Scar debuffs are reduced by 1 tier (a Scar that gives -1 to a stat gives -0 instead; a Scar that gives -2 gives -1). Your body incorporates damage instead of suffering from it. Doesn't remove the Scar — just reduces the penalty.",
           "cost": "350 cr"
         },
         {
-          "name": "Overclocked Adrenals",
-          "effect": "+2 accuracy all melee. +1 auto-Scar per mission (trade-off)",
-          "cost": "500 cr"
+          "name": "Cleave",
+          "branch": "Carnage",
+          "effect": "When your melee attack drops an enemy to 0 HP, you may make a free attack (0 AP) against a different enemy within Close range at -2 accuracy. Once per turn. The basic kill chain — finish one, swing at the next.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Momentum Charge",
+          "branch": "Carnage",
+          "effect": "If you move 10+ feet in a straight line before attacking, your first melee attack this turn deals +1d6 bonus damage. Running start hits harder. Pairs with kill chains — Cleave into free movement into another charge.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Reinforced Vasculature",
+          "branch": "Shared",
+          "effect": "+3 maximum HP. At this point you have 5+ more HP than most classes from augments alone. You're built to absorb hits.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Thick Skin",
+          "branch": "Shared",
+          "effect": "Reduce the duration of all conditions on you by 1 round (minimum 1). Poison, Bleed, Stun, Hex — all tick down faster. Your body processes suffering quickly.",
+          "cost": "300 cr"
         }
       ]
     },
@@ -71,27 +198,49 @@
       "type": "tree-tier",
       "tier": 3,
       "title": "Integrated",
-      "req": "3 augments required",
-      "budget": "Multiplicative Scar bonuses. Kill triggers. Death-defying mechanics.",
+      "req": "3 augments",
+      "budget": "Pain Converter is the core Scar-as-power augment (+1 accuracy per Scar). Rampaging Cleave removes the accuracy penalty on kill chains and allows infinite chaining. Overclocked Adrenals is the biggest accuracy bonus in melee — at the cost of your career.",
       "augments": [
         {
           "name": "Pain Converter",
-          "effect": "+1 accuracy per Scar you have",
+          "branch": "Wrath",
+          "effect": "+1 melee accuracy per untreated Scar you have. At 3 Scars: +3 accuracy. This is the core Scar-as-power augment. A heavily scarred Berserker with Pain Converter is one of the most accurate melee fighters in the game — and one of the most degraded outside combat.",
           "cost": "600 cr"
         },
         {
-          "name": "Blood Frenzy",
-          "effect": "On kill, next attack gains +2 accuracy",
+          "name": "Wrath Overflow",
+          "branch": "Wrath",
+          "effect": "At Wrath 3 (30+ damage taken), gain an additional bonus: all your melee attacks ignore 2 armor. Your rage is so intense it punches through protection.",
           "cost": "550 cr"
         },
         {
-          "name": "Death Grip",
-          "effect": "At 0 HP, make one melee attack before Scar roll",
+          "name": "Undying Fury",
+          "branch": "Wrath",
+          "effect": "While at Wrath 2 or higher, you are immune to Fear, Panic, and Morale effects. You can't be intimidated when the rage is running.",
+          "cost": "500 cr"
+        },
+        {
+          "name": "Blood Frenzy",
+          "branch": "Carnage",
+          "effect": "On kill: your next melee attack this turn gains +2 accuracy AND +2 damage. Stacks if you kill multiple enemies in one turn (second kill = next attack gets +4/+4). Kill chains escalate within a single turn.",
           "cost": "600 cr"
         },
         {
-          "name": "Berserker's Howl",
-          "effect": "1/combat: enemies targeting you take -1 accuracy for 2 rounds",
+          "name": "Rampaging Cleave",
+          "branch": "Carnage",
+          "effect": "Cleave upgrade: free attack on kill no longer has -2 accuracy penalty. Additionally, if the Cleave attack ALSO kills, you get another free Cleave. No limit on chains — as long as you keep killing, you keep swinging.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Bloodbath",
+          "branch": "Carnage",
+          "effect": "On kill: gain 5 temporary HP (lasts until end of encounter, doesn't stack — refreshes on each kill). Kills sustain you. In a horde fight, you're effectively unkillable as long as bodies keep dropping.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Overclocked Adrenals",
+          "branch": "Shared",
+          "effect": "Trade-off. +2 accuracy on ALL melee attacks (permanent, unconditional). However: +1 automatic Scar per mission (you take a Scar at mission end whether you went to 0 HP or not — the augment is burning you out). The highest raw accuracy bonus in any melee tree. The cost is your career lifespan.",
           "cost": "500 cr"
         }
       ]
@@ -100,18 +249,44 @@
       "type": "tree-tier",
       "tier": 4,
       "title": "Experimental",
-      "req": "6 augments required",
-      "budget": "Campaign-defining abilities. Major trade-offs.",
+      "req": "6 augments",
+      "budget": "Wrath Mastery adds Wrath 4 (40+ damage: +3 accuracy, +2/die, +5ft, -1 AP on attacks). Unkillable lets you survive death rolls at the cost of permanent max HP loss. Hurricane and Execution are Carnage's room-clearing tools.",
       "augments": [
         {
           "name": "Blood Engine",
-          "effect": "Heal 1d4 HP on kill",
+          "branch": "Wrath",
+          "effect": "On kill: heal 1d6 HP. Additionally: at Wrath 3, you heal 1 HP at the start of each of your turns. The rage sustains your body. You're being held together by adrenaline and fury.",
           "cost": "900 cr"
         },
         {
+          "name": "Wrath Mastery",
+          "branch": "Wrath",
+          "effect": "New Wrath tier: Wrath 4 at 40+ damage taken. Wrath 4 bonuses: +3 melee accuracy, +2 damage per die, +5ft movement, all melee attacks cost -1 AP (minimum 1). At Wrath 4 you are hitting harder, faster, and more accurately than any melee class in the game. Getting there means you've taken 40+ damage — you're probably at low HP unless heavily healed.",
+          "cost": "1,100 cr"
+        },
+        {
           "name": "Unkillable",
-          "effect": "Failed death roll → survive at 1 HP. Permanent -1 stat (trade-off)",
+          "branch": "Wrath",
+          "effect": "Trade-off. When you fail a Scar death roll (would normally die), you survive at 1 HP instead. Permanent -5 maximum HP each time this triggers (cannot be restored by any means). Your body survives but diminishes. A Berserker who's triggered Unkillable 4 times has lost 20 max HP — they hit like a truck (more Scars = more Pain Converter accuracy) but their HP pool is shrinking. Eventually Wrath can't escalate because you die from two hits instead of six.",
           "cost": "1,200 cr"
+        },
+        {
+          "name": "Execution",
+          "branch": "Carnage",
+          "effect": "Your melee attacks against enemies below 25% HP automatically deal maximum damage (all dice show max value). No roll — if you hit, it's max. Finishing blows are guaranteed devastating. Wounded enemies don't survive contact with you.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Hurricane",
+          "branch": "Carnage",
+          "effect": "Once per encounter: 3 AP. Make a melee attack against EVERY enemy within Close range. Each attack is resolved independently. Kills from Hurricane trigger Cleave and Blood Frenzy normally. In a cluster of wounded enemies, Hurricane into Cleave chains can clear an entire room.",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Death Grip",
+          "branch": "Shared",
+          "effect": "At 0 HP, before your Scar roll, make one free melee attack at +4 accuracy. If this attack kills an enemy, you stay at 1 HP instead of going down (Blood Engine and Terminal Siphon healing apply). Your dying act might save you.",
+          "cost": "900 cr"
         }
       ]
     },
@@ -119,14 +294,122 @@
       "type": "tree-tier",
       "tier": 5,
       "title": "Mastery",
-      "req": "10 augments required",
-      "budget": "Signature capstone. Defines the character.",
+      "req": "10 augments",
+      "budget": "",
       "augments": [
         {
           "name": "Avatar of Pain",
-          "effect": "While at 1+ Scars: +2 all melee damage dice, immune to fear/morale effects, cannot be knocked prone",
-          "cost": "2,000 cr"
+          "effect": "Passive. While you have 1+ untreated Scars: +2 to all melee damage dice, immune to Fear/Panic/Morale effects, cannot be knocked prone. Wrath escalation begins at Wrath 1 immediately (0 damage threshold — you start every fight at Wrath 1 because your Scars are permanent damage). Carnage kill chains have no per-turn limit on Cleave AND Blood Frenzy stacking. On kill: choose one — heal 1d6 HP OR gain +1 AP this turn. Once per encounter: Unstoppable — for 2 rounds, you cannot be reduced below 1 HP by any source. You still take damage (Wrath tracker climbs), you still gain conditions, but you cannot die. When Unstoppable ends, if your HP would be 0 or below, you drop to 0 HP and make a Scar roll.",
+          "cost": "Auto-unlock"
         }
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "CROSS-BUILDS"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Wrath Build (The Immovable Bruiser)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adrenal Injector → Aggression Chip → Wrath Accelerator → Rage Shunt → Pain Converter → Wrath Overflow → Blood Engine → Wrath Mastery.</strong> Every fight: charge in, take hits, escalate. Wrath Accelerator means Wrath 1 at just 5 damage taken — you're escalating by round 2. Pain Converter gives +1 accuracy per Scar. At 3 Scars with Wrath 3: +3 (Scars) + 2 (Wrath 3) + 1 (Aggression Chip at low HP) = +6 melee accuracy. Wrath Overflow ignores 2 armor. Blood Engine heals on kills and at Wrath 3 passively. Wrath 4 (40+ damage) pushes you to +3 accuracy, +2 damage/die, -1 AP on attacks. <em>The problem: you MUST take damage to escalate. Against enemies that ignore you or fight at range, you're a baseline melee fighter with Scar debuffs.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Carnage Build (The Horde Clearer)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adrenal Injector → Bloodlust → Cleave → Momentum Charge → Rampaging Cleave → Blood Frenzy → Bloodbath → Execution → Hurricane.</strong> Kill chains. Savage Rush into a cluster (2 AP, free attack on contact). Kill triggers Cleave (free attack on adjacent enemy). Kill triggers Blood Frenzy (+2 acc/+2 dam on next). Rampaging Cleave means chains continue without accuracy penalty. Bloodbath gives 5 temp HP per kill. Hurricane hits every enemy in Close range. Execution auto-maxes damage on wounded targets. <em>The problem: against a boss or 2-3 elite enemies, Carnage barely triggers. You're a baseline melee fighter with +1 accuracy from Aggressive Stance. No Wrath escalation, no HP scaling.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid Build (The Full Berserker)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Adrenal Injector → Aggression Chip → Wrath Accelerator → Cleave → Pain Converter → Blood Frenzy → Bloodbath → Blood Engine → Wrath Mastery.</strong> Best of both. Wrath escalates as you take damage. Carnage chains when you kill. Against a boss: Wrath carries (escalating stats over time). Against hordes: Carnage carries (kill chains). Blood Engine + Bloodbath = HP recovery from kills AND passive healing at Wrath 3. Pain Converter + Wrath 3 = massive accuracy. <em>The problem: neither branch is at maximum depth. Pure Wrath hits Wrath 4 earlier. Pure Carnage chains harder. The hybrid is the generalist — good everywhere, optimal nowhere.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fury + Leech Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fury T2 (Adrenal Injector, Rage Shunt) + Leech T2 (Furnace Core, Toxin Push).</strong> The irradiated berserker. Scars give accuracy (Pain Converter). Burns give damage dice. A 3-Scar Berserker running Furnace Core + Overdrive has +3 accuracy (Scars) with +2 damage dice and +2 flat damage (Burns). You're stacking two different damage amplification systems. <em>The problem: Leech Burns inject Toxicity with no venting from Fury augments. You need melee hits for Bleed, but Fury doesn't improve accuracy either. You're powerful and fragile in two different ways simultaneously.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fury + Fortress Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Intercept) + Fury T2 (Adrenal Injector, Wrath Accelerator).</strong> The aggressive tank. Fortress armor keeps you alive longer. Intercept redirects attacks to you — fueling Wrath escalation. You're VOLUNTEERING for damage because it makes you stronger. War Cry (mass Taunt) forces enemies to attack you, which is what you want. <em>The problem: Fortress wants you to protect allies through positioning. Fury wants you to kill things. Intercept costs your Reaction, which you might want for offensive tools.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fury + Shadow Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shadow T2 (Sprint Actuators, charge triggers) + Fury T2 (Adrenal Injector, Bloodlust).</strong> The alpha striker. Shadow's charge bonus triggers Carnage's kill chain. Charge into first target (Shadow bonus damage) → kill → Cleave (free attack) → Bloodlust (-1 AP) → kill again → repeat. The first round is devastating. <em>The problem: Shadow wants Reflex/Edge. Fury wants Chrome/Grit. The stat spread is terrible. You do the first round at reduced effectiveness in both trees.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fury + Precision Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Precision T2 (Targeting Suite, accuracy bonuses) + Fury T2 (Adrenal Injector, Cleave).</strong> The accurate berserker. Fury's weakness is no built-in accuracy at low Scar counts. Precision fixes it with Targeting Suite and Marksman bonuses. <em>The problem: Precision wants you to stand still (Marksman trigger). Fury wants you to charge in (Aggressive Stance). You can alternate: Marksman shot turns (ranged accuracy) and Fury charge turns (melee escalation). Functional but identity-split.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fury + Dancer Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dancer T2 (Ambidextrous Wiring, dual-wield bonuses) + Fury T2 (Adrenal Injector, Cleave).</strong> More attacks = more chances to trigger Carnage. Dancer's dual wielding gives you more swings per turn. Each swing that kills triggers Cleave. Dancer's Fluid Movement (free movement after attacking) lets you reposition between kills. <em>The problem: Dancer uses light weapons (Precision Blades). Fury wants heavy weapons (Heavy Axe). The weapon choice determines your identity — light dual-wield for volume, or heavy single-weapon for burst per hit.</em>"
+    },
+    {
+      "type": "divider",
+      "text": "DESIGN NOTES"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Wrath tracks cumulative damage, not current HP:</strong> Tracking \"total damage taken this encounter\" instead of \"current HP percentage\" means healing doesn't reset your escalation. A Berserker who's taken 30 damage, been healed for 15, and is currently at 70% HP still has Wrath 3. They EARNED that escalation. This also means the squad can heal the Berserker without nerfing them. Healing the Fury is always correct."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Scars are a power source:</strong> The Scar system creates the most interesting long-campaign arc in the game. Most classes treat Scars immediately. The Fury has genuine reasons to keep Scars: Pain Converter (+1 accuracy per Scar), Rage Shunt (+1 damage die at 1+ Scars), Avatar of Pain (bonuses with 1+ Scars). A 4-Scar Berserker has +4 accuracy, +1 damage die, and whatever stat penalties come with 4 Scars. The player is making a meaningful campaign-long decision: invest in combat power at the cost of career degradation."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Overclocked Adrenals has an auto-Scar:</strong> +2 unconditional melee accuracy is enormous — no other augment gives this. The cost is +1 Scar per mission whether you go to 0 HP or not. The augment is literally burning you out. Over 5 missions: +5 Scars. With Pain Converter, that's +5 more accuracy — but also 5 more debuffs. Overclocked Adrenals is the \"go fast, die young\" augment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Carnage has no per-turn limit on chains (at T5):</strong> At Avatar of Pain, Rampaging Cleave chains indefinitely. Kill → free attack → kill → free attack → repeat. This SOUNDS broken but is balanced by: (1) each target needs to actually die from the attack, (2) accuracy and damage are still finite, (3) the enemies need to be within Close range of each other, and (4) against elites/bosses, kills are rare. The infinite chain fantasy only activates against clusters of standard enemies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Fury has no resource management:</strong> Every other complex class has a management puzzle. Leech manages Toxicity. Sin Eater manages conditions. Channeler manages Toxicity + HP. Technician manages inventory. The Fury manages NOTHING. You charge, you hit, you take hits, you escalate. The complexity lives in positioning and risk assessment. The simplicity is the point."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the Fury's ceiling is accuracy-gated:</strong> At maximum investment (Pain Converter + Wrath 4 + Overclocked Adrenals + Aggressive Stance), the Berserker has the highest melee accuracy in the game. This is intentional — accuracy is how the Fury scales. Other classes scale through damage dice (Leech Burns), area effects (Channeler Storm), or hit count (Dancer). The Fury scales through \"I never miss.\" Accuracy IS the class."
+    },
+    {
+      "type": "callout",
+      "label": "AP Math — Typical Berserker Turns (5 AP)",
+      "style": "teal",
+      "items": [
+        "<strong>Engage:</strong> Move toward enemy (1 AP, Aggressive Stance +1 accuracy) → Melee attack (2 AP) → Melee attack (2 AP). Net: 2 attacks at +1 accuracy. Simple. Effective.",
+        "<strong>Kill Chain (Carnage):</strong> Savage Rush into cluster (2 AP, free attack on contact, +1d4 damage) → kill triggers Cleave (0 AP, free attack on adjacent) → Bloodlust (-1 AP on next attack) → second attack (1 AP instead of 2). Net: 3 attacks for 4 AP, 1 AP left for movement. If kills chain: potentially 4-5 attacks.",
+        "<strong>Wrath Tank:</strong> War Cry (2 AP, force all enemies to attack you) → Melee attack (2 AP) → Brace (passive, didn't move, +1 Armor). Net: 1 attack, mass aggro, extra armor. Next round: Wrath escalation from all the incoming damage.",
+        "<strong>At Wrath 3 + Frenzy (below 50% HP):</strong> All attacks cost -1 AP. Attack (1 AP) → Attack (1 AP) → Attack (1 AP) → Attack (1 AP) → Move (1 AP). Net: 4 melee attacks at Wrath 3 bonuses (+2 accuracy, +1/die, ignores 2 armor with Overflow).",
+        "<strong>Last Stand + Avatar of Pain (25% HP, 3+ Scars):</strong> Attack (1 AP, Frenzy) × 5. Net: 5 attacks at +2 (Wrath 3) + 3 (Pain Converter) + 2 (Last Stand) = +7 accuracy, +2/die (Wrath) + 2/die (Avatar) + 2/die (Last Stand). Maximum melee damage output in the game. Also at 25% HP and one hit from dying."
       ]
     }
   ]

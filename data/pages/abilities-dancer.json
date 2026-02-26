@@ -9,7 +9,7 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Dual-wielding skirmisher. Constant movement, multi-target pressure, never where the enemy expects. Abilities focus on mobility, combo attacks, and evasion through motion.</em>"
+      "text": "<em>Dual-wielding skirmisher. Abilities provide active tools and techniques around the passive Combo/Momentum augment system — movement options, attack modifiers, and defensive tools for a class that lives or dies on tempo.</em>"
     },
     {
       "type": "heading",
@@ -17,91 +17,54 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>Fluid Movement (Passive):</strong> After making a melee attack, move 1 range band for free (0 AP)."
+      "text": "<strong>Fluid Movement (Passive):</strong> After making a melee attack, move 5ft (1 tile) for free (0 AP, doesn't provoke opportunity attacks). This triggers after EVERY melee attack — two attacks means two free 5ft movements. The Dancer is never standing still. This is the foundation of the entire class — free repositioning between every swing. Combined with Zephyr's Dance of Blades, each hit generates 10ft of free movement."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 — Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Riposte (Passive):</strong> When an enemy misses you in melee, free counterattack with off-hand at -1 accuracy. Once per round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Blade Dance (Passive):</strong> When dual wielding, if both attacks hit the same target, the second deals +2 damage (flat, after armor)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Disengage (Active, 1 AP):</strong> Move 1 range band. No opportunity attacks. Clean exit."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Feint (Active, 1 AP):</strong> Your next attack this turn ignores the target’s Evasion bonus from shields or cover. You fake them out of position."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Quick Draw (Passive):</strong> Switching weapons costs 0 AP instead of 1. You’re always armed with the right tool."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Acrobatic Dodge (Passive):</strong> Once per round, when hit by a ranged attack, reduce damage by your Reflex bonus. You twist out of the shot’s path."
+      "type": "table",
+      "headers": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Riposte", "Tempest", "Passive", "—", "When an enemy misses you in melee, make a free counterattack with your off-hand (0 AP, off-hand accuracy applies). Once per round. Enemy misses feed your Combo Counter — the miss becomes hit #1 of your next turn's chain."],
+        ["Blade Dance", "Tempest", "Passive", "—", "When dual wielding, if both attacks hit the same target this turn, the second deals +2 flat bonus damage. Consistent paired hits are rewarded."],
+        ["Disengage", "Zephyr", "Active", "1 AP", "Move up to your full movement. No opportunity attacks. Clean exit. The escape tool — when you're pinned and need to reset position without getting punished."],
+        ["Feint", "Zephyr", "Active", "1 AP", "Your next melee attack this turn ignores the target's Evasion bonus from shields and cover. You fake them out of position. Setup for a guaranteed hit to start the combo."],
+        ["Acrobatic Dodge", "Shared", "Passive", "—", "Once per round: when hit by a ranged attack, reduce the damage by your Reflex bonus. You twist out of the shot's path. Light armor means ranged hits hurt — this mitigates the worst of it."],
+        ["Quick Draw", "Shared", "Passive", "—", "Switching weapons costs 0 AP (normally 1 AP). Relevant when you want to swap between weapon types mid-combat, or retrieve a thrown weapon."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 — Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Whirlwind (Active, 3 AP):</strong> One melee attack against every enemy within Close range. Same accuracy roll, each target hit/miss independently."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Evasive Stance (Passive):</strong> Dual wielding no longer applies -1 Evasion penalty. Your footwork makes you harder to hit."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Momentum (Passive):</strong> Each consecutive hit (without a miss) gives +1 accuracy to the next attack. Resets on miss."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Skirmish (Passive):</strong> If you moved this turn, your melee attacks get +1 accuracy. Rewards constant movement."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Redirect (Active, 1 AP):</strong> When an enemy attacks you in melee and misses, redirect their attack to an adjacent enemy. Use the original attack roll against the new target’s Evasion. Once per round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Blinding Speed (Active, 2 AP):</strong> Your next 2 attacks this turn cost 0 AP. You move so fast the AP system can’t keep up. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Twin Fangs (Passive):</strong> When dual wielding, if your first attack applies a condition (Bleed, Poison, etc.), your second attack applies it again automatically on hit. Double condition stacking."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>After Image (Passive):</strong> When you move and attack in the same turn, the first melee attack against you before your next turn has -2 accuracy. Your afterimage lingers where you were."
+      "type": "table",
+      "headers": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Momentum", "Tempest", "Passive", "—", "Each consecutive hit without a miss grants +1 accuracy to the next attack. Stacks with Combo Counter bonuses. A 4-hit combo with Momentum: hits 1 → 2 → 3 → 4, gaining +1 → +2 → +3 cumulative accuracy on top of Combo bonuses. Devastating precision through rhythm. Resets on miss."],
+        ["Blinding Speed", "Tempest", "Active", "2 AP", "Your next 2 attacks this turn cost 0 AP. You move so fast the AP system can't keep up. Once per encounter. Enables a turn with 4+ attacks. The combo-starting burst."],
+        ["Skirmish", "Zephyr", "Passive", "—", "If you moved this turn, all your melee attacks get +1 accuracy. Always active for a moving Dancer — which is every turn. Permanent +1 accuracy for doing what you already do."],
+        ["Redirect", "Zephyr", "Active", "Reaction", "When an enemy attacks you in melee and misses, redirect their attack to an adjacent enemy. Use the original attack roll against the new target's Evasion. Once per round. Their swing hits their ally. You weren't there."],
+        ["Twin Fangs", "Shared", "Passive", "—", "When dual wielding, if your first attack applies a condition (Bleed, Poison, Burn from weapon mods), your second attack on the same target applies it again automatically on hit. Double condition stacking — a poisoned blade hits twice, poisons twice."],
+        ["After Image Technique", "Shared", "Active", "1 AP", "Until your next turn: the next attack against you has disadvantage (roll twice, take worse). Your recent movement leaves a ghost of where you were. Once per encounter. Emergency defense for the turn you know you're getting focused."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 — Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Tempest (Passive):</strong> You can attack three different targets per turn. Each resolved independently."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Untouchable (Passive):</strong> While dual wielding and you moved this turn, enemies have -2 accuracy against you until your next turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>One Thousand Cuts (Passive):</strong> Every melee hit in a turn after the second applies Bleed 1 to the target. Third hit: Bleed 1. Fourth hit: Bleed 2. Fifth hit: Bleed 3. The accumulation is devastating."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dance of Death (Active, 4 AP):</strong> Move through every enemy within Close range, making one attack against each. You cannot be attacked during the movement. Resolve all attacks, then end in a position of your choice within Close range. Once per encounter. The signature Dancer move."
+      "type": "table",
+      "headers": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Flurry", "Tempest", "Active", "3 AP", "Make 3 melee attacks against a single target (alternating main/off-hand). Each attack is resolved independently. All 3 count for Combo Counter. Once per encounter. The combo-starting nuke — 3 hits in one action sets up Combo 3 (Triple) immediately."],
+        ["Tempo Shift", "Tempest", "Passive", "—", "At Combo 4+: you may choose to RESET the Combo Counter to 0 and deal bonus damage equal to 2× the combo count on your next hit. A Combo 5 reset = +10 bonus damage on the next swing. Spend the combo for a finisher, then rebuild."],
+        ["Dance of Death", "Zephyr", "Active", "4 AP", "Move through every enemy within Close range, making one attack against each. You cannot be attacked during the movement. Resolve all attacks, then end in any position within Close range. Once per encounter. The signature Dancer move — a single graceful pass through the entire battlefield."],
+        ["Untouchable Stance", "Zephyr", "Passive", "—", "While you moved 5+ tiles this turn: enemies cannot make opportunity attacks against you for any reason. You are too fast to punish. Complete freedom of movement through enemy lines."],
+        ["Weapon Mastery", "Shared", "Passive", "—", "Your light weapons deal +1 damage die (Precision Blade goes from 1d6 to 2d6, Combat Knife from 1d4 to 2d4). The Dancer's individual hit damage finally scales. At T4, you've earned bigger numbers per swing on top of your hit volume."]
+      ]
     }
   ]
 }
