@@ -1,0 +1,69 @@
+{
+  "id": "abilities-operative",
+  "title": "Operative Abilities",
+  "subtitle": "Operative kit progression",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Operative"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>Ranged specialist. Plant your feet, control sightlines, make every shot count. Abilities are trained techniques — firing drills, breathing exercises, spatial awareness. No surgery, just thousands of hours of practice.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "T1 — Baseline (Free)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Steady Aim (Passive):</strong> When you don't move on your turn, your first ranged attack gets +1 accuracy. Stacks with Targeting Suite augment for +2 total while stationary."
+    },
+    {
+      "type": "heading",
+      "text": "T2 — Trained Techniques (300 cr each, 1 downtime)"
+    },
+    {
+      "type": "table",
+      "columns": ["Ability", "Type", "AP", "Effect"],
+      "rows": [
+        ["Spotter Call", "Active", "1 AP", "Designate a target within line of sight. All allies attacking that target this round get +1 accuracy. You're calling the shot for the squad."],
+        ["Brace", "Active", "0 AP", "Once per combat: gain +2 Evasion until the start of your next turn, but you cannot move until then. Dig in and take it."],
+        ["Controlled Breathing", "Passive", "—", "Ignore the first -2 accuracy penalty from any source each turn (suppression, smoke, wound penalties). Training overrides panic."],
+        ["Quick Reload", "Passive", "—", "First reload each encounter costs 0 AP. Muscle memory."],
+        ["Covering Fire", "Active", "1 AP", "Choose an ally. Until the start of your next turn, the first enemy that attacks that ally provokes a free ranged attack from you (uses Reaction, full weapon stats). You're watching their back."],
+        ["Rangefinder", "Passive", "—", "You can estimate exact distances. +1 accuracy on Overwatch attacks. You always know the range."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "T3 — Advanced Techniques (600 cr each, 2 downtime)"
+    },
+    {
+      "type": "table",
+      "columns": ["Ability", "Type", "AP", "Effect"],
+      "rows": [
+        ["Suppressive Doctrine", "Passive", "—", "Your Suppress action (3 AP) now also applies -1 Evasion to all targets in the suppressed zone. You're not just pinning them — you're exposing them."],
+        ["Kill Zone Awareness", "Passive", "—", "While stationary: you have 360° line of sight for Overwatch and Reactions. No one sneaks up on you."],
+        ["Follow-Up Shot", "Active", "0 AP", "Once per combat: immediately after hitting a target, make a second attack against the same target at -2 accuracy. The double-tap."],
+        ["Focus Fire Command", "Active", "1 AP", "Designate a target. All allies that attack this target before your next turn: their first hit applies Cracked 1. The squad focuses fire on your call. Once per encounter."],
+        ["Disabling Shot", "Active", "1 AP", "Your next ranged attack this turn, if it hits, applies one condition (choose when used): Slow (half movement 2 rounds), Disarm (weapon dropped, 1 AP to pick up), or Daze (-2 to next check). Doesn't deal extra damage — it's surgical."],
+        ["Dig In", "Passive", "—", "While in cover and stationary: cover bonus increases by +1 (Light Cover acts as Heavy, Heavy acts as +3). You know how to use every inch of protection."]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "T4 — Master Techniques (1,000 cr each, 3 downtime)"
+    },
+    {
+      "type": "table",
+      "columns": ["Ability", "Type", "AP", "Effect"],
+      "rows": [
+        ["Firing Solution", "Active", "1 AP", "Once per encounter: for the rest of this turn, all your ranged attacks ignore cover bonuses. You've calculated the angles. Nothing is safe."],
+        ["Overwatch Supremacy", "Passive", "—", "Your Overwatch can trigger twice per setup instead of once. Two enemies enter your lane, two enemies get shot."],
+        ["Execution Protocol", "Passive", "—", "When you attack an enemy below 25% HP while stationary: attack automatically hits. Still roll for crit. Finishing shots don't miss."],
+        ["Anchor Point", "Passive", "—", "While you haven't moved for 2+ consecutive turns: all ranged attacks get +1 damage per die and your Evasion increases by +1. The longer you hold position, the more dangerous and harder to dislodge you become. Resets if you move."]
+      ]
+    }
+  ]
+}
