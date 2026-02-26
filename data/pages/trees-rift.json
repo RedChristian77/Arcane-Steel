@@ -1,13 +1,117 @@
 {
   "id": "trees-rift",
-  "title": "🌀 Rift",
+  "title": "\ud83c\udf00 Rift",
   "subtitle": "The Channeler's Path",
   "content": [
     {
       "type": "tree-meta",
       "stat_lean": "Interface / Grit",
-      "theme": "The boundary between dimensions is thin. You make it thinner.",
-      "design": "Rift augments enhance magic use, manage toxicity, and provide unique utility through dimensional manipulation."
+      "theme": "Magic will kill you, but it works. You pull raw dimensional energy through your body and shape it into destruction. Every cast costs Toxicity. The big casts cost HP. The biggest casts cost pieces of you that don't grow back. You are the highest damage dealer in the game \u2014 and the most likely to die from your own power.",
+      "design": "The Channeler is pure DPS. Two branches \u2014 Conduit (single-target: surgical, penetrating, boss-killing) and Storm (AoE: wide, devastating, horde-clearing) \u2014 share the same tree and the same fuel: Toxicity and HP. The Channeler trades survivability for damage output at every level. No healing. No support. No battlefield control that isn't \u201ceverything in that zone is dead.\u201d The cost is real: low HP, Toxicity accumulation, HP sacrifice on big casts, and permanent consequences on the nuclear options."
+    },
+    {
+      "type": "callout",
+      "label": "Critical Rule",
+      "items": [
+        "The Channeler <strong>pays for everything</strong>. Other DPS classes (Shadow, Precision) deal damage for free \u2014 swinging a blade or pulling a trigger costs AP and nothing else. Every Channeler attack costs Toxicity. The big ones cost HP on top. The Channeler's damage ceiling is the highest in the game, but the floor is \u201cdead from your own magic mid-fight.\u201d Resource management IS the class."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Key Differences",
+      "items": [
+        "<strong>vs Shadow:</strong> Shadow deals burst damage through movement and positioning \u2014 free, repeatable, limited by map geometry. Channeler deals burst damage through Toxicity and HP \u2014 expensive, self-destructive, limited by your body's capacity to survive.",
+        "<strong>vs Precision:</strong> Precision deals sustained damage through marksmanship \u2014 consistent, reliable, scales with turns spent shooting. Channeler deals escalating damage through escalating self-harm \u2014 each cast is stronger and more dangerous than the last.",
+        "<strong>vs Sin Eater:</strong> Sin Eater uses Toxicity as a management puzzle \u2014 absorb, redirect, cycle. Channeler uses Toxicity as fuel \u2014 burn it, spend it, accept the consequences. Sin Eater wants to stay in the sweet spot. Channeler wants to push past the sweet spot for more damage and survive the fallout."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Casting System (Explicit / Video Game Ready)"
+    },
+    {
+      "type": "heading",
+      "text": "How Casting Works"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Channeler pulls ambient rift energy through their body and shapes it into effects called <strong>Patterns</strong>. Patterns are organized into four tiers of escalating power and cost. Casting requires the Rift Attunement augment and a <strong>focus</strong> (rift staff, channeling rod, attuned crystal). Without Rift Attunement, you cannot cast. Without a focus, you can cast at increased cost (see Unfocused Casting)."
+    },
+    {
+      "type": "heading",
+      "text": "Casting Accuracy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Single-target patterns:</strong> Interface check vs target's Evasion (same as weapon attacks). Roll to hit. On hit: full damage. On miss: no damage, costs still paid."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AoE patterns:</strong> Auto-hit the targeted tile/zone. Targets in the zone make a Reflex save (DC = 6 + caster's Interface bonus) to take half damage. No accuracy roll from the caster \u2014 you're hitting an area, not a creature."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Self-buff / utility patterns:</strong> Auto-succeed. No roll needed."
+    },
+    {
+      "type": "heading",
+      "text": "Pattern Tiers"
+    },
+    {
+      "type": "table",
+      "columns": ["Tier", "Name", "AP Cost", "Toxicity", "HP Cost", "Other", "Requirement"],
+      "rows": [
+        ["T1", "Flicker", "1 AP", "+1", "\u2014", "2/round max", "Rift Attunement (T1 augment)"],
+        ["T2", "Surge", "2 AP", "+1\u20132", "\u2014", "\u2014", "1+ Rift augment"],
+        ["T3", "Torrent", "3 AP", "+2\u20134", "2\u20135 HP", "\u2014", "3+ Rift augments"],
+        ["T4", "Cataclysm", "4 AP", "+5\u20138", "4\u20138 HP", "Permanent Consequence. 1/mission.", "6+ Rift augments"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Misfire System"
+    },
+    {
+      "type": "paragraph",
+      "text": "Casting at high Toxicity is dangerous. The more contaminated your body, the harder it is to shape energy cleanly."
+    },
+    {
+      "type": "table",
+      "columns": ["Current Toxicity", "Misfire Chance (per cast)", "Backlash on Misfire"],
+      "rows": [
+        ["0\u20135", "0%", "\u2014"],
+        ["6\u201310", "10%", "1d6 per pattern tier"],
+        ["11\u201315", "20%", "1d6 per pattern tier"],
+        ["16\u201320", "30%", "1d6 per pattern tier + prone"],
+        ["20+", "50%", "1d6 per pattern tier + prone + 1 random condition"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Misfire resolution:</strong> The pattern still fires at full effect \u2014 rift energy can't be contained once released. But the caster takes backlash damage (armor-ignoring) equal to 1d6 per tier of the pattern (Flicker = 1d6, Surge = 2d6, Torrent = 3d6, Cataclysm = 4d6). This is in ADDITION to normal HP costs. A Torrent misfire at Toxicity 15 means: pattern fires normally, caster takes 3d6 backlash + the pattern's normal HP cost. Misfires kill Channelers."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Video game implementation:</strong> Roll misfire chance before pattern resolution. If misfire triggers, apply backlash damage to caster, then resolve pattern normally against targets."
+    },
+    {
+      "type": "heading",
+      "text": "Unfocused Casting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Casting without a focus (rift staff, channeling rod, attuned crystal) is possible but costly. Your body becomes the focus."
+    },
+    {
+      "type": "paragraph",
+      "text": "\u2022 All patterns cost +1 additional Toxicity<br>\u2022 Misfire chance increases by +10% at all Toxicity levels<br>\u2022 Torrent and Cataclysm patterns cost +2 additional HP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>When it happens:</strong> Your staff was destroyed. You're restrained. You're desperate. It works. It hurts more."
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "tree-tier",
@@ -18,23 +122,33 @@
       "augments": [
         {
           "name": "Rift Attunement",
-          "effect": "Can use magic-category weapons",
+          "branch": "Shared",
+          "effect": "Required to cast. Unlocks Flicker patterns. Your body can channel rift energy. Without this, you're just a person standing near a rift feeling sick.",
           "cost": "300 cr"
         },
         {
-          "name": "Ambient Siphon",
-          "effect": "Recover 1 HP at end of each combat",
-          "cost": "200 cr"
-        },
-        {
-          "name": "Toxicity Sense",
-          "effect": "Detect rift anomalies and ambient toxicity levels within 30m",
-          "cost": "150 cr"
-        },
-        {
           "name": "Channeling Focus",
-          "effect": "+1 Interface accuracy with magic weapons",
+          "branch": "Shared",
+          "effect": "+1 Interface accuracy on all pattern casting rolls. Better aim, cleaner channeling.",
           "cost": "250 cr"
+        },
+        {
+          "name": "Conduit Alignment",
+          "branch": "Conduit",
+          "effect": "When you hit a single target with a pattern, your next single-target pattern against the SAME target this encounter gets +1 damage per die. Stacks up to +3. Rewards focusing fire on one enemy. Resets if you switch targets.",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Storm Alignment",
+          "branch": "Storm",
+          "effect": "When your AoE pattern damages 2+ enemies, your next AoE pattern this encounter gets +5ft blast radius. Stacks up to +10ft. Resets at encounter end. Rewards hitting groups.",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Ambient Siphon",
+          "branch": "Shared",
+          "effect": "Recover 1 HP at end of each combat. The rift gives back a little of what it takes. Not much.",
+          "cost": "200 cr"
         }
       ]
     },
@@ -46,23 +160,45 @@
       "budget": "",
       "augments": [
         {
+          "name": "Penetrating Focus",
+          "branch": "Conduit",
+          "effect": "Your single-target patterns ignore an additional 1 armor (stacks with pattern's inherent armor ignore). Rift Bolt goes from ignoring 2 to ignoring 3.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Marked for Death",
+          "branch": "Conduit",
+          "effect": "When you hit an enemy with a single-target pattern, they gain Rift Mark for 2 rounds. All attacks against a Rift Marked target (from anyone) deal +1 damage. Squad benefit from your targeting.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Efficient Channeling",
+          "branch": "Conduit",
+          "effect": "Your Surge-tier single-target patterns cost -1 Toxicity (minimum 1). Rift Bolt drops from +1 to +0. Sustainable casting.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Blast Expansion",
+          "branch": "Storm",
+          "effect": "All AoE patterns gain +5ft to their base radius/zone size. More coverage, more targets.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Chain Propagation",
+          "branch": "Storm",
+          "effect": "When your AoE pattern kills an enemy, the rift energy jumps to the nearest enemy within 10ft for 1d4 bonus damage. Killing momentum.",
+          "cost": "400 cr"
+        },
+        {
           "name": "Toxicity Filter",
-          "effect": "Toxicity threshold +2 before harvest risk",
-          "cost": "500 cr"
-        },
-        {
-          "name": "Rift Pulse",
-          "effect": "1/combat: 1d6 magic damage to all adjacent. +1 Toxicity",
+          "branch": "Shared",
+          "effect": "Your Toxicity thresholds shift up by 2 (penalties start at 8 instead of 6, danger zone at 13 instead of 11, etc.). More casting headroom.",
           "cost": "400 cr"
         },
         {
-          "name": "Magic Recycler",
-          "effect": "When you deal magic damage, heal 1 HP (1/round)",
-          "cost": "400 cr"
-        },
-        {
-          "name": "Dimensional Anchor",
-          "effect": "Cannot be forcibly moved or teleported by enemies",
+          "name": "Rift Recycler",
+          "branch": "Shared",
+          "effect": "When you deal rift damage, heal 1 HP (once per round). Tiny sustain. Over 6 rounds of combat, that's 6 HP \u2014 might be the difference.",
           "cost": "350 cr"
         }
       ]
@@ -75,23 +211,51 @@
       "budget": "",
       "augments": [
         {
-          "name": "Rift Shield",
-          "effect": "1/combat: absorb up to 6 damage into toxicity (1 tox per 2 dmg)",
+          "name": "Executioner's Focus",
+          "branch": "Conduit",
+          "effect": "Your single-target patterns deal +50% damage (round up) to targets below 25% HP. Finishing power. The weak die faster.",
           "cost": "600 cr"
         },
         {
-          "name": "Arcane Resonance",
-          "effect": "Magic weapon damage dice upgraded by 1 step",
+          "name": "Armor Eraser",
+          "branch": "Conduit",
+          "effect": "When you hit a target with a single-target pattern, apply Cracked 1 (reduce target's armor by 1, stacks to 3, lasts until end of encounter). Your rift energy degrades physical protection. Squad benefits from the shred.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Overcharge",
+          "branch": "Conduit",
+          "effect": "Before casting any pattern: voluntarily take +2 additional Toxicity to add +1d8 bonus damage. The extra energy hurts you, but it hurts them more. Once per turn.",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Channel Amplifier",
+          "branch": "Storm",
+          "effect": "All AoE patterns deal +1 die of damage (Rift Storm goes from 2d8 to 3d8, Chain Arc from 1d6 to 2d6). Everything hits harder.",
           "cost": "700 cr"
         },
         {
-          "name": "Dimensional Leash",
-          "effect": "1/combat: tether enemy in medium range. Target cannot move more than 1 band from current position for 2 rounds. +1 Toxicity",
+          "name": "Lingering Energy",
+          "branch": "Storm",
+          "effect": "Your AoE zones (Dimensional Tear, Rift Storm scarred terrain) deal +1d4 damage per round to creatures that remain in them. Zones become more punishing over time.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Aftershock",
+          "branch": "Storm",
+          "effect": "When your AoE pattern damages 3+ enemies, all damaged targets are Staggered (-1 AP next turn). Crowd punishment.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Toxicity Weaponization",
+          "branch": "Shared",
+          "effect": "+1 damage per 5 current Toxicity on ALL your attacks (patterns AND weapon attacks). At Toxicity 10 = +2 damage. At Toxicity 15 = +3. Your contamination is your power. The more poisoned you are, the harder you hit.",
           "cost": "600 cr"
         },
         {
-          "name": "Mana Siphon",
-          "effect": "When enemy within short range uses a magic ability, reduce their effect by 1 die and reduce your Toxicity by 1",
+          "name": "Unstable Overcharge",
+          "branch": "Shared",
+          "effect": "Natural maximum on damage rolls (rolling max on any die) triggers a bonus: deal that die's damage again. But +2 Toxicity whenever this triggers. Explosive but unpredictable. <em>(Trade-off augment.)</em>",
           "cost": "550 cr"
         }
       ]
@@ -104,14 +268,46 @@
       "budget": "",
       "augments": [
         {
+          "name": "Focused Annihilation",
+          "branch": "Conduit",
+          "effect": "Your single-target Torrent patterns (Annihilation Beam, Soul Burn) cost 1 less HP. Annihilation Beam drops from 3 HP to 2 HP. Sustainable big damage.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Dimensional Resonance",
+          "branch": "Conduit",
+          "effect": "When you hit the same target with 2+ single-target patterns in one turn, the second pattern deals +2d6 bonus damage. Sequencing rewards. Rift Bolt \u2192 Mind Spike on the same target = Mind Spike gets +2d6.",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Living Battery",
+          "branch": "Conduit",
+          "effect": "+2 Interface accuracy and +1 damage die on ALL patterns. But +1 Toxicity automatically every round in combat (whether you cast or not). You are a reactor running hot. Even standing still poisons you. <em>(Trade-off augment.)</em>",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Cataclysm Engine",
+          "branch": "Storm",
+          "effect": "Your AoE Torrent patterns (Rift Storm, Cascade, Dimensional Tear) cost 1 less HP. Rift Storm drops from 3 HP to 2 HP. Sustainable area destruction.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Recursive Cascade",
+          "branch": "Storm",
+          "effect": "When your AoE kills 2+ enemies in a single cast, immediately cast a free Flicker-tier AoE (Spark Volley or Rift Pulse) centered on one of the corpses. 0 AP, 0 Toxicity. Chain reaction. The only free Flicker in the game.",
+          "cost": "1,100 cr"
+        },
+        {
           "name": "Rift Walker",
-          "effect": "1/combat: short-range teleport (up to 6 squares). +2 Toxicity",
+          "branch": "Shared",
+          "effect": "Unlock Phase Step \u2014 teleport up to Medium range as a movement action (replaces normal movement for the turn). +1 Toxicity per use. Repositioning without the Torrent-tier cost of Phase Walk.",
           "cost": "900 cr"
         },
         {
-          "name": "Mana Burn",
-          "effect": "When you take magic damage, attacker gains +2 Toxicity",
-          "cost": "800 cr"
+          "name": "Dimensional Anchor",
+          "branch": "Shared",
+          "effect": "You cannot be forcibly moved, teleported, or displaced by enemies. Your dimensional presence is locked. Also: your AoE zones cannot be dispelled or moved by enemy effects.",
+          "cost": "900 cr"
         }
       ]
     },
@@ -123,10 +319,123 @@
       "budget": "",
       "augments": [
         {
-          "name": "Dimensional Conduit",
-          "effect": "1/mission: open a small rift. Allies can step through to any location within 100m. +5 Toxicity to caster",
-          "cost": "2,500 cr"
+          "name": "Rift Mastery",
+          "effect": "Passive. All patterns cost -1 Toxicity (minimum 0 for Flickers, minimum 1 for everything else). Misfire chance is halved at all Toxicity levels (6\u201310 = 5%, 11\u201315 = 10%, 16\u201320 = 15%, 20+ = 25%). Flicker limit increases to 3 per round. Flickers cost 0 AP once per turn (first Flicker each turn is free, subsequent Flickers still cost 1 AP). Once per encounter: <strong>Rift Transcendence</strong> \u2014 for 2 rounds, all patterns cost 0 HP (Toxicity still applies). You become pure energy briefly. When Transcendence ends: take 2d6 backlash damage and gain +3 Toxicity. The bill comes due.",
+          "cost": "\u2014"
         }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Synergy Examples"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Conduit Build (The Boss Killer)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Attunement \u2192 Conduit Alignment \u2192 Channeling Focus \u2192 Penetrating Focus \u2192 Marked for Death \u2192 Executioner's Focus \u2192 Overcharge \u2192 Focused Annihilation \u2192 Dimensional Resonance \u2192 Living Battery.</strong> Turn sequence vs boss: Focused Cast (+2 accuracy, 1 AP) \u2192 Rift Bolt (2d8, ignoring 3 armor, +1 damage/die from Conduit Alignment, target gets Rift Mark + Rift Burn, 2 AP) \u2192 Mind Spike (1d8 armor-ignoring + Daze + 2d6 from Dimensional Resonance, 2 AP). Total: 5 AP, ~25+ damage in one turn against a single target, all armor ignored. At Toxicity 15 with Toxicity Weaponization: +3 damage on everything. Living Battery adds +1 die to all patterns but poisons you every round. <em>You WILL kill the boss. You might not survive the fight.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Storm Build (The Horde Clearer)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Attunement \u2192 Storm Alignment \u2192 Channeling Focus \u2192 Blast Expansion \u2192 Chain Propagation \u2192 Channel Amplifier \u2192 Aftershock \u2192 Cataclysm Engine \u2192 Recursive Cascade.</strong> Turn sequence vs mob group: Chain Arc (2d6 to 3 targets, 2 AP, +2 Tox) \u2192 Dimensional Shrapnel (3d6 in expanded radius, 2 AP, +2 Tox) \u2192 Free Rift Pulse if 2+ die from Shrapnel (Recursive Cascade). Aftershock Staggers anyone hit by the Shrapnel if 3+ targets. Storm Alignment grows your radius each time you hit groups. By round 3, your AoE covers massive areas. <em>Mobs don't survive. Carpet Burn leaves the ground scorching. The downside: Toxicity climbs fast with 2+ casts per turn. By round 4 you're at Toxicity 10+ and misfires start.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid Build (The Flexible Channeler)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift Attunement \u2192 Channeling Focus \u2192 Conduit Alignment \u2192 Blast Expansion \u2192 Toxicity Filter \u2192 Toxicity Weaponization \u2192 Overcharge \u2192 Rift Walker.</strong> Switch between Conduit and Storm based on the fight. Boss encounter: stack Conduit Alignment, burn down the priority target with Rift Bolt chains. Horde encounter: blast with Chain Arc and Dimensional Shrapnel. Toxicity Weaponization rewards high Toxicity, Toxicity Filter gives you headroom to get there. <em>Jack of both trades \u2014 you don't hit as hard as a specialist in either lane, but you're never useless regardless of enemy composition.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Channeler + Leech Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channeler T2 (Rift Attunement, Conduit Alignment) + Leech T2 (Empathic Reactor, Toxicity-fueled bonuses).</strong> The Toxicity synergy. Leech augments reward high Toxicity with melee damage bonuses. Channeler patterns generate Toxicity naturally. Cast Rift Bolt (Toxicity goes up) \u2192 close distance \u2192 melee with Leech-enhanced fists (bonus damage from Toxicity). You're a hybrid caster-brawler who gets stronger as they get more contaminated. <em>The danger: two trees that want high Toxicity means you hit the ceiling fast. No one is managing your Toxicity for you.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Channeler + Sin Eater Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channeler T2 (Rift Attunement, Channeling Focus) + Sin Eater T2 (Empathic Link, Transfer Efficiency).</strong> The sustainable caster. Sin Eater's Deep Cleanse (T3) can pull Toxicity off you. A dedicated Sin Eater ally can Absorb your conditions, and the Channeler feeds Toxicity to the Sin Eater for Redirect ammunition. You cast longer because someone else is paying part of your Toxicity bill. <em>The problem: you're splitting augment investment between two trees, so neither is deep.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Channeler + Precision Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channeler T2 (Rift Attunement, Conduit Alignment) + Precision T2 (Marksman bonuses).</strong> The ranged damage hybrid. When Toxicity is low: cast Rift Bolt. When Toxicity climbs: switch to rifle shots with Marksman bonuses. You alternate between magic and marksmanship depending on resource state. Rift Sniper (T3 ability) gives Long range on patterns, matching rifle range. <em>The problem: split augment investment means weaker peaks in both disciplines.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Channeler + Fortress Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Channeler T3 (Rift Attunement, Toxicity Filter, Rift Recycler) + Fortress T2 (Subdermal Plating).</strong> The battle mage. High armor means you survive misfire backlash and HP costs longer. Rift Recycler heals 1 HP/round, armor absorbs incoming damage. You cast big and tank the consequences. <em>The problem: Grit/Chrome (Fortress) vs Interface/Grit (Channeler) \u2014 the stat spread is wide. You're tough but your patterns don't hit as hard.</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why pure DPS with no control:</strong> Every other tree that does damage also does something else. Shadow does damage + mobility. Precision does damage + armor shred + squad support. Technician does damage + terrain control. The Channeler does DAMAGE. That's it. The highest numbers in the game, at the highest cost. No utility, no support, no battlefield control (beyond \u201ceverything in that zone is dead\u201d). If you want control, dip Technician. If you want support, dip Influence. The Channeler's job is to make things die."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Conduit vs Storm instead of Control vs Damage:</strong> Control was the original instinct, but it overlaps with Technician (physical control) and Shaper would've been \u201cmagical Trapper.\u201d The Channeler's fantasy isn't \u201creshape the battlefield\u201d \u2014 it's \u201cI am the most destructive person in this building.\u201d Conduit vs Storm is the purest expression: do you delete one thing or everything? Same power, different targeting."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the casting system changed:</strong> The 2d6 partial-success system (10+/7\u20139/6\u2212) is brilliant for tabletop \u2014 the 7\u20139 range creates narrative tension. But it requires interpretation (what does \u201cpartial effect\u201d mean for each pattern?). For video game implementation, we need binary resolution: hit or miss, damage or no damage. The misfire system replaces the 7\u20139 range's narrative tension with a different kind of tension: \u201cI COULD cast this Torrent at Toxicity 14, and it'll probably be fine, but there's a 20% chance I eat 3d6 backlash on top of the 3 HP cost.\u201d That's a meaningful decision with explicit math."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why misfires still fire the pattern:</strong> Rift energy can't be contained once released. A misfire isn't a fizzle \u2014 it's a detonation that hurts you AND the target. This is important because it means the Channeler is never \u201cwasting\u201d a cast on a misfire. They're just paying extra. The pattern still damages the enemy. The backlash is bonus pain for the caster. This preserves the Channeler's reliability as a DPS \u2014 they always deal damage, they just sometimes also hurt themselves doing it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Cataclysms have permanent consequences:</strong> Cataclysms are the most powerful effects in the game. Annihilation Wave deals 6d10 armor-ignoring damage to a single target. Rift Cataclysm deals 4d10 to a massive area. These effects should end encounters. The permanent consequence (+1 Scar, -1 random stat) ensures they're used only when the stakes justify the cost. A Channeler who fires a Cataclysm every mission is permanently degrading their character. The one who saves it for the mission-critical moment is making the most dramatic choice in the game."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Dimensional Collapse has no friendly fire exception:</strong> It's the most powerful AoE in the game. 5d8 to everything within 15ft, no save. The Channeler who casts this is accepting: \u201cI will kill everything near me, including my allies if they're too close.\u201d This is the final escalation of the Channeler's identity \u2014 at maximum power, they're a danger to everyone, including their own squad. The squad's job is to GET CLEAR when the Channeler announces a Collapse."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Last Resort exists:</strong> The Channeler dies a lot. Low HP, HP sacrifice on big casts, misfire backlash, Toxicity drain. Last Resort ensures that even death is productive \u2014 you go down casting. Thematically perfect: the Channeler's final act is one more bolt, one more pulse, one more moment of destruction before the light goes out. Mechanically: it discourages enemies from focus-firing the Channeler because killing them triggers a free Surge."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Siphon is the only self-heal:</strong> The Channeler has no healing support, no damage mitigation (except Rift Shield as a Reaction), and actively spends HP to cast. Siphon (1d8 damage, heal for amount dealt, +2 Toxicity) is the only way to recoup HP mid-fight through the pattern system. It's inefficient \u2014 you're spending 2 AP and +2 Toxicity for maybe 5 HP \u2014 but it might keep you alive one more round. The Channeler's sustain is bad ON PURPOSE. You're not supposed to survive comfortably. You're supposed to kill everything before you burn out."
+    },
+    {
+      "type": "callout",
+      "label": "AP Math \u2014 Typical Channeler Turns (5 AP)",
+      "items": [
+        "<strong>Sustainable DPS:</strong> Rift Spark (1 AP, +1 Tox) \u2192 Rift Bolt (2 AP, +1 Tox) \u2192 Move (1 AP) \u2192 Rift Spark (1 AP, +1 Tox). Net: 5 AP, 2d8 + 2\u00d71d6 damage, +3 Toxicity. Clean, efficient, fills the whole turn.",
+        "<strong>All-In Single Target:</strong> Focused Cast (1 AP) \u2192 Overcharge (+2 Tox, +1d8 damage) \u2192 Annihilation Beam (3 AP, +3 Tox, 3 HP, now 4d8+1d8) \u2192 Rift Spark (1 AP, +1 Tox). Net: 5 AP, 5d8 + 1d6, +6 Toxicity, 3 HP. No movement \u2014 you're rooted and dumping everything into one target.",
+        "<strong>AoE Clear:</strong> Chain Arc (2 AP, +2 Tox, hits 3 targets) \u2192 Dimensional Shrapnel (2 AP, +2 Tox, hits zone) \u2192 Move (1 AP). Net: 5 AP, AoE damage across potentially 6+ enemies, +4 Toxicity. No Flicker \u2014 you need to reposition.",
+        "<strong>Emergency:</strong> Siphon (2 AP, +2 Tox, heal for damage dealt) \u2192 Rift Meditation (2 AP, -2 Tox) \u2192 Shimmer Ward (1 AP, +1 Tox, +1 Evasion). Net: 5 AP, small heal, Toxicity +1 net, slightly harder to hit. Survival turn.",
+        "<strong>Nuclear:</strong> Annihilation Wave (4 AP, +6 Tox, 6 HP, 6d10 damage, +1 permanent Scar) \u2192 Rift Spark (1 AP, +1 Tox). Net: 5 AP, boss is probably dead. You have a new Scar and you're at dangerously high Toxicity. Was it worth it?"
       ]
     }
   ]

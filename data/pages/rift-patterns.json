@@ -1,207 +1,174 @@
 {
   "id": "rift-patterns",
   "title": "Rift Patterns",
-  "subtitle": "Tier 1–4 spells",
+  "subtitle": "Tier 1\u20134 spells",
   "content": [
     {
-      "type": "blockquote",
-      "text": "<em>Small manipulations. The rift equivalent of flicking a lighter. Costs toxicity and nothing else.</em>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Cost:</strong> +1 Toxicity per use. No AP cost — Flickers are fast enough to use alongside other actions. <strong>Limit:</strong> Up to 2 Flickers per round (your body can only handle so much passive channeling)."
-    },
-    {
       "type": "heading",
-      "text": "Defined Flickers"
-    },
-    {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Pattern</strong>             <strong>Stat</strong>                <strong>Effect</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Spark</strong>          Interface               Ranged attack. 1d6 damage, short range. No accuracy roll — auto-hits but can be dodged (target rolls Reflex DC 6 to halve). The simplest offensive magic. Point, burn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Shimmer Ward</strong>        Grit                    +1 Evasion for 1 round. Your outline blurs with dimensional static. Subtle, brief, effective."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Sense</strong>          Edge                    Detect all rift energy sources within medium range. See through rift illusions. Identify if an object/creature is rift-touched. Lasts 1 round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Toxin Purge</strong>         Grit                    Immediately remove 1 stack of Poison from yourself or a touched ally. Your rift energy burns out the biological toxin. Ironic — using magic toxicity to cure mundane toxicity."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Force Nudge</strong>         Interface               Telekinetic push. Move one object (up to 10kg) or shove one creature 1 square. Not enough force to deal damage. Enough to knock something off a ledge."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dimensional Whisper</strong> Edge                    Send a short mental message (10 words max) to one target within medium range. They hear your voice in their head. They cannot respond unless they also have this pattern. Unsettling for the recipient. ----------------------- ----------------------- -----------------------"
+      "text": "Flickers (Tier 1) \u2014 Cantrips"
     },
     {
       "type": "blockquote",
-      "text": "<em>Real combat magic. Costs 3 AP plus toxicity.</em>"
+      "text": "<em>1 AP, +1 Toxicity each. 2 per round maximum. The rift equivalent of flicking a lighter. Cheap, not free \u2014 every Flicker is AP you're not spending on a Surge or moving.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Cost:</strong> +1-2 Toxicity (listed per pattern) + 3 AP. <strong>Casting Roll:</strong> 2d6 + stat bonus. 10+ = full effect, 7-9 = partial effect, 6- = misfire (see Misfires)."
+      "type": "table",
+      "columns": ["Pattern", "Type", "Stat", "Effect"],
+      "rows": [
+        ["Rift Spark", "Conduit", "Interface", "Ranged attack, Medium range. 1d6 rift damage vs Evasion. Ignores 1 armor."],
+        ["Spark Volley", "Storm", "Interface", "Ranged attack, Close range. 1d4 rift damage to up to 2 adjacent targets. Each target saves vs Reflex (DC 6 + Interface) for half."],
+        ["Shimmer Ward", "Utility", "Grit", "Self-buff. +1 Evasion for 1 round."],
+        ["Force Nudge", "Utility", "Interface", "Push one creature 1 tile or move one object (up to 10kg). No damage."],
+        ["Rift Sense", "Utility", "Edge", "Detect all rift energy sources, hidden rift creatures, and Toxicity concentrations within Medium range for 1 round."],
+        ["Toxin Purge", "Utility", "Grit", "Remove 1 stack of Poison from yourself or a touched ally. Rift energy burns out mundane toxin."]
+      ]
     },
     {
       "type": "heading",
-      "text": "Defined Surges"
-    },
-    {
-      "type": "paragraph",
-      "text": "----------------- ----------------- ----------------- --------------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Pattern</strong>       <strong>Stat</strong>          <strong>Tox</strong>           <strong>Effect</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Bolt</strong>     Interface         +1                Ranged attack. Roll 2d6 + Interface. On 10+: deal 2d8 damage to one target, medium range. On 7-9: deal 1d8 damage. Ignores 1 point of Armor (rift energy bypasses physical protection partially)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Chain Arc</strong>     Interface         +2                Lightning-like energy arcs between targets. Roll 2d6 + Interface. On 10+: deal 1d6 damage to up to 3 targets within short range of each other. On 7-9: hits 2 targets, 1d6 each."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Shield</strong>   Grit              +1                Defensive barrier. Roll 2d6 + Grit. On 10+: gain 4 temporary Armor until start of your next turn. On 7-9: gain 2 temporary Armor. Stacks with worn armor. Visible as a crackling energy field."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dimensional     Grit              +2                Lock down a zone. Roll Anchor</strong>                                              2d6 + Grit. On 10+: create a 3×3 zone where nothing can teleport, phase, or dimensionally shift for 3 rounds. On 7-9: lasts 1 round. Affects allies and enemies equally."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Mind Spike</strong>    Interface         +2                Mental assault. Roll 2d6 + Interface vs target’s Grit. On 10+: target takes 1d6 damage (ignores all Armor) and is disoriented (-2 to next action). On 7-9: 1d4 damage, no disorientation. Only works on creatures with a nervous system."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Sight</strong>    Edge              +1                See through walls, floors, and cover within short range for 1 round. Roll 2d6 + Edge. On 10+: full vision, identify all creatures/objects/traps. On 7-9: outlines only — you know something’s there but not what."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Gravity Well</strong>  Interface         +2                Manipulate local gravity. Roll 2d6 + Interface. On 10+: one target within medium range is pulled/pushed 3 squares in a direction of your choice and knocked prone. On 7-9: moved 1 square, not prone."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Siphon</strong>        Grit              +2                Drain vitality from a target. Roll 2d6 + Grit vs target’s Grit. On 10+: deal 1d6 damage, heal yourself for the amount dealt. On 7-9: deal 1d4, heal for half. Cannot heal above max HP."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Fog of          Edge              +1                Conjure a cloud of Elsewhere</strong>                                           dimensional static. Roll 2d6 + Edge. On 10+: create a 3×3 fog zone. All attacks through it take -3 accuracy. Lasts 3 rounds. On 7-9: lasts 1 round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Compel</strong>        Edge              +2                Force a weak-willed creature to take one specific action. Roll 2d6 + Edge vs target’s Grit. On 10+: target obeys for 1 round (can’t compel suicide/self-harm). On 7-9: target hesitates — loses their Act next turn but doesn’t obey. Only works on Standard or weaker enemies. ----------------- ----------------- ----------------- --------------------------"
+      "text": "Surges (Tier 2) \u2014 Combat Spells"
     },
     {
       "type": "blockquote",
-      "text": "<em>Major effects that reshape the battlefield. Costs 4 AP, toxicity, AND hit points — you are burning your own body to fuel this.</em>"
+      "text": "<em>2 AP, +1\u20132 Toxicity. Real power. Requires 1+ Rift augment. Single-target Surges roll Interface vs Evasion. AoE Surges auto-hit the tile; targets make a Reflex save (DC 6 + Interface) for half.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Cost:</strong> +2-4 Toxicity (listed per pattern) + Act + HP sacrifice (listed per pattern). <strong>Casting Roll:</strong> 2d6 + stat bonus. Same success brackets. Misfires at T3 are more dangerous (see Misfires)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Requirement:</strong> 3+ Rift augments installed."
+      "type": "table",
+      "columns": ["Pattern", "Type", "Stat", "Tox", "Effect"],
+      "rows": [
+        ["Rift Bolt", "Conduit", "Interface", "+1", "Ranged attack, Medium range. 2d8 rift damage vs Evasion. Ignores 2 armor. The workhorse single-target nuke."],
+        ["Mind Spike", "Conduit", "Interface", "+2", "Ranged attack, Medium range. Interface vs target's Grit. 1d8 damage (ignores ALL armor) + Daze (-2 to target's next action). Only works on creatures with a nervous system."],
+        ["Siphon", "Conduit", "Grit", "+2", "Ranged attack, Medium range. Grit vs target's Grit. 1d8 damage. Caster heals for damage dealt (cannot exceed max HP). The only self-sustain in the Channeler's kit."],
+        ["Gravity Crush", "Conduit", "Interface", "+2", "Ranged attack, Medium range. Interface vs Evasion. 1d10 damage + target is Immobilized for 1 round (can still act but can't move)."],
+        ["Chain Arc", "Storm", "Interface", "+2", "Lightning arcs between targets. Hits up to 3 enemies within Close range of each other. 1d6 rift damage each. Each target saves vs Reflex for half."],
+        ["Rift Pulse", "Storm", "Interface", "+1", "All enemies within Close range of caster take 1d6 rift damage. Reflex save for half. Point-blank AoE \u2014 the panic button."],
+        ["Dimensional Shrapnel", "Storm", "Interface", "+2", "Target a tile within Medium range. 2d6 rift damage to all creatures within 5ft of the tile. Reflex save for half. Grenade-equivalent but costs Toxicity instead of credits."],
+        ["Fog of Elsewhere", "Utility", "Edge", "+1", "Create a 10ft\u00d710ft fog zone at Medium range. All attacks through it take -3 accuracy. Lasts 3 rounds. Blocks line of sight for everyone."]
+      ]
     },
     {
       "type": "heading",
-      "text": "Defined Torrents"
-    },
-    {
-      "type": "paragraph",
-      "text": "--------------- -------------- -------------- -------------- ---------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Pattern</strong>     <strong>Stat</strong>       <strong>Tox</strong>        <strong>HP</strong>         <strong>Effect</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Storm</strong>  Interface      +3             3 HP           Area bombardment. Roll 2d6 + Interface. On 10+: deal 2d8 damage to all creatures in a 4×4 zone, medium range. On 7-9: 1d8 damage, 3×3 zone. Terrain in the zone is dimensionally scarred — counts as difficult terrain for 1 hour."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dimensional   Interface      +4             4 HP           Rip a small Tear</strong>                                                       hole in reality. Roll 2d6 + Interface. On 10+: create a 2×2 rift tear. Anything entering takes 2d6 damage per round. Lasts 3 rounds or until dismissed. On 7-9: 1×1 tear, 1d6 damage, 2 rounds. The tear may attract rift creatures (GM discretion)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Iron Body</strong>   Grit           +3             2 HP           Your body becomes partially dimensional. Roll 2d6 + Grit. On 10+: for 3 rounds, you gain +3 Armor, are immune to Poison stacks, and your melee attacks deal +1d4 rift damage. On 7-9: lasts 1 round. When it ends, you’re exhausted: -1 to all checks for 1 round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Mass Heal</strong>   Grit           +3             5 HP           Channel your own vitality outward. Roll 2d6 + Grit. On 10+: all allies within short range heal 1d6+2 HP. On 7-9: heal 1d4 HP each. You sacrifice more than they gain. The math doesn’t work in your favor. That’s the point."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Temporal      Edge           +4             3 HP           Briefly break Stutter</strong>                                                    causality. Roll 2d6 + Edge. On 10+: choose one — rewind one ally’s last action (they redo it with new information), or force one enemy to repeat their last action identically. On 7-9: you can only affect yourself."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dominate</strong>    Edge           +4             4 HP           Total mental control over one creature. Roll 2d6 + Edge vs target’s Grit (with -2 for Elites, -4 for Bosses). On 10+: you control the target for 2 rounds. They act on your turn. Full control. On 7-9: 1 round. When control ends, the target knows what happened and is hostile."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Phase Walk</strong>  Interface      +2             2 HP           Step between dimensions. Roll 2d6 + Interface. On 10+: teleport up to long range, passing through all physical obstacles. Arrive with +2 Evasion for 1 round (partially phased). On 7-9: teleport to medium range, no Evasion bonus. --------------- -------------- -------------- -------------- ---------------"
+      "text": "Torrents (Tier 3) \u2014 Major Damage"
     },
     {
       "type": "blockquote",
-      "text": "<em>The nuclear option. Once per mission. Reshapes reality locally. The cost isn’t just toxicity and HP — there’s always a consequence.</em>"
+      "text": "<em>3 AP, +2\u20134 Toxicity, HP sacrifice. You are burning your own body to fuel this. Requires 3+ Rift augments.</em>"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Cost:</strong> +5-8 Toxicity + Act + HP sacrifice + <strong>a Consequence</strong> (permanent or mission-lasting). <strong>Casting Roll:</strong> 2d6 + stat bonus. On 6-, the Cataclysm still fires — but the consequence doubles."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Requirement:</strong> 6+ Rift augments installed. <strong>Limit:</strong> Once per mission. Your body physically cannot do this twice."
+      "type": "table",
+      "columns": ["Pattern", "Type", "Stat", "Tox", "HP", "Effect"],
+      "rows": [
+        ["Annihilation Beam", "Conduit", "Interface", "+3", "3 HP", "Single target, Long range. Interface vs Evasion. 4d8 rift damage. Ignores ALL armor. The single hardest-hitting attack in the game at this tier."],
+        ["Dimensional Lance", "Conduit", "Interface", "+3", "3 HP", "Line attack \u2014 pierces through all targets in a straight line, Long range. 2d8 to each target hit. Interface vs each target's Evasion. Ignores 2 armor."],
+        ["Soul Burn", "Conduit", "Interface", "+4", "4 HP", "Single target, Medium range. Interface vs Grit. 3d8 damage (ignores ALL armor) + apply Burn 1d4 (1d4/round, 3 rounds). If target is already Burning, apply Meltdown instead: 2d6 immediate damage on top of existing Burn."],
+        ["Rift Storm", "Storm", "Interface", "+3", "3 HP", "Area bombardment. Target a 15ft\u00d715ft zone at Medium range. 2d8 rift damage to all creatures in the zone. Reflex save for half. Terrain in the zone becomes difficult terrain for 1 hour (dimensionally scarred)."],
+        ["Cascade", "Storm", "Interface", "+4", "4 HP", "Chain reaction. Target one creature at Medium range. On hit: 2d8 damage. The energy then jumps to the nearest creature within 10ft: 1d8 damage. Then jumps again: 1d6 damage. Up to 5 total targets. Each jump is automatic (no accuracy roll, Reflex save for half)."],
+        ["Dimensional Tear", "Storm", "Interface", "+4", "4 HP", "Rip a hole in reality. Create a 10ft\u00d710ft rift zone at Medium range. Anything entering or starting their turn in the zone takes 2d6 rift damage (no save). Lasts 3 rounds or until dismissed. The zone is impassable terrain."],
+        ["Iron Body", "Utility", "Grit", "+3", "2 HP", "Self-buff. For 3 rounds: +3 armor, immune to Poison, melee attacks deal +1d4 rift damage. When it ends: -1 to all checks for 1 round (exhaustion)."],
+        ["Phase Walk", "Utility", "Interface", "+2", "2 HP", "Teleport up to Long range, passing through all physical obstacles. Arrive with +2 Evasion for 1 round. Repositioning without movement."]
+      ]
     },
     {
       "type": "heading",
-      "text": "Defined Cataclysms"
+      "text": "Cataclysms (Tier 4) \u2014 Nuclear Options"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>4 AP, +5\u20138 Toxicity, HP sacrifice, permanent Consequence. Once per mission. Requires 6+ Rift augments. The Consequence: Every Cataclysm inflicts a permanent consequence on the caster in addition to all other costs. This is the price of wielding reality-breaking power.</em>"
+    },
+    {
+      "type": "table",
+      "columns": ["Pattern", "Type", "Stat", "Tox", "HP", "Consequence", "Effect"],
+      "rows": [
+        ["Annihilation Wave", "Conduit", "Interface", "+6", "6 HP", "+1 permanent Scar", "Single target, Long range. Interface vs Evasion. 6d10 rift damage. Ignores ALL armor. If target survives: they are Staggered for 2 rounds and take Burn 2d4 (2d4/round, 3 rounds). This kills most non-boss enemies outright."],
+        ["Unmaking", "Conduit", "Interface", "+8", "8 HP", "Permanent -1 to a random stat", "Single target, Medium range. Interface vs Grit. 5d12 rift damage. Ignores ALL armor. Target's current armor is permanently reduced by 2 for the rest of the mission (dimensional erosion). If the target dies, the body is gone \u2014 dimensional disintegration. No loot. No corpse."],
+        ["Rift Cataclysm", "Storm", "Interface", "+6", "6 HP", "+1 permanent Scar", "Massive area. 20ft\u00d720ft zone at Medium range. 4d10 rift damage to all creatures in the zone. Reflex save for half. Zone becomes a permanent rift scar \u2014 difficult terrain, +1 Toxicity/round to anyone standing in it, persists after combat."],
+        ["Dimensional Collapse", "Storm", "Interface", "+8", "8 HP", "Permanent -1 to a random stat", "Everything within 15ft of caster. 5d8 rift damage to ALL creatures (enemies AND allies \u2014 no friendly fire exception). No save. Caster takes 2d8 additional self-damage. Reality buckles. The area is dimensionally unstable for 24 hours \u2014 random minor anomalies, gravity fluctuations, temporal echoes. The scorched earth option."]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Future Ideas (TTRPG Sandbox)"
     },
     {
       "type": "paragraph",
-      "text": "---------------- ----------- ----------- ----------- ----------------- ---------------"
+      "text": "The explicit pattern catalog above is the foundation \u2014 deterministic, stateless, implementable in code. The following systems are preserved for tabletop play where a GM can interpret results, negotiate effects, and make judgment calls. These are NOT part of the video game implementation but remain available for TTRPG campaigns."
+    },
+    {
+      "type": "heading",
+      "text": "Improvised Channeling"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Pattern</strong>      <strong>Stat</strong>    <strong>Tox</strong>     <strong>HP</strong>      <strong>Consequence</strong>   <strong>Effect</strong>"
+      "text": "Describe the effect you want. The GM assigns a tier equivalent, stat, and cost (standard for that tier + surcharge). You pay the costs and roll 2d6 + stat. 10+ = full effect, 7\u20139 = partial/twisted effect, 6\u2212 = misfire. Improvisation always costs more than a defined Pattern."
+    },
+    {
+      "type": "table",
+      "columns": ["Tier Equivalent", "Surcharge"],
+      "rows": [
+        ["Flicker", "+1 additional Toxicity"],
+        ["Surge", "+1 additional Toxicity"],
+        ["Torrent", "+2 additional Toxicity + 1 HP"],
+        ["Cataclysm", "+3 additional Toxicity + 2 HP"]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Annihilation   Interface   +6          6 HP        +1 permanent      Roll 2d6 + Wave</strong>                                               Scar. The energy  Interface. On tears through     10+: deal 4d10 your body.        damage to everything in a massive cone (6 squares long, 4 wide at end). Ignores all Armor. On 7-9: 2d10, smaller cone (4×3). On 6-: it fires but you also take 2d10 and the cone is random direction."
+      "text": "<strong>When to improvise:</strong> The situation demands something no Pattern covers. You're combining elements. You're pushing a Pattern beyond its design. The surcharge balances the flexibility. GMs: be generous \u2014 if the player describes something cool and pays the cost, make it work on a good roll."
+    },
+    {
+      "type": "heading",
+      "text": "Ritual Casting (Out of Combat)"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Reality        Interface   +8          4 HP        Area becomes a    Roll 2d6 + Collapse</strong>                                           permanent         Interface. On unstable rift     10+: create a zone. It will     6×6 zone where never fully heal. physics breaks You did this.     for 5 rounds. Inside: gravity shifts randomly each round, all non-rift damage is halved, all rift damage is doubled, teleportation is free for anyone. On 7-9: 4×4 zone, 3 rounds."
+      "text": "Some effects are too complex for combat's pace. Ritual casting allows Torrents and Cataclysms to be cast outside combat with reduced risk and enhanced effect."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Resurrection   Grit        +6          8 HP + 1    Your current      Roll 2d6 + Pulse</strong>                                  Scar from   toxicity          Grit. On 10+: the caster  permanently       one ally who increases its     died THIS floor by 2 (can   COMBAT (hit 0 never go below    HP and failed current - 2 after their Scar this casting).    roll) is brought back at 1 HP with +1 Scar. They were dead. Now they aren’t. On 7-9: they return at 1 HP but with +2 Scars and disoriented for 3 rounds."
+      "text": "<strong>Requirements:</strong> 10 minutes of uninterrupted concentration per tier, appropriate materials (rift crystals, chalk, ambient rift energy \u2014 GM determines), casting check with advantage."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Mind Break</strong>   Edge        +5          5 HP        You experience    Roll 2d6 + Edge the target’s     vs target’s mind fully. Gain  Grit. On 10+: one of their      target’s mind fears as your own is shattered. (permanent -1 to  They are checks involving  stunned for 3 that fear, GM     rounds, lose determines).      access to all augments for the rest of combat, and flee when the stun ends. Works on anything with a mind, including Bosses (-4 penalty still applies). On 7-9: stunned 1 round, augments disabled 2 rounds."
+      "text": "<strong>Benefits:</strong> HP cost halved (round up). Misfire table one tier lower. Effects can be enhanced (GM negotiates \u2014 wider area, longer duration, additional targets)."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Dimensional    Interface   +7          6 HP        A piece of you    Roll 2d6 + Exile</strong>                                              goes with them.   Interface. On -1 Interface      10+: banish one permanently (the  creature to rift took a piece another of your mind).    dimension. They’re gone. Completely. If they can dimensionally travel, they can return in 1d6 missions. If they can’t, they’re gone forever. On 7-9: banished for 1d6 rounds, then they return — angry. On 6-: you both go. The team has to find you. ---------------- ----------- ----------- ----------- ----------------- ---------------"
+      "text": "<strong>Costs:</strong> Full Toxicity. Full Consequences for Cataclysms. Interruption during ritual = automatic Misfire at pattern's tier + Toxicity paid."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ritual uses:</strong> Ward a safe house. Seal a rift tear. Purify a contaminated area. Scry a distant location. Create a dimensional anchor. Enchant an item temporarily. The rift can do almost anything if you give it enough time and enough of yourself."
+    },
+    {
+      "type": "heading",
+      "text": "Overchannel (Push Beyond Limits)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Announce before any cast. Double all costs (Toxicity, HP, Consequences). Effect is dramatically amplified \u2014 double damage, double area, double duration (GM determines specifics). Automatic misfire check regardless of Toxicity level. If misfire triggers: consequences are tripled instead of doubled. Overchannel represents pulling more power than your body can handle. It's the \u201cI don't care if it kills me\u201d option."
+    },
+    {
+      "type": "heading",
+      "text": "Custom Consequence Table (Cataclysms)"
+    },
+    {
+      "type": "paragraph",
+      "text": "GMs can replace the standard Consequences with narrative consequences that fit the situation:"
+    },
+    {
+      "type": "table",
+      "columns": ["Roll (d6)", "Consequence"],
+      "rows": [
+        ["1", "Permanent Scar. The energy tears through you. Standard Scar rules apply."],
+        ["2", "Stat Degradation. -1 to a random stat permanently. Your body is diminished."],
+        ["3", "Mutation. Gain a random mutation (roll on mutation table). Might be useful. Might be horrifying."],
+        ["4", "Dimensional Echo. A copy of you from another dimension appears. It's hostile, has your stats, and lasts 1d4 rounds. Fight yourself."],
+        ["5", "Rift Scar. The area is permanently marked. Rift creatures are drawn to it. The location is changed forever."],
+        ["6", "Memory Burn. Lose 1d4 sessions worth of skill progress (LP). The energy burned neural pathways. You forgot things you knew."]
+      ]
     }
   ]
 }

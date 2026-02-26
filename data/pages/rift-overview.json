@@ -9,7 +9,7 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>“Rift energy channeling is not ’magic.’ It is the scientifically documented manipulation of extradimensional particle fields through biological neural interfaces. That it looks like magic, feels like magic, and occasionally turns the caster inside out is purely coincidental. Please refer to it as ’Applied Dimensional Resonance’ in all official documentation.“</em>"
+      "text": "<em>\u201cRift energy channeling is not \u2018magic.\u2019 It is the scientifically documented manipulation of extradimensional particle fields through biological neural interfaces. That it looks like magic, feels like magic, and occasionally turns the caster inside out is purely coincidental. Please refer to it as \u2018Applied Dimensional Resonance\u2019 in all official documentation.\u201d</em>"
     },
     {
       "type": "heading",
@@ -17,63 +17,39 @@
     },
     {
       "type": "paragraph",
-      "text": "Magic in 3025 is ambient. It leaks from dimensional rifts, saturates the environment, and slowly poisons everything it touches. Most people avoid it. Channelers <em>use</em> it — pulling raw rift energy through their body and shaping it into effects."
+      "text": "Magic in 3025 is ambient. It leaks from dimensional rifts, saturates the environment, and slowly poisons everything it touches. Most people avoid it. Channelers <em>use</em> it \u2014 pulling raw rift energy through their body and shaping it into effects called <strong>Patterns</strong>."
     },
     {
       "type": "paragraph",
-      "text": "This is not safe. This is not clean. Every time you channel, you absorb toxicity. The more power you pull, the more it costs. The universe charges interest."
-    },
-    {
-      "type": "heading",
-      "text": "The Three Pillars"
-    },
-    {
-      "type": "blockquote",
-      "text": "<strong>1. Patterns</strong> — Defined rift effects with known costs. The baseline toolkit. Reliable, repeatable, understood (mostly).  <strong>2. Improvised Channeling</strong> — Freeform casting. Describe what you want, pay more, risk more. The rift doesn’t have a manual.  <strong>3. Overchannel</strong> — Break the rules. Pull more power than your body can handle. Dramatic, devastating, potentially fatal."
-    },
-    {
-      "type": "heading",
-      "text": "Casting Stats"
-    },
-    {
-      "type": "paragraph",
-      "text": "Magic isn’t one skill. Different effects demand different aspects of you:"
-    },
-    {
-      "type": "paragraph",
-      "text": "----------------------- ----------------------- -----------------------"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stat</strong>                <strong>Casting Role</strong>        <strong>Used For</strong>"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Interface</strong>           Control & precision.    Damage patterns, Your understanding of   accuracy, complex rift energy.            shaping, rift manipulation"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Grit</strong>                Endurance & resilience. Defensive patterns, Your body’s ability to sustained effects, absorb the cost.        resisting backlash"
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Edge</strong>                Instinct &              Utility patterns, adaptability. Your feel improvised channeling, for the rift’s moods.  sensing, social-rift effects ----------------------- ----------------------- -----------------------"
+      "text": "This is not safe. This is not clean. Every time you channel, you absorb Toxicity. The more power you pull, the more it costs. The universe charges interest."
     },
     {
       "type": "heading",
       "text": "Requirements"
     },
     {
-      "type": "paragraph",
-      "text": "To cast at all, you need:"
-    },
-    {
       "type": "blockquote",
-      "text": "• <strong>Rift Attunement augment</strong> (Rift Tree T1) — or a mutation/condition that grants innate channeling  • A <strong>focus</strong> (rift staff, channeling rod, attuned crystal) — or bare hands at increased cost (see Unfocused Casting)"
+      "text": "\u2022 <strong>Rift Attunement augment</strong> (Rift Tree T1) \u2014 or a mutation/condition that grants innate channeling\n\u2022 A <strong>focus</strong> (rift staff, channeling rod, attuned crystal) \u2014 or bare hands at increased cost (see Unfocused Casting in Advanced Casting)"
     },
     {
       "type": "paragraph",
-      "text": "Without Rift Attunement, you cannot deliberately channel. You might still be <em>affected</em> by rift energy, but you can’t wield it."
+      "text": "Without Rift Attunement, you cannot deliberately channel. You might still be <em>affected</em> by rift energy, but you can't wield it."
+    },
+    {
+      "type": "heading",
+      "text": "Casting Accuracy"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Single-target patterns:</strong> Interface check vs target's Evasion (same as weapon attacks). Roll to hit. On hit: full damage. On miss: no damage, <strong>costs still paid</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AoE patterns:</strong> Auto-hit the targeted tile/zone. Targets in the zone make a Reflex save (DC = 6 + caster's Interface bonus) to take half damage. No accuracy roll from the caster."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Self-buff / utility patterns:</strong> Auto-succeed. No roll needed."
     },
     {
       "type": "heading",
@@ -84,28 +60,61 @@
       "text": "Patterns are organized into four tiers based on power and cost. Higher-tier patterns require more Rift tree investment to access."
     },
     {
-      "type": "paragraph",
-      "text": "-------------- -------------- --------------- -------------- ----------------------"
+      "type": "table",
+      "columns": ["Tier", "Name", "AP Cost", "Toxicity", "HP Cost", "Other", "Requirement"],
+      "rows": [
+        ["T1", "Flicker", "1 AP", "+1", "\u2014", "2/round max", "Rift Attunement (T1 augment)"],
+        ["T2", "Surge", "2 AP", "+1\u20132", "\u2014", "\u2014", "1+ Rift augment"],
+        ["T3", "Torrent", "3 AP", "+2\u20134", "2\u20135 HP", "\u2014", "3+ Rift augments"],
+        ["T4", "Cataclysm", "4 AP", "+5\u20138", "4\u20138 HP", "Permanent Consequence. 1/mission.", "6+ Rift augments"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Misfire System"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Tier</strong>       <strong>Name</strong>       <strong>Rift Tree     </strong>Cost Type<strong>  </strong>Power Level<strong> Requirement</strong>"
+      "text": "Casting at high Toxicity is dangerous. The more contaminated your body, the harder it is to shape energy cleanly. Each cast has a chance to misfire based on your current Toxicity level."
+    },
+    {
+      "type": "table",
+      "columns": ["Current Toxicity", "Misfire Chance", "Backlash on Misfire"],
+      "rows": [
+        ["0\u20135", "0%", "\u2014"],
+        ["6\u201310", "10%", "1d6 per pattern tier"],
+        ["11\u201315", "20%", "1d6 per pattern tier"],
+        ["16\u201320", "30%", "1d6 per pattern tier + prone"],
+        ["20+", "50%", "1d6 per pattern tier + prone + 1 random condition"]
+      ]
     },
     {
       "type": "paragraph",
-      "text": "<strong>Tier 1</strong>     Flickers       Rift Attunement Toxicity only  Minor effects. (T1)                           Cantrip-level."
+      "text": "<strong>Misfires don't fizzle.</strong> The pattern still fires at full effect \u2014 rift energy can't be contained once released. But the caster takes backlash damage (armor-ignoring) on top of all normal costs. A Torrent misfire at Toxicity 15 means: pattern fires normally, caster takes 3d6 backlash + the pattern's normal 3 HP cost. Misfires kill Channelers."
+    },
+    {
+      "type": "heading",
+      "text": "Casting Stats"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Tier 2</strong>     Surges         1+ Rift         Toxicity + Act Standard augments                       combat/utility. Real power."
+      "text": "Magic isn't one skill. Different effects demand different aspects of you:"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Tier 3</strong>     Torrents       3+ Rift         Toxicity +     Major effects. augments        Act + HP       Battlefield-shaping."
+      "type": "table",
+      "columns": ["Stat", "Casting Role", "Used For"],
+      "rows": [
+        ["Interface", "Control & precision", "Damage patterns, accuracy, complex shaping, rift manipulation"],
+        ["Grit", "Endurance & resilience", "Defensive patterns, sustained effects, resisting backlash"],
+        ["Edge", "Instinct & adaptability", "Utility patterns, sensing, social-rift effects"]
+      ]
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Tier 4</strong>     Cataclysms     6+ Rift         Toxicity +     Devastating. Once per augments        Act + HP +     mission. Changes consequence    everything. -------------- -------------- --------------- -------------- ----------------------"
+      "type": "callout",
+      "label": "The Channeler's Core Loop",
+      "items": [
+        "Cast patterns \u2192 gain Toxicity \u2192 higher Toxicity = higher misfire risk \u2192 keep casting anyway because the enemy isn't dead yet \u2192 pray you don't roll a misfire on the big one \u2192 if you're still alive, you won"
+      ]
     }
   ]
 }
