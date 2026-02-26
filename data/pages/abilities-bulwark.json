@@ -9,95 +9,63 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>The wall. Stand in front, absorb damage, protect your crew. Abilities focus on ally protection, shield techniques, threat control, and positional defense. You don't win fights — you make sure your crew survives them.</em>"
+      "text": "<em>The wall. Two branches \u2014 Guardian (protect allies: intercept, shield, zone control) and Juggernaut (punish attackers: thorns, counter-attacks, escalation). Abilities complement the augment system, providing active tools for threat generation, positioning, and emergency protection.</em>"
     },
     {
       "type": "heading",
-      "text": "T1 — Baseline (Free)"
+      "text": "T1 \u2014 Baseline (Free)"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Hold the Line (Passive):</strong> When you don't move on your turn, allies within Adjacent range gain +1 Evasion until your next turn. Standing your ground protects those around you."
+      "text": "<strong>Hold the Line (Passive):</strong> Enemies that start their turn adjacent to you cannot move away without provoking an opportunity attack from you (even if they have abilities that normally prevent opportunity attacks). Additionally, your opportunity attacks stop the target's movement \u2014 they don't just take damage, they stay where they are. You are a wall. Nothing gets past without your permission."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 \u2014 Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Shield Bash (Active, 1 AP):</strong> While wielding a shield, make a melee attack using Chrome + d10. On hit: 1d6 damage and target is pushed 1 range band. No weapon needed — the shield is the weapon."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Intercept (Active, 1 AP, Reaction):</strong> When an ally within Adjacent range is hit by an attack, you become the target instead. Take the damage. Once per round. You don't ask permission — you just step in front."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rally Cry (Active, 1 AP):</strong> One ally within Close range removes one condition (Bleed, Poison, Fear, etc.). Your voice cuts through chaos and gets people moving."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Defensive Footing (Passive):</strong> While you haven't moved this turn, the first melee attack against you each round has -2 accuracy. Your stance is a fortress."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Watchful Guard (Passive):</strong> Your opportunity attacks trigger against enemies moving within Close range, not just those leaving Adjacent. You punish movement in a wider area."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Absorb Blow (Passive):</strong> Once per encounter, reduce damage from a single attack by your Chrome bonus (after armor). Flex through the hit."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Taunt", "Guardian", "Active", "1 AP", "Target one enemy within Close range. That enemy MUST attack you on their next turn if they are able to (can reach you, have attacks available). If they cannot reach you, they must move toward you. Lasts 1 round. The core threat generation tool."],
+        ["Shield Bash", "Guardian", "Active", "1 AP", "Melee attack (Chrome vs Evasion). 1d6 damage + push target 1 tile in any direction. If the target collides with a wall or another creature, both take 1d4 bonus damage. Positional control. Requires a shield."],
+        ["Brace", "Guardian", "Passive", "\u2014", "If you don't move on your turn, gain +2 Armor until your next turn. Standing ground is rewarded. Stacks with Subdermal Plating and worn armor."],
+        ["Retaliatory Strike", "Juggernaut", "Passive", "\u2014", "Once per round, when you take damage from a melee attack, you deal your Chrome bonus as damage back to the attacker (armor-ignoring). Passive, automatic. At Chrome 10 (+3 bonus), every melee hit costs the attacker 3 HP."],
+        ["Menacing Presence", "Juggernaut", "Passive", "\u2014", "Enemies within Close range have -1 accuracy against all targets. Your proximity is unsettling. Passive aura \u2014 just standing near enemies makes them worse."],
+        ["Shrug It Off", "Shared", "Active", "0 AP", "Once per encounter: when you take damage from a single attack, reduce it by your Grit bonus + 2 (after armor). Free action, declared after seeing the damage. Emergency mitigation."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 \u2014 Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Phalanx (Passive):</strong> While wielding a shield, allies directly behind you (relative to the attacker) gain your shield's Evasion bonus against ranged attacks. Your shield covers more than just you."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Retaliatory Strike (Passive):</strong> When an enemy hits you with a melee attack, deal damage equal to your Armor value back to them. Automatic, no roll needed. Hitting you hurts."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Living Wall (Active, 2 AP):</strong> Choose one ally within Adjacent range. Until your next turn, all attacks targeting them are redirected to you instead. You become their shield. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Endure (Passive):</strong> Reduce all incoming damage by 1 (flat, after armor, minimum 0). Stacks with everything. Every hit is a little less."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Iron Stance (Passive):</strong> While you haven't moved this turn, critical hits against you are treated as normal hits. Your position is too solid to exploit."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Second Wind (Active, 2 AP):</strong> Heal HP equal to your Chrome bonus + Grit bonus. Once per encounter. You catch your breath and keep standing."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Deny Ground (Passive):</strong> Enemies within Adjacent range cannot move past you without spending an additional 1 AP. You don't just hold space — you own it."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["War Cry", "Guardian", "Active", "2 AP", "All enemies within Close range MUST target you on their next turn if able (mass Taunt). All allies within Close range gain +1 accuracy on their next attack. Once per encounter. The \u201ceveryone look at me\u201d button."],
+        ["Bodyguard Stance", "Guardian", "Active", "1 AP", "Choose one ally within Close range. Until your next turn, all attacks against that ally are automatically redirected to you (no Reaction cost, unlimited uses). You shadow them \u2014 everything aimed at them hits you instead."],
+        ["Stonewall", "Guardian", "Active", "2 AP", "Until your next turn, no enemy can move through any tile adjacent to you. Period. Not with extra AP, not with special abilities, not with teleportation. Absolute zone denial for 1 round."],
+        ["Endure", "Juggernaut", "Active", "1 AP", "For 2 rounds: all damage you take is reduced by 3 (flat, after armor, stacks with everything). At the end of 2 rounds, take 1d6 unavoidable damage as the suppressed kinetic energy releases. Borrow time."],
+        ["Berserker's Fury", "Juggernaut", "Active", "0 AP", "When you drop below 25% HP: for 2 rounds, all your melee attacks deal +1d6 bonus damage and you gain +2 accuracy. Automatically triggers, free action. The wounded animal is the most dangerous."],
+        ["Recover", "Shared", "Active", "2 AP", "Heal 1d6 + Grit bonus HP. Once per encounter. Your only self-heal \u2014 and it costs half your turn."],
+        ["Bulwark Rush", "Shared", "Active", "2 AP", "Move up to your full movement AND make a melee attack at the end of the movement. If you moved at least 10ft in a straight line, the attack deals +1d4 bonus damage and pushes the target 1 tile. The Fortress's engage tool \u2014 close distance and hit in one action."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 \u2014 Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Fortress Stance (Active, 3 AP):</strong> Until your next turn: +3 Armor, cannot move, and all allies within Close range gain +1 Armor and +1 Evasion. Once per encounter. The ultimate defensive position."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Martyr's Bond (Passive):</strong> Choose one ally at the start of combat. While both alive and within Close range, you take half of all damage they receive (they take the other half, rounded down). Your pain is their safety."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Iron Sentinel (Passive):</strong> You make opportunity attacks against any enemy that moves within Close range — not just those leaving your reach. Your opportunity attacks deal +1d6 bonus damage. Nothing moves near you without paying for it."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Last Bastion (Passive):</strong> While below 25% HP, gain +3 Armor and become immune to conditions (Bleed, Poison, Stun, Fear). The closer to death, the harder to break. The wall doesn't fall — it just gets shorter."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Fortress Protocol", "Guardian", "Active", "3 AP", "For the rest of the encounter: your Intercept no longer costs a Reaction (unlimited uses per round). All allies within Close range gain +2 Armor. You become the squad's permanent shield. Once per encounter."],
+        ["Immovable Object", "Guardian", "Passive", "\u2014", "You cannot be stunned, feared, charmed, or have your position forcibly changed by any effect. If an effect would stun you, you instead take 1d4 damage (your body absorbs the shock). Total condition immunity for movement/control conditions that cripple tanks."],
+        ["Unstoppable Retaliation", "Juggernaut", "Passive", "\u2014", "Your Counter-Strike (T3 augment) and Retaliatory Strike (T2 ability) no longer have a once-per-round limit. Every melee hit against you triggers a response. Enemies that swarm you in melee are attacking a blender."],
+        ["Undying", "Juggernaut", "Passive", "\u2014", "When you would gain a Scar from dropping to 0 HP, roll a Grit check (DC 8). On success: no Scar. You still drop to 0 HP and need revival, but your body holds together. The long-campaign tank passive."],
+        ["Ironclad Commander", "Shared", "Passive", "\u2014", "While you are alive and conscious, all allies can see enemy HP ranges and active conditions (your HUD shares targeting data). Additionally, allies within Close range cannot be critically hit. Your presence stabilizes the entire squad."]
+      ]
     }
   ]
 }
