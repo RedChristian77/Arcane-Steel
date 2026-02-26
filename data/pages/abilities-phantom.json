@@ -9,7 +9,7 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Stealth operator. Move unseen, strike from ambush, disappear. Abilities focus on positioning, information denial, and punishing vulnerable targets.</em>"
+      "text": "<em>Speed operator. Strike first, chain charges, exploit positioning. Abilities are trained techniques — no surgery, just practice and muscle memory. They complement the Shadow augment branches.</em>"
     },
     {
       "type": "heading",
@@ -17,87 +17,53 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>Ambush Training (Passive):</strong> When you attack an enemy that hasn’t acted yet this encounter, your first attack gets +2 accuracy."
+      "text": "<strong>Ambush Training (Passive):</strong> Attacks vs enemies that haven't acted yet this round: +2 accuracy on first attack. Stacks with Killer Instinct augment for +3 total, or Ambush Protocol for +4."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 — Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Fade (Active, 1 AP):</strong> After attacking, become hidden (Stealth check vs highest enemy Awareness in Close range). Hidden until you attack or are found."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Mark Target (Active, 1 AP):</strong> All allies get +1 accuracy against a target you designate until end of your next turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Shadow Step (Passive):</strong> Moving through occupied zones doesn’t provoke opportunity attacks."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Patient Killer (Passive):</strong> If you don’t attack on your turn, your first attack next turn gets +3 accuracy. Waiting for the perfect moment."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Concealed Blade (Passive):</strong> Your first attack from hidden deals +1 damage per die (after armor). The ambush cuts deeper."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Escape Artist (Passive):</strong> Breaking free from Grapple, Prone, or restraints costs 0 AP instead of 1. You slip out of everything."
+      "type": "table",
+      "columns": ["Ability", "Type", "AP", "Effect"],
+      "rows": [
+        ["Mark Target", "Active", "1 AP", "All allies get +1 accuracy vs a designated target until end of your next turn. The scout calls the shot."],
+        ["Slipstream", "Passive", "—", "Moving through allied tiles doesn't cost extra movement. You weave through your own team effortlessly."],
+        ["Patient Killer", "Passive", "—", "If you don't attack on your turn, your first attack next turn gets +3 accuracy. Sometimes the best play is waiting one beat."],
+        ["Flanker", "Passive", "—", "When you and an ally are both adjacent to the same enemy, your attacks get +1 accuracy. Positioning reward."],
+        ["Escape Artist", "Passive", "—", "Breaking free from Grapple, Prone, or restraints costs 0 AP. You slip out of everything."],
+        ["Gap Closer", "Active", "0 AP", "Once per combat: your next Move action this turn costs 0 AP. Use it to set up a charge without spending your attack budget."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 — Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Exploit Opening (Passive):</strong> Attacks against Prone, Stunned, or Grappled enemies deal +2 damage per die (after armor). You punish vulnerability."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Vanishing Act (Active, 2 AP):</strong> You cannot be targeted until start of your next turn. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Crippling Strike (Active, 1 AP):</strong> Your next melee attack applies Immobilize on hit (target cannot move for 1 turn)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Nerve Strike (Active, 1 AP):</strong> Your next melee attack applies -2 to the target’s next attack (you hit a nerve cluster, disrupt their coordination). Stacks with other debuffs."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Misdirection (Active, 1 AP):</strong> Create a false position. Until end of your next turn, the next attack targeting you automatically misses — they attacked where you were, not where you are. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Shadow Network (Passive):</strong> While hidden, you can communicate silently with all allies (hand signals, comms discipline). Allies gain +1 to their next check if you describe the tactical situation to them from your hidden vantage."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Throat Cutter (Passive):</strong> Attacks against enemies who are unaware of you (hidden, behind them, distracted) automatically apply Bleed 2 on hit."
+      "type": "table",
+      "columns": ["Ability", "Type", "AP", "Effect"],
+      "rows": [
+        ["Exploit Opening", "Passive", "—", "Attacks vs Prone, Stunned, or Grappled enemies: +2 damage per die. You punish vulnerability."],
+        ["Crippling Strike", "Active", "1 AP", "Your next melee attack applies Immobilize on hit (target cannot move for 1 turn). Pin them for your team."],
+        ["Nerve Strike", "Active", "1 AP", "Your next melee attack applies -2 to the target's next attack. Disrupt their coordination."],
+        ["Redirect", "Active", "1 AP", "Once per encounter: the next attack targeting you this round targets an adjacent enemy instead. Requires Edge check vs attacker's accuracy."],
+        ["Throat Cutter", "Passive", "—", "Attacks vs targets that haven't acted this round: apply Bleed 2 on hit. Stacks with Assassin augment bonuses."],
+        ["Blitz", "Active", "0 AP", "Once per encounter: gain +10 feet of movement this turn that doesn't provoke opportunity attacks. Your charge range just got longer."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 — Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Death Mark (Active, 1 AP):</strong> For the rest of the encounter, all attacks against a target get +1 accuracy and +1 damage per die. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Ghost (Passive):</strong> While hidden, your first attack each turn automatically hits. Still roll for crit."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Phantom Strike (Passive):</strong> Once per turn, you can make a melee attack against any enemy within Medium range — you close the distance, strike, and return to your original position instantly. Costs normal AP for the attack."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Shadow Twin (Active, 3 AP):</strong> Create a shadow duplicate at your position. The duplicate lasts 2 rounds, has your Evasion, and enemies cannot distinguish it from you (50% chance any attack targets the duplicate instead). The duplicate cannot attack. Once per encounter."
+      "type": "table",
+      "columns": ["Ability", "Type", "AP", "Effect"],
+      "rows": [
+        ["Death Mark", "Active", "1 AP", "Designate a target. All attacks against them (from anyone) get +1 accuracy and +1 damage per die for the rest of the encounter. Once per encounter."],
+        ["Phantom Strike", "Passive", "—", "Once per turn: make a melee attack against any enemy within Medium range. You close the distance, strike, and return to your original position instantly. Costs normal weapon AP."],
+        ["Momentum Kill", "Passive", "—", "When you drop an enemy to 0 HP with a charge attack, gain 10 free feet of movement immediately (doesn't provoke). The kill launches you at the next target."],
+        ["Predator's Eye", "Passive", "—", "You can see all enemy HP values, conditions, and Reflex stats. Perfect information for planning your chain."]
+      ]
     }
   ]
 }
