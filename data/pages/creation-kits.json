@@ -66,8 +66,8 @@
           "aug": "Subdermal Plating",
           "ability": "Hold the Line",
           "lean": "Chrome / Grit",
-          "gear": "Precision Blade, Heavy Plate",
-          "desc": "Stand in front. Absorb damage. Protect your crew.",
+          "gear": "Precision Blade, Heavy Plate, Tower Shield",
+          "desc": "The wall. Absorb damage. Force enemies to hit you instead of your squad.",
           "icon": "🛡️"
         },
         {

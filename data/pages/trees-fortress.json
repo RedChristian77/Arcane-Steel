@@ -1,13 +1,96 @@
 {
   "id": "trees-fortress",
-  "title": "🛡️ Fortress",
+  "title": "\ud83d\udee1\ufe0f Fortress",
   "subtitle": "The Bulwark's Path",
   "content": [
     {
       "type": "tree-meta",
       "stat_lean": "Chrome / Grit",
-      "theme": "You are the wall. Nothing gets through. Nothing gets past.",
-      "design": "Fortress augments make you harder to kill and protect your allies."
+      "theme": "You are the wall. You stand between your crew and everything that wants them dead. You absorb damage, redirect attacks, and punish anyone stupid enough to hit you. Other classes avoid getting hit. You plan on it.",
+      "design": "The Fortress is the tank. Two branches \u2014 Guardian (protect allies: intercept attacks, shield teammates, zone control) and Juggernaut (punish attackers: thorns damage, counter-attacks, escalating power when hurt) \u2014 share the same tree and activate simultaneously when conditions overlap. The Fortress solves the core tactical tank problem \u2014 forcing enemies to deal with you instead of your squishier allies \u2014 through threat generation, opportunity attacks, and positional control."
+    },
+    {
+      "type": "callout",
+      "label": "Critical Rule",
+      "items": [
+        "The Fortress trades <strong>offense for durability and presence</strong>. You deal less damage than any DPS class. Your accuracy is mediocre (Chrome for melee, not Reflex or Interface). Your contribution is measured in damage your allies DIDN'T take because you were standing in the way. A fight where the Fortress takes 80% of all incoming damage and nobody else takes a Scar is a fight the Fortress won."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Key Differences",
+      "items": [
+        "<strong>vs Fury:</strong> Fury is an aggressive melee class that takes damage as a side effect of being in the fight. Fortress is a defensive melee class that takes damage ON PURPOSE. Fury wants to kill things fast so they stop hitting back. Fortress wants things to keep hitting them because every hit triggers augments.",
+        "<strong>vs Sin Eater:</strong> Sin Eater absorbs conditions (Bleed, Poison, Stagger). Fortress absorbs raw damage (HP loss). Sin Eater manages Toxicity as their resource. Fortress manages HP and positioning as theirs. Sin Eater is fragile and stays at range. Fortress is the hardest thing to kill in the game and stands in melee.",
+        "<strong>vs Technician:</strong> Technician controls the map with objects (turrets, mines, barriers). Fortress controls the map with their body. A Technician's barrier can be destroyed from range. The Fortress IS the barrier \u2014 and they hit back."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Guardian Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When an <strong>ally within Close range is targeted by an attack or takes damage</strong>. Guardian augments activate when you protect others. Intercept redirects attacks to you. Shield augments extend your armor to allies. Zone control makes enemies pay for ignoring you. The Guardian is only as good as their positioning \u2014 if allies aren't near you, your triggers don't fire."
+    },
+    {
+      "type": "heading",
+      "text": "Juggernaut Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When <strong>you take damage from any source</strong>. Juggernaut augments activate when YOU get hit. Thorns damage fires back at attackers. Counter-attack options open up. Damage bonuses escalate the more hurt you are. The Juggernaut wants to be the center of attention \u2014 every hit makes them stronger. Enemies who ignore the Juggernaut and target allies are making the right tactical call. The Fortress's job is to make that impossible."
+    },
+    {
+      "type": "heading",
+      "text": "Combined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enemy attacks your ally \u2192 you use Intercept (Guardian \u2014 redirect attack to yourself) \u2192 you take damage (Juggernaut \u2014 thorns damage fires back, counter-attack available) \u2192 ally is unharmed, attacker took damage, you gained Juggernaut bonuses. Both branches activated from one enemy action. The Fortress who invests in both is a complete tank \u2014 protecting AND punishing simultaneously."
+    },
+    {
+      "type": "heading",
+      "text": "Threat Generation"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Fortress needs enemies to attack them. Without threat mechanics, smart enemies (or video game AI) just walk around the tank and kill the Channeler. Fortress threat generation works through:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Opportunity Attacks:</strong> Enemies that move away from you or move past you provoke a free melee attack. Standard rule, but Fortress augments make these hit harder and add conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Taunt:</strong> Active ability that forces an enemy to target you. Not optional \u2014 the target MUST attack you on their next turn if able."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Zone of Control:</strong> The Fortress's adjacent tiles are contested. Enemies entering or passing through pay a cost (reduced movement, opportunity attack, accuracy penalty). You control space by standing in it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Punishment for Ignoring:</strong> Several augments trigger when an enemy within Close range attacks someone other than you. They don't HAVE to attack you \u2014 but it costs them if they don't."
+    },
+    {
+      "type": "callout",
+      "label": "Natural Counters",
+      "items": [
+        "Ranged enemies at Long range \u2014 outside your Close range zone, can't Intercept or threaten them. You need the squad to close distance or advance under fire.",
+        "Kiting / mobile enemies \u2014 enemies that attack and retreat stay out of your zone. You're slow (heavy armor, probably not investing in Reflex).",
+        "Armor penetration \u2014 your defense is high armor. Enemies with Pen or armor-ignoring damage (rift energy, acid) bypass your primary defense. High HP compensates, but you feel it.",
+        "Crowd control \u2014 Stun, Immobilize, or forced movement that displaces you from allies removes Guardian triggers. A stunned Fortress is a squad with no protection.",
+        "Splitting the party \u2014 if allies spread across the map, you can only protect the ones near you. AoE-heavy encounters that force scatter reduce your effectiveness.",
+        "Being ignored \u2014 if enemies are smart enough to just not attack you, Juggernaut triggers don't fire. Taunt and punishment mechanics exist for this, but they have cooldowns and AP costs."
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "tree-tier",
@@ -18,23 +101,33 @@
       "augments": [
         {
           "name": "Subdermal Plating",
-          "effect": "+1 Armor (stacks with worn armor)",
+          "branch": "Shared",
+          "effect": "+1 Armor (stacks with worn armor). The foundation. Simple, essential.",
           "cost": "350 cr"
         },
         {
-          "name": "Shock Absorbers",
-          "effect": "Reduce first damage taken each round by 1",
-          "cost": "250 cr"
+          "name": "Guardian Protocol",
+          "branch": "Guardian",
+          "effect": "Adjacent allies gain +1 Armor. Your physical presence provides cover.",
+          "cost": "300 cr"
         },
         {
           "name": "Immovable Frame",
-          "effect": "Cannot be forcibly moved. +2 to resist knockdown",
+          "branch": "Guardian",
+          "effect": "You cannot be forcibly moved by enemy abilities (push, pull, knockback). +2 to resist knockdown. You stay where you plant yourself.",
           "cost": "200 cr"
         },
         {
-          "name": "Guardian Protocol",
-          "effect": "Adjacent allies gain +1 Armor",
-          "cost": "300 cr"
+          "name": "Reactive Plating",
+          "branch": "Juggernaut",
+          "effect": "When hit by a melee attack, the attacker takes 1 damage (armor-ignoring). Your plating bites back. Passive, automatic, every hit.",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Shock Absorbers",
+          "branch": "Juggernaut",
+          "effect": "Reduce the first instance of damage you take each round by 2 (after armor). One free buffer per round.",
+          "cost": "250 cr"
         }
       ]
     },
@@ -46,24 +139,46 @@
       "budget": "",
       "augments": [
         {
-          "name": "Reactive Plating",
-          "effect": "When hit by melee, attacker takes 1 damage",
+          "name": "Intercept",
+          "branch": "Guardian",
+          "effect": "Reaction: when an ally within Close range is targeted by an attack, you can redirect the attack to yourself. The attack is resolved against YOUR Evasion and Armor instead. Once per round. The core Guardian mechanic \u2014 you step in front of the bullet.",
           "cost": "400 cr"
         },
         {
-          "name": "Ablative Shielding",
-          "effect": "+2 Armor against the first attack each combat",
+          "name": "Shield Wall",
+          "branch": "Guardian",
+          "effect": "While you are adjacent to an ally and haven't moved this turn, that ally gains +2 Evasion (you provide heavy cover). Multiple allies can benefit if they're all adjacent. Positional reward.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Anchored Defense",
+          "branch": "Guardian",
+          "effect": "While you haven't moved this turn, enemies cannot move through your tile or tiles adjacent to you without spending +1 AP per tile. You are terrain. Your body blocks the path.",
           "cost": "350 cr"
         },
         {
-          "name": "Taunt Emitter",
-          "effect": "1/round: force one enemy to target you instead of ally",
+          "name": "Hardened Frame",
+          "branch": "Juggernaut",
+          "effect": "+4 maximum HP. Simple scaling. You just have more to spend.",
           "cost": "400 cr"
         },
         {
-          "name": "Hardened Frame",
-          "effect": "+3 max HP",
-          "cost": "450 cr"
+          "name": "Thorns Plating",
+          "branch": "Juggernaut",
+          "effect": "When hit by any attack (melee or ranged), the attacker takes 2 damage (armor-ignoring). Upgrade from Reactive Plating \u2014 now works on ranged attacks too. Stacks with Reactive Plating for 3 total on melee.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Pain Fuel",
+          "branch": "Juggernaut",
+          "effect": "When you take damage, your next melee attack this turn deals +2 bonus damage. Getting hit makes you hit harder. Resets at end of turn.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Ablative Shielding",
+          "branch": "Shared",
+          "effect": "The first attack against you each encounter deals 0 damage (completely absorbed). One-time buffer per fight.",
+          "cost": "350 cr"
         }
       ]
     },
@@ -75,24 +190,52 @@
       "budget": "",
       "augments": [
         {
-          "name": "Iron Will",
-          "effect": "+2 to Scar survival rolls",
+          "name": "Extended Guard",
+          "branch": "Guardian",
+          "effect": "Intercept range increases from Close (adjacent) to Close range (within 10ft). Protect allies from further away.",
           "cost": "500 cr"
         },
         {
-          "name": "Fortress Wall",
-          "effect": "Opportunity attacks deal +2 damage per die",
-          "cost": "550 cr"
-        },
-        {
-          "name": "Kinetic Dispersal",
-          "effect": "Reduce all area-of-effect damage taken by half (rounded down)",
+          "name": "Guardian's Reprisal",
+          "branch": "Guardian",
+          "effect": "When you use Intercept to absorb an attack meant for an ally, you may immediately make a free melee attack against the attacker (if they're within melee range). Protect AND punish in the same action.",
           "cost": "600 cr"
         },
         {
-          "name": "Anchored Defense",
-          "effect": "While you don't move this turn: allies directly behind you gain half cover (+2 Evasion)",
+          "name": "Fortress Wall",
+          "branch": "Guardian",
+          "effect": "Your opportunity attacks deal +1d6 bonus damage and apply Stagger (-1 AP on target's next turn). Enemies don't walk past you without paying.",
           "cost": "550 cr"
+        },
+        {
+          "name": "Punishment Field",
+          "branch": "Guardian",
+          "effect": "When an enemy within Close range attacks anyone other than you, they take -2 accuracy on that attack. You are so threatening that ignoring you is distracting. Passive, always active.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Iron Escalation",
+          "branch": "Juggernaut",
+          "effect": "Track total damage taken this encounter. At 10+ damage taken: +1 to all melee attack rolls. At 20+ damage taken: +2 to all melee attack rolls and +1 damage per die. At 30+ damage taken: +3 to all melee attack rolls and +2 damage per die. The more they hurt you, the more dangerous you become.",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Kinetic Dispersal",
+          "branch": "Juggernaut",
+          "effect": "Reduce all AoE damage you take by half (rounded down). Grenades, Rift Storms, explosions \u2014 you tank through them.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Counter-Strike",
+          "branch": "Juggernaut",
+          "effect": "When you are hit by a melee attack, you may spend your Reaction to make an immediate melee attack against the attacker. Once per round. They swing, you swing back.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Damage Conversion",
+          "branch": "Shared",
+          "effect": "Convert the first 3 damage you take each round into Toxicity instead (1 Toxicity per 2 damage, round up). Your augments absorb kinetic energy and convert it to rift contamination. Delays HP loss but builds Toxicity. Dangerous for long fights. <em>(Trade-off augment.)</em>",
+          "cost": "500 cr"
         }
       ]
     },
@@ -104,19 +247,34 @@
       "budget": "",
       "augments": [
         {
-          "name": "Last Stand",
-          "effect": "1/mission: when you would hit 0 HP, stay at 1 HP instead",
+          "name": "Fortress Aura",
+          "branch": "Guardian",
+          "effect": "All allies within Close range gain +1 Armor and +1 Evasion. Passive aura. Your presence hardens the squad.",
           "cost": "1,000 cr"
         },
         {
-          "name": "Fortress Aura",
-          "effect": "Allies within short range: +1 Armor and +1 Evasion",
-          "cost": "900 cr"
+          "name": "Mass Intercept",
+          "branch": "Guardian",
+          "effect": "Once per encounter: when an AoE effect targets your allies within Close range, you can absorb the entire effect. All allies in the AoE take 0 damage. You take the full damage for each ally who would have been hit (damage \u00d7 number of allies protected). Heroic and potentially suicidal.",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Last Stand",
+          "branch": "Juggernaut",
+          "effect": "Once per mission: when you would drop to 0 HP, you stay at 1 HP instead. For 2 rounds after triggering: +2 Armor, +2 to all melee attacks, immune to conditions. When the 2 rounds end, you drop to 0 HP and gain a Scar. You get your hero moment, then you pay for it.",
+          "cost": "1,000 cr"
         },
         {
           "name": "Siege Mode",
-          "effect": "Spend 5 AP: +4 Armor, cannot move, cannot be flanked",
-          "cost": "850 cr"
+          "branch": "Juggernaut",
+          "effect": "1 AP activation, lasts until you move or deactivate (free action). While active: +3 Armor, cannot be flanked, opportunity attacks hit all enemies that move within Close range (not just adjacent), all melee attacks deal +1d4 bonus damage. Cannot move while active. You ARE the fortification.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Iron Will",
+          "branch": "Shared",
+          "effect": "+2 to all Scar survival rolls. You can carry 2 additional Scars before forced retirement. Your body endures what others can't. The long-game tank augment \u2014 you'll take more Scars than anyone, so you need more capacity.",
+          "cost": "900 cr"
         }
       ]
     },
@@ -129,9 +287,122 @@
       "augments": [
         {
           "name": "Unbreakable",
-          "effect": "Maximum Scar count increased by 2. While at 3+ Scars: immune to death saves. Still take Scars normally.",
-          "cost": "2,500 cr"
+          "effect": "Passive. Maximum Scar count increased by 2 (stacks with Iron Will for +4 total). You cannot be killed by a single attack \u2014 any attack that would reduce you from above 50% HP to 0 HP instead leaves you at 1 HP (once per encounter, separate from Last Stand). Intercept costs no Reaction (can Intercept every attack against adjacent allies, unlimited per round). All damage you take is reduced by 2 (flat, after armor, stacks with Shock Absorbers). Allies within Close range cannot be critically hit. You are the immovable object. Everything breaks against you.",
+          "cost": "\u2014"
         }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Synergy Examples"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Guardian Build (The Wall)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Subdermal Plating \u2192 Guardian Protocol \u2192 Intercept \u2192 Shield Wall \u2192 Anchored Defense \u2192 Extended Guard \u2192 Fortress Wall \u2192 Fortress Aura \u2192 Mass Intercept.</strong> Every turn: stand in front of the squad. Don't move (Shield Wall + Brace = allies get +2 Evasion + you get +2 Armor). Intercept any attack against adjacent allies. Fortress Wall punishes enemies who try to walk past. Anchored Defense costs them extra AP to get around you. Mass Intercept is the emergency \u2014 absorb an entire AoE for the squad. <em>Your personal damage output is near zero. Your squad's survival is near perfect. You go home with Scars so they don't.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Juggernaut Build (The Punching Bag)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Subdermal Plating \u2192 Reactive Plating \u2192 Shock Absorbers \u2192 Thorns Plating \u2192 Pain Fuel \u2192 Iron Escalation \u2192 Counter-Strike \u2192 Last Stand \u2192 Siege Mode.</strong> Every turn: walk into the biggest cluster of enemies and dare them to hit you. Every melee hit triggers Thorns (2 damage) + Reactive Plating (+1 damage) + Counter-Strike (free melee attack). Pain Fuel makes your attacks hit harder each time you're hit. Iron Escalation scales your damage with total damage taken. By round 4 at 20+ damage absorbed, you're hitting at +2 accuracy and +1/die \u2014 competitive with actual DPS classes. <em>Siege Mode locks you in place with +3 Armor and enhanced opportunity attacks. Last Stand gives you a final stand moment. You're not protecting anyone \u2014 you're daring the enemy to kill you and making them regret trying.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid Build (The Complete Tank)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Subdermal Plating \u2192 Guardian Protocol \u2192 Intercept \u2192 Reactive Plating \u2192 Thorns Plating \u2192 Guardian's Reprisal \u2192 Iron Escalation \u2192 Fortress Aura \u2192 Last Stand.</strong> The full package. Intercept redirects attacks to you (Guardian) \u2192 Thorns fires back at the attacker (Juggernaut) \u2192 Guardian's Reprisal gives you a free melee swing at the attacker \u2192 Iron Escalation tracks damage taken for scaling bonuses. Every Intercept triggers both branches simultaneously. <em>Fortress Aura passively buffs the squad. Last Stand is the emergency. You protect AND punish. The trade-off: spread across both branches, so neither is at full depth.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fortress + Sin Eater Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Intercept) + Sin Eater T2 (Empathic Link, Sympathetic Healing).</strong> The immortal healer-tank. You Intercept attacks (taking damage instead of allies). Sin Eater Absorbs conditions off allies. Between the two, you're handling all incoming physical damage AND all incoming conditions. High armor means the physical damage hurts less. <em>The problem: you're splitting augment investment AND stat investment (Chrome/Grit vs Interface/Edge). You do both jobs adequately, neither expertly.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fortress + Fury Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Reactive Plating) + Fury T2 (Adrenal Injector, rage bonuses).</strong> The aggressive tank. Fury augments reward taking damage with offensive bonuses. Fortress augments ensure you survive the damage. You charge in, tank hits, deal increasing damage as Fury builds, and Reactive Plating punishes attackers. <em>The problem: Fury wants to be reckless (big swings, exposed positioning). Fortress wants to be positioned (stay near allies, hold chokepoints). The playstyles pull in different directions.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fortress + Precision Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Guardian Protocol) + Precision T2 (Targeting Suite, Marksman bonuses).</strong> The ranged tank. Stand in front of the squad wearing heavy armor. Don't move (Brace + Shield Wall for allies). Shoot with rifle (Marksman bonus for not moving). You're the front line AND a ranged damage dealer \u2014 enemies have to get through you to reach the squad, and you're shooting them the whole time. <em>The problem: Chrome/Grit doesn't boost ranged accuracy (that's Reflex/Edge). Your shots are mediocre. But you're the only \u201ctank\u201d who contributes damage from a distance.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Fortress + Technician Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Immovable Frame) + Technician T2 (Deployable Sync, Fortified Construction).</strong> The bunker. Place a turret behind you. Place a Barrier Generator beside you. Stand in front. You are the wall, the turret is the gun, the barrier extends your cover. Enemies that reach you face opportunity attacks (Hold the Line), thorns damage (Reactive Plating), AND turret fire. <em>The problem: immobile. If the fight moves, your entire setup is stranded.</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Guardian vs Juggernaut instead of Offense vs Defense:</strong> Both branches are defensive in nature \u2014 the Fortress doesn't have an \u201coffensive\u201d identity. The split is about WHO benefits from your tanking. Guardian protects the squad (Intercept, Shield Wall, Fortress Aura). Juggernaut protects yourself and punishes attackers (thorns, counter-attacks, escalation). Both make the Fortress harder to ignore. Guardian does it by being the only thing between enemies and your allies. Juggernaut does it by being actively dangerous to attack."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Intercept is T2 instead of T1:</strong> Intercept is the Guardian's core mechanic \u2014 the ability to redirect attacks from allies to yourself. Making it T2 (requiring 1 augment first) means the Bulwark has to buy Subdermal Plating or Guardian Protocol first. This is intentional: you need to be tough enough to absorb hits before you start volunteering for them. A Fortress who Intercepts at T1 with no armor bonus is just dying faster."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Hold the Line stops movement:</strong> The fundamental tank problem in tactical games is that enemies walk around you. Hold the Line says \u201cno.\u201d Enemies adjacent to you cannot leave without taking an opportunity attack that STOPS their movement \u2014 they don't just take damage and keep going, they're stuck. This makes the Fortress a genuine obstacle."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Iron Escalation tracks total damage, not current HP:</strong> Tracking total damage taken (cumulative, not current) means healing doesn't reset your bonuses. A Fortress at Iron Escalation tier 2 (+20 damage taken) who gets healed to full HP still has their +2 accuracy and +1 damage/die. The investment is permanent for the encounter. This prevents the feel-bad of \u201cI got healed so now I'm weaker.\u201d Your suffering is banked."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Last Stand has a delayed Scar:</strong> Last Stand gives you 2 rounds of invulnerability followed by automatic 0 HP and a Scar. This is a known cost \u2014 you're not gambling on survival, you're buying exactly 2 more rounds and paying exactly 1 Scar. Do you pop Last Stand to finish the fight, knowing it costs you a Scar? Sometimes yes. Sometimes you let yourself go down and save the Scar."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Fortress Aura is T4:</strong> +1 Armor and +1 Evasion to all allies within Close range is one of the strongest passive effects in the game. At T4, the Fortress has invested 6+ augments into the tree. They've earned the right to make the entire squad tougher just by existing. Earlier access would be too strong."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Unbreakable prevents one-shot kills:</strong> The T5 mastery includes \u201cany attack that would reduce you from above 50% HP to 0 HP instead leaves you at 1 HP.\u201d This prevents the feel-bad of investing 10 augments into being tough and then dying to a single Cataclysm. You can still be killed by two attacks, or by chip damage \u2014 but nothing one-shots the Fortress at T5. This is the reward for maximum tank investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the Fortress has low personal damage:</strong> This is the hardest class to balance because \u201cunkillable + high damage\u201d is broken. The Fortress's melee damage is adequate (Precision Blade does fine) but they have no damage augments \u2014 no accuracy bonuses, no damage dice upgrades, no penetration. Pain Fuel and Iron Escalation provide conditional damage boosts (only when taking damage), but the Fortress will never out-DPS a Shadow, Precision, or Channeler. If you want a tank that also deals damage, cross-tree into Fury \u2014 but you sacrifice tank depth for offense."
+    },
+    {
+      "type": "callout",
+      "label": "AP Math \u2014 Typical Fortress Turns (5 AP)",
+      "items": [
+        "<strong>The Wall:</strong> Don't move (Shield Wall + Brace active) \u2192 Taunt priority target (1 AP) \u2192 Melee attack (2 AP) \u2192 Melee attack (2 AP). Net: 2 attacks, 1 enemy forced to hit you, allies behind you get +2 Evasion and +2 Armor from Shield Wall + Brace.",
+        "<strong>Engage:</strong> Bulwark Rush (2 AP, move + attack + push) \u2192 Taunt (1 AP) \u2192 Melee attack (2 AP). Net: closed distance, 2 attacks, 1 enemy taunted. Now in position for next turn's Shield Wall.",
+        "<strong>Full Guardian:</strong> Intercept (Reaction, free) \u2192 Bodyguard Stance on Channeler (1 AP) \u2192 Taunt on biggest enemy (1 AP) \u2192 Melee attack (2 AP) \u2192 Brace (passive, didn't move). Net: Channeler completely protected, 1 enemy taunted, 1 attack dealt, high armor.",
+        "<strong>Emergency:</strong> War Cry (2 AP, mass Taunt + ally accuracy) \u2192 Recover (2 AP, heal 1d6 + Grit) \u2192 Shield Bash (1 AP, push enemy away from downed ally). Net: all enemies targeting you, small heal, repositioned 1 enemy. Squad stabilized.",
+        "<strong>Siege:</strong> Already in Siege Mode (activated last turn). Melee attack (2 AP) \u2192 Melee attack (2 AP) \u2192 Taunt (1 AP). +3 Armor, can't be flanked, opportunity attacks hit everything that moves near. You are a turret made of meat and chrome."
       ]
     }
   ]
