@@ -1,13 +1,62 @@
 {
   "id": "trees-influence",
   "title": "🗣️ Influence",
-  "subtitle": "The Negotiator's Path",
+  "subtitle": "The Commander's Path",
   "content": [
     {
       "type": "tree-meta",
       "stat_lean": "Edge / Interface",
-      "theme": "Words are weapons. Contacts are armor. The best contractors never need to fight.",
-      "design": "Influence augments enhance social encounters, provide team support, and offer non-combat solutions."
+      "theme": "You don't fight the battle. You shape it. Every ally hits harder because of you. Every enemy hesitates because of you. The fight was decided before a weapon was drawn.",
+      "design": "Influence is ability-first, augment-enhanced. Abilities are the core toolkit — what you DO on your turn. Augments are multipliers on those abilities. Two branches — Commander (ally buffs) and Provocateur (enemy debuffs) — share the same tree and stack together."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Key Difference from Other Trees",
+      "text": "Shadow and Precision are augment-heavy with abilities as supplements. Influence inverts this. Abilities are the core toolkit — what you DO on your turn. Augments are multipliers on those abilities. An augment without abilities is useless. Abilities without augments still work, just at baseline power."
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Commander Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use an ability that <strong>targets an ally</strong>. Commander augments activate when you buff, heal, reposition, or protect a teammate. The more allies in range, the more value you generate. Commander abilities don't require checks — your squad trusts you. They just work."
+    },
+    {
+      "type": "heading",
+      "text": "Provocateur Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Use an ability that <strong>targets an enemy</strong>. Requires an <strong>Edge check vs target's Grit</strong> (unless stated otherwise). Provocateur augments activate when you debuff, taunt, confuse, or demoralize an enemy. Higher Edge = more reliable debuffs. Failing the Edge check means your words didn't land — the target shrugged it off. Provocateur has a failure state that Commander doesn't, but its effects are more powerful when they connect."
+    },
+    {
+      "type": "heading",
+      "text": "Combined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Augments exist that trigger when you use BOTH a Commander and Provocateur ability in the same turn. Buff an ally AND debuff an enemy = bonus effect. This rewards the Influence user who splits their AP between helping friends and hurting enemies rather than going all-in on one branch."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Natural Counters",
+      "text": "• <strong>Grit-heavy enemies</strong> — resist Provocateur checks. Berserker-types and bosses shrug off your words\n• <strong>Spread-out allies</strong> — Commander abilities have range requirements. If the squad is scattered, you can't reach everyone\n• <strong>Silence/isolation effects</strong> — anything that prevents communication shuts down the Influence user entirely\n• <strong>Focus fire on the Negotiator</strong> — they're squishy (Edge/Interface, not Chrome/Grit). Kill the commander and the squad loses its backbone\n• <strong>Mindless enemies</strong> — rift creatures, constructs, and hordes with no ego can't be demoralized or misdirected"
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Action Economy",
+      "text": "The Influence user's turns are spent on abilities, not attacks. A typical turn: Demoralize an enemy (1 AP) → Rally an ally (1 AP) → Inspire another ally (1 AP) → Move (1 AP) → 1 AP left for a Burst Pistol shot or another ability. Every AP spent attacking is an AP not spent shaping the fight. The opportunity cost is real."
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "tree-tier",
@@ -18,23 +67,33 @@
       "augments": [
         {
           "name": "Social Implant",
-          "effect": "+2 to social and persuasion checks",
+          "branch": "Shared",
+          "effect": "+2 to all Edge checks in AND out of combat. The baseline enhancer — makes every Provocateur check more reliable and every social encounter smoother.",
           "cost": "250 cr"
         },
         {
           "name": "Calm Under Fire",
-          "effect": "+1 to Edge checks during combat (not attacks)",
+          "branch": "Shared",
+          "effect": "While in combat: +1 to all Edge checks. Stacks with Social Implant. You don't panic.",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Micro-Expression Reader",
+          "branch": "Provocateur",
+          "effect": "+2 to Insight/detection checks. In combat: you can see which enemy is about to act next in initiative (read their body language). Helps you time Provocateur abilities.",
           "cost": "250 cr"
         },
         {
           "name": "Voice Modulator",
-          "effect": "+2 to Deception and Bluff checks. Voice pitch, tone, and cadence are software-controlled",
+          "branch": "Provocateur",
+          "effect": "Your Taunt and Demoralize abilities gain +1 to the Edge check. Software-controlled vocal manipulation makes your words land harder.",
           "cost": "200 cr"
         },
         {
-          "name": "Micro-Expression Reader",
-          "effect": "+2 to Insight checks and detecting lies. Facial muscle tracking overlay in your HUD",
-          "cost": "250 cr"
+          "name": "Subvocal Transceiver",
+          "branch": "Commander",
+          "effect": "Your Commander abilities that target allies can be delivered silently (subvocal comms). Enemies cannot identify you as the source of ally buffs. They don't know who's calling the shots.",
+          "cost": "200 cr"
         }
       ]
     },
@@ -47,23 +106,39 @@
       "augments": [
         {
           "name": "Inspiring Presence",
-          "effect": "1/combat: one ally rerolls a failed stat check",
+          "branch": "Commander",
+          "effect": "When you use a Commander ability on an ally, that ally also recovers 1 HP. Minor healing that adds up over a fight. Your presence is literally restorative.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Tactical HUD Link",
+          "branch": "Commander",
+          "effect": "Allies targeted by your Commander abilities can see what you see (shared vision) until end of your next turn. They gain +1 accuracy against targets in your line of sight. Information is ammunition.",
+          "cost": "450 cr"
+        },
+        {
+          "name": "Command Range Extender",
+          "branch": "Commander",
+          "effect": "Your Commander abilities that require Medium range now work at Long range. You can direct the entire battlefield from further back.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Pheromone Emitter",
+          "branch": "Provocateur",
+          "effect": "Your Provocateur abilities that require Edge vs Grit can alternatively target Edge vs Edge (your choice per use). Some enemies have iron willpower but poor instincts — this lets you exploit whichever defense is weaker.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Dread Projector",
+          "branch": "Provocateur",
+          "effect": "When you successfully Demoralize a target, adjacent enemies to that target also get -1 accuracy on their next attack. Fear spreads.",
           "cost": "400 cr"
         },
         {
           "name": "Threat Assessment",
-          "effect": "1/encounter: learn one enemy's biggest weakness",
+          "branch": "Shared",
+          "effect": "1/encounter: learn one enemy's full stat block (all stats, augments, abilities, weaknesses). Perfect intel on demand.",
           "cost": "350 cr"
-        },
-        {
-          "name": "Negotiator's Edge",
-          "effect": "Reduce prices in shops/services by 10%",
-          "cost": "300 cr"
-        },
-        {
-          "name": "Pheromone Emitter",
-          "effect": "1/encounter: target within short range becomes non-hostile for 1 round. Edge vs Grit",
-          "cost": "400 cr"
         }
       ]
     },
@@ -75,24 +150,46 @@
       "budget": "",
       "augments": [
         {
-          "name": "Rally Cry",
-          "effect": "1/combat: all allies +1 accuracy for 2 rounds",
+          "name": "Rally Amplifier",
+          "branch": "Commander",
+          "effect": "Your Rally ability now removes TWO conditions instead of one, OR removes one condition from two different allies in range. Double the cleanup.",
           "cost": "600 cr"
         },
         {
-          "name": "Corporate Leverage",
-          "effect": "1/mission: call in a corporate favor",
+          "name": "Battlefield Network",
+          "branch": "Commander",
+          "effect": "When you use a Commander ability, ALL allies within Close range (not just the target) gain +1 Evasion until end of your next turn. Your mere act of commanding tightens the squad's defense.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Inspire Cascade",
+          "branch": "Commander",
+          "effect": "When you use Inspire on an ally who then kills their target, the Inspire bonus immediately transfers to a second ally of your choice within Medium range. Success breeds success.",
           "cost": "550 cr"
         },
         {
-          "name": "Empathic Broadcast",
-          "effect": "1/combat: all enemies in short range make Edge check DC 7 or hesitate, losing 1 AP on their next turn",
+          "name": "Psychic Pressure",
+          "branch": "Provocateur",
+          "effect": "Enemies you have successfully used a Provocateur ability on this combat take -1 to ALL checks (not just the specific debuff) for the rest of the encounter. Cumulative fear. Your words leave scars. Max -3.",
+          "cost": "700 cr"
+        },
+        {
+          "name": "Crowd Control Processor",
+          "branch": "Provocateur",
+          "effect": "Your Provocateur abilities that target one enemy can now target two enemies within range with a single use (same AP cost, separate Edge checks for each). Double the disruption.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Dual Focus Implant",
+          "branch": "Shared",
+          "effect": "When you use a Commander ability AND a Provocateur ability in the same turn: both effects last 1 additional round. Rewarding the split.",
           "cost": "600 cr"
         },
         {
-          "name": "Network Node",
-          "effect": "1/mission: contact a friendly NPC in any district for intel. You always know someone who knows someone",
-          "cost": "500 cr"
+          "name": "Morale Engine",
+          "branch": "Shared",
+          "effect": "Track morale across the encounter. Each successful Provocateur ability: +1 Morale. Each Commander ability: +1 Morale. At 5 Morale: all allies get +1 accuracy for the rest of the encounter. At 10 Morale: all enemies get -1 accuracy for the rest of the encounter. Only goes up, never down — a simple tally counter.",
+          "cost": "600 cr"
         }
       ]
     },
@@ -104,14 +201,34 @@
       "budget": "",
       "augments": [
         {
-          "name": "Puppet Strings",
-          "effect": "1/combat: force one enemy to attack an ally of yours choosing",
+          "name": "Chain of Command",
+          "branch": "Commander",
+          "effect": "When you use Mastermind's start-of-round free action: you get TWO choices instead of one. Two repositions, or a reposition and a buff, or two buffs. Your opening move each round is twice as strong. Requires Mastermind ability.",
           "cost": "1,000 cr"
         },
         {
-          "name": "Silver Tongue Protocol",
-          "effect": "All social checks gain +3. 1/mission: auto-succeed a persuasion check vs a non-boss NPC",
+          "name": "Undying Loyalty",
+          "branch": "Commander",
+          "effect": "Once per encounter: when an ally within Medium range would drop to 0 HP, they drop to 1 HP instead. Your voice catches them before they fall.",
           "cost": "950 cr"
+        },
+        {
+          "name": "Silver Tongue Protocol",
+          "branch": "Provocateur",
+          "effect": "+3 to all Provocateur Edge checks. -2 accuracy on your personal attacks. You've optimized for words, not weapons. Your gun is an afterthought.",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Breaking Point",
+          "branch": "Provocateur",
+          "effect": "When an enemy fails 3 Provocateur checks against you in the same encounter: they are Broken — flee combat entirely if able, or cower in place for 2 rounds if they can't flee. Doesn't work on bosses or mindless enemies.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Presence of Command",
+          "branch": "Shared",
+          "effect": "All Commander abilities gain +1 to their buff values (+1 accuracy becomes +2, +1 damage/die becomes +2, etc). All Provocateur abilities gain +1 to their debuff values. -3 max HP. You've sacrificed your body for your voice.",
+          "cost": "1,100 cr"
         }
       ]
     },
@@ -123,11 +240,103 @@
       "budget": "",
       "augments": [
         {
-          "name": "Kingmaker",
-          "effect": "1/mission: auto-succeed one social encounter OR grant all allies +2 to all checks for one combat",
-          "cost": "2,000 cr"
+          "name": "Conductor",
+          "effect": "Passive. At the start of each round, you may issue one Commander ability and one Provocateur ability for 0 AP (free, before your turn). These are in addition to your normal turn's actions. Additionally, allies affected by your Commander abilities deal +1 damage per die, and enemies affected by your Provocateur abilities take +1 damage from all sources. You don't fight. You conduct.",
+          "cost": "—"
         }
       ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Synergy Examples"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Commander Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Social Implant → Inspiring Presence → Tactical HUD Link → Battlefield Network → Rally Amplifier → Chain of Command + Undying Loyalty. Every turn: Rally conditions off allies, Inspire the damage dealers, Shield Call the frontline. Mastermind gives two free actions before each round. Undying Loyalty catches anyone who drops. Your squad is unkillable as long as you're standing."
+    },
+    {
+      "type": "heading",
+      "text": "Pure Provocateur Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Social Implant → Voice Modulator → Pheromone Emitter → Dread Projector → Psychic Pressure → Crowd Control Processor → Breaking Point + Silver Tongue Protocol. Every turn: Demoralize two targets (Crowd Control), Taunt the biggest threat, Confuse the spellcaster. Psychic Pressure stacks -1 per successful debuff. By round 3, every enemy you've talked to is at -3 to all checks. By round 4, some are Broken and fleeing."
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid (The Full Negotiator)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Social Implant → Calm Under Fire → Inspiring Presence → Dread Projector → Dual Focus Implant → Battlefield Network → Psychic Pressure → Presence of Command. Split every turn: Inspire an ally (Commander) + Demoralize an enemy (Provocateur). Dual Focus makes both last an extra round. Battlefield Network gives the squad Evasion just from you commanding. The gap between your squad's performance and the enemy's grows every round."
+    },
+    {
+      "type": "heading",
+      "text": "Influence + Precision Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Influence T2 (Tactical HUD Link, Dread Projector) + Precision T2 (Armor Crack Rounds, Stabilized Platform). The sniper commander. Stand still, crack armor with your opening shot (Precision Marksman), then spend remaining AP on Inspire and Demoralize. Your Tactical HUD Link shares your sightlines with allies."
+    },
+    {
+      "type": "heading",
+      "text": "Influence + Systems Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Influence T2 (Inspiring Presence, Command Range Extender) + Systems T2 (Overclock, ECM Burst). The ultimate support build. Buff allies with Influence abilities AND Overclock. Debuff enemies with Provocateur abilities AND ECM. Two separate support systems stacking on the same squad."
+    },
+    {
+      "type": "heading",
+      "text": "Influence + Fortress Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Influence T2 (Inspiring Presence, Battlefield Network) + Fortress T2 (Subdermal Plating, damage reduction). The unkillable commander. High armor, high HP, and your Taunt ability forces enemies to attack you instead of the squad. You WANT to be hit because you can take it."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why ability-first:</strong> Every other tree's core loop is \"augment gives you a passive bonus, you attack with it.\" Influence doesn't attack. Influence uses abilities — active verbs that cost AP and produce effects. Augments without abilities are just stat sticks for social checks. The tree only comes alive when the Negotiator has techniques to enhance. This makes Influence feel fundamentally different from every other tree."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why three baseline abilities:</strong> Most kits get one free T1 ability. The Negotiator gets three because they NEED them. A Berserker with one ability and their augment is still a functional melee fighter. A Negotiator with one ability (Read the Room) and their augment (Social Implant) is useless in combat. Three abilities (Read, Rally, Taunt) means the Negotiator has something to DO every turn from mission one."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Provocateur requires Edge checks:</strong> Commander abilities auto-succeed because buffing your allies should be reliable. Provocateur abilities require checks because debuffing enemies SHOULD be resistable. The check creates tension: \"Do I Demoralize the boss (high Grit, might fail) or the minion (low Grit, guaranteed)?\" That's a meaningful decision."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Grit is the default resistance stat:</strong> Grit represents willpower, endurance, and mental toughness. Chrome-heavy Berserkers with high Grit laugh off your insults. Interface-heavy Channelers with low Grit crack under pressure. The Negotiator is strong against squishy backline enemies and weak against beefy frontliners."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Morale Engine is a tracker (and why it's okay):</strong> Morale only goes up. It never decreases, never resets mid-encounter, and has exactly two thresholds (5 and 10). It's a simple tally mark system, not a resource to manage. If even this is too much tracking, it can be cut — the tree works without it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why mindless enemies are the hard counter:</strong> Rift creatures, constructs, drones, undead — anything without ego or morale is immune to Provocateur abilities. The Negotiator walks into a fight against a swarm of rift-spawned constructs and half their toolkit evaporates. Every build should have a hard counter, and \"enemies that can't be talked to\" is a clean, lore-consistent one."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "AP Math — Negotiator Turns",
+      "text": "• <strong>Aggressive:</strong> Taunt (1) + Demoralize (1) + Demoralize (1) + Inspire (1) + Move (1) = 5 AP. No attack. Pure shaping.\n• <strong>Balanced:</strong> Rally (1) + Inspire (1) + Demoralize (1) + Burst Pistol (2) = 5 AP. One buff, one debuff, one shot.\n• <strong>Emergency:</strong> Rally (1) + Rally (1) + Shield Call (1) + Move (1) + Move (1) = 5 AP. Full defense. Something went wrong and you're plugging holes.\n• <strong>Commander-heavy:</strong> Inspire (1) + Reposition Order (1) + Focus Fire (1) + Battle Cry (2) = 5 AP. All-in squad buff turn. Once per encounter spike.\n\nThe Negotiator is always AP-starved. They have more things they WANT to do than AP for. Every turn is triage."
     }
   ]
 }
