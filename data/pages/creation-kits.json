@@ -54,10 +54,10 @@
           "name": "Negotiator",
           "tree": "Influence",
           "aug": "Social Implant",
-          "ability": "Read the Room",
+          "ability": "Read the Room, Rally, Taunt",
           "lean": "Edge / Interface",
           "gear": "Burst Pistol, Light Weave, +100cr",
-          "desc": "Talk your way through. Every problem has a price.",
+          "desc": "Shape the fight. Buff allies, break enemies, never fire a shot.",
           "icon": "🗣️"
         },
         {

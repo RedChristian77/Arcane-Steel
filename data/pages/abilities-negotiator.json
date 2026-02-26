@@ -9,95 +9,73 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Social operator. In combat: disruption, misdirection, morale warfare, and turning enemies against each other. Between combat: the crew’s face for every interaction.</em>"
+      "text": "<em>Commander and provocateur. In combat: buff allies, debuff enemies, shape every engagement. Abilities are your primary weapon — augments multiply them. Between combat: the crew's face for every interaction.</em>"
     },
     {
       "type": "heading",
-      "text": "T1 — Baseline (Free)"
+      "text": "T1 — Baseline (Free — Three Abilities)"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Read the Room (Passive):</strong> At the start of combat, identify which enemy is the leader and which has the lowest morale."
+      "text": "<strong>Read the Room (Passive):</strong> At the start of combat, identify which enemy is the leader, which has the lowest morale, and which has the lowest Grit. You always know who to target."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rally (Active, 1 AP):</strong> [Commander] Choose an ally within Medium range. Remove one of: Stunned, Prone (stand them up for free), Dazed, or 1 stack of any condition. Your voice cuts through the chaos. This is the Negotiator's core support verb — cheap, flexible, always useful."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Taunt (Active, 1 AP):</strong> [Provocateur] Edge check vs target's Grit within Medium range. On success: target must attack you or move toward you on their next turn if able. On failure: no effect. This is the Negotiator's core disruption verb — force enemies to make bad decisions."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 — Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Demoralize (Active, 1 AP):</strong> Edge check vs enemy Grit within Medium range. On success, -2 to all their checks until end of your next turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rally (Active, 1 AP):</strong> Remove Stunned, stand an ally from Prone for free, or remove 1 Hex stack from an ally within Medium range."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Misdirect (Active, 1 AP):</strong> Edge check (DC 8). An enemy’s next attack targets a different enemy of your choice (if within range)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Inspiring Words (Active, 1 AP):</strong> An ally within Medium range gets +1 to all checks until end of your next turn. Your encouragement is tangible."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Stalling Tactics (Active, 1 AP):</strong> Delay an enemy’s next turn by 1 position in initiative order. You distract them just long enough. Edge check (DC 7)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Size Up (Passive):</strong> When you successfully Read an enemy (Awareness check), you also learn their current HP range (full/above half/below half/critical) and whether they’re considering fleeing."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Inspire", "Commander", "Active", "1 AP", "An ally within Medium range gets +1 accuracy AND +1 damage per die on their next attack this round. You call the shot. Expires at end of round if unused."],
+        ["Reposition Order", "Commander", "Active", "1 AP", "An ally within Medium range may immediately move 1 range band as a free action (doesn't cost their AP, doesn't provoke opportunity attacks). You direct the chess pieces."],
+        ["Shield Call", "Commander", "Active", "1 AP", "An ally within Medium range gains +2 Evasion against the next attack targeting them. You warned them in time. Expires at end of round."],
+        ["Demoralize", "Provocateur", "Active", "1 AP", "Edge check vs target's Grit within Medium range. On success: -2 accuracy on their next attack. You got in their head."],
+        ["Confuse", "Provocateur", "Active", "1 AP", "Edge check vs target's Edge within Medium range. On success: target cannot use special abilities or augment activations on their next turn. Their timing is off, their focus is broken."],
+        ["Stalling Tactics", "Provocateur", "Active", "1 AP", "Edge check (DC 7) vs a target within Medium range. On success: target loses 1 AP on their next turn. You waste their time with misdirection."],
+        ["Size Up", "Shared", "Passive", "—", "When you successfully use any Provocateur ability on an enemy, you also learn their current HP range (full/above half/below half/critical) and all active conditions. Free intel with every debuff."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 — Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Surrender Demand (Active, 2 AP):</strong> Hordes break at 25% casualties instead of 50% on a successful Intimidation check (DC 7)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Battlefield Commander (Passive):</strong> Once per round, when an ally within Medium range is attacked, they get +1 Evasion against that attack. You call out warnings."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>False Retreat (Active, 2 AP):</strong> Enemies make Edge check (DC 8) or break formation to pursue. You position them where you want."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Divide and Conquer (Active, 2 AP):</strong> Choose two enemies within Medium range. Edge check (DC 8). On success, those enemies cannot support each other (no flanking bonuses, no horde bonuses, no coordinated abilities) until end of your next turn. You break their coordination."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Cutting Words (Active, 1 AP):</strong> When an enemy within Medium range hits an ally, use your reaction to reduce the damage by 1d6. Your insult throws off their strike at the last second. Once per round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Negotiate Ceasefire (Active, 3 AP):</strong> Both sides stop fighting for 1 round. Neither side can attack. Used to buy time for healing, repositioning, or actual negotiation. Requires enemy leader to be alive and below 50% force strength. Edge check (DC 10)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Exploit Ego (Passive):</strong> When you successfully Demoralize a Boss-tier enemy, the effect lasts 2 rounds instead of 1. Bosses have the biggest egos."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Battle Cry", "Commander", "Active", "2 AP", "ALL allies within Medium range get +1 accuracy until end of your next turn. The whole squad sharpens up. Once per encounter."],
+        ["Covering Command", "Commander", "Active", "1 AP", "Designate an ally. Until start of your next turn, that ally gains +1 Armor (you're calling out incoming threats, they're bracing on your timing)."],
+        ["Sacrifice Play", "Commander", "Active", "1 AP", "Designate an ally within Close range. The next attack that targets them targets you instead. You step in. Once per encounter."],
+        ["Focus Fire", "Commander", "Active", "1 AP", "Designate a target. All allies that hit this target before your next turn deal +1 damage per die. The squad concentrates."],
+        ["Cutting Words", "Provocateur", "Reaction", "0 AP", "When an enemy hits an ally within Medium range, reduce the damage by 1d6. Your insult throws off their strike. Uses your Reaction. Once per round."],
+        ["Surrender Demand", "Provocateur", "Active", "2 AP", "Edge check (DC 7). Hordes break at 25% casualties instead of 50%. Against a Standard enemy below 25% HP: they surrender entirely on success. Doesn't work on bosses, elites, or mindless enemies."],
+        ["Divide and Conquer", "Provocateur", "Active", "2 AP", "Choose two enemies within Medium range. Edge check (DC 8). On success: those enemies cannot support each other (no flanking bonuses, no horde bonuses, no coordinated abilities) for 2 rounds. You break their formation."],
+        ["Exploit Ego", "Provocateur", "Passive", "—", "Your Provocateur abilities last 1 additional round against Boss-tier enemies. Bosses have the biggest egos — and the most to lose when you crack them."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 — Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Turn Coat (Active, 3 AP):</strong> Edge check vs Grit on a Standard-or-lower enemy. On success, they fight for you for 1d4 turns with full stat block. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Aura of Authority (Passive):</strong> Allies within Close range get +1 to all checks. Enemies within Close range get -1 to all checks."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Mastermind (Passive):</strong> At the start of each round, you can issue one Command for free (0 AP): reposition one ally 1 range band, give one ally +2 to their next check, or impose -2 on one enemy's next check. Your tactical mind works constantly."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>War of Words (Active, 2 AP):</strong> Edge check vs Grit on an enemy within Medium range. On success, that enemy cannot use special abilities or augment effects for 2 rounds. Your words crack their focus wide open. Once per encounter."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Mastermind", "Commander", "Passive", "—", "At the start of each round (free, before anyone acts): choose one — reposition an ally 1 range band, grant an ally +2 to their next check, or give an ally 1 temporary AP this turn. Your tactical mind works before the fighting starts."],
+        ["Aura of Authority", "Commander", "Passive", "—", "Allies within Close range: +1 to all checks. Enemies within Close range: -1 to all checks. Always on. Your presence warps the fight."],
+        ["Turn Coat", "Provocateur", "Active", "3 AP", "Edge check vs Grit on a Standard-or-lower enemy within Medium range. On success: they fight for you for 2 rounds with their full stat block. Once per encounter. Doesn't work on bosses, elites, or mindless enemies."],
+        ["War of Words", "Provocateur", "Active", "2 AP", "Edge check vs Grit on a target within Medium range. On success: target cannot use special abilities, augment activations, OR reactions for 2 rounds. Total shutdown. Once per encounter."],
+        ["Puppet Strings", "Provocateur", "Active", "2 AP", "Edge check vs Edge on a target within Medium range. On success: you choose the target's next attack — who they hit and with what weapon. They attack their own ally. Once per encounter."]
+      ]
     }
   ]
 }

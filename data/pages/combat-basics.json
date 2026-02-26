@@ -133,7 +133,7 @@
         ["Cutting Words (Negotiator T3 ability)", "Reduce damage by 1d6", "Enemy hits ally in range"],
         ["Tactical Relay (Technician T3 ability)", "Ally spends 2 AP out of turn", "You use 1 AP on your turn to set it up"],
         ["Martyrdom Protocol (Sin Eater T4 augment)", "Absorb half damage", "Ally takes damage in range"],
-        ["Battlefield Commander (Negotiator T3 ability)", "+1 Evasion for ally", "Ally is attacked in range"]
+        ["Covering Fire (Operative T2 ability)", "Free ranged attack on attacker", "Enemy attacks the ally you're covering"]
       ]
     },
     {
