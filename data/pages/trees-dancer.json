@@ -6,34 +6,173 @@
     {
       "type": "tree-meta",
       "stat_lean": "Reflex / Chrome",
-      "theme": "Two blades. One rhythm. Every fight is a performance.",
-      "design": "Dancer augments reward dual wielding and aggressive multi-hit combat styles."
+      "theme": "Two blades. One rhythm. Every fight is a performance. You move where others stand still. You hit four times where others hit once.",
+      "design": "The Dancer is the volume-of-attacks skirmisher. Two branches — Tempest (hit count escalation: combo counters, bonus attacks on consecutive hits, single-target blender) and Zephyr (mobility offense: movement-triggered bonuses, multi-target pressure, evasion through motion) — share the same tree and reward constant aggression. The Dancer's damage comes from hit COUNT, not hit DAMAGE."
+    },
+    {
+      "type": "callout",
+      "label": "Critical Rule",
+      "style": "rust",
+      "text": "<strong>Light weapons unlock the tree.</strong> Full Dancer augment benefits require dual-wielding light weapons (Precision Blade, Combat Knife, or equivalent). Medium weapons can be dual-wielded at reduced benefit (-1 to all Dancer trigger bonuses). Heavy weapons cannot be dual-wielded at all. The Dancer trades damage-per-hit for hits-per-turn."
+    },
+    {
+      "type": "callout",
+      "label": "Critical Constraint",
+      "style": "rust",
+      "text": "<strong>Low HP, low armor.</strong> The Dancer wears Light Weave (2 armor, no Evasion cap). Their defense is Evasion, not absorption. A hit that lands HURTS — they don't have the HP pool of a Fortress or the armor of a Berserker. The Dancer's survival strategy is \"don't get hit.\" When that fails, they're fragile."
+    },
+    {
+      "type": "callout",
+      "label": "vs Shadow",
+      "style": "teal",
+      "text": "<strong>Shadow</strong> deals burst damage from stealth — one massive hit from invisibility, then disengage. <strong>Dancer</strong> deals sustained damage from constant contact — many small hits while weaving through combat. Shadow is ambush predator. Dancer is relentless harassment."
+    },
+    {
+      "type": "callout",
+      "label": "vs Fury",
+      "style": "teal",
+      "text": "<strong>Fury</strong> escalates through TAKING damage — getting hit makes them stronger. <strong>Dancer</strong> escalates through DEALING damage — landing hits builds combo and momentum. Fury wants to be hit. Dancer wants to never be hit. Fury is the brute. Dancer is the blade."
+    },
+    {
+      "type": "callout",
+      "label": "vs Leech",
+      "style": "teal",
+      "text": "<strong>Leech</strong> uses melee hits to vent Toxicity — each hit is a resource management action. <strong>Dancer</strong> uses melee hits to build combo momentum — each hit is a setup for the NEXT hit. Leech hits serve a purpose beyond damage. Dancer hits ARE the purpose."
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Dual-Wield Rules (Baseline)"
+    },
+    {
+      "type": "callout",
+      "label": "Dual-Wield Rules",
+      "style": "teal",
+      "items": [
+        "<strong>Off-hand penalty:</strong> -1 accuracy with off-hand weapon (reduced/removed by augments).",
+        "<strong>Evasion penalty:</strong> -1 Evasion while dual wielding (removed by augments).",
+        "<strong>AP costs:</strong> Each weapon attack costs its normal AP. Precision Blade = 2 AP. Combat Knife = 1 AP. Two Precision Blade attacks = 4 AP. Two Combat Knife attacks = 2 AP.",
+        "<strong>Heavy weapons</strong> cannot be dual-wielded. Medium weapons can be used off-hand at -2 accuracy instead of -1.",
+        "<strong>Light weapons for full Dancer benefits.</strong> All Dancer augment triggers specify \"while dual wielding light weapons\" unless otherwise noted."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Combo Counter (Tempest Core Mechanic)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tempest augments build a Combo Counter that tracks consecutive hits in a single turn. Each hit increases the counter by 1. Misses reset it to 0. Augments trigger at counter thresholds — bonuses that only fire when you've landed 2, 3, 4+ hits in sequence."
+    },
+    {
+      "type": "table",
+      "headers": ["Combo Count", "Base Bonus"],
+      "rows": [
+        ["0–1", "None"],
+        ["2 (Pair)", "+1 accuracy on next attack this turn"],
+        ["3 (Triple)", "+1 accuracy, +1 damage per die on next attack"],
+        ["4+ (Chain)", "+2 accuracy, +1 damage per die, next attack ignores 1 armor"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Combo Counter resets at end of turn. It's a within-turn mechanic — you build and spend in the same round."
+    },
+    {
+      "type": "heading",
+      "text": "Movement Momentum (Zephyr Core Mechanic)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zephyr augments track tiles moved this turn and convert movement into combat bonuses. The more you move, the harder you hit and the harder you are to hit. Standing still negates all Zephyr benefits."
+    },
+    {
+      "type": "table",
+      "headers": ["Tiles Moved This Turn", "Base Bonus"],
+      "rows": [
+        ["0", "None (Zephyr augments inactive)"],
+        ["1–2", "+1 Evasion until next turn"],
+        ["3–4", "+1 Evasion, +1 melee accuracy"],
+        ["5+", "+2 Evasion, +1 melee accuracy, +1 damage per die"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiles moved includes ALL movement — normal movement AP, free movement from Fluid Movement, movement from augments and abilities. It all counts."
+    },
+    {
+      "type": "heading",
+      "text": "Tempest Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you <strong>hit with a melee attack while dual wielding light weapons</strong>. Combo Counter increases. Augments check counter thresholds. Bonus attacks unlock at higher counts. The Tempest Dancer commits to one target and stacks hits — each swing sets up the next. A miss resets the engine."
+    },
+    {
+      "type": "heading",
+      "text": "Zephyr Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you <strong>move and attack in the same turn while dual wielding light weapons</strong>. Movement Momentum applies bonuses based on distance traveled. Augments grant free movement on hit, attacks during movement, and evasion scaling. The Zephyr Dancer flows across the battlefield — hit, move, hit, move."
+    },
+    {
+      "type": "heading",
+      "text": "Combined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hit an enemy (Tempest: Combo Counter +1) → free movement from Fluid Movement (Zephyr: tiles moved +1) → hit again (Tempest: Combo Counter +2, Pair bonus) → more free movement → hit a DIFFERENT target (Zephyr: multi-target bonuses). Both branches reward attacking. Tempest rewards sequential hits on ONE target. Zephyr rewards moving BETWEEN hits. The hybrid Dancer weaves between both."
+    },
+    {
+      "type": "callout",
+      "label": "Natural Counters",
+      "style": "rust",
+      "items": [
+        "<strong>High armor enemies</strong> — light weapons deal small dice (1d6 Precision Blade, 1d4 Combat Knife). High armor reduces each hit significantly. Four hits at 4 damage each vs 3 armor = 4 total damage. The Dancer needs armor shred from allies or weapon mods.",
+        "<strong>Immobilize / root effects</strong> — Zephyr dies when you can't move. Tempest is less affected but the Dancer's survival (Evasion) depends on not standing still. Immobilized Dancer = dead Dancer.",
+        "<strong>AoE effects</strong> — light armor, low HP. A grenade hits everyone. The Dancer doesn't have Fortress's damage reduction or Channeler's Rift Shield. They eat the full damage.",
+        "<strong>Ranged enemies at Long range</strong> — melee only. Same problem as all melee classes, but the Dancer at least has the speed to close distance quickly.",
+        "<strong>Single tough target with high Evasion</strong> — Tempest needs hits to build combo. Against a target that's hard to hit, the combo never starts. Misses reset the counter.",
+        "<strong>Fear / Panic effects</strong> — forced movement or inability to approach disrupts both branches. The Dancer who can't close distance is useless."
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "AUGMENT TREE"
     },
     {
       "type": "tree-tier",
       "tier": 1,
       "title": "Entry",
       "req": "0 augments",
-      "budget": "",
+      "budget": "Ambidextrous Wiring removes off-hand penalty for light weapons. Rhythm Tracker rewards consistency. Blade Balance offsets the dual-wield Evasion penalty. Quick Swap is cheap utility.",
       "augments": [
         {
           "name": "Ambidextrous Wiring",
-          "effect": "Off-hand accuracy penalty reduced by 1",
+          "branch": "Shared",
+          "effect": "Off-hand accuracy penalty reduced by 1 (from -1 to 0 for light weapons, from -2 to -1 for medium). Your neural wiring treats both hands as dominant. The foundation — without this, off-hand attacks are unreliable.",
           "cost": "250 cr"
         },
         {
           "name": "Rhythm Tracker",
-          "effect": "+1 accuracy with dual-wielded weapons if you attacked last turn",
+          "branch": "Tempest",
+          "effect": "+1 accuracy with all dual-wielded attacks if you attacked with both weapons last turn. Consistency rewards — the Dancer who attacks every round builds rhythm.",
           "cost": "200 cr"
         },
         {
           "name": "Blade Balance",
-          "effect": "While dual wielding light weapons: +1 Evasion",
+          "branch": "Zephyr",
+          "effect": "While dual wielding light weapons: +1 Evasion. Partial offset of the dual-wield Evasion penalty (-1 from dual wielding + 1 from Blade Balance = net 0). Your footwork compensates.",
           "cost": "250 cr"
         },
         {
           "name": "Quick Swap",
-          "effect": "Switch main/off-hand as free action",
+          "branch": "Shared",
+          "effect": "Switching main/off-hand weapons is a free action (normally 1 AP). You can swap to the right tool mid-combat without losing tempo.",
           "cost": "150 cr"
         }
       ]
@@ -43,27 +182,49 @@
       "tier": 2,
       "title": "Adapted",
       "req": "1 augment",
-      "budget": "",
+      "budget": "Paired Strike and Combo Initiator feed the Tempest combo system. Dance of Blades is the Zephyr movement engine — 5ft free per hit stacks with Fluid Movement for 10ft/hit. Evasive Flourish bridges both branches (3+ hits = +2 Evasion).",
       "augments": [
         {
           "name": "Paired Strike",
-          "effect": "Both weapons hit same target → +1 damage die on second",
+          "branch": "Tempest",
+          "effect": "When both weapons hit the same target in the same turn (Combo 2+), the second hit deals +1d4 bonus damage. Sequential hits amplify.",
           "cost": "400 cr"
         },
         {
-          "name": "Whirlwind Wiring",
-          "effect": "1/combat: attack two different adjacent targets (one each weapon)",
-          "cost": "450 cr"
+          "name": "Combo Initiator",
+          "branch": "Tempest",
+          "effect": "Your first melee attack each turn gets +1 accuracy (stacks with Aggressive Stance if cross-tree). Helps START the combo — the first hit is the hardest because you have no momentum yet.",
+          "cost": "350 cr"
         },
         {
           "name": "Counter-Rhythm",
-          "effect": "After enemy misses you in melee, off-hand gains +2 accuracy",
+          "branch": "Tempest",
+          "effect": "After an enemy misses you in melee, your next melee attack against them gets +2 accuracy. Their miss becomes your opening. Once per round.",
           "cost": "350 cr"
         },
         {
+          "name": "Dance of Blades",
+          "branch": "Zephyr",
+          "effect": "On melee hit: move 5ft for free (no AP, no opportunity attacks). This is IN ADDITION to Fluid Movement's free 5ft after attacking. Two hits = 10ft of free movement. You never stop moving.",
+          "cost": "400 cr"
+        },
+        {
           "name": "Flowing Guard",
-          "effect": "While dual wielding: +1 Evasion against melee attacks. Your off-hand deflects instinctively",
+          "branch": "Zephyr",
+          "effect": "While dual wielding: +1 Evasion against melee attacks. Your off-hand deflects instinctively. Stacks with Blade Balance for +2 Evasion total against melee.",
           "cost": "350 cr"
+        },
+        {
+          "name": "Skirmisher's Instinct",
+          "branch": "Zephyr",
+          "effect": "If you have moved 3+ tiles this turn, your melee attacks ignore 1 armor. Movement generates kinetic energy — your strikes carry more force.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Evasive Flourish",
+          "branch": "Shared",
+          "effect": "After landing 3+ hits in one turn, gain +2 Evasion until your next turn. Offense generates defense. The flurry of attacks makes you harder to track.",
+          "cost": "400 cr"
         }
       ]
     },
@@ -72,27 +233,49 @@
       "tier": 3,
       "title": "Integrated",
       "req": "3 augments",
-      "budget": "",
+      "budget": "Escalating Combo supercharges the Combo Counter bonuses. Twin Fang Protocol turns crits into free attacks. Relentless Pressure softens the miss penalty. Gale Step is Zephyr's kill chain. Glass Dancer is the defining trade-off: +2 damage per die, armor = 0.",
       "augments": [
         {
-          "name": "Twin Fang Protocol",
-          "effect": "Off-hand crits trigger a bonus main-hand attack",
+          "name": "Escalating Combo",
+          "branch": "Tempest",
+          "effect": "Combo Counter bonuses are enhanced. Pair (2): +2 accuracy. Triple (3): +2 accuracy, +1d4 bonus damage. Chain (4+): +3 accuracy, +1d4 bonus damage, ignores 2 armor. Each consecutive hit is significantly stronger than the last.",
           "cost": "700 cr"
         },
         {
-          "name": "Dance of Blades",
-          "effect": "While dual wielding, move 1 square after each hit (free)",
-          "cost": "600 cr"
-        },
-        {
-          "name": "Synchronized Strike",
-          "effect": "1/combat: combine both weapons' damage dice in one attack",
+          "name": "Twin Fang Protocol",
+          "branch": "Tempest",
+          "effect": "When either weapon scores a critical hit, the OTHER weapon gets a free bonus attack against the same target (0 AP, normal accuracy). Crits breed crits. At high combo counts with elevated accuracy, crits become frequent.",
           "cost": "650 cr"
         },
         {
-          "name": "Evasive Flourish",
-          "effect": "After 3+ hits in one turn, +2 Evasion until next turn",
+          "name": "Relentless Pressure",
+          "branch": "Tempest",
+          "effect": "Combo Counter no longer fully resets on miss. Instead, a miss reduces the counter by 1 (minimum 0). One miss doesn't end the chain — it just slows you down. Two consecutive misses still drops you to 0.",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Gale Step",
+          "branch": "Zephyr",
+          "effect": "Once per turn: when you hit an enemy, you may immediately move up to 10ft and make a free melee attack against a DIFFERENT target you pass. 0 AP. Zephyr's kill chain — not through damage, but through coverage. Hit one, slide past, hit another.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "After Image",
+          "branch": "Zephyr",
+          "effect": "When you move 3+ tiles and attack in the same turn, the first melee attack against you before your next turn automatically misses. Your afterimage absorbs the hit. Once per round.",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Kinetic Edge",
+          "branch": "Zephyr",
+          "effect": "While at 5+ tiles moved this turn, all your melee attacks deal +1 damage per die AND apply Bleed 1 on hit. Movement makes your cuts deeper.",
           "cost": "550 cr"
+        },
+        {
+          "name": "Glass Dancer",
+          "branch": "Shared",
+          "effect": "Trade-off. While dual wielding light weapons: +2 damage per die on ALL attacks. However: your armor counts as 0 (regardless of what you're wearing). Pure offense at the cost of all physical protection. You survive on Evasion alone or you don't survive.",
+          "cost": "600 cr"
         }
       ]
     },
@@ -101,17 +284,37 @@
       "tier": 4,
       "title": "Experimental",
       "req": "6 augments",
-      "budget": "",
+      "budget": "Infinite Combo removes the miss reset at 4+ and reduces AP at 6+. One Thousand Cuts stacks devastating Bleed conditions. Blade Storm is the encounter-ending AoE. Untouchable makes you nearly unhittable at full movement.",
       "augments": [
         {
-          "name": "Blade Storm",
-          "effect": "1/combat: full attack with both weapons against all adjacent enemies",
+          "name": "Infinite Combo",
+          "branch": "Tempest",
+          "effect": "While at Combo 4+, the counter no longer decays or resets until end of turn (even on miss). Additionally: at Combo 6+, all attacks cost -1 AP (minimum 1). You've found the rhythm. Nothing breaks it. A Dancer at Combo 6 attacking with Combat Knives (normally 1 AP) is attacking for 0 AP — they just keep swinging.",
           "cost": "1,100 cr"
         },
         {
-          "name": "Glass Cannon",
-          "effect": "While dual wielding: +3 damage per die. Armor counts as 0 (trade-off)",
-          "cost": "950 cr"
+          "name": "One Thousand Cuts",
+          "branch": "Tempest",
+          "effect": "Every melee hit after the second in a turn applies a stacking condition: 3rd hit: Bleed 1. 4th hit: Bleed 2. 5th hit: Bleed 3. 6th+: Bleed 4. The accumulation is devastating. A 5-hit combo leaves the target bleeding at Bleed 1+2+3 = Bleed 6. They're dead in 2 rounds from conditions alone.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Blade Storm",
+          "branch": "Zephyr",
+          "effect": "Once per encounter: 3 AP. Move through every enemy within Close range, making one attack against each with BOTH weapons (two attacks per target). You cannot be attacked during the movement. Resolve all attacks, then end in a position of your choice. The signature Dancer move — a single devastating pass through the entire battlefield.",
+          "cost": "1,100 cr"
+        },
+        {
+          "name": "Untouchable",
+          "branch": "Zephyr",
+          "effect": "While dual wielding and you moved 3+ tiles this turn, enemies have -2 accuracy against you until your next turn. Stacks with Blade Balance, Flowing Guard, Evasive Flourish, and After Image. A Zephyr Dancer at full investment has: base Evasion + 1 (Blade Balance) + 1 (Flowing Guard) + 2 (Evasive Flourish) + 2 (Untouchable) = effectively +6 Evasion over baseline. Nearly unhittable.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Mirrored Weapons",
+          "branch": "Shared",
+          "effect": "Your off-hand weapon deals the same damage die as your main hand (no longer reduced). Both weapons are equally lethal. Additionally: weapon mods on one weapon apply to both (if applicable). One set of mods, two weapons' worth of benefit.",
+          "cost": "900 cr"
         }
       ]
     },
@@ -123,10 +326,119 @@
       "budget": "",
       "augments": [
         {
-          "name": "Tempest",
-          "effect": "Dual wielding attacks cost 1 less AP each. Off-hand has no accuracy penalty",
-          "cost": "2,000 cr"
+          "name": "Tempest of Steel",
+          "effect": "Passive. All dual-wielded attacks cost -1 AP (minimum 0 for Combat Knives, minimum 1 for Precision Blades). Off-hand has no accuracy penalty (stacks with Ambidextrous Wiring — medium weapons now have 0 penalty too). Combo Counter starts at 1 instead of 0 (you begin every turn with Pair bonus). Movement Momentum starts at +1 tile (you always count as having moved at least 1 tile even if stationary). Once per encounter: Perfect Form — for 2 rounds, all your melee attacks automatically hit (no accuracy roll). All hits apply their full combo/momentum bonuses. All hits trigger Tempest and Zephyr augments simultaneously. You are untouchable and unstoppable for 12 seconds. When Perfect Form ends: -2 to all checks for 1 round (exhaustion).",
+          "cost": "Auto-unlock"
         }
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "CROSS-BUILDS"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Tempest Build (The Blender)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ambidextrous Wiring → Rhythm Tracker → Paired Strike → Combo Initiator → Escalating Combo → Twin Fang Protocol → Relentless Pressure → Infinite Combo → One Thousand Cuts.</strong> Commit to one target. Build combo. Combo Initiator gives +1 accuracy on hit 1. Paired Strike adds +1d4 on hit 2. Escalating Combo at 3 hits: +2 accuracy, +1d4 bonus. Twin Fang Protocol turns crits into free attacks. Infinite Combo at 4+: counter doesn't reset, at 6+ attacks cost -1 AP. One Thousand Cuts stacks Bleed on every hit past the 2nd. <em>The problem: light weapon damage. Each hit deals 1d4-1d6 + mods. Against 3+ armor, most of that is absorbed. You need armor shred from allies or weapon mods.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Zephyr Build (The Ghost)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ambidextrous Wiring → Blade Balance → Dance of Blades → Flowing Guard → Skirmisher's Instinct → Gale Step → After Image → Kinetic Edge → Untouchable.</strong> Never stop moving. Every attack generates 10ft free movement (Fluid Movement + Dance of Blades). Skirmisher's Instinct ignores 1 armor at 3+ tiles. Kinetic Edge adds +1/die and Bleed 1 at 5+ tiles. After Image auto-dodges the first attack. Untouchable gives enemies -2 accuracy. Blade Storm is the encounter-ender. Evasion stacking: base + 1 (Blade Balance) + 1 (Flowing Guard) + 2 (Evasive Flourish) + 2 (Untouchable) = effectively +6 over baseline. <em>The problem: spread across many targets means none die quickly. You're harassing, not killing. You need allies to finish what you started.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid Build (The Complete Dancer)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ambidextrous Wiring → Rhythm Tracker → Paired Strike → Dance of Blades → Skirmisher's Instinct → Escalating Combo → After Image → Evasive Flourish → Mirrored Weapons.</strong> Build combo on a priority target (Tempest) while using free movement to reposition (Zephyr). Paired Strike rewards hitting one target twice. Dance of Blades gives 10ft free movement. Skirmisher's Instinct ignores 1 armor. Escalating Combo scales accuracy. After Image protects you once per round. Evasive Flourish grants +2 Evasion after 3+ hits. Mirrored Weapons equalizes both hands. Not as deep in either branch, but functional in every situation."
+    },
+    {
+      "type": "heading",
+      "text": "Dancer + Leech Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dancer T2 (Ambidextrous Wiring, Paired Strike) + Leech T2 (Furnace Core, Toxin Push).</strong> Thousand Toxic Cuts. Dual wielding with Bleed on every hit = 2 Toxicity vented per round (4 with Corrosive Grasp). Dancer hits more often than any other melee class, which means more Bleeds per turn. The Dancer-Leech vents faster than any other Leech build. <em>The problem: Dancer wants Reflex/Chrome. Leech wants Grit/Chrome. Chrome overlaps but Reflex vs Grit splits hard.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Dancer + Shadow Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shadow T2 (Optical Camo Weave, vanish triggers) + Dancer T2 (Ambidextrous Wiring, Blade Balance).</strong> The flickering assassin. Open from stealth (Shadow bonus). Dual-wield flurry with combo bonuses (Dancer). Then vanish and reset. <em>The problem: Shadow's stealth breaks on attack. You get one stealth opener, then you're a visible Dancer. The vanish-and-reset cycle requires heavy Shadow investment.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Dancer + Fury Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fury T2 (Adrenal Injector, Cleave) + Dancer T2 (Ambidextrous Wiring, Combo Initiator).</strong> Volume meets violence. Dancer provides hit count. Fury's Cleave triggers on kills, which happen more often when you're hitting 4 times per turn. <em>The problem: Dancer's individual hits are weak. Fury's Carnage needs KILLS to chain. Light weapon hits may not finish enemies — Dancer whittles, doesn't execute.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Dancer + Precision Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Precision T2 (Targeting Suite, accuracy bonuses) + Dancer T2 (Ambidextrous Wiring, Rhythm Tracker).</strong> The accurate dual-wielder. Precision's Targeting Suite and Cracked (armor shred) solve the Dancer's two biggest problems: accuracy for combo starting and armor penetration for light weapons. <em>The problem: Precision wants you stationary (Marksman). Dancer wants you moving (every Zephyr trigger). Pick Tempest-only if cross-treeing Precision — commit to the combo, not the movement.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Dancer + Fortress Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Guardian Protocol) + Dancer T2 (Ambidextrous Wiring, Blade Balance).</strong> The mobile tank. Subdermal Plating + worn armor gives actual damage reduction. Blade Balance and Flowing Guard give Evasion. You're harder to hit AND harder to hurt. <em>The problem: Fortress wants you standing still (Shield Wall, Brace). Dancer wants you moving constantly. The stat spread (Chrome/Grit vs Reflex/Chrome) partially overlaps but you'll never have the Evasion of a pure Dancer or the armor of a pure Fortress.</em>"
+    },
+    {
+      "type": "divider",
+      "text": "DESIGN NOTES"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Tempest vs Zephyr instead of Offense vs Defense:</strong> Both branches are offensive — the Dancer doesn't have a defensive identity. The split is about HOW you deliver attacks. Tempest focuses fire on one target and escalates (combo counter climbs). Zephyr spreads across multiple targets and leverages movement (momentum bonuses). Against a boss, Tempest is superior. Against a horde, Zephyr is superior. Neither is defensive, but Zephyr's Evasion stacking makes it the more survivable branch."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the Combo Counter resets on miss:</strong> The Combo Counter is the Tempest's central tension. Hits escalate. Misses punish. This makes accuracy critical for Tempest Dancers and creates the heart-pounding moment of \"I need this 4th hit to land for Chain bonuses.\" Relentless Pressure at T3 softens this (-1 instead of reset), and Infinite Combo at T4 removes it entirely above Combo 4, but by then you've invested 6+ augments into earning that safety net."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why light weapons only for full benefits:</strong> The Dancer's identity is volume, not power. A Heavy Axe Dancer would be broken — 2d8 per hit × 4 hits with combo bonuses = more damage than any class with none of the risk. Light weapons (1d6 Precision Blade, 1d4 Combat Knife) keep individual hits modest. Weapon Mastery at T4 (+1 damage die) is the earned reward for deep investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Glass Dancer exists as a trade-off:</strong> Glass Dancer (+2 damage per die, armor = 0) is the most extreme version of the Dancer fantasy — pure offense, zero defense except Evasion. A Glass Dancer with Zephyr's full Evasion stacking (+6 effective Evasion) is nearly unhittable and deals significantly more damage per swing. But any hit that lands deals full damage with zero armor reduction. A single crit can kill them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Perfect Form (T5) auto-hits:</strong> 10 augments deep, you've fully committed. Perfect Form (2 rounds of auto-hit) is the reward — guaranteed combo building, guaranteed momentum, guaranteed Tempest AND Zephyr bonuses all firing simultaneously. It's short (2 rounds) with an exhaustion cost (-2 all checks). The Dancer's mastery fantasy is \"for 12 seconds, I am the most perfect fighter in the world.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the Dancer has the highest skill ceiling:</strong> The Dancer has more per-turn decisions than any other class. Every attack has follow-up questions: which target? Move where after? Use main or off-hand? Start combo or continue? Build momentum or commit position? The mechanical simplicity of each individual action (hit, move 5ft) creates complex SEQUENCING. The Dancer rewards player skill more than any other class."
+    },
+    {
+      "type": "callout",
+      "label": "AP Math — Typical Dancer Turns (5 AP, dual Precision Blades)",
+      "style": "teal",
+      "items": [
+        "<strong>Basic:</strong> Main hand (2 AP) → free 5ft movement → Off-hand (2 AP) → free 5ft movement → Move (1 AP). Net: 2 attacks, 10ft free movement + 5ft paid. Combo 2 (Pair). Solid baseline.",
+        "<strong>Aggressive (Combat Knives):</strong> Main (1 AP) → free 5ft → Off (1 AP) → free 5ft → Main (1 AP) → free 5ft → Off (1 AP) → free 5ft → Move (1 AP). Net: 4 attacks, 20ft free movement + 5ft paid. Combo 4 (Chain). Lower damage per hit but maximum combo building.",
+        "<strong>Blinding Speed Burst:</strong> Blinding Speed (2 AP, next 2 attacks free) → Main (0 AP) → Off (0 AP) → Main (2 AP) → Off (1 AP free movement). Net: 4 attacks for 5 AP, Combo 4 immediately.",
+        "<strong>Zephyr Harassment:</strong> Move 10ft (2 AP) → Main hand attack target A (2 AP) → free 5ft toward target B → free 5ft (Dance of Blades) → Off-hand attack target B (1 AP, Combat Knife). Net: 2 attacks on 2 different targets, 20ft total movement, momentum bonuses active.",
+        "<strong>Dance of Death:</strong> Dance of Death (4 AP, hit every enemy in Close range) → free 5ft → Off-hand on priority target (1 AP). Net: attacks against every nearby enemy + 1 focused hit. Once per encounter room-clearer.",
+        "<strong>Full combo at Infinite Combo (T4, Combat Knives, Combo 6+):</strong> Attacks cost 0 AP. Main → free 5ft → Off → free 5ft → Main → free 5ft → Off → free 5ft → continue until miss or targets exhausted. Theoretically unlimited attacks. The T4 payoff."
       ]
     }
   ]
