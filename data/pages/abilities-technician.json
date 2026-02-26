@@ -9,95 +9,63 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Support and control specialist. Hack systems, disrupt enemies, buff allies, keep the crew running. Abilities focus on information, equipment manipulation, and tactical coordination.</em>"
+      "text": "<em>Gear specialist and battlefield engineer. Two branches \u2014 Grenadier (throwables: burst area effects) and Trapper (deployables: persistent map control). Abilities supplement the augment-and-item system, enhancing grenades, deployables, and field engineering. The class is augment-heavy and item-heavy \u2014 abilities supplement rather than define.</em>"
     },
     {
       "type": "heading",
-      "text": "T1 — Baseline (Free)"
+      "text": "T1 \u2014 Baseline (Free)"
     },
     {
       "type": "paragraph",
-      "text": "<strong>System Scan (Passive):</strong> At the start of combat, automatically identify one enemy’s weakest stat. GM reveals their lowest stat."
+      "text": "<strong>System Scan (Passive):</strong> At the start of combat, automatically identify one enemy's weakest stat. Your HUD highlights the vulnerability. Additionally, you can see deployable HP, remaining grenade count, and all mechanical/tech objects in Medium range through walls (thermal-tech overlay)."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 \u2014 Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Overclock Ally (Active, 1 AP):</strong> An ally within Close range gets +2 accuracy on their next attack this turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Disrupt (Active, 1 AP):</strong> An enemy within Medium range gets -2 accuracy on their next attack."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Field Patch (Passive):</strong> Healing Stims you use on allies (not yourself) heal an additional 1d4."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Analyze Weakness (Active, 1 AP):</strong> Target an enemy. All attacks against that target get +1 accuracy until end of your next turn. You broadcast targeting data."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Quick Fix (Passive):</strong> Items you use in combat cost 1 less AP (minimum 0). Stims, scrubbers, grenades — all faster in your hands."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Remote Access (Active, 1 AP):</strong> Activate a piece of equipment within Medium range without being adjacent. Trigger a trap, activate a beacon, open a door, start a generator. Requires line of sight."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Quick Fix", "Shared", "Passive", "\u2014", "Items you use in combat cost 1 less AP (minimum 0). Stims, scrubbers, grenades \u2014 all faster in your hands. Stacks with Quick Arm (grenade can be 0 AP via augment + items generally cheaper via ability)."],
+        ["Spotter", "Grenadier", "Active", "1 AP", "Mark a tile within Long range. Your next grenade thrown at that tile this turn gets +1d4 damage and ignores cover for targets on that specific tile. You calculated the angles."],
+        ["Bomb Disposal", "Grenadier", "Passive", "\u2014", "You can disarm enemy explosives, traps, and mines at Medium range (Interface check, DC 6). On success, you recover the device and can use it yourself. On failure, it detonates."],
+        ["Field Repair", "Trapper", "Active", "1 AP", "Restore 1d6 HP to a deployable within Close range. Can bring a destroyed deployable back to 1 HP if you're adjacent (costs 2 AP instead). Your hands fix what's broken."],
+        ["Sentry Mode", "Trapper", "Active", "1 AP", "Command a turret you control to focus fire on a specific tile. Until your next turn, the turret attacks ANY creature that enters or occupies that tile (uses Reaction, once per enemy). Lane lockdown."],
+        ["Scavenger", "Shared", "Passive", "\u2014", "After combat, you recover 1 grenade of any type you used during the encounter (duds, partial detonations \u2014 you make it work). Additionally, you can strip enemy tech gear for 1d6 \u00d7 5 credits of components per encounter."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 \u2014 Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>System Crash (Active, 2 AP):</strong> Disable one piece of an enemy’s equipment within Medium range until end of your next turn. Tech check (DC 8). Weapon, armor property, shield — your choice."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Tactical Relay (Active, 1 AP):</strong> An ally can immediately spend up to 2 AP as a reaction (out of turn). You coordinate a snap response."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Drone Redirect (Passive):</strong> Drone Swarm weapons attack autonomously for 0 AP at -2 accuracy. Free imprecise damage."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Countermeasure (Passive):</strong> When an enemy uses a tech or Interface-based ability within Medium range, you may spend 1 AP as a reaction to negate it. Once per round."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Efficiency Protocol (Passive):</strong> Once per turn, reduce the AP cost of one ally’s action by 1 (minimum 1). You optimize their timing. Must be within Close range."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Sabotage Ammo (Active, 1 AP):</strong> Target an enemy’s ranged weapon within Medium range. Tech check (DC 7). On success, their next ranged attack misfires — no damage, turn wasted. The weapon still works after that."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Neural Spike (Active, 2 AP):</strong> Target an enemy with cybernetic augments within Medium range. Tech check (DC 8). On success, they take -2 to all checks for 1 round as their systems scramble."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Rolling Thunder", "Grenadier", "Active", "2 AP", "Throw a grenade that bounces across 3 tiles in a line before detonating. Each tile it passes through takes half damage (or half effect for non-damage grenades). The final tile takes full effect. Carpet bombing a corridor."],
+        ["Danger Close", "Grenadier", "Passive", "\u2014", "You are immune to your own grenade effects (damage, DoT, conditions). You can drop grenades at your own feet. Pair with Blast Shaping and you can detonate in the middle of a melee without hurting allies or yourself."],
+        ["Improvised Explosive", "Grenadier", "Active", "1 AP", "Spend 20 cr worth of components from inventory. Create a basic Frag grenade (2d6, 5ft) on the spot. In a pinch, anything is a bomb."],
+        ["Killzone", "Trapper", "Active", "2 AP", "Designate a 15ft \u00d7 15ft area within Medium range. For the rest of the encounter, you have perfect awareness of that zone \u2014 enemies in the zone can't stealth, all allies get +1 accuracy against targets in the zone, and your deployables in the zone get +2 to hit. Requires at least one Sensor Net or turret in or adjacent to the zone. Command center."],
+        ["Deadman Switch", "Trapper", "Passive", "\u2014", "When a deployable you control is destroyed by an enemy, it detonates for 1d8 damage to the attacker. You rigged them all. Touch my stuff and it bites back."],
+        ["Mobile Turret", "Trapper", "Active", "1 AP", "Move a turret you control up to 10ft (2 tiles). The turret can fire the same turn it moves. Repositioning without retrieving and redeploying."],
+        ["Tactical Reassembly", "Shared", "Active", "2 AP", "Sacrifice one active deployable. Immediately deploy a different deployable from your inventory in the same tile for 0 AP. Swap a Sensor Net for a Mine when the enemy reaches the chokepoint. Adapt on the fly."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 \u2014 Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>EMP Burst (Active, 3 AP):</strong> All enemies within Close range with tech/augments have equipment disabled for 1 round. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Combat Coordinator (Passive):</strong> At the start of each round, swap initiative positions of two allies. Allies within Close range get +1 to social checks in combat."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Master Engineer (Passive):</strong> All equipment you operate gets +1 to its effect (Field Hospital heals +1 per die, Scrub Station removes +1 per die, weapons you’ve personally modified get +1 damage per die). Your hands make everything better."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Puppet Master (Active, 3 AP):</strong> Take control of an enemy’s cybernetic augments or tech weapon for 1 round. The enemy cannot use the controlled item and you can activate it remotely — firing their weapon at their allies, or shutting down their augmented armor. Tech check (DC 10). Once per encounter."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Carpet Bomb", "Grenadier", "Active", "3 AP", "Throw 3 grenades simultaneously. Each must target a different tile, all within Medium range. Each grenade has full effect. Costs 3 grenades from inventory. Once per encounter. You empty the bag."],
+        ["Shaped Charge", "Grenadier", "Active", "1 AP", "Modify a grenade before throwing. Choose one: double damage but halve radius, remove AoE entirely and target a single creature for triple damage, or quadruple the radius but halve damage. Custom detonation."],
+        ["Fortress Protocol", "Trapper", "Active", "3 AP", "Deploy up to 3 deployables simultaneously from your inventory, all within Close range. All three are deployed, synced, and active immediately. Once per encounter. Instant firebase."],
+        ["Autonomous Network", "Trapper", "Passive", "\u2014", "Your turrets fire twice per round instead of once (start of your turn AND end of your turn). Mines have +5ft trigger radius. Sensor Nets reveal enemy augments and equipment in addition to position. Your network is self-optimizing."],
+        ["Master Engineer", "Shared", "Passive", "\u2014", "All equipment you operate gets +1 to its effect. Turrets deal +1 per damage die. Grenades deal +1 per damage die. Med Dispensers heal +1 per die. Barrier Generators gain +2 HP. Your hands make everything better."]
+      ]
     }
   ]
 }

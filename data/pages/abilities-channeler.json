@@ -9,95 +9,63 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Rift caster. Manipulate dimensional energy, reshape the battlefield. Abilities focus on enhancing casting, zone control, and turning toxicity into tactical advantage.</em>"
+      "text": "<em>Pure DPS caster. Two branches \u2014 Conduit (single-target boss-killing) and Storm (AoE horde-clearing). Abilities supplement the pattern system, providing utility, efficiency, and emergency options around the core casting loop. The Channeler is pattern-heavy \u2014 abilities support, not define.</em>"
     },
     {
       "type": "heading",
-      "text": "T1 — Baseline (Free)"
+      "text": "T1 \u2014 Baseline (Free)"
     },
     {
       "type": "paragraph",
-      "text": "<strong>Rift Sense (Passive):</strong> Detect dimensional anomalies, hidden rift creatures, and toxicity concentrations within Medium range without a check."
+      "text": "<strong>Rift Sense (Passive):</strong> Detect dimensional anomalies, hidden rift creatures, Toxicity concentrations, and rift-touched objects/creatures within Medium range without a check. Your eyes see what others can't. Additionally, you can identify any pattern being cast by an enemy Channeler (you know what's coming)."
     },
     {
       "type": "heading",
-      "text": "T2 — Pick from (300 cr each)"
+      "text": "T2 \u2014 Trained Techniques (300 cr each, 1 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Focused Cast (Active, 1 AP):</strong> Your next rift pattern this turn gets +2 accuracy."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Toxicity Redirect (Passive):</strong> When you gain Toxicity from casting, redirect 1 point to an enemy within Close range. They gain +1 Toxicity instead."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dimensional Read (Active, 1 AP):</strong> Learn one ability or stat of a target enemy within Medium range. GM reveals one piece of information."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Shield (Active, 1 AP):</strong> Grant an ally within Close range +2 Evasion against the next attack targeting them. You bend local space around them."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Resonance (Passive):</strong> When you cast a rift pattern that hits, all allies within Close range heal 1 HP. Tiny but persistent — adds up over a long fight."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Contaminate Ground (Active, 1 AP):</strong> Designate a Close-range zone. Until end of your next turn, enemies that enter or start their turn in the zone gain +1 Toxicity. Area denial."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Focused Cast", "Conduit", "Active", "1 AP", "Your next single-target pattern this turn gets +2 accuracy. Spend AP to guarantee the hit on a critical target."],
+        ["Penetrating Surge", "Conduit", "Passive", "\u2014", "Your single-target Surge patterns (Rift Bolt, Mind Spike, Siphon, Gravity Crush) apply Rift Burn on hit: 1 rift damage per round for 2 rounds (ignores armor). Small DoT on top of burst."],
+        ["Wide Angle", "Storm", "Active", "1 AP", "Your next AoE pattern this turn increases its radius/zone by +10ft. One use per encounter."],
+        ["Selective Targeting", "Storm", "Passive", "\u2014", "Choose up to 2 allies when casting an AoE pattern. Those allies are immune to the pattern's effects. Friendly fire protection for your most-used AoE \u2014 but only 2 allies, not the whole squad."],
+        ["Rift Meditation", "Shared", "Active", "2 AP", "Reduce your Toxicity by 2. Can only use when Toxicity is 10 or below. The only active Toxicity reduction the Channeler gets in combat. Emergency cooldown."],
+        ["Backlash Resistance", "Shared", "Passive", "\u2014", "Misfire backlash damage is reduced by your Grit bonus. At Grit 8 (+4 bonus), a Surge misfire deals 2d6\u22124 instead of 2d6. Doesn't eliminate misfires \u2014 just makes them survivable."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T3 — Pick from (600 cr each)"
+      "text": "T3 \u2014 Advanced Techniques (600 cr each, 2 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Rift Anchor (Active, 2 AP):</strong> Place an anchor at your location. Enemies within Close range of it take +2 Toxicity per turn. Lasts until end of your next turn."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Overcharge (Passive):</strong> When casting, voluntarily take +2 Toxicity to add Pen 1 (stacks with existing Pen)."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Null Field (Active, 2 AP):</strong> An enemy within Medium range cannot use special abilities until end of your next turn. Attacks still function. You shut down their toolkit."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Tether (Active, 1 AP):</strong> Tether an enemy within Medium range. If they move more than 1 range band, they take 1d6 armor-bypassing damage. Lasts until end of your next turn. Pins mobile enemies."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dimensional Swap (Active, 2 AP):</strong> Swap positions with a willing ally within Medium range. Both of you teleport instantly. Repositioning without movement."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Feedback Loop (Passive):</strong> When an enemy within Close range casts a rift pattern or uses a magic ability, you regain 1 HP and reduce your Toxicity by 1. You feed on their dimensional output."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Sight (Passive):</strong> You can see invisible, hidden, and dimensionally-phased enemies within Medium range. Stealth doesn’t work against you."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Rift Sniper", "Conduit", "Passive", "\u2014", "Your single-target patterns can be cast at Long range (instead of Medium) with no penalty. Stay back. Stay alive. Cast from safety."],
+        ["Killing Blow", "Conduit", "Active", "0 AP", "When your single-target pattern reduces an enemy to 0 HP, immediately recover 1 Toxicity and 1 HP. The kill sustains you. Free action, triggers automatically."],
+        ["Dimensional Echo", "Conduit", "Active", "0 AP", "Once per encounter: after casting a Surge-tier single-target pattern, immediately cast it again for 0 AP and 0 Toxicity (still costs nothing \u2014 it's an echo). The second cast has -2 accuracy. The rift stutters \u2014 same bolt, twice."],
+        ["Carpet Burn", "Storm", "Active", "1 AP", "After casting an AoE pattern, the zone becomes Scorched for 2 rounds \u2014 enemies entering or starting their turn in it take 1d4 rift damage. Your AoE leaves burning ground."],
+        ["Recursive Energy", "Storm", "Passive", "\u2014", "When your AoE pattern kills at least 1 enemy, reduce the Toxicity cost of your next pattern this encounter by 1. Kills fuel efficiency."],
+        ["Rift Shield", "Shared", "Active", "Reaction", "When you or an ally within Close range is hit by an attack, reduce the damage by 1d8 + your Interface bonus. +1 Toxicity. Once per round. Your only defensive tool \u2014 and it costs Toxicity."],
+        ["Overchannel", "Shared", "Active", "0 AP", "Once per encounter: your next pattern this turn has its damage dice doubled. All costs are also doubled (Toxicity, HP). A Rift Bolt becomes 4d8 for +2 Toxicity. An Annihilation Beam becomes 8d8 for +6 Toxicity and 6 HP. The \u201cI need this thing dead NOW\u201d button."]
+      ]
     },
     {
       "type": "heading",
-      "text": "T4 — Pick from (1,000 cr each)"
+      "text": "T4 \u2014 Master Techniques (1,000 cr each, 3 downtime)"
     },
     {
-      "type": "paragraph",
-      "text": "<strong>Dimensional Shatter (Active, 3 AP):</strong> All enemies within Close range make a Grit check (DC 8) or are Stunned. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Rift Mastery (Passive):</strong> All rift patterns cost 1 less Toxicity (minimum 1). Rift Meditation works at any Toxicity level."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Singularity (Active, 3 AP):</strong> Create a gravity well at a point within Medium range. All enemies within Close range of that point are pulled toward it (1 range band) and have their speed reduced to 0 until end of your next turn. Once per encounter."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Dimensional Echo (Passive):</strong> When you cast a rift pattern, you may cast the same pattern again next turn for 0 Toxicity cost (still costs AP). The echo is a free repeat. Once per encounter."
+      "type": "table",
+      "columns": ["Ability", "Branch", "Type", "AP", "Effect"],
+      "rows": [
+        ["Rift Execution", "Conduit", "Active", "0 AP", "Once per encounter: if your single-target pattern hits a target below 25% HP, the damage is automatically maximized (all dice show maximum value). No roll. Guaranteed kill on wounded targets."],
+        ["Dimensional Predator", "Conduit", "Passive", "\u2014", "When you kill an enemy with a single-target pattern, your next single-target pattern this turn costs 0 AP (still costs Toxicity). Chaining kills. If the first kill was a Surge (2 AP), you just freed 2 AP for another cast."],
+        ["Rift Apocalypse", "Storm", "Active", "3 AP", "Once per encounter: cast any AoE Surge or Torrent pattern. It hits the targeted zone AND a second zone within 10ft of the first. Full damage to both zones. Full Toxicity and HP cost. Two blast zones, one action."],
+        ["Unstoppable Force", "Storm", "Passive", "\u2014", "Your AoE patterns cannot be interrupted, negated, or reduced by enemy abilities. If an enemy has \u201cmagic resistance\u201d or \u201cdamage reduction vs rift,\u201d your AoE ignores it. Raw power overrides protection."],
+        ["Last Resort", "Shared", "Active", "0 AP", "When you drop to 0 HP: instead of falling unconscious, immediately cast one Surge-tier pattern for free (0 AP, 0 Toxicity, 0 HP). Then fall unconscious. Your final act is destruction."]
+      ]
     }
   ]
 }
