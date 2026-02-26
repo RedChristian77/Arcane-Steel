@@ -1,13 +1,190 @@
 {
   "id": "trees-systems",
-  "title": "⚙️ Systems",
+  "title": "\u2699\ufe0f Systems",
   "subtitle": "The Technician's Path",
   "content": [
     {
       "type": "tree-meta",
       "stat_lean": "Interface / Edge",
-      "theme": "Every system has a weakness. You find it, exploit it, or build something better.",
-      "design": "Systems augments provide hacking, support, and battlefield control through technology."
+      "theme": "Everyone else gets stronger through augments in their body. You get stronger through gear in your bag. Your power is purchased, portable, and disposable \u2014 and more effective than anything bolted to someone's spine.",
+      "design": "The Technician is the gear specialist. Two branches \u2014 Grenadier (throwables: burst area effects, reactive) and Trapper (deployables: persistent map control, proactive) \u2014 share the same tree and feed each other. The Technician's unique advantage is access to enhanced items nobody else can use, and augments that make standard items perform beyond spec. The cost is literal: every combat costs credits. Grenades are consumed. Deployables break. The Technician is the most expensive class to operate, and that feeds the debt cycle perfectly."
+    },
+    {
+      "type": "callout",
+      "label": "Critical Rule",
+      "items": [
+        "The Technician's power lives in their <strong>inventory</strong>, not their body. Most augments say \u201cwhen you use X item, it also does Y.\u201d Strip the Technician's gear and they're holding a pistol with no tricks. The power is in the loadout."
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Key Differences",
+      "items": [
+        "<strong>vs Precision:</strong> Precision controls lanes through personal marksmanship \u2014 Overwatch, suppression, Cracked armor shred. Technician controls lanes through placed objects and area effects. Precision needs line of sight. A Technician's mine works when they're on the other side of the map.",
+        "<strong>vs Influence:</strong> Influence controls the fight through people \u2014 buffing allies, debuffing enemies via social pressure. Technician controls the fight through terrain \u2014 making zones dangerous, safe, or impassable. Influence changes what people do. Technician changes where people can go.",
+        "<strong>vs Rift:</strong> Rift reshapes the battlefield with dimensional energy \u2014 warping space, creating anomalies. Technician reshapes it with hardware \u2014 turrets, mines, barricades. Rift is supernatural and unpredictable. Technician is mechanical and precise. Rift effects are temporary and volatile. Deployables persist until destroyed."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Grenadier Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you use a <strong>throwable item</strong> (grenade, canister, charge). Grenadier augments activate on throw \u2014 adding secondary effects, expanding blast radius, reducing AP cost, enabling trick throws. All Grenadier offensive output is area-based: you don't target a creature, you target a tile. Everything in the blast radius eats the effect."
+    },
+    {
+      "type": "heading",
+      "text": "Trapper Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you <strong>deploy a deployable item</strong> OR a deployable you control activates. Trapper augments enhance placement, durability, trigger conditions, and remote control. Deployables do work for you \u2014 they fire, they explode, they slow, they watch. Your turns are spent setting up the board. The deployables play it."
+    },
+    {
+      "type": "heading",
+      "text": "Combined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Place a proximity mine on a chokepoint (Trapper) \u2192 throw a flashbang behind the enemy group (Grenadier) \u2192 blinded enemies stumble forward into the mine \u2192 mine detonates, staggering survivors into your turret's firing lane. The Technician who invests in both branches scripts the fight two turns ahead."
+    },
+    {
+      "type": "heading",
+      "text": "The Economy Hook"
+    },
+    {
+      "type": "paragraph",
+      "text": "Grenades are consumed on use. Deployables have HP and can be destroyed. Every combat costs the Technician credits. A Berserker swings an axe forever. A Phantom's speed is free. The Technician buys their power per mission. <strong>Typical mission loadout cost: 150\u2013400 cr</strong> depending on how many enhanced grenades and deployables they bring. Over a campaign, this adds up fast. The Technician is always choosing between upgrading their gear (new augments, better weapons) and restocking consumables. This is the debt cycle in microcosm \u2014 do you invest in long-term power or short-term effectiveness?"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Running dry:</strong> A Technician who burns through their loadout mid-mission is just a person with a sidearm. Resource management IS the gameplay. Knowing when to throw and when to save is as important as knowing where to throw."
+    },
+    {
+      "type": "heading",
+      "text": "Deployable Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Placement:</strong> 1 AP, adjacent tile (Close range). Some augments allow Medium range placement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Persistence:</strong> Deployables remain until destroyed, triggered (if one-use like mines), or retrieved."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>HP:</strong> Each deployable has HP (varies by type, typically 3\u20138). Can be targeted and destroyed by enemies."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deployable Limit:</strong> You can have 2 active deployables at baseline. Augments increase this to 3, then 4. Placing a deployable beyond your limit forces you to deactivate one (it's recoverable, not destroyed)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Retrieval:</strong> 1 AP, adjacent tile. Recovers the deployable to your inventory (if it hasn't been destroyed or triggered). Doesn't work on triggered mines."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Remote Control:</strong> Some augments allow remote activation/deactivation. Base deployables are autonomous (turrets fire at nearest enemy, mines trigger on proximity)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Non-Technician Restriction:</strong> Non-Technicians cannot use deployables at all. They lack the Interface implants to sync with the hardware. They can use basic grenades (Frag, Smoke, Flash) but nothing enhanced."
+    },
+    {
+      "type": "heading",
+      "text": "Grenade Rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Basic grenades (anyone can use):</strong> Frag (2d6 damage, 5ft radius), Smoke (obscuration, 10ft radius, 3 rounds), Flash (Blind 1 round, 5ft radius, Reflex save)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Enhanced grenades (Technician only):</strong> Incendiary, Cryo, EMP, Acid, Cluster, Concussion, Scrambler. These require Interface implants to arm and are keyed to the Technician's neural signature."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Throw range:</strong> Medium (default). Some augments extend to Long."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>AP cost:</strong> 1 AP (default). Some augments reduce to 0 AP under conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Blast radius:</strong> 5ft (one tile + adjacent tiles) unless stated otherwise."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Friendly fire:</strong> Grenades don't discriminate. Allies in the blast radius take effects. Plan accordingly."
+    },
+    {
+      "type": "callout",
+      "label": "Natural Counters",
+      "items": [
+        "Fast, spread-out enemies \u2014 grenades need clusters to be efficient, deployables need chokepoints",
+        "Rushdown melee \u2014 enemies that close distance fast don't give you time to set up deployables",
+        "Anti-tech enemies \u2014 EMP effects disable deployables, some rift creatures ignore mechanical triggers",
+        "Open terrain with no chokepoints \u2014 Trapper needs terrain features to funnel enemies; wide open spaces reduce mine/turret effectiveness",
+        "Running out of gear \u2014 the Technician's fundamental vulnerability. No consumables = no tricks",
+        "Destroying deployables \u2014 smart enemies shoot the turret first. 5 HP goes fast under focus fire",
+        "Fire and AoE \u2014 a well-placed enemy grenade can destroy multiple deployables at once"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Item Catalog \u2014 Technician-Exclusive Gear"
+    },
+    {
+      "type": "paragraph",
+      "text": "These items can only be purchased, armed, and used by characters with at least 1 Systems augment. Prices are per unit."
+    },
+    {
+      "type": "heading",
+      "text": "Enhanced Grenades"
+    },
+    {
+      "type": "table",
+      "columns": ["Item", "Effect", "Radius", "Cost", "Weight"],
+      "rows": [
+        ["Incendiary Grenade", "Apply Burn 1d4 to all targets in radius (1d4 damage/round, 3 rounds, ignores 1 armor)", "5 ft", "40 cr", "1"],
+        ["Cryo Grenade", "Apply Slow to all targets in radius (-2 Reflex, half movement, 2 rounds). Reflex save negates.", "5 ft", "45 cr", "1"],
+        ["EMP Grenade", "Disable all augments and tech equipment in radius for 2 rounds. No effect on biological targets.", "10 ft", "50 cr", "1"],
+        ["Acid Canister", "Creates acid pool on target tile. 1d6 damage to anything entering or starting turn in pool. Lasts 3 rounds. Destroys light cover.", "5 ft", "50 cr", "1"],
+        ["Concussion Charge", "1d8 damage + Stagger (lose 1 AP next turn) to all targets. Grit save negates Stagger.", "5 ft", "45 cr", "1"],
+        ["Cluster Grenade", "Two detonations \u2014 initial 2d6 at target tile, then 1d6 at each adjacent tile 1 round later. Requires T2 Grenadier augment.", "5 ft + spread", "60 cr", "2"],
+        ["Scrambler Grenade", "All targets in radius lose their Reaction for 1 round and cannot use special abilities. Interface save negates.", "5 ft", "55 cr", "1"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Deployables"
+    },
+    {
+      "type": "table",
+      "columns": ["Item", "Effect", "HP", "Duration", "Cost", "Weight"],
+      "rows": [
+        ["Proximity Mine", "Triggers when enemy enters adjacent tile. 2d8 damage + Stagger. One use (destroyed on trigger). Can be disarmed by enemies (Interface DC 8).", "3", "Until triggered", "35 cr", "1"],
+        ["Auto-Turret", "Fires at nearest enemy within Medium range at start of your turn. 1d8 damage, +Interface to hit.", "5", "Persistent", "80 cr", "3"],
+        ["Sensor Net", "Invisible. 10ft radius detection \u2014 all enemies in radius are revealed (no stealth) and your squad gets +1 accuracy against them.", "2", "Persistent", "30 cr", "1"],
+        ["Barrier Generator", "Creates half cover on one tile edge. Blocks movement unless destroyed.", "8", "Persistent", "50 cr", "2"],
+        ["Shock Trap", "Triggers on proximity. Apply Stun 1 round to triggering enemy. Reflex save: Stagger instead. One use.", "3", "Until triggered", "45 cr", "1"],
+        ["Med Dispenser", "Ally adjacent can spend 1 AP to heal 1d6+2 HP. 3 charges.", "4", "Persistent (3 uses)", "60 cr", "2"],
+        ["Smoke Emitter", "Creates persistent 10ft smoke cloud. Toggle on/off remotely. Blocks line of sight.", "4", "Persistent", "40 cr", "1"]
+      ]
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "tree-tier",
@@ -17,23 +194,33 @@
       "budget": "",
       "augments": [
         {
-          "name": "Neural Jack",
-          "effect": "+2 to hacking and device interaction checks",
+          "name": "Blast Shaping",
+          "branch": "Grenadier",
+          "effect": "Your grenades don't affect allies in the blast radius. Your implants calculate safe detonation angles. The fundamental quality-of-life augment \u2014 without it, every grenade is a friendly fire risk.",
           "cost": "250 cr"
         },
         {
-          "name": "Remote Interface",
-          "effect": "Interact with devices at short range wirelessly",
+          "name": "Expanded Magazine",
+          "branch": "Grenadier",
+          "effect": "You can carry 2 additional grenades beyond normal inventory limits. More ammo, more options.",
           "cost": "200 cr"
         },
         {
-          "name": "Diagnostic Ping",
-          "effect": "1/combat: identify all augments on one target",
-          "cost": "150 cr"
+          "name": "Quick Arm",
+          "branch": "Grenadier",
+          "effect": "Once per turn, throwing a grenade costs 0 AP instead of 1 AP. One free throw \u2014 use it wisely.",
+          "cost": "250 cr"
         },
         {
-          "name": "Maintenance Subroutine",
-          "effect": "Equipment you carry has +1 durability. 1/mission: field-repair a broken item without tools",
+          "name": "Deployable Sync",
+          "branch": "Trapper",
+          "effect": "Unlocks deployable usage. Your neural interface syncs with deployable hardware. Without this, you can use grenades but not deployables. Increases deployable limit by +1 (total 3).",
+          "cost": "250 cr"
+        },
+        {
+          "name": "Quick Deploy",
+          "branch": "Trapper",
+          "effect": "Deploying a deployable on an adjacent tile costs 0 AP once per turn. Fast setup.",
           "cost": "200 cr"
         }
       ]
@@ -46,24 +233,52 @@
       "budget": "",
       "augments": [
         {
-          "name": "Feedback Loop",
-          "effect": "When ally within short range crits, recover 1 HP",
+          "name": "Cook Grenade",
+          "branch": "Grenadier",
+          "effect": "When throwing a grenade, you can \u201ccook\u201d it (1 extra AP). Cooked grenades detonate on impact \u2014 enemies can't kick, throw back, or dodge with Reactions.",
           "cost": "350 cr"
         },
         {
-          "name": "ECM Burst",
-          "effect": "1/combat: enemies in short range lose -1 accuracy for 1 round",
+          "name": "Expanded Blast",
+          "branch": "Grenadier",
+          "effect": "Your grenade blast radius increases from 5ft to 10ft. More coverage, more targets.",
           "cost": "400 cr"
         },
         {
-          "name": "Overclock",
-          "effect": "1/combat: grant ally +2 accuracy on their next attack",
+          "name": "Chemical Expertise",
+          "branch": "Grenadier",
+          "effect": "DoT effects from your grenades (Burn, Acid) last 1 additional round. Your mixtures are nastier.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Aftershock",
+          "branch": "Grenadier",
+          "effect": "When your grenade damages 3+ enemies in one blast, all damaged targets are also Staggered (lose 1 AP next turn). Crowd punishment.",
           "cost": "400 cr"
         },
         {
-          "name": "Drone Uplink",
-          "effect": "Deploy scout drone. +2 Edge checks for perception/recon",
-          "cost": "450 cr"
+          "name": "Remote Deploy",
+          "branch": "Trapper",
+          "effect": "You can place deployables at Medium range (throw/slide them into position) instead of adjacent only. +1 deployable limit (total 3, or 4 with Deployable Sync).",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Fortified Construction",
+          "branch": "Trapper",
+          "effect": "Your deployables gain +3 HP. Harder to destroy. Auto-Turret goes from 5 to 8 HP. Barrier Generator from 8 to 11.",
+          "cost": "350 cr"
+        },
+        {
+          "name": "Linked Detonation",
+          "branch": "Trapper",
+          "effect": "When a mine triggers, any other mine you control within 10ft also detonates. Chain reaction. Requires careful placement \u2014 burn two mines at once for devastating effect, or waste them.",
+          "cost": "400 cr"
+        },
+        {
+          "name": "Salvage Protocol",
+          "branch": "Shared",
+          "effect": "When a deployable is destroyed (not triggered), you recover 50% of its credit cost at end of mission as salvageable components. Reduces operating costs.",
+          "cost": "350 cr"
         }
       ]
     },
@@ -75,24 +290,58 @@
       "budget": "",
       "augments": [
         {
-          "name": "System Crash",
-          "effect": "1/combat: disable one enemy augment for 2 rounds",
+          "name": "Trick Throw",
+          "branch": "Grenadier",
+          "effect": "Your grenades can bounce around corners (no line of sight needed if there's a surface to bounce off). Interface check DC 6 for the trick shot.",
+          "cost": "500 cr"
+        },
+        {
+          "name": "Dual Throw",
+          "branch": "Grenadier",
+          "effect": "Once per encounter: throw two grenades simultaneously (same AP cost as one). Different targets allowed. Both detonate same round.",
           "cost": "600 cr"
         },
         {
-          "name": "Auto-Repair Nanites",
-          "effect": "End of turn: heal 1 HP if below 50%",
+          "name": "Payload Upgrade",
+          "branch": "Grenadier",
+          "effect": "All your grenades deal +1d4 damage (or +1 stack to DoT effects for non-damage grenades). Your custom payloads hit harder.",
           "cost": "550 cr"
         },
         {
-          "name": "Weapon Hijack",
-          "effect": "1/combat: force one enemy to reroll their attack",
+          "name": "Sticky Compound",
+          "branch": "Grenadier",
+          "effect": "Your grenades can be thrown AT a target (accuracy check vs Evasion) instead of a tile. On hit: grenade attaches to target. Detonation affects them at full strength, and blast radius emanates from them as they move. On miss: lands on their tile normally.",
           "cost": "550 cr"
         },
         {
-          "name": "Network Tap",
-          "effect": "In hacking encounters: +3 to all Interface checks",
+          "name": "Turret Upgrade: Tracking",
+          "branch": "Trapper",
+          "effect": "Your Auto-Turrets gain +2 to hit and can target the enemy you designate (not just nearest). You call the shots.",
           "cost": "500 cr"
+        },
+        {
+          "name": "Deployable Network",
+          "branch": "Trapper",
+          "effect": "Your deployables within 10ft of each other share detection. If one Sensor Net spots an enemy, all linked turrets can target them. If a mine triggers, linked turrets immediately fire at the triggering enemy (free shot, +0 accuracy bonus).",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Minefield",
+          "branch": "Trapper",
+          "effect": "You can deploy two mines simultaneously for 1 AP (adjacent tiles). Your deployable limit increases by +1 for mines specifically. Lay patterns fast.",
+          "cost": "550 cr"
+        },
+        {
+          "name": "Remote Detonation",
+          "branch": "Trapper",
+          "effect": "You can trigger any mine you control at will (free action, your turn only). Don't wait for enemies to step on it \u2014 blow it when the moment is right.",
+          "cost": "500 cr"
+        },
+        {
+          "name": "Field Fabrication",
+          "branch": "Shared",
+          "effect": "Once per mission during a short rest: craft one basic grenade (Frag, Smoke, or Flash) or repair one destroyed deployable to half HP from salvage. Free. Your hands make something from nothing.",
+          "cost": "550 cr"
         }
       ]
     },
@@ -104,14 +353,46 @@
       "budget": "",
       "augments": [
         {
-          "name": "Killswitch",
-          "effect": "1/mission: disable ALL augments on one target for entire combat",
+          "name": "Scorched Earth",
+          "branch": "Grenadier",
+          "effect": "Your Incendiary and Acid grenades leave persistent terrain (burning ground or acid pool) for 2 additional rounds after initial effect. The battlefield becomes a hazard map.",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Airburst Programming",
+          "branch": "Grenadier",
+          "effect": "Your grenades detonate mid-air above the target tile. Ignores cover entirely. Enemies behind barriers, in trenches, or around corners take full effect.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "MIRV Conversion",
+          "branch": "Grenadier",
+          "effect": "Once per encounter: a single grenade splits into 3 sub-munitions mid-flight, each landing on a different tile within 10ft of the target tile. Each sub-munition has 75% normal effect (round down on damage dice). One grenade, three blast zones.",
           "cost": "1,100 cr"
         },
         {
-          "name": "Hard Reboot",
-          "effect": "Clear all effects on self. Lose all augment benefits for 1 round (trade-off)",
+          "name": "Heavy Turret",
+          "branch": "Trapper",
+          "effect": "Unlocks Heavy Auto-Turret deployable (2d8 damage, 8 HP, Long range, costs 150 cr, weight 5). Once deployed, cannot be retrieved \u2014 it's bolted down. Your deployable limit is not affected (doesn't count toward limit). One active at a time.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Adaptive Trigger",
+          "branch": "Trapper",
+          "effect": "Your mines and traps can be set to custom trigger conditions: specific enemy type, HP threshold (only trigger on wounded targets), number of enemies in radius (wait for clusters), or delay timer (1\u20133 rounds after placement). Smart mines.",
           "cost": "900 cr"
+        },
+        {
+          "name": "Overcharge Deployable",
+          "branch": "Trapper",
+          "effect": "1 AP: Sacrifice a deployable you control (it's destroyed). It detonates for 3d6 damage in a 10ft radius. Any deployable can be overcharged \u2014 turrets, barriers, even med dispensers. Emergency bomb.",
+          "cost": "900 cr"
+        },
+        {
+          "name": "Efficient Logistics",
+          "branch": "Shared",
+          "effect": "All grenades and deployables cost 25% less credits to purchase. Your maximum HP is permanently reduced by 2. You've replaced bone density with storage capacity. Run cheaper, break easier. <em>(Trade-off augment.)</em>",
+          "cost": "950 cr"
         }
       ]
     },
@@ -124,9 +405,122 @@
       "augments": [
         {
           "name": "Battlefield Architect",
-          "effect": "1/combat: hack the environment. Create cover, disable traps, lock doors, activate/deactivate systems",
-          "cost": "2,000 cr"
+          "effect": "Passive. Your deployable limit increases to 6. Grenades you throw have +5ft blast radius. All deployables gain +2 HP and +1 to all rolls. At the start of each combat, you may place up to 2 deployables from your inventory for free (0 AP, before initiative). Once per encounter: <strong>Scorched Protocol</strong> \u2014 detonate ALL active deployables simultaneously. Each detonates per Overcharge Deployable rules (3d6, 10ft radius) whether or not you have that augment. Afterward, all deployables are destroyed. You are the battlefield. You built it, you control it, you burn it down when it's time.",
+          "cost": "\u2014"
         }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Synergy Examples"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Grenadier Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Blast Shaping \u2192 Quick Arm \u2192 Cook Grenade \u2192 Expanded Blast \u2192 Payload Upgrade \u2192 Dual Throw \u2192 Scorched Earth \u2192 MIRV Conversion.</strong> Every turn: free grenade throw (Quick Arm) with expanded radius (10ft via Expanded Blast) and bonus damage (+1d4 via Payload). Cook it so enemies can't dodge. Scorched Earth leaves burning/acid terrain for rounds after. Once per encounter: MIRV splits one grenade into three. Carpet Bomb ability throws three more. You clear rooms. <em>The downside: you burn through 4\u20136 grenades per combat at 40\u201360 cr each. Each fight costs 160\u2013360 credits in consumables alone.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Trapper Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Deployable Sync \u2192 Quick Deploy \u2192 Remote Deploy \u2192 Fortified Construction \u2192 Deployable Network \u2192 Turret Upgrade: Tracking \u2192 Adaptive Trigger \u2192 Heavy Turret.</strong> Before combat: place turrets and mines on predicted approach routes. In combat: turrets fire automatically, mines trigger on custom conditions (Adaptive Trigger \u2014 wait for 2+ enemies in radius). Deployable Network links them all \u2014 sensor spots enemy, all turrets in range fire. Fortress Protocol ability drops 3 deployables at once. Your turns are spent repositioning, repairing, and calling targets. You're the command center. <em>Enemies walk into a kill box they didn't know existed.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid Build (The Full Technician \u2014 Kill Box)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Blast Shaping \u2192 Deployable Sync \u2192 Quick Arm \u2192 Remote Deploy \u2192 Linked Detonation \u2192 Remote Detonation \u2192 Trick Throw \u2192 Overcharge Deployable.</strong> Place mines at chokepoints (Remote Deploy from Medium range). Set up Sensor Net to spot approaching enemies. When they cluster: Remote Detonate a mine \u2192 Linked Detonation chains to adjacent mine \u2192 throw an Incendiary grenade into the staggered survivors (Quick Arm, free action) \u2192 Trick Throw bounces it around the corner. If things go wrong: Overcharge a turret as an emergency bomb. <em>Every element of the battlefield is under your control.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Technician + Precision Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Technician T2 (Blast Shaping, Quick Arm) + Precision T2 (Steady Shot, Cracked).</strong> Throw a grenade for free (Quick Arm, 0 AP). Don't move. Take Marksman shots for the rest of your turn. The grenade softens the group, your rifle finishes individuals. Cracked shreds armor, your grenades do the rest. You're a ranged damage dealer with area denial on top. <em>The problem: you're stationary, doing both Marksman and grenade work, so flankers eat you alive.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Technician + Shadow Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shadow T2 (Sprint Actuators, Momentum Drive) + Technician T2 (Blast Shaping, Quick Arm).</strong> The drive-by bomber. Charge in (Shadow Pinball trigger), throw a grenade at your feet mid-charge (Quick Arm + Blast Shaping + Danger Close = you're immune, allies are safe), keep moving. Every charge is a delivery system. <em>The problem: you're investing in two trees, so neither is deep. You're a fast grenade platform, not a master of either discipline.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Technician + Fortress Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fortress T2 (Subdermal Plating, Brace) + Technician T2 (Deployable Sync, Fortified Construction).</strong> The bunker. You ARE the cover. Stand behind your Barrier Generator, next to your turret, with your Med Dispenser behind you. Allies cluster on your position. Fortress augments make you hard to move or kill. Turrets handle offense. You're not mobile \u2014 you're a firebase. <em>The problem: immobile and expensive. If the fight shifts away from your position, your turret can't follow and your barriers are useless.</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Technician + Sin Eater Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin Eater T2 (Empathic Link, Sympathetic Healing) + Technician T2 (Deployable Sync, Quick Deploy).</strong> The support platform. Med Dispensers heal, Sin Eater abilities cleanse conditions, turrets provide covering fire, and Absorb keeps the squad clean. You're the mobile field hospital \u2014 deploy a Med Dispenser, Absorb a condition off the heavy, Redirect it onto an enemy. <em>The problem: you're spreading thin across two support identities. Pure Sin Eater heals better. Pure Technician controls better. You do both adequately.</em>"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the tree is gear-based instead of hack-based:</strong> The old Systems tree was \u201cthe hacker.\u201d The problem: hacking is an out-of-combat skill (Interface checks against security systems), not a combat identity. In a tactical fight, \u201cI hack the enemy's augments\u201d is either an instant-win button or it's too slow to matter. The rework makes the Technician's combat identity about physical objects on the map \u2014 turrets shooting, mines exploding, grenades detonating. Concrete, visible, targetable, destroyable. Hacking still exists as the Hacking skill \u2014 the Technician likely has it, but it's their exploration tool, not their combat tool."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why grenades have friendly fire (without Blast Shaping):</strong> This makes Blast Shaping the most important T1 augment and gives non-Technician grenade users a real trade-off. Anyone can throw a Frag grenade. Only a Technician throws it without risking the squad. This is the Technician's baseline value proposition: \u201cI make explosives safe and effective.\u201d"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why deployables are Technician-exclusive:</strong> Grenades are simple \u2014 pull pin, throw. Deployables require neural synchronization to deploy, command, and retrieve. This gives the Technician a monopoly on persistent battlefield objects. Nobody else gets turrets. Nobody else gets mines (beyond dumb tripwires from the Crafting skill). The Technician is the only class that changes the map."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why the economy pressure:</strong> Every other class's core combat tools are free or regenerate. Fury's rage costs nothing. Shadow's speed costs nothing. Sin Eater's Toxicity is a management challenge, not a credit drain. The Technician pays per fight. This is a deliberate design choice \u2014 the Technician's power ceiling is the highest of any support class (persistent autonomous damage + area denial + terrain control), so the floor is \u201cout of grenades, one pistol, no tricks.\u201d The economy is the balancing lever."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Scorched Earth and persistent terrain matter:</strong> Most combat effects in Arcane Steel are instantaneous or last 1\u20132 rounds. The Technician is the only class that creates lasting terrain changes \u2014 acid pools, burning ground, barriers. This fundamentally changes how the map works. A Scorched Earth Technician turns a flat room into a hazard maze over 3\u20134 rounds. Enemies can't go where acid is. Allies funnel through safe corridors. The Technician is literally an architect."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Battlefield Architect lets you blow it all up:</strong> The T5 mastery has two modes. Mode 1: patient setup \u2014 six deployables, enhanced grenades, the perfect kill box. Mode 2: Scorched Protocol \u2014 detonate everything at once. 6 deployables \u00d7 3d6 each = up to 18d6 damage spread across the map. This is the nuclear option \u2014 you destroy your own infrastructure for one catastrophic moment. It costs everything (every deployable gone, hundreds of credits in hardware) for one turn of absolute devastation. Peak Arcane Steel design: the most powerful move in the game is also the most expensive."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Quick Arm is 0 AP once per turn:</strong> A truly free grenade every turn is strong but not broken because: (1) it costs a grenade from inventory (credits), (2) it still requires Blast Shaping to be safe, (3) it doesn't scale \u2014 one free throw, additional throws cost normal AP. The Technician's opening move each turn is the free grenade; the rest of their AP goes to shooting, deploying, repositioning, or repairing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Deployable Sync isn't free:</strong> Forcing the Technician to buy into deployables creates a meaningful T1 branch point. A Technician who takes Blast Shaping + Quick Arm + Expanded Magazine is a pure grenadier from the start. One who takes Blast Shaping + Deployable Sync + Quick Deploy is splitting between branches early. Neither path is wrong, but the early credit investment matters."
+    },
+    {
+      "type": "callout",
+      "label": "AP Math \u2014 Typical Technician Turns (5 AP)",
+      "items": [
+        "<strong>The Setup (Trapper):</strong> Deploy mine at chokepoint (0 AP, Quick Deploy) \u2192 Deploy turret (1 AP) \u2192 Move to cover (1 AP) \u2192 Shoot with pistol (2 AP). Net: board presence established, personal contribution minimal.",
+        "<strong>The Bombardier (Grenadier):</strong> Free grenade throw (0 AP, Quick Arm) \u2192 Throw second grenade (1 AP) \u2192 Move (1 AP) \u2192 Shoot (2 AP). Net: two grenades + a gun shot. Expensive in consumables, devastating in output.",
+        "<strong>The Full Kit:</strong> Free grenade (0 AP) \u2192 Deploy mine (0 AP, Quick Deploy) \u2192 Command turret to focus fire (1 AP, Sentry Mode) \u2192 Shoot (2 AP) \u2192 Move (1 AP). Both branches active, 1 grenade and 1 deployable consumed.",
+        "<strong>Emergency Reposition:</strong> Retrieve turret (1 AP) \u2192 Move to new position (2 AP) \u2192 Redeploy turret (1 AP) \u2192 Free grenade to cover retreat (0 AP). Net: entire firebase relocated, 1 grenade consumed.",
+        "<strong>Scorched Protocol (T5):</strong> Detonate all deployables simultaneously (free action) \u2192 Free grenade into survivors (0 AP) \u2192 Shoot (2 AP) \u2192 Move (1 AP) \u2192 Begin redeploying from inventory (1 AP). Net: everything explodes. Rebuild from scratch next turn."
       ]
     }
   ]

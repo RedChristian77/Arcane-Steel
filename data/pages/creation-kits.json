@@ -43,11 +43,11 @@
         {
           "name": "Technician",
           "tree": "Systems",
-          "aug": "Neural Jack",
+          "aug": "Blast Shaping",
           "ability": "System Scan",
           "lean": "Interface / Edge",
-          "gear": "Burst Pistol, Neural Probe, Corp Tactical",
-          "desc": "Hack systems, disrupt augments, support the crew.",
+          "gear": "Burst Pistol, 3× Frag Grenade, 1× Smoke Grenade, Corp Tactical, Tool Kit",
+          "desc": "Grenades, turrets, mines. Control the map with gear. Pay the price.",
           "icon": "⚙️"
         },
         {
