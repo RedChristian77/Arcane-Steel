@@ -1,13 +1,70 @@
 {
   "id": "trees-shadow",
   "title": "👤 Shadow",
-  "subtitle": "The Ghost's Path",
+  "subtitle": "The Predator's Path",
   "content": [
     {
       "type": "tree-meta",
       "stat_lean": "Reflex / Edge",
-      "theme": "Unseen. Unheard. Lethal. The best fight is the one they never saw coming.",
-      "design": "Shadow augments reward stealth, ambushes, and hit-and-run tactics."
+      "theme": "Speed kills. You don't hide — you move so fast they can't react. The fight is over before the slow ones draw.",
+      "design": "Shadow augments reward initiative timing, aggressive repositioning, and chaining attacks across multiple targets. Two branches — Assassin (first-strike timing) and Pinball (charge momentum) — share the same tree and stack together."
+    },
+    {
+      "type": "heading",
+      "text": "Core Mechanics"
+    },
+    {
+      "type": "heading",
+      "text": "Assassin Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attack an enemy who <strong>hasn't acted yet this round</strong>. Resets every round start. Rewards high Reflex (you go first, more targets haven't acted yet). Gets weaker as the round progresses — the assassin strikes first or not at all."
+    },
+    {
+      "type": "heading",
+      "text": "Pinball Trigger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Move <strong>10+ feet in a straight unobstructed line</strong> toward a target with <strong>lower Reflex than you</strong>, then attack. The charge bonus damage die scales with the Reflex gap:"
+    },
+    {
+      "type": "table",
+      "columns": ["Your Reflex vs Target", "Bonus Damage Die"],
+      "rows": [
+        ["Equal or lower", "No trigger"],
+        ["+1–2 over target", "+1d6"],
+        ["+3–4 over target", "+1d8"],
+        ["+5–6 over target", "+1d10"],
+        ["+7–8 over target", "+1d12"],
+        ["+9+ over target", "+1d20"]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Momentum (On Hit)"
+    },
+    {
+      "type": "paragraph",
+      "text": "When you deal damage with a charge attack, you gain <strong>5 free feet of movement</strong> that does not provoke opportunity attacks. This is your runway to set up the next charge. On miss: nothing. You're stuck where you are. Momentum dies."
+    },
+    {
+      "type": "heading",
+      "text": "Stacking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both triggers can activate on the same attack. Charge 10+ feet at a target who hasn't acted yet and is slower than you = <strong>Assassin bonus + Pinball bonus die</strong>. That's the Shadow's peak moment."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Natural Counters",
+      "text": "• <strong>Tight corridors</strong> — can't get 10 feet of straight-line runway\n• <strong>Enemy clustering</strong> — no room to chain charges\n• <strong>High Reflex enemies</strong> — smaller or no pinball die\n• <strong>High Evasion enemies</strong> — a miss kills the chain\n• <strong>Blocking terrain</strong> — pillars, walls, cover break the straight line"
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "tree-tier",
@@ -17,23 +74,33 @@
       "budget": "",
       "augments": [
         {
-          "name": "Optical Camo Weave",
-          "effect": "+1 Evasion (not heavy armor)",
-          "cost": "300 cr"
+          "name": "Killer Instinct",
+          "branch": "Assassin",
+          "effect": "+1 accuracy vs enemies who haven't acted this round",
+          "cost": "250 cr"
         },
         {
-          "name": "Soft Step Dampeners",
-          "effect": "+2 to stealth Edge checks",
+          "name": "Threat Assessment Optics",
+          "branch": "Assassin",
+          "effect": "You can see enemy Reflex values. Know who's slow before you commit.",
           "cost": "200 cr"
         },
         {
-          "name": "Threat Awareness",
-          "effect": "Cannot be surprised. Always act in round 1",
+          "name": "Sprint Actuators",
+          "branch": "Pinball",
+          "effect": "Unlock charge mechanic. 10 ft straight line + higher Reflex = +1d4 bonus damage (flat, no scaling yet)",
+          "cost": "300 cr"
+        },
+        {
+          "name": "Reactive Tendons",
+          "branch": "Shared",
+          "effect": "+1 Reflex for initiative rolls only. Doesn't affect stat cap.",
           "cost": "250 cr"
         },
         {
           "name": "Quick Escape Wiring",
-          "effect": "1/combat: disengage from melee without opportunity attack",
+          "branch": "Shared",
+          "effect": "1/combat: disengage from melee without triggering opportunity attacks",
           "cost": "200 cr"
         }
       ]
@@ -47,22 +114,32 @@
       "augments": [
         {
           "name": "Ambush Protocol",
-          "effect": "+2 accuracy on first attack if hidden/undetected",
+          "branch": "Assassin",
+          "effect": "+2 accuracy (replaces +1 from Killer Instinct) vs enemies who haven't acted. If you don't have Killer Instinct, this is +2 from scratch.",
           "cost": "400 cr"
         },
         {
-          "name": "Ghost Step",
-          "effect": "1/combat: move without triggering reactions",
+          "name": "First Blood Injector",
+          "branch": "Assassin",
+          "effect": "First hit each round vs a target that hasn't acted: ignore 1 Armor per die.",
+          "cost": "450 cr"
+        },
+        {
+          "name": "Momentum Drive",
+          "branch": "Pinball",
+          "effect": "On charge hit: gain 5 free feet (enables chaining). This is the core pinball unlock.",
           "cost": "400 cr"
         },
         {
-          "name": "Exploit Weakness",
-          "effect": "+1 damage die vs enemies who haven't acted yet",
-          "cost": "350 cr"
+          "name": "Velocity Scaling",
+          "branch": "Pinball",
+          "effect": "Charge bonus die now scales with Reflex gap (d6/d8/d10 per table above, replaces flat d4). Requires Sprint Actuators.",
+          "cost": "450 cr"
         },
         {
-          "name": "Smoke Disperser",
-          "effect": "1/combat: deploy smoke cloud at your location. All attacks against you from outside the cloud: -2 accuracy. Lasts 2 rounds",
+          "name": "Adrenal Mapping",
+          "branch": "Shared",
+          "effect": "+1 accuracy on the first attack of each combat. The opening blow is always precise.",
           "cost": "350 cr"
         }
       ]
@@ -75,23 +152,39 @@
       "budget": "",
       "augments": [
         {
-          "name": "Vanishing Act",
-          "effect": "1/combat: become hidden even in plain sight for 1 round",
-          "cost": "600 cr"
-        },
-        {
-          "name": "Backstab Wiring",
-          "effect": "Attacks vs unaware/flanked targets: +2 acc and +1 damage die",
+          "name": "Surgical Striker",
+          "branch": "Assassin",
+          "effect": "Attacks vs targets that haven't acted apply a condition on hit (choose one when installed): Bleed 2, Stagger (-1 AP next turn), or Exposed (-1 Evasion for 1 round).",
           "cost": "650 cr"
         },
         {
-          "name": "Shadow Step",
-          "effect": "1/combat: teleport to any shadow/cover within medium range",
+          "name": "Kill Priority Matrix",
+          "branch": "Assassin",
+          "effect": "If your first-strike attack this round drops a target to 0 HP, your Assassin bonus resets — next target counts as \"hasn't acted\" for you regardless. Once per round.",
+          "cost": "700 cr"
+        },
+        {
+          "name": "Full Velocity Scaling",
+          "branch": "Pinball",
+          "effect": "Charge die scaling extends to d12 and d20 at higher Reflex gaps. Requires Velocity Scaling.",
           "cost": "600 cr"
         },
         {
-          "name": "Misdirection Field",
-          "effect": "1/round: redirect one attack to adjacent enemy instead",
+          "name": "Chain Runner",
+          "branch": "Pinball",
+          "effect": "Second charge hit in the same turn: +1 accuracy. Third: +2 accuracy. Rewards long pinball sequences.",
+          "cost": "650 cr"
+        },
+        {
+          "name": "Interceptor Wiring",
+          "branch": "Shared",
+          "effect": "When an enemy moves within your charge range (10+ ft straight line, lower Reflex), you may spend your Reaction to charge and attack them as an interrupt.",
+          "cost": "600 cr"
+        },
+        {
+          "name": "Exploit Vulnerability",
+          "branch": "Shared",
+          "effect": "+1 damage die vs Prone, Stunned, Immobilized, or Staggered targets. Synergizes with Surgical Striker or ally debuffs.",
           "cost": "550 cr"
         }
       ]
@@ -104,18 +197,33 @@
       "budget": "",
       "augments": [
         {
-          "name": "Phase Cloak",
-          "effect": "1/mission: intangible for 1 round. Cannot be hit or hit others",
+          "name": "Assassination Protocol",
+          "branch": "Assassin",
+          "effect": "First hit each combat that drops a target to 0 HP: deal double damage (flat, not crit). The opening kill is devastating.",
+          "cost": "1,000 cr"
+        },
+        {
+          "name": "Nerve Severance",
+          "branch": "Assassin",
+          "effect": "Attacks vs targets that haven't acted: if you deal damage equal to 50%+ of their current HP in one hit, target is Stunned for 1 round (loses their turn entirely).",
           "cost": "900 cr"
         },
         {
-          "name": "Death's Hand",
-          "effect": "Undetected kill → immediately hide again",
-          "cost": "850 cr"
+          "name": "Charge-Through",
+          "branch": "Pinball",
+          "effect": "On a charge hit, you may continue through the target's tile and keep moving (remaining free movement + any remaining AP for movement). You don't stop — you blow past them.",
+          "cost": "900 cr"
         },
         {
-          "name": "Living Shadow",
-          "effect": "+3 Evasion. -2 max HP (trade-off)",
+          "name": "Terminal Velocity",
+          "branch": "Pinball",
+          "effect": "Charge attacks deal +1 damage per die for every 5 feet beyond the minimum 10. A 20-foot charge = +2 per die. 30-foot = +4 per die. Long runways become devastating.",
+          "cost": "950 cr"
+        },
+        {
+          "name": "Living Razor",
+          "branch": "Shared",
+          "effect": "+2 Reflex permanently. -2 max HP. Your body is tuned for speed at the cost of durability.",
           "cost": "900 cr"
         }
       ]
@@ -128,11 +236,87 @@
       "budget": "",
       "augments": [
         {
-          "name": "Phantom",
-          "effect": "While hidden: attacks auto-crit. After attacking, may spend 2 AP to re-hide",
-          "cost": "2,000 cr"
+          "name": "Apex Predator",
+          "effect": "Passive. You always act first in initiative (ties go to you). Your charge attacks cannot be interrupted by Reactions or Overwatch. On round start, your first attack gets both Assassin and Pinball bonuses at maximum values regardless of conditions — the round begins with you already in motion.",
+          "cost": "—"
         }
       ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Synergy Examples"
+    },
+    {
+      "type": "heading",
+      "text": "Pure Assassin Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Killer Instinct → Ambush Protocol → Surgical Striker → Kill Priority Matrix → Assassination Protocol. Go first. Hit something that hasn't acted. Apply a condition. If it dies, the next target counts as first-strike too. Chain assassinations through the enemy backline."
+    },
+    {
+      "type": "heading",
+      "text": "Pure Pinball Build"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Sprint Actuators → Momentum Drive → Velocity Scaling → Chain Runner → Charge-Through + Terminal Velocity. Sprint at Target A, stab, 5 free feet, sprint at Target B, stab with better accuracy, keep going. Long runways = massive damage. Blow through enemies without stopping."
+    },
+    {
+      "type": "heading",
+      "text": "Hybrid (The Full Shadow)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Path:</strong> Killer Instinct → Sprint Actuators → Momentum Drive → Velocity Scaling → Surgical Striker → Chain Runner. Round starts. Charge a slow target that hasn't acted. Get Assassin accuracy bonus, Pinball damage die, apply Bleed on hit, get 5 free feet, chain to the next target with +1 accuracy. Both branches feeding each other."
+    },
+    {
+      "type": "heading",
+      "text": "Shadow + Dancer Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Shadow T2 (Momentum Drive, Velocity Scaling) + Dancer T2 (Flow State, Paired Strike). Dual-wielding precision blades. Charge in, hit with both weapons (Dancer bonus), get Pinball die on the charge, 5 free feet, charge again. The sword dancer fantasy but with momentum instead of stealth."
+    },
+    {
+      "type": "heading",
+      "text": "Shadow + Fury Cross-Tree"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combo:</strong> Shadow T2 (Sprint Actuators, Momentum Drive) + Fury T2 (Scar bonuses). A berserker who charges. Scars make you hit harder, charges make you faster. High risk, high reward — you're in everyone's face constantly."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Design Notes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why stealth was removed:</strong> In a tactical grid game, stealth is binary — either you're invisible (overpowered) or you're spotted immediately (worthless). There's no middle ground that feels good. The new Shadow identity replaces \"hidden\" with \"fast\" — you're not unseen, you're just moving too fast to pin down. Same fantasy, better gameplay."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why two branches in one tree:</strong> A player shouldn't have to choose between being an assassin and being a pinball. Both branches reward the same playstyle (go fast, hit hard, exploit positioning) from different angles. Buying from both makes you better at both. There's no trap — every augment purchased makes the Shadow more dangerous."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why Reflex is the god stat:</strong> Intentional. Reflex determines initiative (Assassin cares about going first), determines the Pinball die size (bigger gap = bigger die), and feeds into accuracy for ranged weapons. A Shadow who pumps Reflex gets everything they want — but Reflex doesn't give HP, doesn't give armor, doesn't give melee accuracy (that's Chrome). The Shadow is a glass cannon by design. Fast and fragile."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why 5 free feet is only on hit:</strong> Risk/reward. A guaranteed 5 feet would make the Shadow too safe — charge in, guaranteed escape. Making it hit-dependent means every attack in a chain is a gamble. Miss once and you're stuck. That tension is the entire identity."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "AP Math — Pinball Chains",
+      "text": "• <strong>Precision Blade (2 AP):</strong> Move 2 bands (2 AP) → Attack (2 AP) → hit → 5 free ft → can't attack (1 AP left). Result: 1 charge attack.\n• <strong>Standard turn:</strong> Move 1 band (1 AP) → Attack (2 AP) → hit → 5 free ft → Move to next (free) → Attack (2 AP). Result: 2 charge attacks.\n• <strong>With Gap Closer:</strong> Move (0 AP) → Attack (2 AP) → hit → 5 free ft → Move (1 AP) → Attack (2 AP). Result: 2 charge attacks, better positioning.\n• <strong>Combat Knife (1 AP):</strong> Move (1 AP) → Attack (1 AP) → hit → 5 ft → Attack (1 AP) → hit → 5 ft → Attack (1 AP) → hit → 5 ft → Attack (1 AP). Result: 4 charge attacks! But d6 damage each.\n\nPrecision Blades hit harder per charge but chain less. Combat Knives chain more but each hit is weaker (and gets eaten by armor). The system self-balances."
     }
   ]
 }

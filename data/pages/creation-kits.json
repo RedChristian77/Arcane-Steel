@@ -73,11 +73,11 @@
         {
           "name": "Phantom",
           "tree": "Shadow",
-          "aug": "Optical Camo Weave",
+          "aug": "Sprint Actuators",
           "ability": "Ambush Training",
           "lean": "Reflex / Edge",
           "gear": "Precision Blade ×2, Light Weave",
-          "desc": "Move unseen. Strike from ambush. Disappear.",
+          "desc": "Speed kills. Chain charges, strike first, exploit momentum.",
           "icon": "👤"
         },
         {
