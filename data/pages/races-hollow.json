@@ -1,0 +1,117 @@
+{
+  "id": "races-hollow",
+  "title": "The Hollow",
+  "subtitle": "The Question Without an Answer",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "Competent. Precise. Uncomfortable. The trust never extends to comfort."
+    },
+    {
+      "type": "info-block",
+      "icon": "🔮",
+      "title": "The Hollow",
+      "subtitle": "Origin: The Grave · The Question Without an Answer",
+      "entries": [
+        {"label": "Origin", "value": "The Grave — ruins of an advanced civilization, empty structures stretching to every horizon"},
+        {"label": "Population", "value": "Very small, solitary"},
+        {"label": "Appearance", "value": "Extremely humanoid. Too symmetrical. Porcelain skin. Dark, lightless eyes. Learned expressions."},
+        {"label": "Build", "value": "Human-proportioned but uncanny — like a very good replica"}
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Playable Adjustments",
+      "items": [
+        "+1 Interface (data/pattern recognition)",
+        "Immune to psychoactive effects (toxins, drugs, fear-based abilities)",
+        "-2 emotional social checks (can't genuinely emote)",
+        "No natural healing (must use medical treatment or augmentation to recover HP)",
+        "Pattern recognition borders on precognition — sense optimal paths through data"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Strengths",
+      "items": [
+        "+1 Interface — best pattern recognition of any species",
+        "Immune to psychoactive effects — poisons, fear, mind-altering substances don't work",
+        "Efficiency that makes optimized systems look wasteful",
+        "Fastest pattern analysis — borders on precognition for data-rich environments",
+        "No emotional interference in decision-making — purely rational under pressure",
+        "The Hollow Protocol — apparent coordination mechanism so sophisticated it's indistinguishable from coincidence"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Weaknesses",
+      "items": [
+        "-2 emotional social checks — genuine emotional connection is impossible or performative",
+        "No natural healing — biology doesn't regenerate, must rely on external medical care",
+        "Make everyone uncomfortable — trust never fully extends to comfort",
+        "Opaque motives — not hidden, just empty in a way that unnerves allies",
+        "Existential uncertainty — don't know what they are, where they came from, or what they were made for"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Extremely humanoid. Too symmetrical — like something designed to look human by something that understood the shape but not the spirit. Porcelain skin, dark lightless eyes, expressions that are learned rather than felt. Partially synthetic — may be artificial. Fast pattern recognition, slow emotional processing. Whether they experience emotions or simulate them is a question that answers itself. No natural healing — their bodies don't regenerate the way biological organisms do. Repair requires external intervention."
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "No history before discovery in The Grave around 2500. Earliest memories begin at moment of contact with human exploration teams. Before that: nothing. Not amnesia — nothing. As if they began existing at the moment they were observed. Were they dormant? Created by whatever built the Grave's ruins? Left behind as caretakers? Records? Weapons? Nobody knows."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Hollows themselves approach the question with curiosity that mirrors human researchers' — either genuinely endearing or a sophisticated performance. Some make pilgrimages back to The Grave — planned months in advance, undertaken alone, lasting precisely as long as predetermined. They return quieter."
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wary of attention. Prefer Congo (pragmatic — judge by output, not personality) or the Crowned Table (appreciate them as \"strange knights\"). Sentinel has a dedicated analysis team studying Hollow coordination — 200 years, nothing actionable."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Hollow Protocol: when a policy threatens Hollow interests, Hollow employees across multiple corporations simultaneously adjust behavior to produce favorable outcomes. No communications intercepted. No meetings detected."
+    },
+    {
+      "type": "heading",
+      "text": "As Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Competent. Precise. Uncomfortable. Execute missions with efficiency that's impressive and slightly wrong — they make the right calls at the right times but the decision-making process doesn't show on their face. Crews who work with Hollows long enough learn to trust their judgment. The trust never fully extends to comfort. There's always a gap. Hollows know this. They've learned to not mind. Whether they actually don't mind is a question that answers itself."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Roleplay Hooks",
+      "items": [
+        "You don't know what you are. How does that uncertainty shape your identity?",
+        "Your expressions are learned, not felt. When did you first realize other species could tell the difference?",
+        "You've made a pilgrimage to The Grave. What did you find — and why won't you talk about it?",
+        "The crew trusts your analysis but not your motives. How do you bridge that gap — or do you?"
+      ]
+    }
+  ]
+}

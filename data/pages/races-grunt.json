@@ -1,0 +1,109 @@
+{
+  "id": "races-grunt",
+  "title": "Grunt",
+  "subtitle": "The First and the Longest",
+  "content": [
+    {
+      "type": "info-block",
+      "icon": "🦴",
+      "title": "The Grunt",
+      "subtitle": "Origin: Unknown · The First and the Longest",
+      "entries": [
+        {"label": "Origin", "value": "Unknown — wild rift arrivals ~2110, oldest non-human species on Earth"},
+        {"label": "Population", "value": "Moderate"},
+        {"label": "Appearance", "value": "Large. Broad-shouldered. Heavy-browed. Deep brown to gray-green skin."},
+        {"label": "Build", "value": "Massive — tallest and heaviest sapient species"}
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Playable Adjustments",
+      "style": "accent",
+      "items": [
+        "Regeneration: heal 1 HP per hour naturally",
+        "Scar costs -25% (biology handles trauma better)",
+        "-1 Initiative (deliberate processing, not slow thinking)",
+        "+1 Grit for toxicity resistance checks",
+        "Metabolize toxicity faster than any other species"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Strengths",
+      "style": "teal",
+      "items": [
+        "Natural regeneration — 1 HP/hour, the only species that heals passively",
+        "Superior toxicity processing — +1 Grit for resistance, metabolize faster",
+        "Reduced scar costs — biology handles physical trauma 25% more efficiently",
+        "Deliberate intelligence — given time, produce solutions as sophisticated as any species",
+        "Unshakeable in crisis — don't panic, don't rush, don't make fear-based decisions",
+        "The longest memory — oral ledger tradition tracks every debt and every favor"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Weaknesses",
+      "style": "rust",
+      "items": [
+        "-1 Initiative — process information thoroughly, not quickly",
+        "Deliberate processing reads as \"slow\" in a society that rewards instant reaction",
+        "No known home dimension — can't go back, existential weight of rootlessness",
+        "Exploited for durability — corporations push them harder because they survive"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Large, broad, heavy-browed. Regeneration heals minor wounds in hours. They metabolize toxicity faster than any species. Grunts think carefully, not quickly — they process complex information more slowly but no less capably. A Grunt who's had time to consider a problem produces solutions as sophisticated as any human's. They just won't produce it in the first three seconds."
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "The first non-human species on Earth — walked through wild rifts around 2110, settled frontier land, farmed peacefully for decades before corporations noticed. Retroactively classified as \"rift fauna, large variant, potentially domesticable.\" Farms \"requisitioned,\" families conscripted. The Grunt Garrisons during the Resource Wars — fought for their crops, their houses, their children. Used as free defensive infrastructure. They took the land anyway. \"Free land is free land.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Grunts tell history as a ledger — careful accounting of what was given and what was taken. The ledger starts earlier than anyone else's. They don't expect it to be balanced. They expect it to be acknowledged. \"Grunts don't hold grudges. They hold receipts.\""
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Congo (extraction) and Sentinel (frontline) exploit them for durability. Assigned to the most dangerous positions because they survive and regenerate. Grunt Councils — governance by deliberation, consensus-based, can last days or weeks. Decisions are consistently excellent. Corps find them infuriating."
+    },
+    {
+      "type": "heading",
+      "text": "As Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "The best in a crisis. When everyone else panics, the Grunt stops, thinks for ten seconds, and produces the correct answer. A Grunt who's been hit three times and lost half their HP isn't panicking. They're planning. Crews learn: when the Grunt stops and thinks, you wait for the answer."
+    },
+    {
+      "type": "callout",
+      "label": "Roleplay Hooks",
+      "style": "teal",
+      "items": [
+        "You were here first. Before the Keth, before the Vael, before anyone with a clipboard. What does that seniority mean to you?",
+        "You keep a ledger. What debts are on it — and are any of them owed to your crew?",
+        "Everyone thinks you're slow. How do you use that misconception?",
+        "You can't go home. Nobody knows where home is. How do you build a home from nothing?"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "flavor",
+      "text": "They don't hurry. They don't panic. They don't forget. Geological patience."
+    }
+  ]
+}

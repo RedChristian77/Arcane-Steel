@@ -1,0 +1,109 @@
+{
+  "id": "races-whisper",
+  "title": "Whisper",
+  "subtitle": "The Ones Between",
+  "content": [
+    {
+      "type": "info-block",
+      "icon": "👁",
+      "title": "The Whisper",
+      "subtitle": "Origin: The Static · The Ones Between",
+      "entries": [
+        {"label": "Origin", "value": "The Static — a dimension of shifting frequencies and recursive signal patterns"},
+        {"label": "Population", "value": "Small, scattered"},
+        {"label": "Appearance", "value": "Human-passing. Proportions slightly wrong. Solid-color eyes. Shadow doesn't always match."},
+        {"label": "Build", "value": "Humanoid, unsettlingly close to human — uncanny valley"}
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Playable Adjustments",
+      "style": "accent",
+      "items": [
+        "+2 to all rift Interface checks",
+        "Auto-sense rifts and Null Zones (innate dimensional perception)",
+        "-1 social checks with strangers (uncanny valley effect)",
+        "Immune to Geometry (dimensional spatial anomalies)",
+        "Dimensional perception — see layers of reality others can't access"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Strengths",
+      "style": "teal",
+      "items": [
+        "Best dimensional awareness of any species — +2 Interface, auto-sense rifts and Null Zones",
+        "Immune to Geometry — spatial anomalies that scramble other species don't affect them",
+        "Irreplaceable utility — their perception is something no technology can replicate",
+        "Never classified as specimens — even corporations were afraid to cage them",
+        "The Whisper Network — information sharing mechanism that no corp can tap or regulate"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Weaknesses",
+      "style": "rust",
+      "items": [
+        "-1 social with strangers — uncanny valley effect makes first impressions uncomfortable",
+        "Can't explain what they perceive — their warnings are accurate but untranslatable",
+        "No unified culture — no community support structure, perpetually isolated",
+        "Unsettling presence — even allies never fully relax around them",
+        "Shadow doesn't match — subtle wrongness that people notice subconsciously"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Human-passing at a glance. Proportions slightly wrong — too symmetrical, too smooth. Solid-color eyes (no iris/pupil distinction). Shadow doesn't always match body position. Dimensionally attuned — perceive rift energy the way humans perceive light. Their perception includes layers of reality that human language can't describe. Localized dimensional manipulation — minor reality adjustments in their immediate vicinity."
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "Appeared in the 2210s — not arriving through rifts, just suddenly being there. No rift event correlated with their appearance. No corporation imported them. They were never classified as specimens — the unspoken reason is fear. Nobody wanted to find out what happened when you put a Whisper in a cage. The Whisper Network — named by human intelligence analysts, not by Whispers. Information sharing mechanism that operates through dimensional perception (possibly). Pear has spent 18 classified reports trying to understand it. Sentinel has a 140-year-old uncollected bounty for anyone who can explain it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Whispers don't share their history because it doesn't translate. Their memory of the last 800 years includes events in dimensional layers that no human instrument detected."
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Treated well because irreplaceable. Pear and Soma value their dimensional perception for rift monitoring. Corps can't tap, regulate, or understand the Whisper Network. Wary respect rather than exploitation — \"useful and terrifying\" is a better employment category than \"expendable.\""
+    },
+    {
+      "type": "heading",
+      "text": "As Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unsettling. Useful. When the Whisper says \"don't go that way,\" everyone listens — the last time someone didn't listen, they walked into a Null Zone. They don't explain their warnings. The explanations don't translate. Crews that work with Whispers long enough learn to trust the instinct without needing the rationale."
+    },
+    {
+      "type": "callout",
+      "label": "Roleplay Hooks",
+      "style": "teal",
+      "items": [
+        "You see layers of reality that nobody else can perceive. How do you handle knowing things you can't explain?",
+        "People are uncomfortable around you. Always. How do you build relationships despite the uncanny valley?",
+        "You were never caged. The reason might be worse than caging. Do you know why?",
+        "Your shadow doesn't always match. When did you first notice? When did someone else?"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "flavor",
+      "text": "When the Whisper says don't go that way — don't go that way."
+    }
+  ]
+}

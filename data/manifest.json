@@ -138,6 +138,52 @@
       ]
     },
     {
+      "title": "Races",
+      "icon": "🧬",
+      "pages": [
+        {
+          "id": "races-overview",
+          "title": "Playable Species",
+          "file": "pages/races-overview.json"
+        },
+        {
+          "id": "races-human",
+          "title": "👤 Human",
+          "file": "pages/races-human.json"
+        },
+        {
+          "id": "races-vael",
+          "title": "🌿 Vael",
+          "file": "pages/races-vael.json"
+        },
+        {
+          "id": "races-keth",
+          "title": "⛏ Keth",
+          "file": "pages/races-keth.json"
+        },
+        {
+          "id": "races-grunt",
+          "title": "🦴 Grunt",
+          "file": "pages/races-grunt.json"
+        },
+        {
+          "id": "races-whisper",
+          "title": "👁 Whisper",
+          "file": "pages/races-whisper.json"
+        },
+        {
+          "id": "races-flicker",
+          "title": "⚡ Flicker",
+          "file": "pages/races-flicker.json"
+        },
+        {
+          "id": "races-hollow",
+          "title": "🔮 Hollow",
+          "file": "pages/races-hollow.json"
+        }
+      ]
+    },
+    {
       "title": "Character Creation",
       "icon": "👤",
       "pages": [

@@ -1,0 +1,201 @@
+{
+  "id": "races-vael",
+  "title": "The Vael",
+  "subtitle": "The Living Garden",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "The garden does not tend itself."
+    },
+    {
+      "type": "info-block",
+      "icon": "🌿",
+      "title": "The Vael",
+      "subtitle": "Origin: The Bloom · The Living Garden",
+      "entries": [
+        {"label": "Origin", "value": "The Bloom — a symbiotic overgrowth dimension of cooperative life"},
+        {"label": "Population", "value": "Moderate"},
+        {"label": "Appearance", "value": "Tall, slender. Skin shifts color with emotion. Fern-like crest. Large multifaceted eyes."},
+        {"label": "Build", "value": "Tall and willowy, lighter than they appear — hollow bones reinforced with cellulose structures", "full": true}
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Playable Adjustments",
+      "style": "accent",
+      "text": "Mechanical adjustments for playing a Vael contractor.",
+      "items": [
+        "+1 Toxicity threshold per bracket (higher tolerance before effects kick in)",
+        "-1 in extreme heat environments (cold-blooded-adjacent biology)",
+        "Sense wild rifts at Close range (innate dimensional perception)",
+        "Photosynthesis: 4 hours of sunlight replaces one meal per day",
+        "Can communicate emotional state involuntarily through skin color shifts"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Strengths",
+      "style": "teal",
+      "text": "What the Vael bring to a crew.",
+      "items": [
+        "Best toxicity resistance of any species — +1 threshold per bracket",
+        "Innate rift sensing at Close range — natural early warning system",
+        "Photosynthetic supplementation reduces food costs",
+        "Excellent scouts — read terrain and environmental hazards instinctively",
+        "Deep community bonds make them ferociously loyal teammates"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Weaknesses",
+      "style": "rust",
+      "text": "What holds the Vael back.",
+      "items": [
+        "Vulnerable to extreme heat (-1 to all checks in hot environments)",
+        "Emotional transparency — skin color broadcasts feelings, making deception difficult",
+        "Isolation sickness — extended time alone causes genuine psychological decline",
+        "Community-dependent — take team losses harder, morale drops faster when crew members fall"
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Plant-animal hybrid biology. The Vael photosynthesize supplementally — four hours of direct sunlight replaces one meal per day. Not a replacement for eating, but a meaningful reduction in resource dependency that has kept more than one crew fed through a long contract in the margins. Their toxicity tolerance is the highest of any sapient species, rooted in their dimensional origin — the Bloom's ecosystem is so saturated with ambient magical energy that anything without innate resistance would die within hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their skin shifts color with emotional state. This is involuntary — a Vael cannot hide how they feel. Joy produces a warm gold. Fear bleaches them pale. Anger darkens toward deep violet. Grief turns them gray-green, the color of dying leaves. Among other Vael, this transparency is a feature, not a flaw — it makes deception impossible and trust automatic. Among other species, it's a vulnerability. A Vael negotiator is playing poker with their cards face-up."
+    },
+    {
+      "type": "paragraph",
+      "text": "The fern-like crest runs along the crown and upper spine — a sensory organ as much as a physical feature, sensitive to changes in ambient magical concentration, air quality, and dimensional stability. Large, multifaceted eyes adapted for the Bloom's perpetual bioluminescence give them excellent low-light vision but make them sensitive to harsh artificial light. They're lighter than they appear — hollow bones reinforced with cellulose structures make a Vael who looks like they should weigh ninety kilograms closer to sixty."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their original ecosystem in the Bloom was so aggressive that solitary organisms died. Not \"struggled\" — died. The Bloom's predatory flora, toxic spore cycles, and symbiotic food chains required constant cooperation to navigate. Cooperation wasn't a cultural choice. It was biological imperative. Isolated Vael experience genuine psychological decline — not sadness, but a measurable deterioration in cognitive function and immune response. Extended solitude produces symptoms that resemble autoimmune disorders in humans: the body begins attacking itself when the communal feedback loop that regulates it is removed. They need community the way humans need sleep. Deprive them of it long enough and they break down."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Vael arrived from the Bloom during the Importation Programs — Wellspring and Green Cradle both sent extraction teams into the Bloom's symbiotic canopies looking for biological specimens. What they found was a species so deeply integrated with its environment that removing them from it was like pulling a root system out of soil. The Vael came, but they didn't come intact. The biological connection to the Bloom's living network — the sense of being part of something larger, of feeling the health of the ecosystem as a physical sensation — was severed. A thousand years later, Earth-born Vael still describe a sense of absence. Not homesickness. Something deeper. A phantom limb where a dimension used to be."
+    },
+    {
+      "type": "paragraph",
+      "text": "Green Cradle's integration of the Vael was the most cooperative corporate relationship any non-human species experienced during the Specimen Era. This is a low bar. Cradle recognized early that willing Vael produced better ecological work than captive ones — their biological affinity for living systems made them ideal for biome cultivation, agricultural management, and the maintenance of the biological infrastructure that kept Cradle city-states breathable. The Vael were given meaningful ecological authority. They were also classified as \"specialist biological labor\" rather than \"people who keep you alive.\" The distinction mattered to the Vael even when it didn't matter to Cradle."
+    },
+    {
+      "type": "callout",
+      "label": "Wellspring's Interest",
+      "style": "rust",
+      "text": "Wellspring wanted the Vael for different reasons. A plant-animal hybrid species with photosynthetic capability, dimensional toxicity resistance, and involuntary bioluminescent communication represented a gene-splicing goldmine. Wellspring's word for this was <strong>\"fascinating\"</strong> — the most dangerous word in Wellspring's vocabulary. Vael in Wellspring territory were studied, sampled, and subjected to \"voluntary research programs\" where the consent forms were written in a language the subjects had learned under duress. The research produced breakthroughs in toxicity-resistant augmentation. The Vael who participated were compensated in medical care — provided by Wellspring, dependent on continued participation, revocable. The cycle is familiar. Every non-human species has a version of it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Bloom Refusal of 2627.</strong> The second of the three great uprisings. The Vael in Green Cradle territory refused to tend. Not crops — <em>everything</em>. Air filtration gardens. Water purification wetlands. Toxicity-absorbing ground cover. The biological infrastructure that kept two city-states breathable. Within days, air quality readings spiked. Toxicity in residential districts climbed above comfort thresholds. Citizens noticed. Citizens asked questions. Cradle couldn't answer those questions without admitting that its entire ecological infrastructure depended on a species it had been classifying as specialist labor rather than people."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The garden does not serve those who do not see the gardener.\"</em> — Eshara, community leader of the Bloom Refusal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Eshara negotiated for eleven days. She was a community leader — not a politician, not a general, but a woman who tended gardens and understood that the people who control the food supply control everything. She spoke once to Cradle management and then waited. The Vael got reclassified. They got representation in agricultural planning councils. They got their children removed from the \"biological asset\" registry. Eshara died three years later — natural causes, according to Cradle records. The Vael don't discuss it. She is their folk saint. Her words are taught to every Vael child born on Earth: <em>the garden does not tend itself, and the people who forget this will learn when the garden stops.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Bloom Refusal was the second uprising, coming thirteen years after the Keth Stoppage and eight years before the Flicker Shadow Strike. Together, the three uprisings forced the Personhood Accords of 2638 — the legal framework that recognized non-human sapient species as persons. The Vael's contribution was proving that soft infrastructure is infrastructure. You can survive without miners for nineteen days. You cannot survive without air."
+    },
+    {
+      "type": "callout",
+      "label": "The Vael Collective",
+      "style": "teal",
+      "text": "The Vael's loose political federation operates by consensus — not majority vote, not representative democracy, but genuine consensus built through communal deliberation. Decisions take time. Major policy positions can take weeks of color-language ceremony, shared emotional processing, and community-wide discussion before a position emerges. The result is slow but unified — when the Vael Collective speaks, it speaks for everyone, because everyone has genuinely agreed. Corporations find this infuriating. They can't negotiate with a representative because no individual Vael has authority to make binding decisions. They can't rush the process because the process <em>is</em> the decision. They can't divide and conquer because the communal psychology that makes consensus possible also makes factional splits nearly impossible. The Vael Collective is the most frustrating negotiating partner in interspecies politics. It is also the most reliable. A Vael agreement, once reached, does not change."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "table",
+      "headers": ["Corporation", "Relationship", "Notes"],
+      "rows": [
+        ["Green Cradle", "Model citizens", "Ecological work, biome cultivation, agricultural management. The most cooperative corp relationship — but cooperation is not equality. Vael maintain Cradle's biological infrastructure and receive meaningful authority in return. The dependency runs both ways."],
+        ["Wellspring Pharma", "Research subjects", "Plant-animal hybrid biology is \"fascinating.\" Gene-splicing research, toxicity resistance studies, involuntary bioluminescence analysis. Compensation in medical care that's dependent on continued participation. The Vael remember."],
+        ["Congo", "Specialist labor", "Vael toxicity resistance makes them useful in high-contamination extraction zones. Deployed where humans can't survive long enough to be productive. Paid the same rate for three times the exposure."],
+        ["Sentinel", "Scouts and surveyors", "Rift-sensing capability makes Vael valuable for forward reconnaissance. Sentinel treats them professionally — which means efficiently, not kindly."],
+        ["Pear", "Data sources", "Vael sensory data on rift activity is cataloged, analyzed, and monetized. The Vael who provide it are credited as \"environmental sensors\" in the reports."],
+        ["Crowned Table", "Curiosity", "The Table's mystical bent finds Vael biology philosophically interesting. Some Vael have found genuine community in Table territories. Others find the reverence unsettling — being worshipped is not the same as being respected."],
+        ["Reign of Rat", "Archival interest", "Vael communal memory and color-language ceremonies are a living archive. Rat wants to catalog them. The Vael are cautious — they've seen what happens when a corp decides your culture is a resource."]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The pattern is consistent across all seven corporations: the Vael are valued for their biology. Their toxicity resistance, their photosynthetic capability, their rift-sensing, their ecological expertise — all of it useful, all of it monetizable, all of it reducible to a line item on a resource allocation spreadsheet. The Vael notice the pattern. Eshara's words are the response: when they stop seeing the gardener, the garden stops."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "As Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reliable. Excellent scouts and medics. A Vael reads terrain the way a human reads a room — instinctively, holistically, noting things that don't register on instruments. Their fern-crest picks up changes in ambient toxicity, dimensional stability, and air composition before equipment does. In rift zones, a Vael scout is an early warning system that doesn't need batteries, calibration, or a power source. They just need sunlight and company."
+    },
+    {
+      "type": "paragraph",
+      "text": "Their rift-sensing is the headline capability. At Close range, a Vael can sense wild rifts — unstable dimensional breaches that don't show up on standard survey equipment until they're already open. This has saved more crews than any piece of technology Green Cradle or Pear has ever produced. The sensing is innate, involuntary, and impossible to replicate artificially. A Vael who says \"something's wrong here\" is not guessing. Their biology is telling them something that your instruments won't confirm for another thirty seconds. Thirty seconds is the difference between evacuation and casualty."
+    },
+    {
+      "type": "paragraph",
+      "text": "The trade-off is emotional. Vael bond deeply with their crew — the communal biology that makes them excellent teammates also makes them vulnerable to loss. A Vael who's lost a teammate doesn't just grieve. They feel it physically. The communal feedback loop that regulates their immune system and cognitive function registers the absence of a community member as damage. Recovery takes time, support, and the kind of emotional labor that most contractor crews aren't built to provide."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crews that include Vael report higher cohesion but also higher emotional cost. The Vael's involuntary emotional transparency forces honesty — you can't hide resentment from someone whose skin turns dark when they sense it. This either builds trust faster than any team-building exercise or destroys a dysfunctional crew in weeks. There's no middle ground. The trade-off is worth it. A Vael who trusts you will keep you alive through things that would kill a crew that doesn't trust each other."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "callout",
+      "label": "Roleplay Hooks",
+      "style": "teal",
+      "text": "Questions to shape your Vael contractor.",
+      "items": [
+        "Your skin broadcasts your emotions. How do you handle situations that require deception?",
+        "You're far from the Bloom. The biological connection you evolved for doesn't exist here. How do you cope?",
+        "Your people's uprising gave them rights. Your grandmother remembers Eshara's words. What do those words mean to you?",
+        "The crew is your community now. What happens when the crew breaks?"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Species Integration Bureau classifies the Vael as 'sapient entity, photosynthetic hybrid, community-dependent.' Vael employees are entitled to minimum communal housing of three individuals per residential unit, supplemental UV exposure during standard work shifts, and access to agricultural consultation roles as outlined in the post-Bloom Refusal Ecological Authority Agreement of 2627. Isolated deployment of Vael personnel beyond 72 hours requires written authorization from Species Relations and a mandatory psychological assessment upon return. The Bureau reminds all corporate managers that Vael emotional transparency is a biological function, not a security vulnerability, and that attempts to weaponize involuntary color-shift responses for interrogation purposes are a violation of the Personhood Accords, Section 14, Subsection 9. Compliance is self-reported. Thank you for your cooperation.\"</em>"
+    }
+  ]
+}
