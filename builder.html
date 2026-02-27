@@ -132,6 +132,7 @@ const ARMOR=[
   {name:"Corp Tactical",val:4,cap:5,wt:3,cost:750},
   {name:"Rift-Walker Suit",val:3,cap:6,wt:2,cost:600},
   {name:"Heavy Plate",val:6,cap:3,wt:4,cost:1200},
+  {name:"Siege Rig",val:8,cap:2,wt:6,cost:2500},
 ];
 const SHIELDS=[
   {name:"Buckler",ev:1,wt:1,cost:100,note:"Can use Light weapon in shield hand"},
@@ -146,6 +147,7 @@ const AUGS_T1=[
   {name:"Blast Shaping",tree:"Systems",cost:250},
   {name:"Social Implant",tree:"Influence",cost:250},
   {name:"Subdermal Plating",tree:"Fortress",cost:350},
+  {name:"Sentinel Reflexes",tree:"Fortress",cost:250},
   {name:"Sprint Actuators",tree:"Shadow",cost:300},
   {name:"Ambidextrous Wiring",tree:"Dancer",cost:250},
   {name:"Furnace Core",tree:"Leech",cost:250},
@@ -157,7 +159,7 @@ const CUSTOM_BUDGET = 1200;
 // ============================================================
 // HELPERS
 // ============================================================
-function gB(v){if(v<=3)return-2;if(v<=5)return-1;if(v<=7)return 0;if(v<=9)return 1;if(v<=11)return 2;if(v<=14)return 3;return 4}
+function gB(v){if(v<=3)return 1;if(v<=5)return 2;if(v<=7)return 3;if(v<=9)return 4;return 5}
 function fB(v){const b=gB(v);return b>=0?'+'+b:''+b}
 
 // ============================================================
@@ -194,7 +196,9 @@ function App(){
   },[res,sp,fl,tr]);
 
   const hp=6+gB(st.Grit)+(tr.find(t=>t.name==='Chrome Junkie')?-1:0);
-  const ev=8+gB(st.Reflex);
+  const rawEv=3+gB(st.Edge)+gB(st.Reflex);
+  const armorCap=kitMode==='custom'&&cArmor!=null?ARMOR[cArmor].cap:null;
+  const ev=armorCap?Math.min(rawEv,armorCap):rawEv;
   const init=gB(st.Reflex)+gB(st.Edge)+(res&&res.name==='Pit Fighter'?1:0)+(tr.find(t=>t.name==='Wired Reflexes')?1:0);
   const cw=sp&&sp.name==='Grunt'?Math.floor(st.Chrome*3):st.Chrome*2;
   const cr=(res?res.credits:0)+(kit&&kit.xCr?kit.xCr:0)+tr.reduce((s,t)=>s+(t.crMod||0),0);

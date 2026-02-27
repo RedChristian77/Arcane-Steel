@@ -449,7 +449,7 @@
       "columns": ["Mod", "Cost", "Weapon Type", "Effect"],
       "rows": [
         ["Targeting Link", "300 cr", "Ranged only", "When you use Mark Target or Analyze Weakness on an enemy, you get +2 accuracy (instead of +1) against that target with this weapon. Requires neural jack augment."],
-        ["Reflex Sync", "250 cr", "Any weapon", "Your Opportunity Attacks with this weapon use weapon damage dice instead of the standard 1d6. Your reflexes and the weapon are one system. Requires neural jack."],
+        ["Reflex Sync", "250 cr", "Any weapon", "OAs with this weapon cost 1 less RP (minimum 1). Your reflexes and the weapon are one system. Stacks with Fortress Wall. Requires neural jack."],
         ["Predictive Aim", "350 cr", "Ranged only", "+1 accuracy against targets that moved this round. The weapon calculates trajectory. Requires neural jack."],
         ["Combo Protocol", "300 cr", "Light weapons only", "After hitting with this weapon, your next attack with a different weapon this turn gets +1 accuracy. Dual-wield optimization. Requires neural jack."],
         ["Threat Assessment", "200 cr", "Any weapon", "At the start of combat, this weapon identifies the highest-threat enemy (most HP or highest damage output). You get +1 accuracy against that target for the entire encounter. Requires neural jack."]

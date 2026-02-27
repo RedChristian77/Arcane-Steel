@@ -36,11 +36,11 @@
         ["Clothes", "0", "0", "0", "None", "—", "Free", "—"],
         ["Padded Jacket", "1", "0", "3", "None", "—", "50 cr", "15 cr"],
         ["Light Weave", "2", "0", "6", "None", "—", "200 cr", "40 cr"],
-        ["Contractor Standard", "3", "2", "10", "8", "Chrome 2", "400 cr", "60 cr"],
-        ["Rift-Walker Suit", "3", "2", "10", "8", "Chrome 2", "600 cr", "100 cr"],
-        ["Corp Tactical", "4", "3", "14", "7", "Chrome 3", "750 cr", "120 cr"],
-        ["Heavy Plate", "6", "5", "20", "5", "Chrome 4", "1,200 cr", "200 cr"],
-        ["Siege Rig", "8", "8", "30", "4", "Chrome 6", "2,500 cr", "400 cr"]
+        ["Contractor Standard", "3", "2", "10", "6", "Chrome 2", "400 cr", "60 cr"],
+        ["Rift-Walker Suit", "3", "2", "10", "6", "Chrome 2", "600 cr", "100 cr"],
+        ["Corp Tactical", "4", "3", "14", "5", "Chrome 3", "750 cr", "120 cr"],
+        ["Heavy Plate", "6", "5", "20", "3", "Chrome 4", "1,200 cr", "200 cr"],
+        ["Siege Rig", "8", "8", "30", "2", "Chrome 6", "2,500 cr", "400 cr"]
       ]
     },
     {

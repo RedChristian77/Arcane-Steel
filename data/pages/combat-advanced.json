@@ -370,63 +370,45 @@
     },
     {
       "type": "blockquote",
-      "text": "<strong>1.</strong> Roll weapon accuracy die + stat bonus\n<strong>2.</strong> Apply weapon conditional modifiers\n<strong>3.</strong> Total ≥ Evasion = Hit\n<strong>4.</strong> Hit → roll weapon damage dice\n<strong>5.</strong> Subtract armor Value from each damage die\n<strong>6.</strong> Sum remaining. Subtract Absorb.\n<strong>7.</strong> Remaining = punch-through → hits Armor HP and Character HP\n<strong>8.</strong> Armor HP = 0 → Armor Break"
+      "text": "<strong>1.</strong> Roll weapon accuracy die + stat bonus\n<strong>2.</strong> Apply weapon conditional modifiers\n<strong>3.</strong> Total ≥ Evasion = Hit\n<strong>4.</strong> Hit → roll weapon damage dice\n<strong>5.</strong> Subtract Armor from each damage die\n<strong>6.</strong> Total remaining = damage dealt"
     },
     {
       "type": "heading",
-      "text": "Critical Hit"
+      "text": "Key Formulas"
     },
     {
-      "type": "paragraph",
-      "text": "Natural max on accuracy die → Auto-hit + double damage dice"
-    },
-    {
-      "type": "heading",
-      "text": "Action Points"
-    },
-    {
-      "type": "paragraph",
-      "text": "5 AP per turn. Attack = 1-5 AP. Move = 1 AP/band. Item = 1 AP. Skill = 1 AP. Defend = 2 AP. Overwatch = Weapon AP + 1. Grapple = 2 AP. Suppress = 3 AP."
-    },
-    {
-      "type": "heading",
-      "text": "Quick Actions (Free)"
-    },
-    {
-      "type": "paragraph",
-      "text": "Drop item, speak, toggle passive, fall prone."
+      "type": "table",
+      "headers": ["Value", "Formula"],
+      "rows": [
+        ["HP", "12 + (Grit × 2)"],
+        ["Evasion", "3 + Edge Bonus + Reflex Bonus (capped by armor)"],
+        ["Stat Bonus", "2–3 = +1, 4–5 = +2, 6–7 = +3, 8–9 = +4, 10 = +5"],
+        ["Critical Hit", "Natural max on accuracy die → Auto-hit + double damage dice"]
+      ]
     },
     {
       "type": "heading",
-      "text": "Reactions (1/round)"
+      "text": "Action Points (5 AP/turn)"
     },
     {
       "type": "paragraph",
-      "text": "Opportunity Attack: d8+stat acc, 1d6+stat dmg (fixed, not weapon). Triggers when enemy leaves melee range."
+      "text": "Attack = 1–5 AP (weapon). Move = 1 AP/band. Item = 1 AP. Skill = 1 AP. Defend = 2 AP. Grapple = 2 AP. Suppress = 3 AP. Delay = 0 AP (1/side/round, no consecutive)."
     },
     {
       "type": "heading",
-      "text": "Overwatch"
+      "text": "Reaction Points (2 RP/round baseline)"
     },
     {
       "type": "paragraph",
-      "text": "Weapon AP + 1, set on your turn. Next enemy moving in range triggers full weapon attack."
+      "text": "Opportunity Attack (melee): weapon stats, costs weapon AP in RP. Triggered when enemy leaves melee range. Convert remaining AP to RP at end of turn for ranged overwatch fire on targets in LoS cone. Unused RP does not carry over."
     },
     {
       "type": "heading",
-      "text": "Grapple"
+      "text": "Other Reactions (cost RP)"
     },
     {
       "type": "paragraph",
-      "text": "2 AP, Chrome vs Chrome. Grappled = can't move, -1 Evasion. Escape = 1 AP + Chrome check."
-    },
-    {
-      "type": "heading",
-      "text": "Shove"
-    },
-    {
-      "type": "paragraph",
-      "text": "1 AP, Chrome vs Chrome. Push 1 band OR knock Prone."
+      "text": "Riposte (Dancer), Counter-Rhythm, Misdirection Field, Cutting Words, etc. — each costs 1–2 RP as specified by the ability. These compete with OAs for the same RP pool."
     },
     {
       "type": "heading",
@@ -434,7 +416,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Gain +1 Scar → Roll 1d20 vs Death DC → Survive at 50% HP or Flatline"
+      "text": "Gain +1 Scar → Roll 1d20 vs Death DC → Survive at 50% HP or Flatline."
     },
     {
       "type": "heading",
@@ -442,7 +424,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Dual Swing: both weapons attack at HIGHEST AP. EV penalty = -(combined weight). Dancer tree reduces penalty."
+      "text": "Each weapon costs its own AP. Off-hand −1 accuracy. −1 Evasion."
     },
     {
       "type": "heading",
@@ -458,7 +440,7 @@
     },
     {
       "type": "paragraph",
-      "text": "2d6 + Stat Bonus + Skill Modifier → 10+ Full / 7-9 Partial / 6- Failure. Costs 1 AP in combat."
+      "text": "2d6 + Stat Bonus + Skill Modifier → 10+ Full / 7–9 Partial / 6− Failure. Costs 1 AP in combat."
     }
   ]
 }

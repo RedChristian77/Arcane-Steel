@@ -52,9 +52,9 @@
         ["Drag", "1 AP", "Move a Grappled target 1 range band with you. Requires maintaining grapple."],
         ["Stabilize", "1 AP", "Medicine check on an adjacent downed ally. Prevents next Death Roll."],
         ["Take Cover", "1 AP", "Move into available cover in your current zone. Gain In Cover condition (+2 Evasion vs ranged from covered direction)."],
-        ["Overwatch", "Weapon AP + 1", "Reserve your attack. The next enemy that moves within your weapon's range this round triggers your attack as an interrupt. One attack only. Must have line of sight."],
+        ["Convert AP to RP", "All remaining AP", "At the end of your turn, convert all remaining AP to Reaction Points (RP). These RP are available until the start of your next turn. Use them for ranged overwatch fire on targets moving through your line of sight."],
         ["Suppress", "3 AP", "Ranged weapons only. Designate a zone. Until your next turn, enemies in that zone are Suppressed (-2 accuracy, +1 AP to advance toward you). Consumes ammo."],
-        ["Delay", "0 AP", "Hold your turn. Jump back into initiative at any point later in the round. Once you act, your position resets."]
+        ["Delay", "0 AP", "Hold your turn. Jump back in later this round. Must act before round ends or forfeit turn. Cannot Delay on consecutive rounds. Only one character per side may Delay per round."]
       ]
     },
     {
@@ -89,68 +89,98 @@
     },
     {
       "type": "heading",
-      "text": "Reactions"
+      "text": "Reaction Points (RP)"
     },
     {
       "type": "paragraph",
-      "text": "Reactions happen <strong>outside your turn.</strong> You don't spend AP from your turn on them — reactions have their own economy. By default, every contractor gets <strong>1 Reaction per round.</strong> Your reaction refreshes at the start of your turn."
-    },
-    {
-      "type": "heading",
-      "text": "Opportunity Attack (Reaction)"
-    },
-    {
-      "type": "paragraph",
-      "text": "When an enemy <strong>moves out of your melee range</strong> (Close → Medium or further) without using a Disengage-type ability, you may use your Reaction to make a <strong>snap strike</strong> against them. This is an Opportunity Attack."
-    },
-    {
-      "type": "blockquote",
-      "text": "<em>Rules:</em>  • Roll your <strong>best melee stat bonus + d8 accuracy</strong> (regardless of equipped weapon). This is a quick, reactive strike — not a full attack.  • Damage: <strong>1d6 + stat bonus</strong> (flat, no weapon dice). Armor applies normally.  • Uses your Reaction for the round (you can't make another Reaction until your next turn).  • Only triggers on movement <em>away from you.</em> Moving around you at the same range band doesn't trigger it. Moving toward you doesn't trigger it.  • If the target uses the <strong>Disengage</strong> action (Dancer T2), <strong>Quick Escape Wiring</strong> (Shadow T1), or any ability that says \"without provoking opportunity attacks,\" no reaction is triggered.  • Enemies can also make Opportunity Attacks against players using the same fixed damage (1d6 + stat bonus). A Rift Goblin's OA doesn't suddenly deal Brine Crusher damage."
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Why fixed damage?</strong> An Opportunity Attack is a snap reaction — a quick jab, a pistol whip, a slash across the back as someone turns to run. It's not a fully wound-up Great Maul overhead. The threat is real enough to make disengaging cost something, but not so devastating that high-AP weapons become free death zones."
-    },
-    {
-      "type": "blockquote",
-      "text": "<em>Why this matters:</em> Opportunity Attacks make positioning sticky. You can't just walk away from a Berserker for free. Getting out of melee costs something — either 1 AP for Disengage, a specific ability, or you eat a hit. This creates frontline/backline dynamics. The Berserker who's in an enemy's face is <em>keeping them there.</em>"
-    },
-    {
-      "type": "heading",
-      "text": "Other Reactions"
-    },
-    {
-      "type": "paragraph",
-      "text": "Reactions aren't limited to Opportunity Attacks. Several abilities and augments grant additional reaction options:"
-    },
-    {
-      "type": "table",
-      "headers": ["Source", "Reaction", "Trigger"],
-      "rows": [
-        ["Opportunity Attack", "One melee snap strike (1d6 + stat)", "Enemy leaves your melee range"],
-        ["Riposte (Dancer T2 ability)", "One off-hand melee attack", "Enemy misses you in melee"],
-        ["Countermeasure (Technician T3 ability)", "Negate tech/Interface ability", "Enemy uses tech ability in range"],
-        ["Cutting Words (Negotiator T3 ability)", "Reduce damage by 1d6", "Enemy hits ally in range"],
-        ["Tactical Relay (Technician T3 ability)", "Ally spends 2 AP out of turn", "You use 1 AP on your turn to set it up"],
-        ["Martyrdom Protocol (Sin Eater T4 augment)", "Absorb half damage", "Ally takes damage in range"],
-        ["Covering Fire (Operative T2 ability)", "Free ranged attack on attacker", "Enemy attacks the ally you're covering"]
-      ]
-    },
-    {
-      "type": "paragraph",
-      "text": "<strong>Reaction limit: 1 per round</strong> unless an ability specifically grants additional reactions. Some T4 abilities may grant a second Reaction per round."
+      "text": "Reactions happen <strong>outside your turn.</strong> They use <strong>Reaction Points (RP)</strong> — a separate resource from AP. Every contractor starts with <strong>2 RP per round.</strong> RP refreshes at the start of your turn. Unused RP does not carry over between rounds."
     },
     {
       "type": "callout",
       "style": "accent",
-      "label": "Overwatch Is Not a Reaction",
-      "text": "Overwatch is a <strong>Standard Action</strong> (Weapon AP + 1), not a Reaction. It's set up on your turn and triggers as an interrupt, but it does <strong>not</strong> consume your Reaction. You can Overwatch AND make an Opportunity Attack in the same round. See the Overwatch section below for full details."
+      "label": "RP Sources",
+      "text": "<strong>Baseline (all characters):</strong> 2 RP/round<br><strong>Fortress T1 — Sentinel Reflexes:</strong> +1 RP/round<br><strong>Fortress T3 — Fortress Wall:</strong> +2 RP/round, OAs cost 1 less RP (min 1)<br><strong>AP-to-RP Conversion:</strong> At end of turn, convert all remaining AP to RP"
+    },
+    {
+      "type": "heading",
+      "text": "Opportunity Attacks"
+    },
+    {
+      "type": "paragraph",
+      "text": "When an enemy <strong>moves out of your melee range</strong> (Close → Medium or further) without using a Disengage-type ability, you may spend RP to make an Opportunity Attack. OAs now use your <strong>equipped weapon's full stats</strong> — accuracy die + stat bonus, weapon damage dice. They cost <strong>RP equal to the weapon's AP cost.</strong>"
+    },
+    {
+      "type": "table",
+      "headers": ["Weapon", "AP Cost", "RP Cost for OA", "Can OA with 2 RP?", "Needs Bonus RP?"],
+      "rows": [
+        ["Combat Knife (1 AP)", "1", "1 RP", "YES — twice", "No"],
+        ["Precision Blade (2 AP)", "2", "2 RP", "YES — once", "No"],
+        ["Longsword (3 AP)", "3", "3 RP", "NO", "Yes (+1 RP minimum)"],
+        ["Heavy Axe (4 AP)", "4", "4 RP", "NO", "Yes (+2 RP minimum)"],
+        ["Great Maul (5 AP)", "5", "5 RP", "NO", "Yes (+3 RP minimum)"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Design intent:</strong> Light weapons can always threaten reactively. Medium weapons need minor RP investment. Heavy weapons require dedicated augment investment (Fortress tree). A Bulwark with a Great Maul threatening OAs is a character who built specifically for that fantasy."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>OA triggers remain unchanged:</em> Only triggers on movement <em>away from you.</em> Moving around you at the same range doesn't trigger it. If the target uses Disengage (Dancer T2), Quick Escape Wiring (Shadow T1), or any ability that says \"without provoking opportunity attacks,\" no OA is triggered."
+    },
+    {
+      "type": "heading",
+      "text": "AP-to-RP Conversion (Overwatch)"
+    },
+    {
+      "type": "paragraph",
+      "text": "At the <strong>end of your turn</strong>, you may convert all remaining AP to RP. These RP are available until the start of your next turn. You may fire on targets moving through your <strong>line of sight</strong> (cone-shaped area). Each shot costs RP equal to the weapon's AP cost."
+    },
+    {
+      "type": "table",
+      "headers": ["Scenario", "AP Spent", "AP Left", "Converted RP", "Baseline RP", "Total RP", "Can Fire?"],
+      "rows": [
+        ["Sniper holds position", "0", "5", "5", "2", "7", "Sniper Rifle (5 RP) — YES (2 left)"],
+        ["Rifleman fires + holds", "3 (1 shot)", "2", "2", "2", "4", "Corp Rifle (3 RP) — YES (1 left)"],
+        ["Rifleman fires twice", "6 (2 shots)", "0", "0", "2", "2", "Corp Rifle (3 RP) — NO"],
+        ["Pistoleer fires + converts", "2 (1 shot)", "3", "3", "2", "5", "Burst Pistol (2 RP) — YES (up to 2 shots)"]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Design intent:</strong> Overwatch is now a natural decision — shoot now and lose reactive capability, or hold fire and threaten the lane. Snipers who commit their full turn to watching a corridor are rewarded. The math self-balances."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Suppression vs Overwatch",
+      "text": "<strong>Suppression</strong> (3 AP) remains unchanged as dedicated area denial — affects an entire zone with debuffs but deals no damage. <strong>AP-to-RP conversion</strong> provides targeted reactive fire. They serve different tactical roles: Suppression is area control, converted RP is targeted threat."
+    },
+    {
+      "type": "heading",
+      "text": "Other Reactions (RP Cost)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reactions aren't limited to Opportunity Attacks. Several abilities and augments grant additional reaction options. All compete for the same RP pool:"
+    },
+    {
+      "type": "table",
+      "headers": ["Source", "Reaction", "RP Cost", "Trigger"],
+      "rows": [
+        ["Opportunity Attack", "Full weapon attack", "Weapon AP cost", "Enemy leaves your melee range"],
+        ["Riposte (Dancer T2)", "Off-hand melee attack", "1 RP", "Enemy misses you in melee"],
+        ["Countermeasure (Technician T3)", "Negate tech/Interface ability", "2 RP", "Enemy uses tech ability in range"],
+        ["Cutting Words (Negotiator T3)", "Reduce damage by 1d6", "1 RP", "Enemy hits ally in range"],
+        ["Martyrdom Protocol (Sin Eater T4)", "Absorb half damage", "2 RP", "Ally takes damage in range"],
+        ["Covering Fire (Operative T2)", "Free ranged attack on attacker", "1 RP", "Enemy attacks the ally you're covering"]
+      ]
     },
     {
       "type": "callout",
       "style": "accent",
       "label": "Detailed Rules",
-      "text": "For full rules on <strong>Grappling</strong>, <strong>Shoving</strong>, and <strong>Overwatch</strong>, see <strong>Special Actions</strong>. For <strong>Cover</strong>, <strong>Flanking</strong>, and <strong>Range Bands</strong>, see <strong>Positioning & Movement</strong>. For the full attack resolution steps, see <strong>Attacks & Damage</strong>."
+      "text": "For full rules on <strong>Grappling</strong> and <strong>Shoving</strong>, see <strong>Special Actions</strong>. For <strong>Cover</strong>, <strong>Flanking</strong>, and <strong>Range Bands</strong>, see <strong>Positioning & Movement</strong>. For the full attack resolution steps, see <strong>Attacks & Damage</strong>."
     }
   ]
 }

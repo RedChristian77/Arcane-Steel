@@ -145,7 +145,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>Evasion</strong>                         3 + Edge bonus (capped by armor’s Evasion Cap)"
+      "text": "<strong>Evasion</strong>                         3 + Edge bonus + Reflex bonus (capped by armor’s Evasion Cap)"
     },
     {
       "type": "paragraph",
@@ -177,7 +177,7 @@
     },
     {
       "type": "blockquote",
-      "text": "• HP: 12 + (6 × 2) = <strong>24</strong>  • Evasion: 3 + 2 (Edge bonus) = <strong>5</strong> (capped by Contractor Standard armor at 6, so 5 is fine)  • Armor: <strong>4</strong> (Contractor Standard)  • Toxicity Max: <strong>20</strong> (Grit 6 = +2, so <strong>22</strong>)"
+      "text": "• HP: 12 + (6 × 2) = <strong>24</strong>  • Evasion: 3 + 2 (Edge bonus) + 3 (Reflex bonus) = <strong>8</strong> (capped by Contractor Standard armor at 6, so <strong>6</strong>)  • Armor: <strong>4</strong> (Contractor Standard)  • Toxicity Max: <strong>20</strong> (Grit 6 = +2, so <strong>22</strong>)"
     },
     {
       "type": "paragraph",
@@ -269,7 +269,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Derived                             HP: 24, Evasion: 4 (capped at 4 by Corp Tactical), Armor: 5"
+      "text": "Derived                             HP: 24, Evasion: 6 (capped at 5 by Corp Tactical), Armor: 5"
     },
     {
       "type": "paragraph",
@@ -313,7 +313,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Derived                             HP: 10, Evasion: 6 (uncapped by Light Weave), Armor: 2"
+      "text": "Derived                             HP: 10, Evasion: 8 (uncapped by Light Weave), Armor: 2"
     },
     {
       "type": "paragraph",
@@ -357,7 +357,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Derived                             HP: 11, Evasion: 5 (capped at 4 by Corp Tactical), Armor: 5"
+      "text": "Derived                             HP: 11, Evasion: 8 (capped at 5 by Corp Tactical), Armor: 5"
     },
     {
       "type": "paragraph",
@@ -405,7 +405,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Derived                             HP: 24, Evasion: 4, Armor: 3, Toxicity: 5/23 (base 20 + Grit 6 bonus + Rift-Walker +1)"
+      "text": "Derived                             HP: 24, Evasion: 6 (capped at 6 by Rift-Walker Suit), Armor: 3, Toxicity: 5/23 (base 20 + Grit 6 bonus + Rift-Walker +1)"
     },
     {
       "type": "paragraph",

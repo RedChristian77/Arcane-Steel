@@ -69,27 +69,27 @@
     },
     {
       "type": "heading",
-      "text": "Overwatch"
+      "text": "Reaction Points & Opportunity Attacks"
     },
     {
       "type": "paragraph",
-      "text": "Setting up to shoot anyone who moves through your firing lane."
-    },
-    {
-      "type": "blockquote",
-      "text": "• <strong>Cost:</strong> Weapon AP + 1 (spent on your turn). A Combat Knife (1 AP) costs 2 AP to Overwatch. A Sniper Rifle (5 AP) costs 6 AP — meaning you need an AP bonus from an augment or ability to Overwatch with heavy weapons. This is intentional.\n• <strong>Range:</strong> Your weapon's effective range\n• <strong>Effect:</strong> You reserve your attack. The next enemy that moves within your line of sight this round triggers one attack from you as an interrupt (resolved before their movement completes). Uses your full weapon stats — accuracy, damage, everything.\n• <strong>Limit:</strong> One Overwatch attack per setup. After it triggers, you're done until your next turn.\n• <strong>Doesn't use your Reaction.</strong> Overwatch is pre-set, not reactive. You can Overwatch AND make an Opportunity Attack in the same round."
+      "text": "Every character starts with <strong>2 RP per round</strong>. RP refreshes at the start of your turn. Unused RP does not carry over."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Why weapon AP + 1?</strong> Overwatch is powerful — you get to shoot at something that has to move into your sights, and you interrupt their action. The +1 AP tax ensures it's always more expensive than just shooting. A Corp Rifle (3 AP) costs 4 AP to Overwatch. That means you can Overwatch and still have 1 AP for movement — a reasonable tactical choice. A Sniper Rifle at 6 AP means you're dedicating your entire turn plus needing a bonus to pull it off, which makes Overwatch with heavy weapons a rare, deliberate setup rather than the default play."
+      "text": "<strong>Opportunity Attacks</strong> use your equipped weapon's full stats — accuracy die + stat bonus, weapon damage dice. They cost <strong>RP equal to the weapon's AP cost.</strong> OAs trigger when an enemy moves out of your melee range without using a Disengage-type ability."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Overwatch vs. Opportunity Attacks:</strong> Opportunity Attacks are free reactive snap strikes (1d6 + stat, fixed) when someone leaves your melee range. Overwatch is a deliberate ranged setup (weapon AP + 1) that uses your full weapon stats. They serve different purposes — OA punishes retreat with a small tax, Overwatch punishes advance with a real shot."
+      "text": "<strong>AP-to-RP Conversion:</strong> At the end of your turn, you may convert all remaining AP to RP. These RP are available until the start of your next turn. You may fire on targets moving through your <strong>line of sight cone</strong>. Each shot costs RP equal to the weapon's AP cost. This replaces the old Overwatch action — no special action needed, the AP/RP economy handles it naturally."
     },
     {
       "type": "paragraph",
-      "text": "<strong>Suppression vs. Overwatch:</strong> Suppression (3 AP) affects an entire zone with debuffs but deals no damage. Overwatch (weapon AP + 1) targets one enemy with an actual attack. Suppression is area denial, Overwatch is targeted threat."
+      "text": "<strong>Melee OA vs Ranged Overwatch:</strong> Melee OAs trigger when an enemy leaves your melee range. Ranged overwatch fire triggers when an enemy moves through your LoS cone. Both cost RP equal to the weapon's AP. A versatile character could OA in melee with a knife (1 RP) and still have converted RP to fire their pistol at something moving in the backfield."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suppression vs Overwatch:</strong> Suppression (3 AP) remains unchanged as dedicated area denial — affects an entire zone with debuffs but deals no damage. AP-to-RP conversion provides targeted reactive fire. They serve different tactical roles."
     },
     {
       "type": "divider"
@@ -127,13 +127,14 @@
     },
     {
       "type": "table",
-      "columns": ["Build", "Edge", "Reflex", "Evasion", "Notes"],
+      "columns": ["Build", "Edge", "Reflex", "Edge Bonus", "Reflex Bonus", "Evasion", "Notes"],
       "rows": [
-        ["Baseline", "4", "4", "7", "No armor cap"],
-        ["Dedicated", "8", "8", "11", "Pure evasion build"],
-        ["Max", "10", "10", "13", "Theoretical maximum"],
-        ["Heavy Plate", "4", "4", "5", "Capped by armor"],
-        ["Siege Rig", "3", "3", "4", "Capped by armor"]
+        ["Baseline", "4", "4", "+2", "+2", "7", "No armor cap"],
+        ["Moderate", "6", "6", "+3", "+3", "9", "Light build"],
+        ["Dedicated", "8", "8", "+4", "+4", "11", "Pure evasion build"],
+        ["Max", "10", "10", "+5", "+5", "13", "Theoretical maximum"],
+        ["Heavy Plate", "4", "4", "+2", "+2", "3", "Capped by armor (cap 3)"],
+        ["Siege Rig", "3", "3", "+1", "+1", "2", "Capped by armor (cap 2)"]
       ]
     },
     {
@@ -152,7 +153,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>Example:</strong> A contractor with Edge 7 (+3) and Reflex 6 (+3) has Evasion 3 + 3 + 3 = 9. Wearing Heavy Plate (EV Cap 5), their Evasion is 5, not 9. They traded mobility for protection."
+      "text": "<strong>Example:</strong> A contractor with Edge 7 (+3) and Reflex 6 (+3) has Evasion 3 + 3 + 3 = 9. Wearing Heavy Plate (EV Cap 3), their Evasion is 3, not 9. They traded mobility for protection."
     },
     {
       "type": "heading",
@@ -177,6 +178,20 @@
     {
       "type": "paragraph",
       "text": "See <strong>Armor & Shields</strong> for the full armor table, damage flow, repair system, and break penalties."
+    },
+    {
+      "type": "table",
+      "columns": ["Armor", "Armor Value", "Evasion Cap", "Chrome Req", "Cost"],
+      "rows": [
+        ["Clothes", "0", "No cap", "—", "Free"],
+        ["Padded Jacket", "1", "No cap", "—", "50 cr"],
+        ["Light Weave", "2", "No cap", "—", "200 cr"],
+        ["Contractor Standard", "3", "6", "Chrome 2", "400 cr"],
+        ["Corp Tactical", "4", "5", "Chrome 3", "750 cr"],
+        ["Rift-Walker Suit", "3", "6", "Chrome 2", "600 cr"],
+        ["Heavy Plate", "6", "3", "Chrome 4", "1,200 cr"],
+        ["Siege Rig", "8", "2", "Chrome 6", "2,500 cr"]
+      ]
     },
     {
       "type": "heading",

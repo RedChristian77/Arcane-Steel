@@ -50,11 +50,11 @@
       "type": "table",
       "headers": ["Stat Value", "Bonus"],
       "rows": [
-        ["2–3", "+0"],
-        ["4–5", "+1"],
-        ["6–7", "+2"],
-        ["8–9", "+3"],
-        ["10", "+4"]
+        ["2–3", "+1"],
+        ["4–5", "+2"],
+        ["6–7", "+3"],
+        ["8–9", "+4"],
+        ["10", "+5"]
       ]
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "type": "blockquote",
-      "text": "<em>Awareness, charisma, and luck.</em>  • <strong>Combat Role:</strong> <strong>Evasion</strong> — Edge determines how hard you are to hit. High Edge characters dodge attacks that would flatten others.  • <strong>Passive Effect:</strong> Determines <strong>Evasion</strong> (base Evasion = 3 + Edge bonus, modified by armor). Also governs social interactions, perception, negotiation, and the ability to read people.  • <strong>Key Skills:</strong> Streetwise, Persuasion, reading situations, spotting danger before it arrives."
+      "text": "<em>Awareness, charisma, and luck.</em>  • <strong>Combat Role:</strong> <strong>Evasion</strong> — Edge determines how hard you are to hit. High Edge characters dodge attacks that would flatten others.  • <strong>Passive Effect:</strong> Determines <strong>Evasion</strong> (base Evasion = 3 + Edge bonus + Reflex bonus, modified by armor). Also governs social interactions, perception, negotiation, and the ability to read people.  • <strong>Key Skills:</strong> Streetwise, Persuasion, reading situations, spotting danger before it arrives."
     },
     {
       "type": "paragraph",

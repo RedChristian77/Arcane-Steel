@@ -128,6 +128,12 @@
           "branch": "Juggernaut",
           "effect": "Reduce the first instance of damage you take each round by 2 (after armor). One free buffer per round.",
           "cost": "250 cr"
+        },
+        {
+          "name": "Sentinel Reflexes",
+          "branch": "Shared",
+          "effect": "+1 RP per round. Your augmented reflexes let you react faster and more often. Stacks with baseline 2 RP.",
+          "cost": "250 cr"
         }
       ]
     },
@@ -204,7 +210,7 @@
         {
           "name": "Fortress Wall",
           "branch": "Guardian",
-          "effect": "Your opportunity attacks deal +1d6 bonus damage and apply Stagger (-1 AP on target's next turn). Enemies don't walk past you without paying.",
+          "effect": "+2 RP per round. Your Opportunity Attacks cost 1 less RP (minimum 1). Combined with Sentinel Reflexes, you have 5 RP/round and can threaten OAs with any weapon in the game.",
           "cost": "550 cr"
         },
         {
