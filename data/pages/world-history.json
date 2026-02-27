@@ -236,7 +236,7 @@
         "<strong>Wellspring Pharma</strong> survived because it controlled medicine. Toxicity treatment, augmentation surgery, scar remediation, genetic modification — Wellspring held the patents and the expertise. You can win a war against the company that heals your soldiers. You just can't fight the next one.",
         "<strong>Sentinel Systems</strong> survived because it was the most militarily powerful entity on the planet and made sure everyone knew it. Sentinel didn't need a clever survival strategy. It had the biggest guns. Sometimes that's enough.",
         "<strong>Green Cradle</strong> survived because it controlled the biosphere. Its ecological management systems maintained habitable conditions across vast stretches of territory. Destroying Green Cradle meant your air filtration stopped working. Enlightened self-interest kept it alive.",
-        "<strong>House of Mouse</strong> survived because it controlled culture. A thousand years of media dominance meant its mythology was embedded in every other corp's population. Its citizens were true believers — fanatical in a way that made conquest expensive and occupation impossible. You can take the territory. You can't take the narrative."
+        "<strong>Reign of Rat</strong> survived because it controlled culture. A thousand years of media dominance meant its mythology was embedded in every other corp's population. Its citizens were true believers — fanatical in a way that made conquest expensive and occupation impossible. You can take the territory. You can't take the narrative."
       ]
     },
     {
@@ -364,7 +364,7 @@
       "type": "callout",
       "label": "Corporate History",
       "style": "accent",
-      "text": "Each of the seven megacorporations maintains its own historical archive, and each archive tells a different story. Congo's history emphasizes logistics and efficiency. Sentinel's history emphasizes threats survived. House of Mouse's history is, quite literally, a mythology with production values. The Crowned Table's history is an epic poem. Pear's history is a dataset that requires proprietary software to access. Wellspring's history is classified. Green Cradle's history is a living garden that you walk through, and the plants rearrange themselves based on which version of events the Cradle is currently endorsing."
+      "text": "Each of the seven megacorporations maintains its own historical archive, and each archive tells a different story. Congo's history emphasizes logistics and efficiency. Sentinel's history emphasizes threats survived. Reign of Rat's history is, quite literally, a mythology with production values. The Crowned Table's history is an epic poem. Pear's history is a dataset that requires proprietary software to access. Wellspring's history is classified. Green Cradle's history is a living garden that you walk through, and the plants rearrange themselves based on which version of events the Cradle is currently endorsing."
     },
     {
       "type": "paragraph",
