@@ -133,15 +133,15 @@
     {
       "type": "info-block",
       "icon": "🎭",
-      "title": "House of Mouse — The Performance",
+      "title": "Reign of Rat — The Performance",
       "subtitle": "Black/Gold · Citizens: Cast Members",
       "entries": [
         {"label": "Daily", "value": "Performance Rites — daily life <em>is</em> performance. Every citizen has a role. Every interaction is a scene. Breaking character is the gravest sin. There is no backstage. There is no off-camera. The show never stops."},
         {"label": "Ongoing", "value": "Premiere — when new stories, productions, or narrative arcs begin. An entire district might be rewritten overnight. New sets. New costumes. New scripts. Citizens adapt or are recast. Recast citizens are reassigned. Reassignment is not discussed."},
         {"label": "Death", "value": "The Curtain Call — the death ritual. Death is not the end of a life. It's the end of an act. The deceased is eulogized as a character whose arc is complete. Mourning is reframed as appreciation for a great performance. Tears are encouraged. Grief is stage-directed."},
-        {"label": "Assignment", "value": "Audition Day — when new Cast Members are assigned their permanent roles. Children audition. The House assigns. Your role defines your career, your social circle, your wardrobe, and your personality for the rest of your life. Typecasting is theology."}
+        {"label": "Assignment", "value": "Audition Day — when new Cast Members are assigned their permanent roles. Children audition. The Reign assigns. Your role defines your career, your social circle, your wardrobe, and your personality for the rest of your life. Typecasting is theology."}
       ],
-      "desc": "The House of Mouse is the most psychologically complete corporate religion. There is no gap between life and performance, no space where a citizen is simply <em>themselves</em>. Identity is assigned, rehearsed, and maintained. The Founder — depicted smiling, always smiling, with eyes that see through walls — is the Author of All Stories. Creativity is divine. Originality is sacred. And every original thought belongs to the House, because the Author wrote you, and everything you create is part of the Story."
+      "desc": "The Reign of Rat is the most psychologically complete corporate religion. There is no gap between life and performance, no space where a citizen is simply <em>themselves</em>. Identity is assigned, rehearsed, and maintained. The Founder — depicted smiling, always smiling, with eyes that see through walls — is the Author of All Stories. Creativity is divine. Originality is sacred. And every original thought belongs to the Reign, because the Author wrote you, and everything you create is part of the Story."
     },
     {
       "type": "divider"
@@ -164,7 +164,7 @@
         ["💊 Wellspring", "Contribution Day", "Annual (varies)", "The date shifts based on 'population health metrics.' Citizens are somber. The honored graduates are paraded. Contractors should be aware that Wellspring's toxicity scanners are running at maximum sensitivity during this period. Running hot near Wellspring territory on Contribution Day is asking to be volunteered."],
         ["🏛️ Sentinel", "Remembrance Day", "Quarterly", "Solemn. Military parades. Weapons discharge salutes. Heightened security everywhere. Sentinel territory during Remembrance is not where you want to be caught without proper documentation. They're honoring the dead. They're comfortable making more."],
         ["🌿 Green Cradle", "Bloom Festival", "Seasonal (4/year)", "Festive, colorful, and deeply unsettling if you look too closely at what's blooming. Security is relaxed. Citizens are outdoors. Good time for contracts that require moving through Green Cradle territory quietly. Bad time if you have plant allergies. Or if you're allergic to things that used to be plants."],
-        ["🎭 House of Mouse", "The Premiere", "Irregular", "Announced with 48 hours' notice. Entire districts transform. If you're in House territory when a Premiere drops, your cover identity better have a character arc. Contracts during Premieres pay triple. Survival rates are not disclosed."]
+        ["🎭 Reign of Rat", "The Premiere", "Irregular", "Announced with 48 hours' notice. Entire districts transform. If you're in Reign territory when a Premiere drops, your cover identity better have a character arc. Contracts during Premieres pay triple. Survival rates are not disclosed."]
       ]
     },
     {
@@ -243,7 +243,7 @@
       "type": "callout",
       "label": "Corporate Media",
       "style": "teal",
-      "text": "Every corporation produces entertainment for its citizens. House of Mouse dominates — their content pipeline is the largest in the world, and their IP enforcement ensures nobody else can compete at scale. But every corp has its own media division. Congo produces efficiency documentaries and logistics dramas (hero delivers package against impossible odds, weeps with gratitude upon completion). Crowned Table produces chivalric romances and cooking competitions with stakes that are literally feudal. Pear produces sleek, minimalist experiences that are more aesthetic than narrative. Wellspring produces health programming — educational, mandatory, and relentless. Sentinel produces war films. Green Cradle produces nature documentaries about organisms that did not originate in nature. <strong>All corporate media is propaganda.</strong> Some of it is good propaganda. None of it is honest."
+      "text": "Every corporation produces entertainment for its citizens. Reign of Rat dominates — their content pipeline is the largest in the world, and their IP enforcement ensures nobody else can compete at scale. But every corp has its own media division. Congo produces efficiency documentaries and logistics dramas (hero delivers package against impossible odds, weeps with gratitude upon completion). Crowned Table produces chivalric romances and cooking competitions with stakes that are literally feudal. Pear produces sleek, minimalist experiences that are more aesthetic than narrative. Wellspring produces health programming — educational, mandatory, and relentless. Sentinel produces war films. Green Cradle produces nature documentaries about organisms that did not originate in nature. <strong>All corporate media is propaganda.</strong> Some of it is good propaganda. None of it is honest."
     },
     {
       "type": "callout",
@@ -259,11 +259,11 @@
       "type": "callout",
       "label": "Content as Currency",
       "style": "gold",
-      "text": "House of Mouse treats creative output — stories, performances, designs, <em>ideas</em> — as literal economic assets. A novel thought is a commodity. A good story has a market value. An original character design can be worth more than a year of contract work. This isn't metaphor. The House has a Content Exchange where narrative properties are bought, sold, and traded like stocks. A war between two franchise districts might be scripted. A citizen's emotional breakdown might be rated. Your grief is content. Your joy is content. Your death is a season finale."
+      "text": "Reign of Rat treats creative output — stories, performances, designs, <em>ideas</em> — as literal economic assets. A novel thought is a commodity. A good story has a market value. An original character design can be worth more than a year of contract work. This isn't metaphor. The Reign has a Content Exchange where narrative properties are bought, sold, and traded like stocks. A war between two franchise districts might be scripted. A citizen's emotional breakdown might be rated. Your grief is content. Your joy is content. Your death is a season finale."
     },
     {
       "type": "flavor",
-      "text": "In the House, the worst thing you can be isn't evil. It's boring."
+      "text": "In the Reign, the worst thing you can be isn't evil. It's boring."
     },
     {
       "type": "divider"
@@ -312,7 +312,7 @@
       "type": "callout",
       "label": "Corporate Dress",
       "style": "teal",
-      "text": "Corporate citizens wear corp colors and corp-approved styles. Always. Deviation isn't rebellion — it's diagnostic. A Congo Fulfiller wearing blue instead of brown isn't making a statement. They're having a breakdown. Neighbors will report it. A wellness check will follow. The colors aren't just clothing. They're identity, loyalty, and mental health assessment rolled into one wardrobe. Every corp has its aesthetic: Congo's utilitarian brown coveralls, the Crowned Table's feudal livery, Pear's minimalist whites, Wellspring's clinical scrubs, Sentinel's gray fatigues, Green Cradle's earth-toned organics, and the House's elaborate costuming. You can identify a citizen's corp from two blocks away. That's the point."
+      "text": "Corporate citizens wear corp colors and corp-approved styles. Always. Deviation isn't rebellion — it's diagnostic. A Congo Fulfiller wearing blue instead of brown isn't making a statement. They're having a breakdown. Neighbors will report it. A wellness check will follow. The colors aren't just clothing. They're identity, loyalty, and mental health assessment rolled into one wardrobe. Every corp has its aesthetic: Congo's utilitarian brown coveralls, the Crowned Table's feudal livery, Pear's minimalist whites, Wellspring's clinical scrubs, Sentinel's gray fatigues, Green Cradle's earth-toned organics, and the Reign's elaborate costuming. You can identify a citizen's corp from two blocks away. That's the point."
     },
     {
       "type": "callout",
@@ -351,7 +351,7 @@
         "<strong>Wellspring Pharma:</strong> Nutritionally optimized paste. Color-coded by health requirement. Personalized to each citizen's current biometric profile. It contains everything the body needs. It tastes like compliance. Citizens who request flavor are flagged for psychological evaluation.",
         "<strong>Sentinel Systems:</strong> MREs. Military rations. Three meals a day, identical portions, consumed at regulation speed. Sentinel citizens eat to fuel the body, not to enjoy the experience. Enjoying food is considered an inefficiency. There is no dessert.",
         "<strong>Green Cradle:</strong> Whatever grows in the walls. Green Cradle's architecture is alive — buildings are grown, not built — and the food comes from the same biomass. It's organic, it's fresh, it's sometimes still moving, and it occasionally has a genetic profile that doesn't match anything native to this dimension. Citizens don't ask questions about the salad.",
-        "<strong>House of Mouse:</strong> Themed. Every meal is an experience. Every restaurant is a set. Every server is in character. The food is excellent — the House understands that cuisine is entertainment — but every dish comes with a narrative, a presentation, and a licensing agreement. Eating at the House is dinner theater where the theater is mandatory."
+        "<strong>Reign of Rat:</strong> Themed. Every meal is an experience. Every restaurant is a set. Every server is in character. The food is excellent — the Reign understands that cuisine is entertainment — but every dish comes with a narrative, a presentation, and a licensing agreement. Eating at the Reign is dinner theater where the theater is mandatory."
       ]
     },
     {

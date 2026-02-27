@@ -56,22 +56,22 @@
         ["⛏️ Congo", "💊 Wellspring", "Business", "Supply chain dependency. Congo ships; doesn't ask what."],
         ["⛏️ Congo", "🍐 Pear", "Transactional", "Congo moves Pear's hardware. Pear maps Congo's rifts. Efficient."],
         ["⛏️ Congo", "🌿 Green Cradle", "Tense", "Extraction vs. conservation. Doctrinal opposition. Active disputes."],
-        ["⛏️ Congo", "🎭 Mouse", "Commercial", "Congo distributes Mouse merchandise. Profitable. Shallow."],
+        ["⛏️ Congo", "🎭 Rat", "Commercial", "Congo distributes Rat merchandise. Profitable. Shallow."],
         ["👑 Table", "🏛️ Sentinel", "Mutual Respect", "Shared values: hierarchy, discipline, duty. Near-friendship."],
-        ["👑 Table", "🎭 Mouse", "Cultural Rivalry", "Both trade in spectacle and loyalty. Citizen defections. Fury."],
+        ["👑 Table", "🎭 Rat", "Cultural Rivalry", "Both trade in spectacle and loyalty. Citizen defections. Fury."],
         ["👑 Table", "💊 Wellspring", "Cautious", "Wellspring supplies Table's medical needs. Table distrusts the terms."],
         ["👑 Table", "🍐 Pear", "Distant", "Minimal interaction. Incompatible cultures. Mutual indifference."],
         ["👑 Table", "🌿 Green Cradle", "Cordial", "Agricultural trade. Table feeds people; Cradle grows things. Functional."],
-        ["🍐 Pear", "🎭 Mouse", "Information War", "Data vs. narrative. The most sophisticated corporate conflict."],
+        ["🍐 Pear", "🎭 Rat", "Information War", "Data vs. narrative. The most sophisticated corporate conflict."],
         ["🍐 Pear", "🏛️ Sentinel", "Tense Cooperation", "Mutual dependency. Mutual distrust. Confirmed backdoors."],
         ["🍐 Pear", "💊 Wellspring", "Data Exchange", "Pear wants biological data. Wellspring wants predictive models. Wary."],
         ["🍐 Pear", "🌿 Green Cradle", "Research Overlap", "Both Survey-primary. Competing methodologies. Academic hostility."],
         ["💊 Wellspring", "🌿 Green Cradle", "Bioethics War", "Preservation vs. experimentation. Personal. Ideological. Violent."],
         ["💊 Wellspring", "🏛️ Sentinel", "Symbiotic", "Medical support for military access. Mutually uncomfortable."],
-        ["💊 Wellspring", "🎭 Mouse", "Wary Commerce", "Mouse wants specimens for exhibits. Wellspring wants them for labs. Bidding wars."],
-        ["🌿 Green Cradle", "🎭 Mouse", "Unexpected Tension", "Conservation vs. exhibition. Both claim moral high ground."],
+        ["💊 Wellspring", "🎭 Rat", "Wary Commerce", "Rat wants specimens for exhibits. Wellspring wants them for labs. Bidding wars."],
+        ["🌿 Green Cradle", "🎭 Rat", "Unexpected Tension", "Conservation vs. exhibition. Both claim moral high ground."],
         ["🌿 Green Cradle", "🏛️ Sentinel", "Professional", "Environmental security contracts. Functional. No warmth."],
-        ["🏛️ Sentinel", "🎭 Mouse", "Mutual Tolerance", "Sentinel secures Mouse's border gates. Mouse pays promptly. That's it."]
+        ["🏛️ Sentinel", "🎭 Rat", "Mutual Tolerance", "Sentinel secures Rat's border gates. Rat pays promptly. That's it."]
       ]
     },
     {
@@ -86,13 +86,13 @@
     },
     {
       "type": "callout",
-      "label": "Pear & Mouse — The Information War",
+      "label": "Pear & Rat — The Information War",
       "style": "accent",
-      "text": "The most sophisticated corporate conflict in the world — and possibly the most dangerous, because neither side uses bullets. Pear wants to own the <strong>data layer</strong> — raw information, predictive models, the architecture of knowledge itself. Mouse wants to own the <strong>narrative layer</strong> — stories, meaning, the framework through which data becomes belief. They're fighting over who controls what people <em>know</em> versus what people <em>feel</em>. The war is fought in code, copyright claims, consciousness-level advertising, and memetic engineering. Contractors caught between them won't hear gunfire. They'll hear lawyers."
+      "text": "The most sophisticated corporate conflict in the world — and possibly the most dangerous, because neither side uses bullets. Pear wants to own the <strong>data layer</strong> — raw information, predictive models, the architecture of knowledge itself. Rat wants to own the <strong>narrative layer</strong> — stories, meaning, the framework through which data becomes belief. They're fighting over who controls what people <em>know</em> versus what people <em>feel</em>. The war is fought in code, copyright claims, consciousness-level advertising, and memetic engineering. Contractors caught between them won't hear gunfire. They'll hear lawyers."
     },
     {
       "type": "blockquote",
-      "text": "<em>\"The Archive Incident of 2847 — in which a Pear survey team and a House of Mouse acquisitions crew entered the same uncharted dimension simultaneously, each with contradictory IP claims — resulted in the dimension being sealed by mutual agreement. Neither corp will discuss what happened inside. The dimension remains locked. The legal proceedings are still active. Both sides have filed motions in courts that don't technically have jurisdiction over sealed dimensions, which has not slowed the filings.\"</em>"
+      "text": "<em>\"The Archive Incident of 2847 — in which a Pear survey team and a Reign of Rat acquisitions crew entered the same uncharted dimension simultaneously, each with contradictory IP claims — resulted in the dimension being sealed by mutual agreement. Neither corp will discuss what happened inside. The dimension remains locked. The legal proceedings are still active. Both sides have filed motions in courts that don't technically have jurisdiction over sealed dimensions, which has not slowed the filings.\"</em>"
     },
     {
       "type": "callout",
@@ -118,9 +118,9 @@
     },
     {
       "type": "callout",
-      "label": "Crowned Table & House of Mouse — The Spectacle War",
+      "label": "Crowned Table & Reign of Rat — The Spectacle War",
       "style": "accent",
-      "text": "Both corporations trade in loyalty and spectacle. The Table earns loyalty through feudal obligation, shared meals, and centuries of tradition. The Mouse earns it through narrative, performance, and emotional engineering. Each thinks the other's method is inferior. The Table sees Mouse as shallow — all surface, no substance, loyalty manufactured rather than earned. The Mouse sees the Table as quaint — a Renaissance faire that accidentally became a nation-state. Their citizens sometimes defect to each other, drawn by the other corp's brand of belonging. This infuriates both sides beyond proportion. Nothing is more offensive than losing a true believer to a competing faith."
+      "text": "Both corporations trade in loyalty and spectacle. The Table earns loyalty through feudal obligation, shared meals, and centuries of tradition. The Rat earns it through narrative, performance, and emotional engineering. Each thinks the other's method is inferior. The Table sees Rat as shallow — all surface, no substance, loyalty manufactured rather than earned. The Rat sees the Table as quaint — a Renaissance faire that accidentally became a nation-state. Their citizens sometimes defect to each other, drawn by the other corp's brand of belonging. This infuriates both sides beyond proportion. Nothing is more offensive than losing a true believer to a competing faith."
     },
     {
       "type": "paragraph",
@@ -128,7 +128,7 @@
     },
     {
       "type": "paragraph",
-      "text": "<strong>Green Cradle & House of Mouse</strong> have a relationship that surprises people. On paper, they should get along — both care about rift creatures, both invest in presentation, both have strong aesthetic identities. In practice, Mouse wants specimens for <em>exhibits and experiences</em>. Living attractions. Dimensional theme park additions. Green Cradle considers this exploitation dressed in costumes. Mouse counters that Green Cradle exploits organisms too — capturing, cataloging, genetically modifying — just with better PR and more earnest facial expressions. The argument has no resolution because both sides are correct."
+      "text": "<strong>Green Cradle & Reign of Rat</strong> have a relationship that surprises people. On paper, they should get along — both care about rift creatures, both invest in presentation, both have strong aesthetic identities. In practice, Rat wants specimens for <em>exhibits and experiences</em>. Living attractions. Dimensional theme park additions. Green Cradle considers this exploitation dressed in costumes. Rat counters that Green Cradle exploits organisms too — capturing, cataloging, genetically modifying — just with better PR and more earnest facial expressions. The argument has no resolution because both sides are correct."
     },
     {
       "type": "flavor",
@@ -190,7 +190,7 @@
       "items": [
         "<strong>The Char Gate War</strong> (Congo vs. Sentinel, ~2780–2810) — A thirty-year proxy conflict over transit rights through the Char dimension. Technically resolved by treaty. Practically ongoing — both corps maintain 'monitoring teams' at disputed Char gates, and contractor crews working for one side occasionally encounter contractor crews working for the other. The encounters are rarely friendly. The war never officially started, so it can never officially end.",
         "<strong>The Bloom Dispute</strong> (Wellspring vs. Green Cradle, ~2900–present) — An ideological conflict over Bloom-origin biological resources that has been simmering for over a century. Three ceasefires. Zero resolutions. Both corps send contractors into the same Bloom-adjacent rifts with contradictory objectives. Green Cradle says 'preserve.' Wellspring says 'collect.' The specimens don't get a vote.",
-        "<strong>The Archive Incident</strong> (Pear vs. House of Mouse, 2847) — A data/IP conflict that escalated until both corps agreed to seal an entire dimension rather than let the other one have it. The sealed dimension is still there. The legal case is still open. Both corps maintain research stations at the sealed gate, monitoring each other's research stations. The contractors stationed there describe the posting as 'aggressively boring.'"
+        "<strong>The Archive Incident</strong> (Pear vs. Reign of Rat, 2847) — A data/IP conflict that escalated until both corps agreed to seal an entire dimension rather than let the other one have it. The sealed dimension is still there. The legal case is still open. Both corps maintain research stations at the sealed gate, monitoring each other's research stations. The contractors stationed there describe the posting as 'aggressively boring.'"
       ]
     },
     {
@@ -227,7 +227,7 @@
       "items": [
         "<strong>Sentinel Systems</strong> is the best at detecting spies. Their counter-intelligence division is larger than most corps' entire intelligence operations. Paranoia is doctrine. Every employee, contractor, and visitor is treated as a potential threat until proven otherwise. Proving otherwise takes years. Operating inside Sentinel territory without authorization is not recommended. Getting caught is not survived.",
         "<strong>Pear Technologies</strong> is the best at <em>being</em> spies. Their Network penetration capabilities are unmatched — every piece of Pear hardware is a potential listening device, and Pear hardware is everywhere. Sentinel suspects that Pear's proprietary network contains backdoors in every other corp's infrastructure. Sentinel is correct. Pear's official position is that backdoors are 'diagnostic access points maintained for user experience optimization.'",
-        "<strong>House of Mouse</strong> handles IP theft with the Advocates — lawyer-assassins who serve cease-and-desist orders and kill shots with equal professionalism. Stealing Mouse IP isn't just espionage. It's heresy. The Advocates treat it accordingly."
+        "<strong>Reign of Rat</strong> handles IP theft with the Advocates — lawyer-assassins who serve cease-and-desist orders and kill shots with equal professionalism. Stealing Rat IP isn't just espionage. It's heresy. The Advocates treat it accordingly."
       ]
     },
     {
@@ -260,7 +260,7 @@
       "type": "callout",
       "label": "The Undercity",
       "style": "accent",
-      "text": "No corporate jurisdiction. No corporate law. The only truly neutral ground in the world, and it's neutral because nobody can control it, not because anybody agreed to share. The Undercity — the shadow economy that runs underneath every city-state — is where corporate agents operate without corporate authority. Sentinel counter-intelligence runs assets in the Undercity. Pear maintains network nodes nobody is supposed to know about. Mouse's Advocates serve writs in the Undercity, which is technically illegal and practically unstoppable. Every corp is there. None of them are in charge. The Undercity belongs to the Undercity, and the Undercity doesn't belong to anyone."
+      "text": "No corporate jurisdiction. No corporate law. The only truly neutral ground in the world, and it's neutral because nobody can control it, not because anybody agreed to share. The Undercity — the shadow economy that runs underneath every city-state — is where corporate agents operate without corporate authority. Sentinel counter-intelligence runs assets in the Undercity. Pear maintains network nodes nobody is supposed to know about. Rat's Advocates serve writs in the Undercity, which is technically illegal and practically unstoppable. Every corp is there. None of them are in charge. The Undercity belongs to the Undercity, and the Undercity doesn't belong to anyone."
     },
     {
       "type": "divider",
