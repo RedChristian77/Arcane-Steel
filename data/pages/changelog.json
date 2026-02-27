@@ -1,0 +1,149 @@
+{
+  "id": "changelog",
+  "title": "Changelog",
+  "subtitle": "HANDBOOK REVISION LOG",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "All handbook revisions are logged here. This document is maintained for contractor reference and compliance purposes. Failure to read patch notes is not an acceptable excuse during audits."
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — Augment Tree Reworks"
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "MAJOR UPDATE",
+      "text": "All 10 augment trees have been reworked with dual-branch architecture, giving each tree two distinct playstyles with shared T5 mastery capstones."
+    },
+    {
+      "type": "table",
+      "headers": ["Date", "Tree", "Branches", "Changes"],
+      "rows": [
+        ["Feb 26", "💃 Dancer", "Tempest + Zephyr", "Combo Counter (4 tiers), Movement Momentum (4 tiers), 24 augments, 17 abilities"],
+        ["Feb 26", "🔥 Fury", "Wrath + Carnage", "Wrath Escalation Tracker (damage-taken triggers), Carnage kill chains, 26 augments, 17 abilities"],
+        ["Feb 26", "☣️ Leech", "Furnace + Parasite", "Burn & Bleed loop, Furnace self-buffs, Parasite venting, Toxicity thresholds, 22 augments, 17 abilities"],
+        ["Feb 25", "🛡️ Fortress", "Guardian + Juggernaut", "Guardian ally protection, Juggernaut punish-on-hit, Tower Shield added to kit gear, 24 augments, 17 abilities"],
+        ["Feb 25", "🌀 Rift", "Conduit + Storm", "Conduit single-target focus, Storm AoE blasting, pattern synergies, 24 augments, 17 abilities"],
+        ["Feb 25", "⚙️ Systems", "Grenadier + Trapper", "Grenadier throwable specialization, Trapper deployable field control, 24 augments, 17 abilities"],
+        ["Feb 25", "😈 Sin Eater", "Martyr + Vessel", "Martyr absorb/heal tank, Vessel DoT/redirect, 24 augments, 17 abilities"],
+        ["Feb 25", "🗣️ Influence", "Commander + Provocateur", "Commander ally buffs, Provocateur enemy debuffs, 24 augments, 17 abilities"],
+        ["Feb 25", "🎯 Precision", "Marksman + Gunslinger", "Marksman stationary power, Gunslinger hit escalation, 24 augments, 17 abilities"],
+        ["Feb 25", "👤 Shadow", "Assassin + Pinball", "Assassin burst damage, Pinball momentum chains, Sprint Actuators reworked, 24 augments, 17 abilities"]
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — Combat Overhaul"
+    },
+    {
+      "type": "table",
+      "headers": ["Change", "Details"],
+      "rows": [
+        ["Combat Systems v0.3", "Integrated across 5 combat pages — basics, attacks, positioning, special actions, and advanced rules"],
+        ["Throwables & AoE", "Added throwable weapon rules, AoE templates, dodge rolls, knockback, condition interactions"],
+        ["Weapon Tags", "Added Finesse tag to light melee weapons, on-hit effects to all weapon categories"],
+        ["Hafted Weapons", "Added mace, hafted weapon category, and reach mechanics"],
+        ["Grapple Rework", "Targets resist with Chrome or Edge; escape requires Chrome check"],
+        ["Unarmed Combat", "Added unarmed combat rules and Brawler kit variant"]
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — Equipment & Economy"
+    },
+    {
+      "type": "table",
+      "headers": ["Change", "Details"],
+      "rows": [
+        ["Consumables Overhaul", "Full rewrite with proper tables, rebalanced pricing, new consumable items added"],
+        ["Economy & Services", "Converted all ASCII tables to proper structured data, rebalanced service costs"],
+        ["Armor & Shields", "Added Tower Shield, updated shield mechanics for Fortress rework"]
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — World Lore Expansion"
+    },
+    {
+      "type": "table",
+      "headers": ["Page", "Content"],
+      "rows": [
+        ["Family & Childhood", "Mixed-species family biology, childhood in the corporate world"],
+        ["Species History", "Species arrival order corrected — Grunts confirmed as first non-human species on Earth"],
+        ["Non-Human Communities", "Community structures, cultural practices, inter-species relations"],
+        ["Notable Figures", "Key NPCs, corporate executives, faction leaders"],
+        ["Legends & Folklore", "The Mirror relocated here, urban legends, corporate myths"],
+        ["Corporate Politics", "Inter-corp relations, power dynamics, cold wars"],
+        ["The Dead Brands", "Fallen corporations — dead brands as dead religions"],
+        ["Daily Life", "What life actually looks like for regular people"],
+        ["Weather & Environment", "Post-Rift climate, environmental hazards"],
+        ["Culture & Religion", "How society adapted to the new world"]
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — Character Creation"
+    },
+    {
+      "type": "table",
+      "headers": ["Change", "Details"],
+      "rows": [
+        ["Kit Abilities", "All 10 kits now have branched ability pages nested under their augment trees"],
+        ["Traits Page", "Fixed formatting, converted ASCII art to proper table structures"],
+        ["Resumes", "Updated resume options, fixed formatting issues"],
+        ["Character Builder", "Redesigned tabs with proper styling, updated all T1 augment costs to match reworks"]
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — Rift Expeditions"
+    },
+    {
+      "type": "table",
+      "headers": ["Change", "Details"],
+      "rows": [
+        ["Cataloged Dimensions", "Expanded dimension entries with proper structured data"],
+        ["Rumored Dimensions", "New speculative dimensions for GM use"],
+        ["Exploration Tables", "Random encounter and discovery tables for rift expeditions"]
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "February 2026 — Site & Infrastructure"
+    },
+    {
+      "type": "table",
+      "headers": ["Change", "Details"],
+      "rows": [
+        ["Visual Overhaul", "New content types, callout boxes, ability cards, dice badges, page transitions"],
+        ["Sidebar Navigation", "Collapsible sections, 'On This Page' sub-navigation for headings"],
+        ["Search System", "Full-text search across all handbook pages"],
+        ["GitHub Pages Fix", "Added .nojekyll, fixed blank page loading issues"],
+        ["Cache Busting", "Manifest and page fetches now bypass browser cache"],
+        ["Proper Tables", "Converted all remaining ASCII/dashed-line pseudo-tables to structured JSON tables"]
+      ]
+    },
+
+    {
+      "type": "divider"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "<strong>Handbook Version:</strong> v0.3 — Playtest Draft"
+    },
+    {
+      "type": "paragraph",
+      "text": "All systems are subject to change during the playtest period. If something feels broken, it probably is. File a complaint with your Broker."
+    }
+  ]
+}

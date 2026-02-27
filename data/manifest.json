@@ -545,6 +545,17 @@
           "file": "pages/world-exploration-feedback.json"
         }
       ]
+    },
+    {
+      "title": "Meta",
+      "icon": "📋",
+      "pages": [
+        {
+          "id": "changelog",
+          "title": "Changelog",
+          "file": "pages/changelog.json"
+        }
+      ]
     }
   ]
 }

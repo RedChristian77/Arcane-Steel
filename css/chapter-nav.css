@@ -58,6 +58,15 @@
   margin-right: auto;
 }
 
+.hero-updated {
+  margin-top: var(--sp-md);
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  letter-spacing: 0.03em;
+  opacity: 0.7;
+}
+
 /* --- Chapter grid on home page --- */
 .ch-grid {
   max-width: 640px;
