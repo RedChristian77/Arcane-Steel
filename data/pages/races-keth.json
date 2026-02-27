@@ -1,0 +1,179 @@
+{
+  "id": "races-keth",
+  "title": "The Keth",
+  "subtitle": "Origin: The Char — The Silent Forge",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "Patient. Dense. Remembers everything. Forgives nothing."
+    },
+    {
+      "type": "info-block",
+      "icon": "⛏",
+      "title": "The Keth",
+      "subtitle": "Origin: The Char · The Silent Forge",
+      "entries": [
+        {"label": "Origin", "value": "The Char — a volcanic hellscape where silence means survival"},
+        {"label": "Population", "value": "Small but concentrated"},
+        {"label": "Appearance", "value": "Broad, dense, shorter than human. Crystalline skin. Four arms. Infrared eyes."},
+        {"label": "Build", "value": "Compact and incredibly dense — weigh 2-3x a human of similar height", "full": true}
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Playable Adjustments",
+      "text": "Mechanical adjustments for playing a Keth contractor.",
+      "items": [
+        "+1 Chrome carry weight (dense musculature)",
+        "Can wield a two-handed weapon + shield simultaneously (four arms)",
+        "-1 Edge (social/charisma — cultural silence reads as hostility)",
+        "-1 Speed (dense body mass)",
+        "Heat-adapted: immune to heat-based environmental penalties",
+        "Can eat rock/mineral matter for sustenance in emergencies"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Strengths",
+      "text": "What the Keth bring to a crew.",
+      "items": [
+        "Four arms — can dual-wield + hold a shield, or two-handed weapon + shield",
+        "+1 Chrome carry capacity — strongest species by default",
+        "Heat immunity — environmental heat penalties don't apply",
+        "Crystalline skin provides natural minor armor",
+        "Perfect oral tradition — muscle-memory knowledge transfer across generations",
+        "Best mechanics in the margin — innate affinity for physical construction"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Weaknesses",
+      "text": "What holds the Keth back.",
+      "items": [
+        "-1 Edge — silence and reserve read as hostility to other species",
+        "-1 Speed — dense body mass makes them the slowest species",
+        "Sound sensitivity — loud sustained noise causes discomfort (sound attracted predators in the Char)",
+        "Cultural reserve — building trust takes time, first impressions suffer"
+      ]
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Keth evolved in The Char — a volcanic dimension of heat, silence, and crystalline formations. Their bodies adapted accordingly: dense bones that resist fracture, crystalline skin that sheds heat and provides natural armor, four arms that evolved for climbing unstable volcanic terrain, and infrared vision for navigating lightless caverns filled with molten rock."
+    },
+    {
+      "type": "paragraph",
+      "text": "They can eat rock. Not comfortably, and not as a primary diet — but in emergencies, a Keth can metabolize mineral matter for sustenance. Their digestive system extracts trace nutrients from stone the way a human's extracts nutrients from food. It's slow, inefficient, and apparently tastes like \"chewing a wall,\" but it keeps them alive when nothing else will."
+    },
+    {
+      "type": "paragraph",
+      "text": "Silence was survival in The Char. Sound attracts Magma Drakes — apex predators that hunt by vibration. The Keth evolved to communicate primarily through gesture and physical touch — a language system encoded in muscle memory that humans still can't fully decode. A Keth can convey complex tactical information through a sequence of hand positions and shoulder movements in less time than it takes a human to form a sentence. They just can't explain how."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Keth arrived through mining rifts in 2147 — not as explorers, but as something Congo's early rift surveyors classified as a \"high-value dimensional specimen.\" The language tells you everything. They weren't discovered. They were cataloged."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Importation Programs followed. Congo and Sentinel recognized what four heat-resistant arms and a body that could survive cave-ins meant for extraction output. Keth were recruited, relocated, and — in the early decades — simply taken. The Personhood Accords hadn't been written yet. The legal framework that would eventually distinguish \"sapient species\" from \"dimensional resource\" didn't exist. By the time it did, thousands of Keth were already integrated into corporate extraction operations, working shifts that would kill humans, for compensation structures that didn't account for the risk differential."
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"We are not equipment.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Keth Stoppage of 2614. Nineteen days. Every Keth extraction worker across Congo and Sentinel territory stopped. Not a strike — a <em>stoppage</em>. No demands were issued. No representatives spoke. They simply stopped working and stood in silence. Nineteen days of nothing. The silence cost Congo 40% of its extraction output for the quarter. When the Keth resumed work, conditions had changed. Not enough. But changed."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Long Memory.</strong> Keth oral tradition doesn't work like human oral tradition. It's not stories passed down and distorted through retelling. It's physical ritual — sequences of gesture, touch, and movement that encode information in muscle memory with perfect accuracy across 40+ generations. A Keth born today can perform the arrival sequence and experience the sensory memory of their ancestors walking through the first mining rifts. Every injustice. Every broken promise. Every serial number assigned to a person."
+    },
+    {
+      "type": "flavor",
+      "text": "You can't gaslight a species with perfect oral recall."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Keth word for Earth translates, approximately, as \"the second mine.\" The first was The Char. They survived that one too."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Congo and Sentinel exploit them for durability. This isn't speculation — it's visible in the deployment records. Keth are routinely assigned to the most dangerous extraction shifts because they can survive conditions that would hospitalize or kill a human worker. Volcanic rifts. Unstable geological zones. Deep-bore operations where cave-ins are measured in probability-per-hour rather than if."
+    },
+    {
+      "type": "paragraph",
+      "text": "The pay doesn't reflect the risk. A Keth extraction worker earns the same base rate as a human extraction worker, despite being deployed to sites with three to five times the casualty probability. The \"hazard differential\" exists on paper. In practice, it's folded into benefit packages — corporate housing, mineral supplements, \"cultural accommodation allowances\" — that are revocable and dependent on continued employment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Keth notice. They don't forget. Every pay stub, every deployment order, every risk assessment that classified them as \"high-durability personnel\" instead of \"people working a dangerous job\" — it's all in the Long Memory. Forty generations from now, their descendants will be able to perform the exact sequence that encodes this era's exploitation. The corporations don't understand what that means yet."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "heading",
+      "text": "Keth as Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Best mechanics in the margin. If something is broken, a Keth can fix it faster and more reliably than anyone else. Four arms help — they can hold a component steady, apply force, and make fine adjustments simultaneously. But it's more than anatomy. Keth have an innate affinity for physical construction that borders on instinctive. They understand how things fit together the way humans understand facial expressions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tough but slow. A Keth's dense body mass makes them the most durable species on a crew and the slowest. They don't sprint. They don't dodge. They walk into fire and keep walking. In close combat, four arms make them devastating — a Keth can hold a shield while swinging a two-handed weapon, or dual-wield while maintaining a guard. The tactical implications take most enemies by surprise exactly once."
+    },
+    {
+      "type": "paragraph",
+      "text": "Crews learn to read their gestures instead of waiting for words. A shoulder shift means \"check your left.\" A double tap on a surface means \"stop.\" A hand placed flat against a wall means \"structural integrity compromised — move.\" It takes time. Crews that invest the time get a partner who communicates faster and more precisely than speech allows."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Keth who trusts you will hand you tools before you ask. A Keth who doesn't will say nothing and watch."
+    },
+    {
+      "type": "divider",
+      "text": "⬦"
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "Roleplay Hooks",
+      "text": "Questions to shape your Keth contractor.",
+      "items": [
+        "Your great-grandmother had a serial number. How does that shape your relationship with corporations?",
+        "You communicate through touch and gesture. How do you connect with species that use words?",
+        "The Keth never forget. Your people keep a perfect ledger of debts. What's on yours?",
+        "You're the slowest person in most rooms. How do you turn that into an advantage?"
+      ]
+    }
+  ]
+}

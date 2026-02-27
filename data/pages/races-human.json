@@ -1,0 +1,125 @@
+{
+  "id": "races-human",
+  "title": "Human",
+  "subtitle": "The Relentless Learner",
+  "content": [
+    {
+      "type": "info-block",
+      "icon": "👤",
+      "title": "Human",
+      "subtitle": "Origin: Earth · The Relentless Learner",
+      "entries": [
+        {"label": "Origin", "value": "Earth"},
+        {"label": "Population", "value": "Dominant — outnumber all non-humans combined"},
+        {"label": "Lifespan", "value": "80–120 years with augmentation"},
+        {"label": "Build", "value": "Variable — baseline sapient species"}
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Playable Adjustments",
+      "style": "accent",
+      "items": [
+        "Adaptive: +1 to all learning and training checks",
+        "No stat penalties — baseline species, all stats start at standard array",
+        "Standard toxicity thresholds (no resistance bonus)",
+        "Standard starting credits"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Strengths",
+      "style": "teal",
+      "items": [
+        "Fastest learners of any sapient species — skill XP gains +10%",
+        "Adaptive: +1 to all learning and training checks",
+        "No biological penalties — pure flexibility",
+        "Full access to all augmentation technology (designed for human biology)",
+        "Social advantage in corporate territories — humans run everything"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Weaknesses",
+      "style": "rust",
+      "items": [
+        "Worst toxicity resistance of any sapient species — standard thresholds with no racial bonus",
+        "No innate magical or dimensional abilities",
+        "No natural weapons, armor, or environmental resistances",
+        "Biologically fragile compared to every other playable species"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fragile, slow, magically intolerant — worst toxicity resistance of any sapient species. But they learn faster than anything else alive. Every biological advantage another species has, humans have compensated for through technology, training, and evolutionary stubbornness."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Keth is born with four arms. A human trains until they don't need them. A Vael senses rift activity instinctively. A human builds a sensor that does it better. A Grunt heals naturally. A human invents augmentation surgery and heals faster. Every limitation is temporary. Every disadvantage is a problem to be solved. The solution is never biological — it's institutional, technological, or behavioral. Humans don't evolve. They engineer."
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "Humans are Earth's native species. When the rifts opened a thousand years ago, they were the first to exploit them — building extraction economies, establishing dimensional trade routes, and eventually consolidating into the seven megacorporations that now control everything. They run the world not because they're superior, but because they got here first and refused to stop adapting."
+    },
+    {
+      "type": "paragraph",
+      "text": "A thousand years ago they couldn't survive ambient toxicity. Now they run seven megacorporations and employ every other sapient species. Not because they outfought the Keth, or outsensed the Vael, or outlasted the Grunts. Because they built systems — economic, military, political, theological — and those systems compound over centuries in ways that raw biological advantage never does."
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "callout",
+      "label": "Structural Dominance",
+      "style": "accent",
+      "text": "Humans control all seven major corporations. Every board seat. Every executive tier. Every military command structure. They wrote the laws, built the systems, and designed the power structures — all for human biology, human psychology, human ambitions. This isn't conspiracy. It's momentum. A thousand years of institutional design by and for one species produces systems that advantage that species, even when nobody intends it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Personhood Accords guarantee non-human equality. The corporate governance structures guarantee human control. Both are legally binding. The contradiction is not acknowledged because acknowledging it would require resolving it, and resolving it would require sharing power. Power, once consolidated, does not share itself voluntarily. This is not a human trait. It's an institutional one. Humans just happen to be the species that built the institutions."
+    },
+    {
+      "type": "heading",
+      "text": "As Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Humans are the most common contractors by a wide margin. Their flexibility makes them fit any role — they have no innate specialization but no innate limitation either. A human contractor is a blank slate that becomes whatever the crew needs. The downside: in any specific capability, a specialist species will outperform them. The upside: no situation is completely outside their wheelhouse."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Keth mechanic will always be a better mechanic. A Flicker medic will always have faster hands. A Vael scout will always read the terrain better. But a human can be a passable mechanic, a decent medic, and a functional scout — all in the same mission, all without biological assistance. Versatility is the human survival strategy, and in the margins, where the next problem is never the same as the last one, versatility keeps you alive."
+    },
+    {
+      "type": "flavor",
+      "text": "They run the world anyway."
+    },
+    {
+      "type": "callout",
+      "label": "Roleplay Hooks",
+      "style": "teal",
+      "items": [
+        "You benefit from a system designed for your species. Do you notice? Do you care?",
+        "You're biologically inferior to every non-human on your crew. How do you compensate?",
+        "Corporate society assumes you're the default. What does that assumption cost others?",
+        "You learn faster than anyone else. What have you chosen to learn — and what have you chosen to ignore?"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Personnel Bureau classifies humans as 'baseline sapient — standard reference organism' for all medical, legal, and contractual purposes. All species-specific adjustments, toxicity thresholds, and augmentation compatibility ratings are measured relative to the human baseline. This is not a statement of superiority. It is a statement of infrastructure. The systems were built for humans. Everyone else adapts to the system. Adaptation assistance is available through your corporate Species Integration Office during standard business hours. Non-standard species inquiries may experience extended processing times. Thank you for your patience.\"</em>"
+    }
+  ]
+}

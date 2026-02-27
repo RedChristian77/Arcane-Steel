@@ -1,0 +1,110 @@
+{
+  "id": "races-flicker",
+  "title": "Flicker",
+  "subtitle": "The Fast and the Fragile",
+  "content": [
+    {
+      "type": "info-block",
+      "icon": "⚡",
+      "title": "The Flicker",
+      "subtitle": "Origin: Multiple Dimensions · The Fast and the Fragile",
+      "entries": [
+        {"label": "Origin", "value": "Multiple dimensions — at least 14 documented origin points"},
+        {"label": "Population", "value": "Moderate, widely distributed"},
+        {"label": "Appearance", "value": "Small, slight, under 150cm. Too-long fingers. Enormous reflective eyes. Move in quick bursts."},
+        {"label": "Build", "value": "Smallest sapient species — light, fragile, blindingly fast"}
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Playable Adjustments",
+      "style": "accent",
+      "items": [
+        "+1 Reflex (Initiative only)",
+        "+1 fine dexterity (medical, repair, lockpicking)",
+        "-2 Carry capacity (small frame)",
+        "+50% food costs (burn hot, high metabolism)",
+        "1.5x human nerve speed — perceive the world in slow motion"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Strengths",
+      "style": "teal",
+      "items": [
+        "Fastest species alive — +1 Initiative, 1.5x nerve speed",
+        "Best fine motor control — +1 dexterity for precision work",
+        "Flicker medics are the best in the business — faster and steadier than augmented human hands",
+        "Dominate the Undercity informal economy — courier, medical, data processing",
+        "Flicker Guilds — most commercially successful non-human political structure",
+        "Distributed and resilient — can't pin down what you can't catch"
+      ]
+    },
+    {
+      "type": "callout",
+      "label": "Weaknesses",
+      "style": "rust",
+      "items": [
+        "-2 Carry — smallest species, can't carry heavy equipment or weapons",
+        "+50% food costs — metabolism burns hot, eat twice as much",
+        "Fragile — burn out fast, lower HP ceiling",
+        "No homeland — came from so many dimensions that \"home\" is meaningless",
+        "Institutional distrust — history taught them that institutions classify, deploy, and suppress"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Biology"
+    },
+    {
+      "type": "paragraph",
+      "text": "Small (under 150cm), slight, enormous reflective eyes. Too-long fingers evolved for rapid manipulation. 1.5x human nerve speed — they perceive the world in slow motion. Everything else moves like it's underwater. Burn hot — high metabolism requires twice the caloric intake. Wear out fast. Move in quick bursts that other species can barely track. Not criminal by nature — entrepreneurial in environments where legal entrepreneurship isn't available."
+    },
+    {
+      "type": "heading",
+      "text": "History"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arrived from at least 14 different dimensions — \"home dimension\" is meaningless for most. Reign of Rat acquired Flickers for archival work — their speed made them efficient at cataloging. The Night of Fast Hands (2635) — The Third Uprising. Flicker networks disrupted Sentinel city-state logistics, communications, and surveillance for 72 hours. Sentinel's suppression killed 89 Flickers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Eighty-nine names, recited at speed, in 11 seconds, simultaneously across the world, once a year. To human ears it sounds like static. To Flickers it's a memorial, political statement, and warning. The Flicker Guilds — formal economic cooperatives that have cornered markets in courier services, emergency medical, data processing, and Undercity logistics."
+    },
+    {
+      "type": "heading",
+      "text": "Corporate Integration"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mixed. Pear values them for data analysis. Reign of Rat uses them as archivists. Corporate tempo is agonizingly slow for a species that lives at 1.5x speed. Flickers don't trust institutional power. Their history taught them that institutions classify you as a resource, deploy you as a tool, and suppress you when you become inconvenient. The Undercity isn't just where they work — it's where they're safe."
+    },
+    {
+      "type": "heading",
+      "text": "As Contractors"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fast and fragile. Natural skirmishers and scouts. Flicker medics are the best in the business — hands faster and steadier than augmented human ones. Doc Vasik has said the best surgeon he ever saw was a Flicker working out of a margin clinic with no power and no augments. Speed makes them impossible to pin down in combat but fragility means one solid hit is devastating."
+    },
+    {
+      "type": "callout",
+      "label": "Roleplay Hooks",
+      "style": "teal",
+      "items": [
+        "Everything moves in slow motion to you. How do you handle a world that runs at half your speed?",
+        "You recite 89 names once a year. Do you know all of them? Do you know why each one matters?",
+        "Your people don't trust institutions. How do you handle working within a crew structure?",
+        "You're the smallest person in every room. When has that been an advantage?"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "flavor",
+      "text": "You can't catch what you can't see. You can't see what's already gone."
+    }
+  ]
+}

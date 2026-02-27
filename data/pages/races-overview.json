@@ -1,0 +1,85 @@
+{
+  "id": "races-overview",
+  "title": "Playable Species",
+  "subtitle": "CONTRACTOR SPECIES REGISTRY",
+  "content": [
+    {
+      "type": "blockquote",
+      "text": "<em>\"The Intercompany Personnel Bureau reminds all contractors that species-based discrimination during team formation is prohibited under Section 7 of the Personhood Accords. The Bureau also notes that 'prohibited' and 'enforced' are distinct concepts, and that the gap between them is measured in centuries of institutional inertia. Please select your team members based on capability, not biology. This is mandatory guidance that nobody checks.\"</em>"
+    },
+    {
+      "type": "heading",
+      "text": "Choosing a Species"
+    },
+    {
+      "type": "paragraph",
+      "text": "Arcane Steel features seven playable species. All use the same stat array, kits, augment trees, and progression system. Species provides <strong>flavor, roleplay hooks, and minor mechanical adjustments</strong> — not power spikes. A Human Berserker and a Keth Berserker use the same tree. The Keth just has four arms while doing it."
+    },
+    {
+      "type": "callout",
+      "label": "Design Philosophy",
+      "style": "accent",
+      "text": "Species adjustments are small and lateral. No species is mechanically superior. Bonuses in one area come with penalties in another. A Flicker's speed costs them carrying capacity. A Grunt's regeneration costs them initiative. Choose the species that makes the most interesting <em>character</em>, not the most optimized build."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Species at a Glance"
+    },
+    {
+      "type": "table",
+      "headers": ["Species", "Origin", "Key Bonus", "Key Penalty", "Playstyle"],
+      "rows": [
+        ["👤 Human", "Earth", "+1 learning/training", "Worst toxicity resistance", "Flexible generalist — no ceiling, no floor"],
+        ["🌿 Vael", "The Bloom", "+1 toxicity threshold", "-1 in extreme heat", "Scout/support — rift sense, team glue"],
+        ["⛏ Keth", "The Char", "Four arms, +1 Chrome carry", "-1 Edge, -1 Speed", "Tank/mechanic — dense, silent, devastating"],
+        ["🦴 Grunt", "Unknown", "Regen 1 HP/hr, +1 Grit tox", "-1 Initiative", "Frontliner — unkillable, unhurried"],
+        ["👁 Whisper", "The Static", "+2 Interface, rift sense", "-1 social w/ strangers", "Rift specialist — unsettling, irreplaceable"],
+        ["⚡ Flicker", "Multiple", "+1 Initiative, +1 dexterity", "-2 Carry, +50% food", "Skirmisher/medic — fastest alive"],
+        ["🔮 Hollow", "The Grave", "+1 Interface, psycho-immune", "-2 emotional social, no healing", "Analyst — precise, uncomfortable"]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Species in the World"
+    },
+    {
+      "type": "paragraph",
+      "text": "Humans dominate — roughly 70% of the global population, 100% of corporate governance. The other six species make up the remaining 30%, and that 30% does the work that keeps the world running. Keth mine the materials. Vael tend the biomes. Grunts hold the lines. Flickers move the data. Whispers warn about the rifts. Hollows process the patterns. Humans sign the contracts and keep the profits."
+    },
+    {
+      "type": "paragraph",
+      "text": "In corporate territories, species determines your opportunities. In the contractor margins, species determines your role. The margin is the closest thing to equality the world offers — not because contractors are enlightened, but because they can't afford to be prejudiced. When your crew is one bad contract from dying, you take the Keth mechanic and the Flicker medic and you don't ask where they came from."
+    },
+    {
+      "type": "callout",
+      "label": "Mixed Heritage",
+      "style": "teal",
+      "text": "Rift-origin genetics are surprisingly compatible with human biology when magic is involved — a sentence that raises more questions than it answers. Mixed-species characters exist and can be played. Work with your GM to combine adjustments from two species, keeping the total bonus/penalty budget balanced. Mixed-heritage characters face unique social pressures: too human for non-human communities, too alien for corporate society, perfectly suited for the margins where nobody fits in anyway."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "The Personhood Accords"
+    },
+    {
+      "type": "paragraph",
+      "text": "The legal framework that recognizes non-human sapient species as persons. Signed in 2638, after three uprisings forced the corporations' hand. The Accords guarantee freedom from involuntary servitude, property rights, legal representation, and equal compensation. On paper. In practice, compliance is self-reported by the corporations, enforcement bodies don't exist, and 'equal' is a word flexible enough to cover almost anything."
+    },
+    {
+      "type": "paragraph",
+      "text": "For detailed species lore, history, political organizations, and inter-species dynamics, see the World section pages on Non-Human Species, Species History, and Non-Human Communities."
+    },
+    {
+      "type": "flavor",
+      "text": "Seven species. One world. Zero seats at the table for six of them. The math hasn't changed."
+    }
+  ]
+}
