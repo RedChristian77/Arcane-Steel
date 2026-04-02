@@ -192,13 +192,17 @@ function renderTable(item) {
 function renderTreeTier(tier) {
   const tierColors = {1: 'var(--tier1)', 2: 'var(--tier2)', 3: 'var(--tier3)', 4: 'var(--tier4)', 5: 'var(--tier5)'};
   const color = tierColors[tier.tier] || 'var(--accent)';
+  const augCount = (tier.augments && tier.augments.length) || 0;
 
-  let html = '<div class="tree-tier" style="--tier-color:' + color + '">'
+  let html = '<div class="tree-tier tree-tier--t' + tier.tier + '" style="--tier-color:' + color + '">'
     + '<div class="tree-tier-hdr">'
     + '<div class="tree-tier-badge">T' + tier.tier + '</div>'
     + '<div class="tree-tier-info">'
     + '<div class="tree-tier-title">' + esc(tier.title) + '</div>'
-    + '<div class="tree-tier-req">' + esc(tier.req) + '</div>'
+    + '<div class="tree-tier-sub">'
+    + '<span class="tree-tier-req">' + esc(tier.req) + '</span>'
+    + '<span class="tree-tier-count">' + augCount + ' augment' + (augCount !== 1 ? 's' : '') + '</span>'
+    + '</div>'
     + '</div></div>';
 
   if (tier.augments && tier.augments.length) {
