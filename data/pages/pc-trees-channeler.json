@@ -1,0 +1,21 @@
+{
+  "id": "pc-trees-channeler",
+  "title": "Channeler",
+  "subtitle": "Ordnance / Current",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "Phase 7 Rebuild",
+      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pending regeneration."
+    }
+  ]
+}
