@@ -104,6 +104,16 @@
       ]
     },
     {
+      "type": "callout",
+      "style": "gold",
+      "label": "MAX FLESH HP",
+      "text": "<strong>Max Flesh HP = 16 + (2 × Grit bonus).</strong> Recalculate whenever Grit changes. Species, trait, and augment modifiers apply after."
+    },
+    {
+      "type": "paragraph",
+      "text": "There are no levels and no hit-point inflation: a fresh contractor holds 18–22 flesh HP and a trained-human ceiling sits at 24. Flesh is what you are; the shell you wear is the health bar that's supposed to take the hits — see Attacks & the Shell Clock."
+    },
+    {
       "type": "paragraph",
       "text": "<strong>Past 10, the roll bonus compresses — passives don't.</strong> Above 10 it takes two, then three, points of stat for each further +1 to the roll, while passive values that read the raw stat keep climbing point for point. Chrome makes you more machine faster than it makes you more skilled; the flesh gives less the further from human you push."
     },

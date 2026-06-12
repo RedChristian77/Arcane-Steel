@@ -61,33 +61,51 @@
     {
       "type": "numbered",
       "num": 1,
-      "text": "<strong>Pick a résumé.</strong> It grants two skills at Tier 1 — the trained dice are on The Two Rolls, the tier features on The Twelve Skills — plus a standing line the table honors and your starting credits. All ten are on Résumés."
+      "text": "<strong>Pick a résumé.</strong> Two skills at Tier 1, a standing line, and your starting credits — see Résumés."
     },
     {
       "type": "numbered",
       "num": 2,
-      "text": "<strong>Pick a trait.</strong> Exactly one. Every trait gives something and bills something; both halves are printed together on Traits."
+      "text": "<strong>Pick your species.</strong> Verbs, economies, and paperwork — never stat numbers. See Playable Species."
     },
     {
       "type": "numbered",
       "num": 3,
-      "text": "<strong>Pick a kit.</strong> The day-one package: a gear loadout, the matching tree's entry augment installed free, one technique from the catalog, and a recommended stat lean. Kits cost nothing and gate nothing. All ten — plus the Custom option — are on Kits."
+      "text": "<strong>Pick a trait.</strong> Exactly one, and every trait gives with one hand while the ledger takes with the other — see Traits."
     },
     {
       "type": "numbered",
       "num": 4,
-      "text": "<strong>Assign your five stats.</strong> Chrome, Reflex, Grit, Interface, Edge — what each does, and the one bonus table that converts them, live on Stats & Growth. Your kit's lean is a recommendation, not a requirement."
+      "text": "<strong>Assign your stats.</strong> The array below, across Chrome, Reflex, Grit, Interface, Edge."
     },
     {
       "type": "numbered",
       "num": 5,
-      "text": "<strong>Finish the sheet.</strong> Gear, credits, derived numbers, and the tracks that start at zero — the full checklist is on Finishing."
+      "text": "<strong>Pick a kit.</strong> The day-one package: gear loadout, one free tree entry augment, one free Trained technique — see Kits."
+    },
+    {
+      "type": "numbered",
+      "num": 6,
+      "text": "<strong>Compute the derived numbers.</strong> Evasion, Max Flesh HP, vent, and the rest — see Finishing."
+    },
+    {
+      "type": "numbered",
+      "num": 7,
+      "text": "<strong>Read your file.</strong> The corp opens a dossier on you the day you sign. Most of its fields are empty. That's the job: filling them in, one contract at a time."
     },
     {
       "type": "callout",
-      "style": "rust",
-      "label": "DESIGN GAP",
-      "text": "Step 4 has a hole: the starting stat array — what values a new contractor's five stats begin at, and how players assign them — is not specified in the rebuild docs. Kits name a recommended lean, the bonus table starts at 2, and nothing in between is printed."
+      "style": "gold",
+      "label": "THE ARRAY",
+      "text": "Your five stats begin as <strong>8 / 7 / 6 / 5 / 4</strong>, assigned freely across Chrome, Reflex, Grit, Interface, and Edge."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Point-buy variant:</strong> the same budget as numbers — 30 points, spent 1-for-1, minimum 3 in any stat, maximum 8 at creation. Eight is a peak-trained civilian; 9 and 10 are career purchases behind the elite access funnel, and the chrome band starts past that — see Stats & Growth."
+    },
+    {
+      "type": "paragraph",
+      "text": "Species never modify stats. Traits never modify stats. The array is the array; everything a species or trait does is verbs and economies."
     },
     {
       "type": "heading",

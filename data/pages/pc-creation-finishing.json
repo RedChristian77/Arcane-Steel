@@ -38,12 +38,12 @@
     {
       "type": "numbered",
       "num": 5,
-      "text": "<strong>Credits.</strong> Your starting credits are your résumé's credit line, printed on Résumés."
+      "text": "<strong>Credits.</strong> Your starting credits are your résumé line — see Résumés. Custom-kit contractors add any loadout budget they left unspent."
     },
     {
       "type": "numbered",
       "num": 6,
-      "text": "<strong>Derived numbers.</strong> Evasion comes from Edge and Reflex, capped by your armor — the formula lives on Attacks & the Shell Clock. AP and RP are per-turn currencies, not sheet boxes: Turn, AP & Reactions."
+      "text": "<strong>Derived numbers.</strong> Evasion comes from Edge and Reflex, capped by armor — see Attacks & the Shell Clock. Max Flesh HP comes from Grit — the formula lives on Stats & Growth. Free vent is your Grit bonus — see Charge & Saturation."
     },
     {
       "type": "numbered",
@@ -57,9 +57,14 @@
     },
     {
       "type": "callout",
-      "style": "rust",
-      "label": "DESIGN GAP",
-      "text": "Starting HP is not printed anywhere in the rebuild docs — neither the base value nor the stat it keys off (the stat-mapping side of this gap is also flagged on Stats & Growth). Heavy Frame's +2 HP currently has nothing defined to add to."
+      "style": "gold",
+      "label": "STARTING STATE",
+      "text": "Day one, every track sits at zero unless a trait says otherwise:",
+      "items": [
+        "Scars 0 — Survivor starts with 1, carrying no debuff",
+        "Saturation 0 — Rift-Touched starts with a floor of 5",
+        "Charge 0 · Profession Points 0 · Learning Points 0"
+      ]
     },
     {
       "type": "heading",

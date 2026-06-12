@@ -12,10 +12,37 @@
       "text": "A weapon supplies three things: the <strong>accuracy die</strong> you roll to attack, the <strong>damage dice</strong> a hit feeds into the pipeline, and the <strong>AP</strong> each attack costs. How the attack resolves — Evasion, punch-through, tags — lives on Attacks & the Shell Clock."
     },
     {
-      "type": "callout",
-      "style": "rust",
-      "label": "DESIGN GAP",
-      "text": "The combat pages resolve an attack as accuracy die + your stat bonus for that weapon — and send you here for which stat that is. The Phase 7 docs never answer: no weapon names an attack stat, and no general rule (a melee stat, a ranged stat) is printed anywhere. This is a known open question raised by the combat batch. Until it is ruled, this catalog has no stat column to print."
+      "type": "paragraph",
+      "text": "<strong>Which stat swings the weapon:</strong> the class decides. The combat pages send you here; this table is the answer."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Weapon class",
+        "Attack stat"
+      ],
+      "rows": [
+        [
+          "Light melee (weight 1 — knife, stiletto, precision blade)",
+          "<strong>Reflex</strong>"
+        ],
+        [
+          "Standard & heavy melee (weight 2–3 — longsword, axe, maul)",
+          "<strong>Chrome</strong>"
+        ],
+        [
+          "All guns",
+          "<strong>Reflex</strong>"
+        ],
+        [
+          "Patterns, via focus",
+          "<strong>Interface</strong> — see Weave & Fire"
+        ],
+        [
+          "Beast attacks",
+          "the beast's own block — see Influence"
+        ]
+      ]
     },
     {
       "type": "paragraph",

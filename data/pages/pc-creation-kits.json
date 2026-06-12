@@ -32,10 +32,8 @@
       "text": "<strong>A recommended stat lean.</strong> Where the kit's training assumes your strengths sit. A recommendation, never a gate."
     },
     {
-      "type": "callout",
-      "style": "rust",
-      "label": "DESIGN GAP",
-      "text": "Whether the kit's free technique is limited by tier (Trained / Advanced / Master) or by the catalog's prerequisites is not specified in the rebuild docs — the grant reads simply \"one technique from the catalog.\""
+      "type": "paragraph",
+      "text": "<strong>The free technique is a Trained-tier pick.</strong> Choose any Trained (300-class) technique from the catalog — the instructor requirement is waived; your kit's training included it. Higher rungs are bought in play — see Techniques."
     },
     {
       "type": "paragraph",
@@ -164,10 +162,8 @@
       "text": "<strong>Custom:</strong> 1,200 cr of any legal loadout, plus any one tree's entry augment. No kit name, no preset gear — you build the day-one package yourself."
     },
     {
-      "type": "callout",
-      "style": "rust",
-      "label": "DESIGN GAP",
-      "text": "Custom's row in the source grants the budget and the tree entry only. Whether Custom also carries the free technique and recommended lean the ten listed kits include, and whether unspent loadout budget converts to starting credits, is not specified."
+      "type": "paragraph",
+      "text": "<strong>Custom keeps the symmetry.</strong> A Custom kit grants the same package as the named ten: your chosen gear within the budget, one free tree entry augment, and one free Trained technique. Whatever budget you leave unspent walks with you as starting credits — see Finishing."
     },
     {
       "type": "blockquote",
