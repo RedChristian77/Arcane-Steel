@@ -39,6 +39,11 @@
       "text": "Take Charge equal to the <strong>pattern's tier</strong> — every Weave, full or failed. Weaving in combat is hot work: +1 Charge on top."
     },
     {
+      "type": "margin-note",
+      "text": "the rift doesn't do refunds.",
+      "tilt": 0.6
+    },
+    {
       "type": "paragraph",
       "text": "<strong>Round capacity:</strong> 4 + Interface bonus (bonus table — see Stats & Growth). Rounds persist until fired — weave in downtime or at rest nodes and arrive at the mission loaded."
     },
@@ -100,6 +105,11 @@
           "<strong>Surge</strong> — +2 Charge, the pattern is lost, and everything chrome in your Adjacent cluster flickers. The corps log these."
         ]
       ]
+    },
+    {
+      "type": "margin-note",
+      "text": "everyone's got a misfire story. the ones who don't are the story.",
+      "tilt": -0.9
     },
     {
       "type": "blockquote",

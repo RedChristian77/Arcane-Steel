@@ -54,6 +54,11 @@
       "text": "The forced vent at 10 is canon as written — \"1d6 backlash, excess sticks\" — but underspecified: the docs never state how much Charge the forced vent clears, or whether the stuck excess stays as Charge or converts to Saturation."
     },
     {
+      "type": "margin-note",
+      "text": "the meter doesn't care that you feel fine. feeling fine is a symptom.",
+      "tilt": -0.8
+    },
+    {
       "type": "heading",
       "text": "Venting — the End-of-Encounter Bill"
     },
@@ -109,6 +114,11 @@
           "Off the player's sheet. What happens at 100 belongs to the GM and the setting."
         ]
       ]
+    },
+    {
+      "type": "margin-note",
+      "text": "charge is the hangover. saturation is the liver.",
+      "tilt": 0.7
     },
     {
       "type": "heading",

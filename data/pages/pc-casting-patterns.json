@@ -128,6 +128,11 @@
       "text": "This pattern is licensed, not sold. Possession of woven rounds does not constitute ownership of the design. Audit teams may verify conduit registration at any time. Wellspring thanks you for healing responsibly."
     },
     {
+      "type": "margin-note",
+      "text": "'healing responsibly.' they audit the people who patch you up. that's the whole corp in one sentence.",
+      "tilt": -0.5
+    },
+    {
       "type": "callout",
       "style": "rust",
       "label": "DESIGN GAP",
@@ -140,6 +145,11 @@
     {
       "type": "paragraph",
       "text": "A bootleg is the cracked copy: <strong>half the license price</strong>, and it shows. Bootlegs Weave at <strong>DC +1</strong>, and their misfire exposure opens at <strong>Charge 6+</strong> instead of the licensed threshold (thresholds — see Charge & Saturation; the Misfire Table — see Weave & Fire). When the street says bootlegs <em>jam</em>, that early window is what it means."
+    },
+    {
+      "type": "margin-note",
+      "text": "a bootleg weave smells like burnt hair and savings. you learn to love both or you pay retail.",
+      "tilt": 0.8
     },
     {
       "type": "paragraph",

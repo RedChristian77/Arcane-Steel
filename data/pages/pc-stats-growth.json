@@ -206,6 +206,11 @@
       "text": "The bottom of the ladder is cheap: taking a stat from 4 to 6 costs 800 cr and four downtime periods. The top is where the calendar starts charging — downtime periods, not credits, are the scarce resource."
     },
     {
+      "type": "margin-note",
+      "text": "patch the weak stat first. it's never your best number that kills you.",
+      "tilt": 0.5
+    },
+    {
       "type": "paragraph",
       "text": "How a maxed stat compares to the game's other flagship investments — tree mastery, a profession Name, a raised war-beast — lives on The Anchor Table."
     },
@@ -245,6 +250,11 @@
     {
       "type": "blockquote",
       "text": "Congo Industries Bodyworks thanks you for choosing to become more. Per-point pricing includes the point. Installation, disruption, and whoever you were are billed separately."
+    },
+    {
+      "type": "margin-note",
+      "text": "'become more.' more what is the part you sign away the right to ask.",
+      "tilt": -0.9
     }
   ]
 }

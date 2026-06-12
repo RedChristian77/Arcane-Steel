@@ -309,6 +309,11 @@
     {
       "type": "blockquote",
       "text": "Aftermarket modification voids no warranty, because nothing on this list carries one. Certified installation is available wherever you see our logo, and deniable installation wherever you don't."
+    },
+    {
+      "type": "margin-note",
+      "text": "no warranty, no registry, no questions. some of the best money i ever spent.",
+      "tilt": -0.6
     }
   ]
 }

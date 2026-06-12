@@ -20,6 +20,11 @@
       "text": "Per after-action audit, several opposing personnel concluded their contracts without logging a single action. Their employer has been invoiced for the unused rounds."
     },
     {
+      "type": "margin-note",
+      "text": "the politest sentence anyone ever wrote about what this tree does.",
+      "tilt": 0.8
+    },
+    {
       "type": "tree-meta",
       "stat_lean": "None printed — the engine is the activation order itself. Initiative and slot-claiming are Reflex's market (see Turn, AP & Reactions); Slit Timing buys past it.",
       "theme": "Tempo: the Opener, the hit that buys the run, and the kiting tax.",
@@ -125,6 +130,11 @@
     {
       "type": "paragraph",
       "text": "The Shadow's real counterplay to a Fortress is the oldest one: don't play their game. There are other doors and softer targets."
+    },
+    {
+      "type": "margin-note",
+      "text": "if the wall wants you at the door, that's the wall answering your question. find a window.",
+      "tilt": -0.6
     },
     {
       "type": "heading",

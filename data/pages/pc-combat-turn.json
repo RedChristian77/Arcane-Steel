@@ -129,12 +129,22 @@
       "text": "Banking AP <em>is</em> overwatch. There is no overwatch action and no separate reaction allowance — holding your turn back is the watch. Bank all 5 AP and you end the turn with 7 RP; spend everything and you keep the base 2. Light weapons stay reactive off base RP even after a full turn; heavy weapons only react by banking. Every round is the same choice: swing now, or guard the door."
     },
     {
+      "type": "margin-note",
+      "text": "the scariest one in the squad is whoever looks like they're doing nothing.",
+      "tilt": 0.4
+    },
+    {
       "type": "paragraph",
       "text": "Defensive reactions from augments and abilities carry their own RP prices on their tree pages."
     },
     {
       "type": "blockquote",
       "text": "Time held in reserve remains the property of the contractor until the start of their next rotation. Time held in reserve by hostile parties remains, regrettably, the property of hostile parties."
+    },
+    {
+      "type": "margin-note",
+      "text": "first thing the corp ever printed that i agree with.",
+      "tilt": -0.5
     }
   ]
 }

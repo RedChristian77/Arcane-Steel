@@ -110,6 +110,11 @@
     {
       "type": "blockquote",
       "text": "Your practitioner does not appear in the provider registry. Outcomes at unregistered facilities are excluded from actuarial coverage. Please keep your next of kin information current. Be well."
+    },
+    {
+      "type": "margin-note",
+      "text": "off the registry means off the statistics. the statistics were never rooting for you anyway.",
+      "tilt": 0.6
     }
   ]
 }

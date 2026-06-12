@@ -56,6 +56,11 @@
       "text": "Against a shelled target, their Armor HP is the real health bar — an armored fight is a race against the shell clock. And when your own flesh HP runs out, you drop: you are Down, and The Staircase takes over (see The Staircase)."
     },
     {
+      "type": "margin-note",
+      "text": "the shell is the fight. the meat is the paperwork.",
+      "tilt": 0.5
+    },
+    {
       "type": "heading",
       "text": "Damage tags"
     },
@@ -126,6 +131,11 @@
     {
       "type": "blockquote",
       "text": "Armor integrity is monitored remotely for your safety. Contractors will be notified when their shell reaches zero. In most cases, they will already know."
+    },
+    {
+      "type": "margin-note",
+      "text": "you'll know. it's a sound you only need to hear once.",
+      "tilt": -0.4
     }
   ]
 }

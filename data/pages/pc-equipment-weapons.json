@@ -195,6 +195,11 @@
       "text": "<strong>Firing into Adjacent: −2 accuracy</strong> with any gun except a sidearm or scattergun. This is the penalty the Bayonet Lug mod deletes (see Mods)."
     },
     {
+      "type": "margin-note",
+      "text": "if you're aiming a rifle at something you could spit on, the mistake happened a while ago.",
+      "tilt": -0.9
+    },
+    {
       "type": "paragraph",
       "text": "<strong>Shots to the Extreme band: −2 accuracy</strong>, baseline. Precision's entry augment exists to delete that line (see Precision)."
     },
@@ -252,6 +257,11 @@
           ""
         ]
       ]
+    },
+    {
+      "type": "margin-note",
+      "text": "the matrix is correct. the thing in front of you hasn't read it.",
+      "tilt": 0.8
     },
     {
       "type": "paragraph",

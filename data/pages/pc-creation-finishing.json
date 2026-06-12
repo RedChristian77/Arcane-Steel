@@ -51,6 +51,11 @@
       "text": "<strong>Tracks.</strong> Charge starts at 0. Saturation starts at 0 — Rift-Touched starts the floor at 5 (Charge & Saturation). Scars start at 0 — Survivor starts with 1 (Scars). And write the standing line on the sheet: it's as real as the gear."
     },
     {
+      "type": "margin-note",
+      "text": "everything on the sheet starts at zero. nothing stays there. that's the whole game.",
+      "tilt": -0.8
+    },
+    {
       "type": "callout",
       "style": "rust",
       "label": "DESIGN GAP",
@@ -67,6 +72,11 @@
     {
       "type": "blockquote",
       "text": "Retain a copy of the completed sheet for your records. The corp retains the original. The original is the version that's true."
+    },
+    {
+      "type": "margin-note",
+      "text": "sign anyway. you were never going to read all of it, and they know that.",
+      "tilt": 0.6
     }
   ]
 }

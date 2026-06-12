@@ -158,6 +158,11 @@
       "text": "<strong>Half price — and a natural 1 on the accuracy die is a jam.</strong> The weapon is Jammed: it doesn't fire until cleared, 1 AP (see Conditions)."
     },
     {
+      "type": "margin-note",
+      "text": "cheap rounds collect on a schedule of their own choosing.",
+      "tilt": 0.7
+    },
+    {
       "type": "paragraph",
       "text": "Ammunition is licensed IP, and corp rounds are watermarked: spent brass is evidence. A Tinkerer's press and a Fixer's quiet suppliers are how you live outside that — the Tinkerer handloads your specialty rounds at material cost, and the Fixer tells you what to load before you know you need it (see Professions Overview)."
     },

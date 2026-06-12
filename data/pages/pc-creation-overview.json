@@ -116,6 +116,11 @@
     {
       "type": "blockquote",
       "text": "Welcome aboard, contractor. Your starting package reflects the career your previous life prepared you for. Any gap between who you were and who you intend to become can be financed."
+    },
+    {
+      "type": "margin-note",
+      "text": "everything in this city can be financed. that's not the comfort they think it is.",
+      "tilt": -0.9
     }
   ]
 }

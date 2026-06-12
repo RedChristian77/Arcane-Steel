@@ -114,6 +114,11 @@
     {
       "type": "blockquote",
       "text": "Survey data received. Per standard acquisition terms, authorship transfers on payment. You were never here, and neither was the route."
+    },
+    {
+      "type": "margin-note",
+      "text": "sell the map. keep the route. the difference is whatever you didn't draw.",
+      "tilt": 0.7
     }
   ]
 }

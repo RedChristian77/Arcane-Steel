@@ -125,6 +125,11 @@
       "text": "Sentinel Systems Career Services reminds contractors that training is the only investment that cannot be confiscated at a checkpoint. Schedule your next certification today. Bring credits."
     },
     {
+      "type": "margin-note",
+      "text": "the one true sentence sentinel ever printed.",
+      "tilt": 0.4
+    },
+    {
       "type": "heading",
       "text": "The Skills"
     },
@@ -296,6 +301,11 @@
           "You treat severe scars without elite facilities. The funnel's top, carried in two hands."
         ]
       ]
+    },
+    {
+      "type": "margin-note",
+      "text": "befriend whoever trains medicine. befriend them hard.",
+      "tilt": -0.6
     },
     {
       "type": "heading",

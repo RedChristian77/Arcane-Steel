@@ -36,6 +36,11 @@
       "text": "<strong>Crit:</strong> a natural maximum on your accuracy dice is a crit. The attack auto-hits — the total doesn't matter, the natural max is the hit — and the weapon's crit effects fire. Every weapon prints its own crit payout (see Weapons)."
     },
     {
+      "type": "margin-note",
+      "text": "miracles are real here. budget like they aren't, swing like they might be.",
+      "tilt": -0.5
+    },
+    {
       "type": "heading",
       "text": "One trigger, two payouts"
     },

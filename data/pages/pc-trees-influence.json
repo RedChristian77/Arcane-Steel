@@ -62,6 +62,11 @@
       "text": "<strong>Beasts can die.</strong> The money is mortal — that's what makes it money."
     },
     {
+      "type": "margin-note",
+      "text": "you will cry over the money. everyone does, exactly once, and then they budget for grief like everything else.",
+      "tilt": -0.6
+    },
+    {
       "type": "table",
       "headers": [
         "Beast",

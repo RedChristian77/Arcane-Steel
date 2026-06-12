@@ -40,6 +40,11 @@
       "text": "NOTICE OF RECLASSIFICATION. Contractors recording a seventh scar event are removed from standard mortality tables and flagged for manual review. They are not an error in the data; they are a hole in it. Underwriting is suspended. Employment is not."
     },
     {
+      "type": "margin-note",
+      "text": "they have a filing category for people who refuse to die on schedule. of course they do.",
+      "tilt": 0.9
+    },
+    {
       "type": "heading",
       "text": "Tours"
     },
@@ -60,6 +65,11 @@
     {
       "type": "blockquote",
       "text": "ADDENDUM: Flagged contractors remain fully insurable with respect to equipment, vehicles, and third-party liability. The division wishes them a long career and declines to estimate one."
+    },
+    {
+      "type": "margin-note",
+      "text": "read it twice. the van is covered. you are a rounding error with a name.",
+      "tilt": -0.6
     }
   ]
 }

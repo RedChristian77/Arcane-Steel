@@ -16,6 +16,11 @@
       "text": "Field expiration is a preventable outcome in one hundred percent of stabilized cases. Stabilization is a squad responsibility. Mortality is a personal one."
     },
     {
+      "type": "margin-note",
+      "text": "translation: if you die, it was your fault. it has never once been their fault.",
+      "tilt": 0.8
+    },
+    {
       "type": "heading",
       "text": "The Ladder of Exits"
     },
@@ -44,6 +49,11 @@
       "style": "teal",
       "label": "COVER THE BODY",
       "text": "A downed squadmate is one stray hit from rolling for their life. Block the lines of fire, body the doorway, draw the attention. The window only matters if nothing touches them before someone uses it."
+    },
+    {
+      "type": "margin-note",
+      "text": "cover the body. not because the page says so. because next time the body is you.",
+      "tilt": -0.5
     },
     {
       "type": "heading",
@@ -159,6 +169,11 @@
     {
       "type": "paragraph",
       "text": "Death in this game is dropped and alone, under fire — and even then, Grit and the top face of a d20 are still in the room. Exits all the way down."
+    },
+    {
+      "type": "margin-note",
+      "text": "alone is the word doing the killing in that sentence. fix alone.",
+      "tilt": 0.3
     }
   ]
 }

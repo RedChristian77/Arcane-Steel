@@ -80,6 +80,11 @@
       "text": "Seared is the exception to no-stacking: it is numbered, and reapplication can build X up to its cap of 3."
     },
     {
+      "type": "margin-note",
+      "text": "learn the exits before you need them. nobody reads tables while on fire.",
+      "tilt": -0.7
+    },
+    {
       "type": "blockquote",
       "text": "Conditions are temporary by design. Contractors experiencing a condition that fails to resolve on schedule should consult the nearest Sin Eater, street doc, or actuary, in ascending order of finality."
     }

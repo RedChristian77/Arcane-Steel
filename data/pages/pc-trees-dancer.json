@@ -123,6 +123,11 @@
       "text": "<strong>The Wall</strong> — the Fortress capstone deletes the free shift entirely; that arms race is printed in both trees."
     },
     {
+      "type": "margin-note",
+      "text": "the fast ones always skip wrestling practice. the floor never does.",
+      "tilt": 0.8
+    },
+    {
       "type": "heading",
       "text": "The Catalog"
     },
@@ -332,6 +337,11 @@
     {
       "type": "blockquote",
       "text": "Notice: evasion percentile achievements do not constitute invulnerability. Contractors are reminded that natural maximums occur at the printed rate regardless of morale."
+    },
+    {
+      "type": "margin-note",
+      "text": "untouchable is a streak, not a property. plan for the night the streak ends.",
+      "tilt": -0.7
     }
   ]
 }

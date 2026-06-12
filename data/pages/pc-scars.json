@@ -16,6 +16,11 @@
       "text": "Scar remediation is classified as elective care. Untreated scarring does not affect your ability to work. It affects only your ability to continue doing so. Clinics are standing by."
     },
     {
+      "type": "margin-note",
+      "text": "'elective.' their favorite word for the things that kill you slowly.",
+      "tilt": -0.7
+    },
+    {
       "type": "heading",
       "text": "A Debt on the Body"
     },
@@ -42,6 +47,11 @@
       "style": "rust",
       "label": "DESIGN GAP",
       "text": "Beyond the worse Fate odds, the specific debuffs a carried scar imposes are not yet specified."
+    },
+    {
+      "type": "margin-note",
+      "text": "minimum payments end the same place they end with money.",
+      "tilt": 0.5
     },
     {
       "type": "paragraph",

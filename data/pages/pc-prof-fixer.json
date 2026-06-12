@@ -50,6 +50,11 @@
       "text": "<strong>The Book (entry, 4 PP):</strong> opens the trade — you keep dossiers. Every Leverage tag you ever learn is recorded; once per scene, consult the Book for advantage against a known tag."
     },
     {
+      "type": "margin-note",
+      "text": "if your fixer keeps a book, you're in somebody else's book too. relax. be a boring entry.",
+      "tilt": -0.6
+    },
+    {
       "type": "heading",
       "text": "Perks — Established"
     },

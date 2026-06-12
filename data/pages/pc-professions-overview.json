@@ -22,6 +22,11 @@
       "text": "A profession is fully portable. The name travels; premises don't exist. Walls belong to the squad's base, never to your trade (see The Base)."
     },
     {
+      "type": "margin-note",
+      "text": "walls burn. names don't. you're reading the right page.",
+      "tilt": 0.6
+    },
+    {
       "type": "heading",
       "text": "Profession Points"
     },
@@ -142,6 +147,11 @@
     {
       "type": "paragraph",
       "text": "<strong>Nothing transfers.</strong> Rank, perks, clients, and banked PP die with the character. The license was in their name — paperwork outlives people, and it was never yours."
+    },
+    {
+      "type": "margin-note",
+      "text": "the trade dies with you. one more reason to skip the dying.",
+      "tilt": -0.4
     },
     {
       "type": "heading",

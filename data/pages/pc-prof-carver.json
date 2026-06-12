@@ -78,6 +78,11 @@
       "text": "<strong>Premium Channel (T3, 7 PP):</strong> graft-viable organ buyers, full price. <em>Obligation: those buyers know your route.</em>"
     },
     {
+      "type": "margin-note",
+      "text": "anyone paying full price for organs already knows what yours are worth. walk a different route home.",
+      "tilt": 0.5
+    },
+    {
       "type": "paragraph",
       "text": "<strong>Trophy Rights (T3, 6 PP):</strong> named kills yield a unique trophy component — crafting and graft seeds."
     },

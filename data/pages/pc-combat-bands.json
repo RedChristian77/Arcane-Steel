@@ -12,6 +12,11 @@
       "text": "The battlefield is measured in five bands: <strong>Adjacent, Close, Medium, Long, Extreme</strong>. No feet, no squares — every range in the game is written in band names."
     },
     {
+      "type": "margin-note",
+      "text": "stop asking how many meters. the only two distances out there are 'too far' and 'not far enough.'",
+      "tilt": 1.2
+    },
+    {
       "type": "heading",
       "text": "The five bands"
     },
@@ -66,6 +71,11 @@
     {
       "type": "bullet",
       "text": "<strong>Concealment is an accuracy modifier, never hiddenness.</strong> Smoke, dark, and bad sightlines degrade the shot taken at you; they do not take you off the board."
+    },
+    {
+      "type": "margin-note",
+      "text": "quiet buys you the first punch. nothing on this page buys you the second.",
+      "tilt": -0.6
     },
     {
       "type": "callout",

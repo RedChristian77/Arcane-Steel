@@ -42,6 +42,11 @@
       "text": "Two contractors with the same kit are the same character for about one mission. The kit hands out the entry augment; the tree does the diverging — two Berserkers stop playing alike by their third augment (Trees Overview)."
     },
     {
+      "type": "margin-note",
+      "text": "the kit is who the corp guessed you'd be. wrong, usually. takes a few missions to prove it.",
+      "tilt": 0.5
+    },
+    {
       "type": "heading",
       "text": "The Ten Kits"
     },
@@ -167,6 +172,11 @@
     {
       "type": "blockquote",
       "text": "Kit issuance is complimentary. Equipment grade reflects projected first-quarter survival. Congratulations on your projection."
+    },
+    {
+      "type": "margin-note",
+      "text": "they told you exactly what they think you're worth. it's in writing. keep the receipt.",
+      "tilt": -0.7
     }
   ]
 }

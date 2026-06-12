@@ -20,6 +20,11 @@
       "text": "Subdermal trauma telemetry indicates elevated performance under injury. This is not a malfunction. Continue as scheduled. Your premiums have been adjusted."
     },
     {
+      "type": "margin-note",
+      "text": "'continue as scheduled.' they'd staple that to your coffin.",
+      "tilt": -1.0
+    },
+    {
       "type": "tree-meta",
       "stat_lean": "Grit — every kept scar is a Fate Roll waiting, and Grit is what you roll (see The Staircase).",
       "theme": "Damage-taken escalation, kill chains, and the scar gamble.",
@@ -432,6 +437,11 @@
     {
       "type": "blockquote",
       "text": "Clause 12: injuries sustained in the course of duty remain the property of the contractor. Residual performance benefits derived therefrom are not subject to corporate revenue sharing. Enjoy."
+    },
+    {
+      "type": "margin-note",
+      "text": "the one thing in this trade they let you keep.",
+      "tilt": 0.5
     }
   ]
 }

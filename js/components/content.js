@@ -108,6 +108,13 @@ function renderContent(items) {
         html += renderInfoBlock(item);
         break;
 
+      case 'margin-note':
+        paraRun = 0;
+        if (item.text) {
+          html += '<div class="c-margin-note"' + (item.tilt ? ' style="--tilt:' + (parseFloat(item.tilt)||0) + 'deg"' : '') + '>' + item.text + '</div>';
+        }
+        break;
+
       case 'divider':
         paraRun = 0;
         html += '<div class="c-divider' + (item.style ? ' c-divider--' + item.style : '') + '">'

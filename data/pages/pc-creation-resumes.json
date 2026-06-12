@@ -111,6 +111,11 @@
     {
       "type": "blockquote",
       "text": "Gaps in employment history are normal and nothing to be ashamed of. They have been independently filled in by our records department."
+    },
+    {
+      "type": "margin-note",
+      "text": "whatever their records department invented for you, it's tamer than the truth. let them keep it.",
+      "tilt": 0.7
     }
   ]
 }

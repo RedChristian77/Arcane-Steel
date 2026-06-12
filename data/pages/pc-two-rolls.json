@@ -176,6 +176,11 @@
       "text": "No skill is locked behind training — you may always attempt. The dice decide what you can reach: an untrained roll tops out at 4 plus your stat bonus, so Standard 8 is barely scrapeable on raw talent and Hard 11 is mathematically out of reach. Nobody stops you from attempting the field surgery. The d4 does."
     },
     {
+      "type": "margin-note",
+      "text": "you can always attempt. the rift loves an optimist.",
+      "tilt": 0.5
+    },
+    {
       "type": "heading",
       "text": "The Fate Roll"
     },
@@ -186,6 +191,11 @@
     {
       "type": "blockquote",
       "text": "Sentinel Systems Field Bulletin: the twenty-sided die is not part of your working kit. If you are rolling it, either something is being installed in you or something has gone wrong with you, and in both cases the appropriate department has already been notified."
+    },
+    {
+      "type": "margin-note",
+      "text": "the big die only comes out when the day's already gone wrong. you learn to hate the sound it makes on the table.",
+      "tilt": -1.3
     }
   ]
 }

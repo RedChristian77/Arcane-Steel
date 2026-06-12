@@ -8,6 +8,11 @@
       "text": "<em>Collected from contract bars, kennel walls, and the margins of after-action reports. Nobody owns the copyright. Everybody pays for the lessons.</em>"
     },
     {
+      "type": "margin-note",
+      "text": "nobody owns the copyright, but a couple of these are mine.",
+      "tilt": -0.4
+    },
+    {
       "type": "paragraph",
       "text": "Contractors compress arithmetic into sayings, because sayings survive contact and spreadsheets don't. This page collects the doctrine book: each line, and what it means at the table. No rule lives here — every line is shorthand for math that lives on another page, and the gloss tells you which one."
     },

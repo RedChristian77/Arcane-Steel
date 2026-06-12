@@ -109,6 +109,11 @@
       "text": "Requisition manifests are binding once the airlock cycles. Contractors who discover mid-mission that they packed for a different mission are encouraged to reflect on the intel they declined to purchase."
     },
     {
+      "type": "margin-note",
+      "text": "the kit player's nightmare isn't a monster. it's an empty pouch two rooms from the exit.",
+      "tilt": -0.7
+    },
+    {
       "type": "callout",
       "style": "rust",
       "label": "DESIGN GAP",

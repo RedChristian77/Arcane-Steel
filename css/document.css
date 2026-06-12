@@ -300,3 +300,26 @@
   padding: 0 4px;
   letter-spacing: 0.06em;
 }
+
+/* ---------- Contractor marginalia ----------
+   This packet is second-hand. The previous holder wrote in it.
+   The corp prints the menace; the margins keep you alive. */
+.c-margin-note {
+  font-family: 'Caveat', cursive;
+  font-size: 1.18rem;
+  line-height: 1.35;
+  color: var(--note-ink, #8fa3b8);
+  max-width: 420px;
+  margin: var(--sp-md) 0 var(--sp-md) auto;
+  padding: 2px 10px 2px 14px;
+  border-left: 2px dashed currentColor;
+  transform: rotate(var(--tilt, -0.6deg));
+  opacity: 0.92;
+}
+.c-margin-note::before {
+  content: "✎ ";
+  opacity: 0.6;
+  font-size: 0.85em;
+}
+.c-margin-note strong { font-weight: 600; }
+[data-theme="light"] .c-margin-note { --note-ink: #3a5a7a; }

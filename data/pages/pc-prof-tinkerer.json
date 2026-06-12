@@ -114,6 +114,11 @@
     {
       "type": "blockquote",
       "text": "Pear Fabrication Services congratulates you on your registry. Your bench is now a matter of record. Quarterly audit dates are assigned, not requested."
+    },
+    {
+      "type": "margin-note",
+      "text": "they can audit the bench. they can't audit your hands. plan around that split.",
+      "tilt": -0.8
     }
   ]
 }

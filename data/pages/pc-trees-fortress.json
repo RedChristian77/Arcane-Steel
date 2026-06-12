@@ -326,6 +326,11 @@
     {
       "type": "blockquote",
       "text": "Reminder: contracted denial specialists are compensated for territory held, not casualties produced. Kill counts submitted for bonus consideration will be returned unread."
+    },
+    {
+      "type": "margin-note",
+      "text": "holding a door all night makes no highlight reel. it makes survivors. take the door.",
+      "tilt": 0.4
     }
   ]
 }

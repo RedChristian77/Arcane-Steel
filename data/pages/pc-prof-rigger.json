@@ -110,6 +110,11 @@
     {
       "type": "blockquote",
       "text": "Vehicle registration confirmed. Your plates are now recognized at all participating checkpoints. Recognition is not a service that can be discontinued."
+    },
+    {
+      "type": "margin-note",
+      "text": "'recognized at every checkpoint' cuts exactly both ways.",
+      "tilt": -0.5
     }
   ]
 }

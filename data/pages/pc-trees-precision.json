@@ -58,6 +58,11 @@
       "text": "Corporate ammunition is watermarked at the foundry. Spent brass is retrievable, attributable, and admissible. The round remembers where it came from, even when the shooter would prefer it didn't."
     },
     {
+      "type": "margin-note",
+      "text": "every shot you take is a signature. shoot like someone's going to read it back to you.",
+      "tilt": -0.5
+    },
+    {
       "type": "paragraph",
       "text": "Tier chassis, requirements, and the install ladder live on Trees Overview. Install costs below are per augment at that tier."
     },

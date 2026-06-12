@@ -90,6 +90,11 @@
     {
       "type": "blockquote",
       "text": "RETIREMENT PLANNING NOTICE: Contractors are encouraged to designate a primary capital development track at onboarding. Contractors who decline to designate will find one designated for them by circumstance, at circumstance's usual rates."
+    },
+    {
+      "type": "margin-note",
+      "text": "never met a retired contractor. met a lot of plans.",
+      "tilt": 0.4
     }
   ]
 }

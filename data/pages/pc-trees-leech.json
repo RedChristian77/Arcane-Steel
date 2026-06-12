@@ -56,6 +56,11 @@
       "text": "Every tree pays a creditor; the Leech pays the doc. A hot mission runs about 6 Saturation past the free vent — roughly 300 credits of street-tier detox against a 500-credit base pay. The Furnace tithes some 60% of its income to run hot, or banks the Saturation toward thresholds and pays later, with interest. The thresholds and the detox lane live on Charge &amp; Saturation."
     },
     {
+      "type": "margin-note",
+      "text": "the doc is the only creditor who smiles when you walk in. let that worry you.",
+      "tilt": 0.7
+    },
+    {
       "type": "heading",
       "text": "Counterplay, Printed"
     },
@@ -283,6 +288,11 @@
     {
       "type": "blockquote",
       "text": "Your wellness provider has flagged recurring saturation in your quarterly screen. A payment plan is available. Thank you for running hot on the company's behalf."
+    },
+    {
+      "type": "margin-note",
+      "text": "a payment plan. for your own blood. anyway, the tree's fun.",
+      "tilt": -0.4
     }
   ]
 }

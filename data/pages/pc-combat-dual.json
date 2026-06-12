@@ -52,6 +52,11 @@
       "text": "<strong>Dancer discounts never apply to Heavy pairs.</strong> That lane is light blades; this lane is chrome."
     },
     {
+      "type": "margin-note",
+      "text": "physics didn't care that it looked cool. it did look cool though.",
+      "tilt": -1.0
+    },
+    {
       "type": "callout",
       "style": "rust",
       "label": "PARKED",
@@ -60,6 +65,11 @@
     {
       "type": "blockquote",
       "text": "Simultaneous heavy-weapons operation voids the standard harness warranty. Per-swing structural billing applies. The surgical suite remains available to discuss load-bearing upgrades."
+    },
+    {
+      "type": "margin-note",
+      "text": "if your own gear is filing damage reports about you, the job is trying to tell you something.",
+      "tilt": 0.4
     }
   ]
 }

@@ -121,6 +121,11 @@
       "text": "Enrollment in a Corporate Training Program includes full documentation of every skill acquired. This documentation remains the property of the issuing corporation — as does, in the relevant sense, the skill."
     },
     {
+      "type": "margin-note",
+      "text": "everything they teach you, they remember teaching you.",
+      "tilt": 0.7
+    },
+    {
       "type": "heading",
       "text": "Trained Techniques — 300 cr"
     },
@@ -195,6 +200,11 @@
     {
       "type": "paragraph",
       "text": "<strong>Dead Calm (Passive):</strong> Once per fight, when you would be Rattled, you simply aren't."
+    },
+    {
+      "type": "margin-note",
+      "text": "buy the calm. the job sells it too, but the job's price is worse.",
+      "tilt": -0.5
     },
     {
       "type": "paragraph",

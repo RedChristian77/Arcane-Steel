@@ -20,6 +20,11 @@
       "text": "Your augmentation pathway has been pre-approved. Financing terms reflect your projected survival. Congratulations on your continued eligibility."
     },
     {
+      "type": "margin-note",
+      "text": "ask what rate they quoted you. then ask yourself what that says.",
+      "tilt": 0.5
+    },
+    {
       "type": "heading",
       "text": "The Tier Chassis"
     },
@@ -95,6 +100,11 @@
     {
       "type": "paragraph",
       "text": "<strong>Trade-off purchases.</strong> Some augments carry the word trade-off in their effect: a real, trackable cost is part of the purchase — a scar a mission, extra heat per Burn. The cost is not flavor. Track it."
+    },
+    {
+      "type": "margin-note",
+      "text": "respect anything in a catalog that admits its price out loud. it's the only honest thing on the shelf.",
+      "tilt": -0.8
     },
     {
       "type": "heading",

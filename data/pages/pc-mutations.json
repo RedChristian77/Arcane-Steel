@@ -162,6 +162,11 @@
       "text": "What the odds feel like: at Grit +2, a Risk II splice at a clinic runs about 65% clean, 15% minor, 20% major, and 0% rejection; the same splice on the street runs 55/15/20/10. Competence and money move the same dial, about five points a step. A Risk IV graft at a street doc is a 40% rejection."
     },
     {
+      "type": "margin-note",
+      "text": "clean odds look great on paper. the paper is never the one on the table.",
+      "tilt": 0.6
+    },
+    {
       "type": "heading",
       "text": "The Floor — What Every Mutation Costs"
     },
@@ -301,6 +306,11 @@
     {
       "type": "paragraph",
       "text": "<strong>Worked example — Char Hound heart (Risk II, local):</strong> benefit +1 RP — a reactive cardiovascular system; shares the RP cap, audited. Cost: the resting heart rate of a sprinting animal — double rations, and a Resilience Check vs Rattled when ambushed, because the heart answers before you do. Scanner: cardiac signature reads as fauna; checkpoint medics get <em>interested</em>."
+    },
+    {
+      "type": "margin-note",
+      "text": "the organ remembers being an animal. be polite to it.",
+      "tilt": -1.1
     },
     {
       "type": "paragraph",

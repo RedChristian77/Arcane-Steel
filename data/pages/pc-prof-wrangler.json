@@ -78,6 +78,11 @@
       "text": "<strong>Exotic License (T3, 7 PP):</strong> Bloom-stock handling, legally-ish. <em>Obligation: Green Cradle audits exotic holders.</em>"
     },
     {
+      "type": "margin-note",
+      "text": "'legally-ish' is doing a lot of work in that sentence. soon, so will you.",
+      "tilt": 0.9
+    },
+    {
       "type": "paragraph",
       "text": "<strong>Breaker of Bad Odds (T3, 6 PP):</strong> once per mission, one allied beast rerolls a failed fear or control Check."
     },
