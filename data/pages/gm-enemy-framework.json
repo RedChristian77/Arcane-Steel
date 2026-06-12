@@ -5,17 +5,217 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Threat Assessment Division, statting desk. Two minutes per asset. The field does not wait for committee.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Build an enemy in four picks: <strong>Tier &rarr; Body &rarr; Role &rarr; 1\u20132 abilities.</strong> The tier chassis does the arithmetic, the body decides which damage math runs, the role bends the chassis. Statting an enemy takes two minutes, and two minutes is the budget."
+    },
+    {
+      "type": "heading",
+      "text": "The tier chassis"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "HP",
+        "Accuracy",
+        "Damage",
+        "EV",
+        "RP"
+      ],
+      "rows": [
+        [
+          "Fodder",
+          "6\u20138",
+          "d8+1",
+          "1d6\u20132d6",
+          "5",
+          "none"
+        ],
+        [
+          "Standard",
+          "14",
+          "d8+2",
+          "2d6\u20132d8",
+          "5\u20136",
+          "1"
+        ],
+        [
+          "Elite",
+          "24",
+          "d8+3",
+          "2d8\u20133d10",
+          "6\u20138",
+          "2"
+        ],
+        [
+          "Boss",
+          "sized, not statted \u2014 see Bosses",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Enemies attack with the same grammar players do: accuracy die + bonus vs Evasion (see Attacks & the Shell Clock)."
+    },
+    {
+      "type": "heading",
+      "text": "Body: Flesh, Hide, Shell"
+    },
+    {
+      "type": "paragraph",
+      "text": "The taxonomy and the damage pipeline are player-facing rules \u2014 they live on Attacks & the Shell Clock. GM-side, the body pick is what it does to your prep:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Flesh</strong> \u2014 straight HP, the fastest math in the game, and the most common profile in the world: rift fauna, margin gangs, swarms. Give fauna roughly 1.5\u00d7 humanoid HP for its tier \u2014 high HP is the whole defense."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Hide</strong> \u2014 Value only, and it never breaks. Hide runs 1\u20134. Penetration deletes it; Pierce finds no gaps in muscle; light blades don't grind here, they just lose."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Shell</strong> \u2014 the full pipeline, and it breaks. Armored humanoids wear the player armor ladder (see Armor); constructs and chitin print their own shell numbers in the Bestiary. A shell cracking mid-fight is a free phase change."
+    },
+    {
+      "type": "paragraph",
+      "text": "Which weapons beat which bodies is the doctrine matrix, printed for players on Weapons."
+    },
+    {
+      "type": "heading",
+      "text": "Roles"
+    },
+    {
+      "type": "paragraph",
+      "text": "A role modifies the chassis and hands the enemy its 1\u20132 abilities."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Role",
+        "Chassis modifier"
+      ],
+      "rows": [
+        [
+          "<strong>Bruiser</strong>",
+          "+1 damage die, \u22121 EV"
+        ],
+        [
+          "<strong>Skirmisher</strong>",
+          "+2 EV, +1 band move, \u22124 HP"
+        ],
+        [
+          "<strong>Marksman</strong>",
+          "Fights from Long\u2013Extreme bands; Stable-Platform behavior \u2014 it anchors and shoots"
+        ],
+        [
+          "<strong>Controller</strong>",
+          "One zone or condition verb (see Conditions)"
+        ],
+        [
+          "<strong>Support</strong>",
+          "Heals or buffs others \u2014 kill the voice"
+        ],
+        [
+          "<strong>Horde</strong>",
+          "Compression \u2014 see below"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The four-pick procedure ends with \u201c1\u20132 abilities from the role menu,\u201d but no per-role ability menu is printed in the Phase 7 docs. The chassis modifiers above and the Bestiary's signature lines are everything that exists."
+    },
+    {
+      "type": "heading",
+      "text": "Activations, not bodies"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Encounters are budgeted in activations, not bodies.</strong> Hordes are how the room stays full without the clock drowning:"
+    },
+    {
+      "type": "bullet",
+      "text": "4\u20136 fodder compress into one unit: shared HP pool, one activation."
+    },
+    {
+      "type": "bullet",
+      "text": "Attack dice scale with surviving members."
+    },
+    {
+      "type": "bullet",
+      "text": "Automatic break at 50% casualties \u2014 no roll."
+    },
+    {
+      "type": "paragraph",
+      "text": "The room stays full; the clock stays fluid."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "No activation budget is printed \u2014 nothing in the Phase 7 docs says how many enemy activations a given party size or difficulty buys. Bosses print their own action economy (see Bosses); everything below them is unguided."
+    },
+    {
+      "type": "heading",
+      "text": "Enemy reactions"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enemies use the chassis RP column and bank AP exactly like players (RP rules \u2014 see Turn, AP & Reactions). <strong>Fodder never reacts \u2014 fodder is for movement.</strong>"
+    },
+    {
+      "type": "heading",
+      "text": "Break lines \u2014 fear as arithmetic"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every creature block carries one <strong>Break line</strong>: the condition where its survival math flips. There is no morale subsystem \u2014 the line is the whole rule."
+    },
+    {
+      "type": "paragraph",
+      "text": "When the line triggers, the creature rolls its Resilience Check vs Standard 8 (check grammar \u2014 see The Two Rolls). Fodder skips the roll \u2014 fodder just breaks."
+    },
+    {
+      "type": "bullet",
+      "text": "Gangs scatter at casualties."
+    },
+    {
+      "type": "bullet",
+      "text": "Wounded big game turns desperate <em>before</em> it flees."
+    },
+    {
+      "type": "bullet",
+      "text": "Corp professionals break by doctrine \u2014 withdrawal the moment the mission stops pricing."
+    },
+    {
+      "type": "bullet",
+      "text": "Constructs have no line at all."
+    },
+    {
+      "type": "paragraph",
+      "text": "Influence and Sin Eater verbs key off Break lines (see Influence, Sin Eater) \u2014 Surrender Demand-class play has a hook in every block."
+    },
+    {
+      "type": "heading",
+      "text": "The profile card"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every enemy prints as five lines: <strong>Stat \u00b7 Signature \u00b7 Break \u00b7 Carve \u00b7 Graft</strong>. What it rolls, what it does, when it stops, and what the body is worth. The full launch catalog is the Bestiary; carve yields and clocks live on Carving; graft installation lives on Mutations & Grafts. Every entry feeds the economy \u2014 the party kills it, the Carver prices it."
+    },
+    {
+      "type": "blockquote",
+      "text": "Threat profiles are estimates prepared from available data. Sentinel reminds field personnel that an accurately priced opponent is an opponent already half paid for."
     }
   ]
 }

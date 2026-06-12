@@ -5,17 +5,147 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>A contract is a destination. A mission is every room between you and it.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "A mission is a <strong>node map</strong>: entry at the bottom, objective at the top, <strong>2\u20134 branching routes</strong>, <strong>6\u201314 nodes</strong> for a standard contract. Players see the map skeleton plus whatever intel state each node has earned (see Intel)."
+    },
+    {
+      "type": "heading",
+      "text": "Node types"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Glyph",
+        "Type",
+        "What's in it"
+      ],
+      "rows": [
+        [
+          "\u2694",
+          "Engagement",
+          "A fight (see Enemy Framework, Bestiary)"
+        ],
+        [
+          "\u2623",
+          "Hazard",
+          "Terrain, toxicity, suppression zones"
+        ],
+        [
+          "\u25a3",
+          "Cache",
+          "Salvage, harvest"
+        ],
+        [
+          "\u25c9",
+          "Encounter",
+          "NPCs, rivals, negotiations"
+        ],
+        [
+          "\u2726",
+          "Rift Surge",
+          "Charged casting, fauna, harvest risk"
+        ],
+        [
+          "\u2302",
+          "Rest",
+          "Field repair, reloads, a breather"
+        ],
+        [
+          "\u2605",
+          "Objective",
+          "Where the contract completes"
+        ],
+        [
+          "\u25bd",
+          "Extraction",
+          "The way out"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "One node = one prep card"
+    },
+    {
+      "type": "paragraph",
+      "text": "A node card is one prep unit: <strong>type, occupants, profiles, terrain, exits, one secret.</strong> A GM preps ten cards, not a dungeon."
+    },
+    {
+      "type": "paragraph",
+      "text": "Occupants go on the card as profile cards (see Enemy Framework). When a node reaches Scouted, the players get the card's count, taxonomy, and armor profile \u2014 the states live on Intel."
+    },
+    {
+      "type": "heading",
+      "text": "Geometry is pacing"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Map width = player agency.</strong> More routes, more meaningful choice."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Map height = session length.</strong> More nodes per route, longer run."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Route-not-taken content is never wasted</strong> \u2014 unvisited nodes recycle into the next map."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pacing is geometry, and the geometry is fully yours."
+    },
+    {
+      "type": "heading",
+      "text": "Rest nodes \u2014 where the shell clock meets the map"
+    },
+    {
+      "type": "paragraph",
+      "text": "A \u2302 node is field repair with its permanent-consequence rules (see Armor), reloads (see Consumables & Ammo), and a breather for Saturation (see Charge & Saturation)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Route choice is the armor economy.</strong> Push the short route with a cracking shell, or detour to the safe room and patch \u2014 that is the decision the map exists to pose. Pipeline \u2192 wear \u2192 intel \u2192 route, one loop."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "No traversal rule is printed \u2014 what moving node-to-node costs in time or resources. \u201cTime ticks\u201d appear only as an in-mission scouting cost (see Intel); no mission clock exists in the Phase 7 docs."
+    },
+    {
+      "type": "heading",
+      "text": "The booklet format"
+    },
+    {
+      "type": "paragraph",
+      "text": "A mission booklet is self-contained:"
+    },
+    {
+      "type": "bullet",
+      "text": "The map."
+    },
+    {
+      "type": "bullet",
+      "text": "One node card per node."
+    },
+    {
+      "type": "bullet",
+      "text": "Three corp-flavored briefing variants \u2014 same mission, three different lies (see Corp Briefings)."
+    },
+    {
+      "type": "bullet",
+      "text": "A complication table."
+    },
+    {
+      "type": "paragraph",
+      "text": "Booklets are Guide work product \u2014 routes and maps are what a Guide sells (see Guide)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Route data is provided as-is. The Crowned Table certifies that its maps were accurate at the time of survey. The time of survey is available upon request."
     }
   ]
 }

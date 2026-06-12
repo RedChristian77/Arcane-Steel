@@ -5,17 +5,396 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Field Catalog, launch printing. Every entry in this document has invoiced at least one squad.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Every entry is a profile card (see Enemy Framework): <strong>Stat \u00b7 Signature \u00b7 Break \u00b7 Carve \u00b7 Graft</strong>. Anything an entry doesn't print, it inherits from its tier chassis on Enemy Framework. Dome opposition wears the player armor ladder \u2014 values live on Armor. Carve processing and its clocks live on Carving; graft installation lives on Mutations & Grafts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Companion-grade blocks for the Char Hound and Gorecap Boar \u2014 the tamed versions, with the injury ladder \u2014 live on Influence."
+    },
+    {
+      "type": "heading",
+      "text": "The Dome & Margin"
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Margin Ganger",
+      "subtitle": "Flesh fodder",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Fodder chassis. d8+1; 1d6 blade or sidearm.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "First death in the crew.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Nothing worth the time.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "No.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Corp Guard",
+      "subtitle": "Flesh standard",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Standard chassis in Contractor Standard (see Armor). d8+2; 2d6 carbine.",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Falls back to cover by training.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Doctrine \u2014 officer down or shell broken.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Riot Unit",
+      "subtitle": "Standard bruiser",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Standard chassis, Bruiser, in Heavy Plate (see Armor). Scattergun (see Weapons) and tower shield \u2014 the shield grants allies cover.",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "The wall fodder hides behind.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "None while the officer stands.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Tactical Officer",
+      "subtitle": "Elite controller",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Elite chassis in Corp Tactical (see Armor). d8+3; 2d8.",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Calls \u2014 the enemy Warcaller: marks targets and repositions its side (the player-side verb lives on Influence). The adds are only dangerous while this is alive.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Doctrine, at 50% detail losses.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Sentinel Pacifier",
+      "subtitle": "Elite chrome bruiser",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Elite chassis in Raid Mail (see Armor). 3d10 shock maul, Impact.",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Intrusion-valid everything \u2014 the hacker's feast.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "None \u2014 it never retreats; doctrine forbids it.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Auto-Turret",
+      "subtitle": "Construct \u2014 Shell",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Shell 3/2/12, no flesh. d10+2; 2d8. Overwatch-pattern behavior \u2014 fires on band changes.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "None.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Components \u2014 Tinkerer feed.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Rift"
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Char Hound",
+      "subtitle": "Flesh fodder",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Fodder chassis, fast \u2014 moves 2 bands. d10+1; 1d6 bite. Arrives in hordes (see Enemy Framework).",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Pack arithmetic \u2014 50% pack casualties.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Glands, tier 1.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "Reactive heart (+1 RP class).",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Glowcap Swarm",
+      "subtitle": "Flesh horde",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Horde unit. Cluster contact damage; enclosed targets tick +1 Charge per round (see Charge & Saturation).",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Fire and heat.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Symbiont caps \u2014 Glowcap splice stock.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Gorecap Boar",
+      "subtitle": "Hide 2 standard bruiser",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Hide 2, HP 26. d8+2; 2d10 gore, push 1 band.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Wounded past half: desperate first \u2014 +1 damage die, won't disengage. Flees only under 25%.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Hide grade 2; marrow.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "Dermal banding.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Char Strider",
+      "subtitle": "Hide 1 skirmisher",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Hide 1, Skirmisher \u2014 3 bands per turn. d10+2; 2d6.",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "The kiting tax with legs.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Any solid hit \u2014 it was never committed.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "Strider tendons.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Spitting Lurker",
+      "subtitle": "Flesh marksman-analog",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Flesh. Ranged toxin spit to Medium band; rider: Seared (see Conditions).",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Fauna that answers cover.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Toxin sacs \u2014 Chemist gold.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Bloomtusk",
+      "subtitle": "Hide 3 elite",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Hide 3, HP 45. d8+2; 3d10 trample \u2014 hits an Adjacent cluster, contested to avoid (see Bands & Movement).",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Desperate at half; breaks at a quarter.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "The 800-credit corpse.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "Marrow \u2014 \u26a0 systemic.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Vault Crawler",
+      "subtitle": "Shell elite",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Shell 5/4/18 over Flesh 30. Two claws, 2d8 each, plus grab (contested).",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Crack the carapace \u2014 a free boss phase in miniature.",
+          "full": true
+        },
+        {
+          "label": "Carve",
+          "value": "Chitin plates; \u22121 grade if combat-cracked.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "Null-adjacent glands.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Null-Strider",
+      "subtitle": "Hide 2 elite",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Hide 2, Elite chassis. Projects an Adjacent-cluster null field: patterns fired into or out of it cost +1 round (see Patterns).",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Suppression-zone fauna \u2014 the anti-caster animal.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Desperate; never flees inside its own field.",
+          "full": true
+        },
+        {
+          "label": "Graft",
+          "value": "The Null Gland.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "Exotic beasts are parked. The fourteen entries above are the entire statted roster \u2014 nothing beyond them exists in the docs, and parked items stay parked. Flag the need; don't stat it."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Unprinted specifics: the Glowcap Swarm's contact damage dice; the Spitting Lurker's tier, accuracy die, and spit damage; the Char Strider's tier (so its HP has no chassis row to inherit). Where a tier is printed, missing values come from the chassis on Enemy Framework."
+    },
+    {
+      "type": "blockquote",
+      "text": "Wellspring Field Catalog appendix: a graft-viable organ is premium contraband only while refrigerated. Plan extraction accordingly. The organ's previous owner did not."
     }
   ]
 }
