@@ -5,17 +5,284 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Run hot enough to matter. Vent before it sticks.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Leech is the management-puzzle tree. It deliberately injects Charge — the acute layer of rift toxicity — and converts the heat into power. The meters, the vent, and the career bill live on Charge &amp; Saturation; this page is the machine that runs them hot on purpose."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two branches, two valves. <strong>Furnace</strong> burns yourself for output: you are the fuel, and the valve is the bill. <strong>Parasite</strong> makes others pay: the valve is the victim, and access is the puzzle."
+    },
+    {
+      "type": "blockquote",
+      "text": "Self-administered thermal load is classified as voluntary enhancement under schedule C. Detox services are available at preferred-partner rates. The glow is not covered."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Grit — the free vent at encounter's end is your Grit bonus, and the Furnace lives or dies by it (see Charge & Saturation).",
+      "theme": "Deliberate Charge injection: Burn turns heat into dice; Offload turns Charge into someone else's problem.",
+      "design": "The management puzzle — run hot enough to matter, vent before it sticks."
+    },
+    {
+      "type": "heading",
+      "text": "The Engine — Burn"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Burn (1 AP):</strong> gain 2 Charge and 1 Burn stack. Burn is unlocked by Leech Manifold, the tree's entry augment. Stacks are capped — 1 at entry, 2 with Combustion Lining — and power the Furnace branch. Charge itself — the 0–10 meter, what happens at 7+ and at 10, and the end-of-encounter vent — lives on Charge &amp; Saturation."
+    },
+    {
+      "type": "paragraph",
+      "text": "What the stacks buy is dice. Heat Bleed adds +1 damage die at 1+ Burns; Furnace Core raises it to +1 die per Burn, max +2 — the Leech ceiling. Validated: two Burns take a longsword from 9.5 to 19.1 per swing against flesh. But extra dice die against armor like all dice do — 6.9 through Contractor Standard, about 0.1 through Heavy Plate. The Furnace melts flesh; it does not open cans."
+    },
+    {
+      "type": "paragraph",
+      "text": "Opening cans is the Parasite's job. Offload moves Charge into a grappled enemy as direct damage — ignoring Value and Absorb entirely (tags — see Attacks &amp; the Shell Clock) — roughly 3 armor-proof damage a round against the Furnace's 0.1 through Plate. Your detox bill, paid in their blood."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "How long a Burn stack lasts is not stated — whether stacks clear at encounter's end, on vent, or persist. Reactor Heart's free Burn at encounter start implies per-encounter tracking, but nothing prints it. The interface line also says stacks “cap by tier,” yet the only printed cap raise is Combustion Lining's 2."
+    },
+    {
+      "type": "heading",
+      "text": "The Bill"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every tree pays a creditor; the Leech pays the doc. A hot mission runs about 6 Saturation past the free vent — roughly 300 credits of street-tier detox against a 500-credit base pay. The Furnace tithes some 60% of its income to run hot, or banks the Saturation toward thresholds and pays later, with interest. The thresholds and the detox lane live on Charge &amp; Saturation."
+    },
+    {
+      "type": "heading",
+      "text": "Counterplay, Printed"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The bill</strong> — the Furnace dies to its own ledger in long campaigns without Grit investment or a Street Doc."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Range</strong> — the Parasite starves at range; everything here wants a body in hand."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Discipline</strong> — squads that never let a member be grappled alone starve the Parasite."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Hide</strong> — Siphon Fangs' base version only feeds on Flesh; fighting big game as a Parasite is hungry work until Marrow Tap."
+    },
+    {
+      "type": "heading",
+      "text": "The Catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install costs follow the standard ladder (Trees Overview). Nineteen augments; Tier 5 means choosing ten. Capstones are marked; one purchase is a trade-off."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Shared entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Leech Manifold",
+          "cost": "250 cr",
+          "effect": "Unlocks Burn — 1 AP: gain 2 Charge and 1 Burn stack (max 1). Your veins learn to carry it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Furnace Branch — Burn Yourself for Output"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Furnace branch",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Combustion Lining",
+          "cost": "250 cr",
+          "effect": "+1 max Burn stack (2 total at this tier's gate)."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Furnace branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Heat Bleed",
+          "cost": "500 cr",
+          "effect": "While at 1+ Burns, your melee attacks add +1 damage die."
+        },
+        {
+          "name": "Stoked Reflexes",
+          "cost": "500 cr",
+          "effect": "While at 2+ Burns, +1 band of movement per turn."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Furnace branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Furnace Core",
+          "cost": "800 cr",
+          "effect": "Your Burn dice cap rises: +1 damage die per Burn, max +2 — the Leech ceiling."
+        },
+        {
+          "name": "Ash Sweat",
+          "cost": "800 cr",
+          "effect": "Once per fight, 1 AP: vent 2 Charge mid-combat. The only in-fight valve — it visibly steams."
+        },
+        {
+          "name": "Overdrive Governor",
+          "cost": "800 cr",
+          "effect": "Trade-off. Burn grants +3 Charge instead of +2, and +1 flat damage per Burn. The discount is the extra heat."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Furnace branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Flash Vent",
+          "cost": "1,200 cr",
+          "effect": "2 AP: dump all your Charge — enemies in your Adjacent cluster take direct damage equal to the Charge dumped (max 6). Heat goes somewhere."
+        },
+        {
+          "name": "Cinder Plating",
+          "cost": "1,200 cr",
+          "effect": "While at 2+ Burns, personal Absorb 1. The heat haze between you and the world."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Furnace branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Reactor Heart",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Start every encounter with 1 free Burn, and your free vent at encounter's end is your Grit bonus +2. You are no longer borrowing the heat. You live there."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Parasite Branch — Make Others Pay"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Parasite branch",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Siphon Fangs",
+          "cost": "250 cr",
+          "effect": "Your melee hits against Flesh targets heal you 1 (max 3 per turn)."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Parasite branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Tick Anchor",
+          "cost": "500 cr",
+          "effect": "Advantage on grapple contests against targets you damaged this turn."
+        },
+        {
+          "name": "Hungry Wiring",
+          "cost": "500 cr",
+          "effect": "When an Adjacent enemy dies, recover 2 HP and shed 1 Charge into the corpse."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Parasite branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Offload",
+          "cost": "800 cr",
+          "effect": "2 AP: transfer up to 3 Charge into a grappled or pinned enemy as direct damage — it ignores Value and Absorb entirely. Your detox bill, paid in their blood."
+        },
+        {
+          "name": "Marrow Tap",
+          "cost": "800 cr",
+          "effect": "While grappling, Siphon Fangs heals 2 per hit and works on any body type."
+        },
+        {
+          "name": "Saprophage Filter",
+          "cost": "800 cr",
+          "effect": "Carving checks on your own kills gain advantage, and glands you harvest personally grade +1. The body knows what it wants."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Parasite branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Glut Reserve",
+          "cost": "1,200 cr",
+          "effect": "Overheal from your siphons becomes temp HP (cap 6)."
+        },
+        {
+          "name": "Contagious Heat",
+          "cost": "1,200 cr",
+          "effect": "Enemies that start their turn grappled by you gain 1 Charge; at 4+ Charge they take the Seared condition (see Conditions). You are a disease with a salary."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Contagious Heat applies “the Seared condition” with no X value. Seared is numbered (see Conditions); the stack the Leech applies is unspecified."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Parasite branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Apex Parasite",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Offload's range becomes your Adjacent cluster — no grapple needed, one target per turn — and each Offload heals you half the Charge transferred. The food chain has an opinion about where you sit now."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Your wellness provider has flagged recurring saturation in your quarterly screen. A payment plan is available. Thank you for running hot on the company's behalf."
     }
   ]
 }
