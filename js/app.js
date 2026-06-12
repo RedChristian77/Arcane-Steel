@@ -40,8 +40,14 @@ function esc(text) {
 }
 
 async function loadManifest() {
-  const resp = await fetch('data/manifest.json', { cache: 'no-cache' });
-  window._manifest = await resp.json();
+  try {
+    const resp = await fetch('data/manifest.json', { cache: 'no-cache' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    window._manifest = await resp.json();
+  } catch (e) {
+    if (window._BUNDLE) { window._manifest = window._BUNDLE.manifest; }
+    else throw e;
+  }
   return window._manifest;
 }
 
@@ -65,11 +71,15 @@ async function loadPage(pageId) {
   if (!entry) return null;
   try {
     const resp = await fetch('data/' + entry.file, { cache: 'no-cache' });
-    if (!resp.ok) return null;
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     pageCache[pageId] = data;
     return data;
   } catch (e) {
+    if (window._BUNDLE && window._BUNDLE.pages[pageId]) {
+      pageCache[pageId] = window._BUNDLE.pages[pageId];
+      return pageCache[pageId];
+    }
     console.error('Failed to load page:', pageId, e);
     return null;
   }
