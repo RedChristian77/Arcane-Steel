@@ -10,10 +10,12 @@
    ONE-PLACE LAW: this file owns ZERO catalog numbers. Résumés, traits,
    kits, techniques, weapons, armor, species and tree entry augments are
    all PARSED FROM THE BOOK at runtime. The only rules hard-coded here
-   are the four creation rulings + derived block from
+   are the five creation rulings + derived block from
    design/rebuild-2026-06/arcane-steel-creation-rulings-v1.md, which are
    the builder's binding spec (array 8/7/6/5/4, point-buy 30 / min 3 /
-   max 8, the canonical bonus table, HP = 16 + 2×Grit bonus, etc.).
+   max 8, the canonical bonus table, HP = 16 + 2×Grit bonus, and
+   RULING 5 — new canon: kit Channelers arrive knowing TWO Tier-1
+   patterns of their choice, 3 rounds banked each, Charge 0).
 
    Part 1 (parsers) is pure and shared with tools/test-builder-catalogs.js
    via module.exports; the browser app begins after the node guard.
@@ -219,6 +221,24 @@ function parseArmor(page) {
   });
 }
 
+/* --- pc-casting-patterns.json: "Pattern | Tier | Fire | Delivery | Effect" —
+   the launch ten. RULING 5 (new canon): kit Channelers arrive knowing TWO
+   Tier-1 patterns of their choice, 3 rounds banked each, Charge 0. --- */
+function parsePatterns(page) {
+  var t = findTable(page, 'Pattern');
+  if (!t) return [];
+  return t.rows.map(function (r) {
+    return {
+      id: slug(r[0]),
+      name: clean(r[0]),
+      tier: parseInt(clean(r[1]), 10),
+      fire: clean(r[2]),
+      delivery: clean(r[3]),
+      effect: clean(r[4])
+    };
+  });
+}
+
 /* --- races-overview.json: "Species at a Glance" table — name + 1-line summary.
    NOTE: the registry prints SEVEN playable species. --- */
 function parseSpecies(page) {
@@ -290,6 +310,10 @@ function validateCatalogs(cat) {
   });
   if (cat.attackStats.length < 4) issues.push('attack-stat table: expected ≥4 classes, parsed ' + cat.attackStats.length);
   expect('armor tiers', cat.armor.length, 7);
+  expect('patterns (the launch ten)', cat.patterns.length, 10);
+  if (cat.patterns.length && cat.patterns.filter(function (p) { return p.tier === 1; }).length < 2) {
+    issues.push('Tier-1 patterns: kit Channelers pick two (RULING 5), parsed fewer than 2');
+  }
   expect('tree entry augments', Object.keys(cat.treeEntries).length, 10);
   expect('species (registry prints seven)', cat.species.length, 7);
   cat.kits.forEach(function (k) {
@@ -329,6 +353,7 @@ function buildCatalogs(byId) {
     weapons: weaponsParsed.weapons,
     attackStats: weaponsParsed.attackStats,
     armor: parseArmor(byId['pc-equipment-armor']),
+    patterns: parsePatterns(byId['pc-casting-patterns']),
     species: parseSpecies(byId['races-overview']),
     treeEntries: treeEntries,
     treePages: treePages,
@@ -340,6 +365,7 @@ function buildCatalogs(byId) {
   cat.techniquesById = indexBy(cat.techniques);
   cat.weaponsById = indexBy(cat.weapons);
   cat.armorById = indexBy(cat.armor);
+  cat.patternsById = indexBy(cat.patterns);
   cat.speciesById = indexBy(cat.species);
   return cat;
 }
@@ -348,7 +374,7 @@ var Parsers = {
   stripTags: stripTags, clean: clean, slug: slug, parseCr: parseCr, bonusOf: bonusOf,
   parseResumes: parseResumes, parseTraits: parseTraits, parseKits: parseKits,
   parseTechniques: parseTechniques, parseWeapons: parseWeapons, parseArmor: parseArmor,
-  parseSpecies: parseSpecies, parseTreeEntry: parseTreeEntry,
+  parseSpecies: parseSpecies, parsePatterns: parsePatterns, parseTreeEntry: parseTreeEntry,
   resolveAugmentInTree: resolveAugmentInTree, attackStatFor: attackStatFor,
   treeIdForKit: treeIdForKit, validateCatalogs: validateCatalogs, TREE_PAGE_IDS: TREE_PAGE_IDS,
   buildCatalogs: buildCatalogs, indexBy: indexBy
@@ -367,6 +393,7 @@ var STAT_KEYS = ['chrome', 'reflex', 'grit', 'interface', 'edge'];
 var STAT_LABELS = { chrome: 'Chrome', reflex: 'Reflex', grit: 'Grit', interface: 'Interface', edge: 'Edge' };
 var ARRAY_VALUES = [8, 7, 6, 5, 4];          /* RULING 1 */
 var PB_BUDGET = 30, PB_MIN = 3, PB_MAX = 8;  /* RULING 1, point-buy variant */
+var PATTERN_PICKS = 2, PATTERN_BANKED = 3;   /* RULING 5 — kit Channeler arrival state */
 var AUTOSAVE_KEY = 'as-builder-v2-autosave';
 var SLOTS_KEY = 'as-builder-v2-slots';
 
@@ -380,7 +407,7 @@ function defaultState() {
     statMode: 'array',
     stats: { chrome: null, reflex: null, grit: null, interface: null, edge: null },
     pb: { chrome: 3, reflex: 3, grit: 3, interface: 3, edge: 3 },
-    kit: null, technique: null, techniqueOldHands: null,
+    kit: null, technique: null, techniqueOldHands: null, patterns: [],
     customTree: null, customWeapons: [], customArmor: null,
     creditsOverride: null
   };
@@ -426,7 +453,7 @@ function loadPage(id) {
 
 function loadCatalogs() {
   var coreIds = ['pc-creation-resumes', 'pc-creation-traits', 'pc-creation-kits', 'pc-techniques',
-    'pc-equipment-weapons', 'pc-equipment-armor', 'races-overview'];
+    'pc-equipment-weapons', 'pc-equipment-armor', 'pc-casting-patterns', 'races-overview'];
   var loadErrors = [];
   function safe(id) { return loadPage(id).catch(function (e) { loadErrors.push(e.message); return null; }); }
   return loadManifest().then(function () {
@@ -466,6 +493,16 @@ function resolveGear(gearStr) {
     notes.push(t);
   });
   return { weapons: weapons, armor: armor, notes: notes };
+}
+
+/* ---------------- RULING 5 — Channeler pattern picks ---------------- */
+function isChannelerKit(kitId) {
+  if (!CAT || !kitId || kitId === 'custom') return false;
+  var k = CAT.kitsById[kitId];
+  return !!(k && k.treeId === 'pc-trees-channeler');
+}
+function tier1Patterns() {
+  return (CAT.patterns || []).filter(function (p) { return p.tier === 1; });
 }
 
 /* ---------------- recompute pipeline — the derived block, exactly as ruled ---------------- */
@@ -511,6 +548,21 @@ function derive() {
   var entry = treeId ? CAT.treeEntries[treeId] : null;
   var augment = entry ? entry.augment : null;
   var treeName = entry ? entry.treeName : null;
+
+  /* RULING 5 — kit Channelers arrive knowing TWO Tier-1 patterns of their
+     choice, 3 rounds banked each, Charge 0 (pre-mission weaves vented). */
+  var isChanneler = !!(kit && kit.treeId === 'pc-trees-channeler');
+  var patternsKnown = [];
+  if (isChanneler) {
+    (state.patterns || []).forEach(function (pid) {
+      var p = CAT.patternsById ? CAT.patternsById[pid] : null;
+      if (p && p.tier === 1 && patternsKnown.length < PATTERN_PICKS) patternsKnown.push(p);
+    });
+    if (patternsKnown.length === PATTERN_PICKS) {
+      /* the structured picks replace the gear line's pattern clause */
+      gearNotes = gearNotes.filter(function (n) { return !(/\bpatterns?\b|rounds banked|charge 0/i.test(n)); });
+    }
+  }
 
   /* Evasion = 3 + Edge bonus + Reflex bonus, capped by worn armor */
   var evRaw = (b.edge != null && b.reflex != null) ? 3 + b.edge + b.reflex : null;
@@ -575,7 +627,8 @@ function derive() {
     fate: fate, scars: scars, saturation: saturation, satFloor: satFloor,
     credits: credits, unspent: unspent, overBudget: overBudget,
     roundCap: roundCap, prepSlots: prepSlots, sinCap: sinCap,
-    accuracy: accuracy
+    accuracy: accuracy,
+    isChanneler: isChanneler, patternsKnown: patternsKnown
   };
 }
 
@@ -602,6 +655,8 @@ function mergeState(loaded) {
     st[g] = out;
   });
   if (!Array.isArray(st.customWeapons)) st.customWeapons = [];
+  if (!Array.isArray(st.patterns)) st.patterns = [];
+  st.patterns = st.patterns.filter(function (id, i, a) { return typeof id === 'string' && a.indexOf(id) === i; }).slice(0, PATTERN_PICKS);
   return st;
 }
 function getSlots() {
@@ -631,6 +686,9 @@ function buildExport() {
   };
   if (state.techniqueOldHands) out.technique_old_hands = state.techniqueOldHands; /* additive: Old Hands' free pick */
   if (d.gearNotes.length) out.gear_notes = d.gearNotes.slice();                   /* additive: unstatted issue items */
+  if (d.isChanneler && d.patternsKnown.length) {                                  /* additive: RULING 5 pattern picks */
+    out.patterns = d.patternsKnown.map(function (p) { return { id: p.id, banked: PATTERN_BANKED }; });
+  }
   return out;
 }
 function doExport() {
@@ -677,6 +735,11 @@ function doImport(data) {
   }
   st.technique = data.technique && CAT.techniquesById[data.technique] ? data.technique : null;
   st.techniqueOldHands = data.technique_old_hands && CAT.techniquesById[data.technique_old_hands] ? data.technique_old_hands : null;
+  st.patterns = [];
+  (Array.isArray(data.patterns) ? data.patterns : []).forEach(function (p) {
+    var id = p && p.id;
+    if (id && CAT.patternsById && CAT.patternsById[id] && st.patterns.indexOf(id) === -1 && st.patterns.length < PATTERN_PICKS) st.patterns.push(id);
+  });
   state = st;
   autosave();
   renderForm();
@@ -871,6 +934,23 @@ function renderKitPanel() {
         ' · UNSPENT ' + (remaining == null ? '—' : remaining.toLocaleString('en-US')) + ' → CREDITS</span></div>';
     }
 
+    if (isChannelerKit(state.kit)) {
+      var t1 = tier1Patterns();
+      html += '<div class="kit-sub"><label class="frm-microlabel">PATTERNS KNOWN — PICK EXACTLY TWO TIER-1 · ' + PATTERN_BANKED + ' ROUNDS BANKED EACH · CHARGE 0 (RULING 5)</label>';
+      if (!t1.length) html += '<div class="cg-gap-note">⚠ no Tier-1 patterns parsed from the Patterns page — see CATALOG PARSE NOTICE.</div>';
+      html += t1.map(function (p) {
+        var sel = state.patterns.indexOf(p.id) !== -1;
+        var lock = !sel && state.patterns.length >= PATTERN_PICKS;
+        return '<label class="cg-row' + (sel ? ' sel' : '') + '" title="' + esc(p.effect) + '">' +
+          '<input type="checkbox" data-pat="' + esc(p.id) + '"' + (sel ? ' checked' : '') + (lock ? ' disabled' : '') + '>' +
+          '<span class="cg-name">' + esc(p.name) + '</span>' +
+          '<span class="cg-spec">T' + p.tier + ' · ' + esc(p.fire + ' · ' + p.delivery) + '</span>' +
+          '<span class="cg-price">' + (sel ? PATTERN_BANKED + ' RDS BANKED' : '—') + '</span></label>';
+      }).join('');
+      html += '<div class="budget-line"><span>SAME PATTERN TWICE NOT ALLOWED</span>' +
+        '<span class="' + (state.patterns.length === PATTERN_PICKS ? 'ok' : 'warn') + '">CHOSEN ' + state.patterns.length + ' / ' + PATTERN_PICKS + '</span></div></div>';
+    }
+
     html += '<div class="kit-sub"><label class="frm-microlabel">FREE TECHNIQUE — ONE TRAINED-TIER PICK, INSTRUCTOR WAIVED (RULING 3)</label>' +
       '<select class="frm-select" id="techSel">' + techniqueOptions(state.technique) + '</select></div>';
 
@@ -887,6 +967,7 @@ function renderKitPanel() {
     inp.addEventListener('change', function () {
       state.kit = this.value;
       state.creditsOverride = null;
+      if (!isChannelerKit(state.kit)) state.patterns = []; /* RULING 5 picks travel with the kit */
       onStateChange(['kit']);
     });
   });
@@ -927,6 +1008,17 @@ function renderKitPanel() {
     inp.addEventListener('change', function () {
       state.customArmor = this.value || null;
       state.creditsOverride = null;
+      onStateChange(['kit']);
+    });
+  });
+  el.querySelectorAll('input[type=checkbox][data-pat]').forEach(function (cb) {
+    cb.addEventListener('change', function () {
+      var id = this.dataset.pat;
+      if (this.checked) {
+        if (state.patterns.indexOf(id) === -1 && state.patterns.length < PATTERN_PICKS) state.patterns.push(id);
+      } else {
+        state.patterns = state.patterns.filter(function (pid) { return pid !== id; });
+      }
       onStateChange(['kit']);
     });
   });
@@ -1048,7 +1140,7 @@ function renderDossier() {
   h += fieldRow('FREE VENT', d.vent == null ? unfilled('PENDING ARRAY') :
     '<strong>' + d.vent + '</strong>' + (d.ventNote ? ' <small>(' + esc(d.ventNote) + ')</small>' : ''));
   h += fieldRow('FATE ROLL', d.fate == null ? unfilled('PENDING ARRAY') :
-    '<strong>d20 ' + fmtBonus(d.fate.mod) + '</strong> <small>vs DC ' + d.fate.dc + '</small>');
+    '<strong>d20 ' + fmtBonus(d.fate.mod) + '</strong> vs 10 + 2 × scars <small>(today: vs ' + d.fate.dc + ')</small>');
   if (d.roundCap != null) h += fieldRow('ROUND CAPACITY', '<strong>' + d.roundCap + '</strong> <small>(4 + Interface)</small>');
   if (d.prepSlots != null) h += fieldRow('PREP SLOTS', '<strong>' + d.prepSlots + '</strong>');
   if (d.sinCap != null) h += fieldRow('SIN CAPACITY', '<strong>' + d.sinCap + '</strong> <small>(Grit bonus + 2)</small>');
@@ -1095,6 +1187,20 @@ function renderDossier() {
     h += stampNone('NO INSTALLS ON FILE') + '<div class="dsr-manifest-count">ENTRIES ON FILE: 0.</div>';
   }
   h += '</div>';
+
+  /* ---- patterns known (RULING 5) — Channelers only; absent otherwise ---- */
+  if (d.isChanneler) {
+    h += '<div class="dsr-sec"><div class="dsr-sec-title">Patterns Known <span class="annot">· licensed IP on file</span></div>';
+    d.patternsKnown.forEach(function (p) {
+      h += fieldRow(esc(p.name.toUpperCase()) + ' · T' + p.tier,
+        '<strong>' + PATTERN_BANKED + ' rounds banked</strong> <small>' + esc(p.fire + ' · ' + p.delivery + ' · ' + p.effect) + '</small>');
+    });
+    for (var pi = d.patternsKnown.length; pi < PATTERN_PICKS; pi++) {
+      h += fieldRow('PATTERN ' + (pi + 1), unfilled('PENDING PICK — SECTION 5'));
+    }
+    h += '<div class="dsr-manifest-count">CHARGE 0 — PRE-MISSION WEAVES VENTED ACROSS DOWNTIME.</div>';
+    h += '</div>';
+  }
 
   /* ---- technique certifications ---- */
   h += '<div class="dsr-sec"><div class="dsr-sec-title">Technique Certifications</div>';

@@ -87,6 +87,15 @@ check('armor carries value/absorb/armor_hp/ev_cap/price',
   armor.every(a => Number.isInteger(a.value) && Number.isInteger(a.absorb) && Number.isInteger(a.armor_hp) && (a.ev_cap === null || Number.isInteger(a.ev_cap)) && Number.isInteger(a.price)));
 check('Padded Jacket cap is uncapped (—)', armor[0] && armor[0].ev_cap === null);
 
+/* --- casting patterns (RULING 5 — the Channeler arrival state) --- */
+const patterns = P.parsePatterns(loadPage('pc-casting-patterns'));
+check('patterns parsed = 10 (the launch ten)', patterns.length === 10, 'got ' + patterns.length);
+check('at least 2 patterns are Tier 1 (kit Channelers pick two)',
+  patterns.filter(p => p.tier === 1).length >= 2,
+  'tier 1: ' + patterns.filter(p => p.tier === 1).map(p => p.name).join(', '));
+check('every pattern has a name + integer tier',
+  patterns.every(p => p.name && Number.isInteger(p.tier)));
+
 /* --- species --- */
 const species = P.parseSpecies(loadPage('races-overview'));
 console.log('\n  NOTE: brief said "8 species"; the shipped registry prints SEVEN playable');
@@ -146,7 +155,7 @@ console.log('\n== derived block smoke test (rulings v1) ==');
 
   const byId = {};
   ['pc-creation-resumes', 'pc-creation-traits', 'pc-creation-kits', 'pc-techniques',
-   'pc-equipment-weapons', 'pc-equipment-armor', 'races-overview'].concat(P.TREE_PAGE_IDS)
+   'pc-equipment-weapons', 'pc-equipment-armor', 'pc-casting-patterns', 'races-overview'].concat(P.TREE_PAGE_IDS)
     .forEach(id => { byId[id] = loadPage(id); });
   D.catalogs = P.buildCatalogs(byId);
 
@@ -196,6 +205,31 @@ console.log('\n== derived block smoke test (rulings v1) ==');
   check('Rift-Touched saturation floor 5', d2.saturation === 5 && d2.satFloor === 5);
   check('Custom kit: credits = résumé 250 + unspent 1200 = 1450', d2.credits === 1450, 'got ' + d2.credits);
   check('Custom tree entry: Rift Conduit → Round capacity 4 + Interface (+1) = 5', d2.augment.id === 'rift-conduit' && d2.roundCap === 5, 'got ' + d2.roundCap);
+
+  /* RULING 5 — kit Channeler arrival: two known T1 patterns, 3 rounds banked each, Charge 0 */
+  check('non-Channeler export carries no patterns key', !('patterns' in exp));
+  D.state = {
+    name: 'Weave Smoke', resume: 'enforcer', species: 'human',
+    statMode: 'array',
+    stats: { chrome: 4, reflex: 5, grit: 6, interface: 8, edge: 7 },
+    kit: 'channeler', patterns: ['lance', 'static-veil']
+  };
+  const d3 = D.derive();
+  check('Channeler derive: both Tier-1 picks resolve from the catalog',
+    d3.isChanneler === true && d3.patternsKnown.length === 2 &&
+    d3.patternsKnown[0].id === 'lance' && d3.patternsKnown[1].id === 'static-veil');
+  check('the longer gear string still resolves (Light Weave worn, Focus noted)',
+    d3.armor && d3.armor.id === 'light-weave' && d3.gearNotes.indexOf('Focus') !== -1,
+    'notes: ' + d3.gearNotes.join(' · '));
+  check('pattern clause leaves the gear notes once both picks are made',
+    !d3.gearNotes.some(n => /pattern|rounds banked|charge 0/i.test(n)));
+  const exp3 = D.buildExport();
+  check('export patterns = [{id, banked: 3} × 2], schema unchanged',
+    exp3.schema === 'arcane-steel-character@1' &&
+    Array.isArray(exp3.patterns) && exp3.patterns.length === 2 &&
+    exp3.patterns[0].id === 'lance' && exp3.patterns[1].id === 'static-veil' &&
+    exp3.patterns.every(p => p.banked === 3));
+  check('Channeler Charge stays 0 in export state', exp3.state.charge === 0);
 }
 
 /* --- summary --- */
@@ -206,6 +240,7 @@ console.log('  kits ............... ' + kitsParsed.kits.length + ' (+ Custom, ' 
 console.log('  techniques ......... ' + techniques.length + ' (trained ' + trained.length + ' / advanced ' + advanced.length + ' / master ' + master.length + ')');
 console.log('  weapons ............ ' + weaponsParsed.weapons.length + ' (attack-stat classes: ' + weaponsParsed.attackStats.length + ')');
 console.log('  armor tiers ........ ' + armor.length);
+console.log('  patterns ........... ' + patterns.length + ' (the launch ten)');
 console.log('  species ............ ' + species.length + ' (registry prints seven; brief said 8 — see NOTE)');
 console.log('  tree entries ....... ' + Object.keys(entries).length);
 
