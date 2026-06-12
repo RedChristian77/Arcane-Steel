@@ -1,0 +1,131 @@
+{
+  "id": "pc-combat-attacks",
+  "title": "Attacks & the Shell Clock",
+  "subtitle": "The damage pipeline",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The shell takes it all. The meat takes the rest.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "An attack is one roll: your weapon's accuracy die plus your stat bonus for that weapon (see Weapons), against the target's Evasion."
+    },
+    {
+      "type": "heading",
+      "text": "Evasion"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Evasion = 3 + Edge bonus + Reflex bonus, capped by armor.</strong> Heavier shells cap how high Evasion can sit — every armor row prints its cap (see Armor). Bonuses come from the one bonus table (see Stats & Growth)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Meet or beat Evasion and you hit. Land just under it and you graze — the margin and what a graze pays live on Graze & Crits. Anything lower misses."
+    },
+    {
+      "type": "heading",
+      "text": "The Shell Clock — the damage pipeline"
+    },
+    {
+      "type": "paragraph",
+      "text": "On a hit against a shelled target, run four steps in order. Armor brings two numbers — <strong>Value</strong> (hardness) and <strong>Absorb</strong> (padding) — plus its own <strong>Armor HP</strong>. The ladder of all three lives on Armor."
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Bounce gate.</strong> If your weapon's highest possible damage face is less than or equal to the armor's Value, the hit pings off — no damage, no shell wear. Tags that don't need punch-through (Direct damage) still land."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Punch-through.</strong> Subtract the armor's Value from each damage die you rolled. The sum of what's left is your punch-through."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Route it.</strong> The target's Armor HP loses the full punch-through. The target's flesh takes the punch-through minus Absorb. Absorb is padding — a router that decides how much of each hit reaches the body. It is never a second subtraction from the shell."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Break at 0 Armor HP.</strong> The shell breaks: Value and Absorb are gone, the wearer is exposed at whatever Evasion remains, and the repair bill opens (see Armor for repair and reforge)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Against a shelled target, their Armor HP is the real health bar — an armored fight is a race against the shell clock. And when your own flesh HP runs out, you drop: you are Down, and The Staircase takes over (see The Staircase)."
+    },
+    {
+      "type": "heading",
+      "text": "Damage tags"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tag",
+        "What it does"
+      ],
+      "rows": [
+        [
+          "<strong>Impact</strong>",
+          "Ignores Absorb: full punch-through to flesh <em>and</em> shell. The can caves in around them."
+        ],
+        [
+          "<strong>Pierce</strong>",
+          "Full punch-through to flesh, zero shell wear. The blade finds the gap; the armor never knows."
+        ],
+        [
+          "<strong>Penetration X</strong>",
+          "Treat the armor's Value as X lower when resolving this attack."
+        ],
+        [
+          "<strong>Shred</strong>",
+          "Value loss that sticks: the armor's Value is permanently reduced, as printed on the effect."
+        ],
+        [
+          "<strong>Direct damage</strong>",
+          "Ignores everything — Value, Absorb, Armor HP. It lands even on a bounce."
+        ],
+        [
+          "<strong>Per-die damage bonuses</strong>",
+          "+1 damage per die raises every die <em>and</em> your maximum face, shifting the bounce gate. This is the game's armor-piercing currency."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "What you're hitting: Flesh, Hide, Shell"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Body",
+        "How it takes damage"
+      ],
+      "rows": [
+        [
+          "<strong>Flesh</strong>",
+          "No armor. Damage dice go straight to HP — the fastest math in the game."
+        ],
+        [
+          "<strong>Hide</strong>",
+          "Value only — no Armor HP, no Absorb, and it never breaks. You cannot grind a hide off. Penetration is the hunting tag; Pierce finds no gaps in muscle."
+        ],
+        [
+          "<strong>Shell</strong>",
+          "The full pipeline above, and it breaks. The shell clock is always running."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Pre-rebuild text lists \"Predictable\" as a chip tag that still applies on a bounce; the tag is not defined in the Phase 7 docs."
+    },
+    {
+      "type": "blockquote",
+      "text": "Armor integrity is monitored remotely for your safety. Contractors will be notified when their shell reaches zero. In most cases, they will already know."
+    }
+  ]
+}

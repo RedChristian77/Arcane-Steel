@@ -1,0 +1,72 @@
+{
+  "id": "gm-spire-briefings",
+  "title": "Corp Briefings",
+  "subtitle": "Three different lies",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Three employers describe the same building. None of them are lying. All of them are wrong.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every mission booklet ships with <strong>three briefing variants</strong> \u2014 the same mission as three different employers would brief it. The booklet format lives on Missions & the Spire Map; the faucet this feeds lives on Intel."
+    },
+    {
+      "type": "heading",
+      "text": "What a briefing is, mechanically"
+    },
+    {
+      "type": "paragraph",
+      "text": "A briefing is the free intel faucet: it pre-sets the intel states of nodes on the map skeleton before the squad spends a credit or a Check. It is free, corp-flavored, and <strong>fallible</strong> \u2014 an employer reveals what its bureaucracy knows, and what it knows has holes shaped like its personality. The corp-personality table lives on Intel."
+    },
+    {
+      "type": "heading",
+      "text": "Writing the three variants"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Build the truth first.</strong> Map and node cards, complete (see Missions & the Spire Map)."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Overlay each employer's personality.</strong> For each variant, mark which nodes that bureaucracy would have tagged: Sentinel sees the fights and not the hazards; Wellspring sees the hazards and undercounts the hostiles; the Crowned Table saw everything \u2014 three weeks ago."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Record the errors against the truth.</strong> Nodes the employer missed stay Unknown. Where the briefing is wrong \u2014 stale counts, an undercount, a moved hazard \u2014 write the briefing's claim on your node card next to the real numbers, so the lie stays consistent at the table."
+    },
+    {
+      "type": "paragraph",
+      "text": "The squad's countermeasure is the rest of the intel layer \u2014 bought intel, legwork, in-mission scouting (see Intel). The gap between the briefing and the site is not a prep failure; it is the mission's drama arriving on schedule."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hand each briefing to the players as the employer wrote it \u2014 a corp document, holes and all."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "No worked briefing text or template is printed in the Phase 7 docs \u2014 the structure above (one truth, three overlays, errors recorded against the node cards) is everything that exists. Worked examples land with the mission booklet product line."
+    },
+    {
+      "type": "heading",
+      "text": "The three voices"
+    },
+    {
+      "type": "blockquote",
+      "text": "SENTINEL FIELD PACKET 88-C. Hostile contact probable at marked positions two, five, and nine. Force profiles attached. No environmental advisories apply. Sentinel does not file weather."
+    },
+    {
+      "type": "blockquote",
+      "text": "WELLSPRING SITE SURVEY. Toxicity gradients, structural decay, and rift exposure are annotated in appendices A through F. Personnel estimates: minimal."
+    },
+    {
+      "type": "blockquote",
+      "text": "THE CROWNED TABLE COMMENDS THIS SURVEY TO YOU. Every chamber is described, every route is drawn, and the cartography is, as always, exquisite. The survey is dated. Surely not much has changed."
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "id": "pc-mutations",
+  "title": "Mutations & Grafts",
+  "subtitle": "The dial and the bill",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The body is negotiable. The paperwork is not.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A changed body is bought, built, or owed. Splices are harvested rift-fauna tissue, professionally integrated. Wild grafts are whole organs from specific creatures, grafted intact. And a body that runs hot long enough gets changed whether anyone paid or not. All of it is grounded biology — the strange stays plausible — and all of it prices into the same caps and budget as every augment in the game (the price list and caps — see Trees Overview)."
+    },
+    {
+      "type": "heading",
+      "text": "The Dial"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mutations run at one of three printed settings, declared for the table before they matter. All three are balanced by construction; the economy doesn't change underneath you."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Setting",
+        "What's open"
+      ],
+      "rows": [
+        [
+          "<strong>OFF</strong>",
+          "No mutations at the table. The Saturated threshold deals a scar-class Strain instead. Nothing else changes."
+        ],
+        [
+          "<strong>MARKET</strong> (default)",
+          "Splices purchasable at providers. Wild grafts exist as rare loot and quest material. Saturation-forced mutations active."
+        ],
+        [
+          "<strong>FRONTIER</strong>",
+          "The full pipeline: a Carver harvests the organ, the preservation clock runs, a Street Doc performs, and bespoke grafts get built with the worksheet below — player-built, purchased, or found, as the table sets it."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The OFF setting's swap — \"the Saturated threshold deals a scar-class Strain instead\" — is canon as written, but the Strain's mechanics are not printed in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "Three Doors Into a Changed Body"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Splices (bought):</strong> harvested tissue, professionally integrated. The purchase lane — and the top of the Carver's market."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Wild grafts (crafted or found):</strong> whole organs grafted intact. The free-form lane — see the worksheet below."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Saturation-forced (owed):</strong> hit the Saturated threshold and the bill collects — roll a mutation, now. Nobody chose this one; that's the point. (The threshold itself — see Charge &amp; Saturation.)"
+    },
+    {
+      "type": "heading",
+      "text": "Local or Systemic"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Local grafts</strong> — hearts, limbs, organs — are somatic. They change your body and die with you. <strong>Systemic grafts</strong> — marrow, glands that feed the whole body — can leave the <strong>mutagenic bloodline fingerprint</strong>: rare, quiet, and heritable. A fingerprint surfaces in hiring databases and flags at dome gates — yours, and your children's. It is social texture, not horror; the catalog marks which entries carry it."
+    },
+    {
+      "type": "blockquote",
+      "text": "APPLICANT NOTICE: Biometric screening is a standard and painless part of onboarding. Applicants presenting heritable non-baseline signatures will be processed under the family-account schedule. We thank you in advance for your transparency."
+    },
+    {
+      "type": "heading",
+      "text": "The Procedure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Installation is the d20's second customer. The Fate Roll has exactly two uses in this game — dying, and this (the death use lives on The Staircase). For a splice or graft, the surgeon's table rolls:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fate Roll: d20 + Grit bonus + provider modifier vs the graft's Risk DC.</strong> A natural 20 always integrates."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Risk tier",
+        "DC"
+      ],
+      "rows": [
+        [
+          "Risk I",
+          "Standard 8"
+        ],
+        [
+          "Risk II",
+          "Hard 11"
+        ],
+        [
+          "Risk III",
+          "Extreme 14"
+        ],
+        [
+          "Risk IV",
+          "Inhuman 17"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Risk tiers reuse the named DC ladder, on the d20 (the ladder — see The Two Rolls)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Provider modifiers:</strong> street −1 · clinic +1 · corp +3 — with corp paperwork, which is its own price."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Blooming:</strong> if your Saturation has reached Blooming, roll twice and take the worse (the threshold — see Charge &amp; Saturation)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Result",
+        "Outcome"
+      ],
+      "rows": [
+        [
+          "Meets or beats the Risk DC",
+          "Clean integration."
+        ],
+        [
+          "Miss by 1–3",
+          "<strong>Minor complication:</strong> a cosmetic tell, plus an extra Saturation-floor increase."
+        ],
+        [
+          "Miss by 4–7",
+          "<strong>Major complication:</strong> a condition until treated, and the graft site takes an injury."
+        ],
+        [
+          "Miss by 8+",
+          "<strong>Rejection crisis:</strong> the graft is lost and the body takes a scar — it remembers."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The minor complication's \"extra Saturation floor\" is canon, but the size of the increase is not printed in the rebuild docs."
+    },
+    {
+      "type": "paragraph",
+      "text": "What the odds feel like: at Grit +2, a Risk II splice at a clinic runs about 65% clean, 15% minor, 20% major, and 0% rejection; the same splice on the street runs 55/15/20/10. Competence and money move the same dial, about five points a step. A Risk IV graft at a street doc is a 40% rejection."
+    },
+    {
+      "type": "heading",
+      "text": "The Floor — What Every Mutation Costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Every mutation raises your Saturation floor by 5.</strong> You can never detox below your floor. The biology is rift-touched now; the body lives permanently closer to its thresholds. Three mutations is a floor of 15 — halfway to nothing good before breakfast. (Thresholds and detox — see Charge &amp; Saturation.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beyond the floor, every entry carries three lines: a <strong>benefit</strong> (priced on the augment price list — see Trees Overview), a <strong>cost</strong> (mandatory and mechanical), and a <strong>scanner line</strong> — what a dome checkpoint sees. Domes scan. A mutation is a paperwork problem before it is anything else."
+    },
+    {
+      "type": "heading",
+      "text": "The Splice Catalog (Market)"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Splice",
+        "Risk",
+        "Benefit",
+        "Cost (beyond the +5 floor)",
+        "Scanner line"
+      ],
+      "rows": [
+        [
+          "<strong>Hound Tapetum</strong> (eyes)",
+          "I",
+          "Ignore darkness/dim accuracy penalties",
+          "−1 accuracy in full daylight unshaded",
+          "eyes shine on camera"
+        ],
+        [
+          "<strong>Boar Dermal Banding</strong>",
+          "I",
+          "+2 HP; Impact punch-through vs you −1",
+          "visible ridging; armor refitting fee",
+          "dermal scan flags"
+        ],
+        [
+          "<strong>Crawler Chitin Patch</strong>",
+          "II",
+          "+2 Armor HP on any worn shell (body conforms)",
+          "molt: one downtime per arc or −1 EV",
+          "non-human keratin"
+        ],
+        [
+          "<strong>Howler Larynx</strong>",
+          "II",
+          "War Face technique built in, 2/fight",
+          "voice never sounds quite right again",
+          "acoustic signature"
+        ],
+        [
+          "<strong>Strider Tendons</strong>",
+          "II",
+          "Climb at full speed; falls ≤2 bands cost nothing",
+          "constant caloric tick (+10 cr upkeep)",
+          "gait analysis flags"
+        ],
+        [
+          "<strong>Glowcap Symbiont</strong>",
+          "II",
+          "Rations halved; +1 on Saturation-resist Checks",
+          "skin luminesces under dome light",
+          "you <em>are</em> the scanner line"
+        ],
+        [
+          "<strong>Bloomtusk Marrow</strong> ⚠ <em>systemic</em>",
+          "III",
+          "+4 HP; injuries heal one downtime faster",
+          "double rations; <strong>bloodline fingerprint</strong>",
+          "flagged at every gate, and so are your children"
+        ],
+        [
+          "<strong>Null Gland</strong>",
+          "III",
+          "+1 on contests vs patterns and Intrusion",
+          "your own Weave checks at disadvantage",
+          "reads as a dead zone — which is its own flag"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Market level makes splices \"purchasable at providers,\" but the rebuild docs print no credit prices for the catalog — only Risk tiers and mandatory costs. Purchase pricing is unwritten."
+    },
+    {
+      "type": "heading",
+      "text": "Mutation Rolls at Saturated"
+    },
+    {
+      "type": "paragraph",
+      "text": "When your Saturation crosses the Saturated threshold (see Charge &amp; Saturation), you roll on the wild table immediately. No provider, no Fate Roll, no choice — this is the unpaid-debt lane, and the debt collects on its own schedule."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The wild mutation table — what you actually roll on at Saturated, and what a forced result looks like — is named in the rebuild docs but never printed."
+    },
+    {
+      "type": "heading",
+      "text": "Wild Grafts — the Worksheet (Frontier)"
+    },
+    {
+      "type": "paragraph",
+      "text": "At Market level, wild grafts turn up as rare loot and quest material. At Frontier, you build them. A graft comes from any creature, in five lines:"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Donor capability:</strong> name the one thing the creature does that the organ carries. The creature's signature line is the menu."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Price the benefit</strong> on the augment price list (see Trees Overview). Caps apply; capped currencies come as +1 conditional, the way mods price them (see Mods)."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Mandatory cost:</strong> one mechanical drawback in the same domain. The organ wants what the animal wanted — appetite, light, heat, motion."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Risk tier</strong> = the creature's tier. <strong>Systemic?</strong> Does it feed the whole body — marrow, glands? If yes: it carries the bloodline fingerprint line."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Scanner line:</strong> what a dome checkpoint sees."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Worked example — Char Hound heart (Risk II, local):</strong> benefit +1 RP — a reactive cardiovascular system; shares the RP cap, audited. Cost: the resting heart rate of a sprinting animal — double rations, and a Resilience Check vs Rattled when ambushed, because the heart answers before you do. Scanner: cardiac signature reads as fauna; checkpoint medics get <em>interested</em>."
+    },
+    {
+      "type": "paragraph",
+      "text": "The preservation clock from carving applies to every donor organ — the heart is worth more than the rest of the hound, for about six hours. (The harvest, the clock, and the market — see Carver.)"
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE SCAR LAW'S COUSIN",
+      "text": "Nothing in this catalog touches the Fate Roll's death math. The body you build can make you strange — never safe."
+    }
+  ]
+}

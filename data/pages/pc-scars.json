@@ -1,0 +1,89 @@
+{
+  "id": "pc-scars",
+  "title": "Scars",
+  "subtitle": "Treat it, carry it, weaponize it",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The scar is the receipt. Death came to collect, and the body paid in the only currency it prints.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Scars are where death goes instead of happening. Every drop you survive leaves one — The Staircase covers how. This page covers what the debt costs, and the three things you can do with it."
+    },
+    {
+      "type": "blockquote",
+      "text": "Scar remediation is classified as elective care. Untreated scarring does not affect your ability to work. It affects only your ability to continue doing so. Clinics are standing by."
+    },
+    {
+      "type": "heading",
+      "text": "A Debt on the Body"
+    },
+    {
+      "type": "paragraph",
+      "text": "A scar is a debt, and you hold it the way you hold any debt: pay it off, make the minimum payments, or borrow against it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Treat it.</strong> Credits and downtime close a scar for good. Treatment is its own line on the budget — it is not training, and every credit and downtime period it eats is one that training does not get. The long bill runs through a Street Doc and the Medicine skill (see Street Doc)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Scar treatment prices — credits and downtime per scar, and how provider quality moves them — are not yet specified."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Carry it.</strong> An untreated scar rides along and worsens your odds: every one you carry raises the DC of your next Fate Roll. The arithmetic lives on The Staircase."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Beyond the worse Fate odds, the specific debuffs a carried scar imposes are not yet specified."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Weaponize it.</strong> One tree in the game wants your scars: Fury converts them into accuracy and damage on a climbing ladder. The ladder and every number on it live on Fury."
+    },
+    {
+      "type": "heading",
+      "text": "Untreated vs Treated"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your sheet keeps two counts: scars carried untreated, and scars paid off. Only the untreated count works against you."
+    },
+    {
+      "type": "bullet",
+      "text": "Every untreated scar raises your Fate Roll DC — formula on The Staircase."
+    },
+    {
+      "type": "bullet",
+      "text": "At zero untreated scars, a drop converts to an automatic scar with no roll (The Staircase). Treating your way back to zero buys back that clean fall."
+    },
+    {
+      "type": "bullet",
+      "text": "A treated scar is closed business: it no longer counts toward your Fate DC."
+    },
+    {
+      "type": "heading",
+      "text": "The Scar Law"
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE SCAR LAW",
+      "text": "Scar-fed power may ease living with scars — never dying with them. Nothing built on your scars can modify the Fate Roll, lower its DC, or change how scars are counted. No augment, no mutation, no exception."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fury makes scars worth carrying. It does not make them safer to carry. If a power seems to promise better odds on the Fate Roll, read it again — it does not, anywhere, ever."
+    },
+    {
+      "type": "paragraph",
+      "text": "Treatment and training drink from the same account. So does everything else you want. Decide what the scar is worth before the next drop decides for you."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "gm-vehicles",
+  "title": "Vehicles",
+  "subtitle": "Shells you sit inside",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Fleet Operations desk reference. A vehicle is a shell with seats. Bill it accordingly.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>A vehicle is a Shell you sit inside.</strong> It uses the body taxonomy directly — <strong>Value / Absorb / Frame HP</strong> (Frame HP is Armor HP under a different name) — plus two stats only vehicles carry. The damage pipeline runs unchanged, and that is the whole rule: zero new combat mechanics. (The pipeline — see Attacks &amp; the Shell Clock.)"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Seal</strong> — exposure rating. How well the cabin keeps the rift out: Saturation ticks, spores, compression stress. The stat that matters in the Char."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Capacity</strong> — seats plus cargo slots. Cargo is what carving produces — the loop closes on Carving."
+    },
+    {
+      "type": "heading",
+      "text": "The Pipeline, On Wheels"
+    },
+    {
+      "type": "paragraph",
+      "text": "Small arms bounce off a truck's Value — the bounce gate does the work for free. Punch-through wears Frame HP. <strong>Absorb is the cabin protecting the occupants:</strong> punch-through past Absorb distributes to the passengers. Anti-vehicle work wants Impact and Penetration for exactly the reasons anti-Plate work does (the doctrine matrix — see Weapons)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Frame break is a mobility kill, not a fireball.</strong> The vehicle is dead in the water, the doors still work, and the fight continues around the wreck."
+    },
+    {
+      "type": "heading",
+      "text": "Driving and Chases"
+    },
+    {
+      "type": "paragraph",
+      "text": "Routine driving is no roll. Stunts, evasion, and terrain are the Check with the driver's dice — Tech for wheels, Reflex stat (see The Twelve Skills). A vehicle's <strong>Evasion = 3 + the driver's Reflex bonus, capped by chassis class</strong> — the armor EV-cap rule, reused."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>A chase is fought over band separation.</strong> Contested driver Checks each round (driver vs driver). Full success opens or closes one band. Partial holds the separation with a complication — terrain, heat, a shot opportunity. Reaching Extreme separation = escaped. That paragraph is the entire chase subsystem; the band grammar does the rest (see Bands &amp; Movement). Chase-relevant perks live on Rigger."
+    },
+    {
+      "type": "heading",
+      "text": "The Chassis Catalog"
+    },
+    {
+      "type": "info-block",
+      "icon": "◈",
+      "title": "Margin Runner",
+      "subtitle": "Bike / buggy",
+      "entries": [
+        {
+          "label": "Shell",
+          "value": "Value 2 / Absorb 1 / Frame 12"
+        },
+        {
+          "label": "Seal",
+          "value": "0"
+        },
+        {
+          "label": "Profile",
+          "value": "Fast; EV cap high",
+          "full": true
+        }
+      ],
+      "desc": "Cheap speed with no cabin worth the name. Whatever the Char is exhaling, a Runner crew is breathing."
+    },
+    {
+      "type": "info-block",
+      "icon": "◈",
+      "title": "Contractor Van",
+      "subtitle": "The squad's home",
+      "entries": [
+        {
+          "label": "Shell",
+          "value": "Value 4 / Absorb 3 / Frame 24"
+        },
+        {
+          "label": "Seal",
+          "value": "2"
+        },
+        {
+          "label": "Profile",
+          "value": "The working default",
+          "full": true
+        }
+      ],
+      "desc": "Seats the squad, hauls the carve, takes a hit. Most margin careers are conducted out of one of these."
+    },
+    {
+      "type": "info-block",
+      "icon": "◈",
+      "title": "Convoy Hauler",
+      "subtitle": "The objective on wheels",
+      "entries": [
+        {
+          "label": "Shell",
+          "value": "Value 6 / Absorb 5 / Frame 40"
+        },
+        {
+          "label": "Seal",
+          "value": "3"
+        },
+        {
+          "label": "Profile",
+          "value": "Slow; the mission objective on wheels",
+          "full": true
+        }
+      ],
+      "desc": "Nobody fights a Hauler for fun. They fight it for what's inside, which is the mission."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Three chassis numbers are unprinted in the rebuild docs: per-chassis EV caps (the Runner is described only as \"high\"), per-chassis Capacity values (seats + cargo slots are defined as the stat, never counted per chassis), and chassis purchase prices."
+    },
+    {
+      "type": "heading",
+      "text": "The Char: A Logistics Economy"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Char compresses distance at roughly <strong>5:1</strong> — a day's drive inside covers a week of overland margin. That single fact generates the whole logistics economy: corp convoys run the compressed routes, smugglers run the unpatrolled ones, and <strong>gate checkpoints</strong> — vehicle-rated, tariffed, inspected — are corp chokepoints where Fixers and Streetwise earn their keep."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift trucking is a mission frame.</strong> A convoy run is a node map at vehicle scale — the same Spire chassis, where the nodes are legs, ambushes, gates, and breakdowns (see Missions &amp; the Spire Map). Routes and gate-craft are Guide trade; wheels and upkeep are Rigger trade (see Guide, Rigger)."
+    },
+    {
+      "type": "blockquote",
+      "text": "GATE ADVISORY: Declared cargo is taxed by weight. Undeclared cargo is taxed by confiscation. Tariff schedules are posted at the checkpoint and remain subject to revision during your approach."
+    },
+    {
+      "type": "heading",
+      "text": "Drains: Frame Fatigue and the Bloom"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each dimension applies its signature drain to vehicles, gated by Seal:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The Char — compression fatigue.</strong> Unsealed or overdriven frames lose Frame HP per leg. The Rigger's maintenance verb is literally what keeps a convoy alive."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The Bloom — biology invades machinery.</strong> Fouling, overgrowth, things nesting in the engine. Untreated, it is a complication generator: every leg, something else is growing where the fuel line was."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crewed upkeep — the Rigger work verb — clears drains between legs.</strong> No Rigger on the crew: pay retail at a yard, or roll the dice on the next leg. (The profession — see Rigger.)"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Drain magnitudes are unprinted: how much Frame HP an unsealed or overdriven Char leg costs, what Seal rating prevents it, and the Bloom's complication procedure all await numbers. Guide perks additionally reference a checkpoint suspicion ladder and convoy-leg risk ticks that no doc prints (flagged on Guide as well)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "Vehicle customization mods are parked pending their own catalog pass: hidden compartments (gate inspections), freezer units (the preservation clock), extended fuel (convoy legs), and Seal upgrades. Rigger perks that price against this catalog (Chop Access, Smuggler's Frame) are flagged on Rigger. Flag at the table; don't improvise the catalog."
+    }
+  ]
+}

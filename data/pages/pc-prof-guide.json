@@ -1,0 +1,119 @@
+{
+  "id": "pc-prof-guide",
+  "title": "Guide",
+  "subtitle": "Routes and maps",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Your maps are the briefing.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Guide owns the <em>where</em>: maps, safe passage, and Char route knowledge — the route faucet, and the convoy economy's native trade alongside the Rigger. It bleeds from Awareness and Rift Lore. The rank ladder reads in routes: a Sideline knows some shortcuts; an Established Guide gets asked for by route; a Name's maps <em>are</em> the briefing — corp logistics buys the survey data and pretends it was theirs."
+    },
+    {
+      "type": "paragraph",
+      "text": "In-world, mission booklets are Guide work product — the map and route cards a squad navigates by are the same artifact a Guide sells (see Intel and Corp Briefings)."
+    },
+    {
+      "type": "info-block",
+      "icon": "✦",
+      "title": "Guide",
+      "subtitle": "The route faucet",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "routes & maps — the where"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Awareness, Rift Lore"
+        },
+        {
+          "label": "Work verb",
+          "value": "survey and sell routes (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "scouting nodes on mission (+1 PP, max 1/mission)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview. Like the Carver, the Guide's office is the job — field scouting levels the trade."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Long Way Round (entry, 4 PP):</strong> opens the trade — the Work verb and the field verb are yours."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trail Sense (T2, 4 PP):</strong> never lost; known terrain travels one period faster."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Route Book (T2, 5 PP):</strong> your maps are sellable assets, and one free node Tag in surveyed territory per mission (intel states live on Intel)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gate Whisperer (T2, 6 PP):</strong> checkpoints read your party one suspicion level lower. <em>Obligation: gate officers expect their gifts.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Char Legs (T2, 5 PP):</strong> compressed-route legs take −1 risk tick (the Char and its 5:1 compression live on Vehicles)."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Briefing Trade (T3, 7 PP):</strong> the squad's entire starting intel upgrades one state. <em>Obligation: corp logistics buys your surveys and pretends they were theirs.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hidden Veins (T3, 6 PP):</strong> once per arc, an unmapped route — bypass one node or gate entirely."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Guide's Name (T3, 8 PP):</strong> expeditions hire you by reputation; your maps are now corp intelligence targets."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Gate Whisperer references a checkpoint suspicion ladder and Char Legs references convoy-leg risk ticks; neither scale is printed in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "What the Guide touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The lane split:</strong> the Guide owns <em>where</em>; the Fixer owns <em>who</em> (see Fixer)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Intel states</strong> (Unknown → Tagged → Scouted → Marked) and the faucets live on Intel; the Guide's perks move the squad along that ladder before boots hit ground."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The convoy economy:</strong> Char routes, legs, and gates live on Vehicles — the Guide knows the way, the Rigger keeps the wheels under it (see Rigger)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Survey data received. Per standard acquisition terms, authorship transfers on payment. You were never here, and neither was the route."
+    }
+  ]
+}

@@ -30,16 +30,70 @@
     },
     {
       "type": "table",
-      "headers": ["Species", "Origin", "Key Bonus", "Key Penalty", "Playstyle"],
+      "headers": [
+        "Species",
+        "Origin",
+        "Key Bonus",
+        "Key Penalty",
+        "Playstyle"
+      ],
       "rows": [
-        ["👤 Human", "Earth", "+1 learning/training", "Worst toxicity resistance", "Flexible generalist — no ceiling, no floor"],
-        ["🌿 Vael", "The Bloom", "+1 toxicity threshold", "-1 in extreme heat", "Scout/support — rift sense, team glue"],
-        ["⛏ Keth", "The Char", "Four arms, +1 Chrome carry", "-1 Edge, -1 Speed", "Tank/mechanic — dense, silent, devastating"],
-        ["🦴 Grunt", "Unknown", "Regen 1 HP/hr, +1 Grit tox", "-1 Initiative", "Frontliner — unkillable, unhurried"],
-        ["👁 Whisper", "The Static", "+2 Interface, rift sense", "-1 social w/ strangers", "Rift specialist — unsettling, irreplaceable"],
-        ["⚡ Flicker", "Multiple", "+1 Initiative, +1 dexterity", "-2 Carry, +50% food", "Skirmisher/medic — fastest alive"],
-        ["🔮 Hollow", "The Grave", "+1 Interface, psycho-immune", "-2 emotional social, no healing", "Analyst — precise, uncomfortable"]
+        [
+          "👤 Human",
+          "Earth",
+          "+1 on study Checks",
+          "Worst toxicity resistance",
+          "Flexible generalist — no ceiling, no floor"
+        ],
+        [
+          "🌿 Vael",
+          "The Bloom",
+          "Charge/Saturation thresholds +1",
+          "-1 on Checks in extreme heat",
+          "Scout/support — rift sense, team glue"
+        ],
+        [
+          "⛏ Keth",
+          "The Char",
+          "Four arms (combat use pending redesign), Chrome +1 for carry",
+          "-1 Edge; -1 Speed (pending redesign)",
+          "Tank/mechanic — dense, silent, devastating"
+        ],
+        [
+          "🦴 Grunt",
+          "Unknown",
+          "Regen 1 flesh HP/hr, free vent +1",
+          "Reflex -1 for initiative",
+          "Frontliner — unkillable, unhurried"
+        ],
+        [
+          "👁 Whisper",
+          "The Static",
+          "Advantage on rift Checks, rift sense",
+          "-1 on social Checks w/ strangers",
+          "Rift specialist — unsettling, irreplaceable"
+        ],
+        [
+          "⚡ Flicker",
+          "Multiple",
+          "Reflex +1 for initiative, +1 on fine-motor Checks",
+          "-2 Carry, +50% food",
+          "Skirmisher/medic — fastest alive"
+        ],
+        [
+          "🔮 Hollow",
+          "The Grave",
+          "+1 on data/pattern Checks, psycho-immune",
+          "Disadvantage on emotional social Checks, no natural healing",
+          "Analyst — precise, uncomfortable"
+        ]
       ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PENDING REDESIGN",
+      "text": "Two Keth entries above reference pre-rebuild mechanics. Four-armed combat (and any interaction with Dual Swing or Titan Grip) is deliberately undesigned — parked by design, do not play as printed. The -1 Speed penalty references the deleted Speed stat (movement is now 1 AP per band). Both await a ruling — see the Keth page."
     },
     {
       "type": "divider"

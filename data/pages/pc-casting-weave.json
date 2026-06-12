@@ -1,0 +1,115 @@
+{
+  "id": "pc-casting-weave",
+  "title": "Weave & Fire",
+  "subtitle": "Banking rounds, paying Charge",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The burn happens once. Everything after is pulling a trigger.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Casting is two acts. <strong>Weaving</strong> is the expensive one — the roll, the heat, the risk — and it banks multiple uses of a pattern. <strong>Firing</strong> spends one banked use as a cheap, clean action. One cast goes a long way."
+    },
+    {
+      "type": "paragraph",
+      "text": "Banked uses are called <strong>rounds</strong>, because patterns load like ammunition and the gun language is not a metaphor: patterns are licensed corporate IP, rounds are inventoried, and unlicensed weaving is the crime. The patterns themselves — stats, licenses, bootlegs — live on Patterns. This page is the grammar that loads and fires them."
+    },
+    {
+      "type": "paragraph",
+      "text": "The grammar adds no new rolls and is the same for anyone who can weave: the Weave is a Check, the Fire is an Attack (both per The Two Rolls). Weaving is unlocked through the Channeler tree's entry augment, Rift Conduit — see the Channeler tree — but nothing on this page changes once you have it."
+    },
+    {
+      "type": "heading",
+      "text": "Weave — 3 AP in combat, or a downtime / rest-node action"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "Pick a pattern you know and make the Check: <strong>Rift Lore accuracy dice + Interface</strong> vs the pattern's Weave DC (pattern stats — see Patterns)."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Full:</strong> bank the pattern's listed rounds. <strong>Partial:</strong> bank them anyway and take +1 extra Charge — it fought you. <strong>Fail:</strong> bank nothing and take +1 Charge; if your Charge sits at or past the misfire threshold (see Charge & Saturation), roll on the Misfire Table below."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "Take Charge equal to the <strong>pattern's tier</strong> — every Weave, full or failed. Weaving in combat is hot work: +1 Charge on top."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Round capacity:</strong> 4 + Interface bonus (bonus table — see Stats & Growth). Rounds persist until fired — weave in downtime or at rest nodes and arrive at the mission loaded."
+    },
+    {
+      "type": "heading",
+      "text": "Fire — the pattern's AP cost, spend 1 round"
+    },
+    {
+      "type": "paragraph",
+      "text": "Firing carries no heat and no risk — the round is stable. The danger lives where the heat lives: at the Weave."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Targeted patterns</strong> are Attacks: your focus's accuracy die + Interface vs Evasion. Crits pay the pattern's beats."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Cluster patterns</strong> roll nothing. They hit the zone."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Self, ally, and touch patterns</strong> are not Attacks — pay the AP, spend the round, the effect happens."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Targeted patterns fire on \"your focus's accuracy die,\" but no rebuild doc defines focus hardware stats — accuracy die, price, or weight. A targeted pattern cannot resolve at the table until the focus gets a gear entry."
+    },
+    {
+      "type": "heading",
+      "text": "Misfire"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Weave that fails while your Charge is at or past the misfire threshold (see Charge & Saturation) misfires. Bootleg patterns open that window earlier (see Patterns). Roll d6:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "d6",
+        "Result"
+      ],
+      "rows": [
+        [
+          "1–2",
+          "<strong>Backlash</strong> — 1d6 direct damage to the weaver, +1 Charge. The pattern bites the hand."
+        ],
+        [
+          "3–4",
+          "<strong>Wild discharge</strong> — the pattern fires now at half effect, centered on a cluster of the GM's choice — including yours."
+        ],
+        [
+          "5",
+          "<strong>Corrupt rounds</strong> — the banked rounds take a quirk: wrong color, wrong sound, one effect line warped (the GM's line). They still fire. Probably."
+        ],
+        [
+          "6",
+          "<strong>Surge</strong> — +2 Charge, the pattern is lost, and everything chrome in your Adjacent cluster flickers. The corps log these."
+        ]
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Weave events at this conduit are logged and reported to the licensing authority as a condition of registration. Surge signatures are non-deletable. Thank you for weaving responsibly."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "AUGMENT HOOKS",
+      "text": "Channeler-tree augments extend this grammar — deeper capacity, hot-loaded rounds, lending rounds to allies, better venting — without changing anything printed here. See the Channeler tree. Charge, venting, and Saturation live on Charge & Saturation."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "pc-creation-resumes",
+  "title": "Résumés",
+  "subtitle": "What you did before",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Employment history received. References checked. Most of them answered.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A résumé is who you were before the contract. It grants exactly three things: two skills at Tier 1, a standing line, and your starting credits."
+    },
+    {
+      "type": "heading",
+      "text": "What a Résumé Grants"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Two skill Tier 1s.</strong> Each is the full tier: the trained dice (The Two Rolls) plus a pick of one of the tier's two features (The Twelve Skills)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>A standing line.</strong> Position in the world — established fiction the table honors. A standing line is never a roll bonus: résumés grant standing and leverage, never numbers."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Starting credits.</strong> Printed in the table below and nowhere else — the Finishing checklist points back here."
+    },
+    {
+      "type": "heading",
+      "text": "The Ten Résumés"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Résumé",
+        "Skill Tier 1s",
+        "Standing",
+        "Credits"
+      ],
+      "rows": [
+        [
+          "<strong>Margin Rat</strong>",
+          "Streetwise, Stealth",
+          "Every fence knows your face, kindly",
+          "250 cr"
+        ],
+        [
+          "<strong>Enforcer</strong>",
+          "Athletics, Awareness",
+          "One gang owes you; one remembers you",
+          "400 cr"
+        ],
+        [
+          "<strong>Researcher</strong>",
+          "Rift Lore, Tech",
+          "Lapsed corp library credentials",
+          "450 cr"
+        ],
+        [
+          "<strong>Corporate Drone</strong>",
+          "Negotiate, Tech",
+          "Your old badge still opens lobby doors",
+          "500 cr"
+        ],
+        [
+          "<strong>Rift Pioneer</strong>",
+          "Rift Lore, Harvesting",
+          "Gate crews wave you through",
+          "400 cr"
+        ],
+        [
+          "<strong>Combat Medic</strong>",
+          "Medicine, Resilience",
+          "Contractors trust you on sight",
+          "400 cr"
+        ],
+        [
+          "<strong>Black Market Mechanic</strong>",
+          "Crafting, Streetwise",
+          "Parts find you",
+          "450 cr"
+        ],
+        [
+          "<strong>Disgraced Executive</strong>",
+          "Negotiate, Awareness",
+          "One Leverage tag on a named corp officer — and theirs on you",
+          "600 cr"
+        ],
+        [
+          "<strong>Spine Runner</strong>",
+          "Athletics, Stealth",
+          "Couriers' guild safehouse access",
+          "350 cr"
+        ],
+        [
+          "<strong>Wasteland Scavenger</strong>",
+          "Harvesting, Resilience",
+          "You can always find water, shelter, and a buyer",
+          "300 cr"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The Disgraced Executive starts holding a Leverage tag — and being held by one. Leverage tags are created and spent by Negotiate features (The Twelve Skills), but the tag's own rules — what holding one does, and what it costs to be on the wrong end of one — are not printed in the rebuild docs."
+    },
+    {
+      "type": "blockquote",
+      "text": "Gaps in employment history are normal and nothing to be ashamed of. They have been independently filled in by our records department."
+    }
+  ]
+}

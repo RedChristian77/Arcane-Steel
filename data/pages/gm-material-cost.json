@@ -1,0 +1,92 @@
+{
+  "id": "gm-material-cost",
+  "title": "The Material Cost Law",
+  "subtitle": "Half price, paid in components and calendar",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Procurement desk. List price is for people who only bring money.</em>"
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE LAW",
+      "text": "Making, repairing, or installing it yourself costs 50% of list price, paid in components — and requires the capability, the stated time, and the components. All three. Every time."
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>The capability.</strong> A feature, perk, or facility that says you can: Crafting features (The Twelve Skills), a Tinkerer's bench (Tinkerer), a Workshop (The Base). No capability, no discount — that's what the trades are selling."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>The stated time.</strong> The calendar is the real tax. Crafting periods compete with training, treatment, and profession work — the 50% discount is purchased with downtime that could have become anything else."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>The components.</strong> Half of list, in parts. Where the parts come from is the next section, and it is most of the game."
+    },
+    {
+      "type": "heading",
+      "text": "Sourcing: Dome vs Margin"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Domes sell components at price; margins make sourcing them fiction.</strong> Inside the wall, the 50% law is a shopping trip. Outside it, the components rate is the start of a story — legwork Checks, Streetwise, the gray market, a Fixer who knows a guy. The margin crafter's real cost is the finding."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Salvage substitutes.</strong> Salvaged and harvested components substitute at GM-assessed value — loot is liquidity. Carve yields are components (hides to the armor table, chitin to the bench, glands to the pharmacy — see Carving). Assess the value, apply it against the components bill, and the corpse becomes the discount."
+    },
+    {
+      "type": "heading",
+      "text": "Licensed vs Bootleg"
+    },
+    {
+      "type": "paragraph",
+      "text": "Licensed designs self-crafted at 50% <strong>assume you hold the license.</strong> Without it, you are producing bootleg-grade work, drawbacks included — the discount doesn't launder the provenance. (License prices are named but never costed — flagged on Patterns.)"
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "label": "THE MARGIN'S FULL STACK",
+      "text": "Bootleg recipe + your own press = a quarter of corp list — and it jams on a natural 1. That is the whole bargain, printed where both parties can read it: the corp's price buys the corp's reliability, and the margin's price buys the margin's."
+    },
+    {
+      "type": "heading",
+      "text": "What the Law Touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Armor repair and reforge</strong> — the break economy prices by this law (see Armor; the trade — see Tinkerer, whose field patches run material cost +50%)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The bench</strong> — mods, consumables, handloads, installs (Crafting — see The Twelve Skills; catalogs on Mods and Consumables &amp; Ammo)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The pharmacy</strong> — a Street Doc's Pharmacopoeia crafts antidotes and stims at material cost (see Street Doc)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Bootleg patterns</strong> — pressing your own is a crafting question, not a casting one; the jam risk above is the casting side's inheritance (see Patterns)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Hide armors</strong> — carve grades enter the crafting table as components (see Carving)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The law requires \"the stated time,\" but no catalog prints per-item crafting or repair times. And weapon and mod list prices are themselves unprinted (flagged on Weapons and Mods) — 50% of an unprinted number is still unprinted."
+    },
+    {
+      "type": "blockquote",
+      "text": "VENDOR NOTICE: Components purchased through authorized dome outlets include full provenance documentation. Components purchased elsewhere include a story. Auditors price both."
+    }
+  ]
+}

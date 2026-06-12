@@ -9,10 +9,22 @@
       "title": "Human",
       "subtitle": "Origin: Earth · The Relentless Learner",
       "entries": [
-        {"label": "Origin", "value": "Earth"},
-        {"label": "Population", "value": "Dominant — outnumber all non-humans combined"},
-        {"label": "Lifespan", "value": "80–120 years with augmentation"},
-        {"label": "Build", "value": "Variable — baseline sapient species"}
+        {
+          "label": "Origin",
+          "value": "Earth"
+        },
+        {
+          "label": "Population",
+          "value": "Dominant — outnumber all non-humans combined"
+        },
+        {
+          "label": "Lifespan",
+          "value": "80–120 years with augmentation"
+        },
+        {
+          "label": "Build",
+          "value": "Variable — baseline sapient species"
+        }
       ]
     },
     {
@@ -20,9 +32,9 @@
       "label": "Playable Adjustments",
       "style": "accent",
       "items": [
-        "Adaptive: +1 to all learning and training checks",
+        "Adaptive: +1 on study Checks (downtime skill learning)",
         "No stat penalties — baseline species, all stats start at standard array",
-        "Standard toxicity thresholds (no resistance bonus)",
+        "Standard Charge and Saturation thresholds (no species adjustment)",
         "Standard starting credits"
       ]
     },
@@ -31,8 +43,7 @@
       "label": "Strengths",
       "style": "teal",
       "items": [
-        "Fastest learners of any sapient species — skill XP gains +10%",
-        "Adaptive: +1 to all learning and training checks",
+        "Adaptive: +1 on study Checks (downtime skill learning)",
         "No biological penalties — pure flexibility",
         "Full access to all augmentation technology (designed for human biology)",
         "Social advantage in corporate territories — humans run everything"
@@ -40,10 +51,16 @@
     },
     {
       "type": "callout",
+      "style": "rust",
+      "label": "PENDING REDESIGN",
+      "text": "Pre-rebuild line preserved, not in play: \"Fastest learners of any sapient species — skill XP gains +10%\". Skill XP no longer exists — skill learning now runs on LP earned through study Checks — and converting a percentage bonus into LP terms is a design decision. Awaits a ruling."
+    },
+    {
+      "type": "callout",
       "label": "Weaknesses",
       "style": "rust",
       "items": [
-        "Worst toxicity resistance of any sapient species — standard thresholds with no racial bonus",
+        "Worst toxicity resistance of any sapient species — standard Charge and Saturation thresholds with no species bonus",
         "No innate magical or dimensional abilities",
         "No natural weapons, armor, or environmental resistances",
         "Biologically fragile compared to every other playable species"

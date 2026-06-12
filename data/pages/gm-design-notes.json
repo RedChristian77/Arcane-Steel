@@ -1,0 +1,193 @@
+{
+  "id": "gm-design-notes",
+  "title": "Design Notes",
+  "subtitle": "All the why",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The one page where the architects talk. Everything else in this book is the building.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is the only page in either Core where design rationale lives. The Player Core teaches, the GM Core operates, and the why lives here — synthesized from the Phase 0 diagnosis and the rebuild master plan. Nothing on this page is a rule; every law quoted below is printed and binding on the page that owns it."
+    },
+    {
+      "type": "heading",
+      "text": "The Constitution"
+    },
+    {
+      "type": "paragraph",
+      "text": "Six values were locked before the rebuild began. Everything else was free to reshape; these were not:"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "Character creation produces uniquely playing characters."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "Combat is fluid, not fast — fights can breathe; the enemy is grind and dead turns."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "Every build works; trade-offs are honest. “Broken” late-game states reached through legitimate grinding are intentional."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "Credits are XP. The economy is the progression system and the pressure system."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "The system is the villain — corps act on structural logic, never scheming."
+    },
+    {
+      "type": "numbered",
+      "num": 6,
+      "text": "Lore and foundational ideology preserved."
+    },
+    {
+      "type": "heading",
+      "text": "What Was Broken"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The old handbook was three rulebooks wearing one cover.</strong> The Phase 0 diagnosis documented fifteen direct contradictions live on the site at once — two stat-bonus tables, two Evasion formulas, three spatial grammars, two dual-wield rules, two casting resolutions, two toxicity tracks — plus a malformed JSON file silently killing the single most-read page. The verdict, quoted: “the repo cannot be patched into coherence; patching is what produced this.” Hence the ground-up rebuild."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Four resolution grammars, one undefined.</strong> Weapon rolls, 2d6 bands, d20-vs-DC, and bare contested checks whose dice were never defined anywhere — Grapple, Shove, and Throw all rested on a primitive no page printed."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The check math broke at the top.</strong> At the old +4/+5 bonuses, failure — and most partial-success drama — ceased to exist (2.7% and 0% fail rates in simulation)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The light-weapon trap.</strong> The advertised all-in flurry dealt under 1 damage per turn against the most common 400-cr armor. Defensible as doctrine; sold to players as a damage option. The rebuild keeps the per-die identity and prints the doctrine honestly."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Arithmetic load concentrated exactly where fights bogged down</strong> — per-die subtraction at high attack counts. The bounce gate exists to delete the wasted math."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Five customization layers with leaking lanes</strong> — skills replicating augments, patched at the table with “take the better.” The rebuild enforces lanes as a content rule: every entry does something its lane owns and no other lane can."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>And the finding that named the spine:</strong> “the AP economy and the credit economy are the same design at two timescales. In combat you spend a fixed budget and every spend forecloses another; in downtime you spend a fixed budget and every spend forecloses another. Scars, toxicity, repair, rent are the couplers that convert combat outcomes into economic pressure. That's the game.” The rebuild's job was to make every subsystem visibly an instance of that spine — and delete everything that isn't."
+    },
+    {
+      "type": "heading",
+      "text": "The Principles"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Two rolls, one grammar.</strong> Everything in the game is The Roll — accuracy dice + stat vs a target — or The Fate Roll, the d20 reserved for death and splice complications. “One grammar, whole game.” “Scarcity is the drama.” The old gate text was deleted because the dice are the gate: untrained 1d4s cannot reach Hard 11, and no rule has to say so."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The staircase law.</strong> Quoted in full: “no mechanic takes a character from fine to dead without player-owned exits between (shell cracks → break → downed → Fate). Death is purchased by declining exits, never dealt by variance.” Its keystone: “scars are where death goes instead of happening.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The scar law.</strong> “Scar-fed power may ease <em>living</em> with scars, never <em>dying</em> — nothing touches the Fate Roll, its DC, or scar accounting. Ever.” This is the one untouchable line in the content rules; every scar-powered entry in every catalog is audited against it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The one-place law.</strong> Every number lives on exactly one page; every other page references it by name. The diagnosis traced rows 1–13 of the contradiction table to hand-copied quick references — so quick references are now generated from source tables, never copied."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The funnel law.</strong> “The base owns the floor of every funnel; people own the top” — gym to 6, Infirmary routine care, Workshop patches; the expensive bands stay relationships. It exists so squad property amplifies the professions instead of replacing them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The three power laws.</strong> <em>Uptime</em> — an unconditional effect prices one tier above its conditional twin. <em>Trade-off</em> — a real, trackable cost buys one tier early. And the scar law, above. Each tree owns exactly one ceiling, so no build stacks two."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>No new grammars.</strong> The module discipline, quoted: “Everything resolves through machinery that already exists — the two rolls, the three-body taxonomy, the five bands, the drains. If a module needs a new die mechanic, the module is wrong.” Vehicles are Shells. Chases are the band system. Carving is the Check. That was the test, and it held."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The document architecture.</strong> Player Core teaches in dependency order with zero design notes; GM Core holds the dials, the opposition, and this page; the Annex holds budgets and templates. The diagnosis called this “the single biggest clarity move” — and it “costs zero mechanics.”"
+    },
+    {
+      "type": "heading",
+      "text": "What the Simulation Changed"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Phase 6 career sim (2,500 careers × 25 missions × 7 archetypes) existed to find where per-fight balance and career-length balance disagree. It found two places, and one of them completed the death staircase:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Stabilize step.</strong> First run, the Berserker's career death rate came back 96% — not a risk profile, a scheduled funeral. The root cause was compounding: any per-drop survival under ~90% multiplies into near-certain death across a career of drops, and “no fate-curve tuning fixes multiplication.” The staircase law already said the squad was the exit; the sim forced it to be mechanized. Death is now <em>dropped and alone</em> — and the support classes became actuarially load-bearing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grit counts double at death's door.</strong> The Fate Roll became d20 + 2 × Grit bonus, making Grit the dying-well stat — every scar-rider has a build answer, on-theme to the bone. Final verdict at ride 3 with a real squad: 46% career mortality. “Dangerous, playable, <em>chosen</em>, and visible in advance. That's a player risk profile.”"
+    },
+    {
+      "type": "heading",
+      "text": "Watch-Items"
+    },
+    {
+      "type": "paragraph",
+      "text": "Being monitored, not yet problems. From Phase 5:"
+    },
+    {
+      "type": "bullet",
+      "text": "Dual-Titan + the Fury ladder is the top of the damage curve — boss budgets are sized against it."
+    },
+    {
+      "type": "bullet",
+      "text": "EV 14 capstone builds (past EV 11, heavies stop aiming and start praying)."
+    },
+    {
+      "type": "bullet",
+      "text": "Absolution on the Berserker."
+    },
+    {
+      "type": "bullet",
+      "text": "Rift Step vs The Wall."
+    },
+    {
+      "type": "bullet",
+      "text": "Override: ACT near bosses."
+    },
+    {
+      "type": "paragraph",
+      "text": "From Phase 6:"
+    },
+    {
+      "type": "bullet",
+      "text": "Profession income must ramp by rank — Sideline before Established, always — or trade wealth runs away early."
+    },
+    {
+      "type": "bullet",
+      "text": "Trade-track liquidity ending careers at squad-fund scale is by design; watch that it stays the squad's float and not the squad's solution."
+    },
+    {
+      "type": "bullet",
+      "text": "Carver mortality runs above its apparent drop risk — the preservation clock pulls crews toward hot corpses. Working as themed; watched anyway."
+    },
+    {
+      "type": "bullet",
+      "text": "Base paybacks hold in the 8–15 mission band (The Base)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Where the docs are silent, the book says so in place: every DESIGN GAP callout marks a silence that was deliberately not filled, and the flags ledger collects them for review. The previous handbook was what filling silences by inference produces. Once was enough."
+    },
+    {
+      "type": "blockquote",
+      "text": "ENGINEERING MEMO: The previous structure failed by accretion. The current structure is derived. Derivations do not drift; custodians do. Mind the ledger."
+    }
+  ]
+}

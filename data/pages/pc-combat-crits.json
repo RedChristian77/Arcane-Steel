@@ -1,0 +1,68 @@
+{
+  "id": "pc-combat-crits",
+  "title": "Graze & Crits",
+  "subtitle": "One trigger, two payout tables",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Near misses are itemized. So are miracles.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Attacks resolve in three bands like everything else: hit, graze, miss. And the spike has one trigger everywhere: <strong>natural maximum on your accuracy dice</strong>."
+    },
+    {
+      "type": "heading",
+      "text": "Graze"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Graze:</strong> an attack total within 2 below the target's Evasion is a graze. Halve the punch-through (round down), then resolve normally. No crit effects. No on-hit riders."
+    },
+    {
+      "type": "bullet",
+      "text": "Run the bounce gate and Value subtraction first, halve the resulting punch-through, then route it as usual (see Attacks & the Shell Clock)."
+    },
+    {
+      "type": "bullet",
+      "text": "Riders never graze-fish: if an effect needs a hit to trigger, a graze doesn't feed it. The only exceptions are priced augments on tree pages."
+    },
+    {
+      "type": "heading",
+      "text": "Crit"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Crit:</strong> a natural maximum on your accuracy dice is a crit. The attack auto-hits — the total doesn't matter, the natural max is the hit — and the weapon's crit effects fire. Every weapon prints its own crit payout (see Weapons)."
+    },
+    {
+      "type": "heading",
+      "text": "One trigger, two payouts"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Where",
+        "Natural max on your accuracy dice means"
+      ],
+      "rows": [
+        [
+          "<strong>Attack</strong>",
+          "Auto-hit + the weapon's crit effects (see Weapons)."
+        ],
+        [
+          "<strong>Check</strong>",
+          "Flash of brilliance — the result upgrades one band (see The Two Rolls)."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Same trigger, same words, two tables. The flash's own fine print lives on The Two Rolls."
+    },
+    {
+      "type": "blockquote",
+      "text": "Per actuarial guidance, \"it only grazed me\" has been reclassified from reassurance to data point."
+    }
+  ]
+}

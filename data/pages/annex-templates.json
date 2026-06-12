@@ -1,0 +1,262 @@
+{
+  "id": "annex-templates",
+  "title": "Homebrew Templates",
+  "subtitle": "Technique, profession, graft, enemy",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Worksheets, not licenses. Every step points at a page that already owns the number. If a step seems to need a number nobody prints, you found a design gap — file it, don't fill it.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Four worksheets: a technique, a profession, a wild graft, an enemy. None of them contains a new rule. Each is the printed framework restated as a checklist, with the budget constraints from Power Budget &amp; Price List wired in at the step where they bite."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE ONE-PLACE LAW",
+      "text": "Every number lives on exactly one page; every other page references it by name. Homebrew obeys the same law: your new entry references the owning page for every value it leans on, and the only new text anywhere is the entry itself. Quick-references are generated from source tables, never hand-copied — hand-copying is what killed the old book."
+    },
+    {
+      "type": "heading",
+      "text": "The Ownership Map"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before any worksheet: this is where the numbers live. Reference these pages; never restate them."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "You need",
+        "It lives on"
+      ],
+      "rows": [
+        [
+          "The currency price list, stack caps, the three laws, ceilings, the lane law, the seven-point checklist",
+          "<strong>Power Budget &amp; Price List</strong> (this Annex)"
+        ],
+        [
+          "Tier chassis, unlock counts, install costs, the density standard",
+          "<strong>Trees Overview</strong>"
+        ],
+        [
+          "Technique rungs (cost, downtime), training sources, the technique ceiling",
+          "<strong>Techniques</strong>"
+        ],
+        [
+          "PP economy, profession tiers, perk price band, income by rank",
+          "<strong>Professions Overview</strong>"
+        ],
+        [
+          "Splice/graft procedure, Risk DCs, provider modifiers, the Saturation floor, the five-line graft worksheet",
+          "<strong>Mutations &amp; Grafts</strong>"
+        ],
+        [
+          "Enemy tier chassis, body picks, role modifiers, Break lines, the profile card, horde compression",
+          "<strong>Enemy Framework</strong>"
+        ],
+        [
+          "Boss sizing (Poise, Stagger, phases)",
+          "<strong>Bosses</strong>"
+        ],
+        [
+          "Carve yields by taxonomy, the preservation clock",
+          "<strong>Carving</strong>"
+        ],
+        [
+          "Per-weapon crit payouts in beats",
+          "<strong>Weapons</strong> (currently a flagged gap — see Power Budget &amp; Price List)"
+        ]
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Worksheet 1 — Building a Technique"
+    },
+    {
+      "type": "paragraph",
+      "text": "A technique is a trained move any contractor can buy — squad craft, weapon handling, body mechanics. The catalog, the rung ladder, and the ceiling live on Techniques."
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Name the fundamental.</strong> Lane check first: a technique is never damage and never a tree's identity verb. If the move is a body verb, it's an augment; if it's bare competence, it's a skill feature. (The lane law — Power Budget &amp; Price List.)"
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Price the effect.</strong> On the price list, a technique may carry at most +1 of any capped currency, conditional only — that is Techniques' printed ceiling, deliberately below what augments may buy. Effects outside the capped currencies (a quick-action discount, a movement rider) pattern-match against the printed catalog."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Pick the rung — Trained, Advanced, or Master.</strong> Costs and downtime live on Techniques. Calibrate by comparison: set your move next to the printed moves at that rung and ask which list it joins without embarrassment."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Cost the action.</strong> Passive, or active with an AP cost. If it acts during someone else's turn, it is an interrupt and costs RP — every interrupt gets an RP cost, no exceptions (RP repricing — Power Budget &amp; Price List)."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Run the audits.</strong> Scar law. Beat budget if it touches crits — spend beats, never build a parallel crit system. Duplicate kill-list: if a tree, skill, profession, or mod already does this, the effect already has a home; reference it or drop yours."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Technique prerequisites are \"tier-based\" but never specified, and the training-source table carries pre-rebuild tier labels — both flagged on Techniques. Homebrew techniques inherit those holes; there is no prerequisite framework to comply with yet."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Worksheet 2 — Building a Profession"
+    },
+    {
+      "type": "paragraph",
+      "text": "A profession is position in the economy, not competence. The chassis — PP sources, tiers, perk pricing, income — lives on Professions Overview."
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Name what it owns.</strong> One economic position, stated as ownership: the Fixer owns who, the Guide owns where, the Carver owns what the kill is worth. A profession that owns nothing is a skill wearing a coat."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Write the two verbs.</strong> A Work verb — downtime labor that pays credits and PP at the rates Professions Overview prints — and a field verb, the on-mission exercise of the trade, earning PP at the printed per-mission cap. A profession whose field verb never fires levels only at home; Carvers, Wranglers, and Guides level in the field by design."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Write the perks.</strong> Priced inside the printed PP band on Professions Overview, entry perk first; tiers unlock by perks owned, per the chassis there. A few perks may also cost credits — some kit is money and expertise at once."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Lane audit.</strong> Perks grant position — clients, licenses, access, scale — never skill dice (skill dice live on The Twelve Skills). Where a perk touches a combat currency, it prices on the price list like everything else, shared caps and all."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Portability audit — the tattoo-artist law.</strong> The name travels; premises don't exist. If a perk needs walls, the walls belong to the squad's base (see The Base), and the base amplifies the profession — the perk is never made of the building."
+    },
+    {
+      "type": "numbered",
+      "num": 6,
+      "text": "<strong>Obligations and the grave.</strong> Established and Name perks may carry an Obligation — a standing expectation that is part of the perk's price; the cost of being known is being known. And everything dies with the person: no perk may transfer rank, clients, or banked PP."
+    },
+    {
+      "type": "numbered",
+      "num": 7,
+      "text": "<strong>Scale check.</strong> Capstoning a profession costs what peak human costs — the PP arithmetic is printed on Professions Overview, and The Anchor Table puts every flagship investment on one scale. A profession that capstones for a fraction of that calendar is off the scale and underpriced."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Worksheet 3 — Building a Wild Graft"
+    },
+    {
+      "type": "paragraph",
+      "text": "The five-line worksheet is printed canon on Mutations &amp; Grafts, where it opens at the Frontier dial setting. This is the same procedure with the budget hooks called out. Build a graft from any creature, in five lines:"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Donor capability.</strong> Name the one thing the creature does that the organ carries. The creature's signature line is the menu — profile cards live in the Bestiary."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Price the benefit on the price list.</strong> Caps apply, shared with everything else you wear and install. Capped currencies arrive as +1 conditional — the way mods price them (see Mods). The worked example on Mutations &amp; Grafts prices a Char Hound heart at +1 RP, sharing the RP cap, audited."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Write the mandatory cost.</strong> One mechanical drawback in the same domain — the organ wants what the animal wanted: appetite, light, heat, motion. The cost is part of the price, not flavor."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Set Risk and scope.</strong> Risk tier = the creature's tier; the Risk DCs, provider modifiers, and the surgery's Fate Roll live on Mutations &amp; Grafts. Systemic — marrow, glands feeding the whole body — means the bloodline fingerprint line comes with it."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Write the scanner line.</strong> What a dome checkpoint sees. Every entry has one; a mutation is a paperwork problem before it is anything else."
+    },
+    {
+      "type": "paragraph",
+      "text": "Standing costs the worksheet never waives: every mutation raises the Saturation floor by the amount Mutations &amp; Grafts prints, and the donor organ runs on the preservation clock from Carving — price the benefit, then check whether the organ is still worth installing by the time it reaches a table."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE SCAR LAW'S COUSIN",
+      "text": "Nothing a graft buys may touch the Fate Roll's death math. The body you build can make you strange — never safe."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "text": "Worksheet 4 — Statting an Enemy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Four picks, two minutes: Tier &rarr; Body &rarr; Role &rarr; 1–2 abilities. Every framework number in the picks lives on Enemy Framework; your block prints the result."
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Tier.</strong> Fodder, Standard, or Elite — take HP, accuracy, damage, Evasion, and RP straight from the chassis table on Enemy Framework. Bosses are sized, not statted; that procedure lives on Bosses."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Body.</strong> Flesh, Hide, or Shell. The pick decides which damage math runs, which weapons counter it, and what the corpse is worth. The per-body guidance — fauna HP, Hide values, who wears the player armor ladder — is printed on Enemy Framework."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Role.</strong> Apply one role's chassis modifier as printed on Enemy Framework. The role also hands the enemy its 1–2 abilities — pattern-match against the Bestiary's signature lines, and remember the framework's blanket claim: the price list governs all catalogs, including this one. An ability that hands an enemy a currency no player tier could buy needs a reason."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Break line.</strong> Every block carries one — the condition where its survival math flips. The Break procedure and its check live on Enemy Framework; fodder just breaks, constructs have no line. Fear is arithmetic; write the line, not a morale subsystem."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Print the profile card.</strong> Five lines: Stat · Signature · Break · Carve · Graft. Carve goes by body taxonomy and prices on Carving; the Graft line is what Worksheet 3 consumes. Every entry feeds the economy — the party kills it, the Carver prices it."
+    },
+    {
+      "type": "numbered",
+      "num": 6,
+      "text": "<strong>Budget the encounter, not the body.</strong> Encounters are budgeted in activations (Enemy Framework); crowds compress into hordes rather than drowning the clock."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Two inherited holes, both flagged on Enemy Framework: no per-role ability menu is printed, and no activation budget exists below bosses. A homebrew enemy can be statted to the chassis today; the menu it should draw from and the budget it should be audited against are not yet written."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whatever you build, ship it the way the catalogs shipped: against the seven-point checklist on Power Budget &amp; Price List, sim gate included. The framework prices effects; the checklist catches the ones that lie about their price."
+    }
+  ]
+}

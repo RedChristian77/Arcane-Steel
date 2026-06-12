@@ -1,0 +1,212 @@
+{
+  "id": "gm-bosses",
+  "title": "Bosses",
+  "subtitle": "Poise, Stagger, and the sizing law",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Large-asset engagement doctrine. Read before quoting a price.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A boss is not a bigger stat block \u2014 it is <strong>sized</strong>. The chassis and roles live on Enemy Framework; this page owns the boss numbers: Poise, action economy, the mandatory kit, and the sizing law."
+    },
+    {
+      "type": "heading",
+      "text": "Poise & Stagger"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bosses carry a <strong>Poise track: 8 standard, 12 apex.</strong> Hard control \u2014 pins, grapples, Trigger Locks, Rattles, forced movement \u2014 deals <strong>1\u20132 Poise damage instead of applying its effect</strong>."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "STAGGER \u2014 at Poise 0",
+      "text": "Until the end of the next round:",
+      "items": [
+        "The boss loses its reaction suite.",
+        "Conditions apply normally (see Conditions).",
+        "Attacks against it gain +1 crit beat (beats \u2014 see Graze & Crits).",
+        "Its shell takes double wear."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Then Poise resets 2 higher. Control builds aren't blanked against bosses \u2014 their verbs convert into the party's burst window."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Which control effects deal 1 Poise damage and which deal 2 is unprinted \u2014 the docs print the range only."
+    },
+    {
+      "type": "heading",
+      "text": "Action economy"
+    },
+    {
+      "type": "paragraph",
+      "text": "A standard boss takes <strong>2 activations per round</strong>; an apex takes <strong>3</strong> \u2014 interleaved with the party in the normal alternation (see Turn, AP & Reactions)."
+    },
+    {
+      "type": "heading",
+      "text": "The mandatory kit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every boss kit must include three pieces. This is the floor \u2014 no exceptions:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>One no-roll zone attack</strong> \u2014 damage that never consults Evasion."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>One contested grab</strong> \u2014 resolved as a contested Check, not an attack roll."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>One arrival-keyed zone</strong> \u2014 the effect applies on <em>entering or appearing in</em> the zone, not on crossing a line. Teleports arrive, so teleports pay the toll: Rift Step included."
+    },
+    {
+      "type": "heading",
+      "text": "The sizing law"
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE SIZING LAW",
+      "items": [
+        "Shell phases cap at Value 4, with at least one stagger window per phase.",
+        "Phase HP = party size \u00d7 10 \u00d7 target rounds for mid tables; \u00d7 15 for veteran tables.",
+        "Tune boss outgoing damage to ~3\u20134 HP per party member per round through mid armor (benchmark: 13 per round across a four-player table).",
+        "Budget one stolen action per fight (Override: ACT \u2014 see Influence).",
+        "At the veteran multiplier, assume a buffed, scar-suppressed party."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>A boss shell is a doctrine check; parties that scouted brought openers.</strong> A Value 5 shell is a seven-round wall for an unprepared mid party and a 2.4-round speed bump for a doctrine party \u2014 never print that spread on a fight the intel layer had no chance to close (see Intel)."
+    },
+    {
+      "type": "heading",
+      "text": "Sizing against the top of the curve"
+    },
+    {
+      "type": "paragraph",
+      "text": "The player-side peaks and the budget line that answers each. The player rules live on their own pages: Dual Wield & Titan Grip, Fury, Sin Eater, Patterns, Fortress, Influence."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Top-of-curve pressure",
+        "Budget answer"
+      ],
+      "rows": [
+        [
+          "Dual-Titan + scar-Fury damage (~70 party DPR at the top end)",
+          "The veteran multiplier: Phase HP \u00d7 15 sizes phases against it, not surprised by it."
+        ],
+        [
+          "EV 14 capstone builds",
+          "The mandatory no-roll zone attack and contested grab \u2014 neither consults Evasion."
+        ],
+        [
+          "Absolution on a Berserker (suppressed scars)",
+          "Assume buffed, scar-suppressed parties whenever the veteran multiplier applies."
+        ],
+        [
+          "Rift Step past The Wall",
+          "Arrival-keyed zones \u2014 appearing inside triggers them."
+        ],
+        [
+          "Override: ACT near bosses",
+          "One stolen boss action per fight is pre-budgeted into the action economy."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked boss: Broodmother Crawler"
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Broodmother Crawler",
+      "subtitle": "Monolith \u00b7 Apex",
+      "entries": [
+        {
+          "label": "Body",
+          "value": "Shell 4/3/80 over Flesh 120 \u2014 sized for a four-player mid table at ~3 rounds per phase.",
+          "full": true
+        },
+        {
+          "label": "Poise",
+          "value": "12"
+        },
+        {
+          "label": "Activations",
+          "value": "3 per round"
+        },
+        {
+          "label": "Kit",
+          "value": "Sweep \u2014 no-roll, Adjacent cluster, 3d10. Grab-and-Press \u2014 contested; grabbed targets take automatic punch-through each round. Burrow Surge \u2014 repositions; her arrival zone Rattles (arrival-keyed; Rattled \u2014 see Conditions). Brood calls \u2014 2 Char Hound hordes arrive on a clock.",
+          "full": true
+        },
+        {
+          "label": "Phase 1",
+          "value": "Shell intact. Weak-point stagger windows. Carve memory: the crack location prices the chitin (see Carving).",
+          "full": true
+        },
+        {
+          "label": "Phase 2",
+          "value": "Cracked frenzy: +1 activation, Sweep widens, and her Break line appears \u2014 she retreats below 20% to save the brood. Even monsters run arithmetic.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Worked boss: Pacification Detail"
+    },
+    {
+      "type": "info-block",
+      "icon": "\u25c8",
+      "title": "Pacification Detail",
+      "subtitle": "Retinue",
+      "entries": [
+        {
+          "label": "Core",
+          "value": "Sentinel Field Officer \u2014 Elite+ chassis, Poise 8, 2 activations \u2014 plus a Riot Unit wall and guard hordes (see Bestiary).",
+          "full": true
+        },
+        {
+          "label": "Kit",
+          "value": "Calls \u2014 marks and repositions the formation; kill the voice and the formation is meat. Suppression order \u2014 zone, no-roll (Suppressed \u2014 see Conditions).",
+          "full": true
+        },
+        {
+          "label": "Poise engine",
+          "value": "The officer's Poise regenerates 2 per round while any Riot Unit stands. The retinue is the poise pool; the fight is a disassembly puzzle.",
+          "full": true
+        },
+        {
+          "label": "Break",
+          "value": "Pure doctrine \u2014 the Detail withdraws, in order, the moment projected losses exceed the contract line. You don't rout corps; you re-price them.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Two unquantified lines in the worked bosses: how much the Broodmother's Sweep widens in phase 2, and what \u201cElite+ chassis\u201d adds over the Elite row for the Field Officer. The docs print neither."
+    },
+    {
+      "type": "blockquote",
+      "text": "Reclassification from \u201cengagement\u201d to \u201clarge asset\u201d entitles the field team to revised hazard pay. It does not entitle the asset to revised behavior. Plan the windows."
+    }
+  ]
+}

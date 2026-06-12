@@ -1,0 +1,95 @@
+{
+  "id": "pc-doctrine-anchor",
+  "title": "The Anchor Table",
+  "subtitle": "Pick what your career becomes",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Four ways to spend a career. The ledger prices them the same.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Past the day-to-day — ammo, repairs, the creditor's tithe (see The Creditor Table) — what's left of a career flows toward a flagship investment. There are four, and they sit on one scale. You will not afford them all. Pick what your career becomes."
+    },
+    {
+      "type": "heading",
+      "text": "The Table"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Anchor",
+        "What it costs",
+        "Where the path lives"
+      ],
+      "rows": [
+        [
+          "<strong>A stat trained 4→10</strong>",
+          "≈ 7,800 cr + 18 downtime periods",
+          "the training ladder and the access funnel — see Stats &amp; Growth"
+        ],
+        [
+          "<strong>Tree mastery</strong>",
+          "≈ 8,000–8,500 cr installed",
+          "the install ladder and the tier chassis — see Trees Overview"
+        ],
+        [
+          "<strong>A profession Name</strong>",
+          "≈ 15–20 dedicated downtime periods",
+          "PP, tiers, and the one-Name rule — see Professions Overview"
+        ],
+        [
+          "<strong>A raised war-beast</strong>",
+          "≈ tree mastery",
+          "the raise, the bond, and the alternative of buying one trained — see Influence"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The 7,800-credit figure is the printed sum of the training ladder from 4 to 10; the rung-by-rung prices and the downtime each rung takes live on Stats &amp; Growth, along with the band past 10, which is a different economy entirely. The mastery figure is the printed sum of the install ladder; the per-tier prices live on Trees Overview."
+    },
+    {
+      "type": "heading",
+      "text": "Two Currencies"
+    },
+    {
+      "type": "paragraph",
+      "text": "The table is priced in two currencies, and the anchors lean differently. The stat and the mastery are bought mostly in <strong>credits</strong> — mission pay, after the creditor takes its half. The Name is bought almost entirely in <strong>calendar</strong> — dedicated downtime periods that could have been anything else. The war-beast costs like mastery, and whether you pay the Wrangler's way (raise it) or the Fixer's way (buy it trained) is its own build choice — see Influence."
+    },
+    {
+      "type": "heading",
+      "text": "Picking One"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The stat</strong> makes everything you already do better — every roll it touches, for the rest of the career."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The mastery</strong> finishes a tree: the full chassis, the capstones, the ceiling the tree sells. (What each ceiling is — see Trees Overview.)"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The Name</strong> makes you someone in the economy — one per character, and it travels with you. (See Professions Overview.)"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The beast</strong> is a second activation on the field with its own rolls and its own treadmill. (See Influence.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "An anchor is a campaign-length purchase. It lands in the late acts of a career, not the early ones — which is exactly why the choice is worth making on purpose, early, while the credits and the calendar still have somewhere to go."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "ONE SCALE",
+      "text": "All four anchors price out to roughly the same career. The question is never which is cheapest — it's which one ends up with your name on it."
+    },
+    {
+      "type": "blockquote",
+      "text": "RETIREMENT PLANNING NOTICE: Contractors are encouraged to designate a primary capital development track at onboarding. Contractors who decline to designate will find one designated for them by circumstance, at circumstance's usual rates."
+    }
+  ]
+}

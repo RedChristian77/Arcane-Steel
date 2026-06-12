@@ -1,0 +1,661 @@
+{
+  "id": "gm-quickstart-arc",
+  "title": "Quickstart Arc",
+  "subtitle": "Threshold Row, Calloway, Gate 7",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Onboarding packet, GM edition. Four sessions, one margin, one thread worth pulling.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "This starter arc gets characters built and into the world in Session 0, runs the first contract in Session 1 (combat, carving, payout), introduces downtime and the economy in Session 2, and escalates with a complication that seeds the campaign in Session 3. After Session 3, the campaign is yours — the arc establishes the crew, the setting, the economic pressure, and one thread worth pulling. Everything after is emergent."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tone:</strong> Dark comedy. The world is bleak. The people in it cope with humor, stubbornness, and the quiet refusal to stop getting up in the morning. The corps are absurd. The danger is real. Both things are true at the same time."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "REGENERATED ARC",
+      "text": "This arc is the pre-rebuild quickstart regenerated onto the rebuild grammar: DC ladder, bands, Charge/Saturation, the Enemy Framework. The narrative is the original; every mechanic has been re-derived. Credit figures — pay, fees, shop prices — carry from the old printing, because the rebuild docs print laws and shares, not a price list (the mission pay scale is an open gap on The Economy Dials). Treat the figures as table-ready defaults until canon prices print."
+    },
+    {
+      "type": "divider",
+      "style": "",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Session 0 — The Margin"
+    },
+    {
+      "type": "bullet",
+      "text": "Build characters and establish the crew's formation story"
+    },
+    {
+      "type": "bullet",
+      "text": "Introduce the margin, the board, and the first NPCs"
+    },
+    {
+      "type": "bullet",
+      "text": "End with the crew accepting their first contract"
+    },
+    {
+      "type": "paragraph",
+      "text": "The campaign is set in <strong>Threshold Row</strong> — a contractor margin on the outer edge of a city-state. The GM chooses which corp runs the city (this shapes the local culture and available contracts), but the margin itself is universal: a strip of converted industrial buildings between the city wall and the Yellow Zone, home to a few hundred contractors, a handful of service providers, and the kind of economy that runs on cash, favors, and not asking questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Board</strong> — Calloway &amp; Associates, a Standard-tier broker office run out of a converted shipping container. The front room has a contract board (physical and digital), a counter where you register, and chairs that were probably stolen from a transit car. The back room is where Calloway works. You don't go in the back room unless invited."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Grindhouse</strong> — The local bar. Converted warehouse, bad lighting, good drinks. The owner, <strong>Mags</strong>, is an ex-contractor with four scars and a prosthetic arm she built herself — the bars count scars like tours, and four is a number people notice. She knows everyone and hears everything. She doesn't gossip for free, but she's fair: buy a round and she'll tell you which contracts are traps. If something happens in Threshold Row, someone at the Grindhouse knows about it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Patch &amp; Wire</strong> — The local clinic and augment shop, run by <strong>Doc Vasik</strong>, a former Wellspring field medic who left (or was expelled — he doesn't clarify) and set up in the margin. Vasik is competent, reasonably priced, and deeply cynical about the corps. He installs augments, treats scars, and runs detox at street rates. His clinic is clean but sparse. He accepts payment plans, which makes him unusual and popular. He has a waiting list."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Yard</strong> — Vehicle storage and repair, run by a non-human contractor named <strong>Ratch</strong> — a squat, broad figure with rift-origin genetics that give them four arms and a natural affinity for mechanical work. Ratch doesn't talk much. Their work is impeccable. They charge fair rates and don't ask where the vehicle came from. The Yard is also an informal meeting space — crews hang out while their rigs are serviced."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Calloway</strong> — The broker. Real name unknown, probably irrelevant. Middle-aged, tired, efficient. Calloway has been running this board for twelve years and has seen hundreds of contractor crews form, work, and dissolve. They're not sentimental about it. They match crews by algorithm and instinct, post contracts from whatever corps are hiring this week, and take their 12% cut. Calloway is fair but not generous: they'll warn you if a contract smells wrong, but they won't turn down the posting fee. Business is business."
+    },
+    {
+      "type": "heading",
+      "text": "Character Creation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Run creation per the Player Core (start at Creation Overview). While the players build, establish three things:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>How they met:</strong> the default is Calloway matched them — strangers pinged by the broker's algorithm for a contract that requires a full crew. They show up at the Board tomorrow at 0600. That's the extent of the introduction. If players want more — two of them knew each other, one was recommended by Mags — accommodate it, but the broker match is always the mechanical trigger. Calloway is why they're in the same room."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Where they live:</strong> each player picks a spot in Threshold Row — near the Board, above the Grindhouse, a capsule block by the wall. This establishes their daily rhythm."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>One connection each:</strong> every player names one NPC they already know in the Row — a former crewmate, a landlord, a dealer, a rival, a friend. Five or more NPCs for the GM to develop, and a personal stake in the margin for everyone."
+    },
+    {
+      "type": "heading",
+      "text": "Session 0 End Scene"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew meets at the Board. Calloway's behind the counter. Three contracts are posted — only one is available to a new crew:"
+    },
+    {
+      "type": "info-block",
+      "icon": "⛁",
+      "title": "Contract CR-2247",
+      "subtitle": "Extraction — standard harvest run",
+      "entries": [
+        {
+          "label": "Employer",
+          "value": "Congo Industries"
+        },
+        {
+          "label": "Location",
+          "value": "Rift Gate 7, Yellow Zone access"
+        },
+        {
+          "label": "Threat assessment",
+          "value": "Routine — fodder-class rift fauna, surveyed zone"
+        },
+        {
+          "label": "Pay",
+          "value": "450 cr per contractor"
+        },
+        {
+          "label": "Duration",
+          "value": "Estimated 6–8 hours"
+        },
+        {
+          "label": "Notes",
+          "value": "“Surveyed and cleared. Easy money. Fill the manifest.”",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Calloway hands them the briefing: “Gate 7 opens at 0500. Congo runs the sorting facility on the other side. You haul, they weigh, you get paid. Questions?” No questions? Good. Session 0 ends. Session 1 starts at the gate."
+    },
+    {
+      "type": "divider",
+      "style": "",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Session 1 — First Contract"
+    },
+    {
+      "type": "bullet",
+      "text": "First combat — teach the attack grammar and the Shell Clock"
+    },
+    {
+      "type": "bullet",
+      "text": "Introduce the rift and Charge"
+    },
+    {
+      "type": "bullet",
+      "text": "First carve, first payout, and the feeling of “this is what I earned?”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>0500, Rift Gate 7.</strong> The most heavily secured stretch of Threshold Row's wall. Congo security scans them in; a bored logistics officer hands over a manifest tablet and points at the gate: a shimmering tear in reality, four meters tall, framed by industrial containment hardware."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rift entry: each contractor ticks +1 Charge</strong> (rift exposure — see Charge &amp; Saturation). The far side is a Yellow Zone rift — strange sky, wrong-colored vegetation, air that tastes like metal, gravity slightly off. Congo's survey says clear for two kilometers. Extraction targets: rift-crystal deposits and harvestable flora. Expected opposition: fodder-class fauna, “minimal threat.”"
+    },
+    {
+      "type": "heading",
+      "text": "Encounter 1: The Hound Pack (Teaching Fight)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twenty minutes in, approaching the first crystal deposit: a pack of rift hounds — the setting's coyotes — feeding on the crystal flora and territorial about it. Run them as the <strong>Char Hound (Bestiary)</strong>, six strong, horde-compressed per Enemy Framework."
+    },
+    {
+      "type": "info-block",
+      "icon": "⚔",
+      "title": "Char Hound Pack (6)",
+      "subtitle": "Flesh fodder, horde-compressed",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Char Hound (Bestiary): Fodder chassis, fast — moves 2 bands. d10+1 accuracy; 1d6 bite. Flesh — straight HP, the fastest math in the game.",
+          "full": true
+        },
+        {
+          "label": "Horde",
+          "value": "One compressed unit: shared HP pool, one activation, attack dice scale with surviving members (Enemy Framework)."
+        },
+        {
+          "label": "Pounce",
+          "value": "A hound that changed 2+ bands this activation attacks with advantage."
+        },
+        {
+          "label": "Break",
+          "value": "Pack arithmetic — automatic at 50% casualties, no roll."
+        },
+        {
+          "label": "Carve",
+          "value": "Glands, tier 1 — call it ~30 cr a clean carve (carried default)."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This fight should take 2–3 rounds.</strong> The pack hits hard on the first pass — pounce plus a full pack's dice — and degrades fast as hounds die, until the 50% line breaks it automatically and the survivors run. Let every player make two or three attacks. Someone should feel a bite: a sting, not a scar."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Purpose:</strong> teach the attack — accuracy dice + stat vs Evasion — against Flesh, where there is no armor math at all. Bands, AP, and reactions get their first outing. Save the Shell Clock for Encounter 2."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>After combat:</strong> the pack breaks at three down and the survivors scatter — three dead hounds is the carving moment. The Harvesting Check rolls Grit vs the tier DC (see Carving). Anyone untrained rolls 1d4 — and untrained dice simply can't reach the hard yields. That's the lesson, and nobody has to say it: dead things have value, and the ability to collect it is a trade."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Charge tick:</strong> ambient exposure during the fight — +1 Charge. The crew is at 2."
+    },
+    {
+      "type": "heading",
+      "text": "The Harvest Phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The crystal deposit</strong> — what Congo sent them for. Rift-crystal clusters growing from rock formations. The crew harvests: Harvesting Checks, with quality scaling by the result band — full is clean grade, partial is reduced grade or a cost (see Carving)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Let them feel the cargo problem. The Chrome-heavy brute hauls more than the channeler — but the channeler's checks pull higher-grade crystal worth more per unit. Both matter. And on foot, what they can carry is what they keep: <strong>carving creates cargo, cargo needs Capacity</strong> (see Carving, Vehicles). The manifest tablet tracks weight; the numbers climb as they work. A van would haul five times this much. Plant that seed."
+    },
+    {
+      "type": "heading",
+      "text": "Encounter 2: The Unexpected (Real Fight)"
+    },
+    {
+      "type": "paragraph",
+      "text": "On the way back, loaded with cargo: something the survey didn't account for. A <strong>Rift Brood Crawler</strong> — a Standard-class creature in a zone rated for fodder. It's been feeding on the crystal deposits and has grown past what the survey data predicted."
+    },
+    {
+      "type": "info-block",
+      "icon": "⚔",
+      "title": "Rift Brood Crawler",
+      "subtitle": "Standard bruiser — Shell",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Standard chassis, Bruiser role (Enemy Framework): d8+2 accuracy; 2d8 crush; EV 4 (chassis 5, bruiser −1); RP 1. Flesh HP 14 under Shell 2/0/8 (Value 2 / Absorb 0 / Shell HP 8).",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Grab — on hit, the target is held: escaping costs 1 AP and a contested Chrome check (contested grammar — The Two Rolls). It grabs and holds."
+        },
+        {
+          "label": "Break",
+          "value": "Carapace break — when the Shell cracks, Resilience vs Standard 8 each round or it disengages for the warren."
+        },
+        {
+          "label": "Carve",
+          "value": "Chitin plates — −1 grade if combat-cracked (Carving); mandible oddments. Carried defaults: ~80 cr / ~20 cr."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This fight should take 3–4 rounds, and it teaches the Shell Clock.</strong> Knives lose 2 to every die against Value 2 and the flurry suddenly costs more than it earns; the heavy hitter doesn't care. Cracking the carapace is a phase change the table can feel — all that protection gone at once, and the Break line starts ticking. The Grab forces coordination: someone has to win the contest while the others work the shell."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Key moment:</strong> someone might drop. The first drop at zero untreated scars is an <strong>automatic scar, no roll — you cannot die clean</strong> (The Staircase). The scar is real, it needs treatment, treatment costs credits, and credits come from missions. This is what the economic pressure looks like, two hours into the campaign. Let it land."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>After combat:</strong> carve the Crawler — and note how they killed it. If they cracked the shell getting it dead, the chitin grades down: how you kill it prices what it leaves. Then the quiet beat: the survey said fodder only. This thing wasn't supposed to be here. They can report it to Congo or not. Plant the seed — or don't. Just file it."
+    },
+    {
+      "type": "heading",
+      "text": "Extraction and Payout"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Back through the gate: +1 Charge on exit.</strong> Most of the crew has ticked 3–4 Charge across the run. At each encounter's end they've vented up to their Grit bonus free — the Grit-heavy walk clean, and anyone light on Grit banks the excess as Saturation, point for point (Charge &amp; Saturation). If a point sticks, say so out loud: that's the first line of the detox bill."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Congo sorting facility.</strong> The crew hands over the manifest. A logistics officer weighs the cargo, grades the materials, and pays: base contract 450 cr each, plus a harvest bonus — call it 100–200 cr per head depending on cargo and grades. Total: ~550–650 cr each. Then the officer deducts Calloway's 12%. <strong>Net: ~485–570 cr.</strong>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Let them do the math. After tonight's capsule (15 cr), restocked patches (50 cr — Consumables &amp; Ammo), and dinner (5 cr), they've got maybe 400 in savings. A first augment costs more than tonight's entire haul (the install ladder — Trees Overview). A scar is the Street Doc's bill. A van is a crew-sized purchase. <strong>This is the moment the game clicks</strong> — not the hound pack, not the crystals. The moment they get paid and realize it's not enough."
+    },
+    {
+      "type": "divider",
+      "style": "",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Session 2 — Downtime and the Routine"
+    },
+    {
+      "type": "bullet",
+      "text": "First full downtime cycle"
+    },
+    {
+      "type": "bullet",
+      "text": "NPC development — Mags, Doc Vasik, Ratch, the personal NPCs"
+    },
+    {
+      "type": "bullet",
+      "text": "Economic decision-making"
+    },
+    {
+      "type": "bullet",
+      "text": "Second contract — faster, leaner, the routine establishing itself"
+    },
+    {
+      "type": "paragraph",
+      "text": "The crew has cash. Not much, but some. Run the next 3–5 days day by day — <strong>each downtime day buys one activity</strong>, and every spend forecloses another. Ask each player: what do you do today?"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Scar treatment</strong> — Doc Vasik treats at street rates and takes payment plans (the long bill — see Street Doc; treatment pricing is an open dial on The Economy Dials). He'll mention Wellspring does it too, and logs your medical data. “Your call. I don't judge. I do judge Wellspring.”"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Detox</strong> — if anyone banked Saturation, Vasik buys it down at the street rate per point (The Economy Dials). “Same rate as Wellspring. The difference is I don't put you in a database.”"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Augment work</strong> — Vasik stocks entry-tier augments; higher tiers can be ordered (3–5 days, deposit required). Install pricing rides the install ladder (Trees Overview); the installation itself is one of the two moments the d20 ever comes out — splice complications are Fate Roll business (Mutations &amp; Grafts). “Careful costs more. Sloppy costs more later.”"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Training</strong> — the self-directed band runs to 6 (Stats &amp; Growth). The Grindhouse back room doubles as a sparring space, Calloway's office has data terminals, and Ratch will teach basic Tech to anyone willing to hand tools for a day."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Crafting</strong> — capability, components, and calendar, per The Material Cost Law. No bench of their own yet: Ratch rents Yard bench access at 20 cr a day."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Day labor</strong> — Congo warehouse shifts (30 cr/day, boring), gate-district security (40 cr/day, standing around), courier runs (20 cr/day, walking). Working a trade's verb also earns profession progress (Professions Overview)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Socializing</strong> — the Grindhouse. A round costs 5 cr and buys conversation, rumors, and reputation."
+    },
+    {
+      "type": "heading",
+      "text": "NPC Scenes"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Mags</strong> — if the crew visits the Grindhouse (they should), she welcomes them. She's seen a thousand first-mission crews; most don't last; she doesn't say this. What she says: “How was the rift? You look like you made it. That's more than some manage. Drinks are on the house for your first contract. After that, you pay like everyone else.” Then, between glasses: the margin's been busier lately. More contracts, more crews forming. “When everyone's hiring, it means someone's nervous. Corps don't spend money they don't have to.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Doc Vasik</strong> — professional, a little cold, surprisingly honest. He'll talk a crew out of augments they can't afford (“You're not ready for the next tier. Learn how your body handles the first one. Come back in a month.”) and he watches Saturation like the actuary he refuses to be: “A couple of points banked? Fine. Don't let it reach ten. Ten is where the thresholds start, and ten is where Wellspring starts a file with your name on it.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ratch</strong> — at the Yard, working on a Contractor Van that's more rust than van. They look at the crew, look at the van, say nothing. If asked: it's for sale — <strong>800 cr, runs mostly, needs love</strong> (chassis stats — see Vehicles). “Buy it and I'll give you first month maintenance free.” This is the vehicle seed: carving creates cargo, cargo needs Capacity, and 800 cr is achievable if the crew pools resources."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Personal NPCs</strong> — at least one of the player-named NPCs gets a scene this session. Keep it short: a favor asked, a warning given, a connection reestablished. These are threads for later."
+    },
+    {
+      "type": "heading",
+      "text": "Second Contract"
+    },
+    {
+      "type": "paragraph",
+      "text": "By day 3–5, the board has new listings. Calloway pings the crew:"
+    },
+    {
+      "type": "info-block",
+      "icon": "⛁",
+      "title": "Contract CR-2251",
+      "subtitle": "Clearance — creature removal, rift perimeter",
+      "entries": [
+        {
+          "label": "Employer",
+          "value": "GM's choice — pick a different corp than Session 1's"
+        },
+        {
+          "label": "Location",
+          "value": "Wild rift site, Yellow Zone — two hours by road convoy"
+        },
+        {
+          "label": "Threat assessment",
+          "value": "Fodder to Standard — surveyed, active fauna"
+        },
+        {
+          "label": "Pay",
+          "value": "500 cr per contractor"
+        },
+        {
+          "label": "Duration",
+          "value": "Estimated 4–6 hours"
+        },
+        {
+          "label": "Notes",
+          "value": "Varies by employer. Sentinel: “Neutralize all hostiles in grid reference. Report count.” / Crowned Table: “A Foul Beast Menaces the King's Road. Slay It and Return Victorious.” / Pear: “Clear biological interference from sensor array installation zone.”",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Run it faster than Session 1.</strong> Two encounters, both quick — a fodder horde and one Standard-class creature off the Bestiary. The point isn't the combat, it's the routine: contract, fight, carve, get paid. At the second payout they have a real income rate, and the long-term math starts on its own — at this rate, how long until the thing they want? The flagship purchases are printed on one scale for exactly this conversation (The Anchor Table)."
+    },
+    {
+      "type": "divider",
+      "style": "",
+      "text": ""
+    },
+    {
+      "type": "heading",
+      "text": "Session 3 — The Thread"
+    },
+    {
+      "type": "bullet",
+      "text": "Break the routine"
+    },
+    {
+      "type": "bullet",
+      "text": "Introduce a recurring threat or mystery"
+    },
+    {
+      "type": "bullet",
+      "text": "Create a reason to care beyond money"
+    },
+    {
+      "type": "bullet",
+      "text": "End with the crew choosing to pursue something"
+    },
+    {
+      "type": "paragraph",
+      "text": "Between Sessions 2 and 3, three things surface in the margin — deliver them through NPC scenes or Grindhouse rumor:"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rumor 1:</strong> a veteran crew, well-known in the Row, took a contract last week and hasn't come back. They were headed for the same general zone as the crew's first contract — Gate 7. The board listed it as routine. Calloway is “looking into it.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rumor 2:</strong> Mags mentions a corp representative visited the margin yesterday. Unusual — corps send brokers, not people. This one asked about rift conditions near Gate 7, specifically “unusual fauna” and “survey discrepancies,” and left without buying a drink. “That's how you know they're serious. People who buy drinks are socializing. People who don't are working.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rumor 3:</strong> Ratch had a customer who mechanics for the missing crew. The missing crew had been taking Gate 7 contracts exclusively for a month. Always Gate 7, always extraction, always the same zone. Like they were looking for something specific."
+    },
+    {
+      "type": "heading",
+      "text": "The Contract"
+    },
+    {
+      "type": "paragraph",
+      "text": "Calloway posts a new contract — and this time the crew wasn't matched. <strong>They were requested. By name.</strong>"
+    },
+    {
+      "type": "info-block",
+      "icon": "⛁",
+      "title": "Contract CR-2260",
+      "subtitle": "Retrieval — locate the missing crew's equipment and data",
+      "entries": [
+        {
+          "label": "Employer",
+          "value": "The same corp as Session 1 — Congo, or whichever the GM chose"
+        },
+        {
+          "label": "Location",
+          "value": "Rift Gate 7, Yellow Zone — deeper than the first mission"
+        },
+        {
+          "label": "Threat assessment",
+          "value": "Revised upward: Standard-class confirmed, unknowns past the survey line"
+        },
+        {
+          "label": "Pay",
+          "value": "800 cr per contractor — elevated for the risk"
+        },
+        {
+          "label": "Duration",
+          "value": "Estimated 8–12 hours"
+        },
+        {
+          "label": "Notes",
+          "value": "“Previous crew failed to report. Recover field equipment and mission data. Crew recovery is secondary to data recovery. Do not deviate from the assigned search zone.”",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Why them?</strong> They're the most recent crew to complete a Gate 7 contract. They know the entry zone. They saw the Brood Crawler that shouldn't have been there — and the corp noticed their report, or noticed they didn't file one."
+    },
+    {
+      "type": "paragraph",
+      "text": "Calloway delivers it straight: “They're paying well because the last crew didn't come back. The threat assessment got bumped. You can say no.” A pause. “The board's thin this week. Not a lot of other options.” The economic pressure does its work. They need the money. They always need the money."
+    },
+    {
+      "type": "heading",
+      "text": "The Mission"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Back through Gate 7</strong> — the familiar entry ticks, the familiar territory, then past the harvested crystal deposits into ground the survey covers but the crew hasn't seen."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Another hound pack, deeper in.</strong> Same block as Session 1 — and the crew handles it in 1–2 rounds now. That's intentional: same enemy, better crew. Show the players their own improvement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The trail:</strong> past hound territory — discarded equipment, drag marks, a broken data recorder. Mostly corrupted, one clear entry:"
+    },
+    {
+      "type": "blockquote",
+      "text": "“Day 12. Found it. Crystal formation matches the Pear survey data — the topology is shifting, not randomly. There's a pattern. Something is [corrupted] the rift from the inside. Not natural [corrupted]. Going deeper to confirm. Full report on return.”"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The choice:</strong> the contract says recover equipment and data, and the assigned search zone ends here. Going deeper is dangerous, unpaid, and explicitly not the job. But the missing crew is still in there. Maybe. If they stay inside the parameters: collect, return, 800 cr each, clean — and the missing crew becomes a statistic. Honor that choice; the campaign continues with the mystery unresolved but present. If they go deeper:"
+    },
+    {
+      "type": "heading",
+      "text": "What Changed (The Hard Fight)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Deeper in, the environment shifts. The crystal formations are larger, denser, pulsing with a rhythm like breathing. The air is thicker — <strong>exposure here ticks +2 Charge instead of +1.</strong> This part of the rift feels newer than the rest, like the dimension is still forming."
+    },
+    {
+      "type": "paragraph",
+      "text": "They find the missing team. Two dead — killed by something large, recently. One alive but unconscious, deep into Saturation, covered in crystal growths that are either bandaging or consuming them. Equipment scattered. Weapons broken. And the thing that killed the others is still here."
+    },
+    {
+      "type": "info-block",
+      "icon": "⚔",
+      "title": "Rift Amalgam",
+      "subtitle": "Elite controller — Shell",
+      "entries": [
+        {
+          "label": "Stat",
+          "value": "Elite chassis, Controller role (Enemy Framework): d8+3 accuracy; two crystal limbs, 2d8 each; EV 5; RP 2. Flesh HP 24 under Shell 3/1/12 (Value 3 / Absorb 1 / Shell HP 12).",
+          "full": true
+        },
+        {
+          "label": "Signature",
+          "value": "Charge Aura — Adjacent creatures tick +1 Charge per round (Charge &amp; Saturation). Grab (contested); held prey takes 1d4 per round and +1 Charge — the crystal is trying to absorb them — and is dragged one band toward the formation each round."
+        },
+        {
+          "label": "Break",
+          "value": "None. It isn't defending the formation. It's finishing it."
+        },
+        {
+          "label": "Carve",
+          "value": "Amalgam core — premium tier (~300 cr carried default); crystal fragments (~50 cr each, several). Harvest exposure applies — this is Bloom-class material (Carving)."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "REGENERATION NOTE",
+      "text": "The old printing ran the Amalgam on two activations per round. The rebuild prints no sub-boss multi-activation rule — the activation budget is an open gap flagged on Enemy Framework. RP 2 and the two-limb strike carry most of the old tempo; if your table wants the full pressure of the original, size it as a small boss on Bosses instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>This is the hardest fight of the arc.</strong> Work the shell, free the held, and manage Charge — the aura bills the crew for proximity itself, and anyone weaving spells next to it is paying double. Someone will probably scar. If a body drops past its first scar, this is where the stabilize window gets taught: <strong>reach them before their next activation or the d20 comes out</strong> (The Staircase). Cover the body — damage to a downed contractor fires the roll immediately."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>If the crew wins:</strong> they can stabilize the surviving contractor (Medicine, adjacent — out of danger, not out of the woods), harvest the Amalgam, and examine the formation. It's growing. It wasn't here when the zone was surveyed six months ago. The Amalgam wasn't guarding it — it was <em>building</em> it, and the dead contractors were being integrated into the structure."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The survivor</strong>, delirious, says one thing clearly before passing out: “It's not coming from outside. It's growing from inside. The rift is making something.”"
+    },
+    {
+      "type": "heading",
+      "text": "The Aftermath"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Extraction.</strong> The crew hauls the survivor, the data, and the carve back through the gate. Charge ran hot in the deep zone — when the vents settle, anyone light on Grit has banked real Saturation, and the deep zone's bill arrives as the detox line (The Economy Dials). Urgent and expensive: exactly as advertised."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Payout:</strong> 800 cr base. Plus the harvest — if they went deep, the Amalgam core alone is ~300 cr. Probably 1,000–1,200 cr each: the best payday they've had. It should feel good and bad simultaneously. They earned it; look what it cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The debrief:</strong> the corp wants the recorder, a report on the Amalgam, and everything about the formation. What it doesn't want: the crew asking questions publicly, talking to other contractors, or going back without authorization. The corp offers a bonus — <strong>200 cr per person — for signing an NDA about the deeper zone.</strong> Signing is optional. The money is tempting. The implication is clear: the corp knew something was wrong with Gate 7 and sent contractors instead of its own people."
+    },
+    {
+      "type": "heading",
+      "text": "Session 3 End State"
+    },
+    {
+      "type": "bullet",
+      "text": "Their best payday yet"
+    },
+    {
+      "type": "bullet",
+      "text": "Saturation on the books and a detox bill coming"
+    },
+    {
+      "type": "bullet",
+      "text": "Possibly new scars"
+    },
+    {
+      "type": "bullet",
+      "text": "A surviving contractor who owes them their life — a new NPC"
+    },
+    {
+      "type": "bullet",
+      "text": "Data suggesting something is growing inside Gate 7 — something the corp either didn't know about or chose not to disclose"
+    },
+    {
+      "type": "bullet",
+      "text": "An NDA offer that amounts to “here's money to stop asking questions”"
+    },
+    {
+      "type": "bullet",
+      "text": "A choice: take the money and shut up, or pull the thread"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The campaign begins here.</strong> Everything before this was setup. The crew has their margin, their NPCs, their economic routine, and now a reason to care about something beyond rent. What's growing in Gate 7? Why did the corp send contractors instead of investigating? What was the missing crew really looking for? Why was a Pear survey cited on a Congo contract? These questions aren't answered here. They're answered at the table, over the next twenty sessions."
+    },
+    {
+      "type": "heading",
+      "text": "Where to Go"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>If the crew signed:</strong> the corp stops posting Gate 7 contracts. The zone goes quiet. Other crews start getting matched for Gate 7 work — crews that don't ask questions, that don't come back to Threshold Row, that nobody knows. The silence is louder than the mystery. They can honor the NDA or break it; breaking it has consequences (the corp notices) and opens doors (other people have questions too)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>If they didn't sign:</strong> they're on record as contractors who ask questions — bad for business with some corps, excellent for information. The rescued contractor makes contact. Mags hears things. A Pear representative turns up at the Grindhouse asking about “dimensional topology anomalies.” The thread is live and pulling."
+    },
+    {
+      "type": "heading",
+      "text": "The Stakes Are Local"
+    },
+    {
+      "type": "paragraph",
+      "text": "They can't take down a corporation. Nobody can. If the crew someday proves Congo knew about the growth and covered it up — Congo's stock dips 3%, a regional manager gets reassigned, PR issues a statement about “evolving safety protocols,” and Congo keeps operating, because Congo has been operating for a thousand years and will be operating for a thousand more."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>But Threshold Row is real.</strong> If the growth threatens the margin, that's their home. If Gate 7 destabilizes, that's their income. If the cover-up puts their NPCs at risk, those are their people. The stakes aren't “save the world.” The stakes are “save your block.” And that's enough."
+    },
+    {
+      "type": "blockquote",
+      "text": "“First Contract orientation is complete. Good luck, Contractor. The margin is watching.”"
+    }
+  ]
+}

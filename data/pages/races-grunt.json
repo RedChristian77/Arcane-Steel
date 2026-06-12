@@ -9,10 +9,22 @@
       "title": "The Grunt",
       "subtitle": "Origin: Unknown · The First and the Longest",
       "entries": [
-        {"label": "Origin", "value": "Unknown — wild rift arrivals ~2110, oldest non-human species on Earth"},
-        {"label": "Population", "value": "Moderate"},
-        {"label": "Appearance", "value": "Large. Broad-shouldered. Heavy-browed. Deep brown to gray-green skin."},
-        {"label": "Build", "value": "Massive — tallest and heaviest sapient species"}
+        {
+          "label": "Origin",
+          "value": "Unknown — wild rift arrivals ~2110, oldest non-human species on Earth"
+        },
+        {
+          "label": "Population",
+          "value": "Moderate"
+        },
+        {
+          "label": "Appearance",
+          "value": "Large. Broad-shouldered. Heavy-browed. Deep brown to gray-green skin."
+        },
+        {
+          "label": "Build",
+          "value": "Massive — tallest and heaviest sapient species"
+        }
       ]
     },
     {
@@ -20,10 +32,10 @@
       "label": "Playable Adjustments",
       "style": "accent",
       "items": [
-        "Regeneration: heal 1 HP per hour naturally",
-        "Scar costs -25% (biology handles trauma better)",
-        "-1 Initiative (deliberate processing, not slow thinking)",
-        "+1 Grit for toxicity resistance checks",
+        "Regeneration: recover 1 flesh HP per hour naturally",
+        "Scar treatment costs -25% (biology handles trauma better)",
+        "Initiative: counts Reflex as 1 lower (deliberate processing, not slow thinking)",
+        "Free vent +1 — shed 1 extra Charge when venting (vent bonuses cap at +2)",
         "Metabolize toxicity faster than any other species"
       ]
     },
@@ -32,9 +44,9 @@
       "label": "Strengths",
       "style": "teal",
       "items": [
-        "Natural regeneration — 1 HP/hour, the only species that heals passively",
-        "Superior toxicity processing — +1 Grit for resistance, metabolize faster",
-        "Reduced scar costs — biology handles physical trauma 25% more efficiently",
+        "Natural regeneration — 1 flesh HP/hour, the only species that heals passively",
+        "Superior toxicity processing — free vent +1, metabolize faster",
+        "Reduced scar treatment costs — biology handles physical trauma 25% more efficiently",
         "Deliberate intelligence — given time, produce solutions as sophisticated as any species",
         "Unshakeable in crisis — don't panic, don't rush, don't make fear-based decisions",
         "The longest memory — oral ledger tradition tracks every debt and every favor"
@@ -45,7 +57,7 @@
       "label": "Weaknesses",
       "style": "rust",
       "items": [
-        "-1 Initiative — process information thoroughly, not quickly",
+        "Initiative: Reflex counts 1 lower — process information thoroughly, not quickly",
         "Deliberate processing reads as \"slow\" in a society that rewards instant reaction",
         "No known home dimension — can't go back, existential weight of rootlessness",
         "Exploited for durability — corporations push them harder because they survive"

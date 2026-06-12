@@ -1,0 +1,61 @@
+{
+  "id": "annex-videogame",
+  "title": "Video Game Notes",
+  "subtitle": "Implementation mapping",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Implementation notes, collected from the rebuild docs. This page is short because the docs are — the mapping is a property of the data shapes, not a second design effort.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rebuild diagnosis assigns video-game implementation notes to this Annex. What follows is everything the rebuild documents actually print about the video game: three structural mappings and two asides. Nothing on this page extends them."
+    },
+    {
+      "type": "heading",
+      "text": "A Mission Is the Same Data Shape"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Spire mission chassis — a node map packaged as a booklet of map + node cards + three corp-flavored briefing variants + a complication table (the chassis lives on Missions &amp; the Spire Map) — is, per the mission-layer design doc, <em>\"exactly the structure the tactics game wants — a mission in the TTRPG and a mission in the video game become the same data shape.\"</em> The master consolidation confirms it in five words: <em>\"Same data shape as the tactics game.\"</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The booklet is the interchange format: one node = one card = one prep unit, map geometry = pacing, and the three briefing variants are the same mission told as three different lies."
+    },
+    {
+      "type": "heading",
+      "text": "A Pattern Is a Weapon in the Data Model"
+    },
+    {
+      "type": "paragraph",
+      "text": "From the casting pass, validating pattern lanes against the body taxonomy: <em>\"patterns are weapons in the data model, tags and all — which is exactly the shape the tactics game wants.\"</em> Targeted patterns resolve as Attacks and pay crit beats like any weapon; the data model already treats the Channeler's arsenal as a weapon table with a different ammunition economy."
+    },
+    {
+      "type": "heading",
+      "text": "A Convoy Run Is a Node Map at Vehicle Scale"
+    },
+    {
+      "type": "paragraph",
+      "text": "From the vehicles module: <em>\"Rift trucking is a mission frame: a convoy run is a node map at vehicle scale — same Spire chassis, nodes are legs, ambushes, gates, and breakdowns.\"</em> One mission data shape covers infantry contracts and convoy runs alike."
+    },
+    {
+      "type": "heading",
+      "text": "Printed Asides"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Action grants:</strong> Influence's Override: ACT is priced at the absolute top of the budget — bounded to once per fight — <em>\"because granting actions is the strongest sentence in any tactics game and this tree gets to say it exactly one time.\"</em>"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The roguelite clock:</strong> carving's preservation pressure — value halving on a timer, fresh organs in minutes — is described in the modules plan as <em>\"the roguelite banking pressure made physical.\"</em>"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "This page is the complete corpus. No engine, platform, scope, schedule, or porting decision is printed anywhere in the rebuild docs. The rebuild diagnosis also names \"sandbox options\" as Annex content, but no sandbox-options text was ever written."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "pc-combat-conditions",
+  "title": "Conditions",
+  "subtitle": "States and what clears them",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>One name, one effect, everywhere. The paperwork is the mercy.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Default duration:</strong> a condition lasts until the end of the afflicted's next activation. <strong>Reapplication refreshes the duration — it never stacks.</strong> The one exception is Seared, which carries a number."
+    },
+    {
+      "type": "paragraph",
+      "text": "Each condition lists its own exit. Beyond those: Calm Voice handles morale, and the Sin Eater can eat anything (see Sin Eater)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Condition",
+        "Effect",
+        "Ends / clears"
+      ],
+      "rows": [
+        [
+          "<strong>Rattled</strong>",
+          "−1 accuracy on all attacks; −1 on contested Checks. The nerves answering first.",
+          "Default duration."
+        ],
+        [
+          "<strong>Slowed</strong>",
+          "Band moves cost +1 AP.",
+          "Default duration; a Stim sheds it (see Consumables & Ammo)."
+        ],
+        [
+          "<strong>Seared X</strong> (max 3)",
+          "At the start of your activation, take X direct damage, then reduce X by 1.",
+          "Counts itself down; an Antidote ends it (see Consumables & Ammo)."
+        ],
+        [
+          "<strong>Pinned</strong>",
+          "Movement is 0.",
+          "Spend 2 AP to recover, or win the contest that holds you."
+        ],
+        [
+          "<strong>Grappled</strong>",
+          "No movement; no attacks beyond Adjacent.",
+          "Escape: contested Athletics Check."
+        ],
+        [
+          "<strong>Suppressed</strong> (zone)",
+          "While inside the zone: −1 accuracy, and moving toward the suppressor costs +1 AP per band.",
+          "It's the zone, not you — leave it or outlast it."
+        ],
+        [
+          "<strong>Marked</strong>",
+          "The marking source's allies gain +1 accuracy against you.",
+          "The source defines the duration."
+        ],
+        [
+          "<strong>Withered</strong>",
+          "−1 damage per die.",
+          "Default duration."
+        ],
+        [
+          "<strong>Jammed</strong> (gear)",
+          "The weapon doesn't fire until cleared.",
+          "1 AP to clear; Jam Drill makes it free."
+        ],
+        [
+          "<strong>Down</strong>",
+          "Helpless. The stabilize window is running, and any damage to you fires the Fate Roll immediately.",
+          "See The Staircase."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Seared is the exception to no-stacking: it is numbered, and reapplication can build X up to its cap of 3."
+    },
+    {
+      "type": "blockquote",
+      "text": "Conditions are temporary by design. Contractors experiencing a condition that fails to resolve on schedule should consult the nearest Sin Eater, street doc, or actuary, in ascending order of finality."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "pc-combat-turn",
+  "title": "Turn, AP & Reactions",
+  "subtitle": "Five AP, alternating activations, RP",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Standard engagement cycle: five allocations per contractor per rotation. Unspent allocations accrue as readiness. Readiness is appreciated.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your activation is <strong>5 AP</strong>. Every action in combat is priced in it — and whatever you don't spend becomes your reactions."
+    },
+    {
+      "type": "heading",
+      "text": "Spending AP"
+    },
+    {
+      "type": "paragraph",
+      "text": "On your activation, spend AP on any mix of actions, in any order. Attacks cost the weapon's printed AP (see Weapons). Shedding conditions — clearing a jam, recovering from a pin — costs AP as listed on Conditions."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Action",
+        "AP",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Attack",
+          "Weapon's AP",
+          "One swing or shot; the weapon card sets the price (see Weapons)."
+        ],
+        [
+          "Move",
+          "See Bands & Movement",
+          "One band at a time."
+        ],
+        [
+          "Defend",
+          "2",
+          "+2 Evasion."
+        ],
+        [
+          "Suppression",
+          "3",
+          "Project a Suppressed zone (see Conditions)."
+        ],
+        [
+          "Analyze",
+          "1",
+          "Awareness Check to read a target's taxonomy and profile mid-fight."
+        ],
+        [
+          "Grapple / Shove / Throw",
+          "—",
+          "Contested Check: your Athletics + Chrome vs the target's Athletics + Chrome or Reflex (target's choice)."
+        ],
+        [
+          "Use an item",
+          "As listed",
+          "See Consumables & Ammo."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The consolidation references \"quick actions per list,\" but no quick-action list exists in the Phase 7 docs. Defend's duration and the AP costs for Grapple, Shove, and Throw are carried forward from pre-rebuild text without being restated."
+    },
+    {
+      "type": "heading",
+      "text": "Initiative: alternating activations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sides alternate activations — one combatant from your side acts, then one from theirs, until everyone has activated. Then the round ends and the alternation starts again."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>What Reflex buys.</strong> Reflex is tempo, not a turn order:"
+    },
+    {
+      "type": "bullet",
+      "text": "Your side activates first if you have the highest Reflex on the field."
+    },
+    {
+      "type": "bullet",
+      "text": "Within the player side, the highest-Reflex player may claim any activation slot."
+    },
+    {
+      "type": "bullet",
+      "text": "Reflex breaks all timing ties — and players win ties against enemies."
+    },
+    {
+      "type": "heading",
+      "text": "Delaying"
+    },
+    {
+      "type": "bullet",
+      "text": "A delayed activation must resolve before the round ends, or it is forfeit."
+    },
+    {
+      "type": "bullet",
+      "text": "No consecutive delays."
+    },
+    {
+      "type": "bullet",
+      "text": "One delay per side per round."
+    },
+    {
+      "type": "heading",
+      "text": "Reactions: RP"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>RP = 2 + your unspent AP,</strong> set at the end of your turn. It is recalculated every turn — reserve doesn't carry over. RP is what you act with when it isn't your turn."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "Reaction Attack",
+      "text": "When an enemy moves inside your threat envelope — melee: leaving your reach; ranged: changing bands within your sight and range — you may attack them as an interrupt, paying RP equal to your weapon's AP cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Banking AP <em>is</em> overwatch. There is no overwatch action and no separate reaction allowance — holding your turn back is the watch. Bank all 5 AP and you end the turn with 7 RP; spend everything and you keep the base 2. Light weapons stay reactive off base RP even after a full turn; heavy weapons only react by banking. Every round is the same choice: swing now, or guard the door."
+    },
+    {
+      "type": "paragraph",
+      "text": "Defensive reactions from augments and abilities carry their own RP prices on their tree pages."
+    },
+    {
+      "type": "blockquote",
+      "text": "Time held in reserve remains the property of the contractor until the start of their next rotation. Time held in reserve by hostile parties remains, regrettably, the property of hostile parties."
+    }
+  ]
+}

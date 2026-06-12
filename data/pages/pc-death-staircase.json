@@ -1,0 +1,164 @@
+{
+  "id": "pc-death-staircase",
+  "title": "The Staircase",
+  "subtitle": "Downed, stabilize, and the Fate Roll",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Nobody falls the whole way at once. The drop has a railing the entire length of it — the only question is whether anyone grabs it.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hitting 0 HP is not death. Death has exact mechanics, and all of them live on this page."
+    },
+    {
+      "type": "blockquote",
+      "text": "Field expiration is a preventable outcome in one hundred percent of stabilized cases. Stabilization is a squad responsibility. Mortality is a personal one."
+    },
+    {
+      "type": "heading",
+      "text": "The Ladder of Exits"
+    },
+    {
+      "type": "paragraph",
+      "text": "No hit takes you from standing to dead. The fall has rungs, and every rung is an exit someone at the table can take: your armor cracks, your armor breaks (see Armor), the wounds after that drop you to 0 HP, you are Down — and only if nobody reaches you does the Fate Roll come out. This page walks the rungs in order."
+    },
+    {
+      "type": "heading",
+      "text": "Dropping to 0"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dropping with zero untreated scars: automatic scar, no roll.</strong> If you hit 0 HP while carrying no untreated scars, death converts straight into a scar. The dice are never consulted — you cannot die clean. The scar is real and it is now on your ledger; what it costs you lives on Scars."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dropping with untreated scars: you are Down.</strong> Every other drop puts you in the Down state and starts the clock. Down means helpless — no actions, no reactions, no movement. The stabilize window is running, and the Fate Roll waits at the end of it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Damage to a downed body fires the roll immediately.</strong> No window, no waiting for an activation — the moment a downed character takes any damage, their Fate Roll happens right then."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "COVER THE BODY",
+      "text": "A downed squadmate is one stray hit from rolling for their life. Block the lines of fire, body the doorway, draw the attention. The window only matters if nothing touches them before someone uses it."
+    },
+    {
+      "type": "heading",
+      "text": "The Stabilize Window"
+    },
+    {
+      "type": "paragraph",
+      "text": "Left alone, the Fate Roll fires at the start of your next activation. Until that moment your squad has a window, and there are three ways through it:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Medicine, Adjacent:</strong> a squadmate Adjacent to you makes a Medicine Check to stabilize you."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Patch drone, at range:</strong> a Patch drone does the same work without crossing the field (drones live on Systems)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Combat Triage:</strong> if someone on the squad has it, this moment is what it exists for."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The stabilize Medicine Check has no printed DC, and the Patch drone and Combat Triage are named here but not yet written up anywhere."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stabilized: take the scar, no roll, out for the scene.</strong> A stabilized character lives, gains a scar, and is done for the scene — there is no mid-fight return. Out is out until the fight is over."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The window only exists in active combat.</strong> Once the fight ends there is no activation left for the roll to fire on. A character still Down when the shooting stops is stabilized at leisure: scar, no roll. Down is only lethal under fire."
+    },
+    {
+      "type": "heading",
+      "text": "The Fate Roll"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the window closes — the start of your next activation arrives with you still Down, or your downed body takes damage — you roll. Once."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The roll: d20 + (2 × your Grit bonus) vs DC 10 + (2 × your untreated scars).</strong> Your Grit bonus comes from the one bonus table on Stats & Growth. Grit is the dying-well stat — it is the only thing you bring to this roll, and untreated scars are the only thing that raises the price."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Untreated scars",
+        "Fate DC"
+      ],
+      "rows": [
+        [
+          "0",
+          "No roll — the drop converts to an automatic scar"
+        ],
+        [
+          "1",
+          "12"
+        ],
+        [
+          "2",
+          "14"
+        ],
+        [
+          "3",
+          "16"
+        ],
+        [
+          "4",
+          "18"
+        ],
+        [
+          "5",
+          "20"
+        ],
+        [
+          "6",
+          "22"
+        ],
+        [
+          "Each further scar",
+          "+2"
+        ]
+      ]
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Meet or beat the DC:</strong> you survive, and the drop leaves its scar — every drop you live through does."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Natural 20:</strong> always survives. No DC climbs past the top face."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Anything less:</strong> the character is dead. The mechanics end here."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "SCAR-FED POWER NEVER HELPS HERE",
+      "text": "Nothing bought with scars — Fury or anything like it — can touch this roll, its DC, or how your scars are counted. The full law lives on Scars."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "What state a survivor is left in is unspecified for two cases: the automatic-scar drop at zero untreated scars, and a passed Fate Roll. (Stabilized characters are explicitly out for the scene; these two are not yet ruled.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Death in this game is dropped and alone, under fire — and even then, Grit and the top face of a d20 are still in the room. Exits all the way down."
+    }
+  ]
+}

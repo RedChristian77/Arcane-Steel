@@ -1,0 +1,59 @@
+{
+  "id": "gm-leverage",
+  "title": "Leverage & Encounter Play",
+  "subtitle": "Fights as negotiations",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Acquisitions desk. Every engagement is a negotiation. Some are conducted in ordnance.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Encounter nodes (◉) are NPCs, rivals, and negotiations</strong> (see Missions &amp; the Spire Map), and the design discipline that binds every module binds this one: <strong>no new grammars.</strong> Social play resolves through Check bands plus a leverage tag — nothing else. If a social scene seems to need a new die mechanic, the scene is wrong."
+    },
+    {
+      "type": "heading",
+      "text": "Running the Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "Negotiation runs on the one grammar the whole game runs on (see The Two Rolls): skill dice + stat vs a DC off the ladder, with the universal outcome bands — full means the terms land, a miss by 1–2 means the terms land <em>at cost</em>, a miss by 3+ means they don't. Opposed haggling is the contested roll: both sides roll, higher wins, acting party takes ties. Negotiate rolls Edge and owns deals, terms, and the table; Streetwise owns the margin's version (The Twelve Skills)."
+    },
+    {
+      "type": "heading",
+      "text": "Fights Are Negotiations"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Every fight has a settlement clause: the Break line.</strong> Every creature block carries one — the condition where its survival math flips (see Enemy Framework). Gangs scatter at casualties; wounded big game turns desperate before it flees; corp professionals break by doctrine, withdrawing the moment the mission stops pricing; constructs have no line at all. Surrender Demand-class verbs (Influence, Sin Eater) key off Break lines — there is a hook in every block."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "TABLE NOTE",
+      "text": "Know the Break line before the fight and you know the exit price. An encounter where the players find the line — by intel, by Analyze, by talking — and push the enemy across it without emptying a magazine is encounter play working exactly as designed."
+    },
+    {
+      "type": "heading",
+      "text": "Leverage Tags"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP — FLAGS LEDGER #17",
+      "text": "Leverage tag mechanics are unprinted anywhere in the rebuild docs. What holding a tag does, and what it costs to be on the wrong end of one, awaits a ruling. Three pages already trade in tags and all of them point here: Negotiate features reveal and create tags (The Twelve Skills); the Fixer's trade reads, manufactures, and spends them (Fixer); the Disgraced Executive starts play holding one and held by one (Résumés). When the tag rules are ruled, they print on this page — and those pages keep referencing it."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Until the ruling, run tags as established fiction the table honors.</strong> That is the résumé principle, applied: standing and leverage, never a roll bonus. A tag is a fact with a name on it — a debt, a secret, a dependency — and the GM prices it the way the GM prices any fact: it opens doors, closes doors, and sets the DC of the conversation."
+    },
+    {
+      "type": "paragraph",
+      "text": "What exists in print today, by owner: full social successes reveal tags and a Negotiate feature mints temporary ones (The Twelve Skills); the Fixer's Book and Tag Manufacture work the permanent ledger (Fixer); one résumé starts the game already tangled (Résumés). The Encounter-node social structure beyond the Check bands — the masterplan's \"Check bands + a leverage tag\" spec — is the same open item."
+    },
+    {
+      "type": "blockquote",
+      "text": "NEGOTIATION ADVISORY: Representatives are authorized to settle at posted rates. Anything you know that a representative wishes you did not is a rate adjustment. File it before they do."
+    }
+  ]
+}

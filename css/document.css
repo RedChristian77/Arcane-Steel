@@ -1,0 +1,302 @@
+/* ============================================================
+   DOCUMENT — Corp document chrome (loads last, owns the vibe)
+   The site is not a website about the game.
+   The site is the corp's document system. You are reading your file.
+   ============================================================ */
+
+/* ---------- Page document banner ---------- */
+.doc-banner {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-md);
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+  color: var(--doc-label);
+  border-top: 2px solid var(--book-accent);
+  border-bottom: 1px solid var(--doc-line);
+  background: var(--doc-header-bg);
+  padding: 6px 10px;
+  margin-bottom: var(--sp-xl);
+  text-transform: uppercase;
+}
+.doc-banner-no { color: var(--book-accent); font-weight: 600; }
+.doc-banner-book { flex: 1; }
+.doc-banner-class {
+  color: var(--doc-stamp);
+  border: 1px solid var(--doc-stamp);
+  padding: 1px 6px;
+  font-weight: 600;
+}
+
+/* ---------- Page header as form header ---------- */
+.pg-hdr {
+  border-bottom: 1px solid var(--doc-line);
+  padding-bottom: var(--sp-md);
+  margin-bottom: var(--sp-lg);
+}
+.pg-sub {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--doc-label);
+}
+.pg-title {
+  font-family: var(--heading);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.pg-rev {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  margin-top: var(--sp-xs);
+  text-transform: uppercase;
+}
+
+/* ---------- Square the corners. Print doesn't glow. ---------- */
+.c-callout, .c-blockquote, .c-info-block, .ability-card,
+.tree-tier, .tree-meta, .kit-card, .corp-profile, .tbl-wrap,
+.home-sec, .search-modal {
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+
+/* ---------- Callouts as form boxes ---------- */
+.c-callout { border-left-width: 3px; }
+.c-callout-label {
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: var(--fs-xs);
+}
+
+/* CORP NOTICE blockquote: the cheerful memo */
+.c-blockquote { background: var(--surface2); border: 1px solid var(--doc-line); border-left: 3px solid var(--book-accent); }
+.c-bq-badge {
+  font-family: var(--mono);
+  letter-spacing: 0.14em;
+}
+
+/* ---------- Sidebar as file cabinet ---------- */
+.sidebar { border-right: 1px solid var(--doc-line); }
+.sidebar-hdr { border-bottom: 1px solid var(--doc-line); }
+.sidebar-logo {
+  font-family: var(--heading);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.sidebar-sub {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--doc-label);
+}
+
+.nav-book {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-sm);
+  margin: var(--sp-lg) 0 var(--sp-xs) 0;
+  padding: 4px 10px 3px;
+  border-top: 2px solid var(--nav-book-accent, var(--accent));
+  border-bottom: 1px solid var(--doc-line);
+  font-family: var(--mono);
+  text-transform: uppercase;
+}
+.nav-book-no {
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--nav-book-accent, var(--accent));
+  letter-spacing: 0.06em;
+}
+.nav-book-title {
+  font-size: var(--fs-xs);
+  letter-spacing: 0.10em;
+  color: var(--doc-label);
+}
+.nav-book[data-book="player"] { --nav-book-accent: var(--accent); }
+.nav-book[data-book="gm"]     { --nav-book-accent: var(--rust); }
+.nav-book[data-book="annex"]  { --nav-book-accent: var(--teal); }
+.nav-book[data-book="world"]  { --nav-book-accent: var(--gold); }
+.nav-book[data-book="meta"]   { --nav-book-accent: var(--muted); }
+
+.nav-group-title {
+  font-family: var(--sans);
+  letter-spacing: 0.02em;
+}
+.nav-group-ico { opacity: 0.7; font-size: var(--fs-sm); }
+
+/* ---------- Cover sheet (home) ---------- */
+.cover {
+  max-width: var(--container-w);
+  margin: 0 auto;
+  padding: var(--sp-2xl) var(--sp-lg) var(--sp-xl);
+  text-align: center;
+}
+.cover-seal {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.3em;
+  color: var(--doc-label);
+  text-transform: uppercase;
+  margin-bottom: var(--sp-lg);
+}
+.cover-title {
+  font-family: var(--heading);
+  font-size: var(--fs-hero);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  margin: 0;
+  text-transform: uppercase;
+}
+.cover-rule {
+  width: 120px;
+  border: none;
+  border-top: 2px solid var(--accent);
+  margin: var(--sp-md) auto;
+}
+.cover-sys {
+  font-family: var(--mono);
+  font-size: var(--fs-sm);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text2);
+}
+.cover-issue {
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-top: var(--sp-sm);
+  text-transform: uppercase;
+}
+.cover-notice {
+  max-width: 560px;
+  margin: var(--sp-xl) auto 0;
+  text-align: left;
+  font-style: italic;
+  color: var(--text2);
+  border: 1px solid var(--doc-line);
+  border-left: 3px solid var(--accent);
+  background: var(--surface);
+  padding: var(--sp-md) var(--sp-lg);
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+}
+.cover-notice-sig {
+  display: block;
+  margin-top: var(--sp-sm);
+  font-family: var(--mono);
+  font-style: normal;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  color: var(--doc-label);
+  text-transform: uppercase;
+}
+
+/* ---------- Book index (home) ---------- */
+.books {
+  max-width: var(--container-w);
+  margin: 0 auto;
+  padding: 0 var(--sp-lg) var(--sp-2xl);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-lg);
+}
+@media (max-width: 760px) { .books { grid-template-columns: 1fr; } }
+.book {
+  border: 1px solid var(--doc-line);
+  border-top: 3px solid var(--bk, var(--accent));
+  background: var(--surface);
+}
+.book[data-book="player"] { --bk: var(--accent); }
+.book[data-book="gm"]     { --bk: var(--rust); }
+.book[data-book="annex"]  { --bk: var(--teal); }
+.book[data-book="world"]  { --bk: var(--gold); }
+.book[data-book="meta"]   { --bk: var(--muted); }
+.book-hdr {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-sm);
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--doc-line);
+  background: var(--doc-header-bg);
+  font-family: var(--mono);
+  text-transform: uppercase;
+}
+.book-no { font-size: var(--fs-xs); font-weight: 600; color: var(--bk, var(--accent)); letter-spacing: 0.06em; }
+.book-title { font-size: var(--fs-xs); letter-spacing: 0.12em; color: var(--text2); }
+.book-toc { padding: var(--sp-sm) 0; }
+.book-sec {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-sm);
+  padding: 5px 14px;
+  cursor: pointer;
+  color: var(--text2);
+  font-size: var(--fs-sm);
+  transition: var(--tr);
+}
+.book-sec:hover { color: var(--text); background: var(--accent-glow); }
+.book-sec-ico { opacity: 0.6; font-size: var(--fs-xs); width: 14px; text-align: center; }
+.book-sec-count {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--muted);
+}
+.book-foot {
+  padding: 8px 14px;
+  border-top: 1px solid var(--doc-line);
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  color: var(--doc-stamp);
+  text-transform: uppercase;
+}
+
+/* ---------- End-of-document mark ---------- */
+.pg-nav { border-top: 1px solid var(--doc-line); position: relative; }
+.pg-nav::before {
+  content: "— END OF DOCUMENT — RETAIN FOR YOUR RECORDS —";
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  padding: var(--sp-sm) 0 var(--sp-md);
+}
+.pg-nav-lbl { font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.1em; font-size: var(--fs-xs); }
+
+/* ---------- Tables as printed forms ---------- */
+.tbl th {
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: var(--fs-xs);
+}
+
+/* ---------- Dice badges: data, not jewelry ---------- */
+.dice-badge {
+  font-family: var(--mono);
+  border-radius: var(--radius);
+}
+
+/* ---------- Legacy builder link gets a stamp ---------- */
+.nav-item.builder .nav-legacy {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: var(--fs-xs);
+  color: var(--doc-stamp);
+  border: 1px solid var(--doc-stamp);
+  padding: 0 4px;
+  letter-spacing: 0.06em;
+}

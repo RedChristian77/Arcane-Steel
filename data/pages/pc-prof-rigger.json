@@ -1,0 +1,115 @@
+{
+  "id": "pc-prof-rigger",
+  "title": "Rigger",
+  "subtitle": "Vehicles and transport",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The squad's ride is infrastructure. Infrastructure has a mechanic.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Rigger owns vehicles and transport: upkeep, modding, and the convoy economy. The trade bleeds from Tech — anyone can drive a truck on a Tech check; the Rigger <em>has</em> the truck, and keeps it running when the Char fatigues the frame and the Bloom grows into the engine."
+    },
+    {
+      "type": "info-block",
+      "icon": "⛭",
+      "title": "Rigger",
+      "subtitle": "The wheels",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "transport, vehicle upkeep & modding"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Tech"
+        },
+        {
+          "label": "Work verb",
+          "value": "maintenance and transport (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "clearing a vehicle drain on mission (+1 PP, max 1/mission)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview. Vehicle rules — frames, Seal, Capacity, drains, chases — live on Vehicles."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Garage Habit (entry, 4 PP):</strong> opens the trade — the Work verb and the field verb are yours."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grease Sense (T2, 4 PP):</strong> any vehicle's condition, mods, and history on sight."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Route Rat (T2, 5 PP):</strong> your convoy legs take −1 frame fatigue (the Char fatigues frames — see Vehicles)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Chop Access (T2, 6 PP):</strong> vehicle mods install at −25%. <em>Obligation: chop shops remember faces.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Hard Brake Doctrine (T2, 5 PP):</strong> advantage on chase Checks you initiate (chases are contested driver Checks over band separation — see Vehicles)."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Smuggler's Frame (T3, 7 PP):</strong> your hidden compartments beat Standard inspections outright; Hard inspections contest."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fleet Hands (T3, 6 PP):</strong> two squad vehicles, one upkeep."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Rigger's Name (T3, 8 PP):</strong> corp logistics subcontracts you — Name rates, and the gates know your plates. Both edges."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The vehicle customization catalog (compartments, freezers, fuel, sealing) is a parked module. Chop Access prices installs against it and Smuggler's Frame assumes hidden compartments exist, but the catalog itself is not yet written — parked, not designed."
+    },
+    {
+      "type": "heading",
+      "text": "What the Rigger touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Vehicles</strong> are Shells you sit inside — Value, Absorb, Frame HP, Seal, Capacity, drains, and chases all live on Vehicles. The Rigger's upkeep clears the drains."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The convoy economy:</strong> the Char's 5:1 compression — convoys, gates, tariffs, smuggling — lives on Vehicles. The Guide knows the way; the Rigger keeps the wheels under it (see Guide)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The cargo chain:</strong> the Carver's lots ride in your Capacity — carving creates cargo, cargo needs the van, the van needs the Rigger (see Carver)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Vehicle registration confirmed. Your plates are now recognized at all participating checkpoints. Recognition is not a service that can be discontinued."
+    }
+  ]
+}

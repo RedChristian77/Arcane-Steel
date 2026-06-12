@@ -1,0 +1,265 @@
+{
+  "id": "pc-equipment-weapons",
+  "title": "Weapons",
+  "subtitle": "The weight ladder",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The dice are the identity. Read the accuracy die and you already know the weapon.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A weapon supplies three things: the <strong>accuracy die</strong> you roll to attack, the <strong>damage dice</strong> a hit feeds into the pipeline, and the <strong>AP</strong> each attack costs. How the attack resolves — Evasion, punch-through, tags — lives on Attacks & the Shell Clock."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The combat pages resolve an attack as accuracy die + your stat bonus for that weapon — and send you here for which stat that is. The Phase 7 docs never answer: no weapon names an attack stat, and no general rule (a melee stat, a ranged stat) is printed anywhere. This is a known open question raised by the combat batch. Until it is ruled, this catalog has no stat column to print."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>One law, printed once:</strong> a small accuracy die means a heavy hitter — fewer hits, bigger payloads, and a high crit rate per swing. A big accuracy die means light and reliable. The dice are the identity."
+    },
+    {
+      "type": "heading",
+      "text": "The catalog"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Weapon",
+        "Accuracy",
+        "Damage",
+        "AP",
+        "Weight",
+        "Range",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "Knife",
+          "d12",
+          "1d6",
+          "1",
+          "1",
+          "Adjacent",
+          "the flurry"
+        ],
+        [
+          "Stiletto",
+          "d12",
+          "1d4",
+          "1",
+          "1",
+          "Adjacent",
+          "<strong>Pierce</strong>"
+        ],
+        [
+          "Precision Blade",
+          "d10",
+          "1d8",
+          "2",
+          "1",
+          "Adjacent",
+          "the duelist's compromise"
+        ],
+        [
+          "Longsword",
+          "d8",
+          "2d8",
+          "3",
+          "2",
+          "Adjacent",
+          "the working blade"
+        ],
+        [
+          "Heavy Axe",
+          "d6",
+          "3d10",
+          "4",
+          "3",
+          "Adjacent",
+          "two-handed"
+        ],
+        [
+          "Maul",
+          "d4",
+          "4d12",
+          "5",
+          "3",
+          "Adjacent",
+          "two-handed, <strong>Impact</strong>"
+        ],
+        [
+          "Sidearm",
+          "d10",
+          "1d8",
+          "1",
+          "1",
+          "Close–Medium",
+          "the backup that's always there"
+        ],
+        [
+          "Scattergun",
+          "d10",
+          "3d6",
+          "2",
+          "2",
+          "Close only",
+          "the doorway argument"
+        ],
+        [
+          "Carbine",
+          "d8",
+          "2d8",
+          "2",
+          "2",
+          "Medium–Long",
+          "the working gun"
+        ],
+        [
+          "Marksman Rifle",
+          "d8",
+          "2d10",
+          "3",
+          "2",
+          "Long–Extreme",
+          "the marksman's home"
+        ],
+        [
+          "Anti-Materiel",
+          "d4",
+          "4d12",
+          "5",
+          "3",
+          "Extreme",
+          "innate <strong>Penetration 2</strong>; the maul with a scope"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "This page owns weapon prices, but the Phase 7 docs never print them — no source table carries a cost column for weapons. Every other catalog on this branch is priced; the weapon table is not."
+    },
+    {
+      "type": "heading",
+      "text": "Reading the table"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Accuracy</strong> is the die you roll to attack. <strong>Damage</strong> is what a hit rolls into the pipeline (see Attacks & the Shell Clock)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>AP</strong> is the cost per attack — and the RP cost of a Reaction Attack with that weapon (see Turn, AP & Reactions)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Weight</strong> feeds exactly one rule: Dual Swing's Evasion penalty is the combined weight of both weapons (see Dual Wield & Titan Grip)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Range</strong> is printed in band names (see Bands & Movement). Melee weapons reach Adjacent."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Tags</strong> — Pierce, Impact, Penetration — are defined once, on Attacks & the Shell Clock."
+    },
+    {
+      "type": "bullet",
+      "text": "Heavy weapons (4–5 AP) are two-handed. One-handing one is Titan Grip territory (see Dual Wield & Titan Grip)."
+    },
+    {
+      "type": "heading",
+      "text": "Crits"
+    },
+    {
+      "type": "paragraph",
+      "text": "A natural maximum on your accuracy die is a crit: the attack auto-hits and the weapon's own crit effects fire (see Graze & Crits)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Graze & Crits sends readers here for each weapon's crit payout, and the master consolidation prices crit effects in beats — but the Phase 7 docs never print a per-weapon crit line. No weapon in any source table carries crit effects. Until the beat budgets are spent per weapon, a crit is an auto-hit and nothing more printable."
+    },
+    {
+      "type": "heading",
+      "text": "Firing penalties"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Firing into Adjacent: −2 accuracy</strong> with any gun except a sidearm or scattergun. This is the penalty the Bayonet Lug mod deletes (see Mods)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shots to the Extreme band: −2 accuracy</strong>, baseline. Precision's entry augment exists to delete that line (see Precision)."
+    },
+    {
+      "type": "heading",
+      "text": "The doctrine matrix"
+    },
+    {
+      "type": "paragraph",
+      "text": "Flesh, Hide, and Shell are defined on Attacks & the Shell Clock. This is what each weapon class is worth against them."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Your weapon",
+        "vs Flesh",
+        "vs Hide",
+        "vs Shell (Value ≤ 4)",
+        "vs Shell (Value 5+)"
+      ],
+      "rows": [
+        [
+          "Light blades",
+          "excellent",
+          "poor",
+          "<strong>grind the shell</strong>",
+          "bounce — switch jobs"
+        ],
+        [
+          "Pierce weapons",
+          "excellent + riders",
+          "terrible",
+          "flesh only; the shell never wears",
+          "gap-hunting only"
+        ],
+        [
+          "Heavy two-handers",
+          "strong",
+          "strong",
+          "punch through",
+          "the can opener"
+        ],
+        [
+          "Penetration guns",
+          "good",
+          "<strong>flat — the hunter's gun</strong>",
+          "good",
+          "viable"
+        ],
+        [
+          "Effects & conditions",
+          "the universal language — toxins don't care about Value",
+          "",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Guns are not free to run: standard resupply and specialty rounds live on Consumables & Ammo. Every weapon has 2 mod slots — the weapon mod catalog lives on Mods."
+    },
+    {
+      "type": "blockquote",
+      "text": "Weapon classes are assigned by actuarial outcome, not by mass. Carry what your premium allows."
+    }
+  ]
+}

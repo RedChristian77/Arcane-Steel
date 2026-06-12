@@ -1,0 +1,121 @@
+{
+  "id": "pc-creation-overview",
+  "title": "Creation Overview",
+  "subtitle": "From street to contract",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Contractor intake, form 1 of 1. Answer honestly. The file gets completed either way.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "No classes, no levels. A contractor is assembled from parts — creation hands you the starting set, and mission pay buys everything after."
+    },
+    {
+      "type": "heading",
+      "text": "The Layers"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each layer of a character answers a different question. Three are picked at creation; the other two are what your career buys later."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Layer",
+        "The question it answers",
+        "Where it lives"
+      ],
+      "rows": [
+        [
+          "<strong>Résumé</strong>",
+          "Who you were",
+          "Picked at creation — Résumés"
+        ],
+        [
+          "<strong>Trait</strong>",
+          "What you are",
+          "Picked at creation — Traits"
+        ],
+        [
+          "<strong>Kit</strong>",
+          "Who trained you",
+          "Picked at creation — Kits"
+        ],
+        [
+          "<strong>Tree</strong>",
+          "What you're becoming",
+          "Bought in play — Trees Overview (your kit installs its tree's entry augment free)"
+        ],
+        [
+          "<strong>Techniques</strong>",
+          "What any veteran can learn",
+          "Bought in play — Techniques (your kit includes one)"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Sequence"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Pick a résumé.</strong> It grants two skills at Tier 1 — the trained dice are on The Two Rolls, the tier features on The Twelve Skills — plus a standing line the table honors and your starting credits. All ten are on Résumés."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Pick a trait.</strong> Exactly one. Every trait gives something and bills something; both halves are printed together on Traits."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Pick a kit.</strong> The day-one package: a gear loadout, the matching tree's entry augment installed free, one technique from the catalog, and a recommended stat lean. Kits cost nothing and gate nothing. All ten — plus the Custom option — are on Kits."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Assign your five stats.</strong> Chrome, Reflex, Grit, Interface, Edge — what each does, and the one bonus table that converts them, live on Stats & Growth. Your kit's lean is a recommendation, not a requirement."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Finish the sheet.</strong> Gear, credits, derived numbers, and the tracks that start at zero — the full checklist is on Finishing."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Step 4 has a hole: the starting stat array — what values a new contractor's five stats begin at, and how players assign them — is not specified in the rebuild docs. Kits name a recommended lean, the bonus table starts at 2, and nothing in between is printed."
+    },
+    {
+      "type": "heading",
+      "text": "Day One, In Total"
+    },
+    {
+      "type": "bullet",
+      "text": "Two skills at Tier 1, from your résumé — every other skill rolls untrained (The Two Rolls)."
+    },
+    {
+      "type": "bullet",
+      "text": "One trait, both sides of it."
+    },
+    {
+      "type": "bullet",
+      "text": "A gear loadout, one tree entry augment, and one technique, from your kit."
+    },
+    {
+      "type": "bullet",
+      "text": "A standing line and starting credits, from your résumé."
+    },
+    {
+      "type": "paragraph",
+      "text": "Everything after day one is bought: stat training on Stats & Growth, augments on Trees Overview, techniques on Techniques — and the long view of what a career costs sits on The Anchor Table."
+    },
+    {
+      "type": "blockquote",
+      "text": "Welcome aboard, contractor. Your starting package reflects the career your previous life prepared you for. Any gap between who you were and who you intend to become can be financed."
+    }
+  ]
+}

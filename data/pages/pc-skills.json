@@ -1,0 +1,778 @@
+{
+  "id": "pc-skills",
+  "title": "The Twelve Skills",
+  "subtitle": "Tiers, dice, and features",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Excerpted from the Contractor Field Manual, Capability Schedule. Contractors are assessed across twelve competencies. Assessment is continuous. The field administers it.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "A skill is a trained competency. When you attempt a task, your tier in the relevant skill supplies your accuracy dice, the skill's stat supplies your bonus, and the difficulty sets the DC. The dice ladder (T0 untrained through T4 master), the DC ladder, outcome bands, flash of brilliance, advantage, and contests all live on <strong>The Two Rolls</strong>. This page owns what each skill covers and what its tiers grant."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "TIERS GRANT DICE + FEATURES",
+      "text": "A skill tier never adds a modifier to the roll. Tiers grant bigger dice and features — verbs and outcome control. No feature is a roll modifier, no feature is damage, combat utilities cost at most 1 AP, and no feature grants more than +1 of any capped currency, conditionally."
+    },
+    {
+      "type": "paragraph",
+      "text": "At each of tiers 1 through 3 you gain the tier's dice and <strong>pick one</strong> feature from that tier's pair. T4 grants the dice and its mastery feature outright."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>A skill makes you able; a profession makes it pay.</strong> Mod Artisan lets you install your own mods at material cost — the Tinkerer has <em>clients</em>. What you are in the economy lives on Professions Overview."
+    },
+    {
+      "type": "heading",
+      "text": "The Twelve at a Glance"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Skill",
+        "Stat",
+        "Covers"
+      ],
+      "rows": [
+        [
+          "Tech",
+          "Interface",
+          "Machines, repair, electronics"
+        ],
+        [
+          "Hacking",
+          "Interface",
+          "Intrusion, data, EW gear"
+        ],
+        [
+          "Medicine",
+          "Interface",
+          "Triage, treatment, the body"
+        ],
+        [
+          "Negotiate",
+          "Edge",
+          "Deals, terms, the table"
+        ],
+        [
+          "Awareness",
+          "Edge",
+          "Perception, the field"
+        ],
+        [
+          "Athletics",
+          "Chrome",
+          "The body in motion"
+        ],
+        [
+          "Rift Lore",
+          "Interface",
+          "Patterns, fauna, the other side"
+        ],
+        [
+          "Stealth",
+          "Reflex",
+          "The approach"
+        ],
+        [
+          "Streetwise",
+          "Edge",
+          "The margin's operating system"
+        ],
+        [
+          "Resilience",
+          "Grit",
+          "What the body endures"
+        ],
+        [
+          "Harvesting",
+          "Grit",
+          "The carve"
+        ],
+        [
+          "Crafting",
+          "Interface",
+          "The bench"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Your résumé grants two skills at T1 at creation — see Résumés. Every skill you haven't trained is T0, untrained."
+    },
+    {
+      "type": "heading",
+      "text": "Advancement"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advancing a skill is buying the next die — tiers are bought in order, one at a time, through study and practice in downtime. Learning is paid in LP earned over study periods; the same economy prices pattern practice (see Patterns)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "items": [
+        "Skill training costs are unprinted. The check-system doc carries the learning (LP) economy “unchanged” from pre-rebuild Stat Architecture v1, but no rebuild source restates its numbers — credits, LP totals, study periods, and access requirements per tier are all unspecified.",
+        "Whether the unpicked feature of a tier's pair can ever be acquired later is unstated."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Sentinel Systems Career Services reminds contractors that training is the only investment that cannot be confiscated at a checkpoint. Schedule your next certification today. Bring credits."
+    },
+    {
+      "type": "heading",
+      "text": "The Skills"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each skill below lists its tier features. Effects are exact; anything a feature references by name — conditions, Charge, Leverage, nodes — lives on the page that owns it."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Check System v1 calls for a DC calibration table on every skill (“Medicine — stabilize: Standard; field surgery: Hard”) so difficulties snap to the ladder instead of being invented. Only that illustrative Medicine example exists in the rebuild sources; the twelve calibration tables are unwritten."
+    },
+    {
+      "type": "heading",
+      "text": "Tech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tech rolls Interface. Machines, repair, electronics — field fixes, downtime bench work, getting machines open and keeping them running."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Tinker's Eye",
+          "Analyze constructs and vehicles at no AP cost."
+        ],
+        [
+          "T1",
+          "Field Splice",
+          "Improvised repairs without tools are possible, at +1 DC."
+        ],
+        [
+          "T2",
+          "Grease Monkey",
+          "Your downtime repairs cost −20%."
+        ],
+        [
+          "T2",
+          "Hotwire",
+          "Locks and vehicles: a partial success gets you in — with noise."
+        ],
+        [
+          "T3",
+          "Systems Whisperer",
+          "Use Tech in place of Hacking against machines you have physical access to."
+        ],
+        [
+          "T3",
+          "Overclock",
+          "Once per mission, a device runs one tier above its rating for a scene, then breaks."
+        ],
+        [
+          "T4 — Mastery",
+          "The Good Wrench",
+          "Your field repairs never trigger the permanent-consequence roll."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Hacking"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hacking rolls Interface. Intrusion, data, and EW gear — corp locks, data taps, access contests."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Footprint",
+          "Intrusions that land at partial or better leave no log."
+        ],
+        [
+          "T1",
+          "Skim",
+          "Full intrusion successes also grab adjacent data."
+        ],
+        [
+          "T2",
+          "Ghost Hands",
+          "Your intrusion decks hold +1 charge."
+        ],
+        [
+          "T2",
+          "Doorman",
+          "Corp locks: Hard becomes Standard."
+        ],
+        [
+          "T3",
+          "Wormwright",
+          "Trigger Lock effects you deliver through gear last +1 round."
+        ],
+        [
+          "T3",
+          "Archivist",
+          "One free node Tag per mission from data taps."
+        ],
+        [
+          "T4 — Mastery",
+          "Root Habit",
+          "Once per mission, win an access contest outright against a non-elite system."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Medicine"
+    },
+    {
+      "type": "paragraph",
+      "text": "Medicine rolls Interface. Triage, treatment, the body — stabilizing the downed (see The Staircase), scar treatment, antidotes."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Field Triage",
+          "Stabilizing costs 1 AP."
+        ],
+        [
+          "T1",
+          "Steady Hands",
+          "Your medpacks heal +1."
+        ],
+        [
+          "T2",
+          "Scar Counselor",
+          "Scar treatment you perform costs −20%."
+        ],
+        [
+          "T2",
+          "Toxin Savvy",
+          "Your antidotes also shed 1 Charge."
+        ],
+        [
+          "T3",
+          "Trauma Lead",
+          "Once per fight, stabilize at Close — the thrown kit."
+        ],
+        [
+          "T3",
+          "Aftercare",
+          "Splice complications under your care downgrade one band."
+        ],
+        [
+          "T4 — Mastery",
+          "Master's Rates",
+          "You treat severe scars without elite facilities. The funnel's top, carried in two hands."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Negotiate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Negotiate rolls Edge. Deals, terms, the table — contracts, trades, and the Leverage that moves them (see Leverage & Encounter Play)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Read the Room",
+          "Any full social success also reveals one Leverage tag."
+        ],
+        [
+          "T1",
+          "Smooth Entry",
+          "Cold contacts start one disposition step warmer."
+        ],
+        [
+          "T2",
+          "Closer",
+          "Contract partials don't cost concessions."
+        ],
+        [
+          "T2",
+          "Haggler",
+          "Buy at −10%, sell at +10%, with willing traders."
+        ],
+        [
+          "T3",
+          "Table Setter",
+          "Once per scene, create a temporary Leverage tag from established fiction."
+        ],
+        [
+          "T3",
+          "Escrow Sense",
+          "Bad-faith terms reveal themselves."
+        ],
+        [
+          "T4 — Mastery",
+          "The Handshake",
+          "Once per mission, a witnessed partial social success becomes full. Deals you shake on stick."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Awareness"
+    },
+    {
+      "type": "paragraph",
+      "text": "Awareness rolls Edge. Perception and the field — scouting, ambushes, reading a fight before it starts. The Analyze action lives on Turn, AP & Reactions."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Field Read",
+          "Analyze is free once per fight."
+        ],
+        [
+          "T1",
+          "Light Sleeper",
+          "You are never ambushed at rest."
+        ],
+        [
+          "T2",
+          "Overwatch Eyes",
+          "Scout from elevation or distance at advantage."
+        ],
+        [
+          "T2",
+          "Counter-Scout",
+          "You know when your node is being watched."
+        ],
+        [
+          "T3",
+          "Threat Math",
+          "At a fight's start, learn the enemy's tier and role composition."
+        ],
+        [
+          "T3",
+          "Dead Angle",
+          "You always know which cluster flanks you."
+        ],
+        [
+          "T4 — Mastery",
+          "The Sixth Sense",
+          "Once per mission, the GM warns you before a trap or ambush springs."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Athletics"
+    },
+    {
+      "type": "paragraph",
+      "text": "Athletics rolls Chrome. The body in motion — climbing, grappling, shoving, falling well. The grapple contest itself lives on Turn, AP & Reactions."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Parkour Habit",
+          "Climb at full speed."
+        ],
+        [
+          "T1",
+          "Iron Grip",
+          "Advantage on maintaining grapples."
+        ],
+        [
+          "T2",
+          "Burst",
+          "Once per fight, one free band move."
+        ],
+        [
+          "T2",
+          "Breakfall",
+          "Falls of 2 bands or less cost you nothing."
+        ],
+        [
+          "T3",
+          "Shove Doctrine",
+          "Your shoves move targets +1 band."
+        ],
+        [
+          "T3",
+          "Deep Lungs",
+          "Double endurance in chases, holds, and sprints."
+        ],
+        [
+          "T4 — Mastery",
+          "Olympian",
+          "Once per mission, auto-full any Athletics Check you could plausibly attempt."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Rift Lore"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rift Lore rolls Interface. Patterns, fauna, the other side. Weave Checks roll Rift Lore dice plus Interface — see Weave & Fire."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Pattern Reader",
+          "Identify patterns and active weaves on sight."
+        ],
+        [
+          "T1",
+          "Fauna Sense",
+          "Know a creature's taxonomy and Break line on sight."
+        ],
+        [
+          "T2",
+          "Safe Hands",
+          "Your Weave partials skip the +1 Charge."
+        ],
+        [
+          "T2",
+          "Surge Reader",
+          "Advantage on rift-surge node checks."
+        ],
+        [
+          "T3",
+          "Deep Catalog",
+          "New patterns cost −25% license and LP."
+        ],
+        [
+          "T3",
+          "Null Savvy",
+          "Null fields don't surcharge your rounds."
+        ],
+        [
+          "T4 — Mastery",
+          "First Principles",
+          "Once per arc, improvise a one-use pattern variant; the GM prices it."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Stealth"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stealth rolls Reflex. The approach — scouting, entries, the ambush round. Stealth is a phase, not a state: it ends at initiative (see Bands & Movement)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Soft Step",
+          "Solo scouting at advantage."
+        ],
+        [
+          "T1",
+          "Crowd Skin",
+          "Dome crowds hide you; pursuit rolls at disadvantage."
+        ],
+        [
+          "T2",
+          "Forward Ghost",
+          "In-mission scouting reaches two nodes."
+        ],
+        [
+          "T2",
+          "Clean Entry",
+          "Perimeters: Hard becomes Standard."
+        ],
+        [
+          "T3",
+          "Ambush Architect",
+          "Your squad's ambush-round attacks gain +1 accuracy."
+        ],
+        [
+          "T3",
+          "No Trace",
+          "Your route leaves nothing for pursuers."
+        ],
+        [
+          "T4 — Mastery",
+          "The Unwitnessed",
+          "Once per mission, your squad takes a free ambush round entering a node — scouted or not."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Streetwise"
+    },
+    {
+      "type": "paragraph",
+      "text": "Streetwise rolls Edge. The margin's operating system — rumors, fences, bought intel, knowing a guy."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Word on the Wire",
+          "One free rumor per downtime."
+        ],
+        [
+          "T1",
+          "Fence Friend",
+          "Hot goods sell at 60%, not 40%."
+        ],
+        [
+          "T2",
+          "Broker's Tongue",
+          "Bought intel costs −20%."
+        ],
+        [
+          "T2",
+          "Margin Map",
+          "District travel never eats extra downtime periods."
+        ],
+        [
+          "T3",
+          "Cold Call",
+          "Open a negotiation with anyone reachable."
+        ],
+        [
+          "T3",
+          "Name Dropper",
+          "One faction grants you Established-rank access."
+        ],
+        [
+          "T4 — Mastery",
+          "The Web",
+          "Once per mission, you know a guy. The GM supplies the contact."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Resilience"
+    },
+    {
+      "type": "paragraph",
+      "text": "Resilience rolls Grit. What the body endures — toxins, exhaustion, fear, the vent. Rattled and Seared live on Conditions; venting lives on Charge & Saturation."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Stone Gut",
+          "Advantage against toxins and bad rations."
+        ],
+        [
+          "T1",
+          "Long Haul",
+          "Double shifts and forced marches, without complaint."
+        ],
+        [
+          "T2",
+          "Shrug",
+          "Once per fight, shed Rattled at the start of your activation."
+        ],
+        [
+          "T2",
+          "Slow Burn",
+          "Your Seared ticks are reduced by 1."
+        ],
+        [
+          "T3",
+          "Bulldog",
+          "Once per fight, dropping below half grants 3 temp HP."
+        ],
+        [
+          "T3",
+          "Vent Discipline",
+          "Your free vent is +1. Vent bonuses still cap at +2."
+        ],
+        [
+          "T4 — Mastery",
+          "Unbreakable Routine",
+          "Exhaustion complications don't touch you, and once per mission a fear-class effect simply doesn't."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Harvesting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Harvesting rolls Grit. The carve — yields, grades, and the clocks they race (see Carving)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Quick Knife",
+          "Carving takes half the clock time."
+        ],
+        [
+          "T1",
+          "Salvage Eye",
+          "Spot the valuable component, free."
+        ],
+        [
+          "T2",
+          "Cold Chain",
+          "Preservation clocks run ×1.5 in your care."
+        ],
+        [
+          "T2",
+          "Clean Cuts",
+          "Combat-cracked shells skip the −1 grade under your knife."
+        ],
+        [
+          "T3",
+          "Organ Course",
+          "Graft-viable harvesting: Hard becomes Standard."
+        ],
+        [
+          "T3",
+          "Field Assay",
+          "Exact value and best buyer category, on sight."
+        ],
+        [
+          "T4 — Mastery",
+          "Master's Yield",
+          "Once per mission, one harvest upgrades a full grade."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Crafting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Crafting rolls Interface. The bench — mods, consumables, handloads, installs. Crafting at material cost is governed by The Material Cost Law."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Feature",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Bench Sense",
+          "Identify mods and their quality on sight."
+        ],
+        [
+          "T1",
+          "Apprentice Hands",
+          "Assisting installs cuts provider fees 10%."
+        ],
+        [
+          "T2",
+          "Home Forge",
+          "Craft Tier-1 consumables at half cost in downtime."
+        ],
+        [
+          "T2",
+          "Patient Work",
+          "One extra install attempt per downtime."
+        ],
+        [
+          "T3",
+          "Mod Artisan",
+          "Install your own mods at material cost."
+        ],
+        [
+          "T3",
+          "Pattern Press",
+          "Handload specialty rounds at material cost."
+        ],
+        [
+          "T4 — Mastery",
+          "Signature Line",
+          "Once per arc, one item you craft gains a minor bespoke property; the GM prices it."
+        ]
+      ]
+    }
+  ]
+}

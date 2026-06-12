@@ -1,0 +1,129 @@
+{
+  "id": "gm-spire-intel",
+  "title": "Intel",
+  "subtitle": "Unknown to Marked",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Information is ammunition.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Intel is tracked <strong>per map node</strong> (see Missions & the Spire Map), in four states. It converts directly into combat effectiveness: a contractor who knows the target wears Raid Mail leaves the knife at home; one who knows it's a Bloomtusk brings Penetration. Loadout is a real decision only when the squad knows what it's walking into."
+    },
+    {
+      "type": "heading",
+      "text": "The intel ladder"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "State",
+        "What the squad sees"
+      ],
+      "rows": [
+        [
+          "<strong>Unknown</strong>",
+          "A node exists. That's it."
+        ],
+        [
+          "<strong>Tagged</strong>",
+          "The node's type \u2014 its glyph (see Missions & the Spire Map) \u2014 and nothing else."
+        ],
+        [
+          "<strong>Scouted</strong>",
+          "The full node card: enemy count, body taxonomy + armor profile, terrain, exits."
+        ],
+        [
+          "<strong>Marked</strong>",
+          "Scouted, plus one prepared edge: a pre-placed position, an ambush round, or a painted target (squad +1 accuracy against it, first fight)."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The four faucets"
+    },
+    {
+      "type": "paragraph",
+      "text": "Intel comes from four places. Three of them cost something."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>1. The corp briefing \u2014 free, flavored, fallible.</strong> Employers reveal what their bureaucracy knows, and bureaucracies have personalities. The briefing pre-sets node states before the squad spends anything; how to build the three variants lives on Corp Briefings."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Employer",
+        "Briefing quality"
+      ],
+      "rows": [
+        [
+          "<strong>Sentinel</strong>",
+          "Tags every engagement node; misses hazards."
+        ],
+        [
+          "<strong>Wellspring</strong>",
+          "Documents hazards beautifully; undercounts hostiles."
+        ],
+        [
+          "<strong>Crowned Table</strong>",
+          "Elegant, complete, and three weeks stale."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>2. Bought intel (pre-mission).</strong> Credits to brokers: Tag a node remotely, or have one Scouted at premium prices. Quality scales with provider tier. Streetwise features discount it (see The Twelve Skills); the profession that sells it is the Fixer (see Fixer)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "No intel price table is printed \u2014 \u201cpremium prices\u201d and \u201cquality scales with provider tier\u201d are the only pricing language in the Phase 7 docs. The numbers land with the economy pages."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>3. Legwork (downtime/prep).</strong> A Streetwise or Awareness Check vs the mission's intel DC. Full: Scout a node. Partial: Tag two nodes \u2014 and a broker hears you asking. Fail: the node is Tagged with <em>wrong</em> information."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The docs reference \u201cthe mission's intel DC\u201d but never print how to set it. The DC ladder lives on The Two Rolls."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>4. In-mission scouting.</strong> From any node, scout an <em>adjacent</em> node \u2014 a Stealth or Awareness Check. Full: Scouted. Partial: Tagged, plus a cost \u2014 time ticks, supplies, or they know someone's near. Fail: the squad walks in blind, or worse."
+    },
+    {
+      "type": "heading",
+      "text": "Analyze \u2014 intel inside the fight"
+    },
+    {
+      "type": "paragraph",
+      "text": "In combat, the fallback faucet is the <strong>Analyze</strong> action \u2014 its cost and roll live on the action table on Turn, AP & Reactions. On a success, hand over the profile card's body line: taxonomy and armor profile. The scout calling \u201cShell, Value five, switch off the knives\u201d is the system teaching itself."
+    },
+    {
+      "type": "heading",
+      "text": "Who scouts \u2014 the lanes"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Skills own the baseline</strong> \u2014 everyone can scout. The verbs live under Awareness and Stealth, and tier features sharpen them (Field Read, Forward Ghost, and their siblings \u2014 see The Twelve Skills)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>There is no scouting tree.</strong> Recon optics live as drone marks under Systems; routes and maps are Guide work (see Guide); the baselines stayed with the skills."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\u201cThe briefing was wrong\u201d is the drama engine, formalized.</strong> When intel and the site deviate, the deviation is the content \u2014 run it straight."
+    },
+    {
+      "type": "blockquote",
+      "text": "Sentinel briefing packets are compiled by the Threat Assessment Division and are accurate to the best of the Division's knowledge. The Division has not been to the site. The Division does not go to sites."
+    }
+  ]
+}

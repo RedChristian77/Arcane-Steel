@@ -1,6 +1,483 @@
 {
   "sections": [
     {
+      "title": "The Core",
+      "icon": "◍",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-two-rolls",
+          "title": "The Two Rolls",
+          "file": "pages/pc-two-rolls.json"
+        },
+        {
+          "id": "pc-stats-growth",
+          "title": "Stats & Growth",
+          "file": "pages/pc-stats-growth.json"
+        }
+      ]
+    },
+    {
+      "title": "Character Creation",
+      "icon": "▤",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-creation-overview",
+          "title": "Creation Overview",
+          "file": "pages/pc-creation-overview.json"
+        },
+        {
+          "id": "pc-creation-kits",
+          "title": "Kits",
+          "file": "pages/pc-creation-kits.json"
+        },
+        {
+          "id": "pc-creation-resumes",
+          "title": "Résumés",
+          "file": "pages/pc-creation-resumes.json"
+        },
+        {
+          "id": "pc-creation-traits",
+          "title": "Traits",
+          "file": "pages/pc-creation-traits.json"
+        },
+        {
+          "id": "pc-creation-finishing",
+          "title": "Finishing",
+          "file": "pages/pc-creation-finishing.json"
+        }
+      ]
+    },
+    {
+      "title": "Skills & Techniques",
+      "icon": "◈",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-skills",
+          "title": "The Twelve Skills",
+          "file": "pages/pc-skills.json"
+        },
+        {
+          "id": "pc-techniques",
+          "title": "Techniques",
+          "file": "pages/pc-techniques.json"
+        }
+      ]
+    },
+    {
+      "title": "Combat",
+      "icon": "⚔",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-combat-turn",
+          "title": "Turn, AP & Reactions",
+          "file": "pages/pc-combat-turn.json"
+        },
+        {
+          "id": "pc-combat-bands",
+          "title": "Bands & Movement",
+          "file": "pages/pc-combat-bands.json"
+        },
+        {
+          "id": "pc-combat-attacks",
+          "title": "Attacks & the Shell Clock",
+          "file": "pages/pc-combat-attacks.json"
+        },
+        {
+          "id": "pc-combat-crits",
+          "title": "Graze & Crits",
+          "file": "pages/pc-combat-crits.json"
+        },
+        {
+          "id": "pc-combat-dual",
+          "title": "Dual Wield & Titan Grip",
+          "file": "pages/pc-combat-dual.json"
+        },
+        {
+          "id": "pc-combat-conditions",
+          "title": "Conditions",
+          "file": "pages/pc-combat-conditions.json"
+        }
+      ]
+    },
+    {
+      "title": "Death & Scars",
+      "icon": "✕",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-death-staircase",
+          "title": "The Staircase",
+          "file": "pages/pc-death-staircase.json"
+        },
+        {
+          "id": "pc-scars",
+          "title": "Scars",
+          "file": "pages/pc-scars.json"
+        },
+        {
+          "id": "pc-actuary",
+          "title": "The Actuary Page",
+          "file": "pages/pc-actuary.json"
+        }
+      ]
+    },
+    {
+      "title": "Casting",
+      "icon": "◉",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-casting-weave",
+          "title": "Weave & Fire",
+          "file": "pages/pc-casting-weave.json"
+        },
+        {
+          "id": "pc-casting-patterns",
+          "title": "Patterns",
+          "file": "pages/pc-casting-patterns.json"
+        },
+        {
+          "id": "pc-casting-charge",
+          "title": "Charge & Saturation",
+          "file": "pages/pc-casting-charge.json"
+        }
+      ]
+    },
+    {
+      "title": "Equipment",
+      "icon": "▣",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-equipment-weapons",
+          "title": "Weapons",
+          "file": "pages/pc-equipment-weapons.json"
+        },
+        {
+          "id": "pc-equipment-armor",
+          "title": "Armor",
+          "file": "pages/pc-equipment-armor.json"
+        },
+        {
+          "id": "pc-equipment-mods",
+          "title": "Mods",
+          "file": "pages/pc-equipment-mods.json"
+        },
+        {
+          "id": "pc-equipment-consumables",
+          "title": "Consumables & Ammo",
+          "file": "pages/pc-equipment-consumables.json"
+        }
+      ]
+    },
+    {
+      "title": "Augment Trees",
+      "icon": "⌖",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-trees-overview",
+          "title": "Trees Overview",
+          "file": "pages/pc-trees-overview.json"
+        },
+        {
+          "id": "pc-trees-fury",
+          "title": "Fury",
+          "file": "pages/pc-trees-fury.json"
+        },
+        {
+          "id": "pc-trees-fortress",
+          "title": "Fortress",
+          "file": "pages/pc-trees-fortress.json"
+        },
+        {
+          "id": "pc-trees-leech",
+          "title": "Leech",
+          "file": "pages/pc-trees-leech.json"
+        },
+        {
+          "id": "pc-trees-dancer",
+          "title": "Dancer",
+          "file": "pages/pc-trees-dancer.json"
+        },
+        {
+          "id": "pc-trees-shadow",
+          "title": "Shadow",
+          "file": "pages/pc-trees-shadow.json"
+        },
+        {
+          "id": "pc-trees-sineater",
+          "title": "Sin Eater",
+          "file": "pages/pc-trees-sineater.json"
+        },
+        {
+          "id": "pc-trees-channeler",
+          "title": "Channeler",
+          "file": "pages/pc-trees-channeler.json"
+        },
+        {
+          "id": "pc-trees-systems",
+          "title": "Systems",
+          "file": "pages/pc-trees-systems.json"
+        },
+        {
+          "id": "pc-trees-precision",
+          "title": "Precision",
+          "file": "pages/pc-trees-precision.json"
+        },
+        {
+          "id": "pc-trees-influence",
+          "title": "Influence",
+          "file": "pages/pc-trees-influence.json"
+        }
+      ]
+    },
+    {
+      "title": "Professions",
+      "icon": "✎",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-professions-overview",
+          "title": "Professions Overview",
+          "file": "pages/pc-professions-overview.json"
+        },
+        {
+          "id": "pc-prof-tinkerer",
+          "title": "Tinkerer",
+          "file": "pages/pc-prof-tinkerer.json"
+        },
+        {
+          "id": "pc-prof-street-doc",
+          "title": "Street Doc",
+          "file": "pages/pc-prof-street-doc.json"
+        },
+        {
+          "id": "pc-prof-fixer",
+          "title": "Fixer",
+          "file": "pages/pc-prof-fixer.json"
+        },
+        {
+          "id": "pc-prof-guide",
+          "title": "Guide",
+          "file": "pages/pc-prof-guide.json"
+        },
+        {
+          "id": "pc-prof-carver",
+          "title": "Carver",
+          "file": "pages/pc-prof-carver.json"
+        },
+        {
+          "id": "pc-prof-wrangler",
+          "title": "Wrangler",
+          "file": "pages/pc-prof-wrangler.json"
+        },
+        {
+          "id": "pc-prof-rigger",
+          "title": "Rigger",
+          "file": "pages/pc-prof-rigger.json"
+        }
+      ]
+    },
+    {
+      "title": "Mutations & Grafts",
+      "icon": "❖",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-mutations",
+          "title": "Mutations & Grafts",
+          "file": "pages/pc-mutations.json"
+        }
+      ]
+    },
+    {
+      "title": "Doctrine",
+      "icon": "¶",
+      "book": "player",
+      "pages": [
+        {
+          "id": "pc-doctrine-lines",
+          "title": "The Printed Lines",
+          "file": "pages/pc-doctrine-lines.json"
+        },
+        {
+          "id": "pc-doctrine-creditor",
+          "title": "The Creditor Table",
+          "file": "pages/pc-doctrine-creditor.json"
+        },
+        {
+          "id": "pc-doctrine-anchor",
+          "title": "The Anchor Table",
+          "file": "pages/pc-doctrine-anchor.json"
+        }
+      ]
+    },
+    {
+      "title": "Enemies",
+      "icon": "☣",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-enemy-framework",
+          "title": "Enemy Framework",
+          "file": "pages/gm-enemy-framework.json"
+        },
+        {
+          "id": "gm-bestiary",
+          "title": "Bestiary",
+          "file": "pages/gm-bestiary.json"
+        }
+      ]
+    },
+    {
+      "title": "Bosses",
+      "icon": "★",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-bosses",
+          "title": "Bosses",
+          "file": "pages/gm-bosses.json"
+        }
+      ]
+    },
+    {
+      "title": "The Spire",
+      "icon": "▽",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-spire-missions",
+          "title": "Missions & the Spire Map",
+          "file": "pages/gm-spire-missions.json"
+        },
+        {
+          "id": "gm-spire-intel",
+          "title": "Intel",
+          "file": "pages/gm-spire-intel.json"
+        },
+        {
+          "id": "gm-spire-briefings",
+          "title": "Corp Briefings",
+          "file": "pages/gm-spire-briefings.json"
+        }
+      ]
+    },
+    {
+      "title": "Vehicles & Carving",
+      "icon": "⛟",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-vehicles",
+          "title": "Vehicles",
+          "file": "pages/gm-vehicles.json"
+        },
+        {
+          "id": "gm-carving",
+          "title": "Carving",
+          "file": "pages/gm-carving.json"
+        }
+      ]
+    },
+    {
+      "title": "Economy",
+      "icon": "₵",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-economy-dials",
+          "title": "The Economy Dials",
+          "file": "pages/gm-economy-dials.json"
+        },
+        {
+          "id": "gm-material-cost",
+          "title": "The Material Cost Law",
+          "file": "pages/gm-material-cost.json"
+        }
+      ]
+    },
+    {
+      "title": "Encounter Play",
+      "icon": "⚑",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-leverage",
+          "title": "Leverage & Encounter Play",
+          "file": "pages/gm-leverage.json"
+        }
+      ]
+    },
+    {
+      "title": "The Base Module",
+      "icon": "⌂",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-base",
+          "title": "The Base",
+          "file": "pages/gm-base.json"
+        }
+      ]
+    },
+    {
+      "title": "Quickstart Arc",
+      "icon": "➤",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-quickstart-arc",
+          "title": "Quickstart Arc",
+          "file": "pages/gm-quickstart-arc.json"
+        }
+      ]
+    },
+    {
+      "title": "Design Notes",
+      "icon": "✱",
+      "book": "gm",
+      "pages": [
+        {
+          "id": "gm-design-notes",
+          "title": "Design Notes",
+          "file": "pages/gm-design-notes.json"
+        }
+      ]
+    },
+    {
+      "title": "Annex",
+      "icon": "§",
+      "book": "annex",
+      "pages": [
+        {
+          "id": "annex-power-budget",
+          "title": "Power Budget & Price List",
+          "file": "pages/annex-power-budget.json"
+        },
+        {
+          "id": "annex-templates",
+          "title": "Homebrew Templates",
+          "file": "pages/annex-templates.json"
+        },
+        {
+          "id": "annex-videogame",
+          "title": "Video Game Notes",
+          "file": "pages/annex-videogame.json"
+        },
+        {
+          "id": "annex-parked",
+          "title": "Parked Items Register",
+          "file": "pages/annex-parked.json"
+        }
+      ]
+    },
+    {
       "title": "The World",
       "icon": "🌍",
       "pages": [
@@ -74,7 +551,8 @@
           "title": "Legends & Folklore",
           "file": "pages/world-legends.json"
         }
-      ]
+      ],
+      "book": "world"
     },
     {
       "title": "Corporations",
@@ -135,7 +613,8 @@
           "title": "The Dead Brands",
           "file": "pages/world-fallen-corps.json"
         }
-      ]
+      ],
+      "book": "world"
     },
     {
       "title": "Races",
@@ -181,416 +660,8 @@
           "title": "🔮 Hollow",
           "file": "pages/races-hollow.json"
         }
-      ]
-    },
-    {
-      "title": "Character Creation",
-      "icon": "👤",
-      "pages": [
-        {
-          "id": "creation-overview",
-          "title": "Overview & Stats",
-          "file": "pages/creation-overview.json"
-        },
-        {
-          "id": "creation-resumes",
-          "title": "Résumés",
-          "file": "pages/creation-resumes.json"
-        },
-        {
-          "id": "creation-kits",
-          "title": "Kits",
-          "file": "pages/creation-kits.json"
-        },
-        {
-          "id": "creation-traits",
-          "title": "Traits",
-          "file": "pages/creation-traits.json"
-        },
-        {
-          "id": "creation-finishing",
-          "title": "Finishing Touches",
-          "file": "pages/creation-finishing.json"
-        }
-      ]
-    },
-    {
-      "title": "Skills",
-      "icon": "📊",
-      "pages": [
-        {
-          "id": "skills-overview",
-          "title": "Skill System",
-          "file": "pages/skills-overview.json"
-        },
-        {
-          "id": "skills-list",
-          "title": "Skill List",
-          "file": "pages/skills-list.json"
-        },
-        {
-          "id": "skills-crafting",
-          "title": "Crafting",
-          "file": "pages/skills-crafting.json"
-        }
-      ]
-    },
-    {
-      "title": "Combat",
-      "icon": "⚔️",
-      "pages": [
-        {
-          "id": "combat-basics",
-          "title": "Basics & Actions",
-          "file": "pages/combat-basics.json"
-        },
-        {
-          "id": "combat-attacks",
-          "title": "Attacks & Damage",
-          "file": "pages/combat-attacks.json"
-        },
-        {
-          "id": "combat-positioning",
-          "title": "Positioning & Movement",
-          "file": "pages/combat-positioning.json"
-        },
-        {
-          "id": "combat-special",
-          "title": "Special Actions",
-          "file": "pages/combat-special.json"
-        },
-        {
-          "id": "combat-advanced",
-          "title": "Advanced Rules",
-          "file": "pages/combat-advanced.json"
-        }
-      ]
-    },
-    {
-      "title": "Equipment",
-      "icon": "🔧",
-      "pages": [
-        {
-          "id": "equipment-weapons",
-          "title": "Weapons",
-          "file": "pages/equipment-weapons.json"
-        },
-        {
-          "id": "equipment-armor",
-          "title": "Armor & Shields",
-          "file": "pages/equipment-armor.json"
-        },
-        {
-          "id": "equipment-consumables",
-          "title": "Consumables & Kits",
-          "file": "pages/equipment-consumables.json"
-        },
-        {
-          "id": "equipment-economy",
-          "title": "Economy & Services",
-          "file": "pages/equipment-economy.json"
-        },
-        {
-          "id": "equipment-vehicles",
-          "title": "Vehicles",
-          "file": "pages/equipment-vehicles.json"
-        }
-      ]
-    },
-    {
-      "title": "Augment Trees",
-      "icon": "🧬",
-      "pages": [
-        {
-          "id": "trees-overview",
-          "title": "How Trees Work",
-          "file": "pages/trees-overview.json",
-          "children": [
-            {
-              "id": "abilities-overview",
-              "title": "Kit Abilities Overview",
-              "file": "pages/abilities-overview.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-fury",
-          "title": "🔥 Fury",
-          "file": "pages/trees-fury.json",
-          "children": [
-            {
-              "id": "abilities-berserker",
-              "title": "Berserker Abilities",
-              "file": "pages/abilities-berserker.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-precision",
-          "title": "🎯 Precision",
-          "file": "pages/trees-precision.json",
-          "children": [
-            {
-              "id": "abilities-operative",
-              "title": "Operative Abilities",
-              "file": "pages/abilities-operative.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-rift",
-          "title": "🌀 Rift",
-          "file": "pages/trees-rift.json",
-          "children": [
-            {
-              "id": "abilities-channeler",
-              "title": "Channeler Abilities",
-              "file": "pages/abilities-channeler.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-systems",
-          "title": "⚙️ Systems",
-          "file": "pages/trees-systems.json",
-          "children": [
-            {
-              "id": "abilities-technician",
-              "title": "Technician Abilities",
-              "file": "pages/abilities-technician.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-fortress",
-          "title": "🛡️ Fortress",
-          "file": "pages/trees-fortress.json",
-          "children": [
-            {
-              "id": "abilities-bulwark",
-              "title": "Bulwark Abilities",
-              "file": "pages/abilities-bulwark.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-shadow",
-          "title": "👤 Shadow",
-          "file": "pages/trees-shadow.json",
-          "children": [
-            {
-              "id": "abilities-phantom",
-              "title": "Phantom Abilities",
-              "file": "pages/abilities-phantom.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-dancer",
-          "title": "💃 Dancer",
-          "file": "pages/trees-dancer.json",
-          "children": [
-            {
-              "id": "abilities-dancer",
-              "title": "Dancer Abilities",
-              "file": "pages/abilities-dancer.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-influence",
-          "title": "🗣️ Influence",
-          "file": "pages/trees-influence.json",
-          "children": [
-            {
-              "id": "abilities-negotiator",
-              "title": "Negotiator Abilities",
-              "file": "pages/abilities-negotiator.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-leech",
-          "title": "☣️ Leech",
-          "file": "pages/trees-leech.json",
-          "children": [
-            {
-              "id": "abilities-leech",
-              "title": "Leech Abilities",
-              "file": "pages/abilities-leech.json"
-            }
-          ]
-        },
-        {
-          "id": "trees-sin-eater",
-          "title": "😈 Sin Eater",
-          "file": "pages/trees-sin-eater.json",
-          "children": [
-            {
-              "id": "abilities-sin-eater",
-              "title": "Sin Eater Abilities",
-              "file": "pages/abilities-sin-eater.json"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Rift Casting",
-      "icon": "✨",
-      "pages": [
-        {
-          "id": "rift-overview",
-          "title": "Casting Rules",
-          "file": "pages/rift-overview.json"
-        },
-        {
-          "id": "rift-patterns",
-          "title": "Patterns (T1–T4)",
-          "file": "pages/rift-patterns.json"
-        },
-        {
-          "id": "rift-advanced",
-          "title": "Advanced Casting",
-          "file": "pages/rift-advanced.json"
-        },
-        {
-          "id": "rift-economy",
-          "title": "Casting Economy",
-          "file": "pages/rift-economy.json"
-        }
-      ]
-    },
-    {
-      "title": "Scars & Toxicity",
-      "icon": "💀",
-      "pages": [
-        {
-          "id": "scars-scars",
-          "title": "Scars & Death",
-          "file": "pages/scars-scars.json"
-        },
-        {
-          "id": "scars-toxicity",
-          "title": "Toxicity & Mutations",
-          "file": "pages/scars-toxicity.json"
-        }
-      ]
-    },
-    {
-      "title": "Social & Reputation",
-      "icon": "🤝",
-      "pages": [
-        {
-          "id": "social-overview",
-          "title": "Social Rules",
-          "file": "pages/social-overview.json"
-        },
-        {
-          "id": "social-face",
-          "title": "The Face's Game",
-          "file": "pages/social-face.json"
-        },
-        {
-          "id": "social-templates",
-          "title": "Encounter Templates",
-          "file": "pages/social-templates.json"
-        }
-      ]
-    },
-    {
-      "title": "Rift Expeditions",
-      "icon": "🌀",
-      "pages": [
-        {
-          "id": "expeditions-overview",
-          "title": "How Dimensions Work",
-          "file": "pages/expeditions-overview.json"
-        },
-        {
-          "id": "expeditions-cataloged",
-          "title": "Cataloged Dimensions",
-          "file": "pages/expeditions-cataloged.json"
-        },
-        {
-          "id": "expeditions-uncharted",
-          "title": "Uncharted Dimensions",
-          "file": "pages/expeditions-uncharted.json"
-        },
-        {
-          "id": "expeditions-new-dimensions",
-          "title": "Rumored Dimensions",
-          "file": "pages/expeditions-new-dimensions.json"
-        }
-      ]
-    },
-    {
-      "title": "Downtime & Economy",
-      "icon": "🏠",
-      "pages": [
-        {
-          "id": "downtime-activities",
-          "title": "Downtime Activities",
-          "file": "pages/downtime-activities.json"
-        },
-        {
-          "id": "downtime-cost",
-          "title": "Cost of Living",
-          "file": "pages/downtime-cost.json"
-        },
-        {
-          "id": "downtime-base",
-          "title": "Base of Operations",
-          "file": "pages/downtime-base.json"
-        }
-      ]
-    },
-    {
-      "title": "Enemies & Threats",
-      "icon": "👹",
-      "pages": [
-        {
-          "id": "enemies-building",
-          "title": "Building Encounters",
-          "file": "pages/enemies-building.json"
-        },
-        {
-          "id": "enemies-generator",
-          "title": "Enemy Generator",
-          "file": "pages/enemies-generator.json"
-        }
-      ]
-    },
-    {
-      "title": "GM Tools",
-      "icon": "🎲",
-      "pages": [
-        {
-          "id": "gm-campaigns",
-          "title": "Campaign Structure",
-          "file": "pages/gm-campaigns.json"
-        },
-        {
-          "id": "gm-contracts",
-          "title": "Contract Generation",
-          "file": "pages/gm-contracts.json"
-        },
-        {
-          "id": "gm-sessions",
-          "title": "Session Templates",
-          "file": "pages/gm-sessions.json"
-        },
-        {
-          "id": "gm-quickstart",
-          "title": "Quickstart Guide",
-          "file": "pages/gm-quickstart.json"
-        },
-        {
-          "id": "world-exploration-feedback",
-          "title": "Exploration Tables",
-          "file": "pages/world-exploration-feedback.json"
-        }
-      ]
+      ],
+      "book": "world"
     },
     {
       "title": "Meta",
@@ -600,8 +671,14 @@
           "id": "changelog",
           "title": "Changelog",
           "file": "pages/changelog.json"
+        },
+        {
+          "id": "world-exploration-feedback",
+          "title": "Exploration Feedback",
+          "file": "pages/world-exploration-feedback.json"
         }
-      ]
+      ],
+      "book": "meta"
     }
   ]
 }

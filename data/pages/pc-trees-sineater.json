@@ -1,0 +1,209 @@
+{
+  "id": "pc-trees-sineater",
+  "title": "Sin Eater",
+  "subtitle": "Confessor / Penance",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Nothing in this trade is ever destroyed. It is moved — and someone has to hold it.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sin Eater is the squad's affliction economy. Conditions, pain, and consequences are never destroyed — they are <strong>moved</strong>, and the Sin Eater decides who holds them."
+    },
+    {
+      "type": "paragraph",
+      "text": "Alone, this tree is an empty stomach: its power is denominated entirely in other people's suffering, and it is the only tree in the game that cannot function solo. With a squad, it is what stands between every shell on your side and the thing trying to crack them."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Grit — Sin capacity runs on it. Interface drives contested delivery (Retch, Wither Mark).",
+      "theme": "The affliction economy: eat conditions off allies, bank them as Sins, decide who holds them next.",
+      "design": "Structural ceiling: allies' suffering. The healer in this game heals the economy, not the pools."
+    },
+    {
+      "type": "heading",
+      "text": "The engine — Sins"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Eat</strong> (granted by the entry augment) takes a condition off a willing ally and into you, where it becomes a <strong>Sin</strong>. The conditions themselves — names, effects, durations, what else clears them — live on Conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sin capacity = Grit bonus + 2.</strong> At the end of each round you digest 1 Sin free; every Sin over capacity at round's end deals you 1 direct damage. Eat enough to matter, spit before you burst — that is the whole job."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sins are the tree's currency. The <strong>Confessor</strong> branch is the taker: it widens the stomach and converts Sins into care. The <strong>Penance</strong> branch is return to sender: it spends Sins at the enemy — Retch throws a swallowed condition back out, and Wither Mark blunts the dice that are grinding your squad's armor down."
+    },
+    {
+      "type": "heading",
+      "text": "How it plays"
+    },
+    {
+      "type": "paragraph",
+      "text": "The tree's signature currency is the enemy's damage per die. <strong>Wither Mark</strong> shaves every die of a marked attacker's output before it reaches a shell, which stretches every armor clock on your side. Against fodder the Sin Eater eats, anoints, and drips; against the thing that cracks shells, they are the squad's best armor."
+    },
+    {
+      "type": "paragraph",
+      "text": "The creditor texture, plainly: the Sin Eater banks other people's bills and pays the interest in their own flesh — every Sin over capacity at round's end is a direct-damage installment. The squad's conditions don't vanish. They queue inside the one who volunteered."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "COUNTERPLAY",
+      "text": "What this tree cannot fix:",
+      "items": [
+        "It needs touch and proximity — a ranged map starves it.",
+        "Delivery is contested — high-Grit enemies shrug off Retches.",
+        "Capacity is a real clock under condition spam; overflow pressure arrives exactly when something is spamming conditions.",
+        "Splinter Psalm tempts you to stand closer than a support should.",
+        "It heals trickles, not pools. This game's medicine lives in the downtime economy, and nothing in this tree changes that."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Condition transference is classified as an unlicensed medical procedure. Practitioners are reminded that what is taken in must be metabolized, and that intake is billed by the Sin. Swallow responsibly."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tier chassis, requirements, and the install ladder live on Trees Overview. Install costs below are per augment at that tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Tier 1 — Entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Open Gullet",
+          "cost": "250 cr",
+          "effect": "Unlocks Eat (1 AP, touch a willing ally): remove one condition from them; you gain 1 Sin."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Tier 2 — Confessor / Penance",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Bitter Balm (Confessor)",
+          "cost": "500 cr",
+          "effect": "When you Eat, the ally also recovers 2 HP."
+        },
+        {
+          "name": "Iron Stomach (Confessor)",
+          "cost": "500 cr",
+          "effect": "Sin capacity +2."
+        },
+        {
+          "name": "Acrid Sweat (Penance)",
+          "cost": "500 cr",
+          "effect": "Enemies grappling you, or grappled by you, gain Seared 1."
+        },
+        {
+          "name": "Gall Coating (Penance)",
+          "cost": "500 cr",
+          "effect": "1 AP, touch; one weapon anointed at a time. The anointed ally's next full hit also applies Rattled."
+        },
+        {
+          "name": "First Spite (Penance)",
+          "cost": "500 cr",
+          "effect": "Unlocks Retch (2 AP, contested: your Medicine or Rift Lore dice + Interface vs the target's Resilience dice + Grit). Spend 1 Sin to apply one condition you ate this fight to the target."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Tier 3 — Confessor / Penance",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Last Rites (Confessor)",
+          "cost": "800 cr",
+          "effect": "Reaction, 1 RP. When an ally in Close drops, Eat all their conditions at once, gaining each as a Sin. They stay down — stabilizing is Medicine's job — but they stop getting worse while they are there."
+        },
+        {
+          "name": "Triage Gut (Confessor)",
+          "cost": "800 cr",
+          "effect": "2 AP, touch. Convert 2 Sins into 1d6 healing."
+        },
+        {
+          "name": "Vigil Skin (Confessor)",
+          "cost": "800 cr",
+          "effect": "Allies who start their turn in your Adjacent cluster shed one Rattled or Slowed automatically; you gain the Sin."
+        },
+        {
+          "name": "Wither Mark (Penance)",
+          "cost": "800 cr",
+          "effect": "2 AP, 1 Sin, contested as Retch. The target deals −1 damage per die until the end of its next activation. Refreshable."
+        },
+        {
+          "name": "Splinter Psalm (Penance)",
+          "cost": "800 cr",
+          "effect": "When you digest a Sin at round's end, one enemy in Close takes 1 direct damage."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Tier 4 — Confessor / Penance",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Absolution (Confessor)",
+          "cost": "1,200 cr",
+          "effect": "Touch. Suppress one scar's debuffs for the rest of the mission; gain Sins equal to half the scar's tier, rounded up. The scar count, its payoffs, and the Fate Roll are untouched — the Scar Law holds."
+        },
+        {
+          "name": "Communal Flesh (Confessor)",
+          "cost": "1,200 cr",
+          "effect": "Your Eat range becomes Close."
+        },
+        {
+          "name": "Penitent Brand (Penance)",
+          "cost": "1,200 cr",
+          "effect": "2 AP, once per fight. Brand an enemy: your Wither Mark on it lasts the entire fight, and Retching at it costs 0 Sins."
+        },
+        {
+          "name": "Sympathetic Rot (Penance)",
+          "cost": "1,200 cr",
+          "effect": "When an enemy carrying one of your conditions dies, move one of its conditions to an enemy in its Adjacent cluster."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Tier 5 — Capstones",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Communion (Confessor capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Once per fight, Eat every condition off one ally at Close and heal them 2 per condition eaten."
+        },
+        {
+          "name": "Scapegoat (Penance capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Once per fight, name a Scapegoat. Whenever you Eat a condition, you may apply that same condition to the Scapegoat — no roll, no Sin cost — for the rest of the fight. Suffering is conserved; you decide who holds it."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Absolution keys off a scar's tier (Sins gained = half its tier, rounded up), but scar tiers are not defined anywhere in the Phase 7 docs — Scars prints no tier structure."
+    },
+    {
+      "type": "blockquote",
+      "text": "Personnel exhibiting a colleague's symptoms are not malfunctioning. They are working. Compensation for ingested liabilities is a private matter between contractors."
+    }
+  ]
+}

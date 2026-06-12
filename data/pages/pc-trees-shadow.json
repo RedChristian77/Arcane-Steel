@@ -1,0 +1,319 @@
+{
+  "id": "pc-trees-shadow",
+  "title": "Shadow",
+  "subtitle": "Viper / Ricochet",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The fight starts when you say it does.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Shadow's defense isn't Evasion and isn't stealth — it's tempo: strike before they're awake, be gone before they swing. The Dancer dodges dice. The Shadow dodges turns."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two branches split the verb. <strong>Viper</strong> strikes before they wake. <strong>Ricochet</strong> is the pinball: the hit buys the run."
+    },
+    {
+      "type": "blockquote",
+      "text": "Per after-action audit, several opposing personnel concluded their contracts without logging a single action. Their employer has been invoiced for the unused rounds."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "None printed — the engine is the activation order itself. Initiative and slot-claiming are Reflex's market (see Turn, AP & Reactions); Slit Timing buys past it.",
+      "theme": "Tempo: the Opener, the hit that buys the run, and the kiting tax.",
+      "design": "Strike before they're awake; be gone before they swing."
+    },
+    {
+      "type": "heading",
+      "text": "The Opener"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Opener:</strong> an attack against an enemy that has not yet activated this round. Alternating activations make this a real, trackable state every round (initiative — see Turn, AP &amp; Reactions), and the Shadow is the tree that weaponizes the order itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "Uptime, simmed across four-round fights: <strong>90% of attacks are Openers with Slit Timing; 64% from a random slot.</strong> The currency is strongest in round one and decays as the fight wears on — the Shadow front-loads, then earns its keep with Patient Knife and tempo sabotage. That decay is the tree's bill: round one is rich; round four is honest work."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sneaking stays the Stealth skill's job, and stealth is a phase, not a state — it ends at initiative, and its combat payoff is the ambush round (see Bands &amp; Movement). The ambush round is Opener heaven, but the Shadow needs neither: it cares about one thing only — whether you've had your turn yet."
+    },
+    {
+      "type": "heading",
+      "text": "The Kiting Tax"
+    },
+    {
+      "type": "paragraph",
+      "text": "The pinball's passive damage: an enemy forced to chase one band per turn loses attacks."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Chaser",
+        "Attacks per turn"
+      ],
+      "rows": [
+        [
+          "Knife",
+          "5 → 4"
+        ],
+        [
+          "Sword / Axe",
+          "1 → 1 — but zero banked RP, forever"
+        ],
+        [
+          "<strong>Maul</strong>",
+          "<strong>1 → 0 — cannot attack at all</strong>"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The pinball hard-unplugs heavy weapons. The doctrine triangle, printed across three trees: <strong>Heavies lose to Shadow. Shadow loses to Fortress. Fortress loses to volume and range.</strong>"
+    },
+    {
+      "type": "heading",
+      "text": "Counterplay, Printed — the Bumper Duel"
+    },
+    {
+      "type": "paragraph",
+      "text": "A kitted Fortress beats a kitted Shadow at the door. The entry trigger is the killer: the pinball's protection keys to <em>after</em> the hit, and Gatekeeper collects <em>before</em> it. Rung by rung:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Fortress tool",
+        "Shadow answer",
+        "The rung"
+      ],
+      "rows": [
+        [
+          "Reaction attack on exit",
+          "Hit and Fade — no trigger",
+          "Shadow"
+        ],
+        [
+          "<strong>Gatekeeper</strong> — trigger on entry",
+          "None — the hit hasn't happened yet",
+          "<strong>Fortress</strong>"
+        ],
+        [
+          "<strong>Lockdown</strong> — pin on reaction hit",
+          "Slipstream-style tech is the Dancer's, not yours",
+          "<strong>Fortress</strong>"
+        ],
+        [
+          "The Wall — +1 AP to leave",
+          "Hit and Fade dodges the trigger, not the toll",
+          "<strong>Fortress</strong>"
+        ],
+        [
+          "Toll Collector — free reaction",
+          "Restless Frame — +1 RP cost",
+          "Wash"
+        ],
+        [
+          "Dread Presence — entry tax",
+          "Springload's free band",
+          "Wash"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The Shadow's real counterplay to a Fortress is the oldest one: don't play their game. There are other doors and softer targets."
+    },
+    {
+      "type": "heading",
+      "text": "The Catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install costs follow the standard ladder (Trees Overview). Fifteen augments; Tier 5 means choosing ten. Capstones are marked."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The Shadow doc self-reports “16 augments + entry,” but enumerates 14 + entry — 15 total, below the ~20-augment density standard, with no expansion pack printed. Tier 5's “choose 10” here means 10 of 15."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Shared entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Adrenal Primer",
+          "cost": "250 cr",
+          "effect": "Your Opener attacks gain +1 accuracy."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Viper Branch — Strike Before They Wake"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Viper branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Slit Timing",
+          "cost": "500 cr",
+          "effect": "You may always claim your side's first activation slot. The engine perk — 90% Opener uptime is bought here."
+        },
+        {
+          "name": "Cold Read",
+          "cost": "500 cr",
+          "effect": "Your Opener attacks deal +1 damage per die. Doubles knife output against Standard armor (2.6 to 5.3 per turn); Plate stays a doctrine wall."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Viper branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Rattlesnake",
+          "cost": "800 cr",
+          "effect": "Enemies damaged by your Opener attacks are Rattled until the end of the round (the condition — see Conditions). Waking up hurt makes you sloppy."
+        },
+        {
+          "name": "Double Cold",
+          "cost": "800 cr",
+          "effect": "Once per round, killing an un-activated enemy grants one free attack against another un-activated enemy in reach."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Viper branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Patient Knife",
+          "cost": "1,200 cr",
+          "effect": "Once per enemy per fight, your first attack against them counts as an Opener even after they've activated. Everyone's asleep once, if you wait."
+        },
+        {
+          "name": "Sandman Toxin",
+          "cost": "1,200 cr",
+          "effect": "Your Opener riders — conditions — apply even on a graze. A priced exception to the graze rule (see Graze & Crits)."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Viper branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Round Zero",
+          "cost": "2,000 cr",
+          "effect": "Capstone. At the start of combat, before any activation, take one 2 AP action. The fight starts when you say it does."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ricochet Branch — The Pinball"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Ricochet branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Glancing Orbit",
+          "cost": "500 cr",
+          "effect": "+1 Evasion while in an enemy's Adjacent cluster you entered this turn. You arrived moving."
+        },
+        {
+          "name": "Hit and Fade",
+          "cost": "500 cr",
+          "effect": "After you hit with a melee attack, your next band move this turn doesn't trigger reaction attacks. The hit buys the run."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Ricochet branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Springload Calves",
+          "cost": "800 cr",
+          "effect": "If you've hit an enemy this turn, your first band move afterward costs 0 AP."
+        },
+        {
+          "name": "Pinball Path",
+          "cost": "800 cr",
+          "effect": "When you kill an enemy, immediately move one band for free, with no reaction triggers."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Ricochet branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Carom Strike",
+          "cost": "1,200 cr",
+          "effect": "2 AP: move one band, attack, move one band; neither move triggers reactions. The signature, packaged."
+        },
+        {
+          "name": "Restless Frame",
+          "cost": "1,200 cr",
+          "effect": "Enemy reaction attacks against you cost +1 RP. Taxing the toll collector."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Ricochet branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Perpetual Motion",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Once per turn, hitting an enemy refunds 1 AP of movement, and your band moves never provoke reactions from enemies you've damaged this fight. The ball doesn't stop."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Pairings"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Dancer:</strong> Opener into flurry is the obvious cocktail — but Shadow's bonuses die when the room wakes up, and the Dancer's Evasion penalty starts when the swinging starts."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Fury (Carnage):</strong> Pinball Path plus Cleave chains are a kill-conga; Wrath still starves on a hit-and-run diet."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Fortress:</strong> the comedy build — the bumper that pinballs. Legal, confused, occasionally brilliant in doorway-rich maps."
+    },
+    {
+      "type": "blockquote",
+      "text": "Punctuality review: contractor consistently begins engagements before they are scheduled to start. This is the only acceptable form of early."
+    }
+  ]
+}

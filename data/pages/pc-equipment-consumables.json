@@ -1,0 +1,169 @@
+{
+  "id": "pc-equipment-consumables",
+  "title": "Consumables & Ammo",
+  "subtitle": "Spend to live",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>Everything on this page is bought to be burned. Budget accordingly.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The baseline consumable catalog. Systems is the tree that tunes these into something better (see Systems); the electronic-warfare set lives on Mods."
+    },
+    {
+      "type": "heading",
+      "text": "Consumables"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Item",
+        "Price",
+        "AP",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Medpack",
+          "50 cr",
+          "2",
+          "Heal 1d6 HP. Stabilizes a Down ally with a Medicine Check — the stabilize window lives on The Staircase."
+        ],
+        [
+          "Repair Paste",
+          "60 cr",
+          "2",
+          "Field-restore 1d6 Armor HP. Baseline use risks the permanent-consequence roll; Shell Splint (Systems) and Warranty Work (Tinkerer) wave it, each in its lane. Field repair lives on Armor."
+        ],
+        [
+          "Stim",
+          "40 cr",
+          "1",
+          "Shed Slowed; move 1 band free; +1 Charge. The body bills later (Charge lives on Charge & Saturation)."
+        ],
+        [
+          "Antidote",
+          "45 cr",
+          "1",
+          "End Seared and toxin riders on one target."
+        ],
+        [
+          "Frag Grenade",
+          "55 cr",
+          "2",
+          "Adjacent cluster at Medium range: 2d6, no attack roll."
+        ],
+        [
+          "Breach Charge",
+          "90 cr",
+          "2",
+          "One target or barrier: 2d8, punch-through doubled vs Armor HP. The poor man's Shatter Pulse."
+        ],
+        [
+          "Ration / Beast Feed",
+          "10 / 20 cr",
+          "—",
+          "The quiet line every sheet pays."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Standard ammo — abstracted"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nobody counts standard rounds.</strong> There is no per-shot tracking. Instead, each gun you used on a mission incurs a flat resupply cost at mission's end. Heavy-usage missions scale the bill up, at GM call."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Class",
+        "Resupply per mission"
+      ],
+      "rows": [
+        [
+          "Light arms",
+          "~20 cr"
+        ],
+        [
+          "Rifles",
+          "~30 cr"
+        ],
+        [
+          "Support weapons",
+          "~50 cr"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Specialty rounds — tracked"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Specialty rounds are tracked individually.</strong> Bought per round, declared when fired — you palm the round, 0 AP if it's prep-carried (prep slots live on Systems). Each one is a decision, which is exactly why they're the ones you count."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Round",
+        "Price",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Pen Core",
+          "40 cr",
+          "Penetration 2."
+        ],
+        [
+          "Ripper",
+          "30 cr",
+          "+1 damage die vs Flesh targets."
+        ],
+        [
+          "Shatter Slug",
+          "60 cr",
+          "Punch-through counts double vs Armor HP."
+        ],
+        [
+          "Howler Round",
+          "25 cr",
+          "Even a graze applies Rattled (see Conditions)."
+        ],
+        [
+          "Toxin Carrier",
+          "50 cr + payload",
+          "Delivers one loaded consumable condition on a full hit."
+        ],
+        [
+          "Tag Round",
+          "40 cr",
+          "Embeds a mark — counts as a Spotter mark (see Systems; the Tag-Sync Receiver mod extends it)."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Precision is the tree that turns this catalog into a fire-control system — its augments live on Precision."
+    },
+    {
+      "type": "heading",
+      "text": "Handloads & bootlegs"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Half price — and a natural 1 on the accuracy die is a jam.</strong> The weapon is Jammed: it doesn't fire until cleared, 1 AP (see Conditions)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ammunition is licensed IP, and corp rounds are watermarked: spent brass is evidence. A Tinkerer's press and a Fixer's quiet suppliers are how you live outside that — the Tinkerer handloads your specialty rounds at material cost, and the Fixer tells you what to load before you know you need it (see Professions Overview)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Expended munitions remain corporate property. Please police your brass — forensic recovery is billed by the casing."
+    }
+  ]
+}

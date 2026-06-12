@@ -1,0 +1,337 @@
+{
+  "id": "pc-trees-dancer",
+  "title": "Dancer",
+  "subtitle": "Tempest / Quicksilver",
+  "content": [
+    {
+      "type": "flavor",
+      "text": "<em>The best Absorb is elsewhere.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Dancer is light blades, light armor, and the conviction that the best Absorb is elsewhere. Its lanes are the ones the math built for light weapons: flesh-hunting, condition delivery, crit-fishing, shell-grinding — and not being there when the answer comes back."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two branches hold the lane. <strong>Tempest</strong> is the storm of edges: more attacks, sharper riders. <strong>Quicksilver</strong> is the untouchable: Evasion that must keep moving to exist."
+    },
+    {
+      "type": "blockquote",
+      "text": "Contractor has declined standard ballistic coverage. Liability for incoming fire transfers to the contractor's footwork, effective immediately. We admire the confidence."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Reflex and Edge — Evasion is built from both (the formula — see Attacks & the Shell Clock).",
+      "theme": "Dual Swing's home tree: flurries, riders, and conditional Evasion that must keep moving.",
+      "design": "One more attack per turn, paid in Evasion — and a ceiling that makes heavies stop aiming."
+    },
+    {
+      "type": "heading",
+      "text": "The Engine — One More Attack, Paid in Evasion"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is Dual Swing's home tree. The rule itself — and Titan Grip, the heavy-pair procedure — lives on Dual Wield &amp; Titan Grip; this page sells the discounts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Baseline, simmed: a dual-knife turn reaches 6 attacks against a single knife's 5 — 21.7 damage per turn against flesh versus 18.2. Roughly one free attack per turn, with the Evasion penalty as the price tag. The tree escalates from there: a Twin Tempest turn reaches 7 attacks and 25.4 against flesh — about +40% over single-wield — wearing the full penalty twice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy pairs are the other lane, and Dancer discounts never apply to them (see Dual Wield &amp; Titan Grip). This lane is grace; that lane is chrome."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Dancer's bill is printed on every flurry: Dual Swing's Evasion penalty is the cost of the extra attack, and the Quicksilver bonuses only pay while you move. The tree pays in exposure — the answer comes back during the window you bought the swings in."
+    },
+    {
+      "type": "heading",
+      "text": "What the Evasion Ceiling Buys"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Dancer owns the Evasion ceiling: +3, plus the capstone's removal of the light-armor Evasion cap (armor caps — see Armor; the Evasion formula — see Attacks &amp; the Shell Clock). What the ladder buys, in expected damage per incoming attack:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Incoming, per attack",
+        "EV 9",
+        "EV 11",
+        "EV 14 (capstone build)"
+      ],
+      "rows": [
+        [
+          "Guard (d8+2, 2d6)",
+          "3.4",
+          "2.2",
+          "1.7"
+        ],
+        [
+          "Heavy Axe (d6+3, 3d10)",
+          "8.1",
+          "<strong>5.4</strong>",
+          "<strong>5.7</strong>"
+        ],
+        [
+          "Knife flurrier (d12+3)",
+          "2.6 per attack, 75% contact",
+          "58% contact",
+          "33% contact"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Past EV 11, heavy weapons stop aiming and start praying — and prayer auto-hits.</strong> The axe's numbers don't improve from EV 11 to EV 14 because by then it can only crit, and crits don't care (crits are EV-proof — see Graze &amp; Crits). Heavy crit-fishers are the Dancer's designed predator."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Knives hunt dancers.</strong> d12 accuracy keeps 33% contact at EV 14 — the mirror match is the only fair fight in the building."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The crit floor, printed:</strong> a five-attack knife enemy still lands about 2.9 damage per turn on an EV 14 Dancer through natural maxes alone. Untouchable, not invincible."
+    },
+    {
+      "type": "heading",
+      "text": "Counterplay, Printed"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Crits</strong> — EV-proof by rule (see Graze &amp; Crits)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Flanking</strong> — the Dancer has no anti-flank augment; positioning is the whole job. “Cannot be flanked” lives in Fortress (Watchman Optic). The Dancer dodges dice, not geometry."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Grapples</strong> — contested Checks never look at Evasion. Athletics is the dodge-tank's tax."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Suppression and cluster patterns</strong> — no attack roll, no dodge."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Attrition</strong> — graze chip from accurate enemies (see Graze &amp; Crits)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The Wall</strong> — the Fortress capstone deletes the free shift entirely; that arms race is printed in both trees."
+    },
+    {
+      "type": "heading",
+      "text": "The Catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install costs follow the standard ladder (Trees Overview). Nineteen augments; Tier 5 means choosing ten of them. Capstones are marked."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Shared entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Gyro Threads",
+          "cost": "250 cr",
+          "effect": "While wearing Weave-class armor or lighter, +1 band of movement per turn."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tempest Branch — The Storm of Edges"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Tempest branch",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Balanced Tang",
+          "cost": "250 cr",
+          "effect": "Your off-hand weapon counts one weight lighter for Dual Swing penalties."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Tempest branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Off-hand Sync",
+          "cost": "500 cr",
+          "effect": "Dual Swing's Evasion penalty is reduced by 2 (minimum 0)."
+        },
+        {
+          "name": "Razor Tempo",
+          "cost": "500 cr",
+          "effect": "Your fourth and later attacks each turn gain +1 accuracy. Counts toward the accuracy cap."
+        },
+        {
+          "name": "Serration Memory",
+          "cost": "500 cr",
+          "effect": "Consecutive hits on the same target in one turn deal +1 damage (max +2). The grind, sharpened."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Tempest branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Twin Tempest",
+          "cost": "800 cr",
+          "effect": "You may Dual Swing twice per turn — seven-attack turns, wearing the full Evasion penalty twice."
+        },
+        {
+          "name": "Venom Channels",
+          "cost": "800 cr",
+          "effect": "Once per turn, one weapon rider applies even on a graze — a priced exception to the graze rule (see Graze & Crits)."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Tempest branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Crit Harmonics",
+          "cost": "1,200 cr",
+          "effect": "Your light blades (1–2 AP) gain +1 crit beat."
+        },
+        {
+          "name": "Blur of Edges",
+          "cost": "1,200 cr",
+          "effect": "The first light-blade kill each turn refunds 1 AP."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Tempest branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Bladestorm",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Once per fight, 4 AP: one attack against every enemy in your Adjacent cluster, and Dual Swing penalties don't apply this turn."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Quicksilver Branch — The Untouchable"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Quicksilver branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Heel Turn",
+          "cost": "500 cr",
+          "effect": "When an enemy enters your Adjacent cluster, you may immediately take your free Adjacent-to-Close shift."
+        },
+        {
+          "name": "Slip Servos",
+          "cost": "500 cr",
+          "effect": "+1 Evasion while in Weave or lighter."
+        },
+        {
+          "name": "Ghost Step",
+          "cost": "500 cr",
+          "effect": "Your free Adjacent-to-Close shift never triggers reaction attacks. The Wall deletes the free shift entirely — that arms race is intended and printed in both trees."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Quicksilver branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Quicksilver Frame",
+          "cost": "800 cr",
+          "effect": "+1 Evasion in any turn you moved at least one band. The dancer must dance."
+        },
+        {
+          "name": "Slipstream",
+          "cost": "800 cr",
+          "effect": "1 AP: until your next turn, reaction attacks triggered by your movement roll accuracy twice and take the lower."
+        },
+        {
+          "name": "Matador's Read",
+          "cost": "800 cr",
+          "effect": "When a melee attack misses you, +1 accuracy on your next attack against that attacker. Counts toward the accuracy cap."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Quicksilver branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Afterimage",
+          "cost": "1,200 cr",
+          "effect": "Once per fight, when an attack hits you, force a complete re-roll."
+        },
+        {
+          "name": "Mercury Burst",
+          "cost": "1,200 cr",
+          "effect": "2 AP: move two bands, ignoring difficult terrain and all reaction triggers."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Quicksilver branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Untouchable",
+          "cost": "2,000 cr",
+          "effect": "Capstone. +1 Evasion — the Dancer ceiling, +3 — and Weave-or-lighter armor no longer caps your Evasion."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Pairings"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Fury:</strong> more swings, more Carnage triggers — but light blades starve Wrath's damage-taken feed, and Dual Swing's Evasion penalty argues with Pain Converter's whole lifestyle."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Shadow:</strong> the alpha-strike Opener into flurry cleanup is the obvious marriage. The Shadow dodges turns, the Dancer dodges dice — the lanes stay distinct."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Leech (Parasite):</strong> Siphon Fangs on six-attack turns is a drip-feed sustain build; the grapple requirement fights the Dancer's instincts — honest tension."
+    },
+    {
+      "type": "blockquote",
+      "text": "Notice: evasion percentile achievements do not constitute invulnerability. Contractors are reminded that natural maximums occur at the printed rate regardless of morale."
+    }
+  ]
+}
