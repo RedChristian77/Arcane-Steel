@@ -13,10 +13,22 @@
       "title": "The Hollow",
       "subtitle": "Origin: The Grave · The Question Without an Answer",
       "entries": [
-        {"label": "Origin", "value": "The Grave — ruins of an advanced civilization, empty structures stretching to every horizon"},
-        {"label": "Population", "value": "Very small, solitary"},
-        {"label": "Appearance", "value": "Extremely humanoid. Too symmetrical. Porcelain skin. Dark, lightless eyes. Learned expressions."},
-        {"label": "Build", "value": "Human-proportioned but uncanny — like a very good replica"}
+        {
+          "label": "Origin",
+          "value": "The Grave — ruins of an advanced civilization, empty structures stretching to every horizon"
+        },
+        {
+          "label": "Population",
+          "value": "Very small, solitary"
+        },
+        {
+          "label": "Appearance",
+          "value": "Extremely humanoid. Too symmetrical. Porcelain skin. Dark, lightless eyes. Learned expressions."
+        },
+        {
+          "label": "Build",
+          "value": "Human-proportioned but uncanny — like a very good replica"
+        }
       ]
     },
     {
@@ -24,10 +36,10 @@
       "style": "accent",
       "label": "Playable Adjustments",
       "items": [
-        "+1 Interface (data/pattern recognition)",
+        "+1 on data-analysis and pattern-recognition Checks (Interface)",
         "Immune to psychoactive effects (toxins, drugs, fear-based abilities)",
-        "-2 emotional social checks (can't genuinely emote)",
-        "No natural healing (must use medical treatment or augmentation to recover HP)",
+        "Disadvantage on social Checks relying on genuine emotion (can't genuinely emote)",
+        "No natural healing (must use medical treatment or augmentation to recover flesh HP)",
         "Pattern recognition borders on precognition — sense optimal paths through data"
       ]
     },
@@ -36,7 +48,7 @@
       "style": "teal",
       "label": "Strengths",
       "items": [
-        "+1 Interface — best pattern recognition of any species",
+        "+1 on data/pattern-recognition Checks — best pattern recognition of any species",
         "Immune to psychoactive effects — poisons, fear, mind-altering substances don't work",
         "Efficiency that makes optimized systems look wasteful",
         "Fastest pattern analysis — borders on precognition for data-rich environments",
@@ -49,7 +61,7 @@
       "style": "rust",
       "label": "Weaknesses",
       "items": [
-        "-2 emotional social checks — genuine emotional connection is impossible or performative",
+        "Disadvantage on emotional social Checks — genuine emotional connection is impossible or performative",
         "No natural healing — biology doesn't regenerate, must rely on external medical care",
         "Make everyone uncomfortable — trust never fully extends to comfort",
         "Opaque motives — not hidden, just empty in a way that unnerves allies",

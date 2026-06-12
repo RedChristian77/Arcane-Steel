@@ -13,10 +13,23 @@
       "title": "The Keth",
       "subtitle": "Origin: The Char · The Silent Forge",
       "entries": [
-        {"label": "Origin", "value": "The Char — a volcanic hellscape where silence means survival"},
-        {"label": "Population", "value": "Small but concentrated"},
-        {"label": "Appearance", "value": "Broad, dense, shorter than human. Crystalline skin. Four arms. Infrared eyes."},
-        {"label": "Build", "value": "Compact and incredibly dense — weigh 2-3x a human of similar height", "full": true}
+        {
+          "label": "Origin",
+          "value": "The Char — a volcanic hellscape where silence means survival"
+        },
+        {
+          "label": "Population",
+          "value": "Small but concentrated"
+        },
+        {
+          "label": "Appearance",
+          "value": "Broad, dense, shorter than human. Crystalline skin. Four arms. Infrared eyes."
+        },
+        {
+          "label": "Build",
+          "value": "Compact and incredibly dense — weigh 2-3x a human of similar height",
+          "full": true
+        }
       ]
     },
     {
@@ -25,10 +38,8 @@
       "label": "Playable Adjustments",
       "text": "Mechanical adjustments for playing a Keth contractor.",
       "items": [
-        "+1 Chrome carry weight (dense musculature)",
-        "Can wield a two-handed weapon + shield simultaneously (four arms)",
+        "Counts Chrome as 1 higher for carry weight (dense musculature)",
         "-1 Edge (social/charisma — cultural silence reads as hostility)",
-        "-1 Speed (dense body mass)",
         "Heat-adapted: immune to heat-based environmental penalties",
         "Can eat rock/mineral matter for sustenance in emergencies"
       ]
@@ -39,8 +50,7 @@
       "label": "Strengths",
       "text": "What the Keth bring to a crew.",
       "items": [
-        "Four arms — can dual-wield + hold a shield, or two-handed weapon + shield",
-        "+1 Chrome carry capacity — strongest species by default",
+        "Chrome counts 1 higher for carry capacity — strongest species by default",
         "Heat immunity — environmental heat penalties don't apply",
         "Crystalline skin provides natural minor armor",
         "Perfect oral tradition — muscle-memory knowledge transfer across generations",
@@ -54,9 +64,28 @@
       "text": "What holds the Keth back.",
       "items": [
         "-1 Edge — silence and reserve read as hostility to other species",
-        "-1 Speed — dense body mass makes them the slowest species",
         "Sound sensitivity — loud sustained noise causes discomfort (sound attracted predators in the Char)",
         "Cultural reserve — building trust takes time, first impressions suffer"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PENDING REDESIGN — parked by design, do not play as printed",
+      "text": "Four-armed combat is deliberately undesigned in the rebuild: the Keth's interaction with Dual Swing and Titan Grip is parked, on file, awaiting a ruling. The pre-rebuild mechanics are preserved below for reference only.",
+      "items": [
+        "Can wield a two-handed weapon + shield simultaneously (four arms)",
+        "Four arms — can dual-wield + hold a shield, or two-handed weapon + shield"
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PENDING REDESIGN",
+      "text": "The lines below reference the pre-rebuild Speed stat, which no longer exists — movement is now 1 AP per band for everyone. Pricing a species-wide movement penalty is a design decision that awaits a ruling. Not in play as printed.",
+      "items": [
+        "-1 Speed (dense body mass)",
+        "-1 Speed — dense body mass makes them the slowest species"
       ]
     },
     {

@@ -13,10 +13,23 @@
       "title": "The Vael",
       "subtitle": "Origin: The Bloom · The Living Garden",
       "entries": [
-        {"label": "Origin", "value": "The Bloom — a symbiotic overgrowth dimension of cooperative life"},
-        {"label": "Population", "value": "Moderate"},
-        {"label": "Appearance", "value": "Tall, slender. Skin shifts color with emotion. Fern-like crest. Large multifaceted eyes."},
-        {"label": "Build", "value": "Tall and willowy, lighter than they appear — hollow bones reinforced with cellulose structures", "full": true}
+        {
+          "label": "Origin",
+          "value": "The Bloom — a symbiotic overgrowth dimension of cooperative life"
+        },
+        {
+          "label": "Population",
+          "value": "Moderate"
+        },
+        {
+          "label": "Appearance",
+          "value": "Tall, slender. Skin shifts color with emotion. Fern-like crest. Large multifaceted eyes."
+        },
+        {
+          "label": "Build",
+          "value": "Tall and willowy, lighter than they appear — hollow bones reinforced with cellulose structures",
+          "full": true
+        }
       ]
     },
     {
@@ -25,8 +38,8 @@
       "style": "accent",
       "text": "Mechanical adjustments for playing a Vael contractor.",
       "items": [
-        "+1 Toxicity threshold per bracket (higher tolerance before effects kick in)",
-        "-1 in extreme heat environments (cold-blooded-adjacent biology)",
+        "All Charge and Saturation thresholds +1 (higher tolerance before effects kick in)",
+        "-1 on all Checks in extreme heat environments (cold-blooded-adjacent biology)",
         "Sense wild rifts at Close range (innate dimensional perception)",
         "Photosynthesis: 4 hours of sunlight replaces one meal per day",
         "Can communicate emotional state involuntarily through skin color shifts"
@@ -38,7 +51,7 @@
       "style": "teal",
       "text": "What the Vael bring to a crew.",
       "items": [
-        "Best toxicity resistance of any species — +1 threshold per bracket",
+        "Best toxicity resistance of any species — all Charge and Saturation thresholds +1",
         "Innate rift sensing at Close range — natural early warning system",
         "Photosynthetic supplementation reduces food costs",
         "Excellent scouts — read terrain and environmental hazards instinctively",
@@ -51,7 +64,7 @@
       "style": "rust",
       "text": "What holds the Vael back.",
       "items": [
-        "Vulnerable to extreme heat (-1 to all checks in hot environments)",
+        "Vulnerable to extreme heat (-1 on all Checks in hot environments)",
         "Emotional transparency — skin color broadcasts feelings, making deception difficult",
         "Isolation sickness — extended time alone causes genuine psychological decline",
         "Community-dependent — take team losses harder, morale drops faster when crew members fall"
@@ -135,15 +148,47 @@
     },
     {
       "type": "table",
-      "headers": ["Corporation", "Relationship", "Notes"],
+      "headers": [
+        "Corporation",
+        "Relationship",
+        "Notes"
+      ],
       "rows": [
-        ["Green Cradle", "Model citizens", "Ecological work, biome cultivation, agricultural management. The most cooperative corp relationship — but cooperation is not equality. Vael maintain Cradle's biological infrastructure and receive meaningful authority in return. The dependency runs both ways."],
-        ["Wellspring Pharma", "Research subjects", "Plant-animal hybrid biology is \"fascinating.\" Gene-splicing research, toxicity resistance studies, involuntary bioluminescence analysis. Compensation in medical care that's dependent on continued participation. The Vael remember."],
-        ["Congo", "Specialist labor", "Vael toxicity resistance makes them useful in high-contamination extraction zones. Deployed where humans can't survive long enough to be productive. Paid the same rate for three times the exposure."],
-        ["Sentinel", "Scouts and surveyors", "Rift-sensing capability makes Vael valuable for forward reconnaissance. Sentinel treats them professionally — which means efficiently, not kindly."],
-        ["Pear", "Data sources", "Vael sensory data on rift activity is cataloged, analyzed, and monetized. The Vael who provide it are credited as \"environmental sensors\" in the reports."],
-        ["Crowned Table", "Curiosity", "The Table's mystical bent finds Vael biology philosophically interesting. Some Vael have found genuine community in Table territories. Others find the reverence unsettling — being worshipped is not the same as being respected."],
-        ["Reign of Rat", "Archival interest", "Vael communal memory and color-language ceremonies are a living archive. Rat wants to catalog them. The Vael are cautious — they've seen what happens when a corp decides your culture is a resource."]
+        [
+          "Green Cradle",
+          "Model citizens",
+          "Ecological work, biome cultivation, agricultural management. The most cooperative corp relationship — but cooperation is not equality. Vael maintain Cradle's biological infrastructure and receive meaningful authority in return. The dependency runs both ways."
+        ],
+        [
+          "Wellspring Pharma",
+          "Research subjects",
+          "Plant-animal hybrid biology is \"fascinating.\" Gene-splicing research, toxicity resistance studies, involuntary bioluminescence analysis. Compensation in medical care that's dependent on continued participation. The Vael remember."
+        ],
+        [
+          "Congo",
+          "Specialist labor",
+          "Vael toxicity resistance makes them useful in high-contamination extraction zones. Deployed where humans can't survive long enough to be productive. Paid the same rate for three times the exposure."
+        ],
+        [
+          "Sentinel",
+          "Scouts and surveyors",
+          "Rift-sensing capability makes Vael valuable for forward reconnaissance. Sentinel treats them professionally — which means efficiently, not kindly."
+        ],
+        [
+          "Pear",
+          "Data sources",
+          "Vael sensory data on rift activity is cataloged, analyzed, and monetized. The Vael who provide it are credited as \"environmental sensors\" in the reports."
+        ],
+        [
+          "Crowned Table",
+          "Curiosity",
+          "The Table's mystical bent finds Vael biology philosophically interesting. Some Vael have found genuine community in Table territories. Others find the reverence unsettling — being worshipped is not the same as being respected."
+        ],
+        [
+          "Reign of Rat",
+          "Archival interest",
+          "Vael communal memory and color-language ceremonies are a living archive. Rat wants to catalog them. The Vael are cautious — they've seen what happens when a corp decides your culture is a resource."
+        ]
       ]
     },
     {
