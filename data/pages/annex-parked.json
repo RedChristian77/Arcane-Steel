@@ -5,17 +5,199 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>A design gap is something the docs forgot. A parked item is something the docs refused. This register is the published index; the working flags ledger stays the working document.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Five items are parked by name in the rebuild canon. The handling rule, printed in the Phase 7 handoff and binding on every page: carry old mechanics as <em>pending redesign</em> where they exist, flag the spot on the live page, and never improvise. Parked items stay parked until a designer ruling unparks them — flagging the need at the table is correct play; designing it there is not."
+    },
+    {
+      "type": "info-block",
+      "icon": "✕",
+      "title": "Multi-Armed Combat — the Keth",
+      "subtitle": "Titan Grip / Dual Swing interaction",
+      "entries": [
+        {
+          "label": "What it is",
+          "value": "How a four-armed body interacts with Dual Swing, Titan Grip's Chrome gates, and shield use. The pre-rebuild four-arm mechanics are preserved on The Keth for reference only — not in play.",
+          "full": true
+        },
+        {
+          "label": "Why parked",
+          "value": "The Titan Grip ruling filed the interaction rather than ruling it — \"parked, on file\" — and the Phase 7 handoff marks it deliberately undesigned: the Keth's mechanics predate the rebuild, and the race awaits redesign under the new grammar.",
+          "full": true
+        },
+        {
+          "label": "Flags on live pages",
+          "value": "Dual Wield & Titan Grip (PARKED) · The Keth (PENDING REDESIGN) · Playable Species (PENDING REDESIGN)",
+          "full": true
+        },
+        {
+          "label": "Unblocked by",
+          "value": "The Keth redesign ruling. On file with it: four-arm combat under the new grammar, a -1 Speed penalty that references the deleted Speed stat, and the watch-item that a literal -1 Edge now also lowers Evasion — which the old social-only design never intended.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "✕",
+      "title": "The Base Beyond Low-Tier",
+      "subtitle": "Base-module content",
+      "entries": [
+        {
+          "label": "What it is",
+          "value": "Facility tiers, expansions, staff, defenses — anything that makes the base a character instead of a discount. The low-tier module itself is live (The Base, GM Core), governed by the funnel law: the base owns the floor of every funnel; people own the top.",
+          "full": true
+        },
+        {
+          "label": "Why parked",
+          "value": "Scoped post-core and low-tier from the start — hooks reserved, content deferred — so the expensive bands stay relationships.",
+          "full": true
+        },
+        {
+          "label": "Flags on live pages",
+          "value": "The Base (PARKED)",
+          "full": true
+        },
+        {
+          "label": "Unblocked by",
+          "value": "Playtests — the module plan holds base content low-tier until then. Phase 6 prices base hooks floor-band only, per the funnel law.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "✕",
+      "title": "Vehicle Customization Mods",
+      "subtitle": "Compartments, freezers, fuel, sealing",
+      "entries": [
+        {
+          "label": "What it is",
+          "value": "The vehicle customization catalog: hidden compartments (gate inspections), freezer units (the preservation clock), extended fuel (convoy legs), and Seal upgrades.",
+          "full": true
+        },
+        {
+          "label": "Why parked",
+          "value": "The master consolidation parks the entire customization pass. Vehicles shipped as combat-and-logistics chassis; the catalog is its own future pass.",
+          "full": true
+        },
+        {
+          "label": "Flags on live pages",
+          "value": "Vehicles, GM Core (PARKED) · Mods (PARKED) · Rigger (DESIGN GAP — Chop Access and Smuggler's Frame already price against the unwritten catalog)",
+          "full": true
+        },
+        {
+          "label": "Unblocked by",
+          "value": "The customization catalog pass. Standing dependency to resolve with it: two printed Rigger perks lean on the catalog existing.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "✕",
+      "title": "Patterns Beyond the Launch Ten",
+      "subtitle": "The Channeler's arsenal",
+      "entries": [
+        {
+          "label": "What it is",
+          "value": "Any pattern beyond the launch set. The ten on Patterns are the whole arsenal.",
+          "full": true
+        },
+        {
+          "label": "Why parked",
+          "value": "The Phase 7 handoff parks the catalog beyond the launch ten by name — flagged for a future pass, not designed.",
+          "full": true
+        },
+        {
+          "label": "Flags on live pages",
+          "value": "Patterns (PARKED)",
+          "full": true
+        },
+        {
+          "label": "Unblocked by",
+          "value": "A pattern catalog pass. Note that the launch ten themselves carry open calibration gaps — per-pattern Weave DCs, round counts, crit beats, flagged on Patterns — which precede any expansion.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "info-block",
+      "icon": "✕",
+      "title": "Exotic Beasts",
+      "subtitle": "Bloom stock",
+      "entries": [
+        {
+          "label": "What it is",
+          "value": "Exotic companions and Bloom-stock creatures beyond the Bestiary's statted roster. The Influence beast table reserves their row: priced like the contraband they are.",
+          "full": true
+        },
+        {
+          "label": "Why parked",
+          "value": "Deferred from the Influence catalog to the opposition phase, which shipped its roster without them. Deliberately undesigned since — the Bestiary's printed entries are everything that exists.",
+          "full": true
+        },
+        {
+          "label": "Flags on live pages",
+          "value": "Influence (PARKED) · Bestiary (PARKED)",
+          "full": true
+        },
+        {
+          "label": "Unblocked by",
+          "value": "A bestiary expansion pass carrying the contraband pricing line. Standing dependency: the Wrangler's Exotic License perk already licenses Bloom-stock handling, Green Cradle audit Obligation attached.",
+          "full": true
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Open Design Gaps — the Themes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Distinct from parked: a design gap is a hole the regeneration found in the canon. Every gap is flagged where it bites — a DESIGN GAP callout on the owning page — and recorded, numbered, in the Phase 7 flags ledger, which remains the working document for review. The themes, at summary level:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The economy's missing anchors.</strong> No mission pay scale exists in any rebuild doc — the largest single hole, since every drain is priced against income that is never printed. Alongside it: rent and lifestyle, weapon prices, splice purchase prices, repair and reforge pricing, scar treatment costs, intel prices, base facility costs, per-item crafting times and base list prices. (Flagged on The Economy Dials, Weapons, Mutations &amp; Grafts, Armor, Intel, The Base, The Material Cost Law.)"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The attack-governing stat.</strong> No document assigns which stat governs attacks with a given weapon — confirmed open after the Weapons audit and flagged prominently there. Every combat page writes around it."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Unprinted character baselines.</strong> Starting HP, the starting stat array, starting RP before a fight's first activation, the quick-action list, the stabilize DC."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Unsized riders and conditions.</strong> Seared X, the concealment accuracy modifier, the Predictable chip tag, leverage tags (gap stands; future home assigned on Leverage &amp; Encounter Play), the carry-it scar debuffs."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Procedure holes.</strong> The ambush round, forced vent at Charge 10, the wild mutation table, field repair's permanent consequence, the OFF-dial's scar-class Strain."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>GM-side calibration.</strong> Per-role enemy ability menus and activation budgets below bosses, boss quantification (Poise splits, Elite-plus deltas), node traversal costs and the mission clock, the intel DC setting rule, a worked briefing template, carving DCs by creature tier and preservation windows, vehicle chassis numbers (EV caps, Capacity, prices, Char fatigue, Seal thresholds)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Catalog shortfalls.</strong> Shadow under the density standard; Leech's Burn stack duration; the pattern calibration set above; per-weapon crit payouts awaiting the beat budget."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The races translation.</strong> No rebuild doc defines race mechanics; all printed numbers are unit-mapped pre-rebuild design carrying PENDING flags — the Keth (parked, above), Human XP-to-LP conversion, Vael threshold shifts against the forced-vent cap, the Grunt leaning on unpriced scar treatment and unprinted base HP."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Consistency calls held for review.</strong> The Marked name collision (combat condition vs Saturation stage), misfire wording on corrupt rounds and lost patterns, downtime Charge-venting timing, the Dual Swing Evasion floor for light pairs, and the splice roll's Grit multiplier sitting at half the death roll's."
+    },
+    {
+      "type": "paragraph",
+      "text": "The ledger, not this page, is where gaps get worked. When a gap closes, the owning page loses its callout and this list shrinks; when a parked item unparks, its entry above becomes a pointer to the page that owns the new design."
     }
   ]
 }

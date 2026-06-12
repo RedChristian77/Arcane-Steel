@@ -5,17 +5,296 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Design-side. This is the load-bearing math behind every catalog page. Players never need it; builders never stop needing it.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Every catalog in the game — augments, techniques, mods, splices, grafts, patterns, enemy abilities — regenerated against one pricing framework. This page is that framework: what an effect costs in tier coordinates, the three laws that bend the prices, and the ceilings that cap the whole structure. Player pages print the results. This page prints the pricing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tier coordinates below (T1–T5) refer to the augment tier chassis. Unlock counts, install costs, and the density standard live on Trees Overview and are not restated here. A price of \"T3\" means: this effect may first appear at Tier 3."
+    },
+    {
+      "type": "heading",
+      "text": "The Currency Price List"
+    },
+    {
+      "type": "paragraph",
+      "text": "Power is bought in currencies, and each currency's price is the lowest tier where it is allowed to appear. Conditional (triggered) versions price one tier below unconditional (always-on) versions — that gap is the Uptime law doing the work. Stack caps are global across all sources and all layers: two augments, an augment plus a mod, a mod plus a graft — the cap is the cap."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Currency",
+        "Conditional (triggered)",
+        "Unconditional",
+        "Stack cap"
+      ],
+      "rows": [
+        [
+          "<strong>+1 accuracy</strong>",
+          "T2",
+          "T3",
+          "+2 global · +3 Fury-only at 3+ scars (the printed identity exception)"
+        ],
+        [
+          "<strong>+1 damage per die</strong>",
+          "T2–T3",
+          "T4",
+          "+2 — armor-piercing currency: it raises the bounce threshold"
+        ],
+        [
+          "<strong>+1 Evasion</strong>",
+          "T2",
+          "T3",
+          "+2"
+        ],
+        [
+          "<strong>+1 RP</strong>",
+          "T3",
+          "T4",
+          "+2"
+        ],
+        [
+          "<strong>Extra damage die</strong>",
+          "T3",
+          "T4–T5",
+          "+1"
+        ],
+        [
+          "<strong>AP discount</strong>",
+          "T3+ · only on actions of 3+ AP · floor 2",
+          "—",
+          "one source"
+        ],
+        [
+          "<strong>+1 AP</strong>",
+          "conditional refund (e.g. on-kill) at T3",
+          "T5, capstone only",
+          "one source"
+        ],
+        [
+          "<strong>Temp HP / personal soak</strong>",
+          "T2 — small (3–5)",
+          "T4 — large",
+          "one pool"
+        ],
+        [
+          "<strong>Band-move riders</strong>",
+          "T2",
+          "T3",
+          "—"
+        ],
+        [
+          "<strong>Crit riders</strong>",
+          "priced in beats · +beats from T3",
+          "never a parallel crit system",
+          "per the weapon's beat budget"
+        ]
+      ]
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Damage per die is the armor-piercing currency.</strong> A per-die bonus raises the weapon's maximum damage face, which raises the bounce threshold against Value — the same +1 is worth more against armor than it reads on paper. That is why it prices above accuracy in its unconditional form."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>AP discounts never touch cheap actions.</strong> They price only against actions of 3 AP or more, never reduce a cost below 2, and never stack — one source, full stop."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+1 AP is the scarcest line on the table.</strong> Unconditional action economy exists only as a T5 capstone purchase, one source ever; conditional refunds (on-kill and similar) may appear at T3."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Crit riders spend beats.</strong> Crit-touching effects buy beats out of the weapon's beat budget — they never build a parallel crit system. One trigger, two payout tables; the budget is the firewall."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "items": [
+        "Temp HP sizes: \"small\" is printed as 3–5; \"large\" (T4) is never quantified in the rebuild docs.",
+        "The beat budget itself — how many beats a weapon carries and what one beat buys — is never quantified anywhere. Weapons carries the per-weapon side of this flag; this is the framework side of the same hole."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Three Pricing Laws"
+    },
+    {
+      "type": "paragraph",
+      "text": "Three laws bend the price list. Every catalog shipped against them; every worksheet on Homebrew Templates audits against them."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE UPTIME LAW",
+      "text": "Unconditional = conditional + 1 tier. A trigger is a discount."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE TRADE-OFF LAW",
+      "text": "A real, trackable cost buys one tier of power early. The canonical example — the Overclocked Adrenals pattern, an automatic scar per mission — stays legal. Trade-off purchases carry the literal word trade-off on their catalog pages; the cost is not flavor."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE SCAR LAW (BINDS ALL CONTENT)",
+      "text": "Scar-fed power may ease living with scars — never dying with them. Nothing touches the Fate Roll, its DC, or scar accounting. Ever."
+    },
+    {
+      "type": "heading",
+      "text": "Ceilings — the Enforcement Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The stack caps above are global. Above them sits exactly one licensed exception per tree — its ceiling, the one thing that tree is allowed to do better than anyone. Four ceilings are numeric cap overrides, and the arithmetic is uniform: every numeric ceiling is its currency's global cap plus exactly one. The other six are structural — they override no cap because no currency prices what they own. No tree owns two."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is how the budget is enforced. Any request to push a currency past its cap has exactly one valid answer: name the tree whose ceiling it is. If the answer isn't on this table, the answer is no. The player-facing copy of this table is printed on Trees Overview; the values are identical by construction."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tree",
+        "Ceiling",
+        "Class"
+      ],
+      "rows": [
+        [
+          "<strong>Fury</strong>",
+          "Accuracy +3 (at 3+ scars)",
+          "Cap override (global +2)"
+        ],
+        [
+          "<strong>Fortress</strong>",
+          "RP +3",
+          "Cap override (global +2)"
+        ],
+        [
+          "<strong>Leech</strong>",
+          "Extra damage dice +2",
+          "Cap override (global +1)"
+        ],
+        [
+          "<strong>Dancer</strong>",
+          "Evasion +3, and removal of armor's Evasion cap",
+          "Cap override (global +2)"
+        ],
+        [
+          "<strong>Shadow</strong>",
+          "Structural — temporal (the Opener)",
+          "Unpriceable"
+        ],
+        [
+          "<strong>Sin Eater</strong>",
+          "Structural — allies' suffering",
+          "Unpriceable"
+        ],
+        [
+          "<strong>Channeler</strong>",
+          "Structural — the only renewable weapon pool",
+          "Unpriceable"
+        ],
+        [
+          "<strong>Systems</strong>",
+          "Structural — inventory",
+          "Unpriceable"
+        ],
+        [
+          "<strong>Precision</strong>",
+          "Structural — the wallet",
+          "Unpriceable"
+        ],
+        [
+          "<strong>Influence</strong>",
+          "Structural — headcount",
+          "Unpriceable"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Where the Currencies Live — the Lane Law"
+    },
+    {
+      "type": "paragraph",
+      "text": "Five layers carry mechanical content, and each owns a lane. An effect prices the same wherever it appears — the caps are shared — but what kind of effect may appear where is fixed:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Kit abilities</strong> are technique — never damage."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Augments</strong> are body verbs."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Skills</strong> are competence."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Professions</strong> are position."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Mods</strong> are gear conditionals."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two printed extensions. Techniques carry their own ceiling — never more than +1 of any capped currency, conditional only; the ceiling text lives on Techniques. And mutations price into the same caps and budget as everything else — the shared-caps law; the worksheet lives on Mutations &amp; Grafts. Entries that violate their lane move or die, and the cross-layer duplicate kill-list enforces one effect, one home, across all five layers."
+    },
+    {
+      "type": "heading",
+      "text": "How a Catalog Ships — the Seven-Point Checklist"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nothing in the rebuild was patched; everything regenerated. Every entry in every catalog shipped against this checklist, and anything built on the system should run the same gauntlet:"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Grammar restatement</strong> — every ability speaks in Checks, bands, AP, and RP. No legacy dice language survives."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Lane audit</strong> — kit abilities = technique (never damage); augments = body verbs; skills = competence; professions = position; mods = gear conditionals."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Scar-law audit</strong> — scar-powered content may ease living with scars, never dying with them; the death DC is untouchable."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>RP repricing</strong> — every \"extra reaction\" effect becomes +RP; every interrupt gets an RP cost."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Beat-budget integration</strong> — crit-touching abilities spend beats, never stack a parallel crit system."
+    },
+    {
+      "type": "numbered",
+      "num": 6,
+      "text": "<strong>Cross-layer duplicate kill-list</strong> — one effect, one home, across all five layers."
+    },
+    {
+      "type": "numbered",
+      "num": 7,
+      "text": "<strong>Sim gate</strong> — power budget per tier validated before the catalog ships."
+    },
+    {
+      "type": "paragraph",
+      "text": "To build on the framework, take the worksheets: Homebrew Templates walks a technique, a profession, a graft, and an enemy through these prices step by step, naming the page that owns every number along the way."
     }
   ]
 }
