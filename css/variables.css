@@ -1,47 +1,60 @@
 /* ============================================================
-   VARIABLES — Cyberpunk Corporate Theme
-   Think: Weyland-Yutani intranet meets Blade Runner UI
+   VARIABLES — Corp Document System
+   Reference aesthetic: institutional print.
+   Light mode = the printed Contractor Orientation Packet.
+   Dark mode  = the same document system on a corp terminal.
+   The menace is in the formatting.
    ============================================================ */
 
 :root {
-  --bg:         #08080a;
-  --bg2:        #0e0e12;
-  --bg3:        #161620;
-  --surface:    #12121a;
-  --surface2:   #1a1a26;
-  --text:       #d8d4cc;
-  --text2:      #8a8880;
-  --muted:      #555550;
-  
-  /* Primary accent: toxic green (corporate brand) */
-  --accent:     #5aad3a;
-  --accent-dim: rgba(90, 173, 58, 0.15);
-  --accent-glow:rgba(90, 173, 58, 0.06);
-  --accent-solid:#1a3010;
-  
-  /* Secondary: corporate teal */
-  --teal:       #40b8cc;
-  --teal-dim:   rgba(64, 184, 204, 0.12);
-  
+  /* --- TERMINAL (dark, default) --- */
+  --bg:         #0c0e0f;
+  --bg2:        #111416;
+  --bg3:        #181c1f;
+  --surface:    #121517;
+  --surface2:   #1a1e21;
+  --text:       #c9cdc6;
+  --text2:      #848a82;
+  --muted:      #555a54;
+
+  /* Primary accent: Wellspring green — brand in print, phosphor on glass */
+  --accent:     #69b53e;
+  --accent-dim: rgba(105, 181, 62, 0.14);
+  --accent-glow:rgba(105, 181, 62, 0.05);
+  --accent-solid:#1c2e12;
+
+  /* Secondary: process teal (forms, tips) */
+  --teal:       #4aaebe;
+  --teal-dim:   rgba(74, 174, 190, 0.12);
+
   /* Warm accents */
-  --rust:       #cc5533;
-  --rust-dim:   rgba(204, 85, 51, 0.12);
-  --gold:       #d4aa30;
-  --gold-dim:   rgba(212, 170, 48, 0.10);
-  --purple:     #9966cc;
-  --purple-dim: rgba(153, 102, 204, 0.10);
-  
-  /* Borders */
-  --border:     #2a2a35;
-  --border2:    #1e1e28;
-  --border-accent: rgba(90, 173, 58, 0.25);
-  
+  --rust:       #c75b36;
+  --rust-dim:   rgba(199, 91, 54, 0.12);
+  --gold:       #c9a43a;
+  --gold-dim:   rgba(201, 164, 58, 0.10);
+  --purple:     #9572bd;
+  --purple-dim: rgba(149, 114, 189, 0.10);
+
+  /* Borders — ruled lines, not glows */
+  --border:     #272c2e;
+  --border2:    #1d2123;
+  --border-accent: rgba(105, 181, 62, 0.28);
+
+  /* Document chrome */
+  --doc-line:   #2c3134;
+  --doc-label:  #6b7168;
+  --doc-stamp:  rgba(199, 91, 54, 0.85);
+  --doc-header-bg: #101315;
+
+  /* Book accent (overridden per body[data-book]) */
+  --book-accent: var(--accent);
+
   /* Augment tier colors */
-  --tier1:      #5aad3a;
-  --tier2:      #40b8cc;
-  --tier3:      #d4aa30;
-  --tier4:      #cc5533;
-  --tier5:      #9966cc;
+  --tier1:      #69b53e;
+  --tier2:      #4aaebe;
+  --tier3:      #c9a43a;
+  --tier4:      #c75b36;
+  --tier5:      #9572bd;
 
   /* Spacing */
   --sp-xs:  4px;
@@ -51,18 +64,18 @@
   --sp-xl:  40px;
   --sp-2xl: 64px;
 
-  /* Layout — WIDER content area */
-  --sidebar-w:  250px;
+  /* Layout */
+  --sidebar-w:  264px;
   --header-h:   52px;
   --container-w: 920px;
-  --radius:     4px;
-  --radius-lg:  8px;
+  --radius:     2px;
+  --radius-lg:  3px;
   --tr:         0.15s ease;
 
-  /* Fonts */
+  /* Fonts — IBM Plex: the institutional voice */
   --sans:    'IBM Plex Sans', -apple-system, sans-serif;
   --mono:    'IBM Plex Mono', 'Menlo', monospace;
-  --heading: 'Space Mono', monospace;
+  --heading: 'IBM Plex Sans', -apple-system, sans-serif;
 
   /* Type scale */
   --fs-xs:   0.65rem;
@@ -72,28 +85,56 @@
   --fs-lg:   1.25rem;
   --fs-xl:   1.6rem;
   --fs-2xl:  2.2rem;
-  --fs-hero: 3.2rem;
+  --fs-hero: 3.0rem;
   --lh-tight: 1.35;
   --lh-base:  1.7;
   --lh-loose: 1.85;
 }
 
+/* --- PRINT (light) — the paper packet --- */
 [data-theme="light"] {
-  --bg:         #f5f4f0;
-  --bg2:        #eceae5;
-  --bg3:        #e0ded8;
-  --surface:    #ffffff;
-  --surface2:   #f8f7f4;
-  --text:       #1a1a18;
-  --text2:      #5a5855;
-  --muted:      #908e88;
-  --accent:     #3a8a20;
-  --accent-dim: rgba(58, 138, 32, 0.1);
-  --accent-glow:rgba(58, 138, 32, 0.04);
-  --accent-solid:#e6f0e0;
-  --teal:       #1a8090;
-  --teal-dim:   rgba(26, 128, 144, 0.08);
-  --border:     #d6d4ce;
-  --border2:    #e4e2dc;
-  --border-accent: rgba(58, 138, 32, 0.2);
+  --bg:         #f2efe8;
+  --bg2:        #eae6dd;
+  --bg3:        #ddd8cc;
+  --surface:    #faf8f3;
+  --surface2:   #f1eee6;
+  --text:       #20221e;
+  --text2:      #5c5f58;
+  --muted:      #94978e;
+
+  --accent:     #3f7d22;
+  --accent-dim: rgba(63, 125, 34, 0.10);
+  --accent-glow:rgba(63, 125, 34, 0.04);
+  --accent-solid:#e4ecdb;
+
+  --teal:       #1c7c8c;
+  --teal-dim:   rgba(28, 124, 140, 0.08);
+  --rust:       #b04a28;
+  --rust-dim:   rgba(176, 74, 40, 0.09);
+  --gold:       #99762a;
+  --gold-dim:   rgba(153, 118, 42, 0.10);
+  --purple:     #71549a;
+  --purple-dim: rgba(113, 84, 154, 0.08);
+
+  --border:     #cfcabd;
+  --border2:    #dfdacd;
+  --border-accent: rgba(63, 125, 34, 0.25);
+
+  --doc-line:   #c4bfb1;
+  --doc-label:  #84877c;
+  --doc-stamp:  rgba(176, 74, 40, 0.80);
+  --doc-header-bg: #ece8de;
+
+  --tier1:      #3f7d22;
+  --tier2:      #1c7c8c;
+  --tier3:      #99762a;
+  --tier4:      #b04a28;
+  --tier5:      #71549a;
 }
+
+/* --- Book identities — the stripe --- */
+body[data-book="player"]  { --book-accent: var(--accent); }
+body[data-book="gm"]      { --book-accent: var(--rust); }
+body[data-book="annex"]   { --book-accent: var(--teal); }
+body[data-book="world"]   { --book-accent: var(--gold); }
+body[data-book="meta"]    { --book-accent: var(--muted); }
