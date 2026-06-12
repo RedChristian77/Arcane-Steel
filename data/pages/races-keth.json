@@ -34,15 +34,48 @@
     },
     {
       "type": "callout",
-      "style": "accent",
-      "label": "Playable Adjustments",
-      "text": "Mechanical adjustments for playing a Keth contractor.",
+      "style": "gold",
+      "label": "Four Arms",
       "items": [
-        "Counts Chrome as 1 higher for carry weight (dense musculature)",
-        "-1 Edge (social/charisma — cultural silence reads as hostility)",
-        "Heat-adapted: immune to heat-based environmental penalties",
-        "Can eat rock/mineral matter for sustenance in emergencies"
+        "Hold four hands of gear; weapon and item swaps are free.",
+        "You may Dual Swing while carrying a shield, and your Dual Swing EV penalty is reduced by 1. (Dual Swing — see Dual Wield & Titan Grip.)"
       ]
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "Titan Grip, Native",
+      "text": "Your Chrome gates for one-handing Heavy weapons are <strong>10 / 12</strong>, replacing the standard gates printed on Dual Wield & Titan Grip. Recoil still applies — the harness doesn't care how many arms swing the mauls."
+    },
+    {
+      "type": "callout",
+      "style": "accent",
+      "items": [
+        "<strong>Crystalline skin:</strong> innate Hide 1 — a permanent Value floor; Pierce finds no gaps in crystal.",
+        "<strong>Infrared:</strong> darkness penalties don't apply.",
+        "<strong>Stone gut:</strong> in mineral terrain you cannot starve (slowly, and it tastes like chewing a wall)."
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "items": [
+        "<strong>Dense and deliberate:</strong> you have no free Adjacent↔Close shift, and every armor's EV cap is −1 for your mass. (Armor ladder — see Armor.)",
+        "<strong>Four sleeves:</strong> armor must be custom-fitted — all armor costs +50%.",
+        "<strong>The silence:</strong> first-meeting social Checks with strangers run at disadvantage until they learn to read you. Crews that invest get gesture-speech: faster than words, and it can't be overheard."
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The Dense and deliberate line prices away a free Adjacent↔Close shift, but no rebuild combat page prints that baseline — Bands & Movement has movement at 1 AP per band with no free shift defined. The Keth line stands as ruled; the baseline it deviates from is unprinted."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PAPERWORK",
+      "text": "You were never discovered; you were <em>cataloged</em>. Congo's deployment records follow your name like a credit score."
     },
     {
       "type": "callout",
@@ -50,9 +83,6 @@
       "label": "Strengths",
       "text": "What the Keth bring to a crew.",
       "items": [
-        "Chrome counts 1 higher for carry capacity — strongest species by default",
-        "Heat immunity — environmental heat penalties don't apply",
-        "Crystalline skin provides natural minor armor",
         "Perfect oral tradition — muscle-memory knowledge transfer across generations",
         "Best mechanics in the margin — innate affinity for physical construction"
       ]
@@ -63,29 +93,7 @@
       "label": "Weaknesses",
       "text": "What holds the Keth back.",
       "items": [
-        "-1 Edge — silence and reserve read as hostility to other species",
-        "Sound sensitivity — loud sustained noise causes discomfort (sound attracted predators in the Char)",
-        "Cultural reserve — building trust takes time, first impressions suffer"
-      ]
-    },
-    {
-      "type": "callout",
-      "style": "rust",
-      "label": "PENDING REDESIGN — parked by design, do not play as printed",
-      "text": "Four-armed combat is deliberately undesigned in the rebuild: the Keth's interaction with Dual Swing and Titan Grip is parked, on file, awaiting a ruling. The pre-rebuild mechanics are preserved below for reference only.",
-      "items": [
-        "Can wield a two-handed weapon + shield simultaneously (four arms)",
-        "Four arms — can dual-wield + hold a shield, or two-handed weapon + shield"
-      ]
-    },
-    {
-      "type": "callout",
-      "style": "rust",
-      "label": "PENDING REDESIGN",
-      "text": "The lines below reference the pre-rebuild Speed stat, which no longer exists — movement is now 1 AP per band for everyone. Pricing a species-wide movement penalty is a design decision that awaits a ruling. Not in play as printed.",
-      "items": [
-        "-1 Speed (dense body mass)",
-        "-1 Speed — dense body mass makes them the slowest species"
+        "Sound sensitivity — loud sustained noise causes discomfort (sound attracted predators in the Char)"
       ]
     },
     {

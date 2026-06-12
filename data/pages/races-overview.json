@@ -17,9 +17,9 @@
     },
     {
       "type": "callout",
-      "label": "Design Philosophy",
-      "style": "accent",
-      "text": "Species adjustments are small and lateral. No species is mechanically superior. Bonuses in one area come with penalties in another. A Flicker's speed costs them carrying capacity. A Grunt's regeneration costs them initiative. Choose the species that makes the most interesting <em>character</em>, not the most optimized build."
+      "label": "The Design Law",
+      "style": "gold",
+      "text": "Species adjustments are <strong>small and lateral</strong> — verbs, economies, and funnel adjustments, never raw stat bonuses. Every benefit is paired with a cost in the same currency family, plus a <strong>paperwork line</strong>: in a corp world, biology is bureaucracy."
     },
     {
       "type": "divider"
@@ -32,68 +32,50 @@
       "type": "table",
       "headers": [
         "Species",
-        "Origin",
-        "Key Bonus",
-        "Key Penalty",
-        "Playstyle"
+        "The Headline",
+        "The Bill"
       ],
       "rows": [
         [
           "👤 Human",
-          "Earth",
-          "+1 on study Checks",
-          "Worst toxicity resistance",
-          "Flexible generalist — no ceiling, no floor"
+          "Engineered ascent — extra LP from study, a friendlier training funnel",
+          "Magically intolerant — the smallest free vent of any species"
         ],
         [
           "🌿 Vael",
-          "The Bloom",
-          "Charge/Saturation thresholds +1",
-          "-1 on Checks in extreme heat",
-          "Scout/support — rift sense, team glue"
+          "The crest — automatic rift sense, sharper squad intel; bloom blood — easier venting, slower Charge; photosynthesis",
+          "Cards face-up — deception never profits; communal biology — isolation is damage"
         ],
         [
           "⛏ Keth",
-          "The Char",
-          "Four arms (combat use pending redesign), Chrome +1 for carry",
-          "-1 Edge; -1 Speed (pending redesign)",
-          "Tank/mechanic — dense, silent, devastating"
+          "Four arms and native Titan Grip; crystalline skin, infrared, stone gut",
+          "Dense and deliberate — mass taxes movement and Evasion; custom-fitted armor; the silence"
         ],
         [
           "🦴 Grunt",
-          "Unknown",
-          "Regen 1 flesh HP/hr, free vent +1",
-          "Reflex -1 for initiative",
-          "Frontliner — unkillable, unhurried"
+          "Regeneration — and the only built-in Saturation detox; the long think",
+          "Unhurried — never first-mover; the frame — light armor doesn't fit"
         ],
         [
           "👁 Whisper",
-          "The Static",
-          "Advantage on rift Checks, rift sense",
-          "-1 on social Checks w/ strangers",
-          "Rift specialist — unsettling, irreplaceable"
+          "Dimensional perception — free Analyze against rift phenomena; the adjustment",
+          "The wrongness with strangers; never on the books — licensed goods cost extra"
         ],
         [
           "⚡ Flicker",
-          "Multiple",
-          "Reflex +1 for initiative, +1 on fine-motor Checks",
-          "-2 Carry, +50% food",
-          "Skirmisher/medic — fastest alive"
+          "1.5× nerve speed — priority and the fastest hands alive",
+          "Fragile, burning hot, small frame"
         ],
         [
           "🔮 Hollow",
-          "The Grave",
-          "+1 on data/pattern Checks, psycho-immune",
-          "Disadvantage on emotional social Checks, no natural healing",
-          "Analyst — precise, uncomfortable"
+          "Pattern engine — reads deception, immune to fear's Rattled; tech-lane repair at full value",
+          "No spirit in the shape; medicine-lane healing works worse"
         ]
       ]
     },
     {
-      "type": "callout",
-      "style": "rust",
-      "label": "PENDING REDESIGN",
-      "text": "Two Keth entries above reference pre-rebuild mechanics. Four-armed combat (and any interaction with Dual Swing or Titan Grip) is deliberately undesigned — parked by design, do not play as printed. The -1 Speed penalty references the deleted Speed stat (movement is now 1 AP per band). Both await a ruling — see the Keth page."
+      "type": "paragraph",
+      "text": "Each species' page owns its numbers — the table above is the shape of the trade, not the rules text. Every species also carries a <strong>paperwork line</strong>; it's printed where the rest of its mechanics live."
     },
     {
       "type": "divider"
@@ -112,9 +94,9 @@
     },
     {
       "type": "callout",
-      "label": "Mixed Heritage",
+      "label": "Mixed Species",
       "style": "teal",
-      "text": "Rift-origin genetics are surprisingly compatible with human biology when magic is involved — a sentence that raises more questions than it answers. Mixed-species characters exist and can be played. Work with your GM to combine adjustments from two species, keeping the total bonus/penalty budget balanced. Mixed-heritage characters face unique social pressures: too human for non-human communities, too alien for corporate society, perfectly suited for the margins where nobody fits in anyway."
+      "text": "Rift genetics are strangely compatible where magic is involved — a sentence that raises more questions than it answers. Mixed-species characters exist and can be played. Combine two species' lines with the GM, keeping the benefit/cost budget level — the design law above is the budget. Mixed-heritage characters face unique social pressures: too human for non-human communities, too alien for corporate society, perfectly suited for the margins where nobody fits in anyway."
     },
     {
       "type": "divider"

@@ -61,10 +61,24 @@
       "title": "Human",
       "subtitle": "Origin: Earth · Population: Dominant",
       "entries": [
-        {"label": "Origin", "value": "Earth"},
-        {"label": "Population", "value": "Dominant — outnumber all non-humans combined"},
-        {"label": "Biology", "value": "Fragile. Slow. Magically intolerant. Worst toxicity resistance of any sapient species.", "full": true},
-        {"label": "Playable Bonus", "value": "<strong>Adaptive: +1 to all learning and training checks.</strong> Humans don't start better — they <em>get</em> better, faster.", "full": true}
+        {
+          "label": "Origin",
+          "value": "Earth"
+        },
+        {
+          "label": "Population",
+          "value": "Dominant — outnumber all non-humans combined"
+        },
+        {
+          "label": "Biology",
+          "value": "Fragile. Slow. Magically intolerant. Worst toxicity resistance of any sapient species.",
+          "full": true
+        },
+        {
+          "label": "Playable Bonus",
+          "value": "<strong>Adaptive: +1 to all learning and training checks.</strong> Humans don't start better — they <em>get</em> better, faster.",
+          "full": true
+        }
       ]
     },
     {
@@ -89,12 +103,32 @@
       "title": "The Vael",
       "subtitle": "Origin: The Bloom · Population: Moderate",
       "entries": [
-        {"label": "Appearance", "value": "Tall, slender. Skin shifts color with emotion. Fern-like crest. Large multifaceted eyes."},
-        {"label": "Biology", "value": "Plant-animal hybrid. Photosynthesizes supplementally. High toxicity tolerance."},
-        {"label": "Culture", "value": "Extremely community-oriented. Don't do well alone."},
-        {"label": "Corp Ties", "value": "Green Cradle (model citizens), Wellspring (research interest)"},
-        {"label": "Contractor Rep", "value": "Reliable. Excellent scouts. Early warning system for rift anomalies.", "full": true},
-        {"label": "Adjustments", "value": "+1 Toxicity threshold per bracket. -1 in extreme heat. Sense wild rifts at Close range.", "full": true}
+        {
+          "label": "Appearance",
+          "value": "Tall, slender. Skin shifts color with emotion. Fern-like crest. Large multifaceted eyes."
+        },
+        {
+          "label": "Biology",
+          "value": "Plant-animal hybrid. Photosynthesizes supplementally. High toxicity tolerance."
+        },
+        {
+          "label": "Culture",
+          "value": "Extremely community-oriented. Don't do well alone."
+        },
+        {
+          "label": "Corp Ties",
+          "value": "Green Cradle (model citizens), Wellspring (research interest)"
+        },
+        {
+          "label": "Contractor Rep",
+          "value": "Reliable. Excellent scouts. Early warning system for rift anomalies.",
+          "full": true
+        },
+        {
+          "label": "Adjustments",
+          "value": "+1 Toxicity threshold per bracket. -1 in extreme heat. Sense wild rifts at Close range.",
+          "full": true
+        }
       ]
     },
     {
@@ -115,12 +149,32 @@
       "title": "The Keth",
       "subtitle": "Origin: The Char · Population: Small but concentrated",
       "entries": [
-        {"label": "Appearance", "value": "Broad, dense, shorter than human. Crystalline skin. Four arms. Infrared eyes."},
-        {"label": "Biology", "value": "Dense bones, high heat tolerance. Can eat rock. Four-armed efficiency."},
-        {"label": "Culture", "value": "Quiet by nature — silence was survival. Communication via gesture and touch."},
-        {"label": "Corp Ties", "value": "Congo & Sentinel (extraction, industrial). Exploited for durability."},
-        {"label": "Contractor Rep", "value": "Best mechanics in the margin. Tough but slow. Can dual-wield + hold a shield.", "full": true},
-        {"label": "Adjustments", "value": "+1 Chrome carry weight. Two-handed weapon + shield. -1 Edge. -1 Speed. Heat-adapted.", "full": true}
+        {
+          "label": "Appearance",
+          "value": "Broad, dense, shorter than human. Crystalline skin. Four arms. Infrared eyes."
+        },
+        {
+          "label": "Biology",
+          "value": "Dense bones, high heat tolerance. Can eat rock. Four-armed efficiency."
+        },
+        {
+          "label": "Culture",
+          "value": "Quiet by nature — silence was survival. Communication via gesture and touch."
+        },
+        {
+          "label": "Corp Ties",
+          "value": "Congo & Sentinel (extraction, industrial). Exploited for durability."
+        },
+        {
+          "label": "Contractor Rep",
+          "value": "Best mechanics in the margin. Tough but slow. Can dual-wield + hold a shield.",
+          "full": true
+        },
+        {
+          "label": "Adjustments",
+          "value": "+1 Chrome carry weight. Two-handed weapon + shield. -1 Edge. -1 Speed. Heat-adapted.",
+          "full": true
+        }
       ]
     },
     {
@@ -141,12 +195,32 @@
       "title": "The Whisper",
       "subtitle": "Origin: The Static · Population: Small, scattered",
       "entries": [
-        {"label": "Appearance", "value": "Human-passing. Proportions slightly wrong. Solid-color eyes. Shadow doesn't always match."},
-        {"label": "Biology", "value": "Dimensionally attuned. Perceive rift energy like light. Localized dimensional manipulation."},
-        {"label": "Culture", "value": "No unified culture. Perpetually adjacent — present, functional, never fully understood."},
-        {"label": "Corp Ties", "value": "Pear & Soma (dimensional perception, rift monitoring). Treated well because irreplaceable."},
-        {"label": "Contractor Rep", "value": "Unsettling. Useful. When the Whisper says 'don't go that way,' everyone listens.", "full": true},
-        {"label": "Adjustments", "value": "+2 rift Interface checks. Auto-sense rifts & Null Zones. -1 social with strangers. Immune to Geometry.", "full": true}
+        {
+          "label": "Appearance",
+          "value": "Human-passing. Proportions slightly wrong. Solid-color eyes. Shadow doesn't always match."
+        },
+        {
+          "label": "Biology",
+          "value": "Dimensionally attuned. Perceive rift energy like light. Localized dimensional manipulation."
+        },
+        {
+          "label": "Culture",
+          "value": "No unified culture. Perpetually adjacent — present, functional, never fully understood."
+        },
+        {
+          "label": "Corp Ties",
+          "value": "Pear & Soma (dimensional perception, rift monitoring). Treated well because irreplaceable."
+        },
+        {
+          "label": "Contractor Rep",
+          "value": "Unsettling. Useful. When the Whisper says 'don't go that way,' everyone listens.",
+          "full": true
+        },
+        {
+          "label": "Adjustments",
+          "value": "+2 rift Interface checks. Auto-sense rifts & Null Zones. -1 social with strangers. Immune to Geometry.",
+          "full": true
+        }
       ]
     },
     {
@@ -167,12 +241,32 @@
       "title": "The Grunt",
       "subtitle": "Origin: Unknown · Population: Moderate",
       "entries": [
-        {"label": "Appearance", "value": "Large. Broad-shouldered. Heavy-browed. Deep brown to gray-green skin."},
-        {"label": "Biology", "value": "Regeneration (minor wounds in hours). Metabolize toxicity faster. Think carefully, not quickly."},
-        {"label": "Culture", "value": "Value deliberation, endurance, long-term planning. Don't rush. Don't panic."},
-        {"label": "Corp Ties", "value": "Congo (extraction), Sentinel (frontline). Exploited for durability."},
-        {"label": "Contractor Rep", "value": "The best in a crisis. When the Grunt stops and thinks for ten seconds, you wait for the answer.", "full": true},
-        {"label": "Adjustments", "value": "Regen 1 HP/hour. Scar costs -25%. -1 Initiative. +1 Grit for toxicity resistance.", "full": true}
+        {
+          "label": "Appearance",
+          "value": "Large. Broad-shouldered. Heavy-browed. Deep brown to gray-green skin."
+        },
+        {
+          "label": "Biology",
+          "value": "Regeneration (minor wounds in hours). Metabolize toxicity faster. Think carefully, not quickly."
+        },
+        {
+          "label": "Culture",
+          "value": "Value deliberation, endurance, long-term planning. Don't rush. Don't panic."
+        },
+        {
+          "label": "Corp Ties",
+          "value": "Congo (extraction), Sentinel (frontline). Exploited for durability."
+        },
+        {
+          "label": "Contractor Rep",
+          "value": "The best in a crisis. When the Grunt stops and thinks for ten seconds, you wait for the answer.",
+          "full": true
+        },
+        {
+          "label": "Adjustments",
+          "value": "Regen 1 HP/hour. Scar costs -25%. -1 Initiative. +1 Grit for toxicity resistance.",
+          "full": true
+        }
       ]
     },
     {
@@ -193,12 +287,32 @@
       "title": "The Flicker",
       "subtitle": "Origin: Multiple dimensions · Population: Moderate, widely distributed",
       "entries": [
-        {"label": "Appearance", "value": "Small, slight (<150cm). Too-long fingers. Enormous reflective eyes. Move in quick bursts."},
-        {"label": "Biology", "value": "1.5x human nerve speed. See the world in slow motion. Burn hot — eat twice as much, wear out fast."},
-        {"label": "Culture", "value": "Opportunists. Dominate the Undercity informal economy — speed is the niche."},
-        {"label": "Corp Ties", "value": "Mixed. Pear (data analysis), Reign of Rat (archivists). Corporate tempo is agonizingly slow."},
-        {"label": "Contractor Rep", "value": "Fast and fragile. Natural skirmishers and scouts. Flicker medics are the best in the business.", "full": true},
-        {"label": "Adjustments", "value": "+1 Reflex (Initiative only). +1 fine dexterity. -2 Carry. +50% food costs.", "full": true}
+        {
+          "label": "Appearance",
+          "value": "Small, slight (<150cm). Too-long fingers. Enormous reflective eyes. Move in quick bursts."
+        },
+        {
+          "label": "Biology",
+          "value": "1.5x human nerve speed. See the world in slow motion. Burn hot — eat twice as much, wear out fast."
+        },
+        {
+          "label": "Culture",
+          "value": "Opportunists. Dominate the Undercity informal economy — speed is the niche."
+        },
+        {
+          "label": "Corp Ties",
+          "value": "Mixed. Pear (data analysis), Reign of Rat (archivists). Corporate tempo is agonizingly slow."
+        },
+        {
+          "label": "Contractor Rep",
+          "value": "Fast and fragile. Natural skirmishers and scouts. Flicker medics are the best in the business.",
+          "full": true
+        },
+        {
+          "label": "Adjustments",
+          "value": "Fast hands, faster nerves; a body that burns double rations and was never built for heavy plate. (Mechanics: see the Flicker page.)",
+          "full": true
+        }
       ]
     },
     {
@@ -219,12 +333,32 @@
       "title": "The Hollow",
       "subtitle": "Origin: The Grave · Population: Very small, solitary",
       "entries": [
-        {"label": "Appearance", "value": "Extremely humanoid. Too symmetrical. Porcelain skin. Dark, lightless eyes. Learned expressions."},
-        {"label": "Biology", "value": "Partially synthetic. May be artificial. Fast pattern recognition, slow emotional processing."},
-        {"label": "Culture", "value": "Defined by one question: <em>What were we made for?</em>"},
-        {"label": "Corp Ties", "value": "Wary of attention. Prefer Congo (pragmatic) or Crowned Table ('strange knights')."},
-        {"label": "Contractor Rep", "value": "Competent. Precise. Uncomfortable. Trust never fully extends to comfort.", "full": true},
-        {"label": "Adjustments", "value": "+1 Interface (data/pattern). Immune to psychoactive. -2 emotional social. No natural healing.", "full": true}
+        {
+          "label": "Appearance",
+          "value": "Extremely humanoid. Too symmetrical. Porcelain skin. Dark, lightless eyes. Learned expressions."
+        },
+        {
+          "label": "Biology",
+          "value": "Partially synthetic. May be artificial. Fast pattern recognition, slow emotional processing."
+        },
+        {
+          "label": "Culture",
+          "value": "Defined by one question: <em>What were we made for?</em>"
+        },
+        {
+          "label": "Corp Ties",
+          "value": "Wary of attention. Prefer Congo (pragmatic) or Crowned Table ('strange knights')."
+        },
+        {
+          "label": "Contractor Rep",
+          "value": "Competent. Precise. Uncomfortable. Trust never fully extends to comfort.",
+          "full": true
+        },
+        {
+          "label": "Adjustments",
+          "value": "+1 Interface (data/pattern). Immune to psychoactive. -2 emotional social. No natural healing.",
+          "full": true
+        }
       ]
     },
     {

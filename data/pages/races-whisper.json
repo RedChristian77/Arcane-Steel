@@ -29,23 +29,37 @@
     },
     {
       "type": "callout",
-      "label": "Playable Adjustments",
-      "style": "accent",
-      "items": [
-        "Advantage on rift-related Interface Checks",
-        "Auto-sense rifts and Null Zones (innate dimensional perception)",
-        "-1 on social Checks with strangers (uncanny valley effect)",
-        "Immune to Geometry (dimensional spatial anomalies)",
-        "Dimensional perception — see layers of reality others can't access"
-      ]
+      "style": "gold",
+      "label": "Dimensional Perception",
+      "text": "Analyze is free and automatic against rift phenomena — you read active weaves, banked rounds, pattern signatures, and dimensional instability on sight. When a Null Zone or rift hazard would surprise the party, it never surprises <em>you</em>; the GM owes you the warning. (Analyze — see Turn, AP & Reactions.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Adjustment (Active, 1 AP):</strong> Once per fight, shift yourself or a willing adjacent ally one band, no triggers. Reality, locally renegotiated."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "The Wrongness",
+      "text": "First-impression social Checks at disadvantage with strangers. Crews acclimate; lobbies don't."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Never on the Books",
+      "text": "You cannot hold corp licenses in your own name — all licensed goods (patterns, specialty ammo, exotic permits) cost +20% through intermediaries. The rift-specialist race pays retail-plus for rift tools, forever."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PAPERWORK",
+      "text": "You don't scan <em>correctly</em>. Every checkpoint is a coin flip between waved-through and detained-for-study."
     },
     {
       "type": "callout",
       "label": "Strengths",
       "style": "teal",
       "items": [
-        "Best dimensional awareness of any species — advantage on rift Interface Checks, auto-sense rifts and Null Zones",
-        "Immune to Geometry — spatial anomalies that scramble other species don't affect them",
         "Irreplaceable utility — their perception is something no technology can replicate",
         "Never classified as specimens — even corporations were afraid to cage them",
         "The Whisper Network — information sharing mechanism that no corp can tap or regulate"
@@ -56,7 +70,6 @@
       "label": "Weaknesses",
       "style": "rust",
       "items": [
-        "-1 on social Checks with strangers — uncanny valley effect makes first impressions uncomfortable",
         "Can't explain what they perceive — their warnings are accurate but untranslatable",
         "No unified culture — no community support structure, perpetually isolated",
         "Unsettling presence — even allies never fully relax around them",

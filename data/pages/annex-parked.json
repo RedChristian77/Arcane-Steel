@@ -9,17 +9,22 @@
     },
     {
       "type": "paragraph",
-      "text": "Five items are parked by name in the rebuild canon. The handling rule, printed in the Phase 7 handoff and binding on every page: carry old mechanics as <em>pending redesign</em> where they exist, flag the spot on the live page, and never improvise. Parked items stay parked until a designer ruling unparks them — flagging the need at the table is correct play; designing it there is not."
+      "text": "Five items were parked by name in the rebuild canon; one — the Keth multi-arm interaction — has since been resolved by designer ruling, and its entry below now points at the page that owns the design. The handling rule for the rest, printed in the Phase 7 handoff and binding on every page: carry old mechanics as <em>pending redesign</em> where they exist, flag the spot on the live page, and never improvise. Parked items stay parked until a designer ruling unparks them — flagging the need at the table is correct play; designing it there is not."
     },
     {
       "type": "info-block",
-      "icon": "✕",
+      "icon": "✓",
       "title": "Multi-Armed Combat — the Keth",
-      "subtitle": "Titan Grip / Dual Swing interaction",
+      "subtitle": "Titan Grip / Dual Swing interaction — RESOLVED 2026-06",
       "entries": [
         {
-          "label": "What it is",
-          "value": "How a four-armed body interacts with Dual Swing, Titan Grip's Chrome gates, and shield use. The pre-rebuild four-arm mechanics are preserved on The Keth for reference only — not in play.",
+          "label": "Status",
+          "value": "RESOLVED 2026-06 by designer ruling (races-v2). It landed on The Keth: the four-arm gear and Dual Swing rules, the native Titan Grip gates, and the costs that pay for them all live there. Dual Wield & Titan Grip now carries a pointer instead of a PARKED flag.",
+          "full": true
+        },
+        {
+          "label": "What it was",
+          "value": "How a four-armed body interacts with Dual Swing, Titan Grip's Chrome gates, and shield use. While parked, the pre-rebuild four-arm mechanics were preserved on The Keth for reference only — they came down with the ruling.",
           "full": true
         },
         {
@@ -28,13 +33,13 @@
           "full": true
         },
         {
-          "label": "Flags on live pages",
-          "value": "Dual Wield & Titan Grip (PARKED) · The Keth (PENDING REDESIGN) · Playable Species (PENDING REDESIGN)",
+          "label": "Flags retired",
+          "value": "Dual Wield & Titan Grip (PARKED) · The Keth (PENDING REDESIGN) · Playable Species (PENDING REDESIGN) — all removed with the ruling.",
           "full": true
         },
         {
           "label": "Unblocked by",
-          "value": "The Keth redesign ruling. On file with it: four-arm combat under the new grammar, a -1 Speed penalty that references the deleted Speed stat, and the watch-item that a literal -1 Edge now also lowers Evasion — which the old social-only design never intended.",
+          "value": "The Keth redesign ruling — delivered as races-v2 (2026-06). The items filed with it dissolved: four-arm combat is designed under the new grammar, and the new design touches neither the deleted Speed stat nor Edge.",
           "full": true
         }
       ]
@@ -189,7 +194,7 @@
     },
     {
       "type": "bullet",
-      "text": "<strong>The races translation.</strong> No rebuild doc defines race mechanics; all printed numbers are unit-mapped pre-rebuild design carrying PENDING flags — the Keth (parked, above), Human XP-to-LP conversion, Vael threshold shifts against the forced-vent cap, the Grunt leaning on unpriced scar treatment and unprinted base HP."
+      "text": "<strong>The races translation.</strong> Closed 2026-06 by designer ruling (races-v2): species mechanics are now rebuild canon, printed on the species pages — the Keth unparked (above), the Human XP-to-LP question answered in LP terms, the Vael and Grunt rebuilt without the flagged dependencies. One pricing dependency remains: the Flicker's max-HP delta prices against the still-unprinted starting HP (see Unprinted character baselines, above)."
     },
     {
       "type": "bullet",

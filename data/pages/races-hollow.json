@@ -33,23 +33,33 @@
     },
     {
       "type": "callout",
+      "style": "gold",
+      "label": "Pattern Engine",
+      "text": "Advantage on contested Checks against deception, feints, and ambush-reads, and you are <strong>immune to Rattled from fear and morale sources</strong> — Break-line logic does not run on you. (Rattled — see Conditions.)"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "No Spirit in the Shape",
+      "text": "<em>Emotional</em> social Checks (comfort, inspire, grieve, bond) at disadvantage. The expression is learned; everyone can tell."
+    },
+    {
+      "type": "callout",
       "style": "accent",
-      "label": "Playable Adjustments",
-      "items": [
-        "+1 on data-analysis and pattern-recognition Checks (Interface)",
-        "Immune to psychoactive effects (toxins, drugs, fear-based abilities)",
-        "Disadvantage on social Checks relying on genuine emotion (can't genuinely emote)",
-        "No natural healing (must use medical treatment or augmentation to recover flesh HP)",
-        "Pattern recognition borders on precognition — sense optimal paths through data"
-      ]
+      "label": "Repair, Not Healing",
+      "text": "Your body doesn't regenerate. Medicine-lane healing (medpacks, Mend Weave, Triage Gut) works on you at <strong>−1 per die</strong>; <strong>Tech-lane repair (repair paste, Shell Splint, Warranty Work) heals you at full value.</strong> Your street doc is a tinkerer; your flesh runs on the armor economy."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PAPERWORK",
+      "text": "Your file has no birth record. Sentinel's two-hundred-year folder gains a page every time you're scanned, and the folder has concluded nothing."
     },
     {
       "type": "callout",
       "style": "teal",
       "label": "Strengths",
       "items": [
-        "+1 on data/pattern-recognition Checks — best pattern recognition of any species",
-        "Immune to psychoactive effects — poisons, fear, mind-altering substances don't work",
         "Efficiency that makes optimized systems look wasteful",
         "Fastest pattern analysis — borders on precognition for data-rich environments",
         "No emotional interference in decision-making — purely rational under pressure",
@@ -61,8 +71,6 @@
       "style": "rust",
       "label": "Weaknesses",
       "items": [
-        "Disadvantage on emotional social Checks — genuine emotional connection is impossible or performative",
-        "No natural healing — biology doesn't regenerate, must rely on external medical care",
         "Make everyone uncomfortable — trust never fully extends to comfort",
         "Opaque motives — not hidden, just empty in a way that unnerves allies",
         "Existential uncertainty — don't know what they are, where they came from, or what they were made for"

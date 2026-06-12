@@ -29,24 +29,37 @@
     },
     {
       "type": "callout",
-      "label": "Playable Adjustments",
-      "style": "accent",
-      "items": [
-        "Regeneration: recover 1 flesh HP per hour naturally",
-        "Scar treatment costs -25% (biology handles trauma better)",
-        "Initiative: counts Reflex as 1 lower (deliberate processing, not slow thinking)",
-        "Free vent +1 — shed 1 extra Charge when venting (vent bonuses cap at +2)",
-        "Metabolize toxicity faster than any other species"
-      ]
+      "style": "gold",
+      "label": "Regeneration",
+      "text": "Flesh HP recovers fully between fights without supplies, and <strong>Saturation decays 1 per downtime period, free</strong> — the only body on Earth with a built-in detox trickle. (Saturation baseline — see Charge & Saturation.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Long Think (Active, 5 AP):</strong> Once per fight, spend a full activation assessing — your next Check or attack rolls with advantage. When the Grunt stops and thinks, you wait for the answer."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Unhurried",
+      "text": "You may never claim first-mover, and your side's slot-claims treat your Reflex as −2. The answer comes; it does not come first. (Activation rules — see Turn, AP & Reactions.)"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "The Frame",
+      "text": "Nothing lighter than Contractor Standard fits you — Padded and Weave simply don't exist in your size. (Armor ladder — see Armor.)"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PAPERWORK",
+      "text": "Retroactively reclassified, twice. You hold receipts; so do they."
     },
     {
       "type": "callout",
       "label": "Strengths",
       "style": "teal",
       "items": [
-        "Natural regeneration — 1 flesh HP/hour, the only species that heals passively",
-        "Superior toxicity processing — free vent +1, metabolize faster",
-        "Reduced scar treatment costs — biology handles physical trauma 25% more efficiently",
         "Deliberate intelligence — given time, produce solutions as sophisticated as any species",
         "Unshakeable in crisis — don't panic, don't rush, don't make fear-based decisions",
         "The longest memory — oral ledger tradition tracks every debt and every favor"
@@ -57,7 +70,6 @@
       "label": "Weaknesses",
       "style": "rust",
       "items": [
-        "Initiative: Reflex counts 1 lower — process information thoroughly, not quickly",
         "Deliberate processing reads as \"slow\" in a society that rewards instant reaction",
         "No known home dimension — can't go back, existential weight of rootlessness",
         "Exploited for durability — corporations push them harder because they survive"

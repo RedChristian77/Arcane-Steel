@@ -29,23 +29,36 @@
     },
     {
       "type": "callout",
-      "label": "Playable Adjustments",
+      "style": "gold",
+      "label": "1.5× Nerve Speed",
+      "text": "Treat your Reflex as <strong>+2</strong> for all first-mover and slot-claim purposes (priority, never Evasion), and roll Awareness with advantage against fast-moving things. (Activation rules — see Turn, AP & Reactions.)"
+    },
+    {
+      "type": "callout",
       "style": "accent",
+      "label": "The Hands",
+      "text": "Consumables cost you −1 AP to use (floor 1). The best medics in the business were born, not built — Doc Vasik said so."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
       "items": [
-        "Counts Reflex as 1 higher for initiative only",
-        "+1 on fine-motor Checks (medical, repair, lockpicking)",
-        "-2 Carry capacity (small frame)",
-        "+50% food costs (burn hot, high metabolism)",
-        "1.5x human nerve speed — perceive the world in slow motion"
+        "<strong>Fragile:</strong> −2 maximum HP.",
+        "<strong>Burning hot:</strong> double rations, always.",
+        "<strong>Small frame:</strong> Heavy weapons and armor above Corp Tactical can't be used — the chassis was never the point. (Armor ladder — see Armor.)"
       ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PAPERWORK",
+      "text": "Guild-registered. Sentinel still keeps the list it started in 2635, and your name recites in eleven seconds once a year."
     },
     {
       "type": "callout",
       "label": "Strengths",
       "style": "teal",
       "items": [
-        "Fastest species alive — Reflex counts 1 higher for initiative, 1.5x nerve speed",
-        "Best fine motor control — +1 on fine-motor Checks for precision work",
         "Flicker medics are the best in the business — faster and steadier than augmented human hands",
         "Dominate the Undercity informal economy — courier, medical, data processing",
         "Flicker Guilds — most commercially successful non-human political structure",
@@ -57,9 +70,6 @@
       "label": "Weaknesses",
       "style": "rust",
       "items": [
-        "-2 Carry — smallest species, can't carry heavy equipment or weapons",
-        "+50% food costs — metabolism burns hot, eat twice as much",
-        "Fragile — burn out fast, lower HP ceiling",
         "No homeland — came from so many dimensions that \"home\" is meaningless",
         "Institutional distrust — history taught them that institutions classify, deploy, and suppress"
       ]

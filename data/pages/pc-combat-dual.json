@@ -58,9 +58,9 @@
     },
     {
       "type": "callout",
-      "style": "rust",
-      "label": "PARKED",
-      "text": "Multi-armed race interaction with Titan Grip is on file pending the race redesign. It is not in play, and nothing on this page prices it."
+      "style": "accent",
+      "label": "Keth Contractors",
+      "text": "The Keth interact natively with both halves of this page: four arms change how Dual Swing works for them, and their Titan Grip Chrome gates differ from the gates printed above. Their gates and arm rules live on their species page — see The Keth."
     },
     {
       "type": "blockquote",

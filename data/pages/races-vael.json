@@ -34,16 +34,37 @@
     },
     {
       "type": "callout",
-      "label": "Playable Adjustments",
+      "style": "gold",
+      "label": "The Crest",
+      "text": "You sense wild rifts, Null Zones, and dimensional instability at Close automatically — the thirty-second warning, no batteries. On hazard (☣/✦) nodes, your squad's intel counts one state higher. (Intel ladder — see Intel.)"
+    },
+    {
+      "type": "callout",
       "style": "accent",
-      "text": "Mechanical adjustments for playing a Vael contractor.",
+      "label": "Bloom Blood",
       "items": [
-        "All Charge and Saturation thresholds +1 (higher tolerance before effects kick in)",
-        "-1 on all Checks in extreme heat environments (cold-blooded-adjacent biology)",
-        "Sense wild rifts at Close range (innate dimensional perception)",
-        "Photosynthesis: 4 hours of sunlight replaces one meal per day",
-        "Can communicate emotional state involuntarily through skin color shifts"
+        "Free vent +1 — counts toward the +2 vent cap. (Vent baseline — see Charge & Saturation.)",
+        "Environment-sourced Charge ticks −1.",
+        "<strong>Photosynthesis:</strong> with four hours of real sun, rations halve."
       ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Cards Face-Up",
+      "text": "Your skin broadcasts — you can never benefit from deception in social Checks, and Checks to read your state auto-succeed."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "Communal Biology",
+      "text": "Operating without crew contact for a full mission arc imposes disadvantage on your Resilience Checks until reunion. Isolation is damage; the lore means it."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PAPERWORK",
+      "text": "Wellspring's word for you is <em>fascinating</em>. Pear monetizes your sensor readings if it learns they exist."
     },
     {
       "type": "callout",
@@ -51,23 +72,8 @@
       "style": "teal",
       "text": "What the Vael bring to a crew.",
       "items": [
-        "Best toxicity resistance of any species — all Charge and Saturation thresholds +1",
-        "Innate rift sensing at Close range — natural early warning system",
-        "Photosynthetic supplementation reduces food costs",
         "Excellent scouts — read terrain and environmental hazards instinctively",
         "Deep community bonds make them ferociously loyal teammates"
-      ]
-    },
-    {
-      "type": "callout",
-      "label": "Weaknesses",
-      "style": "rust",
-      "text": "What holds the Vael back.",
-      "items": [
-        "Vulnerable to extreme heat (-1 on all Checks in hot environments)",
-        "Emotional transparency — skin color broadcasts feelings, making deception difficult",
-        "Isolation sickness — extended time alone causes genuine psychological decline",
-        "Community-dependent — take team losses harder, morale drops faster when crew members fall"
       ]
     },
     {
