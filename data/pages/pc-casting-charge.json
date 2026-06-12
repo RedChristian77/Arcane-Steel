@@ -5,17 +5,122 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Power now. The body invoices later.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Rift toxicity runs on two meters. <strong>Charge</strong> is acute — the heat in the body right now, this fight, this day. <strong>Saturation</strong> is chronic — the career total. Charge you don't shed becomes Saturation; Saturation you don't drain becomes thresholds."
+    },
+    {
+      "type": "heading",
+      "text": "Charge — the Acute Meter (0–10)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Charge runs 0 to 10 and comes from four places:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Weaving</strong> — every Weave generates Charge (amounts — see Weave & Fire)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Leech Burns</strong> — the Leech tree runs its engine on them (see Leech)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Rift exposure</strong> — rift-surge nodes and similar hazards, as the hazard states."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Mend Weave</strong> — the patient pays for the heal in Charge (see Patterns)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anything else adds Charge only when its own entry says so."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At Charge 7+:</strong> your Weaves carry misfire exposure — any Weave you fail misfires (roll on the Misfire Table — see Weave & Fire). Bootleg patterns open the window earlier (see Patterns)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At Charge 10:</strong> forced vent — you take 1d6 direct backlash, and all excess sticks."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The forced vent at 10 is canon as written — \"1d6 backlash, excess sticks\" — but underspecified: the docs never state how much Charge the forced vent clears, or whether the stuck excess stays as Charge or converts to Saturation."
+    },
+    {
+      "type": "heading",
+      "text": "Venting — the End-of-Encounter Bill"
+    },
+    {
+      "type": "paragraph",
+      "text": "At an encounter's end, vent: shed Charge up to your <strong>Grit bonus</strong> for free (bonus table — see Stats & Growth). Every point past that converts into <strong>Saturation, 1:1</strong>. By the end of the vent your Charge is 0 — every point was either shed free or banked as Saturation."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "AUGMENT HOOKS",
+      "text": "The Channeler tree sells vent improvements and mid-fight Charge shedding — see the Channeler tree. The vent itself is free and automatic; the tree just makes it bigger."
+    },
+    {
+      "type": "heading",
+      "text": "Saturation — the Career Meter"
+    },
+    {
+      "type": "paragraph",
+      "text": "Saturation accrues from unvented Charge and never falls on its own. Five thresholds, in order:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Threshold",
+        "State",
+        "What it does"
+      ],
+      "rows": [
+        [
+          "10",
+          "<strong>Marked</strong>",
+          "You glow faintly under dome light. Corps notice."
+        ],
+        [
+          "25",
+          "<strong>Strained</strong>",
+          "Your free vent is reduced by 1."
+        ],
+        [
+          "45",
+          "<strong>Blooming</strong>",
+          "Your next splice or mutation roll is at disadvantage; wild-graft interactions awaken."
+        ],
+        [
+          "70",
+          "<strong>Saturated</strong>",
+          "Roll a permanent mutation, now (the roll and its outcomes — see Mutations & Grafts)."
+        ],
+        [
+          "100",
+          "<strong>Terminal</strong>",
+          "Off the player's sheet. What happens at 100 belongs to the GM and the setting."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Detox — the Drain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detox is how Saturation comes down: paid care, priced by provider tier. The usual provider is a Street Doc (see Street Doc); the full provider ladder and its prices live with the GM's economy pages, not here."
+    },
+    {
+      "type": "blockquote",
+      "text": "Routine saturation screening is complimentary for all contracted personnel. An elevated reading is not a disciplinary event. Please proceed to your designated wellness provider before the glow becomes visible to clients."
     }
   ]
 }

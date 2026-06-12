@@ -5,17 +5,265 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Not strong. Not fast. In charge.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Influence runs on Edge and nerve. Its credits leave the body entirely: into a beast with its own rolls, its own activation, and its own bills — or into <strong>Calls</strong> that make the squad's sheets better. The support triad completes here: Systems is the shopping list, the Sin Eater is other people's suffering, <strong>Influence is other people's potential</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "A fully raised war-beast costs what tree mastery costs (see The Anchor Table). You can spend your career on yourself, or on something with teeth."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Edge — the tree runs on nerve, and the beast can borrow yours. The body stays modest because the credits leave it.",
+      "theme": "The handler and the voice: a bonded beast on its own treadmill, and Calls that spend on the squad's sheets.",
+      "design": "No stat ceiling — the ceiling is headcount. Every augment here is worthless alone."
+    },
+    {
+      "type": "heading",
+      "text": "The beast — a second character, not a drone"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The beast is a real actor:</strong> it takes its own activation on your side (alternation counts it for parity), rolls its own attacks, and makes its own Checks — fear, pain, control."
+    },
+    {
+      "type": "bullet",
+      "text": "It is not a drone. Systems' toys run on their owner's AP; the Handler's partner runs on its own blood."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Instinct vs orders:</strong> untasked, the beast follows instinct — it guards its handler and fights what bites it. Directed orders cost you <strong>1 AP</strong>: a target, a position, a trick."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Training tiers (T1–T3)</strong> are bought with downtime and credits: they raise HP, expand the order list, and unlock the species trick at tier 3. The Wrangler profession captures, trains, and sells — the profession owns the business; this tree owns the bond. Handler + Wrangler raises their own stock; Handler + Fixer buys it trained."
+    },
+    {
+      "type": "heading",
+      "text": "The treadmill, mirrored"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Upkeep:</strong> a hound eats 20 cr a downtime; a boar eats 50."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Vet bills:</strong> a beast that drops takes an injury — Lame, Cracked Fang, Gun-Shy — the scar ladder with fur, treated for credits."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Barding:</strong> fitted armor at +50% cost, full shell rules (the armor itself — see Armor). The beast uses the better of hide or barding Value and gains the barding's Absorb and Armor HP via Barding Rig. An unbarded beast under focused fire dies fast: barding isn't optional — barding is the build."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Beasts can die.</strong> The money is mortal — that's what makes it money."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Beast",
+        "Profile",
+        "Trained block"
+      ],
+      "rows": [
+        [
+          "<strong>Char Hound</strong>",
+          "Flesh, HP 18, EV 7",
+          "2 bites per turn: d10+2 accuracy, 2d6 damage · Tier-3 trick: <strong>Drag</strong> — its bite pins"
+        ],
+        [
+          "<strong>Gorecap Boar</strong>",
+          "Hide 2, HP 26, EV 5",
+          "Gore: d8+2 accuracy, 2d10 damage, push one band · Tier-3 trick: <strong>Bulldoze</strong> — charge through, triggering no reactions"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "Exotic companions — Bloom stock — are deliberately undesigned. They arrive with the Phase 5 bestiary, priced like the contraband they are. Nothing on this page covers them."
+    },
+    {
+      "type": "heading",
+      "text": "Control, fear, and the pack threshold"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Untrained beasts don't hold formation:</strong> they automatically fail combat fear Checks and bolt. The bond and the training are the insurance contract — coverage cannot be bought by the pound."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The pack threshold:</strong> under threat, three or more beasts operating together cross it — all their control and fear Checks roll at disadvantage, and on a failure the pack, not the handler, decides what happens next. This is why Pack Yoke caps at hound-class or smaller. Six hounds in a kennel is a business; six hounds in a firefight is an incident."
+    },
+    {
+      "type": "heading",
+      "text": "The voice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Calls are the Warcaller's verbs, issued at Close range through the entry augment. A Call is worth what it lands on: an accuracy point matters more on a heavy die than a light one. Doctrine, printed: <strong>call the maul</strong> — buffs and heavy weapons are married."
+    },
+    {
+      "type": "heading",
+      "text": "The policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Handler pays the vet (see The Creditor Table) — and holds the only policy in the game that covers the Fate Roll. Damage routed into the beast is billed in vet credits, the cheap currency; damage routed into you is billed in scars, the expensive one — the debt that raises your death odds and taxes your training budget forever. Beast injuries never touch that chain. The premium is real: the output discount, the upkeep, the two-body fragility, and the AP tithe of command."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "COUNTERPLAY",
+      "text": "What this tree cannot fix:",
+      "items": [
+        "Kill the beast and half the build is a vet bill.",
+        "Kill the handler and the beast makes its own Checks alone — instinct is nobody's ally.",
+        "The Warcaller needs Close range and living friends; suppression silences the voice as surely as it pins the body.",
+        "Beasts blank against shells without grafts, panic at rift surges without Saddle Bond, and eat — the famine counter Systems shares."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Companion-animal coverage is available at competitive rates and pays out to the registered handler. No instrument sold by this office insures the handler. There is no market in that risk."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Training tiers T1–T3 are bought with downtime and credits, but no prices, downtime counts, HP increments, or order lists are printed in the Phase 7 docs. Beast injuries (Lame, Cracked Fang, Gun-Shy) likewise have no defined effects or treatment costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tier chassis, requirements, and the install ladder live on Trees Overview. Install costs below are per augment at that tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Tier 1 — Entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Pack Sense",
+          "cost": "250 cr",
+          "effect": "Maintain a Bond with one trained beast, and issue Calls — the Warcaller verbs below — at Close range."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Tier 2 — Handler / Warcaller",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Saddle Bond (Handler)",
+          "cost": "500 cr",
+          "effect": "The beast uses your Edge bonus in place of its own for fear and control Checks. Your nerve is its nerve."
+        },
+        {
+          "name": "Mess Discipline (Handler)",
+          "cost": "500 cr",
+          "effect": "Upkeep halved; the beast recovers +2 HP at rest nodes."
+        },
+        {
+          "name": "Mark the Kill (Warcaller)",
+          "cost": "500 cr",
+          "effect": "Call, 1 AP: one ally's next attack against your designated target gains +1 accuracy. Call the maul."
+        },
+        {
+          "name": "MOVE! (Warcaller)",
+          "cost": "500 cr",
+          "effect": "Call, 1 AP: one ally in Close immediately moves one band. Reactions apply — it is real movement."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Tier 3 — Handler / Warcaller",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Kill Order (Handler)",
+          "cost": "800 cr",
+          "effect": "1 AP: until your next turn, the beast's attacks against your designated target gain +1 accuracy and +1 damage per die."
+        },
+        {
+          "name": "Barding Rig (Handler)",
+          "cost": "800 cr",
+          "effect": "The beast wears fitted armor: it uses the better of its hide or the barding's Value, and gains the barding's Absorb and Armor HP."
+        },
+        {
+          "name": "Brace Call (Warcaller)",
+          "cost": "800 cr",
+          "effect": "Call, 1 AP: one ally gains +1 Evasion until your next turn."
+        },
+        {
+          "name": "Calm Voice (Warcaller)",
+          "cost": "800 cr",
+          "effect": "Call, 1 AP: remove Rattled from one ally. Morale only — the Sin Eater takes sickness into itself and banks it; the Caller steadies nerves and banks nothing."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Tier 4 — Handler / Warcaller",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Fang Graft (Handler)",
+          "cost": "1,200 cr",
+          "effect": "The beast's natural weapons gain one tag, chosen at training: Penetration 1, Impact, or a condition rider. Wild grafts for beasts — the Wrangler and Street Doc crossover, with teeth."
+        },
+        {
+          "name": "Hackle Read (Handler)",
+          "cost": "1,200 cr",
+          "effect": "When the beast is hit, you may spend 1 RP: it immediately moves one band, triggering no reactions. You felt it before it did."
+        },
+        {
+          "name": "Clear Lane (Warcaller)",
+          "cost": "1,200 cr",
+          "effect": "Your MOVE! no longer triggers reactions. The voice opens doors the body can't."
+        },
+        {
+          "name": "Second Wind Call (Warcaller)",
+          "cost": "1,200 cr",
+          "effect": "2 AP, once per fight: one ally recovers 1d6 and sheds Rattled and Slowed."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Tier 5 — Capstones",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Apex Bond (Handler capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. The beast gains a second species trick, and once per mission, when it would die, it drops to 1 HP and breaks for you instead. The money survives — barely. The vet bill triples."
+        },
+        {
+          "name": "Pack Yoke (Handler alternate capstone)",
+          "cost": "2,000 cr",
+          "effect": "Alternate capstone. Bond a second beast, hound-class or smaller. Activation parity counts them both; the food bill is yours."
+        },
+        {
+          "name": "Override: ACT (Warcaller capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. 3 AP, once per fight: one ally immediately takes a 2 AP action out of turn."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Livestock registered for contract work must carry current vaccination, control certification, and a named handler of record. In the event of handler loss, the asset reverts to instinct, which is not a covered party."
     }
   ]
 }

@@ -5,17 +5,77 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Distance is a contract term. There are five of them.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The battlefield is measured in five bands: <strong>Adjacent, Close, Medium, Long, Extreme</strong>. No feet, no squares — every range in the game is written in band names."
+    },
+    {
+      "type": "heading",
+      "text": "The five bands"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Adjacent</strong> — within reach. Melee lives here, and it is the building block of every area effect."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Close, Medium, Long, Extreme</strong> — each band one step of distance beyond the last. Weapon ranges are printed as band spans (see Weapons); abilities and patterns name their reach the same way."
+    },
+    {
+      "type": "paragraph",
+      "text": "Position is tracked as bands between you and what matters — the enemy, the door, the objective."
+    },
+    {
+      "type": "heading",
+      "text": "Moving"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Moving one band costs 1 AP. Difficult terrain costs 2 AP per band.</strong> Move as many bands as you can pay for, split around your other actions however you like."
+    },
+    {
+      "type": "bullet",
+      "text": "Changing bands can provoke Reaction Attacks from enemies watching that ground (see Turn, AP & Reactions)."
+    },
+    {
+      "type": "bullet",
+      "text": "Slowed and Suppressed change the price of moving — see Conditions."
+    },
+    {
+      "type": "heading",
+      "text": "The Adjacent cluster — how areas work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every area effect in the game uses one shape: the <strong>Adjacent cluster</strong> — a target or point plus everything Adjacent to it. Grenades, weave patterns, misfires: if it says cluster, this is the shape. A squad standing Adjacent to each other is, as far as the grammar cares, one target."
+    },
+    {
+      "type": "heading",
+      "text": "Stealth is a phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stealth is a phase, not a state.</strong> It is the approach — and it ends when initiative is rolled. There is no re-hiding mid-fight, and nothing in combat makes you untargetable."
+    },
+    {
+      "type": "bullet",
+      "text": "The payoff for an undetected approach is the <strong>ambush round</strong>, plus Openers for those built for them (see Shadow)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Concealment is an accuracy modifier, never hiddenness.</strong> Smoke, dark, and bad sightlines degrade the shot taken at you; they do not take you off the board."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The ambush round is named as the payoff of an undetected approach, but its exact procedure (what the ambushing side gets before normal alternation begins) is not defined in the Phase 7 docs. The size and grammar of the concealment accuracy modifier are likewise unspecified."
+    },
+    {
+      "type": "blockquote",
+      "text": "Personnel are reminded that \"I was sneaking\" is a pre-engagement activity. Once the shooting is logged, the site survey will reflect where you were standing, not how quietly you arrived."
     }
   ]
 }

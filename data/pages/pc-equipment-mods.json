@@ -5,17 +5,310 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Chrome you bolt on, not in. The effect lives on the equipment — always.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Mods are gear conditionals: bolt-on behavior for weapons, armor, foci, and drones. The catalog below is the whole launch list."
+    },
+    {
+      "type": "heading",
+      "text": "The framework"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Slots:</strong> every weapon, armor, and focus has <strong>2 mod slots</strong>; heavy mods take 2. Drones have 1."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Install:</strong> provider fees by tier, or a Tinkerer at material cost — Signature Work applies (see Tinkerer)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The lane law:</strong> mods modify the <em>gear's</em> behavior. Anything that would work bare-handed belongs to an augment, and gets rejected at the door."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE SHARED-CAPS LAW",
+      "text": "Mod bonuses share the global stack caps with augments and everything else. A mod may carry at most +1 of any capped currency, conditional only. The caps are the caps, no matter whose ledger the bonus sits on."
+    },
+    {
+      "type": "heading",
+      "text": "Weapon mods"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mod",
+        "Price",
+        "Slots",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Pen Channel",
+          "600 cr",
+          "2",
+          "Heavy melee only: <strong>Penetration 1</strong>."
+        ],
+        [
+          "Mono-Edge",
+          "800 cr",
+          "2",
+          "Light blade: gains <strong>Pierce</strong>."
+        ],
+        [
+          "Shell-Biter Serration",
+          "350 cr",
+          "1",
+          "Light blade: +1 shell wear per full hit — the grind, sharpened. Flesh untouched."
+        ],
+        [
+          "Counterweight",
+          "300 cr",
+          "1",
+          "Dual Swing's Evasion penalty is reduced by 1 for this weapon's contribution (see Dual Wield & Titan Grip)."
+        ],
+        [
+          "Shock Cell",
+          "500 cr",
+          "1",
+          "This weapon's crits also apply Rattled — a beat, pre-spent (see Conditions)."
+        ],
+        [
+          "Extended Rail",
+          "400 cr",
+          "1",
+          "Gun: effective range +1 band."
+        ],
+        [
+          "Suppressor",
+          "450 cr",
+          "1",
+          "Gun: firing doesn't escalate your node's intel state pre-combat — the mission layer hears nothing."
+        ],
+        [
+          "Bayonet Lug",
+          "200 cr",
+          "1",
+          "Gun counts as a knife in Adjacent, and the −2 firing-into-Adjacent penalty doesn't apply (see Weapons)."
+        ],
+        [
+          "Tag-Sync Receiver",
+          "500 cr",
+          "1",
+          "Your Tag Rounds (see Consumables & Ammo) also count as Painted Targets — Systems-network compatible (see Systems)."
+        ],
+        [
+          "Gyro Stock",
+          "350 cr",
+          "1",
+          "Gun: while stationary, ignore light cover's accuracy bonus."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Armor mods"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mod",
+        "Price",
+        "Slots",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Plate Inserts",
+          "400 cr",
+          "1",
+          "+4 Armor HP."
+        ],
+        [
+          "Gel Padding",
+          "700 cr",
+          "2",
+          "+1 Absorb. Not available on Padded Jacket or Light Weave."
+        ],
+        [
+          "Servo Joints",
+          "800 cr",
+          "2",
+          "Evasion cap +1."
+        ],
+        [
+          "Sealed Liner",
+          "500 cr",
+          "1",
+          "+1 Seal: environment-sourced Charge ticks are reduced by 1 per scene (Charge lives on Charge & Saturation)."
+        ],
+        [
+          "Spall Liner",
+          "450 cr",
+          "1",
+          "When this shell breaks, keep its Evasion cap and 1 Absorb until the end of the next round — the break is a fall, not a cliff."
+        ],
+        [
+          "Trauma Weave",
+          "600 cr",
+          "1",
+          "Once per fight, when a single hit's flesh damage would be 6 or more, reduce it by 2."
+        ],
+        [
+          "Quick-Release Rig",
+          "250 cr",
+          "1",
+          "Don or doff in one action; field repairs to this armor restore +1."
+        ],
+        [
+          "Mag Holsters",
+          "300 cr",
+          "1",
+          "The first prep-slot item you use each fight costs 0 AP (prep slots — see Systems)."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Focus mods"
+    },
+    {
+      "type": "paragraph",
+      "text": "A focus is Channeler hardware — banked rounds, patterns, and venting live on the casting pages (see Weave & Fire, Patterns, and Charge & Saturation)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mod",
+        "Price",
+        "Slots",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Capacitor Coil",
+          "600 cr",
+          "1",
+          "Round capacity +1."
+        ],
+        [
+          "Grounding Strap",
+          "500 cr",
+          "1",
+          "End-of-encounter free vent +1. All vent bonuses cap at +2 total, shared with Grounding Mesh."
+        ],
+        [
+          "Lens Array",
+          "450 cr",
+          "1",
+          "Targeted patterns reach +1 band."
+        ],
+        [
+          "Bootleg Burner",
+          "700 cr",
+          "2",
+          "Bootleg patterns weave without the +1 DC — but your misfire window opens at Charge 6+. Cheap spells, hot hands."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "EW & utility consumables"
+    },
+    {
+      "type": "paragraph",
+      "text": "The electronic-warfare kit is consumable gear, and it lives here with the rest of the catalog."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Item",
+        "Price",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Jammer Spike",
+          "60 cr",
+          "Thrown, contested vs a chrome target: −1 RP this round."
+        ],
+        [
+          "Glare Bomb",
+          "50 cr",
+          "Cluster: chrome-sighted enemies take −1 accuracy until your next turn."
+        ],
+        [
+          "Intrusion Deck",
+          "400 cr (3 charges)",
+          "Enables Hacking contests vs chrome at Medium — Trigger Lock-class effects per charge."
+        ],
+        [
+          "Smoke Canister",
+          "40 cr",
+          "Cluster: attacks into or out of the zone take −1 accuracy. Concealment is a modifier, never hiddenness (see Bands & Movement)."
+        ],
+        [
+          "Breach Paste",
+          "80 cr",
+          "Opens a sealed route between adjacent nodes or through cover — the map-editing item."
+        ],
+        [
+          "Flare",
+          "25 cr",
+          "Your position can't be ambushed: no ambush round against you while it burns."
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Drone mods"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drones carry 1 mod slot. Drones themselves live on Systems."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Mod",
+        "Price",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "Hardpoint",
+          "300 cr",
+          "Stinger damage 1d6 → 1d8."
+        ],
+        [
+          "Plated Chassis",
+          "350 cr",
+          "+1 Value."
+        ],
+        [
+          "Mule Rack",
+          "250 cr",
+          "+1 cargo slot."
+        ],
+        [
+          "Squawk Box",
+          "400 cr",
+          "Your Calls (see Influence) can be issued from the drone's position."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "Vehicle customization mods — compartments, freezers, fuel, sealing — are parked pending the vehicle module. Nothing on this page installs into a vehicle."
+    },
+    {
+      "type": "blockquote",
+      "text": "Aftermarket modification voids no warranty, because nothing on this list carries one. Certified installation is available wherever you see our logo, and deniable installation wherever you don't."
     }
   ]
 }

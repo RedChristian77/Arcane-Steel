@@ -5,17 +5,61 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
+      "text": "<em>Two weapons is a stance. Two heavy weapons is a procedure.</em>"
     },
     {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "type": "heading",
+      "text": "Dual Swing"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "<strong>Dual Swing:</strong> wielding two one-handed weapons, pay the higher weapon's AP and both weapons attack. Once per turn. Until your next turn, your Evasion drops by the combined weight of both weapons."
+    },
+    {
+      "type": "bullet",
+      "text": "Both weapons attack in full — each rolls its own accuracy, damage, and tags."
+    },
+    {
+      "type": "bullet",
+      "text": "Weights are printed per weapon (see Weapons)."
+    },
+    {
+      "type": "bullet",
+      "text": "The Dancer ladder reduces the Evasion penalty — see Dancer."
+    },
+    {
+      "type": "heading",
+      "text": "Titan Grip — heavy pairs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Heavy weapons (4–5 AP) are two-handed. One-handing one requires <strong>Chrome 12</strong> for the 4 AP class or <strong>Chrome 14</strong> for the 5 AP class. Meat arms don't qualify — that's physics, not policy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dual Heavy Swing:</strong> pay the higher weapon's AP +1. Both weapons attack with full dice. Your Evasion drops by the combined weight — no floor."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Recoil:</strong> every Dual Heavy Swing deals 1 Armor HP to your own worn shell (1 flesh if unarmored). You are grinding your own shell clock."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>No reaction attacks while dual-gripping</strong> — your hands are full of physics."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Dancer discounts never apply to Heavy pairs.</strong> That lane is light blades; this lane is chrome."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "Multi-armed race interaction with Titan Grip is on file pending the race redesign. It is not in play, and nothing on this page prices it."
+    },
+    {
+      "type": "blockquote",
+      "text": "Simultaneous heavy-weapons operation voids the standard harness warranty. Per-swing structural billing applies. The surgical suite remains available to discuss load-bearing upgrades."
     }
   ]
 }

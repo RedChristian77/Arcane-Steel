@@ -5,17 +5,433 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>It runs on what the job already pays you in: damage, kills, and scars.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Fury is the no-resource tree. There is no pool to manage and no puzzle to solve: you charge, you take hits, you escalate. Its identity is the highest melee accuracy in the game — bought with the three things a contractor accumulates anyway."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two branches feed it. <strong>Wrath</strong> is paid in damage taken. <strong>Carnage</strong> is paid in kills. The scar ladder is paid in something worse."
+    },
+    {
+      "type": "blockquote",
+      "text": "Subdermal trauma telemetry indicates elevated performance under injury. This is not a malfunction. Continue as scheduled. Your premiums have been adjusted."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Grit — every kept scar is a Fate Roll waiting, and Grit is what you roll (see The Staircase).",
+      "theme": "Damage-taken escalation, kill chains, and the scar gamble.",
+      "design": "No resource, no puzzle. Charge, take hits, escalate."
+    },
+    {
+      "type": "heading",
+      "text": "The Wrath Track"
+    },
+    {
+      "type": "paragraph",
+      "text": "Wrath tracks the cumulative flesh damage you have taken this encounter. Healing never resets it — you earned it; it stays. Each threshold you cross switches on, cumulatively:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Wrath",
+        "Threshold (flesh damage taken)",
+        "Escalation"
+      ],
+      "rows": [
+        [
+          "W1",
+          "10+",
+          "+1 melee accuracy"
+        ],
+        [
+          "W2",
+          "20+",
+          "+1 damage per die"
+        ],
+        [
+          "W3",
+          "30+",
+          "One free band move per turn · condition resistance 1"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Carnage keeps no track. Kills are the trigger and the chain is the payout — Cleave into Bloodlust into Hurricane."
+    },
+    {
+      "type": "heading",
+      "text": "The Scar Ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tree-wide and monotonic: every untreated scar pays, and the payoffs alternate so no kept scar is ever dead weight. What scars are and what carrying them costs live on Scars and The Staircase."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Untreated scars",
+        "Cumulative payoff"
+      ],
+      "rows": [
+        [
+          "1+",
+          "+1 melee accuracy"
+        ],
+        [
+          "2+",
+          "+1 damage per die"
+        ],
+        [
+          "3+",
+          "Accuracy total +2"
+        ],
+        [
+          "4+",
+          "Damage per die total +2"
+        ],
+        [
+          "5+",
+          "Start every fight at Wrath 1"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "What the gamble buys, against a corp guard with an axe in hand:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Scars kept",
+        "What it buys"
+      ],
+      "rows": [
+        [
+          "0",
+          "Baseline"
+        ],
+        [
+          "2",
+          "~+35% DPR"
+        ],
+        [
+          "4",
+          "~+50% DPR — shell-cracker"
+        ],
+        [
+          "5",
+          "…and you arrive angry, at Wrath 1 from the first round"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "What it costs is the other column: every untreated scar worsens your next Fate Roll. Those odds live on The Staircase, and nothing in this tree touches them."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Scar Law applies in full (see Scars):</strong> everything on this page eases living with scars — nothing eases dying with them. No augment here modifies the Fate Roll, its DC, or how scars are counted."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The tree-wide scar ladder and the scar augments below (Rage Shunt, Pain Converter) print overlapping payoffs at 1–3 scars. Whether the ladder is inherent to the tree or assembled from those augments — and how the two stack against the accuracy +3 and damage +2 ceilings — is not specified in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "How It Plays"
+    },
+    {
+      "type": "paragraph",
+      "text": "Per-die damage is armor-piercing currency: it raises your bounce threshold, so the scarred knife scratches Plate where the clean one pings (the pipeline lives on Attacks &amp; the Shell Clock). Accuracy is the crown: Fury owns the game's only +3 accuracy ceiling, reached at 3+ scars with Wrath running."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fury pays the reaper. The tree costs nothing per fight and everything per career — its power curve is denominated in untreated scars, and every scar kept is a worse roll the next time you drop. The gamble is the class."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Counters:</strong> range — everything here is melee. Armor — escalation dies against Value it can't beat. Starvation diets — a fight with nothing to kill and no damage to take feeds neither branch."
+    },
+    {
+      "type": "heading",
+      "text": "The Catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install costs follow the standard ladder (Trees Overview). Tier 5 means choosing ten of the catalog below. Capstones are marked."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Shared entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Adrenal Injector",
+          "cost": "250 cr",
+          "effect": "When you take flesh damage, +1 melee accuracy until the end of your next turn."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Wrath Branch — Paid in Damage Taken"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Wrath branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Wrath Accelerator",
+          "cost": "500 cr",
+          "effect": "Your Wrath thresholds become 5/15/25."
+        },
+        {
+          "name": "Rage Shunt",
+          "cost": "500 cr",
+          "effect": "At 2+ scars, +1 damage per die. Printed feature: per-die damage raises your bounce threshold — the scarred knife scratches Plate where the clean one pings."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Wrath branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Pain Converter",
+          "cost": "800 cr",
+          "effect": "+1 melee accuracy at 1+ scars; +2 at 3+ scars. The Fury-only +3 accuracy ceiling, reached with Wrath running."
+        },
+        {
+          "name": "Aggression Chip",
+          "cost": "800 cr",
+          "effect": "While below half HP, +1 melee accuracy. Counts against the accuracy cap — the cap is the cap."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Wrath branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Blood Engine",
+          "cost": "1,200 cr",
+          "effect": "At Wrath 2 or higher, recover 2 flesh HP at the start of your turn."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Wrath branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Wrath Mastery",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Begin every encounter at Wrath 1. At Wrath 3, +1 RP."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Carnage Branch — Paid in Kills"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Carnage branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Cleave",
+          "cost": "500 cr",
+          "effect": "On a melee kill, make one free attack against another enemy in the same Adjacent cluster. Once per turn."
+        },
+        {
+          "name": "Bloodlust",
+          "cost": "500 cr",
+          "effect": "On a kill, your next attack this turn costs 1 less AP (floor: the weapon's AP minus 1, minimum 2). Aimed at heavies — the axe is the payoff; the knife gains nothing."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Carnage branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Savage Rush",
+          "cost": "800 cr",
+          "effect": "2 AP: move one band into contact and make a free attack on arrival."
+        },
+        {
+          "name": "Blood Frenzy",
+          "cost": "800 cr",
+          "effect": "On a kill, +2 damage on your next attack this turn."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Carnage branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Bloodbath",
+          "cost": "1,200 cr",
+          "effect": "On a kill, gain 4 temp flesh HP (cap 8)."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Carnage branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Hurricane",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Cleave loses its once-per-turn limit. The chain keeps its four limiters, printed: each target must actually die; accuracy and damage stay finite; Adjacent cluster only; elites and bosses don't chain."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Catalog Additions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rest of the catalog, by tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Additions",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Knuckle Spurs",
+          "cost": "250 cr",
+          "effect": "Your unarmed strikes count as a knife — profile on Weapons."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Additions",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Adrenal Reservoir",
+          "cost": "500 cr",
+          "effect": "The first time you take flesh damage each fight, gain 3 temp HP."
+        },
+        {
+          "name": "Gore Sense",
+          "cost": "500 cr",
+          "effect": "+1 melee accuracy against targets below half HP. Counts against the accuracy cap."
+        },
+        {
+          "name": "Charge Compensators",
+          "cost": "500 cr",
+          "effect": "Savage Rush reaches one band further."
+        },
+        {
+          "name": "Overclocked Adrenals",
+          "cost": "500 cr",
+          "effect": "Trade-off. +1 melee accuracy, unconditional. You gain 1 scar per mission, win or lose. Go fast, die young."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Additions",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Second Wind Pump",
+          "cost": "800 cr",
+          "effect": "Once per fight while below half HP, recover 1d6 flesh HP."
+        },
+        {
+          "name": "Painshunt Governor",
+          "cost": "800 cr",
+          "effect": "Once per mission, ignore all scar debuffs for one fight. Your scar count, scar payoffs, and the Fate Roll are untouched — this eases living, never dying."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Additions",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Death's Ledger",
+          "cost": "1,200 cr",
+          "effect": "At 3+ scars, condition resistance 1."
+        },
+        {
+          "name": "Titan Servos",
+          "cost": "1,200 cr",
+          "effect": "Optional augment, by GM ruling — see Dual Wield & Titan Grip. Trade-off priced: your Titan Grip Chrome requirements are reduced by 1, and Dual Heavy Swing recoil is ignored while you are at Wrath 2+. The rage holds the frame together."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Additions — alternate capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Avatar of Pain",
+          "cost": "2,000 cr",
+          "effect": "Alternate capstone. At 3+ scars, your Wrath thresholds are halved. Choose your mastery: arrive angry (Wrath Mastery) or be the anger."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Pairings"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Fortress:</strong> volunteer for damage via Intercept; Wrath feeds on what you redirect — but Fortress protects allies and Fury spends itself."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Leech:</strong> scars plus Burns — two amp systems, one body, no off-switch on either."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Shadow:</strong> charge-kill-chain alpha strikes; the stat spread is a war."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+Dancer:</strong> more swings, more Carnage triggers — but light weapons starve Wrath's threshold feed."
+    },
+    {
+      "type": "blockquote",
+      "text": "Clause 12: injuries sustained in the course of duty remain the property of the contractor. Residual performance benefits derived therefrom are not subject to corporate revenue sharing. Enjoy."
     }
   ]
 }

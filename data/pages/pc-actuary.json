@@ -5,17 +5,61 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
+      "text": "<em>Recovered internal circulation: contractor mortality review, actuarial division. Reprinted as received.</em>"
+    },
+    {
+      "type": "blockquote",
+      "text": "SUBJECT: Survivorship beyond the sixth scar event. FINDING: None projected. RECOMMENDATION: See addendum."
+    },
+    {
+      "type": "paragraph",
+      "text": "This is how the corps count you. Nothing below changes a rule — the roll the actuaries are describing lives on The Staircase — but every contractor who works long enough eventually hears their own number read back to them."
+    },
+    {
+      "type": "heading",
+      "text": "The Sixth Scar"
+    },
+    {
+      "type": "blockquote",
+      "text": "At six recorded scar events, survivorship ceases to be an underwriting question. The division has no instrument for pricing what remains, and declines to acquire one."
+    },
+    {
+      "type": "paragraph",
+      "text": "Six scars deep, the saying in the bars goes, survival is a natural 20. The saying is not wrong: by the sixth untreated scar the Fate arithmetic has climbed to where only the top face always answers (see The Staircase)."
+    },
+    {
+      "type": "heading",
+      "text": "Seven and Up"
+    },
+    {
+      "type": "paragraph",
+      "text": "Past six the table has no row. A contractor carrying seven or more scars is a person the math says should not exist. The math is written by people who have never had to buy one of them a drink."
+    },
+    {
+      "type": "blockquote",
+      "text": "NOTICE OF RECLASSIFICATION. Contractors recording a seventh scar event are removed from standard mortality tables and flagged for manual review. They are not an error in the data; they are a hole in it. Underwriting is suspended. Employment is not."
+    },
+    {
+      "type": "heading",
+      "text": "Tours"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bars count scars like tours. Nobody asks how many fights you have walked into — they ask how many times you have come back from being gone. The corps count the same ledger; the difference is that the bar buys a round and the corp opens a file."
+    },
+    {
+      "type": "paragraph",
+      "text": "One policy in the world actually pays out on a Fate Roll, and no actuary writes it — see Influence."
     },
     {
       "type": "callout",
       "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "label": "NEW BLOOD",
+      "text": "When a count ends, replacement characters — when and how new blood enters the squad — are handled GM-side. See the GM Core."
     },
     {
-      "type": "paragraph",
-      "text": "Pending regeneration."
+      "type": "blockquote",
+      "text": "ADDENDUM: Flagged contractors remain fully insurable with respect to equipment, vehicles, and third-party liability. The division wishes them a long career and declines to estimate one."
     }
   ]
 }

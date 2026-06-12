@@ -5,17 +5,151 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Patterns are licensed corporate IP. Rounds are inventoried. Unlicensed weaving is the crime.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "A pattern is the thing you weave: a licensed design that banks into rounds and fires like a weapon (the procedure — see Weave & Fire). Patterns <em>are</em> weapons in the data model — tier, Fire cost, damage dice, tags and all. Tags like Pierce and Impact work as printed in the damage rules (see Attacks); conditions like Rattled and Seared work as printed on Conditions."
+    },
+    {
+      "type": "heading",
+      "text": "The Launch Ten"
+    },
+    {
+      "type": "paragraph",
+      "text": "A full Weave banks a pattern's listed rounds — typically 3. Tier sets the Charge a Weave generates (see Weave & Fire) and prices the license (below)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Pattern",
+        "Tier",
+        "Fire",
+        "Delivery",
+        "Effect"
+      ],
+      "rows": [
+        [
+          "<strong>Lance</strong>",
+          "1",
+          "2 AP",
+          "targeted",
+          "2d8, <strong>Pierce</strong>. The caster's rifle."
+        ],
+        [
+          "<strong>Howler</strong>",
+          "1",
+          "2 AP",
+          "cluster",
+          "1d6 + Rattled to an Adjacent cluster in Medium."
+        ],
+        [
+          "<strong>Static Veil</strong>",
+          "1",
+          "1 AP",
+          "ally in Close",
+          "+1 EV until their next turn."
+        ],
+        [
+          "<strong>Ram</strong>",
+          "2",
+          "2 AP",
+          "targeted",
+          "2d10, <strong>Impact</strong>, push one band. The door-opener."
+        ],
+        [
+          "<strong>Ember Wreath</strong>",
+          "2",
+          "3 AP",
+          "cluster",
+          "2d6 + Seared, Adjacent cluster of a point in Medium. No roll."
+        ],
+        [
+          "<strong>Gravity Snare</strong>",
+          "2",
+          "2 AP",
+          "cluster",
+          "The zone is difficult terrain; the first band move out of it costs +1 AP."
+        ],
+        [
+          "<strong>Mend Weave</strong>",
+          "2",
+          "2 AP",
+          "touch",
+          "Heal 1d6; <strong>the target gains 1 Charge</strong>."
+        ],
+        [
+          "<strong>Null Sheath</strong>",
+          "3",
+          "1 AP",
+          "self",
+          "Personal Absorb 2 until your next turn."
+        ],
+        [
+          "<strong>Shatter Pulse</strong>",
+          "3",
+          "3 AP",
+          "targeted",
+          "3d8; punch-through counts <strong>double against Armor HP</strong>. The siege pattern."
+        ],
+        [
+          "<strong>Rift Step</strong>",
+          "3",
+          "2 AP",
+          "self",
+          "Move 2 bands ignoring triggers and terrain."
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Mend Weave is the catalog's only healing, and it pollutes the patient: the heal is knit with rift matter, and the bill lands as Charge — then Saturation (see Charge & Saturation)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The catalog is missing numbers the procedure depends on: per-pattern Weave DCs, per-pattern round counts (only \"typically 3\" is canon), crit beats for the targeted patterns, and Ember Wreath's Seared rating. None are defined in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "Licensed IP"
+    },
+    {
+      "type": "paragraph",
+      "text": "You don't find patterns; you buy them. Learning one takes a <strong>license</strong> — credits, priced by tier and provider — plus <strong>practice</strong>: downtime and LP (how learning works — see Skills)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Wellspring licenses Mend Weave and audits its use. Nobody licenses what the Bloom teaches."
+    },
+    {
+      "type": "blockquote",
+      "text": "This pattern is licensed, not sold. Possession of woven rounds does not constitute ownership of the design. Audit teams may verify conduit registration at any time. Wellspring thanks you for healing responsibly."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "License pricing (by tier and provider) and the practice requirement (downtime periods, LP totals) are named but never costed in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "Bootlegs and Jamming"
+    },
+    {
+      "type": "paragraph",
+      "text": "A bootleg is the cracked copy: <strong>half the license price</strong>, and it shows. Bootlegs Weave at <strong>DC +1</strong>, and their misfire exposure opens at <strong>Charge 6+</strong> instead of the licensed threshold (thresholds — see Charge & Saturation; the Misfire Table — see Weave & Fire). When the street says bootlegs <em>jam</em>, that early window is what it means."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pressing your own:</strong> bootleg production is a crafting question, not a casting one. The Material Cost Law owns it, jam risk included — see Material Cost."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "The catalog beyond the launch ten is parked: flagged for a future pass, not designed. These ten are the whole arsenal."
     }
   ]
 }

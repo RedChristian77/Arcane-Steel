@@ -5,17 +5,246 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Asset development schedule, contractor class. Training appreciates the asset. Augmentation amortizes it.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Five stats. One bonus table. No levels, no XP — your credits are your experience points."
+    },
+    {
+      "type": "heading",
+      "text": "The Five Stats"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every roll adds exactly one stat bonus; the weapon or skill names which stat it uses. The five, and where each one shows up:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stat",
+        "Where it works"
+      ],
+      "rows": [
+        [
+          "<strong>Chrome</strong>",
+          "The frame — raw physical force. Powers grapples alongside Athletics; meets the thresholds that one-hand heavy weapons (Dual Wield & Titan Grip)."
+        ],
+        [
+          "<strong>Reflex</strong>",
+          "Speed. Buys initiative — going first, claiming activation slots, winning ties (Turn, AP & Reactions) — and feeds Evasion (Attacks & the Shell Clock)."
+        ],
+        [
+          "<strong>Grit</strong>",
+          "The dying-well stat. The Fate Roll leans on Grit (The Staircase), and venting Charge at encounter's end sheds up to your Grit bonus (Charge & Saturation)."
+        ],
+        [
+          "<strong>Interface</strong>",
+          "The link to pattern-work. Control and improvisation Checks when casting roll Rift Lore dice + Interface (Weave & Fire)."
+        ],
+        [
+          "<strong>Edge</strong>",
+          "Feeds Evasion alongside Reflex (Attacks & the Shell Clock)."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Full player-facing definitions of the five stats — and which passive values (carry weight, HP, toxicity maximum) key off which stat — are not specified in the rebuild docs. The hooks above are the references that exist."
+    },
+    {
+      "type": "heading",
+      "text": "One Bonus Table"
+    },
+    {
+      "type": "paragraph",
+      "text": "One table converts a stat into its bonus, everywhere, for every kind of roll. The left half is flesh; the right half is the chrome band."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Stat",
+        "Bonus",
+        "Stat (chrome band)",
+        "Bonus"
+      ],
+      "rows": [
+        [
+          "2–3",
+          "+0",
+          "11–12",
+          "+5"
+        ],
+        [
+          "4–5",
+          "+1",
+          "13–14",
+          "+6"
+        ],
+        [
+          "6–7",
+          "+2",
+          "15–16",
+          "+7"
+        ],
+        [
+          "8–9",
+          "+3",
+          "17–19",
+          "+8"
+        ],
+        [
+          "10",
+          "+4",
+          "20",
+          "+9"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Past 10, the roll bonus compresses — passives don't.</strong> Above 10 it takes two, then three, points of stat for each further +1 to the roll, while passive values that read the raw stat keep climbing point for point. Chrome makes you more machine faster than it makes you more skilled; the flesh gives less the further from human you push."
+    },
+    {
+      "type": "heading",
+      "text": "Training: 2 to 10"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stats train up to 10, paid in credits and downtime periods. The gate is never a rule — it's access, and access narrows as you climb."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Band",
+        "Stats",
+        "What it takes"
+      ],
+      "rows": [
+        [
+          "Self-directed",
+          "Up to 6",
+          "Nothing — a gym, a range, grinding reps. Anyone can get good."
+        ],
+        [
+          "Professional",
+          "7–8",
+          "An instructor or a professional facility. Past good needs coaching."
+        ],
+        [
+          "Elite",
+          "9–10",
+          "Specialist access: an academy, a faction, a master — and masters have agendas. Peak human is a relationship, not a purchase."
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Credits",
+        "Downtime periods",
+        "Access"
+      ],
+      "rows": [
+        [
+          "2 → 3",
+          "100",
+          "1",
+          "Self-directed"
+        ],
+        [
+          "3 → 4",
+          "200",
+          "1",
+          "Self-directed"
+        ],
+        [
+          "4 → 5",
+          "300",
+          "2",
+          "Self-directed"
+        ],
+        [
+          "5 → 6",
+          "500",
+          "2",
+          "Self-directed"
+        ],
+        [
+          "6 → 7",
+          "800",
+          "3",
+          "Professional"
+        ],
+        [
+          "7 → 8",
+          "1,200",
+          "3",
+          "Professional"
+        ],
+        [
+          "8 → 9",
+          "2,000",
+          "4",
+          "Elite"
+        ],
+        [
+          "9 → 10",
+          "3,000",
+          "4",
+          "Elite"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "PATCHING A WEAKNESS",
+      "text": "The bottom of the ladder is cheap: taking a stat from 4 to 6 costs 800 cr and four downtime periods. The top is where the calendar starts charging — downtime periods, not credits, are the scarce resource."
+    },
+    {
+      "type": "paragraph",
+      "text": "How a maxed stat compares to the game's other flagship investments — tree mastery, a profession Name, a raised war-beast — lives on The Anchor Table."
+    },
+    {
+      "type": "heading",
+      "text": "The Chrome Band: 11–20"
+    },
+    {
+      "type": "paragraph",
+      "text": "Training ends at 10. Every point past it is bought, not earned: chrome in the body, paid in credits and in flesh."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PER POINT ABOVE 10",
+      "items": [
+        "1,500 cr, plus installation",
+        "−2 disruption, distributed to your other stats — you choose where it lands",
+        "Floor 1: no stat can be driven below 1",
+        "Hard cap: 20"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Disruption is part of the purchase, not a wound — the body is being restructured around the machine. Installation is splice work, and splice complications are Fate Roll territory (The Staircase)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The cap is a bill, not a rule.</strong> Reaching 20 means paying twenty points of disruption out of four other stats that each stop at a floor of 1. A fresh body does not have twenty points to give. The only road to 20 runs through years of training your whole array first, so the machine has something to consume — and what comes out the other side is a weapon with legs: peerless at one thing, crew-dependent for the rest."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The chrome-band installation fee is stated as \"plus installation\" in the consolidation but never priced. The install ladder on Trees Overview prices augment tiers, not stat points."
+    },
+    {
+      "type": "blockquote",
+      "text": "Congo Industries Bodyworks thanks you for choosing to become more. Per-point pricing includes the point. Installation, disruption, and whoever you were are billed separately."
     }
   ]
 }

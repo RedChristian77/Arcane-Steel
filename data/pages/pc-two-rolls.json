@@ -5,17 +5,187 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
+      "text": "<em>Excerpted from the Contractor Field Manual, Resolution Procedures. Two mechanisms are authorized for field use. There is no third mechanism. Requests for a third mechanism are routed to Claims.</em>"
     },
     {
       "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "style": "gold",
+      "label": "THE LAW",
+      "text": "There are two rolls in this game. You roll your dice against a number, or you tempt fate."
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Every attack, every Check, every contest resolves as <strong>The Roll</strong>: accuracy dice plus your stat bonus against a target number. When you swing or shoot, your weapon supplies the die and the target's Evasion is the number — see Attacks & the Shell Clock. When you attempt a task, your skill tier supplies the dice and the difficulty sets a DC. Same grammar, whole game."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Fate Roll</strong> is the other roll: a d20, alone, reserved for exactly two things — death, and splice complications when machinery goes into a body. This page teaches The Roll. The Fate Roll's numbers — when it fires, what you add, what it must beat — live on The Staircase."
+    },
+    {
+      "type": "heading",
+      "text": "Skill Dice: The Ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Your training tier in a skill decides which dice you roll. Tiers grant dice and features — they never add a modifier to the roll. The only number you ever add is your stat bonus, from the one bonus table on Stats & Growth."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Dice",
+        "Average",
+        "Built for"
+      ],
+      "rows": [
+        [
+          "T0 — Untrained",
+          "1d4",
+          "2.5",
+          "Routine tasks, badly"
+        ],
+        [
+          "T1 — Familiar",
+          "2d4",
+          "5",
+          "Routine"
+        ],
+        [
+          "T2 — Trained",
+          "2d6",
+          "7",
+          "Standard"
+        ],
+        [
+          "T3 — Expert",
+          "2d8",
+          "9",
+          "Hard"
+        ],
+        [
+          "T4 — Master",
+          "2d10",
+          "11",
+          "Hard reliably; Extreme at all"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Each tier is worth roughly one full step on the DC ladder, and advancement is physically picking up bigger dice. What tiers grant beyond dice — the verbs you unlock, the outcomes you can bend — lives with each skill on The Twelve Skills."
+    },
+    {
+      "type": "heading",
+      "text": "The DC Ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every difficulty in the game is one of five numbers. The GM names the difficulty; you know exactly what it means."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "DC",
+        "Name",
+        "What it feels like"
+      ],
+      "rows": [
+        [
+          "5",
+          "Routine",
+          "Everyday work under no pressure"
+        ],
+        [
+          "8",
+          "Standard",
+          "A real professional task"
+        ],
+        [
+          "11",
+          "Hard",
+          "Specialist territory"
+        ],
+        [
+          "14",
+          "Extreme",
+          "A career-defining attempt"
+        ],
+        [
+          "17",
+          "Inhuman",
+          "Chrome-and-mastery territory"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Outcomes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compare your total — all dice plus stat bonus — to the DC. Three bands:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Total meets or beats the DC — full success.</strong> You get what you wanted."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Miss by 1–2 — partial success.</strong> You get it, with a cost, a complication, or reduced effect."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Miss by 3 or more — failure.</strong> You don't get it, and things get worse."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Flash of brilliance.</strong> If every die you rolled shows its maximum, upgrade your result one band: a failure becomes a partial, a partial becomes a full, a full becomes a critical — full effect plus something extra. Flashing requires two or more dice: untrained 1d4 cannot flash. Brilliance requires foundation."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "READING THE BANDS",
+      "text": "A partial is a yes with a bill attached. At low tiers it is most of your working life. Mastery is how you stop paying it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Attacks share the trigger, not the payout: natural max on an attack's accuracy dice is a crit — an automatic hit carrying the weapon's crit effects. Attack crits and the graze band live on Graze & Crits."
+    },
+    {
+      "type": "heading",
+      "text": "Advantage & Disadvantage"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advantage: roll one extra die of your tier and keep the best set. Disadvantage: roll the extra die and keep the worst set. That is the whole rule — there are no situational plus-or-minus-2s in this game. The only flat modifiers that exist are printed conditionals on augments, gear, and conditions."
+    },
+    {
+      "type": "heading",
+      "text": "Contested Rolls"
+    },
+    {
+      "type": "paragraph",
+      "text": "When two characters work against each other, both roll — dice plus stat — and the higher total wins. The acting party takes ties. A grapple is the canonical shape: the grappler's Athletics dice + Chrome against the defender's Athletics dice + Chrome or Reflex."
+    },
+    {
+      "type": "heading",
+      "text": "Dice Are the Gate"
+    },
+    {
+      "type": "paragraph",
+      "text": "No skill is locked behind training — you may always attempt. The dice decide what you can reach: an untrained roll tops out at 4 plus your stat bonus, so Standard 8 is barely scrapeable on raw talent and Hard 11 is mathematically out of reach. Nobody stops you from attempting the field surgery. The d4 does."
+    },
+    {
+      "type": "heading",
+      "text": "The Fate Roll"
+    },
+    {
+      "type": "paragraph",
+      "text": "One die in the game is reserved: the d20. It is never rolled for tasks, attacks, or contests. It fires for exactly two reasons — a body going down hard enough that death is on the table, and a splice or installation complicating on the slab. No accuracy dice, no DC ladder. When it fires, what you add, and what the number must beat: The Staircase."
+    },
+    {
+      "type": "blockquote",
+      "text": "Sentinel Systems Field Bulletin: the twenty-sided die is not part of your working kit. If you are rolling it, either something is being installed in you or something has gone wrong with you, and in both cases the appropriate department has already been notified."
     }
   ]
 }

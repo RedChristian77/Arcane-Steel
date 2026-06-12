@@ -5,17 +5,180 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Bullets aren't free — and they have serial numbers.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Precision is the marksman and the ammunition artist: the tree that turns the credit economy into a fire-control system. Every trigger pull is a line item, and the right round <strong>is</strong> the build."
+    },
+    {
+      "type": "paragraph",
+      "text": "The guns live on Weapons. The ammunition economy — abstracted standard ammo and its resupply costs, individually tracked specialty rounds, handloads, bootlegs, and the launch round catalog — lives on Consumables & Ammo. This page is what Precision does with all of it."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Per-weapon — guns roll the stat their weapon lists (see Weapons); the tree adds no stat of its own. The real lean is the wallet.",
+      "theme": "One perfect shot, or the perfect round for this one: the long-band theater and the priced trigger pull.",
+      "design": "No stat ceiling — the ceiling is the wallet, the most honest ceiling in the game."
+    },
+    {
+      "type": "heading",
+      "text": "How it plays"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Longeye</strong> is one perfect shot: reaction fire, called shots, the aim economy, and ranges nobody else is allowed to shoot across. Its first job is deleting the Extreme-band accuracy penalty; its last is a band that doesn't exist for anyone else."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Payload</strong> is the ammunition artist. Specialty rounds are bought per round, tracked individually, and declared when fired — each one is a decision, which is exactly why they're the ones you count (core rules — see Consumables & Ammo). Payload carries more of them, declares them later, doubles them up, recovers their components, and finally signs one."
+    },
+    {
+      "type": "paragraph",
+      "text": "The marksman's theater is distance itself: every band an enemy must close into your rifle is a turn of fire it eats for free. Hold the long bands, and the runway does the work."
+    },
+    {
+      "type": "paragraph",
+      "text": "The creditor texture: Precision pays the armorer (see The Creditor Table) — per trigger pull. Standard ammo bills flat at mission's end; specialty rounds bill at purchase; and a dry-pocketed Precision build is a person holding a very expensive stick. The profession choice is a build choice: a Tinkerer handloads your specialty rounds at material cost, and a Fixer tells you what to load before you know you need it."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "COUNTERPLAY",
+      "text": "What this tree cannot fix:",
+      "items": [
+        "Band closure — anything that closes two bands a turn unplugs the rifle the way it unplugs the maul.",
+        "Cover — Breath Control is the arms race, not the exemption.",
+        "Suppression returned in kind.",
+        "The bill — run them broke and they're fodder. That isn't a weakness; that's the class."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Corporate ammunition is watermarked at the foundry. Spent brass is retrievable, attributable, and admissible. The round remembers where it came from, even when the shooter would prefer it didn't."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tier chassis, requirements, and the install ladder live on Trees Overview. Install costs below are per augment at that tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Tier 1 — Entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Stable Platform",
+          "cost": "250 cr",
+          "effect": "While you haven't moved this turn, the Extreme-band accuracy penalty doesn't apply to you (the penalty itself — see Weapons)."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Tier 2 — Longeye / Payload",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Spotter's Patience (Longeye)",
+          "cost": "500 cr",
+          "effect": "Your ranged reaction shots — RP-banked interrupts — gain +1 accuracy."
+        },
+        {
+          "name": "Called Shot: Legs (Longeye)",
+          "cost": "500 cr",
+          "effect": "Declare before rolling, −2 accuracy. A full hit also pins: the target's movement ends, and its first band move next turn costs +1 AP."
+        },
+        {
+          "name": "Deep Pockets (Payload)",
+          "cost": "500 cr",
+          "effect": "Carry 2 specialty rounds chambered as prep — 0 AP to declare — and +2 specialty-round capacity per mission before encumbrance."
+        },
+        {
+          "name": "Handloader's Eye (Payload)",
+          "cost": "500 cr",
+          "effect": "Your bootleg and handloaded rounds jam on a natural 1 only if the shot also misses."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Tier 3 — Longeye / Payload",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Called Shot: Hands (Longeye)",
+          "cost": "800 cr",
+          "effect": "Declare before rolling, −2 accuracy. A full hit also applies Rattled, and the target's next attack costs +1 AP."
+        },
+        {
+          "name": "Breath Control (Longeye)",
+          "cost": "800 cr",
+          "effect": "Spend 1 AP aiming first: your next shot this turn ignores cover's accuracy bonus."
+        },
+        {
+          "name": "Mixed Belt (Payload)",
+          "cost": "800 cr",
+          "effect": "Once per turn, declare a specialty round after seeing the accuracy die but before damage."
+        },
+        {
+          "name": "Chemist's Courier (Payload)",
+          "cost": "800 cr",
+          "effect": "Once per fight, your Toxin Carrier rounds apply their payload even on a graze."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Tier 4 — Longeye / Payload",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Cold Ledger (Longeye)",
+          "cost": "1,200 cr",
+          "effect": "Your first shot each fight against any target that hasn't acted yet gains +1 accuracy and +1 damage die. This is an Opener — the same keyword Shadow uses: the ambush belongs to everyone who prepared it."
+        },
+        {
+          "name": "Sixth Band (Longeye)",
+          "cost": "1,200 cr",
+          "effect": "You can fire one band beyond Extreme at −2 accuracy — a band that, for everyone else, does not exist."
+        },
+        {
+          "name": "Brass Reader (Payload)",
+          "cost": "1,200 cr",
+          "effect": "After a fight, recover one fired specialty round's worth of components per Tech or Harvesting Check."
+        },
+        {
+          "name": "Double Load (Payload)",
+          "cost": "1,200 cr",
+          "effect": "Once per fight, fire one shot carrying two specialty rounds' effects. Pay for both rounds."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Tier 5 — Capstones",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "The Quiet Math (Longeye capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Once per fight, a full hit with a Called Shot upgrades to a critical, paying the weapon's full beat budget. You didn't get lucky. You did arithmetic."
+        },
+        {
+          "name": "Signature Round (Payload capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Design one personal specialty round with two effect lines from the catalog, priced at the sum of both minus 10 cr. Your name is on it — in every sense."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Itemized fire reports are appended to your invoice for your convenience. Contractors are reminded that accuracy is the cheapest round on the market."
     }
   ]
 }

@@ -5,17 +5,242 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Every other tree is a body. This one is what the body is carrying.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Systems is the item master, the field medic, the maker, and the summoner — and its power doesn't live on the sheet. It lives in the <strong>prep slots</strong>. The pre-mission packing decision is the build."
+    },
+    {
+      "type": "paragraph",
+      "text": "The structural symmetry, printed: the Sin Eater's resource is other people's suffering; Systems' resource is the shopping list. Both are empty alone — one without allies, one without inventory."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "None — the power lives in the loadout, not a stat. Only Scrapwright names a roll (Tech Check).",
+      "theme": "The loadout class: tuned consumables, both health bars in combat, drones that run on your own AP.",
+      "design": "Structural ceiling: inventory. No supplies, no class — that is the contract."
+    },
+    {
+      "type": "heading",
+      "text": "The engine — prep slots"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Prep slots: 3 at entry,</strong> growing with the tree. Consumables and drone chassis loaded into prep slots before a mission are <strong>tuned</strong>: they cost <strong>1 AP</strong> to use instead of the standard 2, and they qualify for this tree's enhancements. The items themselves — medpacks, grenades, repair paste, salvage charges — are statted and priced on Consumables & Ammo."
+    },
+    {
+      "type": "heading",
+      "text": "Both health bars"
+    },
+    {
+      "type": "paragraph",
+      "text": "In combat, Systems tends both health bars: medpacks for flesh, <strong>Shell Splint</strong> for armor. Conditions belong to the Sin Eater; scars, Saturation, and the long bill belong to a Street Doc and the Medicine skill, in downtime. The medic math is triage, not immortality — enhanced medpacks outpace fodder damage and lose to elites."
+    },
+    {
+      "type": "heading",
+      "text": "Drones — the Marionette rules"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drones are gear: chassis bought or built, carried in prep slots, deployed for 1 AP. <strong>They act on your AP</strong> — a command costs 1 AP to move or use a function, 2 AP to attack. Drones take no activations of their own; the alternation rhythm is untouched. They are tiny Shells — Value, Absorb, Frame HP — and the full damage pipeline applies (see Attacks & the Shell Clock)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Chassis",
+        "Value / Absorb / Frame HP",
+        "Function"
+      ],
+      "rows": [
+        [
+          "<strong>Spotter</strong>",
+          "1 / 0 / 4",
+          "Holds position, grants line of sight, marks (with Spotter Protocol)"
+        ],
+        [
+          "<strong>Stinger</strong>",
+          "1 / 0 / 4",
+          "Attack: d10 accuracy, 1d6 <strong>Pierce</strong>"
+        ],
+        [
+          "<strong>Patch</strong>",
+          "1 / 0 / 4",
+          "Carries one consumable; delivers it on command"
+        ],
+        [
+          "<strong>Mule</strong>",
+          "2 / 1 / 8",
+          "2 cargo slots — walks the loot out"
+        ],
+        [
+          "<strong>Bumper</strong>",
+          "2 / 1 / 8",
+          "Body-blocker: occupies space and counts as an obstacle for cover"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The action tax, printed: an enemy spending its activation killing a 6-Frame drone traded a turn of player-directed violence for a 300-credit toy. Sometimes that's the drone's whole job."
+    },
+    {
+      "type": "paragraph",
+      "text": "Electronic warfare is gear, not augments: jammer spikes, glare bombs, and intrusion decks live in the Mods catalog (see Mods), and the item master wields them best. One augment below — Overcharged Cells — sharpens them."
+    },
+    {
+      "type": "paragraph",
+      "text": "The creditor texture: Systems' creditor is the supplier. Every mission ends in a restock bill, and famine — long missions, lost packs, gear-stripping encounters — is the tree's native counter. Scrapwright is the survival valve, not the engine."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "COUNTERPLAY",
+      "text": "What this tree cannot fix:",
+      "items": [
+        "Famine: burn the supplies and the class burns with them.",
+        "Drones die to a stiff breeze.",
+        "The medic outpaces fodder and loses to elites.",
+        "A wrong shopping list — Shell Splints for a Bloom fauna hunt, jammer spikes in the wild — is a build that failed in the shop, not the fight. The intel layer is this class's first roll."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Requisition manifests are binding once the airlock cycles. Contractors who discover mid-mission that they packed for a different mission are encouraged to reflect on the intel they declined to purchase."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Drone chassis are gear catalog entries, but no purchase prices are printed in the Phase 7 docs — the action-tax line implies roughly 300 cr for a light chassis, and no catalog confirms or itemizes it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tier chassis, requirements, and the install ladder live on Trees Overview. Install costs below are per augment at that tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Tier 1 — Entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Field Harness",
+          "cost": "250 cr",
+          "effect": "3 prep slots; items in your prep slots are tuned and cost 1 AP to use."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Tier 2 — Kitbash / Marionette",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Triage Algorithms (Kitbash)",
+          "cost": "500 cr",
+          "effect": "Your medpacks heal +2 and can be administered at Close — launched, slapped, thrown with love. Base medpack stats — see Consumables & Ammo."
+        },
+        {
+          "name": "Cook-Off (Kitbash)",
+          "cost": "500 cr",
+          "effect": "Your grenades apply +1 stack of their rider condition."
+        },
+        {
+          "name": "Control Rig (Marionette)",
+          "cost": "500 cr",
+          "effect": "Operate 1 active drone."
+        },
+        {
+          "name": "Spotter Protocol (Marionette)",
+          "cost": "500 cr",
+          "effect": "Your Spotter's mark grants the squad +1 accuracy against the marked target until your next turn."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Tier 3 — Kitbash / Marionette",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Double-Tap Dispenser (Kitbash)",
+          "cost": "800 cr",
+          "effect": "Medpacks in your prep slots hold 2 uses."
+        },
+        {
+          "name": "Scrapwright (Kitbash)",
+          "cost": "800 cr",
+          "effect": "2 AP plus a salvage charge: fabricate a one-use Tier-1 consumable mid-mission. Tech Check — full: it works; partial: it works, with a quirk; fail: the scrap is spent. Makeshift gear, formalized."
+        },
+        {
+          "name": "Shell Splint (Kitbash)",
+          "cost": "800 cr",
+          "effect": "2 AP, touch, consumes repair paste: restore 1d6+2 Armor HP. No permanent-consequence roll."
+        },
+        {
+          "name": "Twin Link (Marionette)",
+          "cost": "800 cr",
+          "effect": "Operate 2 active drones."
+        },
+        {
+          "name": "Remote Surgeon (Marionette)",
+          "cost": "800 cr",
+          "effect": "Your Patch-chassis drones deliver your medpacks and Shell Splint at range — your AP, their position. The healer's reach."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Tier 4 — Kitbash / Marionette",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Overcharged Cells (Kitbash)",
+          "cost": "1,200 cr",
+          "effect": "Your EW gear — jammer spikes, glare bombs, intrusion decks — forces its contests at disadvantage for the target. The gear itself — see Mods."
+        },
+        {
+          "name": "Best Tool Doctrine (Kitbash)",
+          "cost": "1,200 cr",
+          "effect": "Once per turn, one prep-slot item costs 0 AP."
+        },
+        {
+          "name": "Swarm Logic (Marionette)",
+          "cost": "1,200 cr",
+          "effect": "Once per round, one drone command costs 0 AP."
+        },
+        {
+          "name": "Hardened Frames (Marionette)",
+          "cost": "1,200 cr",
+          "effect": "Your drones gain +1 Value and +4 Frame HP."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Tier 5 — Capstones",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Walking Depot (Kitbash capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. +3 prep slots, and once per fight use two prep-slot items as a single 2 AP action."
+        },
+        {
+          "name": "Foreman Protocol (Marionette capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Operate 3 active drones, and destroyed drones rebuild free from their wreckage at any rest node."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Lost, damaged, or improvised equipment remains the financial responsibility of the contractor. The depot restocks at dawn. The depot always restocks at dawn."
     }
   ]
 }

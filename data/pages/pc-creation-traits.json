@@ -5,17 +5,89 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Intake physical complete. Distinguishing features recorded. Everything is a distinguishing feature.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Pick exactly one trait at creation. Every trait is two-sided: the gift and the ledger line print together, and neither comes alone."
+    },
+    {
+      "type": "heading",
+      "text": "The Ten Traits"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Trait",
+        "The gift",
+        "The ledger line"
+      ],
+      "rows": [
+        [
+          "<strong>Genius</strong>",
+          "Interface skills earn +1 LP per study period (The Twelve Skills).",
+          "A failed Check with real stakes leaves you Rattled (Conditions). <em>The mind that won't stop, won't stop.</em>"
+        ],
+        [
+          "<strong>Margin-Born</strong>",
+          "Streetwise rolls at advantage in the margins.",
+          "Dome scanners always look twice."
+        ],
+        [
+          "<strong>Corp Crèche</strong>",
+          "One corp grants you Established-rank access (Professions Overview).",
+          "That corp's file on you is <em>complete</em>."
+        ],
+        [
+          "<strong>Heavy Frame</strong>",
+          "+2 HP.",
+          "Every armor's EV cap is −1 for you (Armor)."
+        ],
+        [
+          "<strong>Rift-Touched</strong>",
+          "+1 on Checks resisting Charge effects.",
+          "Your Saturation floor starts at 5 (Charge & Saturation). <em>You were always a little ahead of the bill.</em>"
+        ],
+        [
+          "<strong>Survivor</strong>",
+          "Start with one scar and its story; it carries no debuff (Scars).",
+          "Your clean death is already spent (The Staircase)."
+        ],
+        [
+          "<strong>Old Hands</strong>",
+          "One technique free at creation (Techniques).",
+          "Stat training past 8 costs +25% (Stats & Growth). <em>The body learned early and aged honestly.</em>"
+        ],
+        [
+          "<strong>Pack Animal</strong>",
+          "Beasts' fear Checks near you roll at advantage.",
+          "Their appetites notice you too: +25% upkeep."
+        ],
+        [
+          "<strong>Ledger Mind</strong>",
+          "Perfect recall of numbers, terms, and contracts.",
+          "Corps flag people who remember too well."
+        ],
+        [
+          "<strong>Restless</strong>",
+          "You may always claim your side's last activation slot — the closer (Turn, AP & Reactions).",
+          "Downtime rest restores one less."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Restless's ledger line — \"downtime rest restores one less\" — restates the source exactly. The rebuild docs never define the downtime rest verb or the unit it restores."
+    },
+    {
+      "type": "paragraph",
+      "text": "Traits don't train, upgrade, or trade away — what you disclosed at intake is what the file says forever."
+    },
+    {
+      "type": "blockquote",
+      "text": "Thank you for disclosing. Your gift has been recorded as an asset. Your ledger line has been recorded as collateral."
     }
   ]
 }

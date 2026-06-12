@@ -5,17 +5,262 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>The catalog is open. The hardware is licensed, the surgery is scheduled, and the financing options are extensive.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "An augment tree is a catalog of installable hardware built around one way of fighting. There are ten. Each runs roughly twenty augments deep across five tiers, splits into two named branches, and carries its capstones at the top — mastering a tree means choosing what to become, not finishing a checklist."
+    },
+    {
+      "type": "paragraph",
+      "text": "You buy augments with credits and install them. Tiers unlock as the number of augments you hold in that tree climbs. The chassis below is the same for every tree."
+    },
+    {
+      "type": "blockquote",
+      "text": "Your augmentation pathway has been pre-approved. Financing terms reflect your projected survival. Congratulations on your continued eligibility."
+    },
+    {
+      "type": "heading",
+      "text": "The Tier Chassis"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every tree runs on one five-tier chassis. A tier unlocks when you have installed the listed number of augments in that tree, and every augment of a given tier costs the same to install, in any tree, in either branch."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Unlocks at",
+        "Install cost"
+      ],
+      "rows": [
+        [
+          "T1",
+          "Entry",
+          "250 cr"
+        ],
+        [
+          "T2",
+          "1 augment installed",
+          "500 cr"
+        ],
+        [
+          "T3",
+          "3 augments installed",
+          "800 cr"
+        ],
+        [
+          "T4",
+          "6 augments installed",
+          "1,200 cr"
+        ],
+        [
+          "T5",
+          "10 augments installed",
+          "2,000 cr"
+        ]
+      ]
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Tier 5 is mastery</strong> — passive, always-on. The tree's capstones live here."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The density standard:</strong> each tree runs about twenty augments deep, so reaching Tier 5 — ten installed — means choosing ten of the catalog. Two masters of the same tree arrive in different bodies."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Capstones:</strong> every tree ships two; some catalogs carry an alternate on top, so even mastery is a choice."
+    },
+    {
+      "type": "paragraph",
+      "text": "A full mastery path lands around 8,000–8,500 credits installed — on the same scale as peak-human training and a profession Name. See The Anchor Table."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Whether a master can install more than one of a tree's capstones is not specified in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "How Branches Work"
+    },
+    {
+      "type": "paragraph",
+      "text": "Each tree opens with a shared entry augment and splits into two named branches — two philosophies of the same identity. Branches organize the catalog; they do not gate it. Tier unlocks count every augment you hold in the tree, whichever branch it came from, and a path that borrows from both is still one path. Build identity lives in the path, not the destination."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trade-off purchases.</strong> Some augments carry the word trade-off in their effect: a real, trackable cost is part of the purchase — a scar a mission, extra heat per Burn. The cost is not flavor. Track it."
+    },
+    {
+      "type": "heading",
+      "text": "Ceilings — Each Tree Owns Exactly One"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stacking caps govern how far any bonus can be pushed; the global caps and the full price list live on Power Budget &amp; Price List in the Annex. Above those caps, each tree owns exactly one ceiling — the one thing it is allowed to do better than anyone. No tree owns two."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tree",
+        "Ceiling"
+      ],
+      "rows": [
+        [
+          "<strong>Fury</strong>",
+          "Accuracy +3 (at 3+ scars)"
+        ],
+        [
+          "<strong>Fortress</strong>",
+          "RP +3"
+        ],
+        [
+          "<strong>Leech</strong>",
+          "Extra damage dice +2"
+        ],
+        [
+          "<strong>Dancer</strong>",
+          "Evasion +3, and removal of armor's Evasion cap"
+        ],
+        [
+          "<strong>Shadow</strong>",
+          "Structural — temporal (the Opener)"
+        ],
+        [
+          "<strong>Sin Eater</strong>",
+          "Structural — allies' suffering"
+        ],
+        [
+          "<strong>Channeler</strong>",
+          "Structural — the only renewable weapon pool"
+        ],
+        [
+          "<strong>Systems</strong>",
+          "Structural — inventory"
+        ],
+        [
+          "<strong>Precision</strong>",
+          "Structural — the wallet"
+        ],
+        [
+          "<strong>Influence</strong>",
+          "Structural — headcount"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "The Ten Trees"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tree",
+        "Branches",
+        "Engine",
+        "Counter"
+      ],
+      "rows": [
+        [
+          "<strong>Fury</strong>",
+          "Wrath / Carnage",
+          "Damage-taken escalation, kill chains, and the scar ladder",
+          "Range, armor, starvation diets"
+        ],
+        [
+          "<strong>Fortress</strong>",
+          "Bastion / Warden",
+          "Movement denial — pins, entry triggers, The Wall",
+          "Volume (RP exhausts), range, shoves"
+        ],
+        [
+          "<strong>Leech</strong>",
+          "Furnace / Parasite",
+          "Burn turns heat into dice; Offload turns Charge into direct damage through a grapple",
+          "The bill, range, disciplined squads"
+        ],
+        [
+          "<strong>Dancer</strong>",
+          "Tempest / Quicksilver",
+          "Dual Swing's home; Evasion that must keep moving; flurry riders",
+          "Crits (“past EV 11 heavies pray — prayer auto-hits”), knives, grapples, clusters"
+        ],
+        [
+          "<strong>Shadow</strong>",
+          "Viper / Ricochet",
+          "The Opener — strike before they activate; the hit buys the run; the kiting tax",
+          "Fortress wins the Bumper Duel at the door (entry triggers)"
+        ],
+        [
+          "<strong>Sin Eater</strong>",
+          "Confessor / Penance",
+          "Eats conditions off allies and carries them as Sins; the Wither Mark; the Scapegoat",
+          "Range, high Grit, condition overflow; useless alone"
+        ],
+        [
+          "<strong>Channeler</strong>",
+          "Ordnance / Current",
+          "Weave banks rounds; Fire is clean; patterns are licensed IP and bootlegs jam",
+          "The bill twice over, capacity, theaters without prep"
+        ],
+        [
+          "<strong>Systems</strong>",
+          "Kitbash / Marionette",
+          "Prep slots and tuned items; both health bars; drones on owner AP",
+          "Famine — no supplies, no class; the wrong shopping list"
+        ],
+        [
+          "<strong>Precision</strong>",
+          "Longeye / Payload",
+          "Abstract standard ammo, tracked specialty rounds, and the Extreme-band theater",
+          "Band closure (the pinball), cover, poverty"
+        ],
+        [
+          "<strong>Influence</strong>",
+          "Handler / Warcaller",
+          "A beast with its own activation, own rolls, own treadmill; Calls; Override",
+          "Kill the beast or silence the voice; the pack threshold"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Counters, in Brief"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every tree's counters are printed on its own page — there is no lock in this catalog without a key. The doctrine every contractor learns first:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Heavies lose to Shadow. Shadow loses to Fortress. Fortress loses to volume and range.</strong>"
+    },
+    {
+      "type": "bullet",
+      "text": "Know the theater before you pick the specialist."
+    },
+    {
+      "type": "paragraph",
+      "text": "The full set of standing doctrine lives on The Printed Lines."
+    },
+    {
+      "type": "heading",
+      "text": "The Creditor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Power has a bill. Every tree pays a creditor — the reaper, the doc, the armorer, the vet — and each tree's page names its own in plain terms. Who collects, and the going rates, live on The Creditor Table."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "READING A TREE PAGE",
+      "text": "Each tree page prints its full catalog — names, install costs, effects — plus its engine numbers and its printed counters. Install costs follow the ladder on this page. Where a tree leans on a core rule (Dual Swing, the activation order, Charge, the Fate Roll), the rule lives on its core page and the tree only points at it."
     }
   ]
 }

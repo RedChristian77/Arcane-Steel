@@ -1,21 +1,204 @@
 {
   "id": "pc-techniques",
   "title": "Techniques",
-  "subtitle": "Printed moves and where they come from",
+  "subtitle": "The shared catalog: soldier fundamentals",
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Excerpted from a Sentinel Systems training annex, contractor curriculum. The maneuvers below are certified for general instruction. Sentinel Systems certifies the maneuver — not the instructor, the student, or the outcome.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Three layers, three questions: your kit is who trained you, your tree is what you're becoming, and <strong>techniques</strong> are what any veteran can learn. A technique is a trained move any contractor can buy — squad craft, weapon handling, body mechanics. The catalog is kit-agnostic: anyone buys anything, prerequisites run by tier, and each move exists exactly once."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE CEILING",
+      "text": "A technique is never damage, never a tree's identity verb, and never more than +1 of any capped currency — conditional only. Trees own identity; techniques own fundamentals."
+    },
+    {
+      "type": "heading",
+      "text": "Learning a Technique"
+    },
+    {
+      "type": "paragraph",
+      "text": "Techniques are bought with credits and downtime, in three rungs. Learning requires an instructor — see Training Sources below."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Rung",
+        "Cost",
+        "Downtime"
+      ],
+      "rows": [
+        [
+          "Trained",
+          "300 cr",
+          "1 period"
+        ],
+        [
+          "Advanced",
+          "600 cr",
+          "2 periods"
+        ],
+        [
+          "Master",
+          "1,000 cr",
+          "3 periods"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Same-rung doubling.</strong> Each additional technique you buy at the same rung doubles in cost, purchase over purchase."
+    },
+    {
+      "type": "paragraph",
+      "text": "At creation, your kit includes one technique from this catalog (see Kits), and the Old Hands trait grants one free (see Traits). There is no other catalog — kit techniques and bought techniques are the same moves."
+    },
+    {
+      "type": "heading",
+      "text": "Training Sources"
+    },
+    {
+      "type": "paragraph",
+      "text": "Who teaches you sets the price. The multiplier applies to the rung's cost."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Source",
+        "Rate",
+        "The fine print"
+      ],
+      "rows": [
+        [
+          "Corporate Program",
+          "×1.0",
+          "Documented. T4 needs corp rep."
+        ],
+        [
+          "Freelance Instructor",
+          "×1.2",
+          "—"
+        ],
+        [
+          "Undercity Trainer",
+          "×0.8",
+          "Dirtier."
+        ],
+        [
+          "Faction Specialist",
+          "×1.5",
+          "Strings attached."
+        ],
+        [
+          "Self-Taught",
+          "×0.5",
+          "T2-equivalent only; triple downtime."
+        ],
+        [
+          "Crew Mentorship",
+          "×0.7",
+          "A crewmate who knows it can teach it."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "items": [
+        "“Prerequisites are tier-based” is stated but never specified — whether an Advanced or Master purchase requires lower-rung techniques, or anything beyond cost and instructor, is unprinted.",
+        "The training-sources table carries pre-rebuild tier labels (“T4 needs corp rep”, “T2-equivalent only”) that do not map onto the three-rung Trained/Advanced/Master ladder. Restated verbatim pending a mapping.",
+        "Disengage is filed as a core action (2 AP, move 1 band, no reaction triggers) and belongs to Turn, AP & Reactions; that page does not yet print it. Slip Step modifies it."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Enrollment in a Corporate Training Program includes full documentation of every skill acquired. This documentation remains the property of the issuing corporation — as does, in the relevant sense, the skill."
+    },
+    {
+      "type": "heading",
+      "text": "Trained Techniques — 300 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Quick Draw (Passive):</strong> Swapping weapons costs 0 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Slip Step (Passive):</strong> Your Disengage covers 2 bands. Disengage — see Turn, AP & Reactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Steady Aim (Passive):</strong> If you haven't moved this turn, your first ranged attack gains +1 accuracy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cover Discipline (Passive):</strong> While you are stationary in cover, its bonus improves by +1."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stretcher Drill (Passive):</strong> Dragging a downed body costs 1 AP per band instead of stopping your movement."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wrestler (Passive):</strong> Your successful grapples may also drag the target 1 band."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Jam Drill (Passive):</strong> Clearing a jammed weapon costs 0 AP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>War Face (Active, 1 AP):</strong> Once per fight: contest your Edge against a Flesh-class enemy's Grit. Win, and they are Rattled."
+    },
+    {
+      "type": "heading",
+      "text": "Advanced Techniques — 600 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Suppression Doctrine (Passive):</strong> Your Suppress zone also imposes −1 Evasion."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Shield Wall (Passive):</strong> While you carry a shield, one adjacent ally shares your cover bonus."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bounding Drill (Passive):</strong> When you end your turn with 2+ banked AP, one ally in Close gains +1 Evasion until your next turn — you're watching their lane."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Combat Triage (Passive):</strong> Using a medpack on someone else costs −1 AP, to a floor of 1. Stacks with nothing."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Breacher's Step (Passive):</strong> Moving through a doorway, breach, or choke doesn't trigger Dread Presence-style movement taxes — the toll, not the reaction. Reaction attacks still apply."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Iron Lungs (Passive):</strong> The first Charge you gain each encounter from the environment — not from your own verbs — is ignored."
+    },
+    {
+      "type": "heading",
+      "text": "Master Techniques — 1,000 cr"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Anchor Point (Passive):</strong> After 2+ consecutive stationary turns, your ranged attacks ignore the Extreme-band penalty and light cover."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Dead Calm (Passive):</strong> Once per fight, when you would be Rattled, you simply aren't."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Veteran's Economy (Passive):</strong> Once per round, one quick action costs 0 AP."
     }
   ]
 }

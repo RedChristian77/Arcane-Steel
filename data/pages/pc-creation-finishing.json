@@ -5,17 +5,68 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Final assembly checklist. Initial each line. Lines without initials are still binding.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Résumé, trait, kit, stats — picked. This page turns the picks into a sheet."
+    },
+    {
+      "type": "heading",
+      "text": "The Checklist"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Stats.</strong> Write your five stats and their bonuses from the one bonus table on Stats & Growth. (The starting array itself is an open gap — flagged on Creation Overview.)"
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Skills.</strong> Mark the two Tier 1s your résumé granted and note each tier's feature pick (The Twelve Skills). Every other skill rolls untrained — The Two Rolls shows what that means."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Trait.</strong> Record both halves — the gift and the ledger line (Traits). Where it changes a number — Heavy Frame's +2 HP, Rift-Touched's Saturation floor, Survivor's scar — apply it now."
+    },
+    {
+      "type": "numbered",
+      "num": 4,
+      "text": "<strong>Kit.</strong> List your gear loadout; weapon and armor stats come from Weapons and Armor, ammo rules from Consumables & Ammo. Record your free entry augment — its effect is printed on its tree's page — and your technique (Techniques)."
+    },
+    {
+      "type": "numbered",
+      "num": 5,
+      "text": "<strong>Credits.</strong> Your starting credits are your résumé's credit line, printed on Résumés."
+    },
+    {
+      "type": "numbered",
+      "num": 6,
+      "text": "<strong>Derived numbers.</strong> Evasion comes from Edge and Reflex, capped by your armor — the formula lives on Attacks & the Shell Clock. AP and RP are per-turn currencies, not sheet boxes: Turn, AP & Reactions."
+    },
+    {
+      "type": "numbered",
+      "num": 7,
+      "text": "<strong>Tracks.</strong> Charge starts at 0. Saturation starts at 0 — Rift-Touched starts the floor at 5 (Charge & Saturation). Scars start at 0 — Survivor starts with 1 (Scars). And write the standing line on the sheet: it's as real as the gear."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Starting HP is not printed anywhere in the rebuild docs — neither the base value nor the stat it keys off (the stat-mapping side of this gap is also flagged on Stats & Growth). Heavy Frame's +2 HP currently has nothing defined to add to."
+    },
+    {
+      "type": "heading",
+      "text": "What the Money Does Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Day one is the cheap part. Where mission pay goes — stat training (Stats & Growth), augment installs (Trees Overview), techniques (Techniques) — and what a whole career costs are laid out on The Anchor Table and The Creditor Table."
+    },
+    {
+      "type": "blockquote",
+      "text": "Retain a copy of the completed sheet for your records. The corp retains the original. The original is the version that's true."
     }
   ]
 }

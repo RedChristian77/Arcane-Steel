@@ -5,17 +5,175 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Patterns load like guns. In this world, that has never been a metaphor.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Channeler is the caster, and casting is two acts. <strong>Weaving</strong> is the expensive one — the roll, the heat, the risk — and it banks a pattern as stored <strong>rounds</strong>. <strong>Firing</strong> spends a round as a cheap, clean action. One cast goes a long way; the burn happens once."
+    },
+    {
+      "type": "paragraph",
+      "text": "This page is the tree. The casting grammar lives on Weave & Fire, the pattern catalog and licensing on Patterns, and the bill — Charge now, Saturation forever — on Charge & Saturation."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "Interface — it aims the Weave, the trigger, and sizes the magazine. Grit sizes the free vent that keeps the bill survivable.",
+      "theme": "The licensed gun: weave-then-fire, banked rounds, corporate IP in the chamber.",
+      "design": "No stat ceiling — the ceiling is structural: the only renewable weapon pool in the game."
+    },
+    {
+      "type": "heading",
+      "text": "How it plays"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Arrive loaded.</strong> Rounds persist until fired, so a working Channeler weaves in downtime and at rest nodes and walks into the mission at capacity. Weaving mid-fight is hot work — costlier in Charge, riskier the hotter you already run — so the tree's worst turn is a choice, never bookkeeping: run dry, or weave under fire."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Ordnance</strong> makes the gun bigger: deeper magazines, hotter loads, crit beats, siege work. <strong>Current</strong> makes the bill smaller: better venting, cooler weaves, and the squad-battery trick of loaning a round to someone else's gear."
+    },
+    {
+      "type": "paragraph",
+      "text": "The creditor texture: the Channeler pays two creditors at corporate rates (see The Creditor Table) — the armorer's bill in licenses and rounds, and the doc's bill in detox. Power now; the body invoices later."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "COUNTERPLAY",
+      "text": "What this tree cannot fix:",
+      "items": [
+        "The bill, twice — every weave is Charge, every license is credits, and both compound.",
+        "Capacity — the magazine has a ceiling, and a long fight outlasts a short loadout.",
+        "Theaters without prep — no rest nodes, no downtime, no reload logistics: a Channeler who couldn't prepare is a contractor holding an empty gun."
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Pattern licenses are non-transferable and survive neither resale nor death. Rounds woven under an expired license are classified as counterfeit ordnance. Disposal teams bill the estate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tier chassis, requirements, and the install ladder live on Trees Overview. Install costs below are per augment at that tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Tier 1 — Entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Rift Conduit",
+          "cost": "250 cr",
+          "effect": "Unlocks Weaving and the pattern catalog: you can bank rounds and fire them. The Weave and Fire procedure and your round capacity — see Weave & Fire. The patterns themselves — see Patterns. The hardware that makes you a magazine."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Tier 2 — Ordnance / Current",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Deep Magazine (Ordnance)",
+          "cost": "500 cr",
+          "effect": "Round capacity +2."
+        },
+        {
+          "name": "Twin Press (Ordnance)",
+          "cost": "500 cr",
+          "effect": "Full-success Weaves bank +1 round."
+        },
+        {
+          "name": "Grounding Mesh (Current)",
+          "cost": "500 cr",
+          "effect": "Your free vent at encounter's end is Grit bonus +1."
+        },
+        {
+          "name": "Field Loom (Current)",
+          "cost": "500 cr",
+          "effect": "Weaving at rest nodes rolls with advantage."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Tier 3 — Ordnance / Current",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Snap Fire (Ordnance)",
+          "cost": "800 cr",
+          "effect": "Once per turn, firing a Tier-1 pattern costs −1 AP (minimum 1)."
+        },
+        {
+          "name": "Overpressure (Ordnance)",
+          "cost": "800 cr",
+          "effect": "Trade-off. When you Weave, you may load the rounds hot: they deal +1 damage die when fired, and you take +1 Charge at weave time per round loaded."
+        },
+        {
+          "name": "Coolant Bleed (Current)",
+          "cost": "800 cr",
+          "effect": "Once per fight, 1 AP: shed 2 Charge. It steams."
+        },
+        {
+          "name": "Lending Coil (Current)",
+          "cost": "800 cr",
+          "effect": "Weave a round into an ally's gear; they fire it with their own AP. One lent round at a time. The squad battery."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Tier 4 — Ordnance / Current",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Resonant Rounds (Ordnance)",
+          "cost": "1,200 cr",
+          "effect": "Your targeted patterns gain +1 crit beat."
+        },
+        {
+          "name": "Siege Lattice (Ordnance)",
+          "cost": "1,200 cr",
+          "effect": "Shatter-class patterns count punch-through triple against Armor HP."
+        },
+        {
+          "name": "Stable Loom (Current)",
+          "cost": "1,200 cr",
+          "effect": "Your in-combat Weaves don't take the +1 hot-work Charge."
+        },
+        {
+          "name": "Storm Sink (Current)",
+          "cost": "1,200 cr",
+          "effect": "Once per fight, when a pattern or Charge effect hits you, halve it and gain 1 Charge."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Tier 5 — Capstones",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Barrage Protocol (Ordnance capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Once per fight, fire two different patterns as a single 4 AP action."
+        },
+        {
+          "name": "Living Current (Current capstone)",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Your free vent doubles, and once per mission convert up to 3 Charge into rounds of a Tier-1 pattern you know. Heat into ammunition — the cycle, closed."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Thank you for choosing licensed weaving. Your conduit telemetry has been received. Your Saturation projection is available on request, and will be either way."
     }
   ]
 }

@@ -5,17 +5,170 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Armor is a clock you wear. Every fight winds it down; every invoice winds it back up.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Armor brings three numbers and a ceiling: <strong>Value</strong> (hardness — sets the bounce gate), <strong>Absorb</strong> (padding — routes punch-through away from flesh), <strong>Armor HP</strong> (the shell's own health bar), and an <strong>Evasion cap</strong> (heavier shells cap how high your Evasion can sit). How damage moves through all four is the Shell Clock, and it lives on Attacks & the Shell Clock. This page owns the ladder."
+    },
+    {
+      "type": "heading",
+      "text": "The ladder"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Armor",
+        "Value",
+        "Absorb",
+        "Armor HP",
+        "Evasion cap",
+        "Price"
+      ],
+      "rows": [
+        [
+          "Padded Jacket",
+          "1",
+          "0",
+          "6",
+          "—",
+          "50 cr"
+        ],
+        [
+          "Light Weave",
+          "2",
+          "0",
+          "8",
+          "9",
+          "150 cr"
+        ],
+        [
+          "Contractor Standard",
+          "3",
+          "1",
+          "12",
+          "8",
+          "400 cr"
+        ],
+        [
+          "Corp Tactical",
+          "4",
+          "2",
+          "14",
+          "7",
+          "800 cr"
+        ],
+        [
+          "Raid Mail",
+          "5",
+          "3",
+          "16",
+          "6",
+          "1,400 cr"
+        ],
+        [
+          "Heavy Plate",
+          "6",
+          "4",
+          "20",
+          "5",
+          "2,200 cr"
+        ],
+        [
+          "Siege Rig",
+          "7",
+          "6",
+          "26",
+          "4",
+          "4,000 cr"
+        ]
+      ]
+    },
+    {
+      "type": "bullet",
+      "text": "The Evasion formula and how the cap bites live on Attacks & the Shell Clock. “—” means uncapped."
+    },
+    {
+      "type": "bullet",
+      "text": "Every armor has 2 mod slots — the armor mod catalog lives on Mods."
+    },
+    {
+      "type": "heading",
+      "text": "Reading the ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Every tier answers a different question."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Contractor Standard and Corp Tactical</strong> are where the light blade's grind lane lives — medium shells are what knives chew through."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Raid Mail is a purchasable, knowable threshold:</strong> the grind dies at Value 5. Flurries stop mattering here."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Heavy Plate</strong> is a heavy two-hander's dedicated project — heavy weapons punch medium shells and crack heavy ones."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Siege Rig</strong> means bring Impact or a breach plan. Impact opens anything; Pierce never plays the armor game."
+    },
+    {
+      "type": "heading",
+      "text": "Breaking"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>At 0 Armor HP the shell breaks.</strong> All protection is gone — Value and Absorb stop existing, and until it is repaired the wearer takes hits as flesh: straight damage dice, no gate, no router (see Attacks & the Shell Clock). Breaking is catastrophic by design, and the repair economy fires the moment it happens."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Spall Liner mod softens the cliff for one round (see Mods)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "What happens to the Evasion cap when a shell breaks is unruled. The Spall Liner mod (“keep its EV cap and 1 Absorb until the end of the next round”) implies the cap is normally lost on break — but no doc states the baseline."
+    },
+    {
+      "type": "heading",
+      "text": "Field repair"
+    },
+    {
+      "type": "paragraph",
+      "text": "Field repair is what happens between fights, at a rest stop, with paste and field tools. <strong>Baseline field repair risks the permanent-consequence roll.</strong> Repair Paste restores 1d6 Armor HP and carries that risk (see Consumables & Ammo). Two things wave it, each in its own lane: <strong>Shell Splint</strong> (see Systems) and <strong>Warranty Work</strong> (see Tinkerer)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The permanent-consequence roll is referenced everywhere field repair appears — Repair Paste risks it, rest stops run field repair “with its existing permanent-consequence rules” — but no Phase 7 doc prints the roll itself: no procedure, no consequence table. The risk exists; its mechanics do not."
+    },
+    {
+      "type": "heading",
+      "text": "The repair bill"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Repair pricing scales off Armor HP restored</strong> — the deeper the crack, the longer the invoice. A broken shell is the expensive case: that is the reforge economy, and it fires every time a shell hits zero."
+    },
+    {
+      "type": "paragraph",
+      "text": "You can repair your own gear at material cost if you have the capability, the components, and the calendar — the Material Cost Law lives with the GM's economy pages. The person who does this for a living is the Tinkerer (see Tinkerer)."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "No repair or reforge price table exists in the Phase 7 docs — only the scaling principle (price scales with Armor HP restored). The numbers land with the economy pass."
+    },
+    {
+      "type": "blockquote",
+      "text": "Repair invoices itemize by hit point restored. Many contractors find reviewing them instructive: the shell remembers exactly what you got wrong, and so does billing."
     }
   ]
 }

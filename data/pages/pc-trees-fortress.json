@@ -5,17 +5,327 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>If you try to escape me, I'll punish you.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Fortress attacks like a normal character — there are zero offense amplifiers anywhere in this tree. Its entire budget is spent on reactions and space. The measure of a Fortress is not damage dealt and not damage soaked: it is <strong>ground the enemy didn't gain</strong>."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two branches hold it. <strong>Bastion</strong> is the point: nothing gets past me. <strong>Warden</strong> is the zone: you don't get to choose your target."
+    },
+    {
+      "type": "blockquote",
+      "text": "Perimeter integrity is a deliverable. Ground surrendered will be itemized on the after-action invoice."
+    },
+    {
+      "type": "tree-meta",
+      "stat_lean": "None printed — the budget here is RP, and RP is banked AP (see Turn, AP & Reactions).",
+      "theme": "Movement denial: pins, entry triggers, and a toll on every band.",
+      "design": "The measure is ground the enemy didn't gain. Zero offense amplifiers — the whole budget buys reactions and space."
+    },
+    {
+      "type": "heading",
+      "text": "The Engine — Buying What Already Exists"
+    },
+    {
+      "type": "paragraph",
+      "text": "Denial needs no new subsystem. Reaction attacks already cost weapon AP in RP and already trigger on enemy movement (Turn, AP &amp; Reactions). The Fortress simply buys more RP, cheaper reactions, broader triggers — and the one new verb, the <strong>pin</strong>: a reaction attack that lands on a moving enemy can end their movement where you caught them."
+    },
+    {
+      "type": "paragraph",
+      "text": "A normal character is not a wall; everything walks past. A Tier 2 Fortress at a doorway holds half of an entire squad, taxes the rest roughly nine enemy-rounds, and charges damage and a pin per crossing attempt."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The honest governor:</strong> the wall is RP-bound. Enough crossers exhaust the budget and the late ones leak through — by design. Choke points are the Fortress's natural habitat: the narrower the door, the further the budget stretches."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fortress pays in tempo. RP is banked AP — every reaction held in reserve is an action you didn't take on your own turn. The toll booth is funded by your initiative."
+    },
+    {
+      "type": "paragraph",
+      "text": "Against the Shadow, the door wins: hit-and-run protection keys to <em>after</em> the hit, and Gatekeeper collects <em>before</em> it. The Fortress wins the Bumper Duel at the threshold. Against the Dancer, Ghost Step slips the free-shift triggers and The Wall deletes the free shift entirely — that arms race is intended and printed in both trees."
+    },
+    {
+      "type": "heading",
+      "text": "Counterplay, Printed"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Range</strong> — the wall holds ground, not airspace."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Suppression</strong> — pin the pinner; the zone collapses while you're suppressed."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Shove and grapple</strong> — move the wall instead of passing it. Grapnel Hands is the arms race."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Volume</strong> — RP exhausts; the late crosser walks."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Bosses</strong> — poise tiers grant pin resistance."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Paying the toll</strong> — sometimes the damage and the pin are worth the position, and a smart enemy knows it."
+    },
+    {
+      "type": "heading",
+      "text": "The Catalog"
+    },
+    {
+      "type": "paragraph",
+      "text": "Install costs follow the standard ladder (Trees Overview). Tier 5 means choosing ten of the catalog below. Capstones are marked."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Shared entry",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Threat Lattice",
+          "cost": "250 cr",
+          "effect": "+1 RP. The lattice is watching."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Bastion Branch — The Point"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Bastion branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Brace",
+          "cost": "500 cr",
+          "effect": "Your melee reaction attacks cost 1 less RP (floor 1). Even the maul learns to wait."
+        },
+        {
+          "name": "Lockdown Servos",
+          "cost": "500 cr",
+          "effect": "When your reaction attack hits a moving enemy, their movement ends — pinned where you caught them."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Bastion branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Gatekeeper",
+          "cost": "800 cr",
+          "effect": "Your reaction triggers include enemies entering your reach, not just leaving it. The toll runs both directions."
+        },
+        {
+          "name": "Subdermal Plating",
+          "cost": "800 cr",
+          "effect": "Personal Absorb 1, under and independent of armor."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Bastion branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Toll Collector",
+          "cost": "1,200 cr",
+          "effect": "Your first reaction attack each round costs 0 RP."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Bastion branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "The Wall",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Enemies in your Adjacent cluster lose the free Adjacent-to-Close shift, and leaving your reach costs +1 AP per band. Your RP bonus rises to +3 — the Fortress ceiling."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Warden Branch — The Zone"
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Warden branch",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Dread Presence",
+          "cost": "500 cr",
+          "effect": "Enemies in your Adjacent cluster pay +1 AP on their first band move each turn. You are difficult terrain with opinions."
+        },
+        {
+          "name": "Challenge Mark",
+          "cost": "500 cr",
+          "effect": "1 AP: mark an enemy in Close. While it is in your reach envelope, its attacks against anyone but you grant you a reaction attack at 1 less RP. Not mind control — consequences."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Warden branch",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Intercept",
+          "cost": "800 cr",
+          "effect": "Reaction, 2 RP: when an ally in your Adjacent cluster takes a hit, the punch-through comes to you instead. Your armor, your problem."
+        },
+        {
+          "name": "Grapnel Hands",
+          "cost": "800 cr",
+          "effect": "Advantage on grapple and shove contests, and your grapples hold without re-rolling until the target wins a contest on their turn."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Warden branch",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "War Cry",
+          "cost": "1,200 cr",
+          "effect": "3 AP, once per fight: every enemy in Close immediately moves its Challenge Mark to you or eats a reaction attack. The room learns who owns it."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Warden branch — capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Warden's Court",
+          "cost": "2,000 cr",
+          "effect": "Capstone. Your zone extends to Close: allies inside it gain +1 EV, and Dread Presence taxes all movement in the zone, not just the first band."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Catalog Additions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The rest of the catalog, by tier."
+    },
+    {
+      "type": "tree-tier",
+      "tier": 1,
+      "title": "Additions",
+      "req": "Entry",
+      "augments": [
+        {
+          "name": "Anchor Spikes",
+          "cost": "250 cr",
+          "effect": "Advantage on contests resisting shoves and grapples."
+        },
+        {
+          "name": "Magnetized Soles",
+          "cost": "250 cr",
+          "effect": "Difficult terrain doesn't slow you."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 2,
+      "title": "Additions",
+      "req": "1 augment",
+      "augments": [
+        {
+          "name": "Kinetic Dampeners",
+          "cost": "500 cr",
+          "effect": "Forced movement against you is reduced by 1 band."
+        },
+        {
+          "name": "Echo Plate",
+          "cost": "500 cr",
+          "effect": "When you Intercept, the attacker takes 1 direct damage."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 3,
+      "title": "Additions",
+      "req": "3 augments",
+      "augments": [
+        {
+          "name": "Bracer Lock",
+          "cost": "800 cr",
+          "effect": "Enemies you have pinned have −1 EV until they escape."
+        },
+        {
+          "name": "Watchman Optic",
+          "cost": "800 cr",
+          "effect": "You cannot be flanked."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 4,
+      "title": "Additions",
+      "req": "6 augments",
+      "augments": [
+        {
+          "name": "Bulkhead Frame",
+          "cost": "1,200 cr",
+          "effect": "Your worn armor gains +4 Armor HP. The shell clock, bought longer."
+        },
+        {
+          "name": "Sentry Stims",
+          "cost": "1,200 cr",
+          "effect": "+1 RP. Counts toward the Fortress +3 RP ceiling."
+        }
+      ]
+    },
+    {
+      "type": "tree-tier",
+      "tier": 5,
+      "title": "Additions — alternate capstone",
+      "req": "10 augments",
+      "augments": [
+        {
+          "name": "Last Bastion",
+          "cost": "2,000 cr",
+          "effect": "Alternate capstone. While you are conscious, allies in your zone cannot be pinned or force-moved. The wall has a family."
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "text": "Reminder: contracted denial specialists are compensated for territory held, not casualties produced. Kill counts submitted for bonus consideration will be returned unread."
     }
   ]
 }

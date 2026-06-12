@@ -1,21 +1,172 @@
 {
   "id": "pc-creation-kits",
   "title": "Kits",
-  "subtitle": "What you carry",
+  "subtitle": "The day-one package",
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Issued equipment, schedule A. Sign here. The signature is for the inventory, not the warranty.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "A kit is who trained you — a starting bundle, not a progression. It costs nothing and it gates nothing."
+    },
+    {
+      "type": "heading",
+      "text": "What Every Kit Grants"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>A gear loadout.</strong> Weapons and armor by name — their stats live on Weapons and Armor."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The matching tree's entry augment, installed free.</strong> Its effect is printed on the tree's own page, where the rest of the tree waits."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>One technique from the catalog.</strong> The catalog, its costs, and its training sources live on Techniques."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>A recommended stat lean.</strong> Where the kit's training assumes your strengths sit. A recommendation, never a gate."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Whether the kit's free technique is limited by tier (Trained / Advanced / Master) or by the catalog's prerequisites is not specified in the rebuild docs — the grant reads simply \"one technique from the catalog.\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Two contractors with the same kit are the same character for about one mission. The kit hands out the entry augment; the tree does the diverging — two Berserkers stop playing alike by their third augment (Trees Overview)."
+    },
+    {
+      "type": "heading",
+      "text": "The Ten Kits"
+    },
+    {
+      "type": "kit-grid",
+      "kits": [
+        {
+          "icon": "🔥",
+          "name": "Berserker",
+          "lean": "Chrome / Grit",
+          "desc": "Trained to get stronger as the fight bites — taking hits and taking kills both feed the engine.",
+          "tree": "Fury",
+          "aug": "Adrenal Injector (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Heavy Axe, Contractor Std"
+        },
+        {
+          "icon": "🛡️",
+          "name": "Bulwark",
+          "lean": "Grit / Chrome",
+          "desc": "Trained to hold ground — pins, entry punishment, and a door that hits back.",
+          "tree": "Fortress",
+          "aug": "Threat Lattice (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Longsword, Corp Tactical, shield"
+        },
+        {
+          "icon": "🌀",
+          "name": "Channeler",
+          "lean": "Interface / Grit",
+          "desc": "Trained pattern-work — bank rounds before the fight, fire them clean during it.",
+          "tree": "Channeler",
+          "aug": "Rift Conduit (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Focus, 2 woven patterns, Light Weave"
+        },
+        {
+          "icon": "💃",
+          "name": "Dancer",
+          "lean": "Reflex / Edge",
+          "desc": "Trained to fight in motion — paired blades, and an Evasion that only exists while you move.",
+          "tree": "Dancer",
+          "aug": "Gyro Threads (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Paired blades, Light Weave"
+        },
+        {
+          "icon": "☣️",
+          "name": "Leech",
+          "lean": "Grit / Chrome",
+          "desc": "Trained to run hot — burn Charge into dice now, settle the bill after.",
+          "tree": "Leech",
+          "aug": "Leech Manifold (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Longsword, Contractor Std"
+        },
+        {
+          "icon": "🐺",
+          "name": "Handler",
+          "lean": "Edge / Grit",
+          "desc": "Trained beside a beast that takes its own turn — and trained as the voice that steers a squad's fight.",
+          "tree": "Influence",
+          "aug": "Pack Sense (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Sidearm, trained Char Hound or Call-kit"
+        },
+        {
+          "icon": "🎯",
+          "name": "Operative",
+          "lean": "Reflex / Interface",
+          "desc": "Trained for the Extreme-band theater — distance as home turf, and rounds that get counted for a reason.",
+          "tree": "Precision",
+          "aug": "Stable Platform (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Marksman Rifle, 4 specialty rounds"
+        },
+        {
+          "icon": "👤",
+          "name": "Phantom",
+          "lean": "Reflex / Edge",
+          "desc": "Trained for the approach — the Opener against anyone who hasn't acted yet.",
+          "tree": "Shadow",
+          "aug": "Adrenal Primer (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Knife and stiletto, Light Weave"
+        },
+        {
+          "icon": "😈",
+          "name": "Sin Eater",
+          "lean": "Grit / Interface",
+          "desc": "Trained to take what's hurting the squad and carry it as Sins.",
+          "tree": "Sin Eater",
+          "aug": "Open Gullet (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Implements, Contractor Std"
+        },
+        {
+          "icon": "⚙️",
+          "name": "Technician",
+          "lean": "Interface / Edge",
+          "desc": "Trained preparation — tuned items in prep slots, medicine for both health bars, a drone on your AP.",
+          "tree": "Systems",
+          "aug": "Field Harness (free)",
+          "ability": "One technique from the catalog — your pick (Techniques)",
+          "gear": "Sidearm, stocked prep slots, 1 drone"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Custom"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Custom:</strong> 1,200 cr of any legal loadout, plus any one tree's entry augment. No kit name, no preset gear — you build the day-one package yourself."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Custom's row in the source grants the budget and the tree entry only. Whether Custom also carries the free technique and recommended lean the ten listed kits include, and whether unspent loadout budget converts to starting credits, is not specified."
+    },
+    {
+      "type": "blockquote",
+      "text": "Kit issuance is complimentary. Equipment grade reflects projected first-quarter survival. Congratulations on your projection."
     }
   ]
 }
