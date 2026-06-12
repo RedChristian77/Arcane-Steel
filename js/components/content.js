@@ -140,7 +140,9 @@ function renderCallout(item) {
   if (item.label) {
     html += '<div class="c-callout-label">' + esc(item.label) + '</div>';
   }
-  html += '<div class="c-callout-text">' + item.text + '</div>';
+  if (item.text !== undefined && item.text !== null) {
+    html += '<div class="c-callout-text">' + item.text + '</div>';
+  }
   if (item.items && item.items.length) {
     html += '<ul class="c-callout-list">'
       + item.items.map(function(li) { return '<li>' + li + '</li>'; }).join('')

@@ -6,6 +6,33 @@ window._manifest = null;
 window._currentPage = 'home';
 let pageCache = {};
 
+/* --- Corp document system: book registry --- */
+window._books = {
+  player: { no: 'AS-100', label: 'CONTRACTOR ORIENTATION PACKET', cls: 'CONTRACTOR COPY' },
+  gm:     { no: 'AS-200', label: 'INTERNAL OPERATIONS MANUAL',    cls: 'RESTRICTED' },
+  annex:  { no: 'AS-300', label: 'ENGINEERING ANNEX',             cls: 'ENGINEERING MEMO' },
+  world:  { no: 'AS-400', label: 'REGIONAL ORIENTATION FILE',     cls: 'PUBLIC RECORD' },
+  meta:   { no: 'AS-900', label: 'DOCUMENT REGISTRY',             cls: 'REGISTRY' }
+};
+
+/* pageId -> { docNo, book } — derived from manifest order, never hand-numbered */
+window._docIndex = {};
+function buildDocIndex() {
+  const counters = {};
+  window._manifest.sections.forEach(section => {
+    const book = section.book || 'meta';
+    const base = (window._books[book] ? parseInt(window._books[book].no.slice(3), 10) : 900);
+    section.pages.forEach(page => {
+      counters[book] = (counters[book] || 0) + 1;
+      window._docIndex[page.id] = { docNo: 'AS-' + (base + counters[book]), book: book };
+      if (page.children) page.children.forEach(child => {
+        counters[book] = (counters[book] || 0) + 1;
+        window._docIndex[child.id] = { docNo: 'AS-' + (base + counters[book]), book: book };
+      });
+    });
+  });
+}
+
 function esc(text) {
   const d = document.createElement('div');
   d.textContent = text;
@@ -68,6 +95,9 @@ async function navigateTo(pageId) {
   main.classList.add('page-exit');
   await new Promise(r => setTimeout(r, 120));
 
+  const docMeta = window._docIndex[pageId];
+  document.body.dataset.book = (pageId === 'home') ? '' : (docMeta ? docMeta.book : 'meta');
+
   if (pageId === 'home') {
     main.innerHTML = renderHome(window._manifest);
   } else {
@@ -98,6 +128,7 @@ async function navigateTo(pageId) {
 document.addEventListener('DOMContentLoaded', async () => {
   restoreTheme();
   await loadManifest();
+  buildDocIndex();
   const hash = location.hash.replace('#', '');
   if (hash) window._currentPage = hash;
   await navigateTo(window._currentPage);

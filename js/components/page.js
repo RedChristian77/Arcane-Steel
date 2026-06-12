@@ -5,12 +5,24 @@
 function renderPage(pageData, manifest) {
   let html = '<div class="container">';
 
+  // --- Document banner (corp chrome) ---
+  const meta = window._docIndex[pageData.id];
+  if (meta) {
+    const book = window._books[meta.book] || window._books.meta;
+    html += '<div class="doc-banner">'
+      + '<span class="doc-banner-no">' + esc(meta.docNo) + '</span>'
+      + '<span class="doc-banner-book">' + esc(book.no + ' — ' + book.label) + '</span>'
+      + '<span class="doc-banner-class">' + esc(book.cls) + '</span>'
+      + '</div>';
+  }
+
   // --- Header ---
   html += '<div class="pg-hdr">';
   if (pageData.subtitle) {
     html += '<div class="pg-sub">' + esc(pageData.subtitle) + '</div>';
   }
   html += '<h1 class="pg-title">' + esc(pageData.title) + '</h1>';
+  html += '<div class="pg-rev">REV 2026.06 · GROUND-UP REBUILD · THIS PRINTING SUPERSEDES ALL PRIOR ISSUES</div>';
   html += '</div>';
 
   // --- Content ---

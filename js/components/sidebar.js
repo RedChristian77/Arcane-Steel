@@ -1,5 +1,5 @@
 /* ============================================================
-   SIDEBAR — Collapsible section groups with page links
+   SIDEBAR — File cabinet: book dividers + collapsible sections
    ============================================================ */
 
 // Track which sidebar sections are expanded
@@ -11,9 +11,21 @@ function renderSidebar(manifest, currentPageId) {
 
   let html = '<a class="nav-item' + (currentPageId === 'home' ? ' active' : '') + '" '
     + 'onclick="navigateTo(\'home\')">'
-    + '<span class="nav-ico">⌂</span> Home</a>';
+    + '<span class="nav-ico">⌂</span> Cover Sheet</a>';
 
+  let lastBook = null;
   manifest.sections.forEach((section, sIdx) => {
+    // Book divider when the book changes
+    const book = section.book || 'meta';
+    if (book !== lastBook) {
+      const bk = window._books[book] || window._books.meta;
+      html += '<div class="nav-book" data-book="' + esc(book) + '">'
+        + '<span class="nav-book-no">' + esc(bk.no) + '</span>'
+        + '<span class="nav-book-title">' + esc(bk.label) + '</span>'
+        + '</div>';
+      lastBook = book;
+    }
+
     const isActive = section.pages.some(p =>
       p.id === currentPageId || (p.children && p.children.some(c => c.id === currentPageId))
     );
@@ -78,14 +90,10 @@ function renderSidebar(manifest, currentPageId) {
     html += '</div>';
   });
 
-  // Builder link
+  // Builder link (legacy — built on pre-rebuild rules, pending dossier rebuild)
   html += '<a class="nav-item builder" href="builder.html">'
-    + '<span class="nav-ico">⚙</span> Character Builder</a>';
-
-  // Changelog link
-  html += '<a class="nav-item' + (currentPageId === 'changelog' ? ' active' : '') + '" '
-    + 'onclick="navigateTo(\'changelog\')">'
-    + '<span class="nav-ico">📋</span> Changelog</a>';
+    + '<span class="nav-ico">⚙</span> Character Builder'
+    + '<span class="nav-legacy">LEGACY</span></a>';
 
   nav.innerHTML = html;
 }
