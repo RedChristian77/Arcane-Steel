@@ -5,17 +5,107 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Business is business.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Fixer owns the <em>who</em>: contracts, introductions, and the price of knowing. The whole trade is built on Leverage — reading tags, manufacturing tags, converting tags into contract terms and cold calls. It bleeds from Negotiate and Streetwise, and it plugs directly into the squad's briefing states."
+    },
+    {
+      "type": "info-block",
+      "icon": "◎",
+      "title": "Fixer",
+      "subtitle": "The broker network",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "contracts & intel — the who"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Negotiate, Streetwise"
+        },
+        {
+          "label": "Work verb",
+          "value": "broker introductions and contracts (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "closing a negotiated deal on mission (+1 PP, max 1/mission)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Book (entry, 4 PP):</strong> opens the trade — you keep dossiers. Every Leverage tag you ever learn is recorded; once per scene, consult the Book for advantage against a known tag."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cold Caller (T2, 5 PP):</strong> your cold openings start at neutral even with hostile factions. Business is business."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Briefing Plus (T2, 6 PP):</strong> the squad's briefing starts one intel state higher on one node of your choice (intel states live on Intel). <em>Obligation: sources expect reciprocity — one favor owed per arc.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Percentage (T2, 5 PP):</strong> contracts you negotiate pay the squad +10%."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Tag Manufacture (T3, 7 PP):</strong> once per arc, <em>create</em> a permanent Leverage tag on a named NPC or faction — a debt, a secret, a dependency — through orchestrated play the GM prices."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Rolodex (T3, 6 PP):</strong> once per mission, you know a guy — vetted."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Seat at the Table (T3, 8 PP):</strong> contract offers come to <em>you</em>; the squad sees work one corp tier above its rep. <em>Obligation: being known to the table means the table knows you.</em>"
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The Fixer's tree runs on Leverage tags, created and spent through Negotiate features (see The Twelve Skills) — but the tag's own rules (what holding one does, and what it costs to be on the wrong end of one) are not printed anywhere in the rebuild docs."
+    },
+    {
+      "type": "heading",
+      "text": "What the Fixer touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The lane split:</strong> the Fixer owns <em>who</em>; the Guide owns <em>where</em> (see Guide)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Briefings:</strong> bought intel is one of the four intel faucets, and the Fixer is where the squad buys it (see Intel)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Build choice, three ways:</strong> Systems runs on Fixer intel instead of Tinkerer gear (see Systems); Precision loads what the Fixer says to load before you know you need it (see Precision); Influence buys trained where the Wrangler raises (see Influence)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Thank you for your introduction request. All introductions are logged for quality assurance. The party you are asking about has already asked about you."
     }
   ]
 }

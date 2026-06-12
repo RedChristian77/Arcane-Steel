@@ -5,17 +5,109 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Six hounds in a kennel is a business. Six hounds in a firefight is an incident.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Wrangler owns capture, training, and kennels — pack arithmetic as a living. The trade bleeds from Rift Lore and Awareness: anyone can calm a hound on an Awareness check; the Wrangler's hound <em>stays</em> trained, and the next one is already in the yard. The field is the office — live capture levels the trade."
+    },
+    {
+      "type": "info-block",
+      "icon": "❖",
+      "title": "Wrangler",
+      "subtitle": "Pack arithmetic, managed",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "fauna capture, training, kennels"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Rift Lore, Awareness"
+        },
+        {
+          "label": "Work verb",
+          "value": "train and board (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "live capture (+1 PP, max 1/mission)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Yard (entry, 4 PP):</strong> opens the trade — the Work verb and the field verb are yours."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Snare Kit (T2, 4 PP):</strong> below quarter HP, Flesh and Hide creatures can be taken alive (contested)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Kennel Logic (T2, 5 PP):</strong> board six peacefully — the arithmetic, managed — and swap the fielded beast freely between missions. The roster, formalized: keep ten, walk one."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Gentling Hands (T2, 6 PP):</strong> training tiers take −25% time (training tiers live on Influence)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Stock Sense (T2, 5 PP):</strong> trainability and temperament on sight."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Exotic License (T3, 7 PP):</strong> Bloom-stock handling, legally-ish. <em>Obligation: Green Cradle audits exotic holders.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Breaker of Bad Odds (T3, 6 PP):</strong> once per mission, one allied beast rerolls a failed fear or control Check."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Wrangler's Name (T3, 8 PP):</strong> trained stock sells double; corps commission captures."
+    },
+    {
+      "type": "heading",
+      "text": "What the Wrangler touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The beast itself</strong> — activation, orders, training tiers, the bond — lives on Influence. The profession owns the business; the tree owns the bond. A Handler who is also a Wrangler raises their own stock instead of buying it (see Influence)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The pack threshold:</strong> under threat, three or more beasts cross it — that math lives on Influence. Kennel Logic manages the boarding arithmetic, not the battlefield."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The vet's bills</strong> — and the only policy that covers the Fate Roll — live on The Creditor Table."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Build choice:</strong> Influence runs on Wrangler raise or Fixer buy (see Influence and Fixer)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Green Cradle wishes you success with your new acquisition. Containment standards are attached. Audit dates are not."
     }
   ]
 }

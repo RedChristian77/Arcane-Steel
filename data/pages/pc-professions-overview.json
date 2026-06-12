@@ -5,17 +5,216 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Paperwork outlives people. It was never yours.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Skills are what you can do. A Profession is what you are in the economy."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The lane law:</strong> a skill makes you able; a profession makes it pay. Skills are competence — anywhere, for anyone. A profession is position: a client list, a license, a name. Professions bleed into skills (prerequisites, contextual advantage) but never grant skill dice (skill dice live on The Twelve Skills)."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE TATTOO-ARTIST LAW",
+      "text": "A profession is fully portable. The name travels; premises don't exist. Walls belong to the squad's base, never to your trade (see The Base)."
+    },
+    {
+      "type": "heading",
+      "text": "Profession Points"
+    },
+    {
+      "type": "paragraph",
+      "text": "Profession Points (PP) are earned by doing the job, not by rolling for it. There are exactly two sources — the job levels the job:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+2 PP</strong> per downtime period spent on your trade's <strong>Work verb</strong> — which also pays credits (income, below)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>+1 PP</strong> when you exercise your trade's <strong>field verb</strong> on a mission, max 1 per mission. This is how Carvers, Wranglers, and Guides level — their workplace is the mission."
+    },
+    {
+      "type": "paragraph",
+      "text": "Perks are bought with PP — 4 to 8 PP each; a few also cost credits, because some kit is money <em>and</em> expertise. Each profession's page lists its perks, costs, and verbs."
+    },
+    {
+      "type": "heading",
+      "text": "Tiers — Sideline, Established, Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tiers unlock by perks owned, starting from the entry perk."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Tier",
+        "Rank",
+        "Unlock",
+        "What it means in the world"
+      ],
+      "rows": [
+        [
+          "T1",
+          "<strong>Sideline</strong>",
+          "entry perk (4 PP)",
+          "You do this for extra money"
+        ],
+        [
+          "T2",
+          "<strong>Established</strong>",
+          "2 perks owned",
+          "You have regulars and a reputation"
+        ],
+        [
+          "T3",
+          "<strong>Name</strong>",
+          "4 perks owned",
+          "The district knows. So do the corps."
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "ONE NAME",
+      "text": "Take as many Sidelines as your calendar survives, but T3 in one profession only — the world knows you as one thing."
+    },
+    {
+      "type": "heading",
+      "text": "Income"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Work verb pays per downtime work period, by rank — always beating the generic side job (100–200 cr, no PP), never beating the calendar."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Rank",
+        "Pay per work period"
+      ],
+      "rows": [
+        [
+          "Sideline",
+          "150–250 cr"
+        ],
+        [
+          "Established",
+          "350–550 cr"
+        ],
+        [
+          "Name",
+          "800–1,200 cr"
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "THE BALANCE LAW",
+      "text": "Every downtime period spent working your trade is a period not spent training for combat. Stats, skills, and Profession Points all eat the same scarce calendar."
+    },
+    {
+      "type": "paragraph",
+      "text": "Capstoning a profession runs ≈ 30–40 PP — about 15–20 dedicated downtime periods, the same order as training a stat from 4 to 10. Becoming a Name costs what peak human costs (see The Anchor Table)."
+    },
+    {
+      "type": "heading",
+      "text": "Obligations"
+    },
+    {
+      "type": "paragraph",
+      "text": "Several Established and Name perks carry an <strong>Obligation</strong> line — a standing expectation that comes with the perk and is part of its price. The cost of being known is being <em>known</em>. Each Obligation is printed with its perk."
+    },
+    {
+      "type": "blockquote",
+      "text": "Registry is a privilege. Licensed practitioners enjoy catalog access, dispute arbitration, and quarterly audit. Unregistered practitioners enjoy neither protection nor records, and are reminded that absence from the database is itself a data point."
+    },
+    {
+      "type": "heading",
+      "text": "Everything dies with the person"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Nothing transfers.</strong> Rank, perks, clients, and banked PP die with the character. The license was in their name — paperwork outlives people, and it was never yours."
+    },
+    {
+      "type": "heading",
+      "text": "The launch seven"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Profession",
+        "Owns",
+        "Bleeds from"
+      ],
+      "rows": [
+        [
+          "<strong>Tinkerer</strong>",
+          "repair &amp; mods — the shell clock's best friend",
+          "Tech"
+        ],
+        [
+          "<strong>Street Doc</strong>",
+          "scar treatment &amp; detox — the long bill",
+          "Medicine"
+        ],
+        [
+          "<strong>Fixer</strong>",
+          "contracts &amp; intel — the <em>who</em>",
+          "Negotiate, Streetwise"
+        ],
+        [
+          "<strong>Guide</strong>",
+          "routes &amp; maps — the <em>where</em>",
+          "Awareness, Rift Lore"
+        ],
+        [
+          "<strong>Carver</strong>",
+          "yield &amp; markets — what the kill is worth",
+          "Harvesting"
+        ],
+        [
+          "<strong>Wrangler</strong>",
+          "capture, training, kennels",
+          "Rift Lore, Awareness"
+        ],
+        [
+          "<strong>Rigger</strong>",
+          "vehicles &amp; transport",
+          "Tech"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The lane split, printed: <strong>the Fixer owns who; the Guide owns where.</strong> Baseline verbs live in skills — anyone can drive a truck on a Tech check, calm a hound on Awareness, field-dress a kill on Harvesting. Ownership and scale live in professions: the Rigger <em>has</em> the truck; the Wrangler's hound <em>stays</em> trained; the Carver's cuts <em>sell</em>."
+    },
+    {
+      "type": "heading",
+      "text": "Profession as build choice"
+    },
+    {
+      "type": "paragraph",
+      "text": "Three augment trees run on supply lines, and your trade decides which one feeds you:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Systems:</strong> Tinkerer gear or Fixer intel (see Systems)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Precision:</strong> Tinkerer handloads or Fixer load-knowledge (see Precision)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Influence:</strong> Wrangler raise or Fixer buy (see Influence)."
     }
   ]
 }

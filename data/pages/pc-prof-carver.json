@@ -5,17 +5,105 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>The same Bloomtusk is worth 800 to the right knife and 200 to the wrong one.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Carver owns yield and markets — what the kill is worth, and who pays full price for it. The trade bleeds from Harvesting: anyone can field-dress a kill on a Harvesting check; the Carver's cuts <em>sell</em>. The field is the office — Carvers level on mission, knife in hand."
+    },
+    {
+      "type": "info-block",
+      "icon": "✂",
+      "title": "Carver",
+      "subtitle": "Yield & markets",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "salvage yield & the materials market"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Harvesting"
+        },
+        {
+          "label": "Work verb",
+          "value": "process and sell stock (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "carving on mission (+1 PP, max 1/mission)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Knife Trade (entry, 4 PP):</strong> opens the trade — the Work verb and the field verb are yours."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Buyer's List (T2, 4 PP):</strong> best buyer and current prices, always."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Cold Lockers (T2, 5 PP + 400 cr):</strong> preservation clocks run ×2 in your kit (the clocks live on Carving)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Grade Stamp (T2, 6 PP):</strong> your goods sell +20% — the stamp means something. <em>Obligation: your name is now policeable, and counterfeits exist.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Offal Economy (T2, 5 PP):</strong> nothing wastes — every carve yields a bonus reagent lot."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Premium Channel (T3, 7 PP):</strong> graft-viable organ buyers, full price. <em>Obligation: those buyers know your route.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trophy Rights (T3, 6 PP):</strong> named kills yield a unique trophy component — crafting and graft seeds."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Carver's Name (T3, 8 PP):</strong> standing corp harvest commissions, one tier above rep."
+    },
+    {
+      "type": "heading",
+      "text": "What the Carver touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>What a carve yields</strong> — by body taxonomy, with the Harvesting Check and the three clocks (mission time, preservation, Capacity) — lives on Carving. The Carver's perks change what those yields are <em>worth</em>, not what they are."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Graft-viable organs</strong> are premium contraband; the biology lane lives on Mutations &amp; Grafts."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The cargo chain:</strong> carving creates cargo, cargo needs the van, and the van needs the Rigger — Capacity and transport live on Vehicles (see Rigger)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Lot inspected. Grade confirmed. The stamp on this consignment has been verified against the registry — counterfeit marks are prosecuted on behalf of the holder, whether or not the holder survives them."
     }
   ]
 }

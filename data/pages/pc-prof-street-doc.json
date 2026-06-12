@@ -5,17 +5,111 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Everyone walks out of the fight. The bill walks out with them.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Street Doc owns the long bill: scar treatment and detox — the two drains every contractor pays sooner or later. The trade bleeds from Medicine: the skill stabilizes a body; the profession is the practice that treats it afterward, at rates the squad can survive."
+    },
+    {
+      "type": "info-block",
+      "icon": "✚",
+      "title": "Street Doc",
+      "subtitle": "The long bill",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "scar treatment & detox"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Medicine"
+        },
+        {
+          "label": "Work verb",
+          "value": "treat walk-ins (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "stabilizing or treating on mission (+1 PP, max 1/mission)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Black Bag (entry, 4 PP):</strong> opens the trade — the practice travels with you."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>House Calls (T2, 4 PP):</strong> minor and moderate scars need no facility under your hands (scar severity and treatment live on Scars)."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Sliding Scale (T2, 5 PP):</strong> squad treatment −30%. <em>Obligation: the margin knows your door; refusing patients has consequences.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Detox Protocol (T2, 6 PP):</strong> your detox runs 30 cr per point and clears +1 Saturation per session."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "DETOX, PRICED",
+      "text": "Under a Street Doc with Detox Protocol, detox costs 30 cr per point of Saturation cleared, and each session clears one point more than standard care. Saturation itself lives on Charge & Saturation; the open-market provider ladder is priced on the GM's economy pages."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The Quiet Ward (T3, 7 PP):</strong> once per arc, treat a <em>severe</em> scar at Established facilities — the funnel bends for your hands."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Pharmacopoeia (T3, 6 PP):</strong> craft antidotes and stims at material cost (see The Material Cost Law); your stims add no Charge."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Doctor's Name (T3, 8 PP):</strong> one retainer client per arc — income and a hook. Corp medical boards have opened a file."
+    },
+    {
+      "type": "heading",
+      "text": "The Street Doc's lane"
+    },
+    {
+      "type": "paragraph",
+      "text": "The healing lanes split four ways, and the Street Doc owns what's left when the shooting stops:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Flesh in combat</strong> and <strong>shell in combat</strong> belong to the Systems tree (medpacks, Shell Splint — see Systems)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Conditions</strong> belong to the Sin Eater (see Sin Eater)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The long bill</strong> — scars and Saturation — belongs to the Street Doc and the Medicine skill (see Scars and Charge &amp; Saturation)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Your practitioner does not appear in the provider registry. Outcomes at unregistered facilities are excluded from actuarial coverage. Please keep your next of kin information current. Be well."
     }
   ]
 }

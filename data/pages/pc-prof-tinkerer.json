@@ -5,17 +5,115 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>The shell clock ticks for everyone. The Tinkerer charges by the tick.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "The Tinkerer owns the repair-and-modding lane — the shell clock's best friend. Armor comes back from breaks under a Tinkerer's hands, and mods go on at material cost instead of provider fees. The trade bleeds from Tech: the skill swings the tools; the profession is the client list that pays for them."
+    },
+    {
+      "type": "info-block",
+      "icon": "◈",
+      "title": "Tinkerer",
+      "subtitle": "The repair lane",
+      "entries": [
+        {
+          "label": "Owns",
+          "value": "repair & modding — the shell clock's best friend"
+        },
+        {
+          "label": "Bleeds from",
+          "value": "Tech"
+        },
+        {
+          "label": "Work verb",
+          "value": "repair and fabricate for credits (downtime, +2 PP)"
+        },
+        {
+          "label": "Field verb",
+          "value": "salvage via Scrap Eye (on mission, +1 PP)"
+        },
+        {
+          "label": "Income",
+          "value": "by rank — see Professions Overview",
+          "full": true
+        }
+      ],
+      "desc": "PP economy, tiers, and the One Name rule live on Professions Overview."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Sideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Bench Rat (entry, 4 PP):</strong> opens the trade — repair and fabricate for credits and PP in downtime. In the field, patch armor for the squad at material cost +50% (see The Material Cost Law), with no permanent-consequence roll on a full-success Tech check."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Scrap Eye (4 PP):</strong> when the squad loots tech or weapons, the yield is +1 tier of salvage quality. This is the Tinkerer's field verb — exercising it on a mission earns PP."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Warranty Work (replaces Jury-Rig):</strong> your downtime repairs never trigger the permanent-consequence roll and restore +2 Armor HP per session."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Warranty Work's PP cost and tier are unattested. The amendments ledger replaces Jury-Rig (5 PP, Sideline) with Warranty Work — Jury-Rig's mid-fight shell repair moved to the Systems tree as Shell Splint — and Pass B confirms Warranty Work in the final tree, but the post-amendment Tinkerer tree document is not in the rebuild folder. The tree on this page is reconstructed from Professions v1 minus the deleted premises perks (The Shop, The Workshop — walls belong to the base), leaving six perks against the seven-to-eight of the other trades."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Established"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Aftermarket License (T2, 6 PP):</strong> legal grey-zone mod catalog access one provider tier above your district (the catalog lives on Mods). <em>Obligation: Pear audits, quarterly.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Client List (T2, 5 PP):</strong> your regulars feed you rumors — one free node Tag on any mission in your district (intel states — see Intel)."
+    },
+    {
+      "type": "heading",
+      "text": "Perks — Name"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Signature Work (T3, 8 PP):</strong> your mods carry your mark — +1 to one stat of any mod you install personally, and people <em>know who built it</em>. <em>Obligation: that cuts both ways.</em>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Signature Work and Warranty Work are different perks. Signature Work is the Name-tier mark on mods you install — the perk the Mods page points at. Warranty Work is the downtime repair perk that took Jury-Rig's slot when mid-fight repair moved to the Systems tree."
+    },
+    {
+      "type": "heading",
+      "text": "What the Tinkerer touches"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Mods install</strong> at material cost instead of provider fees — Signature Work applies (see Mods)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Repair, reforge, and the break economy</strong> live on Armor; self-made and self-repaired work prices by The Material Cost Law."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Mid-fight shell repair is augment work, not trade work</strong> — Shell Splint lives on Systems. The profession keeps the economy; the tree gets the firefight."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Handloads:</strong> the Tinkerer presses a marksman's specialty rounds at material cost (see Precision and Consumables &amp; Ammo)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Build choice:</strong> for a Systems operative the profession is a supply line — Tinkerer gear or Fixer intel (see Systems)."
+    },
+    {
+      "type": "blockquote",
+      "text": "Pear Fabrication Services congratulates you on your registry. Your bench is now a matter of record. Quarterly audit dates are assigned, not requested."
     }
   ]
 }
