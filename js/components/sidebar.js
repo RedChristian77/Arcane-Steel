@@ -90,10 +90,9 @@ function renderSidebar(manifest, currentPageId) {
     html += '</div>';
   });
 
-  // Builder link (legacy — built on pre-rebuild rules, pending dossier rebuild)
+  // The dossier — the corp's file on you
   html += '<a class="nav-item builder" href="builder.html">'
-    + '<span class="nav-ico">⚙</span> Character Builder'
-    + '<span class="nav-legacy">LEGACY</span></a>';
+    + '<span class="nav-ico">▤</span> Contractor Dossier</a>';
 
   nav.innerHTML = html;
 }
