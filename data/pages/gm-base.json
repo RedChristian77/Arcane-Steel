@@ -5,17 +5,86 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Facilities desk. The squad owns walls now. The walls do the cheap work.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "<strong>The Base is a post-core module, and it is GM-optional.</strong> It ships low-tier and stays low-tier until playtests say otherwise. Nothing in the core game assumes a base exists; everything in the core game gets slightly cheaper when one does."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>The base is squad property, and it can't die.</strong> Professions die with the person — the license was in their name. The base is in nobody's name and everybody's: people rotate through it, scar out of it, get replaced in it, and the walls stay. It is the one investment in the game with no mortality column."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE FUNNEL LAW",
+      "text": "The base owns the floor of every funnel; people own the top. The gym trains to 6, the Infirmary does routine care, the Workshop patches. The expensive bands stay relationships."
+    },
+    {
+      "type": "heading",
+      "text": "Facilities"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Facility",
+        "The floor it owns",
+        "The top stays with"
+      ],
+      "rows": [
+        [
+          "<strong>Gym</strong>",
+          "Stat training in the self-directed band — to 6",
+          "Professional and elite trainers, 7–10 (Stats &amp; Growth)"
+        ],
+        [
+          "<strong>Infirmary</strong>",
+          "Routine care — the cheap end of the medical bill",
+          "The Street Doc and the long bill (Street Doc)"
+        ],
+        [
+          "<strong>Workshop</strong>",
+          "Patches — the cheap end of repair",
+          "The Tinkerer and the repair/reforge economy (Tinkerer, Armor)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Facilities amplify professions — a Workshop without a Tinkerer is cold tools.</strong> The facility is the floor; the professional standing in it is everything above the floor. A base never replaces a trade, it gives the trade a place to be cheap (Professions Overview)."
+    },
+    {
+      "type": "heading",
+      "text": "Catch-Up Aims Itself"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Fresh characters live in the floor band</strong> — low stats to train, routine care to need, basic gear to patch. So the base accelerates exactly the people who need the cheap bands and does nothing for veterans who outgrew them. No catch-up math is needed and none exists: new blood enters at GM discretion, and the base quietly does the rest (the new-blood rule — see The Staircase)."
+    },
+    {
+      "type": "heading",
+      "text": "Paybacks"
+    },
+    {
+      "type": "paragraph",
+      "text": "Career-sim payback rates, for pricing instinct: <strong>the Infirmary pays for itself in ~7 missions, the Workshop in ~15</strong> — inside the 8–15 target band. These are long-game investments, not instant value, and the Infirmary's faster payback correctly tracks the most expensive drain in the game."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Facility purchase and running costs are unprinted — Phase 6 priced the hooks in simulation (the paybacks above) but no doc prints the prices, floor-band or otherwise."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "PARKED",
+      "text": "Base content beyond low-tier is parked until playtests: facility tiers, expansions, staff, defenses, anything that makes the base a character instead of a discount. Flag it at the table; don't design it there."
+    },
+    {
+      "type": "blockquote",
+      "text": "PROPERTY SERVICES: Congratulations on your acquisition. Structures in the margin are insurable against fire, theft, and subsidence. Occupants are advised that the structure's coverage does not extend to them."
     }
   ]
 }

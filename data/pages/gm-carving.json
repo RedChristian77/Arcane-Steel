@@ -5,17 +5,114 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Yield Assessment desk. The corpse is inventory. The clock was running before it hit the ground.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "<strong>One Check, one table, three clocks.</strong> On a kill, or at a Cache node (▣ — see Missions &amp; the Spire Map), a carver makes the <strong>Harvesting Check</strong> vs a DC set by the creature's tier. Harvesting rolls Grit (the skill — see The Twelve Skills). Outcomes use the universal bands:"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Full</strong> — clean yield: full grade, intact specials (glands, nodes, graft-viable organs)."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Partial</strong> — yield at reduced grade, <em>or</em> full grade at a cost: time on the mission clock, or Saturation exposure — Bloom material is alive and doesn't consent."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Fail</strong> — ruined goods, or the hazard version of the partial costs."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The creature-tier → DC mapping is unprinted. The only printed calibration point: graft-viable harvesting is a Hard 11 baseline (a Harvesting skill feature lowers it to Standard — see The Twelve Skills). Everything else on the DC ladder awaits a ruling."
+    },
+    {
+      "type": "heading",
+      "text": "Yield Follows the Body"
+    },
+    {
+      "type": "paragraph",
+      "text": "The same taxonomy that picked your weapon now prices the corpse — intel, doctrine, and yield are one table read three ways (see Enemy Framework; every Bestiary block prints its own Carve line)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Body",
+        "Yield",
+        "Feeds"
+      ],
+      "rows": [
+        [
+          "<strong>Flesh</strong>",
+          "Reagents and glands",
+          "Chemist and Street Doc supply"
+        ],
+        [
+          "<strong>Hide</strong>",
+          "Hide grades",
+          "Hide armors enter the crafting table — armor <em>from</em> the taxonomy that defines armor (see Armor, The Material Cost Law)"
+        ],
+        [
+          "<strong>Shell</strong>",
+          "Chitin plates — <strong>−1 grade if combat-cracked</strong>",
+          "Tinkerer supply. How you kill it prices what it leaves"
+        ],
+        [
+          "<strong>Premium</strong>",
+          "Graft-viable organs — fresh, time-critical",
+          "The wild-graft crafting feed (installs — see Mutations &amp; Grafts). Carver / Street Doc / Wrangler crossover"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Graft-viable organs are priced like the contraband they legally are.</strong> Declared, they sell at schedule rates; undeclared, they sell better and cost more. This is the premium tier of the trade, and the gate inspectors know it too."
+    },
+    {
+      "type": "blockquote",
+      "text": "CUSTOMS BULLETIN: Biological salvage of graft-viability class must be declared at the checkpoint. Declared organs are purchased at schedule rates. Undeclared organs are also purchased at schedule rates, eventually, by somebody."
+    },
+    {
+      "type": "heading",
+      "text": "The Three Clocks"
+    },
+    {
+      "type": "numbered",
+      "num": 1,
+      "text": "<strong>Mission time.</strong> Carving isn't free at a hot node — every carve spends the same clock the contract runs on. A crew kneeling over a corpse is a crew not moving."
+    },
+    {
+      "type": "numbered",
+      "num": 2,
+      "text": "<strong>Preservation.</strong> Value halves after a window that varies by material type — fresh organs are <em>minutes</em>. This is the banking pressure made physical: the longer goods travel, the less they're worth."
+    },
+    {
+      "type": "numbered",
+      "num": 3,
+      "text": "<strong>Capacity.</strong> A Bloomtusk doesn't fit in a backpack. Carving creates cargo, cargo needs Capacity, and Capacity is a vehicle stat — see Vehicles."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "Preservation windows by material type are unprinted. The halving rule and the \"organs are minutes\" anchor are the only printed points on the clock."
+    },
+    {
+      "type": "heading",
+      "text": "The Chain"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Carving creates cargo → cargo needs the van → the van needs the Rigger.</strong> The Carver profession raises grades, slows preservation decay, and owns the buyer network that turns goods into the 800-cr version of the 200-cr corpse — the perks live on Carver; the wheels live on Rigger."
+    },
+    {
+      "type": "callout",
+      "style": "teal",
+      "label": "TABLE NOTE",
+      "text": "The preservation clock pulls crews toward corpses that are still warm. Treat a carve at a hot node as part of the encounter, not as cleanup after it — harvest exposure compounds like every other exposure in this game."
     }
   ]
 }

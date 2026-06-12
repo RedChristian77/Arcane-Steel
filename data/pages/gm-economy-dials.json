@@ -5,17 +5,237 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Treasury desk. Half of this game is a balance sheet. These are its dials.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "<strong>Credits are XP.</strong> The economy is the progression system and the pressure system, which makes this page the GM's console: what comes in, what drains out, and the one ratio that tells you whether the machine is running."
+    },
+    {
+      "type": "heading",
+      "text": "Income"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Mission pay</strong> — the base contract rate, the spine of every career."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Field income</strong> — carve yields and salvage. Yields and their clocks live on Carving; salvage substitutes for components at GM-assessed value under The Material Cost Law — loot is liquidity."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Profession income</strong> — <strong>rank-ramped, always.</strong> Income ramps Sideline → Established → Name; it never starts at Established rates. A fresh trade earns like a fresh trade. (Rates and perks live on each profession's page.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Trade-track wealth is a feature, not a leak.</strong> Trade careers are period-gated where combat careers are credit-gated: they end rich and modestly installed, because their growth came only from spare periods. That liquidity becomes the squad's base fund, gear float, and safety margin. Let it."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "No rebuild doc prints a mission pay scale — base pay by contract tier is unpriced. Phase 6 tuned shares of pay, never pay itself, and the legacy Contract Generation tables are pre-rebuild. Rent and lifestyle rates are likewise unprinted."
+    },
+    {
+      "type": "heading",
+      "text": "The Maintenance-Share Table (GM Side)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Career-length figures, final tuning. Players see the maintenance column on The Creditor Table; the full table — mortality and growth included — is yours."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Archetype",
+        "Maintenance share",
+        "Death % (supported squad)",
+        "Death % (lean squad)",
+        "Growth installs"
+      ],
+      "rows": [
+        [
+          "Clean fighter",
+          "31%",
+          "~0%",
+          "~0%",
+          "15.0"
+        ],
+        [
+          "<strong>Berserker (ride 3)</strong>",
+          "30%",
+          "<strong>46%</strong>",
+          "69%",
+          "11.6"
+        ],
+        [
+          "Furnace Leech",
+          "52%",
+          "26%",
+          "45%",
+          "9.1"
+        ],
+        [
+          "Precision",
+          "53%",
+          "15%",
+          "28%",
+          "9.6"
+        ],
+        [
+          "Handler",
+          "41%",
+          "13%",
+          "22%",
+          "11.9"
+        ],
+        [
+          "Trade-track",
+          "18%",
+          "10%",
+          "18%",
+          "21.0*"
+        ],
+        [
+          "Carver",
+          "25%",
+          "22%",
+          "38%",
+          "19.1"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "*Trade-track installs are period-gated, not credit-gated — growth from spare periods only."
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>How to read it:</strong> the creditor bills behave as designed. The Furnace and the marksman pay the most and feel it in their growth columns; the clean fighter banks power and the rider banks risk. The Berserker at ride 3 with a real squad sits at 46% career mortality — dangerous, playable, <em>chosen</em>, and visible in advance. Solo riders still die. They should."
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE HARDNESS GATE",
+      "text": "Treat-vs-train is the same wallet and the same calendar: treatment credits and downtime are never training credits and downtime. The gate holds when maintenance share lands in the 25–55% band across combat archetypes — at that ratio, treat-vs-train stays a real decision at every stage of a career. That band is the dial this page exists to watch."
+    },
+    {
+      "type": "heading",
+      "text": "Per-Drop Arithmetic"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>Per-drop odds × expected drops × the squad's reach = the career.</strong> At Grit +3: two untreated scars is 65% per drop; four is 45%. Ride 2 is professional risk. Ride 3 is gambling. Ride 4+ is the legend track. The roll itself lives on The Staircase; the texture lives on The Actuary Page."
+    },
+    {
+      "type": "heading",
+      "text": "Drains"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Drain",
+        "Collector",
+        "Where it's priced"
+      ],
+      "rows": [
+        [
+          "Scar treatment",
+          "The Street Doc",
+          "Unpriced — open (see Scars, Street Doc)"
+        ],
+        [
+          "Detox",
+          "The provider ladder",
+          "This page, below"
+        ],
+        [
+          "Armor repair &amp; the break economy",
+          "The Tinkerer",
+          "Principle on Armor (The Material Cost Law); rates unprinted"
+        ],
+        [
+          "Pattern licenses",
+          "The corps",
+          "Named, never costed (see Patterns)"
+        ],
+        [
+          "Specialty rounds",
+          "The armorer",
+          "Consumables &amp; Ammo"
+        ],
+        [
+          "Vet bills",
+          "The vet",
+          "Influence; The Creditor Table"
+        ],
+        [
+          "Vehicle upkeep &amp; drains",
+          "The Rigger, or retail",
+          "Vehicles"
+        ],
+        [
+          "Rent &amp; lifestyle",
+          "The margin",
+          "Unprinted"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Detox: The Provider Ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detox clears Saturation, priced per point by provider tier (Saturation itself — see Charge &amp; Saturation)."
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Provider",
+        "Rate per Saturation point",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "<strong>Street</strong>",
+          "<strong>40 cr</strong>",
+          "The margin baseline"
+        ],
+        [
+          "Clinic",
+          "—",
+          "Unprinted"
+        ],
+        [
+          "Corp",
+          "—",
+          "Unprinted"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "A Street Doc with the Detox Protocol perk undercuts the street rate and clears faster — that perk and its numbers live on Street Doc."
+    },
+    {
+      "type": "callout",
+      "style": "rust",
+      "label": "DESIGN GAP",
+      "text": "The consolidation prices detox \"by provider tier,\" but only the street tier (40 cr/pt) is printed. Clinic and corp rates — and whatever besides price distinguishes them — await a ruling."
+    },
+    {
+      "type": "blockquote",
+      "text": "WELLSPRING MEMBER SERVICES: Saturation management plans are now available at rates competitive with unlicensed providers. Member biodata is retained for quality, training, and underwriting purposes. Primarily underwriting."
+    },
+    {
+      "type": "heading",
+      "text": "Facilities"
+    },
+    {
+      "type": "paragraph",
+      "text": "Facility floors, payback rates, and the funnel law live on The Base. The flagship investments a career can become — stat 10, tree mastery, a Name, a raised beast — are priced on one scale on The Anchor Table."
     }
   ]
 }
