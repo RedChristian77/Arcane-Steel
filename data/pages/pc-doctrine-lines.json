@@ -5,17 +5,87 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Collected from contract bars, kennel walls, and the margins of after-action reports. Nobody owns the copyright. Everybody pays for the lessons.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "Contractors compress arithmetic into sayings, because sayings survive contact and spreadsheets don't. This page collects the doctrine book: each line, and what it means at the table. No rule lives here — every line is shorthand for math that lives on another page, and the gloss tells you which one."
+    },
+    {
+      "type": "heading",
+      "text": "The Weight Ladder"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"The weight ladder.\"</strong> The line every other line assumes you know. Every weapon in the game hangs on one ladder, and weight decides everything: what a swing costs, what it does when it lands, and what carrying two of them does to you. Learn the ladder first — the rest of the book quotes it constantly. (The ladder — see Weapons.)"
+    },
+    {
+      "type": "heading",
+      "text": "The Counter-Chain"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Heavies &lt; Shadow &lt; Fortress &lt; volume.\"</strong> The standing counter-chain. Heavy hitters get opened up by ambush specialists before the big swing arrives. Ambush specialists meet the wall at the door — the Fortress wins the Bumper Duel, because entry triggers fire on the way in. And the wall drains dry against sheer numbers, because reactions run out before bodies do. (The Opener — see Shadow; entry triggers — see Fortress; why reactions are finite — see Turn, AP &amp; Reactions.)"
+    },
+    {
+      "type": "heading",
+      "text": "Past EV 11"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Past EV 11, heavies stop aiming and start praying.\"</strong> Against high enough Evasion, a heavy weapon's accuracy die mostly misses — and what's left is the natural max, which doesn't ask Evasion's permission. The prayer is the crit, and the prayer auto-hits. (The crit rule — see Graze &amp; Crits; how Evasion gets that high — see Dancer.)"
+    },
+    {
+      "type": "heading",
+      "text": "Knives Hunt Dancers"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Knives hunt dancers.\"</strong> The same prayer, read from the other side. A light, cheap weapon swings many times a turn, every swing is another chance at the auto-hit, and Evasion has no answer for the auto-hit. The contractor nothing on the field can touch gets touched by the cheapest blade in the room — that, plus grapples and packed clusters, is what dancers are taught to fear. (The counters — see Dancer; the crit — see Graze &amp; Crits.)"
+    },
+    {
+      "type": "heading",
+      "text": "The Two Famines"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"The hacker starves in the wild; the hunter starves in the dome.\"</strong> A supply-fed build is exactly as strong as its last shopping run, and nothing in the wild restocks it. A long-glass build lives on open sightlines, and a dome is a building that closes them for a living. Two specialists, two famines, one lesson. (The shopping list — see Systems; the long bands — see Precision.)"
+    },
+    {
+      "type": "heading",
+      "text": "Call the Maul"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Call the maul.\"</strong> A beast left to its instincts is half a beast. The Handler's Calls direct it, and a directed beast performs far past an undirected one — which is why the field counter isn't killing the beast. It's silencing the voice. (Calls, and what they're worth — see Influence.)"
+    },
+    {
+      "type": "heading",
+      "text": "Stealth Is a Phase"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Stealth is a phase, not a state.\"</strong> Stealth ends when initiative starts. What it bought you is the approach and the ambush round — not invisibility inside an active fight. Once the shooting starts, concealment is an accuracy problem, never a hiddenness problem. (The ruling — see Bands &amp; Movement; what the ambush round is worth — see Shadow.)"
+    },
+    {
+      "type": "heading",
+      "text": "Six Hounds"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Six hounds in a kennel is a business. Six hounds in a firefight is an incident.\"</strong> Beasts under threat stop listening past a small pack — and when control goes, the pack decides what happens next, not the handler. Raising many is a profession. Fielding many is an incident report with your name on it. (The pack threshold — see Influence; the kennel business — see Wrangler.)"
+    },
+    {
+      "type": "heading",
+      "text": "Know the Theater"
+    },
+    {
+      "type": "paragraph",
+      "text": "<strong>\"Know the theater before you pick the specialist.\"</strong> The closing line, and the one the other eight are footnotes to. Every specialist has a theater where it eats and a theater where it starves — the wall, the glass, the knife, the kennel, all of them. Read the contract, the ground, and the intel before you spend the squad slot. (Every tree's page lists where it starves — start at Trees Overview.)"
+    },
+    {
+      "type": "blockquote",
+      "text": "TRAINING ADVISORY: The preceding material is uncredentialed folk guidance and confers no certification. Licensed doctrine modules covering identical scenarios are available at standard rates. Survivors of uncertified tactics are encouraged to enroll."
     }
   ]
 }

@@ -5,17 +5,138 @@
   "content": [
     {
       "type": "flavor",
-      "text": "<em>DOCUMENT CHECKED OUT FOR REVISION</em>"
-    },
-    {
-      "type": "callout",
-      "style": "accent",
-      "label": "Phase 7 Rebuild",
-      "text": "This page is a placeholder in the ground-up rebuild. Content regenerates from the 2026-06 master consolidation. Rules shown elsewhere on this branch may be outdated until this notice is removed."
+      "text": "<em>Power is leased. The lessor collects.</em>"
     },
     {
       "type": "paragraph",
-      "text": "Pending regeneration."
+      "text": "<strong>Every power class tithes roughly half its base mission pay.</strong> That is the spine of the contractor economy. The ceiling each tree sells is real, and so is the bill that comes with it — who collects, and in what currency, is the difference between the trees, and this table prints it."
+    },
+    {
+      "type": "heading",
+      "text": "The Table"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Class",
+        "Creditor",
+        "The bill"
+      ],
+      "rows": [
+        [
+          "<strong>Fury</strong>",
+          "The reaper",
+          "Scars are the engine and the debt. The bill arrives as treatment credits, downtime, and worse odds the longer it goes unpaid. (Scars; The Staircase; the treatment — see Street Doc.)"
+        ],
+        [
+          "<strong>Fortress</strong>",
+          "Tempo",
+          "The one creditor who doesn't bill in credits. The wall pays in reactions and position, and volume is the collector — reactions run out before bodies do. (Fortress; Turn, AP &amp; Reactions.)"
+        ],
+        [
+          "<strong>Leech</strong>",
+          "The doc",
+          "Burns become Charge, unvented Charge becomes Saturation, and Saturation becomes the detox bill. (Charge &amp; Saturation; the drain — see Street Doc.)"
+        ],
+        [
+          "<strong>Channeler</strong>",
+          "Both, at corporate rates",
+          "The doc's bill for the toxicity <em>and</em> the license bill for the patterns — patterns are licensed IP, and the bootleg discount carries its own price. (Charge &amp; Saturation; Patterns.)"
+        ],
+        [
+          "<strong>Precision</strong>",
+          "The armorer",
+          "Standard ammo is abstract; the rounds that make the class are tracked, specialty, and bought. (Precision; the rounds — see Mods.)"
+        ],
+        [
+          "<strong>Handler</strong>",
+          "The vet",
+          "A beast that drops takes injuries, and injuries are treated for credits — the cheap currency, billed every time the beast eats a hit that was meant for you. (Influence.)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "The trees not printed here tithe too — each tree's page names its own creditor in plain terms. (Start at Trees Overview.)"
+    },
+    {
+      "type": "heading",
+      "text": "The Policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Handler holds the only policy in the game that covers the Fate Roll. The law is risk arbitrage — death-odds converted to cash. Damage routed into the beast is billed in vet credits, the currency that buys back; the same damage routed into you is billed in scars, the currency that raises your death odds. (Your odds — see The Staircase.)"
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>Coverage can't be bought by the pound.</strong> Untrained beasts bolt. The policy is underwritten in training time, not credits."
+    },
+    {
+      "type": "bullet",
+      "text": "<strong>The policy has a ceiling.</strong> Under threat, three or more beasts cross the pack threshold, and the pack — not the handler — decides what happens next. (The threshold rule — see Influence.)"
+    },
+    {
+      "type": "blockquote",
+      "text": "PRODUCT ADVISORY: Companion-animal coverage remains the only instrument on the market with exposure to contractor mortality events. Premiums are payable in feed, training, and veterinary care. Policyholders are reminded that the instrument does not transfer. It bolts."
+    },
+    {
+      "type": "heading",
+      "text": "Career-Scale Receipts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Across a full working career, here is what the tithe actually runs — maintenance as a share of career earnings, by the standard career shapes:"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Career",
+        "Maintenance share"
+      ],
+      "rows": [
+        [
+          "Clean fighter",
+          "~31%"
+        ],
+        [
+          "Berserker (ride 3)",
+          "~30%"
+        ],
+        [
+          "Furnace Leech",
+          "~52%"
+        ],
+        [
+          "Precision",
+          "~53%"
+        ],
+        [
+          "Handler",
+          "~41%"
+        ],
+        [
+          "Trade-track",
+          "~18%"
+        ],
+        [
+          "Carver",
+          "~25%"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Combat careers land in the 25–55% band — the bill is never the whole paycheck and never nothing. The Furnace carries the largest bill in the game, attached to the loudest per-fight power. The clean fighter banks power; the rider banks risk — the Berserker's tithe looks light because the reaper bills in scars, and scars are priced in odds, not credits. (Riding scars, and what each ride costs you — see The Staircase and The Actuary Page.)"
+    },
+    {
+      "type": "paragraph",
+      "text": "The trade-track tithes least because its gate is the calendar, not the wallet — combat careers are credit-gated, trade careers are period-gated. They end rich and modestly installed, and their wealth tends to become the squad's float. (The trades — see Professions Overview.)"
+    },
+    {
+      "type": "callout",
+      "style": "gold",
+      "label": "THE LAW",
+      "text": "Roughly half of base mission pay, every power class, career-long. Budget for the creditor before you budget for growth — the tithe is printed on the ceiling you bought."
     }
   ]
 }
